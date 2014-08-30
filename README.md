@@ -98,6 +98,10 @@ Copyright 2014, Kexian Li
 
 Apache License, Version 2.0
 
+## Whois info query in Go
+
+Please refer to [whois-go](https://github.com/likexian/whois-go)
+
 ## About
 
 - [Kexian Li](http://github.com/likexian)
