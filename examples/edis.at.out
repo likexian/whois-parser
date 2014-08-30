@@ -1,0 +1,76 @@
+registrar_id: 
+registrar_name: 
+whois_server: 
+referral_url: 
+domain_id: 
+domain_name: edis.at
+domain_status: 
+created_date: 
+updated_date: 20130809 15:17:35
+expiration_date: 
+name_servers: ns1.edis.at,ns2.edis.at,ns5.edis.at,ns6.edis.at
+domain_dnssec: 
+
+registrant
+id: 
+name: KG8294626-NICAT
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: KG8294627-NICAT
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: KG8294627-NICAT
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

@@ -1,0 +1,76 @@
+registrar_id: 303
+registrar_name: PDR Ltd. d/b/a PublicDomainRegistry.com
+whois_server: whois.publicdomainregistry.com
+referral_url: www.publicdomainregistry.com
+domain_id: 1622839205_DOMAIN_NET-VRSN
+domain_name: FREEBNC.NET
+domain_status: clienttransferprohibited
+created_date: 29-Oct-2010
+updated_date: 04-Dec-2013
+expiration_date: 29-Oct-2014
+name_servers: lady.ns.cloudflare.com,noah.ns.cloudflare.com
+domain_dnssec: Unsigned
+
+registrant
+id: PP-SP-001
+name: Domain Admin
+organization: Privacy Protection Service INC d/b/a PrivacyProtect.org
+street: C/O ID#10760, PO Box 16 Note - Visit PrivacyProtect.org to contact the domain owner/operator Note - Visit PrivacyProtect.org to contact the domain owner/operator
+street_ext: 
+city: Nobby Beach
+province: Queensland
+postal_code: QLD 4218
+country: AU
+phone: +45.36946676
+phone_ext: 
+fax: 
+fax_ext: 
+email: contact@privacyprotect.org
+
+admin
+id: PP-SP-001
+name: Domain Admin
+organization: Privacy Protection Service INC d/b/a PrivacyProtect.org
+street: C/O ID#10760, PO Box 16 Note - Visit PrivacyProtect.org to contact the domain owner/operator Note - Visit PrivacyProtect.org to contact the domain owner/operator
+street_ext: 
+city: Nobby Beach
+province: Queensland
+postal_code: QLD 4218
+country: AU
+phone: +45.36946676
+phone_ext: 
+fax: 
+fax_ext: 
+email: contact@privacyprotect.org
+
+tech
+id: PP-SP-001
+name: Domain Admin
+organization: Privacy Protection Service INC d/b/a PrivacyProtect.org
+street: C/O ID#10760, PO Box 16 Note - Visit PrivacyProtect.org to contact the domain owner/operator Note - Visit PrivacyProtect.org to contact the domain owner/operator
+street_ext: 
+city: Nobby Beach
+province: Queensland
+postal_code: QLD 4218
+country: AU
+phone: +45.36946676
+phone_ext: 
+fax: 
+fax_ext: 
+email: contact@privacyprotect.org
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

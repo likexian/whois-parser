@@ -1,0 +1,76 @@
+registrar_id: 48
+registrar_name: eNom
+whois_server: whois.enom.com
+referral_url: http://www.whois.enom.com/domains/whois.asp
+domain_id: D865CD303206835CE040010AAB015FFF
+domain_name: ANONNE.WS
+domain_status: clienttransferprohibited
+created_date: 2012-04-07
+updated_date: 2014-04-06
+expiration_date: 2015-04-07
+name_servers: ns1.he.net,ns2.he.net,ns3.he.net,ns4.he.net,ns5.he.net
+domain_dnssec: unsigned
+
+registrant
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

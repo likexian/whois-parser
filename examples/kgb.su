@@ -1,0 +1,20 @@
+% By submitting a query to RIPN's Whois Service
+% you agree to abide by the following terms of use:
+% http://www.ripn.net/about/servpol.html#3.2 (in Russian)
+% http://www.ripn.net/about/en/servpol.html#3.2 (in English).
+
+domain:        KGB.SU
+nserver:       ns1.masterhost.ru.
+nserver:       ns2.masterhost.ru.
+nserver:       ns.masterhost.ru.
+state:         REGISTERED, DELEGATED
+person:        Private Person
+e-mail:        mail@bergoldgross.com
+registrar:     RUCENTER-REG-FID
+created:       2003.06.27
+paid-till:     2015.06.27
+free-date:     2015.07.30
+source:        TCI
+
+Last updated on 2014.08.18 14:06:34 MSK
+

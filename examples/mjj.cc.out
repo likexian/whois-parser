@@ -1,0 +1,76 @@
+registrar_id: 120
+registrar_name: XINNET TECHNOLOGY CORPORATION
+whois_server: whois.paycenter.com.cn
+referral_url: http://www.xinnet.com
+domain_id: 87552637
+domain_name: mjj.cc
+domain_status: ok
+created_date: 2007-11-27 00:00:00
+updated_date: 2014-03-31 21:48:54
+expiration_date: 2014-11-27 00:00:00
+name_servers: f1g1ns1.dnspod.net,f1g1ns2.dnspod.net
+domain_dnssec: unsigned
+
+registrant
+id: 
+name: Sun Huan
+organization: Sun Huan
+street: Shushan Wangjiang Road
+street_ext: 
+city: hefeishi
+province: anhuisheng
+postal_code: 230000
+country: China
+phone: +86.0551 87220011
+phone_ext: 
+fax: +86.0551 87551122
+fax_ext: 
+email: 1983s@163.com
+
+admin
+id: 
+name: Sun Huan
+organization: Sun Huan
+street: Shushan Wangjiang Road
+street_ext: 
+city: hefeishi
+province: anhuisheng
+postal_code: 
+country: China
+phone: +86.0551 87220011
+phone_ext: 
+fax: +86.0551 87551122
+fax_ext: 
+email: 1983s@163.com
+
+tech
+id: 
+name: Sun Huan
+organization: Sun Huan
+street: Shushan Wangjiang Road
+street_ext: 
+city: hefeishi
+province: anhuisheng
+postal_code: 
+country: China
+phone: +86.0551 87220011
+phone_ext: 
+fax: +86.0551 87551122
+fax_ext: 
+email: 1983s@163.com
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

@@ -1,0 +1,76 @@
+registrar_id: 1587
+registrar_name: MijnInternetOplossing B.V.
+whois_server: whois.mijninternetoplossing.nl
+referral_url: http://www.mijninternetoplossing.nl
+domain_id: 
+domain_name: F63.NET
+domain_status: clienttransferprohibited
+created_date: 14-Jan-2013
+updated_date: 21-Mar-2014
+expiration_date: 14-Jan-2015
+name_servers: lucy.ns.cloudflare.com,sid.ns.cloudflare.com
+domain_dnssec: Unsigned
+
+registrant
+id: MIO_32976970
+name: S Meer
+organization: N/A
+street: hoofweg 22
+street_ext: 
+city: Amsterdam
+province: Noord-Holland
+postal_code: 1058 BC
+country: NL
+phone: +31.5720563869
+phone_ext: 
+fax: 
+fax_ext: 
+email: zander.meer@gmail.com
+
+admin
+id: MIO_32976970
+name: S Meer
+organization: N/A
+street: hoofweg 22
+street_ext: 
+city: Amsterdam
+province: Noord-Holland
+postal_code: 1058 BC
+country: NL
+phone: +31.5720563869
+phone_ext: 
+fax: 
+fax_ext: 
+email: zander.meer@gmail.com
+
+tech
+id: MIO_32976970
+name: S Meer
+organization: N/A
+street: hoofweg 22
+street_ext: 
+city: Amsterdam
+province: Noord-Holland
+postal_code: 1058 BC
+country: NL
+phone: +31.5720563869
+phone_ext: 
+fax: 
+fax_ext: 
+email: zander.meer@gmail.com
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

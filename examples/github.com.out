@@ -1,0 +1,76 @@
+registrar_id: 292
+registrar_name: MarkMonitor, Inc.
+whois_server: whois.markmonitor.com
+referral_url: http://www.markmonitor.com
+domain_id: 1264983250_DOMAIN_COM-VRSN
+domain_name: github.com
+domain_status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
+created_date: 2007-10-09T11:20:50-0700
+updated_date: 2013-11-27T04:00:15-0800
+expiration_date: 2020-10-09T11:20:50-0700
+name_servers: ns1.p16.dynect.net,ns2.p16.dynect.net,ns3.p16.dynect.net,ns4.p16.dynect.net
+domain_dnssec: 
+
+registrant
+id: 
+name: GitHub Hostmaster
+organization: GitHub, Inc.
+street: 88 Colin P Kelly Jr St,
+street_ext: 
+city: San Francisco
+province: CA
+postal_code: 94107
+country: US
+phone: +1.4157354488
+phone_ext: 
+fax: 
+fax_ext: 
+email: hostmaster@github.com
+
+admin
+id: 
+name: GitHub Hostmaster
+organization: GitHub, Inc.
+street: 88 Colin P Kelly Jr St,
+street_ext: 
+city: San Francisco
+province: CA
+postal_code: 94107
+country: US
+phone: +1.4157354488
+phone_ext: 
+fax: 
+fax_ext: 
+email: hostmaster@github.com
+
+tech
+id: 
+name: GitHub Hostmaster
+organization: GitHub, Inc.
+street: 88 Colin P Kelly Jr St,
+street_ext: 
+city: San Francisco
+province: CA
+postal_code: 94107
+country: US
+phone: +1.4157354488
+phone_ext: 
+fax: 
+fax_ext: 
+email: hostmaster@github.com
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

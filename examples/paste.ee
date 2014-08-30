@@ -1,0 +1,52 @@
+%  This Whois Server contains information on
+% Estonian Top Level Domain ee TLD
+
+domain:       paste.ee
+registrant:   CID:NETPOINT:NPSR30X21883
+admin-c:      CID:NETPOINT:NPSA30X21883
+nsset:        NSSID:NETPOINT:CNS30X21883
+registrar:    radicenter
+status:       paid and in zone
+registered:   14.06.2012 08:36:03
+expire:       14.06.2015
+outzone:      29.06.2015
+delete:       29.07.2015
+
+contact:      CID:NETPOINT:NPSR30X21883
+name:         Marcaria Internacional
+e-mail:       Not Disclosed - Visit www.internet.ee for webbased WHOIS
+registrar:    radicenter
+created:      14.06.2012 08:36:03
+
+contact:      CID:NETPOINT:NPSA30X21883
+name:         Allan Laal
+e-mail:       Not Disclosed - Visit www.internet.ee for webbased WHOIS
+registrar:    radicenter
+created:      14.06.2012 08:36:03
+
+nsset:        NSSID:NETPOINT:CNS30X21883
+nserver:      ns-634.awsdns-15.net
+nserver:      ns-1876.awsdns-42.co.uk
+nserver:      ns-1199.awsdns-21.org
+nserver:      ns-442.awsdns-55.com
+tech-c:       CID:NETPOINT:NPST30X21883
+registrar:    radicenter
+created:      14.06.2012 08:36:03
+changed:      11.02.2014 19:23:31
+
+contact:      CID:NETPOINT:NPST30X21883
+name:         Allan Laal
+e-mail:       Not Disclosed - Visit www.internet.ee for webbased WHOIS
+registrar:    radicenter
+created:      14.06.2012 08:36:03
+
+registrar:    radicenter
+org:          Radicenter OÜ
+url:          www.radicenter.ee
+phone:        +372 5058656
+address:      Kitse põik 9
+address:      Pärnu
+address:      80031
+address:      EE
+
+

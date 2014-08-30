@@ -1,0 +1,76 @@
+registrar_id: 
+registrar_name: GoDaddy.com, LLC (R101-AFIN)
+whois_server: 
+referral_url: 
+domain_id: D969480-AFIN
+domain_name: MJJ.IN
+domain_status: client delete prohibited,client renew prohibited,client transfer prohibited,client update prohibited
+created_date: 11-Mar-2005 20:40:34 UTC
+updated_date: 12-Mar-2014 19:32:06 UTC
+expiration_date: 11-Mar-2015 20:40:34 UTC
+name_servers: ns6.subregistry.net,ns7.subregistry.net
+domain_dnssec: Unsigned
+
+registrant
+id: CR116709201
+name: Gregory J. Chamberlain
+organization: Estate of Michael Jackson
+street: 171 Pier Ave. #304
+street_ext: 
+city: Santa Monica
+province: California
+postal_code: 90405
+country: US
+phone: +1.3108569883
+phone_ext: 
+fax: 
+fax_ext: 
+email: public-address@subregistry.com
+
+admin
+id: CR116709205
+name: Gregory J. Chamberlain
+organization: Estate of Michael Jackson
+street: 171 Pier Ave. #304
+street_ext: 
+city: Santa Monica
+province: California
+postal_code: 90405
+country: US
+phone: +1.3108569883
+phone_ext: 
+fax: 
+fax_ext: 
+email: public-address@subregistry.com
+
+tech
+id: CR116709203
+name: Gregory J. Chamberlain
+organization: Estate of Michael Jackson
+street: 171 Pier Ave. #304
+street_ext: 
+city: Santa Monica
+province: California
+postal_code: 90405
+country: US
+phone: +1.3108569883
+phone_ext: 
+fax: 
+fax_ext: 
+email: public-address@subregistry.com
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

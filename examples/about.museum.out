@@ -1,0 +1,76 @@
+registrar_id: CORE-904 (Musedoma)
+registrar_name: 
+whois_server: 
+referral_url: 
+domain_id: D6137686-MUSEUM
+domain_name: about.museum
+domain_status: ok
+created_date: 2005-02-04 19:32:48 GMT
+updated_date: 2014-06-19 14:43:37 GMT
+expiration_date: 2015-02-04 19:32:48 GMT
+name_servers: primary.heberge.info,secondary.heberge.info
+domain_dnssec: 
+
+registrant
+id: C13542608-MUSEUM
+name: Marie Claverie
+organization: MuseDoma
+street: 22 rue de Palestro
+street_ext: 
+city: Paris
+province: 
+postal_code: 75002
+country: FR
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: info@about.museum
+
+admin
+id: C13339978-MUSEUM
+name: Sonntag Benjamin
+organization: Octopuce
+street: 29 rue Merlin
+street_ext: 
+city: Paris
+province: IDF
+postal_code: 75011
+country: FR
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: museum@octopuce.fr
+
+tech
+id: C13339978-MUSEUM
+name: Sonntag Benjamin
+organization: Octopuce
+street: 29 rue Merlin
+street_ext: 
+city: Paris
+province: IDF
+postal_code: 75011
+country: FR
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: museum@octopuce.fr
+
+bill
+id: C13542608-MUSEUM
+name: Marie Claverie
+organization: MuseDoma
+street: 22 rue de Palestro
+street_ext: 
+city: Paris
+province: 
+postal_code: 75002
+country: FR
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: info@about.museum

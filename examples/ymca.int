@@ -1,0 +1,38 @@
+% IANA WHOIS server
+% for more information on IANA, visit http://www.iana.org
+% This query returned 1 object
+
+domain:       YMCA.INT
+
+organisation: World Alliance of Young Men Christian Association (YMCA)
+address:      12, Clos-Belmont
+address:      Geneva  1208
+address:      Switzerland
+
+contact:      administrative
+name:         Claude-Alain DANTHE
+organisation: World Alliance of Young Men Christian Association (YMCA)
+address:      12, Clos-Belmont
+address:      Geneva  1208
+address:      Switzerland
+phone:        +41 22 849 51 20
+fax-no:       +41 22 849 51 10
+e-mail:       danthe@ymca.int
+
+contact:      technical
+name:         Claude-Alain DANTHE
+organisation: World Alliance of Young Men Christian Association (YMCA)
+address:      12, Clos-Belmont
+address:      Geneva  1208
+address:      Switzerland
+phone:        +41 22 849 51 20
+fax-no:       +41 22 849 51 10
+e-mail:       danthe@ymca.int
+
+nserver:      DNS1.AGENCEWEB.CH 62.50.74.88
+nserver:      DNS2.AGENCEWEB.CH 62.50.74.89
+
+created:      1996-05-17
+changed:      2008-11-06
+source:       IANA
+

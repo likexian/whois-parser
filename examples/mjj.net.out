@@ -1,0 +1,76 @@
+registrar_id: 48
+registrar_name: ENOM, INC.
+whois_server: whois.enom.com
+referral_url: www.enom.com
+domain_id: NA
+domain_name: MJJ.NET
+domain_status: clienttransferprohibited
+created_date: 1998-04-02 05:00:00Z
+updated_date: 2014-03-31 19:08:11Z
+expiration_date: 2015-04-01 04:00:00Z
+name_servers: dns1.name-services.com,dns2.name-services.com,dns3.name-services.com,dns4.name-services.com,dns5.name-services.com
+domain_dnssec: unSigned
+
+registrant
+id: 
+name: C/O GREGORY J. CHAMBERLAIN
+organization: ESTATE OF MICHAEL JACKSON
+street: 171 PIER AVE. #304
+street_ext: 
+city: SANTA MONICA
+province: CA
+postal_code: 90405
+country: US
+phone: +1.3108569883
+phone_ext: 
+fax: 
+fax_ext: 
+email: public-address@subregistry.com
+
+admin
+id: 
+name: C/O GREGORY J. CHAMBERLAIN
+organization: ESTATE OF MICHAEL JACKSON
+street: 171 PIER AVE. #304
+street_ext: 
+city: SANTA MONICA
+province: CA
+postal_code: 90405
+country: US
+phone: +1.3108569883
+phone_ext: 
+fax: 
+fax_ext: 
+email: public-address@subregistry.com
+
+tech
+id: 
+name: C/O GREGORY J. CHAMBERLAIN
+organization: ESTATE OF MICHAEL JACKSON
+street: 171 PIER AVE. #304
+street_ext: 
+city: SANTA MONICA
+province: CA
+postal_code: 90405
+country: US
+phone: +1.3108569883
+phone_ext: 
+fax: 
+fax_ext: 
+email: public-address@subregistry.com
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

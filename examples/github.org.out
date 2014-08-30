@@ -1,0 +1,76 @@
+registrar_id: 48
+registrar_name: eNom, Inc. (R39-LROR)
+whois_server: 
+referral_url: 
+domain_id: D150926227-LROR
+domain_name: GITHUB.ORG
+domain_status: clienttransferprohibited
+created_date: 2008-02-09T02:07:09Z
+updated_date: 2014-06-16T04:39:25Z
+expiration_date: 2015-02-09T02:07:09Z
+name_servers: ns1.dnsimple.com,ns2.dnsimple.com,ns3.dnsimple.com,ns4.dnsimple.com
+domain_dnssec: Unsigned
+
+registrant
+id: b76a39f91f19b639
+name: GitHub Hostmaster
+organization: Github
+street: 88 Colin P Kelly Jr Street
+street_ext: 
+city: San Francisco
+province: CA
+postal_code: 94107
+country: US
+phone: +1.4157354488
+phone_ext: 
+fax: 
+fax_ext: 
+email: hostmaster@github.com
+
+admin
+id: b76a39f91f19b639
+name: GitHub Hostmaster
+organization: Github
+street: 88 Colin P Kelly Jr Street
+street_ext: 
+city: San Francisco
+province: CA
+postal_code: 94107
+country: US
+phone: +1.4157354488
+phone_ext: 
+fax: 
+fax_ext: 
+email: hostmaster@github.com
+
+tech
+id: b76a39f91f19b639
+name: GitHub Hostmaster
+organization: Github
+street: 88 Colin P Kelly Jr Street
+street_ext: 
+city: San Francisco
+province: CA
+postal_code: 94107
+country: US
+phone: +1.4157354488
+phone_ext: 
+fax: 
+fax_ext: 
+email: hostmaster@github.com
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

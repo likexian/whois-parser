@@ -1,0 +1,38 @@
+% IANA WHOIS server
+% for more information on IANA, visit http://www.iana.org
+% This query returned 1 object
+
+domain:       TPC.INT
+
+organisation: The Phone Company
+address:      5500 Wissahickon Ave
+address:      Suite M402A
+address:      Philadelphia PA 19144
+address:      USA
+
+contact:      administrative
+name:         Darren Nickerson
+address:      5500 Wissahickon Ave
+address:      Suite M402A
+address:      Philadelphia PA 19144
+address:      USA
+phone:        +1 215 438-4638
+e-mail:       darren@dazza.org
+
+contact:      technical
+name:         Arlington Hewes
+address:      211 Summit Drive
+address:      Riverview NB E1B 1N4
+address:      CANADA
+e-mail:       tpcadmin@info.tpc.int
+
+nserver:      AUTH02.NS.UU.NET 198.6.1.82
+nserver:      NS1.COVALENT.NET 64.84.21.103
+nserver:      NS1.SIMKIN.CA 199.175.137.211
+nserver:      NS1.TPC.INT 216.152.192.130
+nserver:      NS2.SIMKIN.CA 207.6.128.246
+
+created:      1996-08-08
+changed:      2007-06-22
+source:       IANA
+

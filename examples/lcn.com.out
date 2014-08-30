@@ -1,0 +1,76 @@
+registrar_id: 
+registrar_name: LCN.COM LTD.
+whois_server: whois.lcn.com
+referral_url: http://www.lcn.com
+domain_id: 
+domain_name: lcn.com
+domain_status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
+created_date: 1996-02-10 00:00:00
+updated_date: 2014-06-22 09:32:21.275569
+expiration_date: 2019-02-11 00:00:00
+name_servers: ns0.ai270.net,ns1.ai270.net
+domain_dnssec: 
+
+registrant
+id: 
+name: AI-677207
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: AI-677207
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: AI-300624
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: AI-300624
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

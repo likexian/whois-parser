@@ -1,0 +1,76 @@
+registrar_id: 
+registrar_name: radicenter
+whois_server: 
+referral_url: 
+domain_id: 
+domain_name: paste.ee
+domain_status: paid and in zone
+created_date: 14.06.2012 08:36:03
+updated_date: 11.02.2014 19:23:31
+expiration_date: 14.06.2015
+name_servers: ns-634.awsdns-15.net,ns-1876.awsdns-42.co.uk,ns-1199.awsdns-21.org,ns-442.awsdns-55.com
+domain_dnssec: 
+
+registrant
+id: 
+name: CID:NETPOINT:NPSR30X21883
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: CID:NETPOINT:NPSA30X21883
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: CID:NETPOINT:NPST30X21883
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

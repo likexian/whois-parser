@@ -1,0 +1,76 @@
+registrar_id: 
+registrar_name: Webfusion Ltd t/a 123-reg [Tag = 123-REG]
+whois_server: 
+referral_url: 
+domain_id: 
+domain_name: zem.org.uk
+domain_status: registered until expiry date.
+created_date: 15-Apr-2009
+updated_date: 26-Feb-2014
+expiration_date: 15-Apr-2015
+name_servers: ns1.he.net,ns2.he.net,ns3.he.net,ns4.he.net
+domain_dnssec: 
+
+registrant
+id: 
+name: Dan Foster
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

@@ -1,0 +1,76 @@
+registrar_id: 9999
+registrar_name: Donuts Internal (9999)
+whois_server: http://whois.donuts.co
+referral_url: http://www.donuts.co
+domain_id: a0fb5438b41f49579aadf206bdc8c063-D
+domain_name: nic.technology
+domain_status: ok
+created_date: 2013-09-23T12:31:33Z
+updated_date: 2014-04-02T19:05:05Z
+expiration_date: 2015-09-23T12:31:33Z
+name_servers: pdns86.ultradns.com,pdns86.ultradns.biz,pdns86.ultradns.net,pdns86.ultradns.org
+domain_dnssec: unsigned
+
+registrant
+id: id01
+name: DNS Administrator
+organization: Donuts Inc.
+street: 10500 NE 8th St Suite 350
+street_ext: 
+city: Bellevue
+province: WA
+postal_code: 98004
+country: US
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: dnsadmin@donuts.co
+
+admin
+id: id01
+name: DNS Administrator
+organization: Donuts Inc.
+street: 10500 NE 8th St Suite 350
+street_ext: 
+city: Bellevue
+province: WA
+postal_code: 98004
+country: US
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: dnsadmin@donuts.co
+
+tech
+id: id01
+name: DNS Administrator
+organization: Donuts Inc.
+street: 10500 NE 8th St Suite 350
+street_ext: 
+city: Bellevue
+province: WA
+postal_code: 98004
+country: US
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: dnsadmin@donuts.co
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

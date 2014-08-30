@@ -1,0 +1,89 @@
+%%
+%% This is the AFNIC Whois server.
+%%
+%% complete date format : DD/MM/YYYY
+%% short date format    : DD/MM
+%% version              : FRNIC-2.5
+%%
+%% Rights restricted by copyright.
+%% See http://www.afnic.fr/afnic/web/mentions-legales-whois_en
+%%
+%% Use '-h' option to obtain more information about this service.
+%%
+%% [60.212.40.45 REQUEST] >> mjj.fr
+%%
+%% RL Net [##########] - RL IP [#########.]
+%%
+
+domain:      mjj.fr
+status:      ACTIVE
+hold:        NO
+holder-c:    ANO00-FRNIC
+admin-c:     ANO00-FRNIC
+tech-c:      AA4055-FRNIC
+zone-c:      NFC1-FRNIC
+nsl-id:      NSL53908-FRNIC
+registrar:   EURODNS S.A.
+anniversary: 05/09
+created:     05/07/2007
+last-update: 07/11/2013
+source:      FRNIC
+
+ns-list:     NSL53908-FRNIC
+nserver:     ns1.eurodns.com
+nserver:     ns2.eurodns.com
+nserver:     ns3.eurodns.com
+nserver:     ns4.eurodns.com
+source:      FRNIC
+
+registrar:   EURODNS S.A.
+type:        Isp Option 1
+address:     2 rue Léon Laval
+address:     L-3372 LEUDELANGE
+country:     LU
+phone:       +352 27 37 25 1
+fax-no:      +352 27 27 37 25
+e-mail:      support@eurodns.com
+website:     http://www.eurodns.com
+anonymous:   NO
+registered:  24/09/2003
+source:      FRNIC
+
+nic-hdl:     ANO00-FRNIC
+type:        PERSON
+contact:     Ano Nymous
+remarks:     -------------- WARNING --------------
+remarks:     While the registrar knows him/her,
+remarks:     this person chose to restrict access
+remarks:     to his/her personal data. So PLEASE,
+remarks:     don't send emails to Ano Nymous. This
+remarks:     address is bogus and there is no hope
+remarks:     of a reply.
+remarks:     -------------- WARNING --------------
+registrar:   EURODNS S.A.
+changed:     24/02/2014 anonymous@nowhere.xx.fr
+anonymous:   YES
+obsoleted:   NO
+eligstatus:  ok
+eligsource:  REGISTRAR
+eligdate:    05/09/2012 13:13:27
+source:      FRNIC
+
+nic-hdl:     AA4055-FRNIC
+type:        PERSON
+contact:     Anouar Adlani
+address:     EuroDNS SA
+address:     EuroDNS
+address:     2 rue Leon Laval
+address:     L-3372 Leudelange
+address:     L-3372 Leudelange
+country:     LU
+phone:       +352 2637252
+fax-no:      +352 26372537
+e-mail:      staff@eurodns.com
+registrar:   EURODNS S.A.
+changed:     19/07/2013 nic@nic.fr
+anonymous:   NO
+obsoleted:   NO
+source:      FRNIC
+

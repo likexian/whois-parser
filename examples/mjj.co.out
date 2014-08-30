@@ -1,0 +1,76 @@
+registrar_id: 48
+registrar_name: ENOM, INC.
+whois_server: 
+referral_url: www.enom.com
+domain_id: D1224290-CO
+domain_name: MJJ.CO
+domain_status: clienttransferprohibited
+created_date: Tue Jul 20 18:13:41 GMT 2010
+updated_date: Sun Aug 17 22:03:34 GMT 2014
+expiration_date: Sun Jul 19 23:59:59 GMT 2015
+name_servers: ns1.dsredirection.com,ns2.dsredirection.com
+domain_dnssec: false
+
+registrant
+id: 0D5392858F10337E
+name: WhoisGuard Protected
+organization: WhoisGuard, Inc.
+street: P.O. Box 0823-03411
+street_ext: 
+city: Panama
+province: Panama
+postal_code: 00000
+country: Panama
+phone: +507.8365503
+phone_ext: 
+fax: +51.17057182
+fax_ext: 
+email: 1d2deda2747a4046a04e8daf625cb091.protect@whoisguard.com
+
+admin
+id: 0D5392858F10337E
+name: WhoisGuard Protected
+organization: WhoisGuard, Inc.
+street: P.O. Box 0823-03411
+street_ext: 
+city: Panama
+province: Panama
+postal_code: 00000
+country: Panama
+phone: +507.8365503
+phone_ext: 
+fax: +51.17057182
+fax_ext: 
+email: 1d2deda2747a4046a04e8daf625cb091.protect@whoisguard.com
+
+tech
+id: 0D5392858F10337E
+name: WhoisGuard Protected
+organization: WhoisGuard, Inc.
+street: P.O. Box 0823-03411
+street_ext: 
+city: Panama
+province: Panama
+postal_code: 00000
+country: Panama
+phone: +507.8365503
+phone_ext: 
+fax: +51.17057182
+fax_ext: 
+email: 1d2deda2747a4046a04e8daf625cb091.protect@whoisguard.com
+
+bill
+id: 0D5392858F10337E
+name: WhoisGuard Protected
+organization: WhoisGuard, Inc.
+street: P.O. Box 0823-03411
+street_ext: 
+city: Panama
+province: Panama
+postal_code: 00000
+country: Panama
+phone: +507.8365503
+phone_ext: 
+fax: +51.17057182
+fax_ext: 
+email: 1d2deda2747a4046a04e8daf625cb091.protect@whoisguard.com

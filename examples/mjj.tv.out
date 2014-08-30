@@ -1,0 +1,76 @@
+registrar_id: 625
+registrar_name: Name.com, Inc.
+whois_server: whois.name.com
+referral_url: http://www.name.com
+domain_id: 92566600
+domain_name: MJJ.TV
+domain_status: clienttransferprohibited
+created_date: 2010-05-16T01:02:27-06:00
+updated_date: 2014-07-30T23:28:19-06:00
+expiration_date: 2015-05-16T01:02:27-06:00
+name_servers: ns1jlp.name.com,ns2bkr.name.com,ns3cqz.name.com,ns4lpv.name.com
+domain_dnssec: NotApplicable
+
+registrant
+id: 
+name: claude dauman
+organization: Claude Dauman
+street: 9663 Santa Monica Bl. , STE 186
+street_ext: 
+city: Beverly Hills
+province: CA
+postal_code: 90210
+country: US
+phone: +1.3104352734
+phone_ext: 
+fax: 
+fax_ext: 
+email: claude@dauman.com
+
+admin
+id: 
+name: claude dauman
+organization: Claude Dauman
+street: 9663 Santa Monica Bl. , STE 186
+street_ext: 
+city: Beverly Hills
+province: CA
+postal_code: 90210
+country: US
+phone: +1.3104352734
+phone_ext: 
+fax: 
+fax_ext: 
+email: claude@dauman.com
+
+tech
+id: 
+name: claude dauman
+organization: Claude Dauman
+street: 9663 Santa Monica Bl. , STE 186
+street_ext: 
+city: Beverly Hills
+province: CA
+postal_code: 90210
+country: US
+phone: +1.3104352734
+phone_ext: 
+fax: 
+fax_ext: 
+email: claude@dauman.com
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

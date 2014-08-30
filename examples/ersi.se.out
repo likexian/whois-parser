@@ -1,0 +1,76 @@
+registrar_id: 
+registrar_name: www.binero.se
+whois_server: 
+referral_url: 
+domain_id: 
+domain_name: ersi.se
+domain_status: active,ok
+created_date: 2013-09-30
+updated_date: 2013-11-12
+expiration_date: 2014-09-30
+name_servers: atdns03.citynetwork.se,atdns02.citynetwork.se,atdns01.citynetwork.se
+domain_dnssec: signed delegation
+
+registrant
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: -
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: -
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: -
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

@@ -1,0 +1,76 @@
+registrar_id: 814
+registrar_name: Internet.bs Corp.
+whois_server: whois.internet.bs
+referral_url: http://www.internetbs.net
+domain_id: 1585409105_DOMAIN_NET-VRSN
+domain_name: CRYTO.NET
+domain_status: clienttransferprohibited
+created_date: 2010-02-15T03:52:41Z
+updated_date: 2013-02-11T20:19:23Z
+expiration_date: 2015-02-15T03:52:41Z
+name_servers: ns1.he.net,ns2.he.net,ns3.he.net,ns4.he.net,ns5.he.net
+domain_dnssec: unsigned
+
+registrant
+id: 
+name: Sven Slootweg
+organization: 
+street: Wijnstraat 211
+street_ext: 
+city: Dordrecht
+province: 
+postal_code: 3311BV
+country: NL
+phone: +31.626519955
+phone_ext: 
+fax: 
+fax_ext: 
+email: jamsoftgamedev@gmail.com
+
+admin
+id: 
+name: Sven Slootweg
+organization: 
+street: Wijnstraat 211
+street_ext: 
+city: Dordrecht
+province: 
+postal_code: 3311BV
+country: NL
+phone: +31.626519955
+phone_ext: 
+fax: 
+fax_ext: 
+email: jamsoftgamedev@gmail.com
+
+tech
+id: 
+name: Sven Slootweg
+organization: 
+street: Wijnstraat 211
+street_ext: 
+city: Dordrecht
+province: 
+postal_code: 3311BV
+country: NL
+phone: +31.626519955
+phone_ext: 
+fax: 
+fax_ext: 
+email: jamsoftgamedev@gmail.com
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

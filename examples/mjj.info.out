@@ -1,0 +1,76 @@
+registrar_id: 146
+registrar_name: GoDaddy.com, LLC (R171-LRMS)
+whois_server: 
+referral_url: 
+domain_id: D5402186-LRMS
+domain_name: MJJ.INFO
+domain_status: clientdeleteprohibited,clientrenewprohibited,clienttransferprohibited,clientupdateprohibited
+created_date: 2003-12-14T04:33:28Z
+updated_date: 2013-10-14T17:57:56Z
+expiration_date: 2014-12-14T04:33:28Z
+name_servers: sell.internettraffic.com,buy.internettraffic.com
+domain_dnssec: Unsigned
+
+registrant
+id: CR103673034
+name: Registration Private
+organization: Domains By Proxy, LLC
+street: DomainsByProxy.com
+street_ext: 
+city: Scottsdale
+province: Arizona
+postal_code: 85260
+country: US
+phone: +1.4806242599
+phone_ext: 
+fax: +1.4806242598
+fax_ext: 
+email: mjj.info@domainsbyproxy.com
+
+admin
+id: CR103673042
+name: Registration Private
+organization: Domains By Proxy, LLC
+street: DomainsByProxy.com
+street_ext: 
+city: Scottsdale
+province: Arizona
+postal_code: 85260
+country: US
+phone: +1.4806242599
+phone_ext: 
+fax: +1.4806242598
+fax_ext: 
+email: mjj.info@domainsbyproxy.com
+
+tech
+id: CR103673038
+name: Registration Private
+organization: Domains By Proxy, LLC
+street: DomainsByProxy.com
+street_ext: 
+city: Scottsdale
+province: Arizona
+postal_code: 85260
+country: US
+phone: +1.4806242599
+phone_ext: 
+fax: +1.4806242598
+fax_ext: 
+email: mjj.info@domainsbyproxy.com
+
+bill
+id: CR103673046
+name: Registration Private
+organization: Domains By Proxy, LLC
+street: DomainsByProxy.com
+street_ext: 
+city: Scottsdale
+province: Arizona
+postal_code: 85260
+country: US
+phone: +1.4806242599
+phone_ext: 
+fax: +1.4806242598
+fax_ext: 
+email: mjj.info@domainsbyproxy.com

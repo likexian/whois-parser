@@ -1,0 +1,76 @@
+registrar_id: 146
+registrar_name: GoDaddy.com, LLC (R171-LRMS)
+whois_server: 
+referral_url: 
+domain_id: D51322538-LRMS
+domain_name: GITHUB.INFO
+domain_status: clientdeleteprohibited,clientrenewprohibited,clienttransferprohibited,clientupdateprohibited
+created_date: 2014-01-05T12:18:22Z
+updated_date: 2014-03-06T20:30:44Z
+expiration_date: 2015-01-05T12:18:22Z
+name_servers: ns1.tlh.ro,ns2.tlh.ro
+domain_dnssec: Unsigned
+
+registrant
+id: CR157784871
+name: Avatavului Dumitru
+organization: Tnx
+street: Bodesti nr.191
+street_ext: 
+city: Buhusi
+province: Bacau
+postal_code: 605100
+country: RO
+phone: +40.0745670199
+phone_ext: 
+fax: 
+fax_ext: 
+email: fretzat@yahoo.com
+
+admin
+id: CR157784873
+name: Avatavului Dumitru
+organization: Tnx
+street: Bodesti nr.191
+street_ext: 
+city: Buhusi
+province: Bacau
+postal_code: 605100
+country: RO
+phone: +40.0745670199
+phone_ext: 
+fax: 
+fax_ext: 
+email: fretzat@yahoo.com
+
+tech
+id: CR157784872
+name: Avatavului Dumitru
+organization: Tnx
+street: Bodesti nr.191
+street_ext: 
+city: Buhusi
+province: Bacau
+postal_code: 605100
+country: RO
+phone: +40.0745670199
+phone_ext: 
+fax: 
+fax_ext: 
+email: fretzat@yahoo.com
+
+bill
+id: CR157784874
+name: Avatavului Dumitru
+organization: Tnx
+street: Bodesti nr.191
+street_ext: 
+city: Buhusi
+province: Bacau
+postal_code: 605100
+country: RO
+phone: +40.0745670199
+phone_ext: 
+fax: 
+fax_ext: 
+email: fretzat@yahoo.com

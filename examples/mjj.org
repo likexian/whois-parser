@@ -1,0 +1,69 @@
+Domain Name:MJJ.ORG
+Domain ID: D103235836-LROR
+Creation Date: 2003-11-27T16:13:28Z
+Updated Date: 2014-08-01T11:28:10Z
+Registry Expiry Date: 2015-11-27T16:13:28Z
+Sponsoring Registrar:Fabulous.com Pty Ltd. (R133-LROR)
+Sponsoring Registrar IANA ID: 411
+WHOIS Server:
+Referral URL:
+Domain Status: clientDeleteProhibited
+Domain Status: clientTransferProhibited
+Domain Status: serverTransferProhibited
+Registrant ID:7c33818905a44d3e
+Registrant Name:Domain Hostmaster, CustomerID : 57460019768256
+Registrant Organization:Whois Privacy Services Pty Ltd
+Registrant Street: PO Box 923
+Registrant City:Fortitude Valley
+Registrant State/Province:QLD
+Registrant Postal Code:4006
+Registrant Country:AU
+Registrant Phone:+61.730070090
+Registrant Phone Ext:
+Registrant Fax: +61.730070091
+Registrant Fax Ext:
+Registrant Email:57460019768256-7fd914@whoisprivacyservices.com.au
+Admin ID:7c33818905a44d3e
+Admin Name:Domain Hostmaster, CustomerID : 57460019768256
+Admin Organization:Whois Privacy Services Pty Ltd
+Admin Street: PO Box 923
+Admin City:Fortitude Valley
+Admin State/Province:QLD
+Admin Postal Code:4006
+Admin Country:AU
+Admin Phone:+61.730070090
+Admin Phone Ext:
+Admin Fax: +61.730070091
+Admin Fax Ext:
+Admin Email:57460019768256-7fd914@whoisprivacyservices.com.au
+Tech ID:7c33818905a44d3e
+Tech Name:Domain Hostmaster, CustomerID : 57460019768256
+Tech Organization:Whois Privacy Services Pty Ltd
+Tech Street: PO Box 923
+Tech City:Fortitude Valley
+Tech State/Province:QLD
+Tech Postal Code:4006
+Tech Country:AU
+Tech Phone:+61.730070090
+Tech Phone Ext:
+Tech Fax: +61.730070091
+Tech Fax Ext:
+Tech Email:57460019768256-7fd914@whoisprivacyservices.com.au
+Name Server:NS1.SEDOPARKING.COM
+Name Server:NS2.SEDOPARKING.COM
+Name Server:
+Name Server:
+Name Server:
+Name Server:
+Name Server:
+Name Server:
+Name Server:
+Name Server:
+Name Server:
+Name Server:
+Name Server:
+DNSSEC:Unsigned
+
+Access to Public Interest Registry WHOIS information is provided to assist persons in determining the contents of a domain name registration record in the Public Interest Registry registry database. The data in this record is provided by Public Interest Registry for informational purposes only, and Public Interest Registry does not guarantee its accuracy. This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to(a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the data recipient's own existing customers; or (b) enable high volume, automated, electronic processes that send queries or data to the systems of Registry Operator, a Registrar, or Afilias except as reasonably necessary to register domain names or modify existing registrations. All rights reserved. Public Interest Registry reserves the right to modify these terms at any time. By submitting this query, you agree to abide by this policy.
+
+

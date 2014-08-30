@@ -1,0 +1,76 @@
+registrar_id: 
+registrar_name: REGTIME-REG-RIPN
+whois_server: 
+referral_url: 
+domain_id: 
+domain_name: MJJ.RU
+domain_status: registered, delegated, unverified
+created_date: 2005.08.25
+updated_date: 
+expiration_date: 2014.08.25
+name_servers: ns1.logol.ru,ns2.logol.ru
+domain_dnssec: 
+
+registrant
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: http://whois.webnames.ru
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

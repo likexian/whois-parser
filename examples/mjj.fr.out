@@ -1,0 +1,76 @@
+registrar_id: 
+registrar_name: EURODNS S.A.
+whois_server: 
+referral_url: 
+domain_id: 
+domain_name: mjj.fr
+domain_status: active
+created_date: 05/07/2007
+updated_date: 19/07/2013 nic@nic.fr
+expiration_date: 
+name_servers: ns1.eurodns.com,ns2.eurodns.com,ns3.eurodns.com,ns4.eurodns.com
+domain_dnssec: 
+
+registrant
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: ANO00-FRNIC
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: AA4055-FRNIC
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

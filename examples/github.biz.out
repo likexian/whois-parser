@@ -1,0 +1,76 @@
+registrar_id: 292
+registrar_name: MARKMONITOR, INC.
+whois_server: 
+referral_url: whois.markmonitor.com
+domain_id: D40741417-BIZ
+domain_name: GITHUB.BIZ
+domain_status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
+created_date: Thu Aug 05 17:04:27 GMT 2010
+updated_date: Thu Dec 12 17:42:26 GMT 2013
+expiration_date: Thu Aug 04 23:59:59 GMT 2016
+name_servers: ns3.p16.dynect.net,ns1.p16.dynect.net,ns2.p16.dynect.net,ns4.p16.dynect.net
+domain_dnssec: 
+
+registrant
+id: MMR-139965
+name: GitHub Hostmaster
+organization: GitHub, Inc.
+street: 88 Colin P Kelly Jr St
+street_ext: 
+city: San Francisco
+province: CA
+postal_code: 94107
+country: United States
+phone: +1.4157354488
+phone_ext: 
+fax: 
+fax_ext: 
+email: hostmaster@github.com
+
+admin
+id: MMR-139965
+name: GitHub Hostmaster
+organization: GitHub, Inc.
+street: 88 Colin P Kelly Jr St
+street_ext: 
+city: San Francisco
+province: CA
+postal_code: 94107
+country: United States
+phone: +1.4157354488
+phone_ext: 
+fax: 
+fax_ext: 
+email: hostmaster@github.com
+
+tech
+id: MMR-139965
+name: GitHub Hostmaster
+organization: GitHub, Inc.
+street: 88 Colin P Kelly Jr St
+street_ext: 
+city: San Francisco
+province: CA
+postal_code: 94107
+country: United States
+phone: +1.4157354488
+phone_ext: 
+fax: 
+fax_ext: 
+email: hostmaster@github.com
+
+bill
+id: MMR-139965
+name: GitHub Hostmaster
+organization: GitHub, Inc.
+street: 88 Colin P Kelly Jr St
+street_ext: 
+city: San Francisco
+province: CA
+postal_code: 94107
+country: United States
+phone: +1.4157354488
+phone_ext: 
+fax: 
+fax_ext: 
+email: hostmaster@github.com

@@ -1,0 +1,76 @@
+registrar_id: 
+registrar_name: GANDI
+whois_server: 
+referral_url: 
+domain_id: 
+domain_name: singularity.fr
+domain_status: active
+created_date: 04/04/2009
+updated_date: 31/08/2009 anonymous@nowhere.xx.fr
+expiration_date: 
+name_servers: ns-sec.toile-libre.org,ns-pri.toile-libre.org
+domain_dnssec: 
+
+registrant
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: NL346-FRNIC
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: TUF1-FRNIC
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

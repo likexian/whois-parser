@@ -1,0 +1,76 @@
+registrar_id: 48
+registrar_name: ENOM, INC.
+whois_server: whois.enom.com
+referral_url: www.enom.com
+domain_id: 1399182597_DOMAIN_NET-VRSN
+domain_name: GITHUB.NET
+domain_status: clienttransferprohibited
+created_date: 2008-02-09 02:06:00Z
+updated_date: 2014-01-11 00:29:33Z
+expiration_date: 2015-02-09 02:06:00Z
+name_servers: ns1.p16.dynect.net,ns2.p16.dynect.net,ns3.p16.dynect.net,ns4.p16.dynect.net
+domain_dnssec: unSigned
+
+registrant
+id: 
+name: GITHUB HOSTMASTER
+organization: GITHUB
+street: 88 COLIN P KELLY JR STREET
+street_ext: 
+city: SAN FRANCISCO
+province: CA
+postal_code: 94107
+country: US
+phone: +1.4157354488
+phone_ext: 
+fax: 
+fax_ext: 
+email: hostmaster@github.com
+
+admin
+id: 
+name: GITHUB HOSTMASTER
+organization: GITHUB
+street: 88 COLIN P KELLY JR STREET
+street_ext: 
+city: SAN FRANCISCO
+province: CA
+postal_code: 94107
+country: US
+phone: +1.4157354488
+phone_ext: 
+fax: 
+fax_ext: 
+email: hostmaster@github.com
+
+tech
+id: 
+name: GITHUB HOSTMASTER
+organization: GITHUB
+street: 88 COLIN P KELLY JR STREET
+street_ext: 
+city: SAN FRANCISCO
+province: CA
+postal_code: 94107
+country: US
+phone: +1.4157354488
+phone_ext: 
+fax: 
+fax_ext: 
+email: hostmaster@github.com
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

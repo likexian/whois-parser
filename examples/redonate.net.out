@@ -1,0 +1,76 @@
+registrar_id: 48
+registrar_name: ENOM, INC.
+whois_server: whois.enom.com
+referral_url: www.enom.com
+domain_id: 1782145281_DOMAIN_NET-VRSN
+domain_name: REDONATE.NET
+domain_status: clienttransferprohibited
+created_date: 2013-02-23 04:21:00Z
+updated_date: 2014-01-25 08:55:40Z
+expiration_date: 2015-02-23 04:21:43Z
+name_servers: ns1.he.net,ns2.he.net,ns3.he.net,ns4.he.net,ns5.he.net
+domain_dnssec: unSigned
+
+registrant
+id: 
+name: SVEN SLOOTWEG
+organization: 
+street: KONINGIN WILHELMINASTRAAT 41
+street_ext: 
+city: DORDRECHT
+province: ZUID-HOLLAND
+postal_code: 3311LM
+country: NL
+phone: +31.622330174
+phone_ext: 
+fax: +1.5555555555
+fax_ext: 
+email: jamsoftgamedev@gmail.com
+
+admin
+id: 
+name: SVEN SLOOTWEG
+organization: 
+street: KONINGIN WILHELMINASTRAAT 41
+street_ext: 
+city: DORDRECHT
+province: ZUID-HOLLAND
+postal_code: 3311LM
+country: NL
+phone: +31.622330174
+phone_ext: 
+fax: +1.5555555555
+fax_ext: 
+email: jamsoftgamedev@gmail.com
+
+tech
+id: 
+name: SVEN SLOOTWEG
+organization: 
+street: KONINGIN WILHELMINASTRAAT 41
+street_ext: 
+city: DORDRECHT
+province: ZUID-HOLLAND
+postal_code: 3311LM
+country: NL
+phone: +31.622330174
+phone_ext: 
+fax: +1.5555555555
+fax_ext: 
+email: jamsoftgamedev@gmail.com
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

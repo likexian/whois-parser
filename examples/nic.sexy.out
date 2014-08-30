@@ -1,0 +1,76 @@
+registrar_id: 9999
+registrar_name: Uniregistry, Corp.
+whois_server: whois.uniregistry.net
+referral_url: http://whois.uniregistry.net
+domain_id: DO_72379ec9d2afa28c089e7a4716fede1a-ISC
+domain_name: nic.sexy
+domain_status: serverdeleteprohibited,servertransferprohibited,serverupdateprohibited
+created_date: 2013-09-16T14:21:26.648Z
+updated_date: 2014-05-08T00:18:32.620Z
+expiration_date: 2023-09-16T14:21:26.648Z
+name_servers: a.ns.uniregistry.net,tld.isc-sns.info,tld.isc-sns.com,tld.isc-sns.net
+domain_dnssec: signedDelegation
+
+registrant
+id: uniregistry
+name: Uniregistry Registry Internal Resources
+organization: Uniregistry, Corp
+street: PO Box 1361
+street_ext: 
+city: Grand Cayman
+province: George Town
+postal_code: KY1-1108
+country: KY
+phone: +1.3457496263
+phone_ext: 
+fax: +1.3457496263
+fax_ext: 
+email: ops+whois@uniregistry.com
+
+admin
+id: sexy-admin
+name: Uniregistry admin contact
+organization: Uniregistry, Corp
+street: PO Box 1361
+street_ext: 
+city: Grand Cayman
+province: George Town
+postal_code: KY1-1108
+country: KY
+phone: +1.3457496263
+phone_ext: 
+fax: +1.3457496263
+fax_ext: 
+email: ops+whois@uniregistry.com
+
+tech
+id: sexy-tech
+name: Uniregistry tech contact
+organization: Uniregistry, Corp
+street: PO Box 1361
+street_ext: 
+city: Grand Cayman
+province: George Town
+postal_code: KY1-1108
+country: KY
+phone: +1.3457496263
+phone_ext: 
+fax: +1.3457496263
+fax_ext: 
+email: ops+whois@uniregistry.com
+
+bill
+id: sexy-billing
+name: Uniregistry billing contact
+organization: Uniregistry, Corp
+street: PO Box 1361
+street_ext: 
+city: Grand Cayman
+province: George Town
+postal_code: KY1-1108
+country: KY
+phone: +1.3457496263
+phone_ext: 
+fax: +1.3457496263
+fax_ext: 
+email: ops+whois@uniregistry.com
