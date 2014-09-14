@@ -8,7 +8,7 @@ whois-parser-go is a simple Go module for whois info parser.
 
 It will parser the provided whois information and reutrn a readable data in struct.
 
-Work for most domain extensions and most of the time.
+*Work for most domain extensions and most of the time.*
 
 ## Installation
 
@@ -22,59 +22,11 @@ Work for most domain extensions and most of the time.
 
 ## Documentation
 
-The parser function
-
     func Parser(whois string) (whois_info WhoisInfo, err error)
-
-The return data struct
-
-    type WhoisInfo struct {
-        registrar Registrar
-        registrant Registrant
-        admin Registrant
-        tech Registrant
-        bill Registrant
-    }
-
-The registrar struct in whois_info
-
-    type Registrar struct {
-        registrar_id string
-        registrar_name string
-        whois_server string
-        referral_url string
-        domain_id string
-        domain_name string
-        domain_status string
-        name_servers string
-        domain_dnssec string
-        created_date string
-        updated_date string
-        expiration_date string
-    }
-
-The registrant/admin/tech/bill struct in whois_info
-
-    type Registrant struct {
-        id string
-        name string
-        organization string
-        street string
-        street_ext string
-        city string
-        province string
-        postal_code string
-        country string
-        phone string
-        phone_ext string
-        fax string
-        fax_ext string
-        email string
-    }
 
 ## Example
 
-    result, err := whois_parser.Parser(string whois_raw)
+    result, err := whois_parser.Parser(whois_raw)
     if err != nil {
         // Print the domain status
         fmt.Println(result.registrar.domain_status)

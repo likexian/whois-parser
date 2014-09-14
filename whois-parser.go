@@ -17,45 +17,45 @@ import (
 
 
 type WhoisInfo struct {
-    registrar Registrar
-    registrant Registrant
-    admin Registrant
-    tech Registrant
-    bill Registrant
+    Registrar  Registrar  `json:"registrar"`
+    Registrant Registrant `json:"registrant"`
+    Admin      Registrant `json:"admin"`
+    Tech       Registrant `json:"tech"`
+    Bill       Registrant `json:"bill"`
 }
 
 
 type Registrar struct {
-    registrar_id string
-    registrar_name string
-    whois_server string
-    referral_url string
-    domain_id string
-    domain_name string
-    domain_status string
-    name_servers string
-    domain_dnssec string
-    created_date string
-    updated_date string
-    expiration_date string
+    RegistrarID    string `json:"registrar_id"`
+    RegistrarName  string `json:"registrar_name"`
+    WhoisServer    string `json:"whois_server"`
+    ReferralURL    string `json:"referral_url"`
+    DomainId       string `json:"domain_id"`
+    DomainName     string `json:"domain_name"`
+    DomainStatus   string `json:"domain_status"`
+    NameServers    string `json:"name_servers"`
+    DomainDNSSEC   string `json:"domain_dnssec"`
+    CreatedDate    string `json:"created_date"`
+    UpdatedDate    string `json:"updated_date"`
+    ExpirationDate string `json:"expiration_date"`
 }
 
 
 type Registrant struct {
-    id string
-    name string
-    organization string
-    street string
-    street_ext string
-    city string
-    province string
-    postal_code string
-    country string
-    phone string
-    phone_ext string
-    fax string
-    fax_ext string
-    email string
+    ID           string `json:"id"`
+    Name         string `json:"name"`
+    Organization string `json:"organization"`
+    Street       string `json:"street"`
+    StreetExt    string `json:"street_ext"`
+    City         string `json:"city"`
+    Province     string `json:"province"`
+    PostalCode   string `json:"postal_code"`
+    Country      string `json:"country"`
+    Phone        string `json:"phone"`
+    PhoneExt     string `json:"phone_ext"`
+    Fax          string `json:"fax"`
+    FaxExt       string `json:"fax_ext"`
+    Email        string `json:"email"`
 }
 
 
@@ -111,37 +111,37 @@ func Parser(whois string) (whois_info WhoisInfo, err error) {
 
         name = TransferName(name)
         if (name == "domain") {
-            registrar.domain_name = value
+            registrar.DomainName = value
         } else if (name == "id" || name == "roid") {
-            registrar.domain_id = value
+            registrar.DomainId = value
         } else if (name == "registrar id") {
-            registrar.registrar_id = value
+            registrar.RegistrarID = value
         } else if (name == "registrar") {
-            registrar.registrar_name = value
+            registrar.RegistrarName = value
         } else if (name == "whois server") {
-            registrar.whois_server = value
+            registrar.WhoisServer = value
         } else if (name == "dnssec") {
-            registrar.domain_dnssec = value
+            registrar.DomainDNSSEC = value
         } else if (name == "create") {
-            registrar.created_date = value
+            registrar.CreatedDate = value
         } else if (name == "update") {
-            registrar.updated_date = value
+            registrar.UpdatedDate = value
         } else if (name == "expire") {
-            registrar.expiration_date = value
+            registrar.ExpirationDate = value
         } else if (name == "name server") {
-            registrar.name_servers += strings.Trim(value, ".") + ","
+            registrar.NameServers += strings.Trim(value, ".") + ","
         } else if (name == "status") {
-            registrar.domain_status += value + ","
+            registrar.DomainStatus += value + ","
         } else if (name == "referral url") {
-            registrar.referral_url = value
+            registrar.ReferralURL = value
         } else if strings.Contains(name, "registrant id") {
-            registrant.id = value
+            registrant.ID = value
         } else if strings.Contains(name, "admin id") {
-            admin.id = value
+            admin.ID = value
         } else if strings.Contains(name, "tech id") {
-            tech.id = value
+            tech.ID = value
         } else if strings.Contains(name, "bill id") {
-            bill.id = value
+            bill.ID = value
         } else if (len(name) >= 10 && name[:10] == "registrant") {
             name = strings.Trim(name[10:], " ")
             registrant = parser_registrant(registrant, name, value)
@@ -157,15 +157,15 @@ func Parser(whois string) (whois_info WhoisInfo, err error) {
         }
     }
 
-    registrar.name_servers = RemoveDuplicateField(strings.ToLower(registrar.name_servers))
-    registrar.domain_status = RemoveDuplicateField(strings.ToLower(registrar.domain_status))
-    registrar.name_servers = FixNameServers(registrar.name_servers)
+    registrar.NameServers = RemoveDuplicateField(strings.ToLower(registrar.NameServers))
+    registrar.DomainStatus = RemoveDuplicateField(strings.ToLower(registrar.DomainStatus))
+    registrar.NameServers = FixNameServers(registrar.NameServers)
 
-    whois_info.registrar = registrar
-    whois_info.registrant = registrant
-    whois_info.admin = admin
-    whois_info.tech = tech
-    whois_info.bill = bill
+    whois_info.Registrar = registrar
+    whois_info.Registrant = registrant
+    whois_info.Admin = admin
+    whois_info.Tech = tech
+    whois_info.Bill = bill
 
     return
 }
@@ -173,31 +173,31 @@ func Parser(whois string) (whois_info WhoisInfo, err error) {
 
 func parser_registrant(registrant Registrant, name, value string) (Registrant) {
     if name == "name" || name == "" {
-        registrant.name = value
+        registrant.Name = value
     } else if name == "organization" {
-        registrant.organization = value
+        registrant.Organization = value
     } else if name == "street" {
-        registrant.street = value
+        registrant.Street = value
     } else if name == "street ext" {
-        registrant.street_ext = value
+        registrant.StreetExt = value
     } else if name == "city" {
-        registrant.city = value
+        registrant.City = value
     } else if name == "province" {
-        registrant.province = value
+        registrant.Province = value
     } else if name == "postal code" {
-        registrant.postal_code = value
+        registrant.PostalCode = value
     } else if name == "country" {
-        registrant.country = value
+        registrant.Country = value
     } else if name == "phone" {
-        registrant.phone = value
+        registrant.Phone = value
     } else if name == "phone ext" {
-        registrant.phone_ext = value
+        registrant.PhoneExt = value
     } else if name == "fax" {
-        registrant.fax = value
+        registrant.Fax = value
     } else if name == "fax ext" {
-        registrant.fax_ext = value
+        registrant.FaxExt = value
     } else if name == "email" {
-        registrant.email = strings.ToLower(value)
+        registrant.Email = strings.ToLower(value)
     }
 
     return registrant
