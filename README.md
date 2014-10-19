@@ -29,19 +29,19 @@ It will parser the provided whois information and reutrn a readable data in stru
     result, err := whois_parser.Parser(whois_raw)
     if err != nil {
         // Print the domain status
-        fmt.Println(result.registrar.domain_status)
+        fmt.Println(result.Registrar.DomainStatus)
 
         // Print the domain created date
-        fmt.Println(result.registrar.created_date)
+        fmt.Println(result.Registrar.CreatedDate)
 
         // Print the domain expiration date
-        fmt.Println(result.registrar.expiration_date)
+        fmt.Println(result.Registrar.ExpirationDate)
 
         // Print the registrant name
-        fmt.Println(result.registrant.name)
+        fmt.Println(result.Registrant.Name)
 
         // Print the registrant email address
-        fmt.Println(result.registrant.email)
+        fmt.Println(result.Registrant.Email)
     }
 
 ## LICENSE
