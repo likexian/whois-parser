@@ -27,7 +27,7 @@ It will parser the provided whois information and reutrn a readable data in stru
 ## Example
 
     result, err := whois_parser.Parser(whois_raw)
-    if err != nil {
+    if err == nil {
         // Print the domain status
         fmt.Println(result.Registrar.DomainStatus)
 
