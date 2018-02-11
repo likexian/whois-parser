@@ -1,8 +1,8 @@
 /*
  * Go module for whois info parser
- * http://www.likexian.com/
+ * https://www.likexian.com/
  *
- * Copyright 2014, Kexian Li
+ * Copyright 2014-2018, Li Kexian
  * Released under the Apache License, Version 2.0
  *
  */

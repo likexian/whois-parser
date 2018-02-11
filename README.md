@@ -44,17 +44,20 @@ It will parser the provided whois information and reutrn a readable data in stru
         fmt.Println(result.Registrant.Email)
     }
 
-## LICENSE
-
-Copyright 2014, Kexian Li
-
-Apache License, Version 2.0
-
 ## Whois info query in Go
 
 Please refer to [whois-go](https://github.com/likexian/whois-go)
 
+## LICENSE
+
+Copyright 2014-2018, Li Kexian
+
+Apache License, Version 2.0
+
+## DONATE
+
+- [Help me make perfect](https://www.likexian.com/donate/)
+
 ## About
 
-- [Kexian Li](http://github.com/likexian)
-- [http://www.likexian.com/](http://www.likexian.com/)
+- [Li Kexian](https://www.likexian.com/)
