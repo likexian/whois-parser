@@ -1,0 +1,76 @@
+registrar_id: 
+registrar_name: 
+whois_server: 
+referral_url: 
+domain_id: 
+domain_name: GOOGLE.JP
+domain_status: active
+created_date: 2005/05/30
+updated_date: 2017/06/01 01:05:09 (JST)
+expiration_date: 2018/05/31
+name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
+domain_dnssec: 
+
+registrant
+id: 
+name: Google Inc.
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

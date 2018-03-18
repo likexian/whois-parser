@@ -45,6 +45,8 @@ func IsNotFound(data string) (result bool) {
 func TransferName(name string) (string) {
     name = strings.ToLower(name)
     name = strings.Replace(name, "-", " ", -1)
+    name = strings.Replace(name, "]", "", -1)
+    name = strings.Replace(name, "[", "", -1)
     name = strings.Replace(name, "_", " ", -1)
     name = strings.Replace(name, "\\", "/", -1)
 
@@ -90,6 +92,7 @@ func TransferName(name string) (string) {
     name = strings.Replace(name, "domain registered", "create", -1)
     name = strings.Replace(name, "commencement date", "create", -1)
     name = strings.Replace(name, "create date", "create", -1)
+    name = strings.Replace(name, "created on", "create", -1)
 
     name = strings.Replace(name, "updated", "update", -1)
     name = strings.Replace(name, "modified", "update", -1)
