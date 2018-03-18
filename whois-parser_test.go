@@ -47,8 +47,8 @@ func TestWhoisParser(t *testing.T) {
         if domain == "mjj.com" {
             assert.NotEqual(t, whois_info.Registrar.RegistrarID, "")
         }
-        if domain_ext != "museum" && domain_ext != "at" && domain_ext != "int" {
-            assert.NotEqual(t, whois_info.Registrar.RegistrarName, "")
+        if domain_ext != "museum" && domain_ext != "at" && domain_ext != "int" && domain_ext != "jp" {
+            assert.NotEqual(t, whois_info.Registrar.RegistrarName, "", domain)
         }
         if domain_ext == "com" {
             assert.NotEqual(t, whois_info.Registrar.WhoisServer, "")
@@ -59,7 +59,7 @@ func TestWhoisParser(t *testing.T) {
         if domain == "mjj.com" {
             assert.NotEqual(t, whois_info.Registrar.DomainId, "")
         }
-        assert.NotEqual(t, whois_info.Registrar.DomainName, "")
+        assert.NotEqual(t, whois_info.Registrar.DomainName, "", domain)
         if domain_ext != "at" && domain_ext != "kr" && domain_ext != "int" {
             assert.NotEqual(t, whois_info.Registrar.DomainStatus, "")
         }
