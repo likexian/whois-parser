@@ -59,7 +59,7 @@ type Registrant struct {
 }
 
 
-func Parser(whois string) (whois_info WhoisInfo, err error) {
+func Parser(whois string) (whoisInfo WhoisInfo, err error) {
     if len(whois) < 100 {
         if IsNotFound(whois) {
             err = fmt.Errorf("Domain is not found.")
@@ -75,11 +75,16 @@ func Parser(whois string) (whois_info WhoisInfo, err error) {
     var tech Registrant
     var bill Registrant
 
-    whois_text := strings.Replace(whois, "\r", "", -1)
-    whois_lines := strings.Split(whois_text, "\n")
+    whoisText := strings.Replace(whois, "\r", "", -1)
 
-    for i:=0; i<len(whois_lines); i++ {
-        line := strings.Trim(whois_lines[i], " ")
+    // Replace ":" for .jp domains, example string:
+	// [Name Server]           ns1.voodoo.com
+	whoisText = strings.Replace(whois, "]           ", ":", -1)
+
+	whoisLines := strings.Split(whoisText, "\n")
+
+    for i:=0; i<len(whoisLines); i++ {
+        line := strings.Trim(whoisLines[i], " ")
         if len(line) < 5 || !strings.Contains(line, ":") {
             continue
         }
@@ -91,12 +96,12 @@ func Parser(whois string) (whois_info WhoisInfo, err error) {
 
         if line[len(line) - 1:] == ":" {
             i += 1
-            for ; i<len(whois_lines); i++ {
-                this_line := strings.Trim(whois_lines[i], " ")
-                if strings.Contains(this_line, ":") {
+            for ; i<len(whoisLines); i++ {
+                thisLine := strings.Trim(whoisLines[i], " ")
+                if strings.Contains(thisLine, ":") {
                     break
                 }
-                line += this_line + ","
+                line += thisLine + ","
             }
             line = strings.Trim(line, ",")
             i -= 1
@@ -110,29 +115,29 @@ func Parser(whois string) (whois_info WhoisInfo, err error) {
         }
 
         name = TransferName(name)
-        if (name == "domain") {
+        if name == "domain" {
             registrar.DomainName = value
-        } else if (name == "id" || name == "roid") {
+        } else if name == "id" || name == "roid" {
             registrar.DomainId = value
-        } else if (name == "registrar id") {
+        } else if name == "registrar id" {
             registrar.RegistrarID = value
-        } else if (name == "registrar") {
+        } else if name == "registrar" {
             registrar.RegistrarName = value
-        } else if (name == "whois server") {
+        } else if name == "whois server" {
             registrar.WhoisServer = value
-        } else if (name == "dnssec") {
+        } else if name == "dnssec" {
             registrar.DomainDNSSEC = value
-        } else if (name == "create") {
+        } else if name == "create" {
             registrar.CreatedDate = value
-        } else if (name == "update") {
+        } else if name == "update" {
             registrar.UpdatedDate = value
-        } else if (name == "expire") {
+        } else if name == "expire" {
             registrar.ExpirationDate = value
-        } else if (name == "name server") {
+        } else if name == "name server" {
             registrar.NameServers += strings.Trim(value, ".") + ","
-        } else if (name == "status") {
+        } else if name == "status" {
             registrar.DomainStatus += value + ","
-        } else if (name == "referral url") {
+        } else if name == "referral url" {
             registrar.ReferralURL = value
         } else if strings.Contains(name, "registrant id") {
             registrant.ID = value
@@ -142,18 +147,18 @@ func Parser(whois string) (whois_info WhoisInfo, err error) {
             tech.ID = value
         } else if strings.Contains(name, "bill id") {
             bill.ID = value
-        } else if (len(name) >= 10 && name[:10] == "registrant") {
+        } else if len(name) >= 10 && name[:10] == "registrant" {
             name = strings.Trim(name[10:], " ")
-            registrant = parser_registrant(registrant, name, value)
-        } else if (len(name) >= 5 && name[:5] == "admin") {
+            registrant = parserRegistrant(registrant, name, value)
+        } else if len(name) >= 5 && name[:5] == "admin" {
             name = strings.Trim(name[5:], " ")
-            admin = parser_registrant(admin, name, value)
-        } else if (len(name) >= 4 && name[:4] == "tech") {
+            admin = parserRegistrant(admin, name, value)
+        } else if len(name) >= 4 && name[:4] == "tech" {
             name = strings.Trim(name[4:], " ")
-            tech = parser_registrant(tech, name, value)
-        } else if (len(name) >= 4 && name[:4] == "bill") {
+            tech = parserRegistrant(tech, name, value)
+        } else if len(name) >= 4 && name[:4] == "bill" {
             name = strings.Trim(name[4:], " ")
-            bill = parser_registrant(bill, name, value)
+            bill = parserRegistrant(bill, name, value)
         }
     }
 
@@ -161,17 +166,17 @@ func Parser(whois string) (whois_info WhoisInfo, err error) {
     registrar.DomainStatus = RemoveDuplicateField(strings.ToLower(registrar.DomainStatus))
     registrar.NameServers = FixNameServers(registrar.NameServers)
 
-    whois_info.Registrar = registrar
-    whois_info.Registrant = registrant
-    whois_info.Admin = admin
-    whois_info.Tech = tech
-    whois_info.Bill = bill
+    whoisInfo.Registrar = registrar
+    whoisInfo.Registrant = registrant
+    whoisInfo.Admin = admin
+    whoisInfo.Tech = tech
+    whoisInfo.Bill = bill
 
     return
 }
 
 
-func parser_registrant(registrant Registrant, name, value string) (Registrant) {
+func parserRegistrant(registrant Registrant, name, value string) (Registrant) {
     if name == "name" || name == "" {
         registrant.Name = value
     } else if name == "organization" {
