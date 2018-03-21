@@ -61,21 +61,16 @@ type Registrant struct {
 var DomainNotFoundError = errors.New("Domain is not found.")
 var DomainInvalidDataError = errors.New("Domain whois data invalid.")
 
-func Parse(whois string) (WhoisInfo, error) {
+func Parse(whois string) (wi WhoisInfo, err error) {
     if len(whois) < 100 {
         if IsNotFound(whois) {
-            return WhoisInfo{}, DomainNotFoundError
+            return wi, DomainNotFoundError
         } else {
-            return WhoisInfo{}, DomainInvalidDataError
+            return wi, DomainInvalidDataError
         }
     }
 
-    var registrar Registrar
-    var registrant Registrant
-    var admin Registrant
-    var tech Registrant
-    var bill Registrant
-
+    
     whoisText := strings.Replace(whois, "\r", "", -1)
 
     // Replace ":" for .jp domains, example string:
@@ -119,71 +114,65 @@ func Parse(whois string) (WhoisInfo, error) {
         switch {
         // Parse registrar
         case name == "domain":
-            registrar.DomainName = value
+            wi.Registrar.DomainName = value
         case name == "id" || name == "roid":
-            registrar.DomainId = value
+            wi.Registrar.DomainId = value
         case name == "registrar id":
-            registrar.RegistrarID = value
+            wi.Registrar.RegistrarID = value
         case name == "registrar":
-            registrar.RegistrarName = value
+            wi.Registrar.RegistrarName = value
         case name == "whois server":
-            registrar.WhoisServer = value
+            wi.Registrar.WhoisServer = value
         case name == "dnssec":
-            registrar.DomainDNSSEC = value
+            wi.Registrar.DomainDNSSEC = value
         case name == "create":
-            registrar.CreatedDate = value
+            wi.Registrar.CreatedDate = value
         case name == "update":
-            registrar.UpdatedDate = value
+            wi.Registrar.UpdatedDate = value
         case name == "expire":
-            registrar.ExpirationDate = value
+            wi.Registrar.ExpirationDate = value
         case name == "name server":
-            registrar.NameServers += strings.Trim(value, ".") + ","
+            wi.Registrar.NameServers += strings.Trim(value, ".") + ","
         case name == "status":
-            registrar.DomainStatus += value + ","
+            wi.Registrar.DomainStatus += value + ","
         case name == "referral url":
-            registrar.ReferralURL = value
+            wi.Registrar.ReferralURL = value
 
 		// Parse registrant
         case strings.Contains(name, "registrant id"):
-            registrant.ID = value
+            wi.Registrant.ID = value
 		case len(name) >= 10 && name[:10] == "registrant":
 			name = strings.Trim(name[10:], " ")
-			registrant = parserRegistrant(registrant, name, value)
+			wi.Registrant = parserRegistrant(wi.Registrant, name, value)
 
 		// Parse admin
         case strings.Contains(name, "admin id"):
-            admin.ID = value
+            wi.Admin.ID = value
 		case len(name) >= 5 && name[:5] == "admin":
 			name = strings.Trim(name[5:], " ")
-			admin = parserRegistrant(admin, name, value)
+			wi.Admin = parserRegistrant(wi.Admin, name, value)
 
 		// Parse tech
         case strings.Contains(name, "tech id"):
-            tech.ID = value
+            wi.Tech.ID = value
         case len(name) >= 4 && name[:4] == "tech":
             name = strings.Trim(name[4:], " ")
-            tech = parserRegistrant(tech, name, value)
+            wi.Tech = parserRegistrant(wi.Tech, name, value)
 
 		// Parse bill
 		case strings.Contains(name, "bill id"):
-			bill.ID = value
+			wi.Bill.ID = value
 		case len(name) >= 4 && name[:4] == "bill":
             name = strings.Trim(name[4:], " ")
-            bill = parserRegistrant(bill, name, value)
+            wi.Bill = parserRegistrant(wi.Bill, name, value)
         }
     }
 
-    registrar.NameServers = RemoveDuplicateField(strings.ToLower(registrar.NameServers))
-    registrar.DomainStatus = RemoveDuplicateField(strings.ToLower(registrar.DomainStatus))
-    registrar.NameServers = FixNameServers(registrar.NameServers)
+    // Post processing NameServers, DomainStatuses
+    wi.Registrar.NameServers = FixNameServers(RemoveDuplicateField(strings.ToLower(wi.Registrar.NameServers)))
+    wi.Registrar.DomainStatus = RemoveDuplicateField(strings.ToLower(wi.Registrar.DomainStatus))
 
-    return WhoisInfo{
-        Registrar: registrar,
-        Registrant: registrant,
-        Admin: admin,
-        Tech: tech,
-        Bill: bill,
-    }, nil
+    return wi, nil
 }
 
 
@@ -216,6 +205,5 @@ func parserRegistrant(registrant Registrant, name, value string) (Registrant) {
     case "email":
         registrant.Email = strings.ToLower(value)
     }
-
     return registrant
 }
