@@ -20,11 +20,11 @@ import (
 
 
 func TestWhoisParser(t *testing.T) {
-    _, err := Parser("not found")
+    _, err := Parse("not found")
     assert.NotEqual(t, err, nil)
     assert.Equal(t, fmt.Sprintf("%s", err), "Domain is not found.")
 
-    _, err = Parser("WHOIS LIMIT EXCEEDED - SEE WWW.PIR.ORG/WHOIS FOR DETAILS")
+    _, err = Parse("WHOIS LIMIT EXCEEDED - SEE WWW.PIR.ORG/WHOIS FOR DETAILS")
     assert.NotEqual(t, err, nil)
     assert.Equal(t, fmt.Sprintf("%s", err), "Domain whois data invalid.")
 
@@ -41,7 +41,7 @@ func TestWhoisParser(t *testing.T) {
             continue
         }
 
-        whois_info, err := Parser(whois_raw)
+        whois_info, err := Parse(whois_raw)
         assert.Equal(t, err, nil)
 
         if domain == "mjj.com" {

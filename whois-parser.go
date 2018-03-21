@@ -11,8 +11,8 @@ package whois_parser
 
 
 import (
-    "fmt"
     "strings"
+    "github.com/pkg/errors"
 )
 
 
@@ -59,14 +59,13 @@ type Registrant struct {
 }
 
 
-func Parser(whois string) (whoisInfo WhoisInfo, err error) {
+func Parse(whois string) (whoisInfo WhoisInfo, err error) {
     if len(whois) < 100 {
         if IsNotFound(whois) {
-            err = fmt.Errorf("Domain is not found.")
+            return WhoisInfo{}, errors.New("Domain is not found.")
         } else {
-            err = fmt.Errorf("Domain whois data invalid.")
+            return WhoisInfo{}, errors.New("Domain whois data invalid.")
         }
-        return
     }
 
     var registrar Registrar
