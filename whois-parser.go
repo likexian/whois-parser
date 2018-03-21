@@ -117,6 +117,7 @@ func Parse(whois string) (WhoisInfo, error) {
 
         name = TransferName(name)
         switch {
+        // Parse registrar
         case name == "domain":
             registrar.DomainName = value
         case name == "id" || name == "roid":
@@ -141,24 +142,32 @@ func Parse(whois string) (WhoisInfo, error) {
             registrar.DomainStatus += value + ","
         case name == "referral url":
             registrar.ReferralURL = value
+
+		// Parse registrant
         case strings.Contains(name, "registrant id"):
             registrant.ID = value
+		case len(name) >= 10 && name[:10] == "registrant":
+			name = strings.Trim(name[10:], " ")
+			registrant = parserRegistrant(registrant, name, value)
+
+		// Parse admin
         case strings.Contains(name, "admin id"):
             admin.ID = value
+		case len(name) >= 5 && name[:5] == "admin":
+			name = strings.Trim(name[5:], " ")
+			admin = parserRegistrant(admin, name, value)
+
+		// Parse tech
         case strings.Contains(name, "tech id"):
             tech.ID = value
-        case strings.Contains(name, "bill id"):
-            bill.ID = value
-        case len(name) >= 10 && name[:10] == "registrant":
-            name = strings.Trim(name[10:], " ")
-            registrant = parserRegistrant(registrant, name, value)
-        case len(name) >= 5 && name[:5] == "admin":
-            name = strings.Trim(name[5:], " ")
-            admin = parserRegistrant(admin, name, value)
         case len(name) >= 4 && name[:4] == "tech":
             name = strings.Trim(name[4:], " ")
             tech = parserRegistrant(tech, name, value)
-        case len(name) >= 4 && name[:4] == "bill":
+
+		// Parse bill
+		case strings.Contains(name, "bill id"):
+			bill.ID = value
+		case len(name) >= 4 && name[:4] == "bill":
             name = strings.Trim(name[4:], " ")
             bill = parserRegistrant(bill, name, value)
         }
