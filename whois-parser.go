@@ -9,83 +9,40 @@
 
 package whois_parser
 
-
 import (
     "strings"
-	"errors"
+    "errors"
 )
-
-
-type WhoisInfo struct {
-    Registrar  Registrar  `json:"registrar"`
-    Registrant Registrant `json:"registrant"`
-    Admin      Registrant `json:"admin"`
-    Tech       Registrant `json:"tech"`
-    Bill       Registrant `json:"bill"`
-}
-
-
-type Registrar struct {
-    RegistrarID    string `json:"registrar_id"`
-    RegistrarName  string `json:"registrar_name"`
-    WhoisServer    string `json:"whois_server"`
-    ReferralURL    string `json:"referral_url"`
-    DomainId       string `json:"domain_id"`
-    DomainName     string `json:"domain_name"`
-    DomainStatus   string `json:"domain_status"`
-    NameServers    string `json:"name_servers"`
-    DomainDNSSEC   string `json:"domain_dnssec"`
-    CreatedDate    string `json:"created_date"`
-    UpdatedDate    string `json:"updated_date"`
-    ExpirationDate string `json:"expiration_date"`
-}
-
-
-type Registrant struct {
-    ID           string `json:"id"`
-    Name         string `json:"name"`
-    Organization string `json:"organization"`
-    Street       string `json:"street"`
-    StreetExt    string `json:"street_ext"`
-    City         string `json:"city"`
-    Province     string `json:"province"`
-    PostalCode   string `json:"postal_code"`
-    Country      string `json:"country"`
-    Phone        string `json:"phone"`
-    PhoneExt     string `json:"phone_ext"`
-    Fax          string `json:"fax"`
-    FaxExt       string `json:"fax_ext"`
-    Email        string `json:"email"`
-}
 
 var DomainNotFoundError = errors.New("Domain is not found.")
 var DomainInvalidDataError = errors.New("Domain whois data invalid.")
 
-func Parse(whois string) (wi WhoisInfo, err error) {
-    if len(whois) < 100 {
-        if IsNotFound(whois) {
+var replacer = strings.NewReplacer(
+    "\r", "",
+    // Replace ":" for .jp domains, example string:
+    // [Name Server]           ns1.voodoo.com
+    "]           ", ":",
+)
+
+func Parse(text string) (wi WhoisInfo, err error) {
+
+    if len(text) < 100 {
+        if IsNotFound(text) {
             return wi, DomainNotFoundError
         } else {
             return wi, DomainInvalidDataError
         }
     }
 
-    
-    whoisText := strings.Replace(whois, "\r", "", -1)
-
-    // Replace ":" for .jp domains, example string:
-	// [Name Server]           ns1.voodoo.com
-	whoisText = strings.Replace(whois, "]           ", ":", -1)
-	whoisLines := strings.Split(whoisText, "\n")
-
+    whoisLines := strings.Split(replacer.Replace(text), "\n")
     for i:=0; i<len(whoisLines); i++ {
         line := strings.Trim(whoisLines[i], " ")
         if len(line) < 5 || !strings.Contains(line, ":") {
             continue
         }
 
-        fchar := line[:1]
-        if fchar == ">" || fchar == "%" || fchar == "*" {
+        fChar := line[:1]
+        if fChar == ">" || fChar == "%" || fChar == "*" {
             continue
         }
 
