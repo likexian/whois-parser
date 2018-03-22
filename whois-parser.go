@@ -9,88 +9,40 @@
 
 package whois_parser
 
-
 import (
-    "fmt"
     "strings"
+    "errors"
 )
 
+var DomainNotFoundError = errors.New("Domain is not found.")
+var DomainInvalidDataError = errors.New("Domain whois data invalid.")
 
-type WhoisInfo struct {
-    Registrar  Registrar  `json:"registrar"`
-    Registrant Registrant `json:"registrant"`
-    Admin      Registrant `json:"admin"`
-    Tech       Registrant `json:"tech"`
-    Bill       Registrant `json:"bill"`
-}
+var replacer = strings.NewReplacer(
+    "\r", "",
+    // Replace ":" for .jp domains, example string:
+    // [Name Server]           ns1.voodoo.com
+    "]           ", ":",
+)
 
+func Parse(text string) (wi WhoisInfo, err error) {
 
-type Registrar struct {
-    RegistrarID    string `json:"registrar_id"`
-    RegistrarName  string `json:"registrar_name"`
-    WhoisServer    string `json:"whois_server"`
-    ReferralURL    string `json:"referral_url"`
-    DomainId       string `json:"domain_id"`
-    DomainName     string `json:"domain_name"`
-    DomainStatus   string `json:"domain_status"`
-    NameServers    string `json:"name_servers"`
-    DomainDNSSEC   string `json:"domain_dnssec"`
-    CreatedDate    string `json:"created_date"`
-    UpdatedDate    string `json:"updated_date"`
-    ExpirationDate string `json:"expiration_date"`
-}
-
-
-type Registrant struct {
-    ID           string `json:"id"`
-    Name         string `json:"name"`
-    Organization string `json:"organization"`
-    Street       string `json:"street"`
-    StreetExt    string `json:"street_ext"`
-    City         string `json:"city"`
-    Province     string `json:"province"`
-    PostalCode   string `json:"postal_code"`
-    Country      string `json:"country"`
-    Phone        string `json:"phone"`
-    PhoneExt     string `json:"phone_ext"`
-    Fax          string `json:"fax"`
-    FaxExt       string `json:"fax_ext"`
-    Email        string `json:"email"`
-}
-
-
-func Parser(whois string) (whoisInfo WhoisInfo, err error) {
-    if len(whois) < 100 {
-        if IsNotFound(whois) {
-            err = fmt.Errorf("Domain is not found.")
+    if len(text) < 100 {
+        if IsNotFound(text) {
+            return wi, DomainNotFoundError
         } else {
-            err = fmt.Errorf("Domain whois data invalid.")
+            return wi, DomainInvalidDataError
         }
-        return
     }
 
-    var registrar Registrar
-    var registrant Registrant
-    var admin Registrant
-    var tech Registrant
-    var bill Registrant
-
-    whoisText := strings.Replace(whois, "\r", "", -1)
-
-    // Replace ":" for .jp domains, example string:
-	// [Name Server]           ns1.voodoo.com
-	whoisText = strings.Replace(whois, "]           ", ":", -1)
-
-	whoisLines := strings.Split(whoisText, "\n")
-
+    whoisLines := strings.Split(replacer.Replace(text), "\n")
     for i:=0; i<len(whoisLines); i++ {
         line := strings.Trim(whoisLines[i], " ")
         if len(line) < 5 || !strings.Contains(line, ":") {
             continue
         }
 
-        fchar := line[:1]
-        if fchar == ">" || fchar == "%" || fchar == "*" {
+        fChar := line[:1]
+        if fChar == ">" || fChar == "%" || fChar == "*" {
             continue
         }
 
@@ -104,106 +56,112 @@ func Parser(whois string) (whoisInfo WhoisInfo, err error) {
                 line += thisLine + ","
             }
             line = strings.Trim(line, ",")
+
             i -= 1
         }
 
         lines := strings.SplitN(line, ":", 2)
         name := strings.Trim(lines[0], " ")
         value := strings.Trim(lines[1], " ")
+        value = strings.TrimSpace(lines[1])
         if value == "" {
             continue
         }
 
         name = TransferName(name)
-        if name == "domain" {
-            registrar.DomainName = value
-        } else if name == "id" || name == "roid" {
-            registrar.DomainId = value
-        } else if name == "registrar id" {
-            registrar.RegistrarID = value
-        } else if name == "registrar" {
-            registrar.RegistrarName = value
-        } else if name == "whois server" {
-            registrar.WhoisServer = value
-        } else if name == "dnssec" {
-            registrar.DomainDNSSEC = value
-        } else if name == "create" {
-            registrar.CreatedDate = value
-        } else if name == "update" {
-            registrar.UpdatedDate = value
-        } else if name == "expire" {
-            registrar.ExpirationDate = value
-        } else if name == "name server" {
-            registrar.NameServers += strings.Trim(value, ".") + ","
-        } else if name == "status" {
-            registrar.DomainStatus += value + ","
-        } else if name == "referral url" {
-            registrar.ReferralURL = value
-        } else if strings.Contains(name, "registrant id") {
-            registrant.ID = value
-        } else if strings.Contains(name, "admin id") {
-            admin.ID = value
-        } else if strings.Contains(name, "tech id") {
-            tech.ID = value
-        } else if strings.Contains(name, "bill id") {
-            bill.ID = value
-        } else if len(name) >= 10 && name[:10] == "registrant" {
-            name = strings.Trim(name[10:], " ")
-            registrant = parserRegistrant(registrant, name, value)
-        } else if len(name) >= 5 && name[:5] == "admin" {
-            name = strings.Trim(name[5:], " ")
-            admin = parserRegistrant(admin, name, value)
-        } else if len(name) >= 4 && name[:4] == "tech" {
+        switch {
+        // Parse registrar
+        case name == "domain":
+            wi.Registrar.DomainName = value
+        case name == "id" || name == "roid":
+            wi.Registrar.DomainId = value
+        case name == "registrar id":
+            wi.Registrar.RegistrarID = value
+        case name == "registrar":
+            wi.Registrar.RegistrarName = value
+        case name == "whois server":
+            wi.Registrar.WhoisServer = value
+        case name == "dnssec":
+            wi.Registrar.DomainDNSSEC = value
+        case name == "create":
+            wi.Registrar.CreatedDate = value
+        case name == "update":
+            wi.Registrar.UpdatedDate = value
+        case name == "expire":
+            wi.Registrar.ExpirationDate = value
+        case name == "name server":
+            wi.Registrar.NameServers += strings.Trim(value, ".") + ","
+        case name == "status":
+            wi.Registrar.DomainStatus += value + ","
+        case name == "referral url":
+            wi.Registrar.ReferralURL = value
+
+		// Parse registrant
+        case strings.Contains(name, "registrant id"):
+            wi.Registrant.ID = value
+		case len(name) >= 10 && name[:10] == "registrant":
+			name = strings.Trim(name[10:], " ")
+			wi.Registrant = parserRegistrant(wi.Registrant, name, value)
+
+		// Parse admin
+        case strings.Contains(name, "admin id"):
+            wi.Admin.ID = value
+		case len(name) >= 5 && name[:5] == "admin":
+			name = strings.Trim(name[5:], " ")
+			wi.Admin = parserRegistrant(wi.Admin, name, value)
+
+		// Parse tech
+        case strings.Contains(name, "tech id"):
+            wi.Tech.ID = value
+        case len(name) >= 4 && name[:4] == "tech":
             name = strings.Trim(name[4:], " ")
-            tech = parserRegistrant(tech, name, value)
-        } else if len(name) >= 4 && name[:4] == "bill" {
+            wi.Tech = parserRegistrant(wi.Tech, name, value)
+
+		// Parse bill
+		case strings.Contains(name, "bill id"):
+			wi.Bill.ID = value
+		case len(name) >= 4 && name[:4] == "bill":
             name = strings.Trim(name[4:], " ")
-            bill = parserRegistrant(bill, name, value)
+            wi.Bill = parserRegistrant(wi.Bill, name, value)
         }
     }
 
-    registrar.NameServers = RemoveDuplicateField(strings.ToLower(registrar.NameServers))
-    registrar.DomainStatus = RemoveDuplicateField(strings.ToLower(registrar.DomainStatus))
-    registrar.NameServers = FixNameServers(registrar.NameServers)
+    // Post processing NameServers, DomainStatuses
+    wi.Registrar.NameServers = FixNameServers(RemoveDuplicateField(strings.ToLower(wi.Registrar.NameServers)))
+    wi.Registrar.DomainStatus = RemoveDuplicateField(strings.ToLower(wi.Registrar.DomainStatus))
 
-    whoisInfo.Registrar = registrar
-    whoisInfo.Registrant = registrant
-    whoisInfo.Admin = admin
-    whoisInfo.Tech = tech
-    whoisInfo.Bill = bill
-
-    return
+    return wi, nil
 }
 
 
 func parserRegistrant(registrant Registrant, name, value string) (Registrant) {
-    if name == "name" || name == "" {
+    switch name {
+    case "name", "":
         registrant.Name = value
-    } else if name == "organization" {
+    case "organization":
         registrant.Organization = value
-    } else if name == "street" {
+    case "street":
         registrant.Street = value
-    } else if name == "street ext" {
+    case "street ext":
         registrant.StreetExt = value
-    } else if name == "city" {
+    case "city":
         registrant.City = value
-    } else if name == "province" {
+    case "province":
         registrant.Province = value
-    } else if name == "postal code" {
+    case "postal code":
         registrant.PostalCode = value
-    } else if name == "country" {
+    case "country":
         registrant.Country = value
-    } else if name == "phone" {
+    case "phone":
         registrant.Phone = value
-    } else if name == "phone ext" {
+    case "phone ext":
         registrant.PhoneExt = value
-    } else if name == "fax" {
+    case "fax":
         registrant.Fax = value
-    } else if name == "fax ext" {
+    case "fax ext":
         registrant.FaxExt = value
-    } else if name == "email" {
+    case "email":
         registrant.Email = strings.ToLower(value)
     }
-
     return registrant
 }
