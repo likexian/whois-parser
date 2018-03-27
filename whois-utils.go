@@ -103,6 +103,7 @@ func TransferName(name string) (string) {
     name = strings.Replace(name, "expire date", "expire", -1)
 
     name = strings.Replace(name, "owner", "registrant", -1)
+	name = strings.Replace(name, "person", "registrant", -1)
     name = strings.Replace(name, "administrative", "admin", -1)
     name = strings.Replace(name, "technical", "tech", -1)
     name = strings.Replace(name, "billing", "bill", -1)
