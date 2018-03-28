@@ -15,17 +15,17 @@ registrant
 id: 
 name: 
 organization: 
-street: 
+street: 75011 Paris
 street_ext: 
 city: 
 province: 
 postal_code: 
-country: 
-phone: 
+country: FR
+phone: +33 1 70 37 76 61
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: noc@gandi.net
 
 admin
 id: 

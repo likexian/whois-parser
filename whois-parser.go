@@ -123,6 +123,8 @@ func Parse(text string) (wi WhoisInfo, err error) {
 		case len(name) >= 4 && name[:4] == "bill":
             name = strings.Trim(name[4:], " ")
             wi.Bill = parserRegistrant(wi.Bill, name, value)
+        default:
+            wi.Registrant = parserRegistrant(wi.Registrant, name, value)
         }
     }
 
@@ -138,7 +140,7 @@ func parserRegistrant(registrant Registrant, name, value string) (Registrant) {
     switch name {
     case "name", "":
         registrant.Name = value
-    case "organization":
+    case "organization", "org":
         registrant.Organization = value
     case "street":
         registrant.Street = value

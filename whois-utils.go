@@ -108,8 +108,10 @@ func TransferName(name string) (string) {
     name = strings.Replace(name, "technical", "tech", -1)
     name = strings.Replace(name, "billing", "bill", -1)
 
+    name = strings.Replace(name, "address", "street", -1)
     name = strings.Replace(name, "address1", "street", -1)
     name = strings.Replace(name, "address2", "street_ext", -1)
+
     name = strings.Replace(name, "street1", "street", -1)
     name = strings.Replace(name, "street2", "street_ext", -1)
     name = strings.Replace(name, "state/", "", -1)

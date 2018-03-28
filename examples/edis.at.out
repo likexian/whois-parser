@@ -14,18 +14,18 @@ domain_dnssec:
 registrant
 id: 
 name: EDIS GmbH
-organization: 
+organization: Kleewein Gerhard
 street: 
 street_ext: 
-city: 
+city: Graz
 province: 
-postal_code: 
-country: 
-phone: 
+postal_code: 8010
+country: Austria
+phone: +43316827500300
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: domreg@edis.at
 
 admin
 id: 

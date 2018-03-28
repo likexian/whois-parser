@@ -20,12 +20,12 @@ street_ext:
 city: 
 province: 
 postal_code: 
-country: 
+country: CN
 phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: dmps@vip.qq.com
 
 admin
 id: 
