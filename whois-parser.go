@@ -16,6 +16,7 @@ import (
 
 var DomainNotFoundError = errors.New("Domain is not found.")
 var DomainInvalidDataError = errors.New("Domain whois data invalid.")
+var DomainLimitExceededError = errors.New("Your connection limit exceeded.")
 
 var replacer = strings.NewReplacer(
     "\r", "",
