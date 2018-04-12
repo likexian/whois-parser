@@ -32,7 +32,13 @@ func IsNotFound(data string) (result bool) {
     return strings.Contains(data, "no found") || strings.Contains(data, "no match") ||
         strings.Contains(data, "not found") || strings.Contains(data, "not match") ||
         strings.Contains(data, "no entries found") || strings.Contains(data, "no data found") ||
-        strings.Contains(data, "not registered") || strings.Contains(data, "is free")
+        strings.Contains(data, "not registered") || strings.Contains(data, "is free") ||
+        strings.Contains(data, "not available for registration")
+}
+
+func IsLimitExceeded(data string) (result bool) {
+    data = strings.ToLower(data)
+    return strings.Contains(data, "limit exceeded")
 }
 
 func TransferName(name string) (string) {
