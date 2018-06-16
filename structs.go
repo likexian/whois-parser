@@ -1,6 +1,5 @@
 package whois_parser
 
-
 type WhoisInfo struct {
 	Registrar  Registrar  `json:"registrar"`
 	Registrant Registrant `json:"registrant"`
@@ -8,7 +7,6 @@ type WhoisInfo struct {
 	Tech       Registrant `json:"tech"`
 	Bill       Registrant `json:"bill"`
 }
-
 
 type Registrar struct {
 	RegistrarID    string `json:"registrar_id"`
@@ -24,7 +22,6 @@ type Registrar struct {
 	UpdatedDate    string `json:"updated_date"`
 	ExpirationDate string `json:"expiration_date"`
 }
-
 
 type Registrant struct {
 	ID           string `json:"id"`
