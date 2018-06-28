@@ -1,0 +1,67 @@
+% IANA WHOIS server
+% for more information on IANA, visit http://www.iana.org
+% This query returned 1 object
+
+refer:        whois.cnnic.cn
+
+domain:       CN
+
+organisation: China Internet Network Information Center (CNNIC)
+address:      No. 4, South 4th Street
+address:      Zhong Guan Cun
+address:      Beijing  100190
+address:      China
+
+contact:      administrative
+name:         Yu Zeng
+organisation: China Internet Network Information Center (CNNIC)
+address:      No. 4, South 4th Street
+address:      Zhong Guan Cun
+address:      Beijing  100190
+address:      China
+phone:        +8610-58813686
+fax-no:       +8610-58813632
+e-mail:       ceo@cnnic.cn
+
+contact:      technical
+name:         Yuedong Zhang
+organisation: China Internet Network Information Center (CNNIC)
+address:      No. 4, South 4th Street
+address:      Zhong Guan Cun
+address:      Beijing  100190
+address:      China
+phone:        +8610-58813202
+fax-no:       +8610-58812666
+e-mail:       tech@cnnic.cn
+
+nserver:      A.DNS.CN 2001:dc7:0:0:0:0:0:1 203.119.25.1
+nserver:      B.DNS.CN 203.119.26.1
+nserver:      C.DNS.CN 203.119.27.1
+nserver:      D.DNS.CN 2001:dc7:1000:0:0:0:0:1 203.119.28.1
+nserver:      E.DNS.CN 203.119.29.1
+nserver:      F.DNS.CN 195.219.8.90
+nserver:      G.DNS.CN 66.198.183.65
+nserver:      NS.CERNET.NET 202.112.0.44
+ds-rdata:     57724 8 2 5D0423633EB24A499BE78AA22D1C0C9BA36218FF49FD95A4CDF1A4AD97C67044
+
+whois:        whois.cnnic.cn
+
+status:       ACTIVE
+remarks:      Registration information: http://www.cnnic.cn/
+
+created:      1990-11-28
+changed:      2018-03-01
+source:       IANA
+
+Domain Name: cmsyuns.cn
+ROID: 20161019s10001s85184339-cn
+Domain Status: ok
+Registrant ID: hc7338100301121
+Registrant: 金创互动科技（深圳）有限公司
+Registrant Contact Email: 1344842954@qq.com
+Sponsoring Registrar: 阿里云计算有限公司（万网）
+Name Server: f1g1ns1.dnspod.net
+Name Server: f1g1ns2.dnspod.net
+Registration Time: 2016-10-19 13:58:48
+Expiration Time: 2018-10-19 13:58:48
+DNSSEC: unsigned
