@@ -32,7 +32,13 @@ func IsNotFound(data string) (result bool) {
     return strings.Contains(data, "no found") || strings.Contains(data, "no match") ||
         strings.Contains(data, "not found") || strings.Contains(data, "not match") ||
         strings.Contains(data, "no entries found") || strings.Contains(data, "no data found") ||
-        strings.Contains(data, "not registered") || strings.Contains(data, "is free")
+        strings.Contains(data, "not registered") || strings.Contains(data, "is free") ||
+        strings.Contains(data, "not available for registration")
+}
+
+func IsLimitExceeded(data string) (result bool) {
+    data = strings.ToLower(data)
+    return strings.Contains(data, "limit exceeded")
 }
 
 func TransferName(name string) (string) {
@@ -104,12 +110,15 @@ func TransferName(name string) (string) {
     name = strings.Replace(name, "expire time", "expire", -1)
 
     name = strings.Replace(name, "owner", "registrant", -1)
+	name = strings.Replace(name, "person", "registrant", -1)
     name = strings.Replace(name, "administrative", "admin", -1)
     name = strings.Replace(name, "technical", "tech", -1)
     name = strings.Replace(name, "billing", "bill", -1)
 
+    name = strings.Replace(name, "address", "street", -1)
     name = strings.Replace(name, "address1", "street", -1)
     name = strings.Replace(name, "address2", "street_ext", -1)
+
     name = strings.Replace(name, "street1", "street", -1)
     name = strings.Replace(name, "street2", "street_ext", -1)
     name = strings.Replace(name, "state/", "", -1)

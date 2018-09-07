@@ -13,7 +13,7 @@ domain_dnssec:
 
 registrant
 id: 
-name: 
+name: Private Person
 organization: 
 street: 
 street_ext: 
@@ -25,7 +25,7 @@ phone:
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: mail@bergoldgross.com
 
 admin
 id: 

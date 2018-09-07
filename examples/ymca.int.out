@@ -13,19 +13,19 @@ domain_dnssec:
 
 registrant
 id: 
-name: 
+name: Claude-Alain DANTHE
 organization: 
-street: 
+street: Switzerland
 street_ext: 
 city: 
 province: 
 postal_code: 
 country: 
-phone: 
+phone: +41 22 849 51 20
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: danthe@ymca.int
 
 admin
 id: 

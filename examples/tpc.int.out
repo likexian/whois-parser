@@ -13,19 +13,19 @@ domain_dnssec:
 
 registrant
 id: 
-name: 
+name: Arlington Hewes
 organization: 
-street: 
+street: CANADA
 street_ext: 
 city: 
 province: 
 postal_code: 
 country: 
-phone: 
+phone: +1 215 438-4638
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: tpcadmin@info.tpc.int
 
 admin
 id: 

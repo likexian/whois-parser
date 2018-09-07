@@ -15,17 +15,17 @@ registrant
 id: 
 name: 
 organization: 
-street: 
+street: 78181 Saint Quentin en Yvelines
 street_ext: 
 city: 
 province: 
 postal_code: 
-country: 
-phone: 
+country: FR
+phone: +33 1 39 30 83 00
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: hostmaster@nic.fr
 
 admin
 id: 

@@ -3,29 +3,29 @@ registrar_name:
 whois_server: 
 referral_url: 
 domain_id: 
-domain_name: GOOGLE.JP
+domain_name: ALIBABA.JP
 domain_status: active
-created_date: 2005/05/30
-updated_date: 2017/06/01 01:05:09 (JST)
-expiration_date: 2018/05/31
-name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
+created_date: 2001/05/08
+updated_date: 2013/06/01 01:05:07 (JST)
+expiration_date: 2014/05/31
+name_servers: ns1.markmonitor.com,ns6.markmonitor.com,ns4.markmonitor.com,ns3.markmonitor.com,ns7.markmonitor.com,ns2.markmonitor.com,ns5.markmonitor.com
 domain_dnssec: 
 
 registrant
 id: 
-name: Google Inc.
+name: Alibaba Group Holding Limited
 organization: 
 street: 
 street_ext: 
 city: 
 province: 
-postal_code: 94043
+postal_code: KY1-1103
 country: 
-phone: 16502530000
+phone: 85222155100
 phone_ext: 
-fax: 16502530001
+fax: 85222155200
 fax_ext: 
-email: dns-admin@google.com
+email: dnsadmin@hk.alibaba-inc.com
 
 admin
 id: 

@@ -13,19 +13,19 @@ domain_dnssec:
 
 registrant
 id: 
-name: (Not displayed by registrant's request)
+name: JP-Domains.com WHOIS Privacy Service
 organization: 
 street: 
 street_ext: 
 city: 
 province: 
-postal_code: 
+postal_code: 160-0023
 country: 
-phone: 
+phone: 03-6300-7969
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: privacy@jp-domains.com
 
 admin
 id: 

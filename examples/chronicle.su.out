@@ -14,18 +14,18 @@ domain_dnssec:
 registrant
 id: 
 name: 
-organization: 
+organization: Lebal Drocer, Incorporated
 street: 
 street_ext: 
 city: 
 province: 
 postal_code: 
 country: 
-phone: 
+phone: +1 6157461053
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: webmaster@elfwax.com
 
 admin
 id: 
