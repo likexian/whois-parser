@@ -50,14 +50,14 @@ Please refer to [whois-go](https://github.com/likexian/whois-go)
 
 ## LICENSE
 
-Copyright 2014-2018, Li Kexian
+Copyright 2014-2019, Li Kexian
 
 Apache License, Version 2.0
-
-## DONATE
-
-- [Help me make perfect](https://www.likexian.com/donate/)
 
 ## About
 
 - [Li Kexian](https://www.likexian.com/)
+
+## DONATE
+
+- [Help me make perfect](https://www.likexian.com/donate/)

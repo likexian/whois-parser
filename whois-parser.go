@@ -2,7 +2,7 @@
  * Go module for whois info parser
  * https://www.likexian.com/
  *
- * Copyright 2014-2018, Li Kexian
+ * Copyright 2014-2019, Li Kexian
  * Released under the Apache License, Version 2.0
  *
  */
