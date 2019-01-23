@@ -15,66 +15,106 @@ import (
     "strings"
     "io/ioutil"
     "testing"
-    "github.com/bmizerany/assert"
+    "runtime"
 )
+
+
+func assertNotError(t *testing.T, err error) {
+    if err != nil {
+        _, file, line, _ := runtime.Caller(1)
+        t.Errorf("%s:%d", file, line)
+        t.Errorf(err.Error())
+        t.FailNow()
+    }
+}
+
+
+func assertHasError(t *testing.T, err error) {
+    if err == nil {
+        _, file, line, _ := runtime.Caller(1)
+        t.Errorf("%s:%d", file, line)
+        t.Errorf("Error shall not equal nil")
+        t.FailNow()
+    }
+}
+
+
+func assertStringEqual(t *testing.T, a, b string) {
+    if a != b {
+        _, file, line, _ := runtime.Caller(1)
+        t.Errorf("%s:%d", file, line)
+        t.Errorf("%s != %s", a, b)
+        t.FailNow()
+    }
+}
+
+
+func assertNotEmpty(t *testing.T, a string) {
+    if a == "" {
+        _, file, line, _ := runtime.Caller(1)
+        t.Errorf("%s:%d", file, line)
+        t.Errorf("Result shall not be empty")
+        t.FailNow()
+    }
+}
 
 
 func TestWhoisParser(t *testing.T) {
     _, err := Parser("not found")
-    assert.NotEqual(t, err, nil)
-    assert.Equal(t, fmt.Sprintf("%s", err), "Domain is not found.")
+    assertHasError(t, err)
+    assertStringEqual(t, fmt.Sprintf("%s", err), "Domain is not found.")
 
     _, err = Parser("WHOIS LIMIT EXCEEDED - SEE WWW.PIR.ORG/WHOIS FOR DETAILS")
-    assert.NotEqual(t, err, nil)
-    assert.Equal(t, fmt.Sprintf("%s", err), "Domain whois data invalid.")
+    assertHasError(t, err)
+    assertStringEqual(t, fmt.Sprintf("%s", err), "Domain whois data invalid.")
 
     dirs, err := ioutil.ReadDir("./examples/")
-    assert.Equal(t, err, nil)
+    assertNotError(t, err)
 
     for _, v := range dirs {
         domain := v.Name()
         domain_ext := domain[strings.LastIndex(domain, ".") + 1:]
         whois_raw, err := ReadFile("./examples/" + domain)
-        assert.Equal(t, err, nil)
+        assertNotError(t, err)
 
         if domain[len(domain) - 4:] == ".out" {
             continue
         }
 
         whois_info, err := Parser(whois_raw)
-        assert.Equal(t, err, nil)
+        assertNotError(t, err)
 
         if domain == "mjj.com" {
-            assert.NotEqual(t, whois_info.Registrar.RegistrarID, "")
+            assertNotEmpty(t, whois_info.Registrar.RegistrarID)
         }
         if domain_ext != "museum" && domain_ext != "at" && domain_ext != "int" {
-            assert.NotEqual(t, whois_info.Registrar.RegistrarName, "")
+            assertNotEmpty(t, whois_info.Registrar.RegistrarName)
         }
         if domain_ext == "com" {
-            assert.NotEqual(t, whois_info.Registrar.WhoisServer, "")
+            assertNotEmpty(t, whois_info.Registrar.WhoisServer)
         }
         if domain_ext == "com" {
-            assert.NotEqual(t, whois_info.Registrar.ReferralURL, "")
+            assertNotEmpty(t, whois_info.Registrar.ReferralURL)
         }
         if domain == "mjj.com" {
-            assert.NotEqual(t, whois_info.Registrar.DomainId, "")
+            assertNotEmpty(t, whois_info.Registrar.DomainId)
         }
-        assert.NotEqual(t, whois_info.Registrar.DomainName, "")
+        assertNotEmpty(t, whois_info.Registrar.DomainName)
         if domain_ext != "at" && domain_ext != "kr" && domain_ext != "int" {
-            assert.NotEqual(t, whois_info.Registrar.DomainStatus, "")
+            assertNotEmpty(t, whois_info.Registrar.DomainStatus)
         }
         if domain_ext != "au" && domain_ext != "at" && domain_ext != "int" {
-            assert.NotEqual(t, whois_info.Registrar.CreatedDate, "")
+            assertNotEmpty(t, whois_info.Registrar.CreatedDate)
         }
         if domain_ext != "cn" && domain_ext != "ru" && domain_ext != "su" && domain_ext != "hk" {
-            assert.NotEqual(t, whois_info.Registrar.UpdatedDate, "")
+            assertNotEmpty(t, whois_info.Registrar.UpdatedDate)
         }
         if domain_ext != "au" && domain_ext != "at" && domain_ext != "re" && domain_ext != "fr" && domain_ext != "int" {
-            assert.NotEqual(t, whois_info.Registrar.ExpirationDate, "")
+            assertNotEmpty(t, whois_info.Registrar.ExpirationDate)
         }
-        assert.NotEqual(t, whois_info.Registrar.NameServers, "")
+        assertNotEmpty(t, whois_info.Registrar.NameServers)
         if domain_ext == "cn" {
-            assert.NotEqual(t, whois_info.Registrar.DomainDNSSEC, "")
+            assertNotEmpty(t, whois_info.Registrar.DomainDNSSEC)
         }
 
         content := ""
