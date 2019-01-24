@@ -1,7 +1,0 @@
-[[constraint]]
-  branch = "master"
-  name = "github.com/bmizerany/assert"
-
-[prune]
-  go-tests = true
-  unused-packages = true
