@@ -1,84 +1,71 @@
-% Musedoma Whois Server Copyright (C) 2007 Museum Domain Management Association
-%
-% NOTICE: Access to Musedoma Whois information is provided to assist in
-% determining the contents of an object name registration record in the
-% Musedoma database. The data in this record is provided by Musedoma for
-% informational purposes only, and Musedoma does not guarantee its
-% accuracy. This service is intended only for query-based access. You
-% agree that you will use this data only for lawful purposes and that,
-% under no circumstances will you use this data to: (a) allow, enable,
-% or otherwise support the transmission by e-mail, telephone or
-% facsimile of unsolicited, commercial advertising or solicitations; or
-% (b) enable automated, electronic processes that send queries or data
-% to the systems of Musedoma or registry operators, except as reasonably
-% necessary to register object names or modify existing registrations.
-% All rights reserved. Musedoma reserves the right to modify these terms at
-% any time. By submitting this query, you agree to abide by this policy.
-%
-Domain ID: D6137686-MUSEUM
+
 Domain Name: about.museum
-Domain Name ACE: about.museum
-Domain Language:
-Registrar ID: CORE-904 (Musedoma)
-Created On: 2005-02-04 19:32:48 GMT
-Last Updated On: 2014-06-19 14:43:37 GMT
-Expiration Date: 2015-02-04 19:32:48 GMT
-Maintainer: http://musedoma.museum
-Status: ok
-Registrant ID: C13542608-MUSEUM
-Registrant Name: Marie Claverie
-Registrant Organization: MuseDoma
-Registrant Street: 22 rue de Palestro
-Registrant City: Paris
-Registrant State/Province:
-Registrant Postal Code: 75002
+Registry Domain ID: DOM000000000677-MUSEUM
+Registrar URL:  
+Updated Date: 2018-03-07T08:20:19Z
+Creation Date: 2005-02-04T18:32:48Z
+Registry Expiry Date: 2019-02-04T19:32:48Z
+Registrar: Registry Operations
+Registrar IANA ID: 9999
+Registrar Abuse Contact Email:  
+Registrar Abuse Contact Phone:  
+Domain Status: ok  https://icann.org/epp#ok
+Registry Registrant ID: REDACTED FOR PRIVACY
+Registrant Name: REDACTED FOR PRIVACY
+Registrant Street: REDACTED FOR PRIVACY
+Registrant City: REDACTED FOR PRIVACY
+Registrant Postal Code: REDACTED FOR PRIVACY
 Registrant Country: FR
-Registrant Phone:
-Registrant Phone Ext:
-Registrant Fax:
-Registrant Fax Ext:
-Registrant Email: info@about.museum
-Admin ID: C13339978-MUSEUM
-Admin Name: Sonntag Benjamin
-Admin Organization: Octopuce
-Admin Street: 29 rue Merlin
-Admin City: Paris
-Admin State/Province: IDF
-Admin Postal Code: 75011
-Admin Country: FR
-Admin Phone:
-Admin Phone Ext:
-Admin Fax:
-Admin Fax Ext:
-Admin Email: museum@octopuce.fr
-Tech ID: C13339978-MUSEUM
-Tech Name: Sonntag Benjamin
-Tech Organization: Octopuce
-Tech Street: 29 rue Merlin
-Tech City: Paris
-Tech State/Province: IDF
-Tech Postal Code: 75011
-Tech Country: FR
-Tech Phone:
-Tech Phone Ext:
-Tech Fax:
-Tech Fax Ext:
-Tech Email: museum@octopuce.fr
-Billing ID: C13542608-MUSEUM
-Billing Name: Marie Claverie
-Billing Organization: MuseDoma
-Billing Street: 22 rue de Palestro
-Billing City: Paris
-Billing State/Province:
-Billing Postal Code: 75002
-Billing Country: FR
-Billing Phone:
-Billing Phone Ext:
-Billing Fax:
-Billing Fax Ext:
-Billing Email: info@about.museum
-Name Server: primary.heberge.info
-Name Server ACE: primary.heberge.info
-Name Server: secondary.heberge.info
-Name Server ACE: secondary.heberge.info
+Registrant Phone: REDACTED FOR PRIVACY
+Registrant Fax: REDACTED FOR PRIVACY
+Registrant Email: Please query the RDDS service of the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Tech contact of the queried domain name.
+Registry Admin ID: REDACTED FOR PRIVACY
+Admin Name: REDACTED FOR PRIVACY
+Admin Organization: REDACTED FOR PRIVACY
+Admin Street: REDACTED FOR PRIVACY
+Admin City: REDACTED FOR PRIVACY
+Admin State/Province: REDACTED FOR PRIVACY
+Admin Postal Code: REDACTED FOR PRIVACY
+Admin Country: REDACTED FOR PRIVACY
+Admin Phone: REDACTED FOR PRIVACY
+Admin Fax: REDACTED FOR PRIVACY
+Admin Email: Please query the RDDS service of the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Tech contact of the queried domain name.
+Registry Tech ID: REDACTED FOR PRIVACY
+Tech Name: REDACTED FOR PRIVACY
+Tech Organization: REDACTED FOR PRIVACY
+Tech Street: REDACTED FOR PRIVACY
+Tech City: REDACTED FOR PRIVACY
+Tech State/Province: REDACTED FOR PRIVACY
+Tech Postal Code: REDACTED FOR PRIVACY
+Tech Country: REDACTED FOR PRIVACY
+Tech Phone: REDACTED FOR PRIVACY
+Tech Fax: REDACTED FOR PRIVACY
+Tech Email: Please query the RDDS service of the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Tech contact of the queried domain name.
+Name Server: ns1.nic.fr
+Name Server: ns2.nic.fr
+Name Server: ns3.nic.fr
+DNSSEC: signedDelegation
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2019-01-24T12:47:36Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+Rights restricted by copyright.
+
+If you wish to access the protected data, please visit our website at the following address: www.welcome.museum
+
+Terms of Use : MuseDoma's database is protected by the provisions of the French Law of the 1st of July 1998
+transposing the European Directive of the 11th of March 1996 on database legal protection in the Intellectual Property Code.
+
+MuseDoma is the only entity to hold the producing rights of the databases as substantial investment, quantitative
+as much as qualitative, that were used to achieve this database.
+Complete or partial reproduction and/or use of MuseDoma's database without the express permission of MuseDoma's is strictly forbidden.
+
+Any breach to these rules can carry penal sanctions as counterfeit, without prejudice of a potential damages request from MuseDoma,
+holder of these rights. MuseDoma's database user commits to use the published data according to the laws
+and rules in effect. Moreover, the user is bound to respect the French Data Protection Law.
+The infringement of the French Data Protection Law can carry penal sanctions. As the user will access personal information,
+the user must refrain from collecting or misuse this information. In a more general way, the user must refrain from any act likely
+to infringe the privacy or reputation of individuals.
+
 

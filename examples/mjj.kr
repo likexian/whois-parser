@@ -9,9 +9,10 @@ query : mjj.kr
 책임자 전자우편             : mjj24086589@daum.net
 등록일                      : 2013. 09. 26.
 최근 정보 변경일            : 2013. 09. 26.
-사용 종료일                 : 2016. 09. 26.
+사용 종료일                 : 2019. 09. 26.
 정보공개여부                : N
 등록대행자                  : (주)아이네임즈(http://www.inames.co.kr)
+DNSSEC                      : 미서명
 
 1차 네임서버 정보
    호스트이름               : ns.basehosting.co.kr
@@ -36,9 +37,10 @@ Administrative Contact(AC)  : KIM WON KI
 AC E-Mail                   : mjj24086589@daum.net
 Registered Date             : 2013. 09. 26.
 Last Updated Date           : 2013. 09. 26.
-Expiration Date             : 2016. 09. 26.
+Expiration Date             : 2019. 09. 26.
 Publishes                   : N
 Authorized Agency           : Inames Co., Ltd.(http://www.inames.co.kr)
+DNSSEC                      : unsigned
 
 Primary Name Server
    Host Name                : ns.basehosting.co.kr
@@ -53,13 +55,7 @@ Secondary Name Server
    IP Address               : 116.126.143.225
 
 
-상기 정보는 UTF-8 인코딩되어 서비스되고 있습니다.
-EUC-KR 인코딩 서비스는 oldwhois.kisa.or.kr에서 서비스 되고 있습니다.
-The above information is encoded with UTF-8
-EUC-KR encoding WHOIS is being serviced in this URL:oldwhois.kisa.or.kr
 
-
-- KISA/KRNIC Whois Service -
-
+- KISA/KRNIC WHOIS Service -
 
 

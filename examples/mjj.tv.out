@@ -1,63 +1,63 @@
-registrar_id: 625
-registrar_name: NAME.COM, INC.
-whois_server: whois.name.com
-referral_url: http://www.name.com
-domain_id: 92566600
+registrar_id: 472
+registrar_name: DYNADOT LLC
+whois_server: whois.dynadot.com
+referral_url: http://www.dynadot.com
+domain_id: 92566600_DOMAIN_TV-VRSN
 domain_name: MJJ.TV
 domain_status: clienttransferprohibited
-created_date: 2010-05-15T21:02:27Z
-updated_date: 2014-07-30T19:28:19Z
-expiration_date: 2015-05-15T21:02:27Z
-name_servers: ns1jlp.name.com,ns2bkr.name.com,ns3cqz.name.com,ns4lpv.name.com
-domain_dnssec: Unsigned delegation
+created_date: 2010-05-16T01:02:27.0Z
+updated_date: 2018-04-06T02:25:29.0Z
+expiration_date: 2019-05-16T01:02:27.0Z
+name_servers: ns1.dynadot.com,ns2.dynadot.com
+domain_dnssec: unsigned
 
 registrant
 id: 
-name: claude dauman
-organization: Claude Dauman
-street: 9663 Santa Monica Bl. , STE 186
+name: LIQIANG
+organization: 
+street: shandonglinyishuanglingluzhongduan
 street_ext: 
-city: Beverly Hills
-province: CA
-postal_code: 90210
-country: US
-phone: +1.3104352734
+city: linyi
+province: shandong
+postal_code: 276000
+country: CN
+phone: +86.15653970961
 phone_ext: 
 fax: 
 fax_ext: 
-email: claude@dauman.com
+email: yimeng@yandex.ru
 
 admin
 id: 
-name: claude dauman
-organization: Claude Dauman
-street: 9663 Santa Monica Bl. , STE 186
+name: LIQIANG
+organization: 
+street: shandonglinyishuanglingluzhongduan
 street_ext: 
-city: Beverly Hills
-province: CA
-postal_code: 90210
-country: US
-phone: +1.3104352734
+city: linyi
+province: shandong
+postal_code: 276000
+country: CN
+phone: +86.15653970961
 phone_ext: 
 fax: 
 fax_ext: 
-email: claude@dauman.com
+email: yimeng@yandex.ru
 
 tech
 id: 
-name: claude dauman
-organization: Claude Dauman
-street: 9663 Santa Monica Bl. , STE 186
+name: LIQIANG
+organization: 
+street: shandonglinyishuanglingluzhongduan
 street_ext: 
-city: Beverly Hills
-province: CA
-postal_code: 90210
-country: US
-phone: +1.3104352734
+city: linyi
+province: shandong
+postal_code: 276000
+country: CN
+phone: +86.15653970961
 phone_ext: 
 fax: 
 fax_ext: 
-email: claude@dauman.com
+email: yimeng@yandex.ru
 
 bill
 id: 

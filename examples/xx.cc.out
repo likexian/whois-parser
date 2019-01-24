@@ -1,0 +1,76 @@
+registrar_id: 1555
+registrar_name: 22NET, INC.
+whois_server: whois.22.cn
+referral_url: http://www.22.cn
+domain_id: DOMAIN_ID_NOT_GET
+domain_name: xx.cc
+domain_status: clientdeleteprohibited https://icann.org/epp#clientdeleteprohibited,clienttransferprohibited https://icann.org/epp#clienttransferprohibited
+created_date: 1997-10-13T04:00:00Z
+updated_date: 2018-07-05T06:44:59Z
+expiration_date: 2022-03-26T04:00:00Z
+name_servers: ns1.bodis.com,ns2.bodis.com
+domain_dnssec: Unsigned
+
+registrant
+id: Not Available From Registry
+name: zhangming
+organization: Zhejiang Mingyou Finance Information Service Co.,Ltd
+street: 1F, Building 2, The Digital Entertainment Industry Park, No.75 West Wenyi Road
+street_ext: 
+city: HANGZHOU
+province: ZHEJIANG
+postal_code: 310000
+country: CN
+phone: +86.15068863893
+phone_ext: 
+fax: +86.57188276006
+fax_ext: 
+email: service@mingyou.com
+
+admin
+id: Not Available From Registry
+name: zhangming
+organization: Zhejiang Mingyou Finance Information Service Co.,Ltd
+street: 1F, Building 2, The Digital Entertainment Industry Park, No.75 West Wenyi Road
+street_ext: 
+city: HANGZHOU
+province: ZHEJIANG
+postal_code: 310000
+country: CN
+phone: +86.15068863893
+phone_ext: 
+fax: +86.57188276006
+fax_ext: 
+email: service@mingyou.com
+
+tech
+id: Not Available From Registry
+name: zhangming
+organization: Zhejiang Mingyou Finance Information Service Co.,Ltd
+street: 1F, Building 2, The Digital Entertainment Industry Park, No.75 West Wenyi Road
+street_ext: 
+city: HANGZHOU
+province: ZHEJIANG
+postal_code: 310000
+country: CN
+phone: +86.15068863893
+phone_ext: 
+fax: +86.57188276006
+fax_ext: 
+email: service@mingyou.com
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

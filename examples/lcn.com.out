@@ -1,67 +1,67 @@
-registrar_id: 
-registrar_name: LCN.COM LTD.
+registrar_id: 602
+registrar_name: LCN.com Ltd
 whois_server: whois.lcn.com
-referral_url: http://www.lcn.com
-domain_id: 
-domain_name: lcn.com
+referral_url: https://www.lcn.com
+domain_id: 4234833_DOMAIN_COM-VRSN
+domain_name: LCN.COM
 domain_status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
-created_date: 10-feb-1996
-updated_date: 12-mar-2012
-expiration_date: 11-feb-2019
+created_date: 1996-02-10T05:00:00Z
+updated_date: 2018-06-27T12:59:23Z
+expiration_date: 2028-02-11T05:00:00Z
 name_servers: ns0.ai270.net,ns1.ai270.net
-domain_dnssec: 
+domain_dnssec: Unsigned
 
 registrant
 id: 
-name: 
-organization: 
-street: 
+name: LCN Hostmaster
+organization: LCN.com Ltd
+street: Units H, J, K, Gateway 1000, Whittle Way
 street_ext: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
+city: Stevenage
+province: Herts
+postal_code: SG1 2FP
+country: GB
+phone: +44.1438532000
 phone_ext: 
-fax: 
+fax: +44.1438300137
 fax_ext: 
-email: 
+email: support@lcn.com
 
 admin
 id: 
-name: AI-677207
-organization: 
-street: 
+name: LCN Hostmaster
+organization: LCN.com Ltd
+street: Units H, J, K, Gateway 1000, Whittle Way
 street_ext: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
+city: Stevenage
+province: Herts
+postal_code: SG1 2FP
+country: GB
+phone: +44.1438532000
 phone_ext: 
-fax: 
+fax: +44.1438300137
 fax_ext: 
-email: 
+email: support@lcn.com
 
 tech
-id: 
-name: AI-300624
-organization: 
-street: 
+id: AI-300624
+name: LCN Hostmaster
+organization: LCN.com Ltd
+street: Units H, J, K, Gateway 1000, Whittle Way
 street_ext: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
+city: Stevenage
+province: Herts
+postal_code: SG1 2FP
+country: GB
+phone: +44.1438532000
 phone_ext: 
-fax: 
+fax: +44.1438300137
 fax_ext: 
-email: 
+email: support@lcn.com
 
 bill
 id: 
-name: AI-300624
+name: 
 organization: 
 street: 
 street_ext: 

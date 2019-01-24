@@ -1,4 +1,4 @@
-% Copyright (c)2014 by NIC.AT (1)
+% Copyright (c)2019 by NIC.AT (1)                                       
 %
 % Restricted rights.
 %
@@ -22,26 +22,18 @@
 % arising from a violation of these points.
 
 domain:         byme.at
-registrant:     NS3437599-NICAT
-admin-c:        NS3437599-NICAT
-tech-c:         NS3437599-NICAT
-nserver:        ns1.xname.org
-nserver:        ns2.he.net
-nserver:        ns2.xname.org
-nserver:        ns4.he.net
-nserver:        ns6.gandi.net
-changed:        20120121 04:01:40
+registrar:      GANDI SAS ( https://nic.at/registrar/580 )
+registrant:     <data not disclosed>
+tech-c:         <data not disclosed>
+nserver:        andromedaascendant.byme.at
+remarks:        2001:4b98:dc2:41:216:3eff:fe8a:5192
+nserver:        andromedaascendant.byme.at
+remarks:        46.226.109.51
+nserver:        milleniumfalcon.byme.at
+remarks:        103.25.202.173
+nserver:        milleniumfalcon.byme.at
+remarks:        2400:c980:0:2::250
+changed:        20180829 02:53:52
 source:         AT-DOM
 
-personname:     Nicolas Sapa
-organization:
-street address: 3 montee de la cabrette Les terrasses des oliviers
-postal code:    13800
-city:           istres
-country:        France
-phone:          +33628033698
-e-mail:         51cc9e302f60fe7d236250606d2e627d-823195@contact.gandi.net
-nic-hdl:        NS3437599-NICAT
-changed:        20090831 23:08:43
-source:         AT-DOM
 

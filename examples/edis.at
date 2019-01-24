@@ -1,4 +1,4 @@
-% Copyright (c)2014 by NIC.AT (1)
+% Copyright (c)2019 by NIC.AT (1)                                       
 %
 % Restricted rights.
 %
@@ -22,35 +22,30 @@
 % arising from a violation of these points.
 
 domain:         edis.at
-registrant:     KG8294626-NICAT
-admin-c:        KG8294627-NICAT
-tech-c:         KG8294627-NICAT
+registrar:      EDIS GmbH ( https://nic.at/registrar/123 )
+registrant:     EG10028446-NICAT
+tech-c:         EG10028447-NICAT
+nserver:        ns1.edis.at
+remarks:        2a03:f80:ad15:91:227:204:227:1
 nserver:        ns1.edis.at
 remarks:        91.227.204.227
 nserver:        ns2.edis.at
+remarks:        2a03:f80:ad15:91:227:205:227:1
+nserver:        ns2.edis.at
 remarks:        91.227.205.227
 nserver:        ns5.edis.at
-remarks:        46.17.57.5
+remarks:        2a01:348:70:46:17:57:5:1
+nserver:        ns5.edis.at
+remarks:        37.235.54.54
 nserver:        ns6.edis.at
 remarks:        178.209.42.105
-changed:        20111024 14:51:40
+nserver:        ns6.edis.at
+remarks:        2a02:418:6a04:178:209:42:105:1
+changed:        20170730 22:22:58
 source:         AT-DOM
 
-personname:     EDIS GmbH
-organization:   Kleewein Gerhard
-street address: Widmannstettergasse 3
-postal code:    8053
-city:           Graz
-country:        Austria
-phone:          +43316827500300
-fax-no:         +43316827500777
-e-mail:         support@edis.at
-nic-hdl:        KG8294626-NICAT
-changed:        20111024 14:51:40
-source:         AT-DOM
-
-personname:     EDIS GmbH
-organization:   Kleewein Gerhard
+personname:     
+organization:   EDIS GmbH
 street address: Hauptplatz 3
 postal code:    8010
 city:           Graz
@@ -58,7 +53,21 @@ country:        Austria
 phone:          +43316827500300
 fax-no:         +43316827500777
 e-mail:         domreg@edis.at
-nic-hdl:        KG8294627-NICAT
-changed:        20130809 15:17:35
+nic-hdl:        EG10028446-NICAT
+changed:        20150210 15:59:30
 source:         AT-DOM
+
+personname:     Hostmaster of the day
+organization:   EDIS GmbH
+street address: Hauptplatz 3
+postal code:    A-8010
+city:           Graz
+country:        Austria
+phone:          +43316827500300
+fax-no:         +43316827500777
+e-mail:         domreg@edis.at
+nic-hdl:        EG10028447-NICAT
+changed:        20150209 16:22:08
+source:         AT-DOM
+
 

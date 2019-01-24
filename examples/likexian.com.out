@@ -1,63 +1,63 @@
-registrar_id: 48
-registrar_name: ENOM, INC.
-whois_server: whois.enom.com
-referral_url: http://www.enom.com
+registrar_id: 625
+registrar_name: Name.com, Inc.
+whois_server: whois.name.com
+referral_url: http://www.name.com
 domain_id: 1665843940_DOMAIN_COM-VRSN
 domain_name: LIKEXIAN.COM
-domain_status: clienttransferprohibited
-created_date: 08-jul-2011
-updated_date: 14-aug-2014
-expiration_date: 08-jul-2019
+domain_status: clienttransferprohibited https://www.icann.org/epp#clienttransferprohibited
+created_date: 2011-07-08T07:19:58Z
+updated_date: 2015-11-24T09:13:06Z
+expiration_date: 2020-07-08T07:19:58Z
 name_servers: f1g1ns1.dnspod.net,f1g1ns2.dnspod.net
 domain_dnssec: unSigned
 
 registrant
-id: 
-name: WHOISGUARD PROTECTED
-organization: WHOISGUARD, INC.
-street: P.O. BOX 0823-03411
+id: Not Available From Registry
+name: Whois Agent
+organization: Domain Protection Services, Inc.
+street: PO Box 1769
 street_ext: 
-city: PANAMA
-province: PANAMA
-postal_code: 00000
-country: PA
-phone: +507.8365503
+city: Denver
+province: CO
+postal_code: 80201
+country: US
+phone: +1.7208009072
 phone_ext: 
-fax: +51.17057182
+fax: +1.7209758725
 fax_ext: 
-email: 11965cdff2e643ec8799398e305bbe7f.protect@whoisguard.com
+email: https://www.name.com/contact-domain-whois/likexian.com
 
 admin
-id: 
-name: WHOISGUARD PROTECTED
-organization: WHOISGUARD, INC.
-street: P.O. BOX 0823-03411
+id: Not Available From Registry
+name: Whois Agent
+organization: Domain Protection Services, Inc.
+street: PO Box 1769
 street_ext: 
-city: PANAMA
-province: PANAMA
-postal_code: 00000
-country: PA
-phone: +507.8365503
+city: Denver
+province: CO
+postal_code: 80201
+country: US
+phone: +1.7208009072
 phone_ext: 
-fax: +51.17057182
+fax: +1.7209758725
 fax_ext: 
-email: 11965cdff2e643ec8799398e305bbe7f.protect@whoisguard.com
+email: https://www.name.com/contact-domain-whois/likexian.com
 
 tech
-id: 
-name: WHOISGUARD PROTECTED
-organization: WHOISGUARD, INC.
-street: P.O. BOX 0823-03411
+id: Not Available From Registry
+name: Whois Agent
+organization: Domain Protection Services, Inc.
+street: PO Box 1769
 street_ext: 
-city: PANAMA
-province: PANAMA
-postal_code: 00000
-country: PA
-phone: +507.8365503
+city: Denver
+province: CO
+postal_code: 80201
+country: US
+phone: +1.7208009072
 phone_ext: 
-fax: +51.17057182
+fax: +1.7209758725
 fax_ext: 
-email: 11965cdff2e643ec8799398e305bbe7f.protect@whoisguard.com
+email: https://www.name.com/contact-domain-whois/likexian.com
 
 bill
 id: 

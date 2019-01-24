@@ -1,13 +1,13 @@
 registrar_id: 
-registrar_name: RUCENTER-REG-FID
+registrar_name: RUCENTER-SU
 whois_server: 
 referral_url: 
 domain_id: 
 domain_name: CHRONICLE.SU
 domain_status: registered, delegated
-created_date: 2010.10.09
+created_date: 2010-10-08T23:17:02Z
 updated_date: 
-expiration_date: 2014.10.09
+expiration_date: 2019-10-09T00:17:02Z
 name_servers: theo.ns.cloudflare.com,uma.ns.cloudflare.com
 domain_dnssec: 
 

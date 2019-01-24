@@ -1,19 +1,19 @@
 registrar_id: 
-registrar_name: 
+registrar_name: GANDI SAS ( https://nic.at/registrar/580 )
 whois_server: 
 referral_url: 
 domain_id: 
 domain_name: byme.at
 domain_status: 
 created_date: 
-updated_date: 20120121 04:01:40
+updated_date: 20180829 02:53:52
 expiration_date: 
-name_servers: ns1.xname.org,ns2.he.net,ns2.xname.org,ns4.he.net,ns6.gandi.net
+name_servers: andromedaascendant.byme.at,milleniumfalcon.byme.at
 domain_dnssec: 
 
 registrant
 id: 
-name: NS3437599-NICAT
+name: <data not disclosed>
 organization: 
 street: 
 street_ext: 
@@ -28,7 +28,7 @@ fax_ext:
 email: 
 
 admin
-id: NS3437599-NICAT
+id: 
 name: 
 organization: 
 street: 
@@ -44,7 +44,7 @@ fax_ext:
 email: 
 
 tech
-id: NS3437599-NICAT
+id: <data not disclosed>
 name: 
 organization: 
 street: 

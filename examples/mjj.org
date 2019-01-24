@@ -1,69 +1,62 @@
-Domain Name:MJJ.ORG
-Domain ID: D103235836-LROR
-Creation Date: 2003-11-27T16:13:28Z
-Updated Date: 2014-08-01T11:28:10Z
-Registry Expiry Date: 2015-11-27T16:13:28Z
-Sponsoring Registrar:Fabulous.com Pty Ltd. (R133-LROR)
-Sponsoring Registrar IANA ID: 411
-WHOIS Server:
-Referral URL:
-Domain Status: clientDeleteProhibited
-Domain Status: clientTransferProhibited
-Domain Status: serverTransferProhibited
-Registrant ID:7c33818905a44d3e
-Registrant Name:Domain Hostmaster, CustomerID : 57460019768256
-Registrant Organization:Whois Privacy Services Pty Ltd
-Registrant Street: PO Box 923
-Registrant City:Fortitude Valley
-Registrant State/Province:QLD
-Registrant Postal Code:4006
-Registrant Country:AU
-Registrant Phone:+61.730070090
-Registrant Phone Ext:
-Registrant Fax: +61.730070091
-Registrant Fax Ext:
-Registrant Email:57460019768256-7fd914@whoisprivacyservices.com.au
-Admin ID:7c33818905a44d3e
-Admin Name:Domain Hostmaster, CustomerID : 57460019768256
-Admin Organization:Whois Privacy Services Pty Ltd
-Admin Street: PO Box 923
-Admin City:Fortitude Valley
-Admin State/Province:QLD
-Admin Postal Code:4006
-Admin Country:AU
-Admin Phone:+61.730070090
-Admin Phone Ext:
-Admin Fax: +61.730070091
-Admin Fax Ext:
-Admin Email:57460019768256-7fd914@whoisprivacyservices.com.au
-Tech ID:7c33818905a44d3e
-Tech Name:Domain Hostmaster, CustomerID : 57460019768256
-Tech Organization:Whois Privacy Services Pty Ltd
-Tech Street: PO Box 923
-Tech City:Fortitude Valley
-Tech State/Province:QLD
-Tech Postal Code:4006
-Tech Country:AU
-Tech Phone:+61.730070090
-Tech Phone Ext:
-Tech Fax: +61.730070091
-Tech Fax Ext:
-Tech Email:57460019768256-7fd914@whoisprivacyservices.com.au
-Name Server:NS1.SEDOPARKING.COM
-Name Server:NS2.SEDOPARKING.COM
-Name Server:
-Name Server:
-Name Server:
-Name Server:
-Name Server:
-Name Server:
-Name Server:
-Name Server:
-Name Server:
-Name Server:
-Name Server:
-DNSSEC:Unsigned
+Domain Name: MJJ.ORG 
+Registry Domain ID: D103235836-LROR 
+Registrar WHOIS Server: whois.name.com 
+Registrar URL: http://www.name.com 
+Updated Date: 2017-09-03T21:24:10Z 
+Creation Date: 2003-11-27T16:13:28Z 
+Registrar Registration Expiration Date: 2019-11-27T16:13:28Z 
+Registrar: Name.com, Inc. 
+Registrar IANA ID: 625 
+Reseller:  
+Domain Status: clientTransferProhibited https://www.icann.org/epp#clientTransferProhibited 
+Registry Registrant ID: Not Available From Registry 
+Registrant Name: Whois Agent 
+Registrant Organization: Domain Protection Services, Inc. 
+Registrant Street: PO Box 1769  
+Registrant City: Denver 
+Registrant State/Province: CO 
+Registrant Postal Code: 80201 
+Registrant Country: US 
+Registrant Phone: +1.7208009072 
+Registrant Fax: +1.7209758725 
+Registrant Email: https://www.name.com/contact-domain-whois/mjj.org 
+Registry Admin ID: Not Available From Registry 
+Admin Name: Whois Agent 
+Admin Organization: Domain Protection Services, Inc. 
+Admin Street: PO Box 1769  
+Admin City: Denver 
+Admin State/Province: CO 
+Admin Postal Code: 80201 
+Admin Country: US 
+Admin Phone: +1.7208009072 
+Admin Fax: +1.7209758725 
+Admin Email: https://www.name.com/contact-domain-whois/mjj.org 
+Registry Tech ID: Not Available From Registry 
+Tech Name: Whois Agent 
+Tech Organization: Domain Protection Services, Inc. 
+Tech Street: PO Box 1769  
+Tech City: Denver 
+Tech State/Province: CO 
+Tech Postal Code: 80201 
+Tech Country: US 
+Tech Phone: +1.7208009072 
+Tech Fax: +1.7209758725 
+Tech Email: https://www.name.com/contact-domain-whois/mjj.org 
+Name Server: ns1cvw.name.com 
+Name Server: ns2dfg.name.com 
+Name Server: ns3cfp.name.com 
+Name Server: ns4fqz.name.com 
+DNSSEC: unSigned 
+Registrar Abuse Contact Email: abuse@name.com 
+Registrar Abuse Contact Phone: +1.7203101849 
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2019-01-24T12:48:22Z <<< 
 
-Access to Public Interest Registry WHOIS information is provided to assist persons in determining the contents of a domain name registration record in the Public Interest Registry registry database. The data in this record is provided by Public Interest Registry for informational purposes only, and Public Interest Registry does not guarantee its accuracy. This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to(a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the data recipient's own existing customers; or (b) enable high volume, automated, electronic processes that send queries or data to the systems of Registry Operator, a Registrar, or Afilias except as reasonably necessary to register domain names or modify existing registrations. All rights reserved. Public Interest Registry reserves the right to modify these terms at any time. By submitting this query, you agree to abide by this policy.
+For more information on Whois status codes, please visit https://icann.org/epp
+
+
+The data in the Name.com, Inc. WHOIS database is provided by Name.com, Inc. for information purposes, and to assist persons in obtaining information about or related to a domain name registration record. Name.com, Inc. does not guarantee its accuracy.  Users accessing the Name.com, Inc. WHOIS service agree to use the data only for lawful purposes, and under no circumstances may this data be used to: a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the registrar's own existing customers and b) enable high volume, automated, electronic processes that send queries or data to the systems of Name.com, Inc., except as reasonably necessary to register domain names or modify existing registrations. When using the Name.com, Inc. WHOIS service, please consider the following: the WHOIS service is not a replacement for standard EPP commands to the SRS service. WHOIS is not considered authoritative for registered domain objects. The WHOIS service may be scheduled for downtime during production or OT&E maintenance periods. Where applicable, the presence of a [Non-Public Data] tag indicates that such data is not made publicly available due to applicable data privacy laws or requirements.  Access to non-public data may be provided, upon request, where it can be reasonably confirmed that the requester holds a specific legitimate interest and a proper legal basis, for accessing the withheld data. Access to this data can be requested by submitting a request via the form found at https://www.name.com/layered-access-request . Name.com, Inc. reserves the right to modify these terms at any time. By submitting this query, you agree to abide by this policy.
+
+
 
 

@@ -1,76 +1,76 @@
-registrar_id: CORE-904 (Musedoma)
-registrar_name: 
+registrar_id: 9999
+registrar_name: Registry Operations
 whois_server: 
 referral_url: 
-domain_id: D6137686-MUSEUM
+domain_id: DOM000000000677-MUSEUM
 domain_name: about.museum
-domain_status: ok
-created_date: 2005-02-04 19:32:48 GMT
-updated_date: 2014-06-19 14:43:37 GMT
-expiration_date: 2015-02-04 19:32:48 GMT
-name_servers: primary.heberge.info,secondary.heberge.info
-domain_dnssec: 
+domain_status: ok  https://icann.org/epp#ok
+created_date: 2005-02-04T18:32:48Z
+updated_date: 2018-03-07T08:20:19Z
+expiration_date: 2019-02-04T19:32:48Z
+name_servers: ns1.nic.fr,ns2.nic.fr,ns3.nic.fr
+domain_dnssec: signedDelegation
 
 registrant
-id: C13542608-MUSEUM
-name: Marie Claverie
-organization: MuseDoma
-street: 22 rue de Palestro
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: 
+street: REDACTED FOR PRIVACY
 street_ext: 
-city: Paris
+city: REDACTED FOR PRIVACY
 province: 
-postal_code: 75002
+postal_code: REDACTED FOR PRIVACY
 country: FR
-phone: 
+phone: REDACTED FOR PRIVACY
 phone_ext: 
-fax: 
+fax: REDACTED FOR PRIVACY
 fax_ext: 
-email: info@about.museum
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 
 admin
-id: C13339978-MUSEUM
-name: Sonntag Benjamin
-organization: Octopuce
-street: 29 rue Merlin
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY
 street_ext: 
-city: Paris
-province: IDF
-postal_code: 75011
-country: FR
-phone: 
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
 phone_ext: 
-fax: 
+fax: REDACTED FOR PRIVACY
 fax_ext: 
-email: museum@octopuce.fr
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 
 tech
-id: C13339978-MUSEUM
-name: Sonntag Benjamin
-organization: Octopuce
-street: 29 rue Merlin
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY
 street_ext: 
-city: Paris
-province: IDF
-postal_code: 75011
-country: FR
-phone: 
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
 phone_ext: 
-fax: 
+fax: REDACTED FOR PRIVACY
 fax_ext: 
-email: museum@octopuce.fr
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 
 bill
-id: C13542608-MUSEUM
-name: Marie Claverie
-organization: MuseDoma
-street: 22 rue de Palestro
+id: 
+name: 
+organization: 
+street: 
 street_ext: 
-city: Paris
+city: 
 province: 
-postal_code: 75002
-country: FR
+postal_code: 
+country: 
 phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: info@about.museum
+email: 

@@ -1,76 +1,76 @@
-registrar_id: 48
-registrar_name: ENOM, INC.
-whois_server: 
-referral_url: whois.enom.com
+registrar_id: 146
+registrar_name: GoDaddy.com, LLC
+whois_server: whois.godaddy.com
+referral_url: http://www.godaddy.com
 domain_id: D1000929-BIZ
-domain_name: MJJ.BIZ
-domain_status: clienttransferprohibited
-created_date: Wed Nov 07 09:26:44 GMT 2001
-updated_date: Sat Nov 02 00:33:11 GMT 2013
-expiration_date: Thu Nov 06 23:59:59 GMT 2014
-name_servers: dns5.name-services.com,dns4.name-services.com,dns3.name-services.com,dns2.name-services.com,dns1.name-services.com
-domain_dnssec: 
+domain_name: mjj.biz
+domain_status: clienttransferprohibited http://www.icann.org/epp#clienttransferprohibited,clientupdateprohibited http://www.icann.org/epp#clientupdateprohibited,clientrenewprohibited http://www.icann.org/epp#clientrenewprohibited,clientdeleteprohibited http://www.icann.org/epp#clientdeleteprohibited
+created_date: 2001-11-07T09:26:56Z
+updated_date: 2018-11-12T18:55:02Z
+expiration_date: 2019-11-06T23:59:59Z
+name_servers: ns41.domaincontrol.com,ns42.domaincontrol.com
+domain_dnssec: unsigned
 
 registrant
-id: 58368358417559B8
-name: c/o Gregory J.  Chamberlain
-organization: Estate of Michael Jackson
-street: 171 Pier Ave. #304
+id: 
+name: 
+organization: Owned by the Estate of Michael Jackson
+street: 
 street_ext: 
-city: Santa Monica
-province: CA
-postal_code: 90405
-country: United States
-phone: +1.3105263275
+city: 
+province: California
+postal_code: 
+country: us
+phone: 
 phone_ext: 
-fax: +1.3105263275
+fax: 
 fax_ext: 
-email: public-address@subregistry.com
+email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=mjj.biz
 
 admin
-id: 58368358417559B8
-name: c/o Gregory J.  Chamberlain
-organization: Estate of Michael Jackson
-street: 171 Pier Ave. #304
+id: 
+name: 
+organization: 
+street: 
 street_ext: 
-city: Santa Monica
-province: CA
-postal_code: 90405
-country: United States
-phone: +1.3105263275
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
-fax: +1.3105263275
+fax: 
 fax_ext: 
-email: public-address@subregistry.com
+email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=mjj.biz
 
 tech
-id: 58368358417559B8
-name: c/o Gregory J.  Chamberlain
-organization: Estate of Michael Jackson
-street: 171 Pier Ave. #304
+id: 
+name: 
+organization: 
+street: 
 street_ext: 
-city: Santa Monica
-province: CA
-postal_code: 90405
-country: United States
-phone: +1.3105263275
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
-fax: +1.3105263275
+fax: 
 fax_ext: 
-email: public-address@subregistry.com
+email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=mjj.biz
 
 bill
-id: 58368358417559B8
-name: c/o Gregory J.  Chamberlain
-organization: Estate of Michael Jackson
-street: 171 Pier Ave. #304
+id: 
+name: 
+organization: 
+street: 
 street_ext: 
-city: Santa Monica
-province: CA
-postal_code: 90405
-country: United States
-phone: +1.3105263275
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
-fax: +1.3105263275
+fax: 
 fax_ext: 
-email: public-address@subregistry.com
+email: 

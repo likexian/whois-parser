@@ -1,76 +1,76 @@
 registrar_id: 146
-registrar_name: GoDaddy.com, LLC (R171-LRMS)
-whois_server: 
-referral_url: 
+registrar_name: GoDaddy.com, LLC
+whois_server: whois.godaddy.com
+referral_url: http://www.godaddy.com
 domain_id: D51322538-LRMS
 domain_name: GITHUB.INFO
-domain_status: clientdeleteprohibited,clientrenewprohibited,clienttransferprohibited,clientupdateprohibited
+domain_status: clienttransferprohibited http://www.icann.org/epp#clienttransferprohibited,clientupdateprohibited http://www.icann.org/epp#clientupdateprohibited,clientrenewprohibited http://www.icann.org/epp#clientrenewprohibited,clientdeleteprohibited http://www.icann.org/epp#clientdeleteprohibited
 created_date: 2014-01-05T12:18:22Z
-updated_date: 2014-03-06T20:30:44Z
-expiration_date: 2015-01-05T12:18:22Z
-name_servers: ns1.tlh.ro,ns2.tlh.ro
-domain_dnssec: Unsigned
+updated_date: 2019-01-06T12:04:19Z
+expiration_date: 2020-01-05T12:18:22Z
+name_servers: ns.romania-webhosting.com,ns.clausweb.ro,ns.registar.ro
+domain_dnssec: unsigned
 
 registrant
-id: CR157784871
-name: Avatavului Dumitru
+id: 
+name: 
 organization: Tnx
-street: Bodesti nr.191
+street: 
 street_ext: 
-city: Buhusi
+city: 
 province: Bacau
-postal_code: 605100
+postal_code: 
 country: RO
-phone: +40.0745670199
+phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: fretzat@yahoo.com
+email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=github.info
 
 admin
-id: CR157784873
-name: Avatavului Dumitru
-organization: Tnx
-street: Bodesti nr.191
+id: 
+name: 
+organization: 
+street: 
 street_ext: 
-city: Buhusi
-province: Bacau
-postal_code: 605100
-country: RO
-phone: +40.0745670199
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: fretzat@yahoo.com
+email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=github.info
 
 tech
-id: CR157784872
-name: Avatavului Dumitru
-organization: Tnx
-street: Bodesti nr.191
+id: 
+name: 
+organization: 
+street: 
 street_ext: 
-city: Buhusi
-province: Bacau
-postal_code: 605100
-country: RO
-phone: +40.0745670199
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: fretzat@yahoo.com
+email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=github.info
 
 bill
-id: CR157784874
-name: Avatavului Dumitru
-organization: Tnx
-street: Bodesti nr.191
+id: 
+name: 
+organization: 
+street: 
 street_ext: 
-city: Buhusi
-province: Bacau
-postal_code: 605100
-country: RO
-phone: +40.0745670199
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: fretzat@yahoo.com
+email: 

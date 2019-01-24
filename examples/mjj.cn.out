@@ -8,7 +8,7 @@ domain_status: clientdeleteprohibited,clienttransferprohibited
 created_date: 2006-07-04 19:47:07
 updated_date: 
 expiration_date: 2020-07-04 19:47:07
-name_servers: dns1.iidns.com,dns2.iidns.com,dns3.iidns.com,dns4.iidns.com,dns5.iidns.com,dns6.iidns.com
+name_servers: ns4.dns.com,ns3.dns.com
 domain_dnssec: unsigned
 
 registrant

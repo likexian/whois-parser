@@ -1,63 +1,63 @@
 registrar_id: 48
 registrar_name: ENOM, INC.
-whois_server: whois.enom.com
-referral_url: http://www.enom.com
-domain_id: NA
-domain_name: MJJ.NET
-domain_status: clienttransferprohibited
-created_date: 02-apr-1998
-updated_date: 31-mar-2014
-expiration_date: 01-apr-2015
+whois_server: WHOIS.ENOM.COM
+referral_url: WWW.ENOM.COM
+domain_id: 1558436_DOMAIN_NET-VRSN
+domain_name: mjj.net
+domain_status: clienttransferprohibited https://www.icann.org/epp#clienttransferprohibited,registrar-lock* https://www.icann.org/epp#registrar-lock*
+created_date: 1998-04-02T05:00:00.00Z
+updated_date: 2018-03-31T20:12:49.00Z
+expiration_date: 2019-04-01T04:00:00.00Z
 name_servers: dns1.name-services.com,dns2.name-services.com,dns3.name-services.com,dns4.name-services.com,dns5.name-services.com
-domain_dnssec: unSigned
+domain_dnssec: UNSIGNED
 
 registrant
 id: 
-name: C/O GREGORY J. CHAMBERLAIN
-organization: ESTATE OF MICHAEL JACKSON
-street: 171 PIER AVE. #304
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY
 street_ext: 
-city: SANTA MONICA
-province: CA
-postal_code: 90405
-country: US
-phone: +1.3108569883
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
 phone_ext: 
-fax: 
+fax: REDACTED FOR PRIVACY
 fax_ext: 
-email: public-address@subregistry.com
+email: redacted for privacy
 
 admin
 id: 
-name: C/O GREGORY J. CHAMBERLAIN
-organization: ESTATE OF MICHAEL JACKSON
-street: 171 PIER AVE. #304
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY
 street_ext: 
-city: SANTA MONICA
-province: CA
-postal_code: 90405
-country: US
-phone: +1.3108569883
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
 phone_ext: 
-fax: 
+fax: REDACTED FOR PRIVACY
 fax_ext: 
-email: public-address@subregistry.com
+email: redacted for privacy
 
 tech
 id: 
-name: C/O GREGORY J. CHAMBERLAIN
-organization: ESTATE OF MICHAEL JACKSON
-street: 171 PIER AVE. #304
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY
 street_ext: 
-city: SANTA MONICA
-province: CA
-postal_code: 90405
-country: US
-phone: +1.3108569883
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
 phone_ext: 
-fax: 
+fax: REDACTED FOR PRIVACY
 fax_ext: 
-email: public-address@subregistry.com
+email: redacted for privacy
 
 bill
 id: 

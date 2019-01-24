@@ -1,19 +1,19 @@
 registrar_id: 
-registrar_name: radicenter
+registrar_name: Loopia AB
 whois_server: 
 referral_url: 
 domain_id: 
-domain_name: paste.ee
-domain_status: paid and in zone
-created_date: 14.06.2012 08:36:03
-updated_date: 11.02.2014 19:23:31
-expiration_date: 14.06.2015
-name_servers: ns-634.awsdns-15.net,ns-1876.awsdns-42.co.uk,ns-1199.awsdns-21.org,ns-442.awsdns-55.com
-domain_dnssec: 
+domain_name: vf.se
+domain_status: active,ok
+created_date: 2003-06-23
+updated_date: 2018-06-01
+expiration_date: 2019-06-23
+name_servers: dns.nkp.se,dns.nwt.se,dns.sla.se
+domain_dnssec: unsigned delegation
 
 registrant
 id: 
-name: CID:NETPOINT:NPSR30X21883
+name: 
 organization: 
 street: 
 street_ext: 
@@ -28,7 +28,7 @@ fax_ext:
 email: 
 
 admin
-id: CID:NETPOINT:NPSA30X21883
+id: -
 name: 
 organization: 
 street: 
@@ -44,7 +44,7 @@ fax_ext:
 email: 
 
 tech
-id: CID:NETPOINT:NPST30X21883
+id: -
 name: 
 organization: 
 street: 
@@ -60,7 +60,7 @@ fax_ext:
 email: 
 
 bill
-id: 
+id: -
 name: 
 organization: 
 street: 

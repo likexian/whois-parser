@@ -1,14 +1,14 @@
 registrar_id: 
-registrar_name: REGTIME-REG-RIPN
+registrar_name: REGRU-RU
 whois_server: 
 referral_url: 
 domain_id: 
 domain_name: MJJ.RU
 domain_status: registered, delegated, unverified
-created_date: 2005.08.25
+created_date: 2014-09-25T13:06:18Z
 updated_date: 
-expiration_date: 2014.08.25
-name_servers: ns1.logol.ru,ns2.logol.ru
+expiration_date: 2019-09-25T14:06:18Z
+name_servers: ns1.domainparking.ru,ns2.domainparking.ru
 domain_dnssec: 
 
 registrant
@@ -29,7 +29,7 @@ email:
 
 admin
 id: 
-name: http://whois.webnames.ru
+name: http://www.reg.ru/whois/admin_contact
 organization: 
 street: 
 street_ext: 

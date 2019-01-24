@@ -1,15 +1,15 @@
-registrar_id: 
-registrar_name: www.binero.se
-whois_server: 
-referral_url: 
-domain_id: 
-domain_name: ersi.se
-domain_status: active,ok
-created_date: 2013-09-30
-updated_date: 2013-11-12
-expiration_date: 2014-09-30
-name_servers: atdns03.citynetwork.se,atdns02.citynetwork.se,atdns01.citynetwork.se
-domain_dnssec: signed delegation
+registrar_id: 1345
+registrar_name: Key-Systems GmbH
+whois_server: whois.rrpproxy.net
+referral_url: http://rrpproxy.com
+domain_id: D865CD2B39D1835CE040010AAB015FFF
+domain_name: KIWA.WS
+domain_status: ok
+created_date: 2005-09-05T20:26:28Z
+updated_date: 2018-09-05T08:56:12Z
+expiration_date: 2019-09-05T20:26:28Z
+name_servers: ns1.openprovider.nl,ns2.openprovider.be,ns3.openprovider.eu
+domain_dnssec: unsigned
 
 registrant
 id: 
@@ -28,7 +28,7 @@ fax_ext:
 email: 
 
 admin
-id: -
+id: 
 name: 
 organization: 
 street: 
@@ -44,7 +44,7 @@ fax_ext:
 email: 
 
 tech
-id: -
+id: 
 name: 
 organization: 
 street: 
@@ -60,7 +60,7 @@ fax_ext:
 email: 
 
 bill
-id: -
+id: 
 name: 
 organization: 
 street: 

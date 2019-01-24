@@ -5,9 +5,9 @@ referral_url:
 domain_id: 
 domain_name: singularity.fr
 domain_status: active
-created_date: 04/04/2009
-updated_date: 01/09/2009
-expiration_date: 
+created_date: 2009-04-04T19:28:55Z
+updated_date: 2018-03-17T20:48:01Z
+expiration_date: 2019-08-31T22:01:18Z
 name_servers: ns-sec.toile-libre.org,ns-pri.toile-libre.org
 domain_dnssec: 
 

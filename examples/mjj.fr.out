@@ -5,10 +5,10 @@ referral_url:
 domain_id: 
 domain_name: mjj.fr
 domain_status: active
-created_date: 05/07/2007
-updated_date: 07/11/2013
-expiration_date: 
-name_servers: ns1.eurodns.com,ns2.eurodns.com,ns3.eurodns.com,ns4.eurodns.com
+created_date: 2007-07-05T06:56:42Z
+updated_date: 2018-12-07T14:02:43Z
+expiration_date: 2019-09-08T14:49:59Z
+name_servers: ns1.sedoparking.com,ns2.sedoparking.com
 domain_dnssec: 
 
 registrant
@@ -28,7 +28,7 @@ fax_ext:
 email: 
 
 admin
-id: ANO00-FRNIC
+id: RG1447-FRNIC
 name: 
 organization: 
 street: 

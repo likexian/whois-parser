@@ -7,9 +7,9 @@ domain_name: mjj.kr
 domain_status: 
 created_date: 2013. 09. 26.
 updated_date: 2013. 09. 26.
-expiration_date: 2016. 09. 26.
+expiration_date: 2019. 09. 26.
 name_servers: ns.basehosting.co.kr,ns1.basehosting.co.kr,ns2.basehosting.co.kr,ns3.basehosting.co.kr
-domain_dnssec: 
+domain_dnssec: 미서명
 
 registrant
 id: 

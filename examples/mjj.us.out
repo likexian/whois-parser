@@ -1,76 +1,76 @@
-registrar_id: 228
-registrar_name: MONIKER ONLINE SERVICES, LLC
-whois_server: 
-referral_url: whois.moniker.com
+registrar_id: 146
+registrar_name: GoDaddy.com, LLC
+whois_server: whois.godaddy.com
+referral_url: http://www.godaddy.com
 domain_id: D10446780-US
-domain_name: MJJ.US
-domain_status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
-created_date: Sun Jul 09 18:08:53 GMT 2006
-updated_date: Mon Jul 07 10:36:08 GMT 2014
-expiration_date: Wed Jul 08 23:59:59 GMT 2015
-name_servers: ns1.fastpark.net,ns2.fastpark.net
-domain_dnssec: false
+domain_name: mjj.us
+domain_status: clienttransferprohibited http://www.icann.org/epp#clienttransferprohibited,clientupdateprohibited http://www.icann.org/epp#clientupdateprohibited,clientrenewprohibited http://www.icann.org/epp#clientrenewprohibited,clientdeleteprohibited http://www.icann.org/epp#clientdeleteprohibited
+created_date: 2006-07-09T18:08:53Z
+updated_date: 2018-07-06T10:40:08Z
+expiration_date: 2019-07-08T23:59:59Z
+name_servers: ns1.undeveloped.com,ns2.undeveloped.com
+domain_dnssec: unsigned
 
 registrant
-id: MONIKER9251
-name: John Nguyen
-organization: johnnguyen
-street: 640 Hedgewick Drive
+id: 
+name: 
+organization: 
+street: 
 street_ext: 
-city: Lancaster
-province: PA
-postal_code: 17603
-country: United States
-phone: +1.7174751220
+city: 
+province: Pennsylvania
+postal_code: 
+country: US
+phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: domainpros@gmail.com
+email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=mjj.us
 
 admin
-id: MONIKER9251
-name: John Nguyen
-organization: johnnguyen
-street: 640 Hedgewick Drive
+id: 
+name: 
+organization: 
+street: 
 street_ext: 
-city: Lancaster
-province: PA
-postal_code: 17603
-country: United States
-phone: +1.7174751220
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: domainpros@gmail.com
+email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=mjj.us
 
 tech
-id: MONIKER9251
-name: John Nguyen
-organization: johnnguyen
-street: 640 Hedgewick Drive
+id: 
+name: 
+organization: 
+street: 
 street_ext: 
-city: Lancaster
-province: PA
-postal_code: 17603
-country: United States
-phone: +1.7174751220
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: domainpros@gmail.com
+email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=mjj.us
 
 bill
-id: MONIKER9251
-name: John Nguyen
-organization: johnnguyen
-street: 640 Hedgewick Drive
+id: 
+name: 
+organization: 
+street: 
 street_ext: 
-city: Lancaster
-province: PA
-postal_code: 17603
-country: United States
-phone: +1.7174751220
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: domainpros@gmail.com
+email: 

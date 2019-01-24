@@ -5,9 +5,9 @@ referral_url:
 domain_id: 
 domain_name: nic.re
 domain_status: active
-created_date: 01/01/1995
-updated_date: 26/04/2011
-expiration_date: 
+created_date: 1994-12-31T23:00:00Z
+updated_date: 2018-12-31T23:33:19Z
+expiration_date: 2019-12-31T23:00:00Z
 name_servers: ns1.nic.fr,ns2.nic.fr,ns3.nic.fr
 domain_dnssec: 
 

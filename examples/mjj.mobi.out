@@ -1,63 +1,63 @@
-registrar_id: 
-registrar_name: Xin Net Technology Corporation (120)
+registrar_id: 303
+registrar_name: PDR Ltd. d/b/a PublicDomainRegistry.com
 whois_server: 
-referral_url: 
-domain_id: D7252054-MOBI
+referral_url: http://www.PublicDomainRegistry.com
+domain_id: D503300000115507533-LRMS
 domain_name: MJJ.MOBI
-domain_status: ok
-created_date: 25-Feb-2013 06:23:19 UTC
-updated_date: 27-Apr-2013 05:05:18 UTC
-expiration_date: 25-Feb-2018 06:23:19 UTC
-name_servers: ns7.ns365.net,ns8.ns365.net
-domain_dnssec: 
+domain_status: clienttransferprohibited https://icann.org/epp#clienttransferprohibited
+created_date: 2018-07-07T11:33:47Z
+updated_date: 2018-09-05T20:31:29Z
+expiration_date: 2021-07-07T11:33:47Z
+name_servers: coge318280.venus.orderbox-dns.com,coge318280.mercury.orderbox-dns.com
+domain_dnssec: unsigned
 
 registrant
-id: wuf3b0316xeku3
-name: JueFei Liu
-organization: MuMeiJu
-street: FoShan ShunDe
+id: 
+name: 
+organization: wenqiang wei
+street: 
 street_ext: 
-city: foshanshi
-province: guangdongsheng
-postal_code: 512000
+city: 
+province: Zhejiang
+postal_code: 
 country: CN
-phone: +86.018988657666
+phone: 
 phone_ext: 
-fax: +86.075786905377
+fax: 
 fax_ext: 
-email: powcomcn@yahoo.cn
+email: 
 
 admin
-id: wuf3b0316xeku3a
-name: JueFei Liu
-organization: QingBin Ma
-street: FoShan ShunDe
+id: 
+name: 
+organization: 
+street: 
 street_ext: 
-city: foshanshi
-province: guangdongsheng
-postal_code: 512000
-country: CN
-phone: +86.18988657666
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
-fax: +86.075786905377
+fax: 
 fax_ext: 
-email: 103111328@qq.com
+email: 
 
 tech
-id: wuf3b0316xeku3a
-name: JueFei Liu
-organization: QingBin Ma
-street: FoShan ShunDe
+id: 
+name: 
+organization: 
+street: 
 street_ext: 
-city: foshanshi
-province: guangdongsheng
-postal_code: 512000
-country: CN
-phone: +86.18988657666
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
-fax: +86.075786905377
+fax: 
 fax_ext: 
-email: 103111328@qq.com
+email: 
 
 bill
 id: 

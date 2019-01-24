@@ -1,13 +1,13 @@
 registrar_id: 
-registrar_name: AEB Komm
+registrar_name: EgenSajt.se
 whois_server: 
 referral_url: 
 domain_id: 
 domain_name: prq.se
 domain_status: active,ok
 created_date: 2004-06-14
-updated_date: 2014-06-29
-expiration_date: 2016-06-14
+updated_date: 2019-01-15
+expiration_date: 2020-06-14
 name_servers: ns.prq.se,ns2.prq.se
 domain_dnssec: unsigned delegation
 

@@ -1,63 +1,63 @@
-registrar_id: 146
-registrar_name: GODADDY.COM, LLC
-whois_server: whois.godaddy.com
-referral_url: http://registrar.godaddy.com
+registrar_id: 1555
+registrar_name: 22NET, INC.
+whois_server: whois.22.cn
+referral_url: http://www.22.cn
 domain_id: 27075471_DOMAIN_COM-VRSN
-domain_name: MJJ.COM
-domain_status: clientdeleteprohibited,clientrenewprohibited,clienttransferprohibited,clientupdateprohibited
-created_date: 15-may-2000
-updated_date: 28-feb-2014
-expiration_date: 15-may-2015
-name_servers: buy.internettraffic.com,sell.internettraffic.com
-domain_dnssec: unsigned
+domain_name: mjj.com
+domain_status: clientdeleteprohibited https://icann.org/epp#clientdeleteprohibited,clienttransferprohibited https://icann.org/epp#clienttransferprohibited
+created_date: 2000-05-15T02:46:49Z
+updated_date: 2015-11-18T03:01:45Z
+expiration_date: 2021-05-15T02:46:49Z
+name_servers: dns1.009.com,dns2.009.com
+domain_dnssec: Unsigned
 
 registrant
 id: 
 name: 
-organization: NameZoom
-street: Bryan Graves 6431BakerRd Seaford, DE 19973
+organization: xiemingshan
+street: 
 street_ext: 
 city: 
-province: 
+province: fujian
 postal_code: 
-country: United States
+country: CN
 phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: nocontactsfound@secureserver.net
+email: https://whois.22.cn/whoisform.aspx?type=1&domain=mjj.com
 
 admin
 id: 
 name: 
-organization: NameZoom
-street: Bryan Graves  6431BakerRd Seaford, DE 19973
+organization: 
+street: 
 street_ext: 
 city: 
 province: 
 postal_code: 
-country: United States
-phone: 3024762700
+country: 
+phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: closeout@gmail.com
+email: https://whois.22.cn/whoisform.aspx?type=2&domain=mjj.com
 
 tech
 id: 
-name: Bryan Graves
-organization: NameZoom
-street: 6431BakerRd Seaford, DE 19973
+name: 
+organization: 
+street: 
 street_ext: 
 city: 
 province: 
 postal_code: 
-country: United States
-phone: 3024762700
+country: 
+phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: closeout@gmail.com
+email: https://whois.22.cn/whoisform.aspx?type=3&domain=mjj.com
 
 bill
 id: 

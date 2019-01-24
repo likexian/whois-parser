@@ -1,63 +1,63 @@
 registrar_id: 9999
 registrar_name: Donuts Internal (9999)
-whois_server: http://whois.donuts.co
+whois_server: whois.donuts.co
 referral_url: http://www.donuts.co
-domain_id: a0fb5438b41f49579aadf206bdc8c063-D
+domain_id: a0fb5438b41f49579aadf206bdc8c063-DONUTS
 domain_name: nic.technology
-domain_status: ok
+domain_status: servertransferprohibited https://icann.org/epp#servertransferprohibited
 created_date: 2013-09-23T12:31:33Z
-updated_date: 2014-04-02T19:05:05Z
-expiration_date: 2015-09-23T12:31:33Z
-name_servers: pdns86.ultradns.com,pdns86.ultradns.biz,pdns86.ultradns.net,pdns86.ultradns.org
+updated_date: 2018-11-07T12:32:11Z
+expiration_date: 2019-09-23T12:31:33Z
+name_servers: ns-1501.awsdns-59.org,ns-380.awsdns-47.com,ns-811.awsdns-37.net,ns-1597.awsdns-07.co.uk
 domain_dnssec: unsigned
 
 registrant
-id: id01
-name: DNS Administrator
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
 organization: Donuts Inc.
-street: 10500 NE 8th St Suite 350
+street: REDACTED FOR PRIVACY
 street_ext: 
-city: Bellevue
+city: REDACTED FOR PRIVACY
 province: WA
-postal_code: 98004
+postal_code: REDACTED FOR PRIVACY
 country: US
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: dnsadmin@donuts.co
+phone: REDACTED FOR PRIVACY
+phone_ext: REDACTED FOR PRIVACY
+fax: REDACTED FOR PRIVACY
+fax_ext: REDACTED FOR PRIVACY
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 
 admin
-id: id01
-name: DNS Administrator
-organization: Donuts Inc.
-street: 10500 NE 8th St Suite 350
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY
 street_ext: 
-city: Bellevue
-province: WA
-postal_code: 98004
-country: US
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: dnsadmin@donuts.co
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
+phone_ext: REDACTED FOR PRIVACY
+fax: REDACTED FOR PRIVACY
+fax_ext: REDACTED FOR PRIVACY
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 
 tech
-id: id01
-name: DNS Administrator
-organization: Donuts Inc.
-street: 10500 NE 8th St Suite 350
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY
 street_ext: 
-city: Bellevue
-province: WA
-postal_code: 98004
-country: US
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: dnsadmin@donuts.co
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
+phone_ext: REDACTED FOR PRIVACY
+fax: REDACTED FOR PRIVACY
+fax_ext: REDACTED FOR PRIVACY
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 
 bill
 id: 

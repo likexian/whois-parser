@@ -1,4 +1,4 @@
-# Copyright (c) 1997- .SE (The Internet Infrastructure Foundation).
+# Copyright (c) 1997- IIS (The Internet Foundation In Sweden).
 # All rights reserved.
 # The information obtained through searches, or otherwise, is protected
 # by the Swedish Copyright Act (1960:729) and international conventions.
@@ -10,22 +10,23 @@
 # party, it must be done in its entirety. This server must
 # not be used as a backend for a search engine.
 # Result of search for registered domain names under
-# the .SE top level domain.
+# the .se top level domain.
 # This whois printout is printed with UTF-8 encoding.
 #
 state:            active
-domain:           ersi.se
-holder:           xxxeri8837-00001
+domain:           vf.se
+holder:           pernya8958-00001
 admin-c:          -
 tech-c:           -
 billing-c:        -
-created:          2013-09-30
-modified:         2013-11-12
-expires:          2014-09-30
-transferred:      2013-11-12
-nserver:          atdns03.citynetwork.se
-nserver:          atdns02.citynetwork.se
-nserver:          atdns01.citynetwork.se
-dnssec:           signed delegation
+created:          2003-06-23
+modified:         2018-06-01
+expires:          2019-06-23
+transferred:      2017-10-20
+nserver:          dns.nkp.se
+nserver:          dns.nwt.se
+nserver:          dns.sla.se
+dnssec:           unsigned delegation
 status:           ok
-registrar:        www.binero.se
+registrar:        Loopia AB
+

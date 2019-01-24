@@ -1,76 +1,76 @@
-registrar_id: 
-registrar_name: ZhuHai NaiSiNiKe Information Technology Co., Ltd R231-ASIA (1619)
+registrar_id: 3775
+registrar_name: ALIBABA.COM SINGAPORE E-COMMERCE PRIVATE LIMITED
 whois_server: 
 referral_url: 
-domain_id: D2971661-ASIA
+domain_id: D425500000032899133-AGRS
 domain_name: MJJ.ASIA
-domain_status: client delete prohibited,client transfer prohibited
-created_date: 10-Feb-2014 05:24:02 UTC
-updated_date: 11-Jul-2014 08:53:27 UTC
-expiration_date: 10-Feb-2015 05:24:02 UTC
-name_servers: ns2.dnsdun.net,ns4.dnsdun.com
-domain_dnssec: 
+domain_status: ok https://icann.org/epp#ok
+created_date: 2018-03-14T08:52:54Z
+updated_date: 2018-05-13T21:15:59Z
+expiration_date: 2019-03-14T08:52:54Z
+name_servers: ns7.alidns.com,ns8.alidns.com
+domain_dnssec: unsigned
 
 registrant
-id: niceasia-466993
-name: wang jin qiu
-organization: wang jin qiu
+id: 
+name: 
+organization: Nexperian Holding Limited
 street: 
 street_ext: 
-city: ChengDu
-province: SC
-postal_code: 611600
+city: 
+province: Zhejiang
+postal_code: 
 country: CN
-phone: +86.13398151063
+phone: 
 phone_ext: 
-fax: +86.02888591799
+fax: 
 fax_ext: 
-email: 1139435081@qq.com
+email: 
 
 admin
-id: niceasia-466993
-name: wang jin qiu
-organization: wang jin qiu
+id: 
+name: 
+organization: 
 street: 
 street_ext: 
-city: ChengDu
-province: SC
-postal_code: 611600
-country: CN
-phone: +86.13398151063
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
-fax: +86.02888591799
+fax: 
 fax_ext: 
-email: 1139435081@qq.com
+email: 
 
 tech
-id: niceasia-466993
-name: wang jin qiu
-organization: wang jin qiu
+id: 
+name: 
+organization: 
 street: 
 street_ext: 
-city: ChengDu
-province: SC
-postal_code: 611600
-country: CN
-phone: +86.13398151063
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
-fax: +86.02888591799
+fax: 
 fax_ext: 
-email: 1139435081@qq.com
+email: 
 
 bill
-id: niceasia-466993
-name: wang jin qiu
-organization: wang jin qiu
+id: 
+name: 
+organization: 
 street: 
 street_ext: 
-city: ChengDu
-province: SC
-postal_code: 611600
-country: CN
-phone: +86.13398151063
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
-fax: +86.02888591799
+fax: 
 fax_ext: 
-email: 1139435081@qq.com
+email: 

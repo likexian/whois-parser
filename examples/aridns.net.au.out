@@ -1,19 +1,19 @@
-registrar_id: Melbourne IT
-registrar_name: Melbourne IT
-whois_server: 
+registrar_id: 
+registrar_name: Synergy Wholesale Pty Ltd
+whois_server: whois.auda.org.au
 referral_url: 
-domain_id: 
-domain_name: aridns.net.au
-domain_status: serverdeleteprohibited (protected by .aulockdown),serverupdateprohibited (protected by .aulockdown)
+domain_id: D407400000000574093-AU
+domain_name: ARIDNS.NET.AU
+domain_status: serverrenewprohibited https://afilias.com.au/get-au/whois-status-codes#serverrenewprohibited
 created_date: 
-updated_date: 12-Jul-2013 08:26:40 UTC
+updated_date: 2018-08-14T23:20:06Z
 expiration_date: 
-name_servers: ari.alpha.aridns.net.au,ari.beta.aridns.net.au,ari.gamma.aridns.net.au,ari.delta.aridns.net.au
-domain_dnssec: 
+name_servers: ari.alpha.aridns.net.au,ari.beta.aridns.net.au,ari.delta.aridns.net.au,ari.gamma.aridns.net.au
+domain_dnssec: signedDelegation
 
 registrant
-id: 83052O1868269
-name: Domain Administrator
+id: ABN 16103729620
+name: AusRegistry International Pty. Ltd.
 organization: 
 street: 
 street_ext: 
@@ -25,7 +25,7 @@ phone:
 phone_ext: 
 fax: 
 fax_ext: 
-email: visit whois.ausregistry.com.au for web based whois
+email: 
 
 admin
 id: 
@@ -57,7 +57,7 @@ phone:
 phone_ext: 
 fax: 
 fax_ext: 
-email: visit whois.ausregistry.com.au for web based whois
+email: 
 
 bill
 id: 

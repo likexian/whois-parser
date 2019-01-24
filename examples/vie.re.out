@@ -1,14 +1,14 @@
 registrar_id: 
-registrar_name: INTERNET.BS CORP
+registrar_name: OVH
 whois_server: 
 referral_url: 
 domain_id: 
-domain_name: icetwy.re
+domain_name: vie.re
 domain_status: active
-created_date: 19/06/2013
-updated_date: 02/11/2013
-expiration_date: 
-name_servers: josh.ns.cloudflare.com,rita.ns.cloudflare.com
+created_date: 2015-01-30T11:06:10Z
+updated_date: 2018-12-18T10:26:14Z
+expiration_date: 2019-01-30T11:06:10Z
+name_servers: dns200.anycast.me,ns200.anycast.me
 domain_dnssec: 
 
 registrant
@@ -28,7 +28,7 @@ fax_ext:
 email: 
 
 admin
-id: MR2133-FRNIC
+id: OK217-FRNIC
 name: 
 organization: 
 street: 
@@ -44,7 +44,7 @@ fax_ext:
 email: 
 
 tech
-id: MR2133-FRNIC
+id: OK217-FRNIC
 name: 
 organization: 
 street: 

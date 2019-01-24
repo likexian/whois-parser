@@ -1,19 +1,19 @@
 registrar_id: 
-registrar_name: 
+registrar_name: EDIS GmbH ( https://nic.at/registrar/123 )
 whois_server: 
 referral_url: 
 domain_id: 
 domain_name: edis.at
 domain_status: 
 created_date: 
-updated_date: 20111024 14:51:40
+updated_date: 20170730 22:22:58
 expiration_date: 
 name_servers: ns1.edis.at,ns2.edis.at,ns5.edis.at,ns6.edis.at
 domain_dnssec: 
 
 registrant
 id: 
-name: KG8294626-NICAT
+name: EG10028446-NICAT
 organization: 
 street: 
 street_ext: 
@@ -28,7 +28,7 @@ fax_ext:
 email: 
 
 admin
-id: KG8294627-NICAT
+id: 
 name: 
 organization: 
 street: 
@@ -44,7 +44,7 @@ fax_ext:
 email: 
 
 tech
-id: KG8294627-NICAT
+id: EG10028447-NICAT
 name: 
 organization: 
 street: 

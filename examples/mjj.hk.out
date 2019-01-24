@@ -1,15 +1,15 @@
 registrar_id: 
-registrar_name: Hong Kong Domain Name Registration Company Limited
+registrar_name: WEST263 INTERNATIONAL LIMITED
 whois_server: 
 referral_url: 
 domain_id: 
 domain_name: MJJ.HK
-domain_status: overdue
-created_date: 22-07-2008
+domain_status: active
+created_date: 23-10-2014
 updated_date: 
-expiration_date: 23-07-2014
-name_servers: ns5.hkdnr.net.hk,ns6.hkdnr.net.hk
-domain_dnssec: 
+expiration_date: 23-10-2019
+name_servers: carl.ns.cloudflare.com,nicole.ns.cloudflare.com
+domain_dnssec: unsigned
 
 registrant
 id: 

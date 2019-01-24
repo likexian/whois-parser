@@ -1,4 +1,4 @@
-# Copyright (c) 1997- .SE (The Internet Infrastructure Foundation).
+# Copyright (c) 1997- IIS (The Internet Foundation In Sweden).
 # All rights reserved.
 # The information obtained through searches, or otherwise, is protected
 # by the Swedish Copyright Act (1960:729) and international conventions.
@@ -10,21 +10,22 @@
 # party, it must be done in its entirety. This server must
 # not be used as a backend for a search engine.
 # Result of search for registered domain names under
-# the .SE top level domain.
+# the .se top level domain.
 # This whois printout is printed with UTF-8 encoding.
 #
 state:            active
 domain:           prq.se
-holder:           perper9352-00001
+holder:           (not shown)
 admin-c:          -
 tech-c:           -
 billing-c:        -
 created:          2004-06-14
-modified:         2014-06-29
-expires:          2016-06-14
-transferred:      2012-08-09
+modified:         2019-01-15
+expires:          2020-06-14
+transferred:      2018-10-04
 nserver:          ns.prq.se 193.104.214.194
 nserver:          ns2.prq.se 88.80.30.194
 dnssec:           unsigned delegation
 status:           ok
-registrar:        AEB Komm
+registrar:        EgenSajt.se
+
