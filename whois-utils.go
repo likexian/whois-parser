@@ -16,20 +16,17 @@ import (
 )
 
 
-func ReadFile(file string) (result string, err error) {
-    tmp_result, err := ioutil.ReadFile(file)
+func ReadFile(file string) (str string, err error) {
+    tmpResult, err := ioutil.ReadFile(file)
     if err != nil {
         return
     }
-
-    result = string(tmp_result)
-    return
+    return string(tmpResult), nil
 }
 
 
-func WriteFile(file string, data string) (err error) {
-    err = ioutil.WriteFile(file, []byte(data), 0644)
-    return
+func WriteFile(file string, data string) error {
+    return ioutil.WriteFile(file, []byte(data), 0644)
 }
 
 
@@ -38,7 +35,14 @@ func IsNotFound(data string) (result bool) {
     return strings.Contains(data, "no found") || strings.Contains(data, "no match") ||
         strings.Contains(data, "not found") || strings.Contains(data, "not match") ||
         strings.Contains(data, "no entries found") || strings.Contains(data, "no data found") ||
-        strings.Contains(data, "not registered") || strings.Contains(data, "is free")
+        strings.Contains(data, "not registered") || strings.Contains(data, "is free") ||
+        strings.Contains(data, "not available for registration")
+}
+
+
+func IsLimitExceeded(data string) (result bool) {
+    data = strings.ToLower(data)
+    return strings.Contains(data, "limit exceeded")
 }
 
 
@@ -72,17 +76,16 @@ func FindKeyName(key string) (name string) {
 
 
 func RemoveDuplicateField(data string) string {
-    new_fields := []string{}
-    fields := strings.Split(data, ",")
-    for _, v := range fields {
+    var newFields []string
+    for _, v := range strings.Split(data, ",") {
         if v == "" {
             continue
         }
-        if !StringInArray(new_fields, v) {
-            new_fields = append(new_fields, v)
+        if !StringInArray(newFields, v) {
+            newFields = append(newFields, v)
         }
     }
-    return strings.Join(new_fields, ",")
+    return strings.Join(newFields, ",")
 }
 
 

@@ -11,62 +11,27 @@ package whois_parser
 
 
 import (
-    "fmt"
     "strings"
+    "errors"
+    "regexp"
 )
 
 
-type WhoisInfo struct {
-    Registrar  Registrar  `json:"registrar"`
-    Registrant Registrant `json:"registrant"`
-    Admin      Registrant `json:"admin"`
-    Tech       Registrant `json:"tech"`
-    Bill       Registrant `json:"bill"`
-}
+var DomainNotFoundError = errors.New("Domain is not found.")
+var DomainInvalidDataError = errors.New("Domain whois data invalid.")
 
 
-type Registrar struct {
-    RegistrarID    string `json:"registrar_id"`
-    RegistrarName  string `json:"registrar_name"`
-    WhoisServer    string `json:"whois_server"`
-    ReferralURL    string `json:"referral_url"`
-    DomainId       string `json:"domain_id"`
-    DomainName     string `json:"domain_name"`
-    DomainStatus   string `json:"domain_status"`
-    NameServers    string `json:"name_servers"`
-    DomainDNSSEC   string `json:"domain_dnssec"`
-    CreatedDate    string `json:"created_date"`
-    UpdatedDate    string `json:"updated_date"`
-    ExpirationDate string `json:"expiration_date"`
-}
+var replacer = regexp.MustCompile(`\n\[(.+?)\]\s+(.+?)`)
 
 
-type Registrant struct {
-    ID           string `json:"id"`
-    Name         string `json:"name"`
-    Organization string `json:"organization"`
-    Street       string `json:"street"`
-    StreetExt    string `json:"street_ext"`
-    City         string `json:"city"`
-    Province     string `json:"province"`
-    PostalCode   string `json:"postal_code"`
-    Country      string `json:"country"`
-    Phone        string `json:"phone"`
-    PhoneExt     string `json:"phone_ext"`
-    Fax          string `json:"fax"`
-    FaxExt       string `json:"fax_ext"`
-    Email        string `json:"email"`
-}
+func Parse(text string) (whois_info WhoisInfo, err error) {
 
-
-func Parser(whois string) (whois_info WhoisInfo, err error) {
-    if len(whois) < 100 {
-        if IsNotFound(whois) {
-            err = fmt.Errorf("Domain is not found.")
+    if len(text) < 100 {
+        if IsNotFound(text) {
+            return whois_info, DomainNotFoundError
         } else {
-            err = fmt.Errorf("Domain whois data invalid.")
+            return whois_info, DomainInvalidDataError
         }
-        return
     }
 
     var registrar Registrar
@@ -75,7 +40,8 @@ func Parser(whois string) (whois_info WhoisInfo, err error) {
     var tech Registrant
     var bill Registrant
 
-    whois_text := strings.Replace(whois, "\r", "", -1)
+    whois_text := strings.Replace(text, "\r", "", -1)
+    whois_text = replacer.ReplaceAllString(whois_text, "\n$1: $2")
     whois_lines := strings.Split(whois_text, "\n")
 
     for i:=0; i<len(whois_lines); i++ {
@@ -84,8 +50,8 @@ func Parser(whois string) (whois_info WhoisInfo, err error) {
             continue
         }
 
-        fchar := line[:1]
-        if fchar == ">" || fchar == "%" || fchar == "*" {
+        fChar := line[:1]
+        if fChar == ">" || fChar == "%" || fChar == "*" {
             continue
         }
 
@@ -99,12 +65,14 @@ func Parser(whois string) (whois_info WhoisInfo, err error) {
                 line += this_line + ","
             }
             line = strings.Trim(line, ",")
+
             i -= 1
         }
 
         lines := strings.SplitN(line, ":", 2)
         name := strings.TrimSpace(lines[0])
         value := strings.TrimSpace(lines[1])
+
         if value == "" {
             continue
         }
@@ -178,15 +146,18 @@ func Parser(whois string) (whois_info WhoisInfo, err error) {
         }
     }
 
-    registrar.NameServers = RemoveDuplicateField(strings.ToLower(registrar.NameServers))
+
+
+    registrar.NameServers = FixNameServers(RemoveDuplicateField(strings.ToLower(registrar.NameServers)))
     registrar.DomainStatus = RemoveDuplicateField(strings.ToLower(registrar.DomainStatus))
-    registrar.NameServers = FixNameServers(registrar.NameServers)
 
     whois_info.Registrar = registrar
     whois_info.Registrant = registrant
     whois_info.Admin = admin
     whois_info.Tech = tech
     whois_info.Bill = bill
+
+
 
     return
 }

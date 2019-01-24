@@ -67,6 +67,7 @@ var (
         "domain last updated date": "updated_date",
         "expire": "expired_date",
         "expires": "expired_date",
+        "expires on": "expired_date",
         "paid till": "expired_date",
         "expire date": "expired_date",
         "expired date": "expired_date",

@@ -60,11 +60,11 @@ func assertNotEmpty(t *testing.T, a string) {
 
 
 func TestWhoisParser(t *testing.T) {
-    _, err := Parser("not found")
+    _, err := Parse("not found")
     assertHasError(t, err)
     assertStringEqual(t, fmt.Sprintf("%s", err), "Domain is not found.")
 
-    _, err = Parser("WHOIS LIMIT EXCEEDED - SEE WWW.PIR.ORG/WHOIS FOR DETAILS")
+    _, err = Parse("WHOIS LIMIT EXCEEDED - SEE WWW.PIR.ORG/WHOIS FOR DETAILS")
     assertHasError(t, err)
     assertStringEqual(t, fmt.Sprintf("%s", err), "Domain whois data invalid.")
 
@@ -81,13 +81,13 @@ func TestWhoisParser(t *testing.T) {
             continue
         }
 
-        whois_info, err := Parser(whois_raw)
-        assertNotError(t, err)
+        whois_info, err := Parse(whois_raw)
 
         if domain == "mjj.com" {
             assertNotEmpty(t, whois_info.Registrar.RegistrarID)
         }
-        if domain_ext != "museum" && domain_ext != "at" && domain_ext != "int" {
+
+        if domain_ext != "museum" && domain_ext != "at" && domain_ext != "int" && domain_ext != "jp" {
             assertNotEmpty(t, whois_info.Registrar.RegistrarName)
         }
         if domain_ext == "com" {
@@ -99,11 +99,12 @@ func TestWhoisParser(t *testing.T) {
         if domain == "mjj.com" {
             assertNotEmpty(t, whois_info.Registrar.DomainId)
         }
+
         assertNotEmpty(t, whois_info.Registrar.DomainName)
         if domain_ext != "at" && domain_ext != "kr" && domain_ext != "int" {
             assertNotEmpty(t, whois_info.Registrar.DomainStatus)
         }
-        if domain_ext != "au" && domain_ext != "at" && domain_ext != "int" {
+        if domain_ext != "au" && domain_ext != "at" && domain_ext != "int" && domain_ext != "jp" {
             assertNotEmpty(t, whois_info.Registrar.CreatedDate)
         }
         if domain_ext != "cn" && domain_ext != "ru" && domain_ext != "su" && domain_ext != "hk" {

@@ -22,11 +22,11 @@ It will parse the provided whois information and return a readable data struct.
 
 ## Documentation
 
-    func Parser(whois string) (whois_info WhoisInfo, err error)
+    func Parse(whois string) (whois_info WhoisInfo, err error)
 
 ## Example
 
-    result, err := whois_parser.Parser(whois_raw)
+    result, err := whois_parser.Parse(whois_raw)
     if err == nil {
         // Print the domain status
         fmt.Println(result.Registrar.DomainStatus)

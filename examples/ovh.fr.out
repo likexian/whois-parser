@@ -1,0 +1,76 @@
+registrar_id: 
+registrar_name: OVH
+whois_server: 
+referral_url: 
+domain_id: 
+domain_name: ovh.fr
+domain_status: active
+created_date: 12/11/1999
+updated_date: 03/04/2009
+expiration_date: 
+name_servers: dns.ovh.net,dns10.ovh.net,ns.ovh.net,ns10.ovh.net
+domain_dnssec: 
+
+registrant
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: OK217-FRNIC
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: OK217-FRNIC
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
