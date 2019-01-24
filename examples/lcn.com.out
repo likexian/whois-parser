@@ -5,15 +5,15 @@ referral_url: http://www.lcn.com
 domain_id: 
 domain_name: lcn.com
 domain_status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
-created_date: 1996-02-10 00:00:00
-updated_date: 2014-06-22 09:32:21.275569
-expiration_date: 2019-02-11 00:00:00
+created_date: 10-feb-1996
+updated_date: 12-mar-2012
+expiration_date: 11-feb-2019
 name_servers: ns0.ai270.net,ns1.ai270.net
 domain_dnssec: 
 
 registrant
 id: 
-name: AI-677207
+name: 
 organization: 
 street: 
 street_ext: 

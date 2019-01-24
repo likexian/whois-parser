@@ -79,7 +79,7 @@ func Parser(whois string) (whois_info WhoisInfo, err error) {
     whois_lines := strings.Split(whois_text, "\n")
 
     for i:=0; i<len(whois_lines); i++ {
-        line := strings.Trim(whois_lines[i], " ")
+        line := strings.TrimSpace(whois_lines[i])
         if len(line) < 5 || !strings.Contains(line, ":") {
             continue
         }
@@ -92,7 +92,7 @@ func Parser(whois string) (whois_info WhoisInfo, err error) {
         if line[len(line) - 1:] == ":" {
             i += 1
             for ; i<len(whois_lines); i++ {
-                this_line := strings.Trim(whois_lines[i], " ")
+                this_line := strings.TrimSpace(whois_lines[i])
                 if strings.Contains(this_line, ":") {
                     break
                 }
@@ -103,57 +103,78 @@ func Parser(whois string) (whois_info WhoisInfo, err error) {
         }
 
         lines := strings.SplitN(line, ":", 2)
-        name := strings.Trim(lines[0], " ")
-        value := strings.Trim(lines[1], " ")
+        name := strings.TrimSpace(lines[0])
+        value := strings.TrimSpace(lines[1])
         if value == "" {
             continue
         }
 
-        name = TransferName(name)
-        if (name == "domain") {
-            registrar.DomainName = value
-        } else if (name == "id" || name == "roid") {
-            registrar.DomainId = value
-        } else if (name == "registrar id") {
-            registrar.RegistrarID = value
-        } else if (name == "registrar") {
-            registrar.RegistrarName = value
-        } else if (name == "whois server") {
-            registrar.WhoisServer = value
-        } else if (name == "dnssec") {
-            registrar.DomainDNSSEC = value
-        } else if (name == "create") {
-            registrar.CreatedDate = value
-        } else if (name == "update") {
-            registrar.UpdatedDate = value
-        } else if (name == "expire") {
-            registrar.ExpirationDate = value
-        } else if (name == "name server") {
-            registrar.NameServers += strings.Trim(value, ".") + ","
-        } else if (name == "status") {
-            registrar.DomainStatus += value + ","
-        } else if (name == "referral url") {
-            registrar.ReferralURL = value
-        } else if strings.Contains(name, "registrant id") {
-            registrant.ID = value
-        } else if strings.Contains(name, "admin id") {
-            admin.ID = value
-        } else if strings.Contains(name, "tech id") {
-            tech.ID = value
-        } else if strings.Contains(name, "bill id") {
-            bill.ID = value
-        } else if (len(name) >= 10 && name[:10] == "registrant") {
-            name = strings.Trim(name[10:], " ")
-            registrant = parser_registrant(registrant, name, value)
-        } else if (len(name) >= 5 && name[:5] == "admin") {
-            name = strings.Trim(name[5:], " ")
-            admin = parser_registrant(admin, name, value)
-        } else if (len(name) >= 4 && name[:4] == "tech") {
-            name = strings.Trim(name[4:], " ")
-            tech = parser_registrant(tech, name, value)
-        } else if (len(name) >= 4 && name[:4] == "bill") {
-            name = strings.Trim(name[4:], " ")
-            bill = parser_registrant(bill, name, value)
+        key_name := FindKeyName(name)
+        switch key_name {
+            case "domain_id":
+                registrar.DomainId = value
+            case "domain_name":
+                registrar.DomainName = value
+            case "registrar_id":
+                if registrar.RegistrarID == "" {
+                    registrar.RegistrarID = value
+                }
+            case "registrar_name":
+                if registrar.RegistrarName == "" {
+                    registrar.RegistrarName = value
+                }
+            case "whois_server":
+                if registrar.WhoisServer == "" {
+                    registrar.WhoisServer = value
+                }
+            case "referral_url":
+                if registrar.ReferralURL == "" {
+                    registrar.ReferralURL = value
+                }
+            case "domain_status":
+                registrar.DomainStatus += value + ","
+            case "name_servers":
+                registrar.NameServers += value + ","
+            case "domain_dnssec":
+                if registrar.DomainDNSSEC == "" {
+                    registrar.DomainDNSSEC = value
+                }
+            case "created_date":
+                if registrar.CreatedDate == "" {
+                    registrar.CreatedDate = value
+                }
+            case "updated_date":
+                if registrar.UpdatedDate == "" {
+                    registrar.UpdatedDate = value
+                }
+            case "expired_date":
+                if registrar.ExpirationDate == "" {
+                    registrar.ExpirationDate = value
+                }
+            case "registrant_id":
+                registrant.ID = value
+            case "admin_id":
+                admin.ID = value
+            case "tech_id":
+                tech.ID = value
+            case "bill_id":
+                bill.ID = value
+            default:
+                name = ClearName(name)
+                if !strings.Contains(name, " ") {
+                    name += " name"
+                }
+                ns := strings.SplitN(name, " ", 2)
+                name = strings.TrimSpace("registrant " + ns[1])
+                if ns[0] == "registrant" {
+                    registrant = parser_registrant(registrant, name, value)
+                } else if ns[0] == "admin" || ns[0] == "administrative" {
+                    admin = parser_registrant(admin, name, value)
+                } else if ns[0] == "tech" || ns[0] == "technical" {
+                    tech = parser_registrant(tech, name, value)
+                } else if ns[0] == "bill" || ns[0] == "billing" {
+                    bill = parser_registrant(bill, name, value)
+                }
         }
     }
 
@@ -172,32 +193,34 @@ func Parser(whois string) (whois_info WhoisInfo, err error) {
 
 
 func parser_registrant(registrant Registrant, name, value string) (Registrant) {
-    if name == "name" || name == "" {
-        registrant.Name = value
-    } else if name == "organization" {
-        registrant.Organization = value
-    } else if name == "street" {
-        registrant.Street = value
-    } else if name == "street ext" {
-        registrant.StreetExt = value
-    } else if name == "city" {
-        registrant.City = value
-    } else if name == "province" {
-        registrant.Province = value
-    } else if name == "postal code" {
-        registrant.PostalCode = value
-    } else if name == "country" {
-        registrant.Country = value
-    } else if name == "phone" {
-        registrant.Phone = value
-    } else if name == "phone ext" {
-        registrant.PhoneExt = value
-    } else if name == "fax" {
-        registrant.Fax = value
-    } else if name == "fax ext" {
-        registrant.FaxExt = value
-    } else if name == "email" {
-        registrant.Email = strings.ToLower(value)
+    key_name := FindKeyName(name)
+    switch key_name {
+        case "registrant_id":
+            registrant.ID = value
+        case "registrant_name":
+            registrant.Name = value
+        case "registrant_organization":
+            registrant.Organization = value
+        case "registrant_street":
+            registrant.Street = value
+        case "registrant_city":
+            registrant.City = value
+        case "registrant_state_province":
+            registrant.Province = value
+        case "registrant_postal_code":
+            registrant.PostalCode = value
+        case "registrant_country":
+            registrant.Country = value
+        case "registrant_phone":
+            registrant.Phone = value
+        case "registrant_phone_ext":
+            registrant.PhoneExt = value
+        case "registrant_fax":
+            registrant.Fax = value
+        case "registrant_fax_ext":
+            registrant.FaxExt = value
+        case "registrant_email":
+            registrant.Email = strings.ToLower(value)
     }
 
     return registrant

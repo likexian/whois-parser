@@ -1,6 +1,6 @@
 # whois-parser.go
 
-whois-parser-go is a simple Go module for whois info parser.
+whois-parser-go is a simple Go module for domain whois info parse.
 
 [![Build Status](https://secure.travis-ci.org/likexian/whois-parser-go.png)](https://secure.travis-ci.org/likexian/whois-parser-go)
 

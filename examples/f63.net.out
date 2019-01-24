@@ -1,13 +1,13 @@
 registrar_id: 1587
-registrar_name: MijnInternetOplossing B.V.
+registrar_name: MIJN INTERNETOPLOSSING B.V.
 whois_server: whois.mijninternetoplossing.nl
 referral_url: http://www.mijninternetoplossing.nl
 domain_id: 
 domain_name: F63.NET
 domain_status: clienttransferprohibited
-created_date: 14-Jan-2013
-updated_date: 21-Mar-2014
-expiration_date: 14-Jan-2015
+created_date: 14-jan-2013
+updated_date: 28-may-2014
+expiration_date: 14-jan-2015
 name_servers: lucy.ns.cloudflare.com,sid.ns.cloudflare.com
 domain_dnssec: Unsigned
 

@@ -6,7 +6,7 @@ domain_id:
 domain_name: nic.re
 domain_status: active
 created_date: 01/01/1995
-updated_date: 02/12/2009 nic@nic.fr
+updated_date: 26/04/2011
 expiration_date: 
 name_servers: ns1.nic.fr,ns2.nic.fr,ns3.nic.fr
 domain_dnssec: 
@@ -28,8 +28,8 @@ fax_ext:
 email: 
 
 admin
-id: 
-name: NFC1-FRNIC
+id: NFC1-FRNIC
+name: 
 organization: 
 street: 
 street_ext: 
@@ -44,8 +44,8 @@ fax_ext:
 email: 
 
 tech
-id: 
-name: AI1-FRNIC
+id: AI1-FRNIC
+name: 
 organization: 
 street: 
 street_ext: 

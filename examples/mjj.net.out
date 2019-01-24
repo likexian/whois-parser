@@ -1,13 +1,13 @@
 registrar_id: 48
 registrar_name: ENOM, INC.
 whois_server: whois.enom.com
-referral_url: www.enom.com
+referral_url: http://www.enom.com
 domain_id: NA
 domain_name: MJJ.NET
 domain_status: clienttransferprohibited
-created_date: 1998-04-02 05:00:00Z
-updated_date: 2014-03-31 19:08:11Z
-expiration_date: 2015-04-01 04:00:00Z
+created_date: 02-apr-1998
+updated_date: 31-mar-2014
+expiration_date: 01-apr-2015
 name_servers: dns1.name-services.com,dns2.name-services.com,dns3.name-services.com,dns4.name-services.com,dns5.name-services.com
 domain_dnssec: unSigned
 

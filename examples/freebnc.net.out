@@ -1,13 +1,13 @@
 registrar_id: 303
-registrar_name: PDR Ltd. d/b/a PublicDomainRegistry.com
-whois_server: whois.publicdomainregistry.com
-referral_url: www.publicdomainregistry.com
+registrar_name: PDR LTD. D/B/A PUBLICDOMAINREGISTRY.COM
+whois_server: whois.PublicDomainRegistry.com
+referral_url: http://www.PublicDomainRegistry.com
 domain_id: 1622839205_DOMAIN_NET-VRSN
 domain_name: FREEBNC.NET
 domain_status: clienttransferprohibited
-created_date: 29-Oct-2010
-updated_date: 04-Dec-2013
-expiration_date: 29-Oct-2014
+created_date: 29-oct-2010
+updated_date: 04-oct-2013
+expiration_date: 29-oct-2014
 name_servers: lady.ns.cloudflare.com,noah.ns.cloudflare.com
 domain_dnssec: Unsigned
 

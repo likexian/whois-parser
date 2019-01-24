@@ -1,13 +1,13 @@
 registrar_id: 48
 registrar_name: ENOM, INC.
 whois_server: whois.enom.com
-referral_url: www.enom.com
+referral_url: http://www.enom.com
 domain_id: 1399182597_DOMAIN_NET-VRSN
 domain_name: GITHUB.NET
 domain_status: clienttransferprohibited
-created_date: 2008-02-09 02:06:00Z
-updated_date: 2014-01-11 00:29:33Z
-expiration_date: 2015-02-09 02:06:00Z
+created_date: 08-feb-2008
+updated_date: 11-jan-2014
+expiration_date: 08-feb-2015
 name_servers: ns1.p16.dynect.net,ns2.p16.dynect.net,ns3.p16.dynect.net,ns4.p16.dynect.net
 domain_dnssec: unSigned
 

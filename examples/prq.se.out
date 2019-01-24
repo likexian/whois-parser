@@ -28,8 +28,8 @@ fax_ext:
 email: 
 
 admin
-id: 
-name: -
+id: -
+name: 
 organization: 
 street: 
 street_ext: 
@@ -44,8 +44,8 @@ fax_ext:
 email: 
 
 tech
-id: 
-name: -
+id: -
+name: 
 organization: 
 street: 
 street_ext: 
@@ -60,8 +60,8 @@ fax_ext:
 email: 
 
 bill
-id: 
-name: -
+id: -
+name: 
 organization: 
 street: 
 street_ext: 

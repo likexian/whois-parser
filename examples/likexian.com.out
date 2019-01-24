@@ -1,13 +1,13 @@
 registrar_id: 48
 registrar_name: ENOM, INC.
 whois_server: whois.enom.com
-referral_url: www.enom.com
+referral_url: http://www.enom.com
 domain_id: 1665843940_DOMAIN_COM-VRSN
 domain_name: LIKEXIAN.COM
 domain_status: clienttransferprohibited
-created_date: 2011-07-08 07:19:00Z
-updated_date: 2014-08-14 03:51:20Z
-expiration_date: 2019-07-08 07:19:00Z
+created_date: 08-jul-2011
+updated_date: 14-aug-2014
+expiration_date: 08-jul-2019
 name_servers: f1g1ns1.dnspod.net,f1g1ns2.dnspod.net
 domain_dnssec: unSigned
 

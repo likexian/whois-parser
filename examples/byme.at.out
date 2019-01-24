@@ -6,7 +6,7 @@ domain_id:
 domain_name: byme.at
 domain_status: 
 created_date: 
-updated_date: 20090831 23:08:43
+updated_date: 20120121 04:01:40
 expiration_date: 
 name_servers: ns1.xname.org,ns2.he.net,ns2.xname.org,ns4.he.net,ns6.gandi.net
 domain_dnssec: 
@@ -28,8 +28,8 @@ fax_ext:
 email: 
 
 admin
-id: 
-name: NS3437599-NICAT
+id: NS3437599-NICAT
+name: 
 organization: 
 street: 
 street_ext: 
@@ -44,8 +44,8 @@ fax_ext:
 email: 
 
 tech
-id: 
-name: NS3437599-NICAT
+id: NS3437599-NICAT
+name: 
 organization: 
 street: 
 street_ext: 

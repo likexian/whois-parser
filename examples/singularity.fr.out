@@ -6,7 +6,7 @@ domain_id:
 domain_name: singularity.fr
 domain_status: active
 created_date: 04/04/2009
-updated_date: 31/08/2009 anonymous@nowhere.xx.fr
+updated_date: 01/09/2009
 expiration_date: 
 name_servers: ns-sec.toile-libre.org,ns-pri.toile-libre.org
 domain_dnssec: 
@@ -28,8 +28,8 @@ fax_ext:
 email: 
 
 admin
-id: 
-name: NL346-FRNIC
+id: NL346-FRNIC
+name: 
 organization: 
 street: 
 street_ext: 
@@ -44,8 +44,8 @@ fax_ext:
 email: 
 
 tech
-id: 
-name: TUF1-FRNIC
+id: TUF1-FRNIC
+name: 
 organization: 
 street: 
 street_ext: 

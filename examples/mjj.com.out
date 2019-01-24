@@ -1,13 +1,13 @@
 registrar_id: 146
-registrar_name: GoDaddy.com, LLC
+registrar_name: GODADDY.COM, LLC
 whois_server: whois.godaddy.com
-referral_url: http://www.godaddy.com
+referral_url: http://registrar.godaddy.com
 domain_id: 27075471_DOMAIN_COM-VRSN
 domain_name: MJJ.COM
 domain_status: clientdeleteprohibited,clientrenewprohibited,clienttransferprohibited,clientupdateprohibited
-created_date: 2000-05-15 05:46:49
-updated_date: 2014-02-28 22:53:24
-expiration_date: 2015-05-15 05:46:49
+created_date: 15-may-2000
+updated_date: 28-feb-2014
+expiration_date: 15-may-2015
 name_servers: buy.internettraffic.com,sell.internettraffic.com
 domain_dnssec: unsigned
 

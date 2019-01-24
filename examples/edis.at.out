@@ -6,7 +6,7 @@ domain_id:
 domain_name: edis.at
 domain_status: 
 created_date: 
-updated_date: 20130809 15:17:35
+updated_date: 20111024 14:51:40
 expiration_date: 
 name_servers: ns1.edis.at,ns2.edis.at,ns5.edis.at,ns6.edis.at
 domain_dnssec: 
@@ -28,8 +28,8 @@ fax_ext:
 email: 
 
 admin
-id: 
-name: KG8294627-NICAT
+id: KG8294627-NICAT
+name: 
 organization: 
 street: 
 street_ext: 
@@ -44,8 +44,8 @@ fax_ext:
 email: 
 
 tech
-id: 
-name: KG8294627-NICAT
+id: KG8294627-NICAT
+name: 
 organization: 
 street: 
 street_ext: 

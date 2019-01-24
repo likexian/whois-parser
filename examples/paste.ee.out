@@ -28,8 +28,8 @@ fax_ext:
 email: 
 
 admin
-id: 
-name: CID:NETPOINT:NPSA30X21883
+id: CID:NETPOINT:NPSA30X21883
+name: 
 organization: 
 street: 
 street_ext: 
@@ -44,8 +44,8 @@ fax_ext:
 email: 
 
 tech
-id: 
-name: CID:NETPOINT:NPST30X21883
+id: CID:NETPOINT:NPST30X21883
+name: 
 organization: 
 street: 
 street_ext: 
