@@ -4,7 +4,7 @@ whois_server:
 referral_url: 
 domain_id: 
 domain_name: MJJ.RU
-domain_status: registered, delegated, unverified
+domain_status: registered,delegated,unverified
 created_date: 2014-09-25T13:06:18Z
 updated_date: 
 expiration_date: 2019-09-25T14:06:18Z

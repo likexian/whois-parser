@@ -4,7 +4,7 @@ whois_server:
 referral_url: 
 domain_id: 
 domain_name: 2X4.RU
-domain_status: registered, delegated, verified
+domain_status: registered,delegated,verified
 created_date: 2004-06-23T20:00:00Z
 updated_date: 
 expiration_date: 2019-06-23T21:00:00Z

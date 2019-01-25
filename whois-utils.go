@@ -81,6 +81,7 @@ func FindKeyName(key string) (name string) {
 func RemoveDuplicateField(data string) string {
     var newFields []string
     for _, v := range strings.Split(data, ",") {
+        v = strings.TrimSpace(v)
         if v == "" {
             continue
         }

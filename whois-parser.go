@@ -21,7 +21,7 @@ var DomainNotFoundError = errors.New("Domain is not found.")
 var DomainInvalidDataError = errors.New("Domain whois data invalid.")
 var DomainLimitExceedError = errors.New("Domain query limit exceeded.")
 
-var replacer = regexp.MustCompile(`\n\[(.+?)\]\s+(.+?)`)
+var replacer = regexp.MustCompile(`\n\[(.+?)\][\ ]+(.+?)`)
 
 
 func Parse(text string) (whois_info WhoisInfo, err error) {
