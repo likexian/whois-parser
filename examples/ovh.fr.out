@@ -12,7 +12,7 @@ name_servers: dns.ovh.net,dns10.ovh.net,ns.ovh.net,ns10.ovh.net
 domain_dnssec: 
 
 registrant
-id: 
+id: SO255-FRNIC
 name: 
 organization: 
 street: 

@@ -12,7 +12,7 @@ name_servers: ns-sec.toile-libre.org,ns-pri.toile-libre.org
 domain_dnssec: 
 
 registrant
-id: 
+id: ANO00-FRNIC
 name: 
 organization: 
 street: 

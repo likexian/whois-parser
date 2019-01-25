@@ -12,7 +12,7 @@ name_servers: ns1.nic.fr,ns2.nic.fr,ns3.nic.fr
 domain_dnssec: 
 
 registrant
-id: 
+id: A1967-FRNIC
 name: 
 organization: 
 street: 

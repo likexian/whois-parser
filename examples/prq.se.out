@@ -13,7 +13,7 @@ domain_dnssec: unsigned delegation
 
 registrant
 id: 
-name: 
+name: (not shown)
 organization: 
 street: 
 street_ext: 

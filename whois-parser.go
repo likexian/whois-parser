@@ -134,7 +134,7 @@ func Parse(text string) (whois_info WhoisInfo, err error) {
                 }
                 ns := strings.SplitN(name, " ", 2)
                 name = strings.TrimSpace("registrant " + ns[1])
-                if ns[0] == "registrant" {
+                if ns[0] == "registrant" || ns[0] == "holder" {
                     registrant = parser_registrant(registrant, name, value)
                 } else if ns[0] == "admin" || ns[0] == "administrative" {
                     admin = parser_registrant(admin, name, value)

@@ -1,0 +1,76 @@
+registrar_id: 292
+registrar_name: MarkMonitor, Inc.
+whois_server: 
+referral_url: www.markmonitor.com
+domain_id: D741134-CO
+domain_name: qq.co
+domain_status: clientupdateprohibited https://icann.org/epp#clientupdateprohibited,clientdeleteprohibited https://icann.org/epp#clientdeleteprohibited,clienttransferprohibited https://icann.org/epp#clienttransferprohibited
+created_date: 2010-04-26T07:55:14Z
+updated_date: 2018-03-06T09:06:09Z
+expiration_date: 2022-04-25T23:59:59Z
+name_servers: ns3.markmonitor.com,ns1.markmonitor.com
+domain_dnssec: unsigned
+
+registrant
+id: 
+name: 
+organization: Shenzhen Tencent Computer Systems CO.,Ltd
+street: 
+street_ext: 
+city: 
+province: Guang Dong
+postal_code: 
+country: CN
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+
+admin
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+
+tech
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
