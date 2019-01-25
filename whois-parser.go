@@ -19,19 +19,20 @@ import (
 
 var DomainNotFoundError = errors.New("Domain is not found.")
 var DomainInvalidDataError = errors.New("Domain whois data invalid.")
-
+var DomainLimitExceedError = errors.New("Domain query limit exceeded.")
 
 var replacer = regexp.MustCompile(`\n\[(.+?)\]\s+(.+?)`)
 
 
 func Parse(text string) (whois_info WhoisInfo, err error) {
-
     if len(text) < 100 {
+        err = DomainInvalidDataError
         if IsNotFound(text) {
-            return whois_info, DomainNotFoundError
-        } else {
-            return whois_info, DomainInvalidDataError
+            err = DomainNotFoundError
+        } else if IsLimitExceeded(text) {
+            err = DomainLimitExceedError
         }
+        return
     }
 
     var registrar Registrar
@@ -42,8 +43,8 @@ func Parse(text string) (whois_info WhoisInfo, err error) {
 
     whois_text := strings.Replace(text, "\r", "", -1)
     whois_text = replacer.ReplaceAllString(whois_text, "\n$1: $2")
-    whois_lines := strings.Split(whois_text, "\n")
 
+    whois_lines := strings.Split(whois_text, "\n")
     for i:=0; i<len(whois_lines); i++ {
         line := strings.TrimSpace(whois_lines[i])
         if len(line) < 5 || !strings.Contains(line, ":") {
@@ -65,7 +66,6 @@ func Parse(text string) (whois_info WhoisInfo, err error) {
                 line += this_line + ","
             }
             line = strings.Trim(line, ",")
-
             i -= 1
         }
 
@@ -146,8 +146,6 @@ func Parse(text string) (whois_info WhoisInfo, err error) {
         }
     }
 
-
-
     registrar.NameServers = FixNameServers(RemoveDuplicateField(strings.ToLower(registrar.NameServers)))
     registrar.DomainStatus = RemoveDuplicateField(strings.ToLower(registrar.DomainStatus))
 
@@ -156,8 +154,6 @@ func Parse(text string) (whois_info WhoisInfo, err error) {
     whois_info.Admin = admin
     whois_info.Tech = tech
     whois_info.Bill = bill
-
-
 
     return
 }

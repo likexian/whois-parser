@@ -16,17 +16,20 @@ import (
 )
 
 
-func ReadFile(file string) (str string, err error) {
-    tmpResult, err := ioutil.ReadFile(file)
+func ReadFile(file string) (result string, err error) {
+    tmp_result, err := ioutil.ReadFile(file)
     if err != nil {
         return
     }
-    return string(tmpResult), nil
+
+    result = string(tmp_result)
+    return
 }
 
 
-func WriteFile(file string, data string) error {
-    return ioutil.WriteFile(file, []byte(data), 0644)
+func WriteFile(file string, data string) (err error) {
+    err = ioutil.WriteFile(file, []byte(data), 0644)
+    return
 }
 
 
@@ -85,6 +88,7 @@ func RemoveDuplicateField(data string) string {
             newFields = append(newFields, v)
         }
     }
+
     return strings.Join(newFields, ",")
 }
 
@@ -95,6 +99,7 @@ func StringInArray(array []string, find string) bool {
             return true
         }
     }
+
     return false
 }
 
@@ -105,5 +110,6 @@ func FixNameServers(nservers string) string {
         names := strings.Split(strings.TrimSpace(v), " ")
         servers[k] = strings.Trim(names[0], ".")
     }
+
     return strings.Join(servers, ",")
 }

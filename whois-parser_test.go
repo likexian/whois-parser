@@ -66,6 +66,10 @@ func TestWhoisParser(t *testing.T) {
 
     _, err = Parse("WHOIS LIMIT EXCEEDED - SEE WWW.PIR.ORG/WHOIS FOR DETAILS")
     assertHasError(t, err)
+    assertStringEqual(t, fmt.Sprintf("%s", err), "Domain query limit exceeded.")
+
+    _, err = Parse("Hello - SEE WWW.PIR.ORG/WHOIS FOR DETAILS")
+    assertHasError(t, err)
     assertStringEqual(t, fmt.Sprintf("%s", err), "Domain whois data invalid.")
 
     dirs, err := ioutil.ReadDir("./examples/")
