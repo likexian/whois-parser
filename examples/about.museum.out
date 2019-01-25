@@ -4,7 +4,7 @@ whois_server:
 referral_url: 
 domain_id: DOM000000000677-MUSEUM
 domain_name: about.museum
-domain_status: ok  https://icann.org/epp#ok
+domain_status: ok
 created_date: 2005-02-04T18:32:48Z
 updated_date: 2018-03-07T08:20:19Z
 expiration_date: 2019-02-04T19:32:48Z

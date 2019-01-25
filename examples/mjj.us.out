@@ -4,7 +4,7 @@ whois_server: whois.godaddy.com
 referral_url: http://www.godaddy.com
 domain_id: D10446780-US
 domain_name: mjj.us
-domain_status: clienttransferprohibited http://www.icann.org/epp#clienttransferprohibited,clientupdateprohibited http://www.icann.org/epp#clientupdateprohibited,clientrenewprohibited http://www.icann.org/epp#clientrenewprohibited,clientdeleteprohibited http://www.icann.org/epp#clientdeleteprohibited
+domain_status: clienttransferprohibited,clientupdateprohibited,clientrenewprohibited,clientdeleteprohibited
 created_date: 2006-07-09T18:08:53Z
 updated_date: 2018-07-06T10:40:08Z
 expiration_date: 2019-07-08T23:59:59Z

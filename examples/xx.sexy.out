@@ -4,7 +4,7 @@ whois_server: whois.uniregistrar.net
 referral_url: http://uniregistry.com
 domain_id: DO_5EFF27DC42679E197FD1DEC9826458F2-UR
 domain_name: XX.SEXY
-domain_status: clienttransferprohibited http://www.icann.org/epp#clienttransferprohibited
+domain_status: clienttransferprohibited
 created_date: 2019-01-14-T15:24:35Z
 updated_date: 2019-01-15-T08:20:48Z
 expiration_date: 2020-01-14-T15:24:35Z

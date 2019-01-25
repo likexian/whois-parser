@@ -4,7 +4,7 @@ whois_server:
 referral_url: www.markmonitor.com
 domain_id: D40741417-BIZ
 domain_name: github.biz
-domain_status: clientupdateprohibited https://icann.org/epp#clientupdateprohibited,clientdeleteprohibited https://icann.org/epp#clientdeleteprohibited,clienttransferprohibited https://icann.org/epp#clienttransferprohibited
+domain_status: clientupdateprohibited,clientdeleteprohibited,clienttransferprohibited
 created_date: 2010-08-05T17:04:27Z
 updated_date: 2018-10-21T11:00:23Z
 expiration_date: 2020-08-04T23:59:59Z

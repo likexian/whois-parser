@@ -4,7 +4,7 @@ whois_server: whois.godaddy.com
 referral_url: http://www.godaddy.com
 domain_id: D1142814-CO
 domain_name: DONUTS.CO
-domain_status: clienttransferprohibited http://www.icann.org/epp#clienttransferprohibited,clientupdateprohibited http://www.icann.org/epp#clientupdateprohibited,clientrenewprohibited http://www.icann.org/epp#clientrenewprohibited,clientdeleteprohibited http://www.icann.org/epp#clientdeleteprohibited
+domain_status: clienttransferprohibited,clientupdateprohibited,clientrenewprohibited,clientdeleteprohibited
 created_date: 2010-07-20T18:01:36Z
 updated_date: 2018-10-01T18:20:16Z
 expiration_date: 2021-07-19T23:59:59Z

@@ -4,7 +4,7 @@ whois_server:
 referral_url: http://www.PublicDomainRegistry.com
 domain_id: D503300000115507533-LRMS
 domain_name: MJJ.MOBI
-domain_status: clienttransferprohibited https://icann.org/epp#clienttransferprohibited
+domain_status: clienttransferprohibited
 created_date: 2018-07-07T11:33:47Z
 updated_date: 2018-09-05T20:31:29Z
 expiration_date: 2021-07-07T11:33:47Z

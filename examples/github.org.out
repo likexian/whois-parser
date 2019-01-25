@@ -4,7 +4,7 @@ whois_server: WHOIS.ENOM.COM
 referral_url: WWW.ENOM.COM
 domain_id: D150926227-LROR
 domain_name: github.org
-domain_status: registrar-lock* https://www.icann.org/epp#registrar-lock*,clienttransferprohibited https://www.icann.org/epp#clienttransferprohibited
+domain_status: registrar-lock*,clienttransferprohibited
 created_date: 2008-02-09T02:07:00.00Z
 updated_date: 2019-01-11T00:26:28.00Z
 expiration_date: 2020-02-09T02:07:00.00Z

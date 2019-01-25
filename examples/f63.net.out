@@ -4,7 +4,7 @@ whois_server: whois.web.com
 referral_url: http://www.networksolutions.com
 domain_id: 2276934916_DOMAIN_NET-VRSN
 domain_name: f63.net
-domain_status: ok http://icann.org/epp#ok
+domain_status: ok
 created_date: 2018-06-19T18:38:18Z
 updated_date: 2018-07-13T01:49:55Z
 expiration_date: 2019-06-19T18:38:18Z

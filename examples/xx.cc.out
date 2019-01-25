@@ -4,7 +4,7 @@ whois_server: whois.22.cn
 referral_url: http://www.22.cn
 domain_id: DOMAIN_ID_NOT_GET
 domain_name: xx.cc
-domain_status: clientdeleteprohibited https://icann.org/epp#clientdeleteprohibited,clienttransferprohibited https://icann.org/epp#clienttransferprohibited
+domain_status: clientdeleteprohibited,clienttransferprohibited
 created_date: 1997-10-13T04:00:00Z
 updated_date: 2018-07-05T06:44:59Z
 expiration_date: 2022-03-26T04:00:00Z

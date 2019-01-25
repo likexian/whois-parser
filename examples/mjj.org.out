@@ -4,7 +4,7 @@ whois_server: whois.name.com
 referral_url: http://www.name.com
 domain_id: D103235836-LROR
 domain_name: MJJ.ORG
-domain_status: clienttransferprohibited https://www.icann.org/epp#clienttransferprohibited
+domain_status: clienttransferprohibited
 created_date: 2003-11-27T16:13:28Z
 updated_date: 2017-09-03T21:24:10Z
 expiration_date: 2019-11-27T16:13:28Z

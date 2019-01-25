@@ -146,8 +146,11 @@ func Parse(text string) (whois_info WhoisInfo, err error) {
         }
     }
 
-    registrar.NameServers = FixNameServers(RemoveDuplicateField(strings.ToLower(registrar.NameServers)))
-    registrar.DomainStatus = RemoveDuplicateField(strings.ToLower(registrar.DomainStatus))
+    registrar.NameServers = FixNameServers(strings.ToLower(registrar.NameServers))
+    registrar.DomainStatus = FixDomainStatus(strings.ToLower(registrar.DomainStatus))
+
+    registrar.NameServers = RemoveDuplicateField(registrar.NameServers)
+    registrar.DomainStatus = RemoveDuplicateField(registrar.DomainStatus)
 
     whois_info.Registrar = registrar
     whois_info.Registrant = registrant

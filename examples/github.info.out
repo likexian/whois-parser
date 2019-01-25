@@ -4,7 +4,7 @@ whois_server: whois.godaddy.com
 referral_url: http://www.godaddy.com
 domain_id: D51322538-LRMS
 domain_name: GITHUB.INFO
-domain_status: clienttransferprohibited http://www.icann.org/epp#clienttransferprohibited,clientupdateprohibited http://www.icann.org/epp#clientupdateprohibited,clientrenewprohibited http://www.icann.org/epp#clientrenewprohibited,clientdeleteprohibited http://www.icann.org/epp#clientdeleteprohibited
+domain_status: clienttransferprohibited,clientupdateprohibited,clientrenewprohibited,clientdeleteprohibited
 created_date: 2014-01-05T12:18:22Z
 updated_date: 2019-01-06T12:04:19Z
 expiration_date: 2020-01-05T12:18:22Z

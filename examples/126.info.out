@@ -4,7 +4,7 @@ whois_server: whois.west.cn
 referral_url: www.west.cn
 domain_id: whois protect
 domain_name: 126.info
-domain_status: ok http://www.icann.org/epp#ok
+domain_status: ok
 created_date: 2001-10-04T19:03:46.0Z
 updated_date: 2001-10-04T19:03:46.0Z
 expiration_date: 2019-10-04T19:03:46.0Z

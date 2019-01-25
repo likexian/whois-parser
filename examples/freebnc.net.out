@@ -4,7 +4,7 @@ whois_server: whois.namesilo.com
 referral_url: https://www.namesilo.com/
 domain_id: 1622839205_DOMAIN_NET-VRSN
 domain_name: freebnc.net
-domain_status: clienttransferprohibited https://www.icann.org/epp#clienttransferprohibited
+domain_status: clienttransferprohibited
 created_date: 2010-10-29T07:00:00Z
 updated_date: 2019-01-22T07:00:00Z
 expiration_date: 2019-10-29T07:00:00Z

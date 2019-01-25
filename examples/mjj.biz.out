@@ -4,7 +4,7 @@ whois_server: whois.godaddy.com
 referral_url: http://www.godaddy.com
 domain_id: D1000929-BIZ
 domain_name: mjj.biz
-domain_status: clienttransferprohibited http://www.icann.org/epp#clienttransferprohibited,clientupdateprohibited http://www.icann.org/epp#clientupdateprohibited,clientrenewprohibited http://www.icann.org/epp#clientrenewprohibited,clientdeleteprohibited http://www.icann.org/epp#clientdeleteprohibited
+domain_status: clienttransferprohibited,clientupdateprohibited,clientrenewprohibited,clientdeleteprohibited
 created_date: 2001-11-07T09:26:56Z
 updated_date: 2018-11-12T18:55:02Z
 expiration_date: 2019-11-06T23:59:59Z

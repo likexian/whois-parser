@@ -4,7 +4,7 @@ whois_server: whois.donuts.co
 referral_url: http://www.donuts.co
 domain_id: a0fb5438b41f49579aadf206bdc8c063-DONUTS
 domain_name: nic.technology
-domain_status: servertransferprohibited https://icann.org/epp#servertransferprohibited
+domain_status: servertransferprohibited
 created_date: 2013-09-23T12:31:33Z
 updated_date: 2018-11-07T12:32:11Z
 expiration_date: 2019-09-23T12:31:33Z

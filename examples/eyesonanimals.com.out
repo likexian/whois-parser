@@ -4,7 +4,7 @@ whois_server: whois.rrpproxy.net
 referral_url: http://www.transip.nl
 domain_id: 1526354964_DOMAIN_COM-VRSN
 domain_name: eyesonanimals.com
-domain_status: ok https://icann.org/epp#ok
+domain_status: ok
 created_date: 2008-10-30T15:25:23Z
 updated_date: 2018-09-04T21:42:02Z
 expiration_date: 2019-10-30T15:25:23Z

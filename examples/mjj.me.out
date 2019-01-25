@@ -4,7 +4,7 @@ whois_server: whois.godaddy.com
 referral_url: http://www.godaddy.com
 domain_id: D108500000001619032-AGRS
 domain_name: mjj.me
-domain_status: clienttransferprohibited http://www.icann.org/epp#clienttransferprohibited,clientupdateprohibited http://www.icann.org/epp#clientupdateprohibited,clientrenewprohibited http://www.icann.org/epp#clientrenewprohibited,clientdeleteprohibited http://www.icann.org/epp#clientdeleteprohibited
+domain_status: clienttransferprohibited,clientupdateprohibited,clientrenewprohibited,clientdeleteprohibited
 created_date: 2010-11-05T08:42:35Z
 updated_date: 2018-10-23T10:06:31Z
 expiration_date: 2019-11-05T08:42:35Z

@@ -4,7 +4,7 @@ whois_server: whois.22.cn
 referral_url: http://www.22.cn
 domain_id: 27075471_DOMAIN_COM-VRSN
 domain_name: mjj.com
-domain_status: clientdeleteprohibited https://icann.org/epp#clientdeleteprohibited,clienttransferprohibited https://icann.org/epp#clienttransferprohibited
+domain_status: clientdeleteprohibited,clienttransferprohibited
 created_date: 2000-05-15T02:46:49Z
 updated_date: 2015-11-18T03:01:45Z
 expiration_date: 2021-05-15T02:46:49Z

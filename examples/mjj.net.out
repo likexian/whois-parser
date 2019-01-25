@@ -4,7 +4,7 @@ whois_server: WHOIS.ENOM.COM
 referral_url: WWW.ENOM.COM
 domain_id: 1558436_DOMAIN_NET-VRSN
 domain_name: mjj.net
-domain_status: clienttransferprohibited https://www.icann.org/epp#clienttransferprohibited,registrar-lock* https://www.icann.org/epp#registrar-lock*
+domain_status: clienttransferprohibited,registrar-lock*
 created_date: 1998-04-02T05:00:00.00Z
 updated_date: 2018-03-31T20:12:49.00Z
 expiration_date: 2019-04-01T04:00:00.00Z

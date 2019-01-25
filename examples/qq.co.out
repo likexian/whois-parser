@@ -4,7 +4,7 @@ whois_server:
 referral_url: www.markmonitor.com
 domain_id: D741134-CO
 domain_name: qq.co
-domain_status: clientupdateprohibited https://icann.org/epp#clientupdateprohibited,clientdeleteprohibited https://icann.org/epp#clientdeleteprohibited,clienttransferprohibited https://icann.org/epp#clienttransferprohibited
+domain_status: clientupdateprohibited,clientdeleteprohibited,clienttransferprohibited
 created_date: 2010-04-26T07:55:14Z
 updated_date: 2018-03-06T09:06:09Z
 expiration_date: 2022-04-25T23:59:59Z

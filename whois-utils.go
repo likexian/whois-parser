@@ -94,14 +94,14 @@ func RemoveDuplicateField(data string) string {
 }
 
 
-func StringInArray(array []string, find string) bool {
-    for _, v := range array {
-        if v == find {
-            return true
-        }
+func FixDomainStatus(state string) string {
+    states := strings.Split(state, ",")
+    for k, v := range states {
+        names := strings.Split(strings.TrimSpace(v), " ")
+        states[k] = names[0]
     }
 
-    return false
+    return strings.Join(states, ",")
 }
 
 
@@ -113,4 +113,15 @@ func FixNameServers(nservers string) string {
     }
 
     return strings.Join(servers, ",")
+}
+
+
+func StringInArray(array []string, find string) bool {
+    for _, v := range array {
+        if v == find {
+            return true
+        }
+    }
+
+    return false
 }

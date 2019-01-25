@@ -4,7 +4,7 @@ whois_server: whois.markmonitor.com
 referral_url: http://www.markmonitor.com
 domain_id: 1264983250_DOMAIN_COM-VRSN
 domain_name: github.com
-domain_status: clientupdateprohibited (https://www.icann.org/epp#clientupdateprohibited),clienttransferprohibited (https://www.icann.org/epp#clienttransferprohibited),clientdeleteprohibited (https://www.icann.org/epp#clientdeleteprohibited)
+domain_status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
 created_date: 2007-10-09T11:20:50-0700
 updated_date: 2018-09-27T04:00:28-0700
 expiration_date: 2020-10-09T11:20:50-0700

@@ -4,7 +4,7 @@ whois_server: whois.name.com
 referral_url: http://www.name.com
 domain_id: 1665843940_DOMAIN_COM-VRSN
 domain_name: LIKEXIAN.COM
-domain_status: clienttransferprohibited https://www.icann.org/epp#clienttransferprohibited
+domain_status: clienttransferprohibited
 created_date: 2011-07-08T07:19:58Z
 updated_date: 2015-11-24T09:13:06Z
 expiration_date: 2020-07-08T07:19:58Z

@@ -4,7 +4,7 @@ whois_server: whois.namecheap.com
 referral_url: http://www.namecheap.com
 domain_id: 1782145281_DOMAIN_NET-VRSN
 domain_name: redonate.net
-domain_status: clienttransferprohibited https://icann.org/epp#clienttransferprohibited,renewperiod https://icann.org/epp#renewperiod
+domain_status: clienttransferprohibited,renewperiod
 created_date: 2013-02-23T04:21:43.00Z
 updated_date: 2018-02-16T11:25:08.00Z
 expiration_date: 2019-02-23T04:21:43.00Z
