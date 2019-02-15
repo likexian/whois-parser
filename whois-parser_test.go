@@ -7,7 +7,7 @@
  *
  */
 
-package whois_parser
+package whoisparser
 
 
 import (
@@ -77,128 +77,129 @@ func TestWhoisParser(t *testing.T) {
 
     for _, v := range dirs {
         domain := v.Name()
-        domain_ext := domain[strings.LastIndex(domain, ".") + 1:]
-        whois_raw, err := ReadFile("./examples/" + domain)
+        domainExt := domain[strings.LastIndex(domain, ".") + 1:]
+        whoisRaw, err := ReadFile("./examples/" + domain)
         assertNotError(t, err)
 
         if domain[len(domain) - 4:] == ".out" {
             continue
         }
 
-        whois_info, err := Parse(whois_raw)
+        whoisInfo, err := Parse(whoisRaw)
+        assertNotError(t, err)
 
         if domain == "mjj.com" {
-            assertNotEmpty(t, whois_info.Registrar.RegistrarID)
+            assertNotEmpty(t, whoisInfo.Registrar.RegistrarID)
         }
 
-        if domain_ext != "museum" && domain_ext != "at" && domain_ext != "int" && domain_ext != "jp" {
-            assertNotEmpty(t, whois_info.Registrar.RegistrarName)
+        if domainExt != "museum" && domainExt != "at" && domainExt != "int" && domainExt != "jp" {
+            assertNotEmpty(t, whoisInfo.Registrar.RegistrarName)
         }
-        if domain_ext == "com" {
-            assertNotEmpty(t, whois_info.Registrar.WhoisServer)
+        if domainExt == "com" {
+            assertNotEmpty(t, whoisInfo.Registrar.WhoisServer)
         }
-        if domain_ext == "com" {
-            assertNotEmpty(t, whois_info.Registrar.ReferralURL)
+        if domainExt == "com" {
+            assertNotEmpty(t, whoisInfo.Registrar.ReferralURL)
         }
         if domain == "mjj.com" {
-            assertNotEmpty(t, whois_info.Registrar.DomainId)
+            assertNotEmpty(t, whoisInfo.Registrar.DomainId)
         }
 
-        assertNotEmpty(t, whois_info.Registrar.DomainName)
-        if domain_ext != "at" && domain_ext != "kr" && domain_ext != "int" {
-            assertNotEmpty(t, whois_info.Registrar.DomainStatus)
+        assertNotEmpty(t, whoisInfo.Registrar.DomainName)
+        if domainExt != "at" && domainExt != "kr" && domainExt != "int" {
+            assertNotEmpty(t, whoisInfo.Registrar.DomainStatus)
         }
-        if domain_ext != "au" && domain_ext != "at" && domain_ext != "int" && domain_ext != "jp" {
-            assertNotEmpty(t, whois_info.Registrar.CreatedDate)
+        if domainExt != "au" && domainExt != "at" && domainExt != "int" && domainExt != "jp" {
+            assertNotEmpty(t, whoisInfo.Registrar.CreatedDate)
         }
-        if domain_ext != "cn" && domain_ext != "ru" && domain_ext != "su" && domain_ext != "hk" {
-            assertNotEmpty(t, whois_info.Registrar.UpdatedDate)
+        if domainExt != "cn" && domainExt != "ru" && domainExt != "su" && domainExt != "hk" {
+            assertNotEmpty(t, whoisInfo.Registrar.UpdatedDate)
         }
-        if domain_ext != "au" && domain_ext != "at" && domain_ext != "re" && domain_ext != "fr" && domain_ext != "int" {
-            assertNotEmpty(t, whois_info.Registrar.ExpirationDate)
+        if domainExt != "au" && domainExt != "at" && domainExt != "re" && domainExt != "fr" && domainExt != "int" {
+            assertNotEmpty(t, whoisInfo.Registrar.ExpirationDate)
         }
-        assertNotEmpty(t, whois_info.Registrar.NameServers)
-        if domain_ext == "cn" {
-            assertNotEmpty(t, whois_info.Registrar.DomainDNSSEC)
+        assertNotEmpty(t, whoisInfo.Registrar.NameServers)
+        if domainExt == "cn" {
+            assertNotEmpty(t, whoisInfo.Registrar.DomainDNSSEC)
         }
 
         content := ""
-        content += fmt.Sprintf("registrar_id: %s\n", whois_info.Registrar.RegistrarID)
-        content += fmt.Sprintf("registrar_name: %s\n", whois_info.Registrar.RegistrarName)
-        content += fmt.Sprintf("whois_server: %s\n", whois_info.Registrar.WhoisServer)
-        content += fmt.Sprintf("referral_url: %s\n", whois_info.Registrar.ReferralURL)
-        content += fmt.Sprintf("domain_id: %s\n", whois_info.Registrar.DomainId)
-        content += fmt.Sprintf("domain_name: %s\n", whois_info.Registrar.DomainName)
-        content += fmt.Sprintf("domain_status: %s\n", whois_info.Registrar.DomainStatus)
-        content += fmt.Sprintf("created_date: %s\n", whois_info.Registrar.CreatedDate)
-        content += fmt.Sprintf("updated_date: %s\n", whois_info.Registrar.UpdatedDate)
-        content += fmt.Sprintf("expiration_date: %s\n", whois_info.Registrar.ExpirationDate)
-        content += fmt.Sprintf("name_servers: %s\n", whois_info.Registrar.NameServers)
-        content += fmt.Sprintf("domain_dnssec: %s\n", whois_info.Registrar.DomainDNSSEC)
+        content += fmt.Sprintf("registrar_id: %s\n", whoisInfo.Registrar.RegistrarID)
+        content += fmt.Sprintf("registrar_name: %s\n", whoisInfo.Registrar.RegistrarName)
+        content += fmt.Sprintf("whois_server: %s\n", whoisInfo.Registrar.WhoisServer)
+        content += fmt.Sprintf("referral_url: %s\n", whoisInfo.Registrar.ReferralURL)
+        content += fmt.Sprintf("domain_id: %s\n", whoisInfo.Registrar.DomainId)
+        content += fmt.Sprintf("domain_name: %s\n", whoisInfo.Registrar.DomainName)
+        content += fmt.Sprintf("domain_status: %s\n", whoisInfo.Registrar.DomainStatus)
+        content += fmt.Sprintf("created_date: %s\n", whoisInfo.Registrar.CreatedDate)
+        content += fmt.Sprintf("updated_date: %s\n", whoisInfo.Registrar.UpdatedDate)
+        content += fmt.Sprintf("expiration_date: %s\n", whoisInfo.Registrar.ExpirationDate)
+        content += fmt.Sprintf("name_servers: %s\n", whoisInfo.Registrar.NameServers)
+        content += fmt.Sprintf("domain_dnssec: %s\n", whoisInfo.Registrar.DomainDNSSEC)
 
         content += fmt.Sprintf("\nregistrant\n")
-        content += fmt.Sprintf("id: %s\n", whois_info.Registrant.ID)
-        content += fmt.Sprintf("name: %s\n", whois_info.Registrant.Name)
-        content += fmt.Sprintf("organization: %s\n", whois_info.Registrant.Organization)
-        content += fmt.Sprintf("street: %s\n", whois_info.Registrant.Street)
-        content += fmt.Sprintf("street_ext: %s\n", whois_info.Registrant.StreetExt)
-        content += fmt.Sprintf("city: %s\n", whois_info.Registrant.City)
-        content += fmt.Sprintf("province: %s\n", whois_info.Registrant.Province)
-        content += fmt.Sprintf("postal_code: %s\n", whois_info.Registrant.PostalCode)
-        content += fmt.Sprintf("country: %s\n", whois_info.Registrant.Country)
-        content += fmt.Sprintf("phone: %s\n", whois_info.Registrant.Phone)
-        content += fmt.Sprintf("phone_ext: %s\n", whois_info.Registrant.PhoneExt)
-        content += fmt.Sprintf("fax: %s\n", whois_info.Registrant.Fax)
-        content += fmt.Sprintf("fax_ext: %s\n", whois_info.Registrant.FaxExt)
-        content += fmt.Sprintf("email: %s\n", whois_info.Registrant.Email)
+        content += fmt.Sprintf("id: %s\n", whoisInfo.Registrant.ID)
+        content += fmt.Sprintf("name: %s\n", whoisInfo.Registrant.Name)
+        content += fmt.Sprintf("organization: %s\n", whoisInfo.Registrant.Organization)
+        content += fmt.Sprintf("street: %s\n", whoisInfo.Registrant.Street)
+        content += fmt.Sprintf("street_ext: %s\n", whoisInfo.Registrant.StreetExt)
+        content += fmt.Sprintf("city: %s\n", whoisInfo.Registrant.City)
+        content += fmt.Sprintf("province: %s\n", whoisInfo.Registrant.Province)
+        content += fmt.Sprintf("postal_code: %s\n", whoisInfo.Registrant.PostalCode)
+        content += fmt.Sprintf("country: %s\n", whoisInfo.Registrant.Country)
+        content += fmt.Sprintf("phone: %s\n", whoisInfo.Registrant.Phone)
+        content += fmt.Sprintf("phone_ext: %s\n", whoisInfo.Registrant.PhoneExt)
+        content += fmt.Sprintf("fax: %s\n", whoisInfo.Registrant.Fax)
+        content += fmt.Sprintf("fax_ext: %s\n", whoisInfo.Registrant.FaxExt)
+        content += fmt.Sprintf("email: %s\n", whoisInfo.Registrant.Email)
 
         content += fmt.Sprintf("\nadmin\n")
-        content += fmt.Sprintf("id: %s\n", whois_info.Admin.ID)
-        content += fmt.Sprintf("name: %s\n", whois_info.Admin.Name)
-        content += fmt.Sprintf("organization: %s\n", whois_info.Admin.Organization)
-        content += fmt.Sprintf("street: %s\n", whois_info.Admin.Street)
-        content += fmt.Sprintf("street_ext: %s\n", whois_info.Admin.StreetExt)
-        content += fmt.Sprintf("city: %s\n", whois_info.Admin.City)
-        content += fmt.Sprintf("province: %s\n", whois_info.Admin.Province)
-        content += fmt.Sprintf("postal_code: %s\n", whois_info.Admin.PostalCode)
-        content += fmt.Sprintf("country: %s\n", whois_info.Admin.Country)
-        content += fmt.Sprintf("phone: %s\n", whois_info.Admin.Phone)
-        content += fmt.Sprintf("phone_ext: %s\n", whois_info.Admin.PhoneExt)
-        content += fmt.Sprintf("fax: %s\n", whois_info.Admin.Fax)
-        content += fmt.Sprintf("fax_ext: %s\n", whois_info.Admin.FaxExt)
-        content += fmt.Sprintf("email: %s\n", whois_info.Admin.Email)
+        content += fmt.Sprintf("id: %s\n", whoisInfo.Admin.ID)
+        content += fmt.Sprintf("name: %s\n", whoisInfo.Admin.Name)
+        content += fmt.Sprintf("organization: %s\n", whoisInfo.Admin.Organization)
+        content += fmt.Sprintf("street: %s\n", whoisInfo.Admin.Street)
+        content += fmt.Sprintf("street_ext: %s\n", whoisInfo.Admin.StreetExt)
+        content += fmt.Sprintf("city: %s\n", whoisInfo.Admin.City)
+        content += fmt.Sprintf("province: %s\n", whoisInfo.Admin.Province)
+        content += fmt.Sprintf("postal_code: %s\n", whoisInfo.Admin.PostalCode)
+        content += fmt.Sprintf("country: %s\n", whoisInfo.Admin.Country)
+        content += fmt.Sprintf("phone: %s\n", whoisInfo.Admin.Phone)
+        content += fmt.Sprintf("phone_ext: %s\n", whoisInfo.Admin.PhoneExt)
+        content += fmt.Sprintf("fax: %s\n", whoisInfo.Admin.Fax)
+        content += fmt.Sprintf("fax_ext: %s\n", whoisInfo.Admin.FaxExt)
+        content += fmt.Sprintf("email: %s\n", whoisInfo.Admin.Email)
 
         content += fmt.Sprintf("\ntech\n")
-        content += fmt.Sprintf("id: %s\n", whois_info.Tech.ID)
-        content += fmt.Sprintf("name: %s\n", whois_info.Tech.Name)
-        content += fmt.Sprintf("organization: %s\n", whois_info.Tech.Organization)
-        content += fmt.Sprintf("street: %s\n", whois_info.Tech.Street)
-        content += fmt.Sprintf("street_ext: %s\n", whois_info.Tech.StreetExt)
-        content += fmt.Sprintf("city: %s\n", whois_info.Tech.City)
-        content += fmt.Sprintf("province: %s\n", whois_info.Tech.Province)
-        content += fmt.Sprintf("postal_code: %s\n", whois_info.Tech.PostalCode)
-        content += fmt.Sprintf("country: %s\n", whois_info.Tech.Country)
-        content += fmt.Sprintf("phone: %s\n", whois_info.Tech.Phone)
-        content += fmt.Sprintf("phone_ext: %s\n", whois_info.Tech.PhoneExt)
-        content += fmt.Sprintf("fax: %s\n", whois_info.Tech.Fax)
-        content += fmt.Sprintf("fax_ext: %s\n", whois_info.Tech.FaxExt)
-        content += fmt.Sprintf("email: %s\n", whois_info.Tech.Email)
+        content += fmt.Sprintf("id: %s\n", whoisInfo.Tech.ID)
+        content += fmt.Sprintf("name: %s\n", whoisInfo.Tech.Name)
+        content += fmt.Sprintf("organization: %s\n", whoisInfo.Tech.Organization)
+        content += fmt.Sprintf("street: %s\n", whoisInfo.Tech.Street)
+        content += fmt.Sprintf("street_ext: %s\n", whoisInfo.Tech.StreetExt)
+        content += fmt.Sprintf("city: %s\n", whoisInfo.Tech.City)
+        content += fmt.Sprintf("province: %s\n", whoisInfo.Tech.Province)
+        content += fmt.Sprintf("postal_code: %s\n", whoisInfo.Tech.PostalCode)
+        content += fmt.Sprintf("country: %s\n", whoisInfo.Tech.Country)
+        content += fmt.Sprintf("phone: %s\n", whoisInfo.Tech.Phone)
+        content += fmt.Sprintf("phone_ext: %s\n", whoisInfo.Tech.PhoneExt)
+        content += fmt.Sprintf("fax: %s\n", whoisInfo.Tech.Fax)
+        content += fmt.Sprintf("fax_ext: %s\n", whoisInfo.Tech.FaxExt)
+        content += fmt.Sprintf("email: %s\n", whoisInfo.Tech.Email)
 
         content += fmt.Sprintf("\nbill\n")
-        content += fmt.Sprintf("id: %s\n", whois_info.Bill.ID)
-        content += fmt.Sprintf("name: %s\n", whois_info.Bill.Name)
-        content += fmt.Sprintf("organization: %s\n", whois_info.Bill.Organization)
-        content += fmt.Sprintf("street: %s\n", whois_info.Bill.Street)
-        content += fmt.Sprintf("street_ext: %s\n", whois_info.Bill.StreetExt)
-        content += fmt.Sprintf("city: %s\n", whois_info.Bill.City)
-        content += fmt.Sprintf("province: %s\n", whois_info.Bill.Province)
-        content += fmt.Sprintf("postal_code: %s\n", whois_info.Bill.PostalCode)
-        content += fmt.Sprintf("country: %s\n", whois_info.Bill.Country)
-        content += fmt.Sprintf("phone: %s\n", whois_info.Bill.Phone)
-        content += fmt.Sprintf("phone_ext: %s\n", whois_info.Bill.PhoneExt)
-        content += fmt.Sprintf("fax: %s\n", whois_info.Bill.Fax)
-        content += fmt.Sprintf("fax_ext: %s\n", whois_info.Bill.FaxExt)
-        content += fmt.Sprintf("email: %s\n", whois_info.Bill.Email)
+        content += fmt.Sprintf("id: %s\n", whoisInfo.Bill.ID)
+        content += fmt.Sprintf("name: %s\n", whoisInfo.Bill.Name)
+        content += fmt.Sprintf("organization: %s\n", whoisInfo.Bill.Organization)
+        content += fmt.Sprintf("street: %s\n", whoisInfo.Bill.Street)
+        content += fmt.Sprintf("street_ext: %s\n", whoisInfo.Bill.StreetExt)
+        content += fmt.Sprintf("city: %s\n", whoisInfo.Bill.City)
+        content += fmt.Sprintf("province: %s\n", whoisInfo.Bill.Province)
+        content += fmt.Sprintf("postal_code: %s\n", whoisInfo.Bill.PostalCode)
+        content += fmt.Sprintf("country: %s\n", whoisInfo.Bill.Country)
+        content += fmt.Sprintf("phone: %s\n", whoisInfo.Bill.Phone)
+        content += fmt.Sprintf("phone_ext: %s\n", whoisInfo.Bill.PhoneExt)
+        content += fmt.Sprintf("fax: %s\n", whoisInfo.Bill.Fax)
+        content += fmt.Sprintf("fax_ext: %s\n", whoisInfo.Bill.FaxExt)
+        content += fmt.Sprintf("email: %s\n", whoisInfo.Bill.Email)
 
         WriteFile("./examples/" + v.Name() + ".out", content)
     }

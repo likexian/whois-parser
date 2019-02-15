@@ -7,7 +7,7 @@
  *
  */
 
-package whois_parser
+package whoisparser
 
 
 import (
@@ -17,20 +17,41 @@ import (
 )
 
 
-var DomainNotFoundError = errors.New("Domain is not found.")
-var DomainInvalidDataError = errors.New("Domain whois data invalid.")
-var DomainLimitExceedError = errors.New("Domain query limit exceeded.")
+// Domain info error and replacer variables
+var (
+    ErrDomainNotFound = errors.New("Domain is not found.")
+    ErrDomainInvalidData = errors.New("Domain whois data invalid.")
+    ErrDomainLimitExceed = errors.New("Domain query limit exceeded.")
+    TextReplacer = regexp.MustCompile(`\n\[(.+?)\][\ ]+(.+?)`)
+)
 
-var replacer = regexp.MustCompile(`\n\[(.+?)\][\ ]+(.+?)`)
+
+// Version returns package version
+func Version() string {
+    return "1.0.0"
+}
 
 
+// Author returns package author
+func Author() string {
+    return "[Li Kexian](https://www.likexian.com/)"
+}
+
+
+// License returns package license
+func License() string {
+    return "Apache License, Version 2.0"
+}
+
+
+// Parse returns parsed whois info
 func Parse(text string) (whois_info WhoisInfo, err error) {
     if len(text) < 100 {
-        err = DomainInvalidDataError
+        err = ErrDomainInvalidData
         if IsNotFound(text) {
-            err = DomainNotFoundError
+            err = ErrDomainNotFound
         } else if IsLimitExceeded(text) {
-            err = DomainLimitExceedError
+            err = ErrDomainLimitExceed
         }
         return
     }
@@ -41,12 +62,12 @@ func Parse(text string) (whois_info WhoisInfo, err error) {
     var tech Registrant
     var bill Registrant
 
-    whois_text := strings.Replace(text, "\r", "", -1)
-    whois_text = replacer.ReplaceAllString(whois_text, "\n$1: $2")
+    whoisText := strings.Replace(text, "\r", "", -1)
+    whoisText = TextReplacer.ReplaceAllString(whoisText, "\n$1: $2")
 
-    whois_lines := strings.Split(whois_text, "\n")
-    for i:=0; i<len(whois_lines); i++ {
-        line := strings.TrimSpace(whois_lines[i])
+    whoisLines := strings.Split(whoisText, "\n")
+    for i:=0; i<len(whoisLines); i++ {
+        line := strings.TrimSpace(whoisLines[i])
         if len(line) < 5 || !strings.Contains(line, ":") {
             continue
         }
@@ -58,12 +79,12 @@ func Parse(text string) (whois_info WhoisInfo, err error) {
 
         if line[len(line) - 1:] == ":" {
             i += 1
-            for ; i<len(whois_lines); i++ {
-                this_line := strings.TrimSpace(whois_lines[i])
-                if strings.Contains(this_line, ":") {
+            for ; i<len(whoisLines); i++ {
+                thisLine := strings.TrimSpace(whoisLines[i])
+                if strings.Contains(thisLine, ":") {
                     break
                 }
-                line += this_line + ","
+                line += thisLine + ","
             }
             line = strings.Trim(line, ",")
             i -= 1
@@ -77,8 +98,8 @@ func Parse(text string) (whois_info WhoisInfo, err error) {
             continue
         }
 
-        key_name := FindKeyName(name)
-        switch key_name {
+        keyName := FindKeyName(name)
+        switch keyName {
             case "domain_id":
                 registrar.DomainId = value
             case "domain_name":
@@ -135,13 +156,13 @@ func Parse(text string) (whois_info WhoisInfo, err error) {
                 ns := strings.SplitN(name, " ", 2)
                 name = strings.TrimSpace("registrant " + ns[1])
                 if ns[0] == "registrant" || ns[0] == "holder" {
-                    registrant = parser_registrant(registrant, name, value)
+                    registrant = parse_registrant(registrant, name, value)
                 } else if ns[0] == "admin" || ns[0] == "administrative" {
-                    admin = parser_registrant(admin, name, value)
+                    admin = parse_registrant(admin, name, value)
                 } else if ns[0] == "tech" || ns[0] == "technical" {
-                    tech = parser_registrant(tech, name, value)
+                    tech = parse_registrant(tech, name, value)
                 } else if ns[0] == "bill" || ns[0] == "billing" {
-                    bill = parser_registrant(bill, name, value)
+                    bill = parse_registrant(bill, name, value)
                 }
         }
     }
@@ -162,9 +183,10 @@ func Parse(text string) (whois_info WhoisInfo, err error) {
 }
 
 
-func parser_registrant(registrant Registrant, name, value string) (Registrant) {
-    key_name := FindKeyName(name)
-    switch key_name {
+// parse_registrant do parse registrant info
+func parse_registrant(registrant Registrant, name, value string) (Registrant) {
+    keyName := FindKeyName(name)
+    switch keyName {
         case "registrant_id":
             registrant.ID = value
         case "registrant_name":

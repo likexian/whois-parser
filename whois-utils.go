@@ -7,7 +7,7 @@
  *
  */
 
-package whois_parser
+package whoisparser
 
 
 import (
@@ -16,23 +16,26 @@ import (
 )
 
 
+// ReadFile read a text file and returns text string
 func ReadFile(file string) (result string, err error) {
-    tmp_result, err := ioutil.ReadFile(file)
+    tmpResult, err := ioutil.ReadFile(file)
     if err != nil {
         return
     }
 
-    result = string(tmp_result)
+    result = string(tmpResult)
     return
 }
 
 
+// WriteFile write string to file
 func WriteFile(file string, data string) (err error) {
     err = ioutil.WriteFile(file, []byte(data), 0644)
     return
 }
 
 
+// IsNotFound returns domain is not found
 func IsNotFound(data string) (result bool) {
     data = strings.ToLower(data)
     return strings.Contains(data, "no found") || strings.Contains(data, "no match") ||
@@ -43,12 +46,14 @@ func IsNotFound(data string) (result bool) {
 }
 
 
+// IsLimitExceeded returns is query limit
 func IsLimitExceeded(data string) (result bool) {
     data = strings.ToLower(data)
     return strings.Contains(data, "limit exceeded")
 }
 
 
+// ClearName returns cleared key name
 func ClearName(key string) (string) {
     if strings.Contains(key, "(") {
         key = strings.Split(key, "(")[0]
@@ -68,9 +73,10 @@ func ClearName(key string) (string) {
 }
 
 
+// FindKeyName returns the mapper value by key
 func FindKeyName(key string) (name string) {
     key = ClearName(key)
-    if v, ok := name_rule[key]; ok {
+    if v, ok := keyRule[key]; ok {
         return v
     }
 
@@ -78,6 +84,7 @@ func FindKeyName(key string) (name string) {
 }
 
 
+// RemoveDuplicateField remove the duplicate field
 func RemoveDuplicateField(data string) string {
     var newFields []string
     for _, v := range strings.Split(data, ",") {
@@ -94,6 +101,7 @@ func RemoveDuplicateField(data string) string {
 }
 
 
+// FixDomainStatus returns fixed domain status
 func FixDomainStatus(state string) string {
     states := strings.Split(state, ",")
     for k, v := range states {
@@ -105,6 +113,7 @@ func FixDomainStatus(state string) string {
 }
 
 
+// FixNameServers returns fixed name servers
 func FixNameServers(nservers string) string {
     servers := strings.Split(nservers, ",")
     for k, v := range servers {
@@ -116,6 +125,7 @@ func FixNameServers(nservers string) string {
 }
 
 
+// StringInArray returrns string is in array
 func StringInArray(array []string, find string) bool {
     for _, v := range array {
         if v == find {

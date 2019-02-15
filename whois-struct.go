@@ -7,9 +7,10 @@
  *
  */
 
-package whois_parser
+package whoisparser
 
 
+// WhoisInfo storing main info
 type WhoisInfo struct {
     Registrar  Registrar  `json:"registrar"`
     Registrant Registrant `json:"registrant"`
@@ -19,6 +20,7 @@ type WhoisInfo struct {
 }
 
 
+// Registrar storing registrar info
 type Registrar struct {
     RegistrarID    string `json:"registrar_id"`
     RegistrarName  string `json:"registrar_name"`
@@ -35,6 +37,7 @@ type Registrar struct {
 }
 
 
+// Registrant storing registrant info
 type Registrant struct {
     ID           string `json:"id"`
     Name         string `json:"name"`

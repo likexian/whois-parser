@@ -1,8 +1,11 @@
 # whois-parser.go
 
-whois-parser-go is a simple Go module for domain whois info parse.
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+[![GoDoc](https://godoc.org/github.com/likexian/whois-parser-go?status.svg)](https://godoc.org/github.com/likexian/whois-parser-go)
+[![Build Status](https://travis-ci.org/likexian/whois-parser-go.svg?branch=master)](https://travis-ci.org/likexian/whois-parser-go)
+[![Go Report Card](https://goreportcard.com/badge/github.com/likexian/whois-parser-go)](https://goreportcard.com/report/github.com/likexian/whois-parser-go)
 
-[![Build Status](https://secure.travis-ci.org/likexian/whois-parser-go.png)](https://secure.travis-ci.org/likexian/whois-parser-go)
+whois-parser-go is a simple Go module for domain whois info parse.
 
 ## Overview
 
@@ -26,7 +29,7 @@ It will parse the provided whois information and return a readable data struct.
 
 ## Example
 
-    result, err := whois_parser.Parse(whois_raw)
+    result, err := whoisparser.Parse(whois_raw)
     if err == nil {
         // Print the domain status
         fmt.Println(result.Registrar.DomainStatus)
