@@ -89,35 +89,36 @@ func TestWhoisParser(t *testing.T) {
         assertNotError(t, err)
 
         if domain == "mjj.com" {
+            assertNotEmpty(t, whoisInfo.Registrar.DomainId)
             assertNotEmpty(t, whoisInfo.Registrar.RegistrarID)
         }
 
-        if domainExt != "museum" && domainExt != "at" && domainExt != "int" && domainExt != "jp" {
+        if !StringInArray([]string{"museum", "at", "int", "jp"}, domainExt) {
             assertNotEmpty(t, whoisInfo.Registrar.RegistrarName)
         }
+
         if domainExt == "com" {
             assertNotEmpty(t, whoisInfo.Registrar.WhoisServer)
-        }
-        if domainExt == "com" {
             assertNotEmpty(t, whoisInfo.Registrar.ReferralURL)
-        }
-        if domain == "mjj.com" {
-            assertNotEmpty(t, whoisInfo.Registrar.DomainId)
         }
 
         assertNotEmpty(t, whoisInfo.Registrar.DomainName)
-        if domainExt != "at" && domainExt != "kr" && domainExt != "int" {
+        if !StringInArray([]string{"at", "kr", "int"}, domainExt) {
             assertNotEmpty(t, whoisInfo.Registrar.DomainStatus)
         }
-        if domainExt != "au" && domainExt != "at" && domainExt != "int" && domainExt != "jp" {
+
+        if !StringInArray([]string{"au", "at", "int", "jp"}, domainExt) {
             assertNotEmpty(t, whoisInfo.Registrar.CreatedDate)
         }
-        if domainExt != "cn" && domainExt != "ru" && domainExt != "su" && domainExt != "hk" {
+
+        if !StringInArray([]string{"cn", "ru", "su", "hk"}, domainExt) {
             assertNotEmpty(t, whoisInfo.Registrar.UpdatedDate)
         }
-        if domainExt != "au" && domainExt != "at" && domainExt != "re" && domainExt != "fr" && domainExt != "int" {
+
+        if !StringInArray([]string{"au", "at", "re", "fr", "int"}, domainExt) {
             assertNotEmpty(t, whoisInfo.Registrar.ExpirationDate)
         }
+
         assertNotEmpty(t, whoisInfo.Registrar.NameServers)
         if domainExt == "cn" {
             assertNotEmpty(t, whoisInfo.Registrar.DomainDNSSEC)

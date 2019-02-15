@@ -45,7 +45,7 @@ func License() string {
 
 
 // Parse returns parsed whois info
-func Parse(text string) (whois_info WhoisInfo, err error) {
+func Parse(text string) (whoisInfo WhoisInfo, err error) {
     if len(text) < 100 {
         err = ErrDomainInvalidData
         if IsNotFound(text) {
@@ -156,13 +156,13 @@ func Parse(text string) (whois_info WhoisInfo, err error) {
                 ns := strings.SplitN(name, " ", 2)
                 name = strings.TrimSpace("registrant " + ns[1])
                 if ns[0] == "registrant" || ns[0] == "holder" {
-                    registrant = parse_registrant(registrant, name, value)
+                    registrant = parseRegistrant(registrant, name, value)
                 } else if ns[0] == "admin" || ns[0] == "administrative" {
-                    admin = parse_registrant(admin, name, value)
+                    admin = parseRegistrant(admin, name, value)
                 } else if ns[0] == "tech" || ns[0] == "technical" {
-                    tech = parse_registrant(tech, name, value)
+                    tech = parseRegistrant(tech, name, value)
                 } else if ns[0] == "bill" || ns[0] == "billing" {
-                    bill = parse_registrant(bill, name, value)
+                    bill = parseRegistrant(bill, name, value)
                 }
         }
     }
@@ -173,18 +173,18 @@ func Parse(text string) (whois_info WhoisInfo, err error) {
     registrar.NameServers = RemoveDuplicateField(registrar.NameServers)
     registrar.DomainStatus = RemoveDuplicateField(registrar.DomainStatus)
 
-    whois_info.Registrar = registrar
-    whois_info.Registrant = registrant
-    whois_info.Admin = admin
-    whois_info.Tech = tech
-    whois_info.Bill = bill
+    whoisInfo.Registrar = registrar
+    whoisInfo.Registrant = registrant
+    whoisInfo.Admin = admin
+    whoisInfo.Tech = tech
+    whoisInfo.Bill = bill
 
     return
 }
 
 
-// parse_registrant do parse registrant info
-func parse_registrant(registrant Registrant, name, value string) (Registrant) {
+// parseRegistrant do parse registrant info
+func parseRegistrant(registrant Registrant, name, value string) (Registrant) {
     keyName := FindKeyName(name)
     switch keyName {
         case "registrant_id":
