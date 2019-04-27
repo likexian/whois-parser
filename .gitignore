@@ -1,5 +1,2 @@
-*.swp
 .DS_Store
-Gopkg.toml
-Gopkg.lock
 rule

@@ -4,6 +4,7 @@
 [![GoDoc](https://godoc.org/github.com/likexian/whois-parser-go?status.svg)](https://godoc.org/github.com/likexian/whois-parser-go)
 [![Build Status](https://travis-ci.org/likexian/whois-parser-go.svg?branch=master)](https://travis-ci.org/likexian/whois-parser-go)
 [![Go Report Card](https://goreportcard.com/badge/github.com/likexian/whois-parser-go)](https://goreportcard.com/report/github.com/likexian/whois-parser-go)
+[![Code Cover](https://codecov.io/gh/likexian/whois-parser-go/graph/badge.svg)](https://codecov.io/gh/likexian/whois-parser-go)
 
 whois-parser-go is a simple Go module for domain whois info parse.
 
@@ -53,9 +54,9 @@ Please refer to [whois-go](https://github.com/likexian/whois-go)
 
 ## LICENSE
 
-Copyright 2014-2019, Li Kexian
+Copyright 2014-2019 Li Kexian
 
-Apache License, Version 2.0
+Licensed under the Apache License 2.0
 
 ## About
 
