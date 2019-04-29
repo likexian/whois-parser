@@ -1,0 +1,76 @@
+registrar_id: 1915
+registrar_name: West263 International Limited
+whois_server: cx
+referral_url: 
+domain_id: 174481-CoCCA
+domain_name: qq.cx
+domain_status: clienttransferprohibited
+created_date: 2008-07-09T06:41:35.769Z
+updated_date: 2017-08-09T14:18:49.92Z
+expiration_date: 2021-07-09T06:41:35.673Z
+name_servers: ns1.myhostadmin.net,ns2.myhostadmin.net,ns3.myhostadmin.net,ns4.myhostadmin.net,ns5.myhostadmin.net,ns6.myhostadmin.net
+domain_dnssec: unsigned
+
+registrant
+id: 1616025-CoCCA
+name: Zhou Zhao Hong
+organization: Zhou Zhao Hong
+street: Yun Nan Sheng Kun Ming Shi Guan Du Qu
+street_ext: 
+city: Kun Ming Shi
+province: Yun Nan Sheng
+postal_code: 510160
+country: CN
+phone: +86.13078794978
+phone_ext: 
+fax: +86.13078794978
+fax_ext: 
+email: 339257979@qq.com
+
+admin
+id: 1616025-CoCCA
+name: Zhou Zhao Hong
+organization: Zhou Zhao Hong
+street: Yun Nan Sheng Kun Ming Shi Guan Du Qu
+street_ext: 
+city: Kun Ming Shi
+province: Yun Nan Sheng
+postal_code: 510160
+country: CN
+phone: +86.13078794978
+phone_ext: 
+fax: +86.13078794978
+fax_ext: 
+email: 339257979@qq.com
+
+tech
+id: 1616025-CoCCA
+name: Zhou Zhao Hong
+organization: Zhou Zhao Hong
+street: Yun Nan Sheng Kun Ming Shi Guan Du Qu
+street_ext: 
+city: Kun Ming Shi
+province: Yun Nan Sheng
+postal_code: 510160
+country: CN
+phone: +86.13078794978
+phone_ext: 
+fax: +86.13078794978
+fax_ext: 
+email: 339257979@qq.com
+
+bill
+id: 1616025-CoCCA
+name: Zhou Zhao Hong
+organization: Zhou Zhao Hong
+street: Yun Nan Sheng Kun Ming Shi Guan Du Qu
+street_ext: 
+city: Kun Ming Shi
+province: Yun Nan Sheng
+postal_code: 510160
+country: CN
+phone: +86.13078794978
+phone_ext: 
+fax: +86.13078794978
+fax_ext: 
+email: 339257979@qq.com
