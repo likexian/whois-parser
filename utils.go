@@ -25,17 +25,33 @@ import (
 )
 
 // IsNotFound returns domain is not found
-func IsNotFound(data string) (result bool) {
+func IsNotFound(data string) bool {
+	notExistsKeys := []string{
+		"no found",
+		"no match",
+		"not found",
+		"not match",
+		"no entries found",
+		"no data found",
+		"not registered",
+		"not been registered",
+		"is free",
+		"not available for registration",
+		"object does not exist",
+	}
+
 	data = strings.ToLower(data)
-	return strings.Contains(data, "no found") || strings.Contains(data, "no match") ||
-		strings.Contains(data, "not found") || strings.Contains(data, "not match") ||
-		strings.Contains(data, "no entries found") || strings.Contains(data, "no data found") ||
-		strings.Contains(data, "not registered") || strings.Contains(data, "is free") ||
-		strings.Contains(data, "not available for registration")
+	for _, v := range notExistsKeys {
+		if strings.Contains(data, v) {
+			return true
+		}
+	}
+
+	return false
 }
 
 // IsLimitExceeded returns is query limit
-func IsLimitExceeded(data string) (result bool) {
+func IsLimitExceeded(data string) bool {
 	data = strings.ToLower(data)
 	return strings.Contains(data, "limit exceeded")
 }
@@ -60,7 +76,7 @@ func ClearName(key string) string {
 }
 
 // FindKeyName returns the mapper value by key
-func FindKeyName(key string) (name string) {
+func FindKeyName(key string) string {
 	key = ClearName(key)
 	if v, ok := keyRule[key]; ok {
 		return v
