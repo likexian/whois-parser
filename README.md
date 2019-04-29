@@ -26,27 +26,29 @@ It will parse the provided whois information and return a readable data struct.
 
 ## Documentation
 
-    func Parse(whois string) (whois_info WhoisInfo, err error)
+Visit the docs on [GoDoc](https://godoc.org/github.com/likexian/whois-parser-go)
 
 ## Example
 
-    result, err := whoisparser.Parse(whois_raw)
-    if err == nil {
-        // Print the domain status
-        fmt.Println(result.Registrar.DomainStatus)
+```go
+result, err := whoisparser.Parse(whois_raw)
+if err == nil {
+    // Print the domain status
+    fmt.Println(result.Registrar.DomainStatus)
 
-        // Print the domain created date
-        fmt.Println(result.Registrar.CreatedDate)
+    // Print the domain created date
+    fmt.Println(result.Registrar.CreatedDate)
 
-        // Print the domain expiration date
-        fmt.Println(result.Registrar.ExpirationDate)
+    // Print the domain expiration date
+    fmt.Println(result.Registrar.ExpirationDate)
 
-        // Print the registrant name
-        fmt.Println(result.Registrant.Name)
+    // Print the registrant name
+    fmt.Println(result.Registrant.Name)
 
-        // Print the registrant email address
-        fmt.Println(result.Registrant.Email)
-    }
+    // Print the registrant email address
+    fmt.Println(result.Registrant.Email)
+}
+```
 
 ## Whois info query in Go
 
