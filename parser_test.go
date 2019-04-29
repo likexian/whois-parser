@@ -22,7 +22,7 @@ package whoisparser
 import (
 	"fmt"
 	"github.com/likexian/gokit/assert"
-	"io/ioutil"
+	"github.com/likexian/gokit/xfile"
 	"strings"
 	"testing"
 )
@@ -46,13 +46,13 @@ func TestWhoisParser(t *testing.T) {
 	assert.NotNil(t, err)
 	assert.Equal(t, fmt.Sprintf("%s", err), "Domain whois data invalid.")
 
-	dirs, err := ioutil.ReadDir("./examples/")
+	dirs, err := xfile.ListDir("./examples/", "file", -1)
 	assert.Nil(t, err)
 
 	for _, v := range dirs {
-		domain := v.Name()
+		domain := v.Name
 		domainExt := domain[strings.LastIndex(domain, ".")+1:]
-		whoisRaw, err := ReadFile("./examples/" + domain)
+		whoisRaw, err := xfile.ReadText("./examples/" + domain)
 		assert.Nil(t, err)
 
 		if domain[len(domain)-4:] == ".out" {
@@ -67,7 +67,7 @@ func TestWhoisParser(t *testing.T) {
 			assert.NotZero(t, whoisInfo.Registrar.RegistrarID)
 		}
 
-		if !StringInArray([]string{"museum", "at", "int", "jp"}, domainExt) {
+		if !assert.IsContains([]string{"museum", "at", "int", "jp"}, domainExt) {
 			assert.NotZero(t, whoisInfo.Registrar.RegistrarName)
 		}
 
@@ -77,19 +77,19 @@ func TestWhoisParser(t *testing.T) {
 		}
 
 		assert.NotZero(t, whoisInfo.Registrar.DomainName)
-		if !StringInArray([]string{"at", "kr", "int"}, domainExt) {
+		if !assert.IsContains([]string{"at", "kr", "int"}, domainExt) {
 			assert.NotZero(t, whoisInfo.Registrar.DomainStatus)
 		}
 
-		if !StringInArray([]string{"au", "at", "int", "jp"}, domainExt) {
+		if !assert.IsContains([]string{"au", "at", "int", "jp"}, domainExt) {
 			assert.NotZero(t, whoisInfo.Registrar.CreatedDate)
 		}
 
-		if !StringInArray([]string{"cn", "ru", "su", "hk"}, domainExt) {
+		if !assert.IsContains([]string{"cn", "ru", "su", "hk"}, domainExt) {
 			assert.NotZero(t, whoisInfo.Registrar.UpdatedDate)
 		}
 
-		if !StringInArray([]string{"au", "at", "re", "fr", "int"}, domainExt) {
+		if !assert.IsContains([]string{"au", "at", "re", "fr", "int"}, domainExt) {
 			assert.NotZero(t, whoisInfo.Registrar.ExpirationDate)
 		}
 
@@ -176,6 +176,6 @@ func TestWhoisParser(t *testing.T) {
 		content += fmt.Sprintf("fax_ext: %s\n", whoisInfo.Bill.FaxExt)
 		content += fmt.Sprintf("email: %s\n", whoisInfo.Bill.Email)
 
-		WriteFile("./examples/"+v.Name()+".out", content)
+		xfile.WriteText("./examples/"+v.Name+".out", content)
 	}
 }

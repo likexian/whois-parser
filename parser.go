@@ -35,7 +35,7 @@ var (
 
 // Version returns package version
 func Version() string {
-	return "1.0.2"
+	return "1.0.3"
 }
 
 // Author returns package author

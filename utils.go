@@ -20,26 +20,9 @@
 package whoisparser
 
 import (
-	"io/ioutil"
+	"github.com/likexian/gokit/xslice"
 	"strings"
 )
-
-// ReadFile read a text file and returns text string
-func ReadFile(file string) (result string, err error) {
-	tmpResult, err := ioutil.ReadFile(file)
-	if err != nil {
-		return
-	}
-
-	result = string(tmpResult)
-	return
-}
-
-// WriteFile write string to file
-func WriteFile(file string, data string) (err error) {
-	err = ioutil.WriteFile(file, []byte(data), 0644)
-	return
-}
 
 // IsNotFound returns domain is not found
 func IsNotFound(data string) (result bool) {
@@ -88,18 +71,18 @@ func FindKeyName(key string) (name string) {
 
 // RemoveDuplicateField remove the duplicate field
 func RemoveDuplicateField(data string) string {
-	var newFields []string
+	fs := []string{}
+
 	for _, v := range strings.Split(data, ",") {
-		v = strings.TrimSpace(v)
-		if v == "" {
-			continue
-		}
-		if !StringInArray(newFields, v) {
-			newFields = append(newFields, v)
+		if strings.TrimSpace(v) != "" {
+			fs = append(fs, v)
 		}
 	}
 
-	return strings.Join(newFields, ",")
+	fields := xslice.Unique(fs)
+	result := strings.Join(fields.([]string), ",")
+
+	return result
 }
 
 // FixDomainStatus returns fixed domain status
@@ -122,15 +105,4 @@ func FixNameServers(nservers string) string {
 	}
 
 	return strings.Join(servers, ",")
-}
-
-// StringInArray returrns string is in array
-func StringInArray(array []string, find string) bool {
-	for _, v := range array {
-		if v == find {
-			return true
-		}
-	}
-
-	return false
 }
