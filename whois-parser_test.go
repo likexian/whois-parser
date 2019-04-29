@@ -21,111 +21,81 @@ package whoisparser
 
 import (
 	"fmt"
+	"github.com/likexian/gokit/assert"
 	"io/ioutil"
-	"runtime"
 	"strings"
 	"testing"
 )
 
-func assertNotError(t *testing.T, err error) {
-	if err != nil {
-		_, file, line, _ := runtime.Caller(1)
-		t.Errorf("%s:%d", file, line)
-		t.Errorf(err.Error())
-		t.FailNow()
-	}
-}
-
-func assertHasError(t *testing.T, err error) {
-	if err == nil {
-		_, file, line, _ := runtime.Caller(1)
-		t.Errorf("%s:%d", file, line)
-		t.Errorf("Error shall not equal nil")
-		t.FailNow()
-	}
-}
-
-func assertStringEqual(t *testing.T, a, b string) {
-	if a != b {
-		_, file, line, _ := runtime.Caller(1)
-		t.Errorf("%s:%d", file, line)
-		t.Errorf("%s != %s", a, b)
-		t.FailNow()
-	}
-}
-
-func assertNotEmpty(t *testing.T, a string) {
-	if a == "" {
-		_, file, line, _ := runtime.Caller(1)
-		t.Errorf("%s:%d", file, line)
-		t.Errorf("Result shall not be empty")
-		t.FailNow()
-	}
+func TestVersion(t *testing.T) {
+	assert.Contains(t, Version(), ".")
+	assert.Contains(t, Author(), "likexian")
+	assert.Contains(t, License(), "Apache License")
 }
 
 func TestWhoisParser(t *testing.T) {
 	_, err := Parse("not found")
-	assertHasError(t, err)
-	assertStringEqual(t, fmt.Sprintf("%s", err), "Domain is not found.")
+	assert.NotNil(t, err)
+	assert.Equal(t, fmt.Sprintf("%s", err), "Domain is not found.")
 
 	_, err = Parse("WHOIS LIMIT EXCEEDED - SEE WWW.PIR.ORG/WHOIS FOR DETAILS")
-	assertHasError(t, err)
-	assertStringEqual(t, fmt.Sprintf("%s", err), "Domain query limit exceeded.")
+	assert.NotNil(t, err)
+	assert.Equal(t, fmt.Sprintf("%s", err), "Domain query limit exceeded.")
 
 	_, err = Parse("Hello - SEE WWW.PIR.ORG/WHOIS FOR DETAILS")
-	assertHasError(t, err)
-	assertStringEqual(t, fmt.Sprintf("%s", err), "Domain whois data invalid.")
+	assert.NotNil(t, err)
+	assert.Equal(t, fmt.Sprintf("%s", err), "Domain whois data invalid.")
 
 	dirs, err := ioutil.ReadDir("./examples/")
-	assertNotError(t, err)
+	assert.Nil(t, err)
 
 	for _, v := range dirs {
 		domain := v.Name()
 		domainExt := domain[strings.LastIndex(domain, ".")+1:]
 		whoisRaw, err := ReadFile("./examples/" + domain)
-		assertNotError(t, err)
+		assert.Nil(t, err)
 
 		if domain[len(domain)-4:] == ".out" {
 			continue
 		}
 
 		whoisInfo, err := Parse(whoisRaw)
-		assertNotError(t, err)
+		assert.Nil(t, err)
 
 		if domain == "mjj.com" {
-			assertNotEmpty(t, whoisInfo.Registrar.DomainId)
-			assertNotEmpty(t, whoisInfo.Registrar.RegistrarID)
+			assert.NotZero(t, whoisInfo.Registrar.DomainId)
+			assert.NotZero(t, whoisInfo.Registrar.RegistrarID)
 		}
 
 		if !StringInArray([]string{"museum", "at", "int", "jp"}, domainExt) {
-			assertNotEmpty(t, whoisInfo.Registrar.RegistrarName)
+			assert.NotZero(t, whoisInfo.Registrar.RegistrarName)
 		}
 
 		if domainExt == "com" {
-			assertNotEmpty(t, whoisInfo.Registrar.WhoisServer)
-			assertNotEmpty(t, whoisInfo.Registrar.ReferralURL)
+			assert.NotZero(t, whoisInfo.Registrar.WhoisServer)
+			assert.NotZero(t, whoisInfo.Registrar.ReferralURL)
 		}
 
-		assertNotEmpty(t, whoisInfo.Registrar.DomainName)
+		assert.NotZero(t, whoisInfo.Registrar.DomainName)
 		if !StringInArray([]string{"at", "kr", "int"}, domainExt) {
-			assertNotEmpty(t, whoisInfo.Registrar.DomainStatus)
+			assert.NotZero(t, whoisInfo.Registrar.DomainStatus)
 		}
 
 		if !StringInArray([]string{"au", "at", "int", "jp"}, domainExt) {
-			assertNotEmpty(t, whoisInfo.Registrar.CreatedDate)
+			assert.NotZero(t, whoisInfo.Registrar.CreatedDate)
 		}
 
 		if !StringInArray([]string{"cn", "ru", "su", "hk"}, domainExt) {
-			assertNotEmpty(t, whoisInfo.Registrar.UpdatedDate)
+			assert.NotZero(t, whoisInfo.Registrar.UpdatedDate)
 		}
 
 		if !StringInArray([]string{"au", "at", "re", "fr", "int"}, domainExt) {
-			assertNotEmpty(t, whoisInfo.Registrar.ExpirationDate)
+			assert.NotZero(t, whoisInfo.Registrar.ExpirationDate)
 		}
 
-		assertNotEmpty(t, whoisInfo.Registrar.NameServers)
+		assert.NotZero(t, whoisInfo.Registrar.NameServers)
 		if domainExt == "cn" {
-			assertNotEmpty(t, whoisInfo.Registrar.DomainDNSSEC)
+			assert.NotZero(t, whoisInfo.Registrar.DomainDNSSEC)
 		}
 
 		content := ""
