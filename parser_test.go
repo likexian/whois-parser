@@ -21,10 +21,11 @@ package whoisparser
 
 import (
 	"fmt"
-	"github.com/likexian/gokit/assert"
-	"github.com/likexian/gokit/xfile"
 	"strings"
 	"testing"
+
+	"github.com/likexian/gokit/assert"
+	"github.com/likexian/gokit/xfile"
 )
 
 func TestVersion(t *testing.T) {
@@ -46,7 +47,7 @@ func TestWhoisParser(t *testing.T) {
 	assert.NotNil(t, err)
 	assert.Equal(t, fmt.Sprintf("%s", err), "Domain whois data invalid.")
 
-	dirs, err := xfile.ListDir("./examples/", "file", -1)
+	dirs, err := xfile.ListDir("./examples/", xfile.TypeFile, -1)
 	assert.Nil(t, err)
 
 	for _, v := range dirs {
@@ -85,7 +86,7 @@ func TestWhoisParser(t *testing.T) {
 			assert.NotZero(t, whoisInfo.Registrar.CreatedDate)
 		}
 
-		if !assert.IsContains([]string{"cn", "ru", "su", "hk"}, domainExt) {
+		if !assert.IsContains([]string{"cn", "ru", "su", "hk", "ro"}, domainExt) {
 			assert.NotZero(t, whoisInfo.Registrar.UpdatedDate)
 		}
 
@@ -176,6 +177,6 @@ func TestWhoisParser(t *testing.T) {
 		content += fmt.Sprintf("fax_ext: %s\n", whoisInfo.Bill.FaxExt)
 		content += fmt.Sprintf("email: %s\n", whoisInfo.Bill.Email)
 
-		xfile.WriteText("./examples/"+v.Name+".out", content)
+		_ = xfile.WriteText("./examples/"+v.Name+".out", content)
 	}
 }

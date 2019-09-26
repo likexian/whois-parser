@@ -20,8 +20,9 @@
 package whoisparser
 
 import (
-	"github.com/likexian/gokit/xslice"
 	"strings"
+
+	"github.com/likexian/gokit/xslice"
 )
 
 // IsNotFound returns domain is not found
