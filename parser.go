@@ -21,7 +21,6 @@ package whoisparser
 
 import (
 	"errors"
-	"regexp"
 	"strings"
 )
 
@@ -30,12 +29,11 @@ var (
 	ErrDomainNotFound    = errors.New("Domain is not found.")
 	ErrDomainInvalidData = errors.New("Domain whois data invalid.")
 	ErrDomainLimitExceed = errors.New("Domain query limit exceeded.")
-	TextReplacer         = regexp.MustCompile(`\n\[(.+?)\][\ ]+(.+?)`)
 )
 
 // Version returns package version
 func Version() string {
-	return "1.0.5"
+	return "1.1.0"
 }
 
 // Author returns package author
@@ -50,6 +48,7 @@ func License() string {
 
 // Parse returns parsed whois info
 func Parse(text string) (whoisInfo WhoisInfo, err error) {
+	text = strings.TrimSpace(text)
 	if len(text) < 100 {
 		err = ErrDomainInvalidData
 		if IsNotFound(text) {
@@ -66,9 +65,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 	var tech Registrant
 	var bill Registrant
 
-	whoisText := strings.Replace(text, "\r", "", -1)
-	whoisText = TextReplacer.ReplaceAllString(whoisText, "\n$1: $2")
-
+	whoisText := Prepare(text)
 	whoisLines := strings.Split(whoisText, "\n")
 	for i := 0; i < len(whoisLines); i++ {
 		line := strings.TrimSpace(whoisLines[i])

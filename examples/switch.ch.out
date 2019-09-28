@@ -1,0 +1,76 @@
+registrar_id: 
+registrar_name: Gandi SAS
+whois_server: 
+referral_url: 
+domain_id: 
+domain_name: switch.ch
+domain_status: 
+created_date: before 01 January 1996
+updated_date: 
+expiration_date: 
+name_servers: ns2.switch.ch,ns3.switch.ch,scsnms.switch.ch
+domain_dnssec: yes
+
+registrant
+id: 
+name: Roland Eugster
+organization: SWITCH
+street: Werdstrasse 2, Postfach, CH-8021 Zurich, Switzerland
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: DNS Operation
+organization: SWITCH
+street: Werdstrasse 2, P.O. Box, CH-8021 Zurich, Switzerland
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

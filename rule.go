@@ -65,6 +65,7 @@ var (
 		"registered date":                        "created_date",
 		"registered on":                          "created_date",
 		"registration time":                      "created_date",
+		"first registration date":                "created_date",
 		"modified":                               "updated_date",
 		"changed":                                "updated_date",
 		"update date":                            "updated_date",
