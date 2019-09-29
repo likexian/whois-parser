@@ -31,6 +31,8 @@ func TestPrepare(t *testing.T) {
 	tests := []string{
 		"switch.ch",
 		"google.ch",
+		"github.it",
+		"admin.it",
 	}
 
 	for _, v := range tests {

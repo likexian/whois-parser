@@ -33,7 +33,7 @@ var (
 
 // Version returns package version
 func Version() string {
-	return "1.1.0"
+	return "1.2.0"
 }
 
 // Author returns package author
@@ -106,12 +106,16 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		case "domain_name":
 			registrar.DomainName = value
 		case "registrar_id":
-			if registrar.RegistrarID == "" {
-				registrar.RegistrarID = value
+			if registrar.ID == "" {
+				registrar.ID = value
 			}
 		case "registrar_name":
-			if registrar.RegistrarName == "" {
-				registrar.RegistrarName = value
+			if registrar.Name == "" {
+				registrar.Name = value
+			}
+		case "registrar_organization":
+			if registrar.Organization == "" {
+				registrar.Organization = value
 			}
 		case "whois_server":
 			if registrar.WhoisServer == "" {

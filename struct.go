@@ -30,15 +30,16 @@ type WhoisInfo struct {
 
 // Registrar storing registrar info
 type Registrar struct {
-	RegistrarID    string `json:"registrar_id"`
-	RegistrarName  string `json:"registrar_name"`
+	ID             string `json:"id"`
+	Name           string `json:"name"`
+	Organization   string `json:"organization"`
 	WhoisServer    string `json:"whois_server"`
 	ReferralURL    string `json:"referral_url"`
 	DomainId       string `json:"domain_id"`
 	DomainName     string `json:"domain_name"`
 	DomainStatus   string `json:"domain_status"`
-	NameServers    string `json:"name_servers"`
 	DomainDNSSEC   string `json:"domain_dnssec"`
+	NameServers    string `json:"name_servers"`
 	CreatedDate    string `json:"created_date"`
 	UpdatedDate    string `json:"updated_date"`
 	ExpirationDate string `json:"expiration_date"`

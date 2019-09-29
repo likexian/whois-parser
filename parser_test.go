@@ -65,11 +65,11 @@ func TestWhoisParser(t *testing.T) {
 
 		if domain == "mjj.com" {
 			assert.NotZero(t, whoisInfo.Registrar.DomainId)
-			assert.NotZero(t, whoisInfo.Registrar.RegistrarID)
+			assert.NotZero(t, whoisInfo.Registrar.ID)
 		}
 
 		if !assert.IsContains([]string{"museum", "at", "int", "jp", "it"}, domainExt) {
-			assert.NotZero(t, whoisInfo.Registrar.RegistrarName)
+			assert.NotZero(t, whoisInfo.Registrar.Name)
 		}
 
 		if domainExt == "com" {
@@ -100,8 +100,9 @@ func TestWhoisParser(t *testing.T) {
 		}
 
 		content := ""
-		content += fmt.Sprintf("registrar_id: %s\n", whoisInfo.Registrar.RegistrarID)
-		content += fmt.Sprintf("registrar_name: %s\n", whoisInfo.Registrar.RegistrarName)
+		content += fmt.Sprintf("registrar_id: %s\n", whoisInfo.Registrar.ID)
+		content += fmt.Sprintf("registrar_name: %s\n", whoisInfo.Registrar.Name)
+		content += fmt.Sprintf("registrar_organization: %s\n", whoisInfo.Registrar.Organization)
 		content += fmt.Sprintf("whois_server: %s\n", whoisInfo.Registrar.WhoisServer)
 		content += fmt.Sprintf("referral_url: %s\n", whoisInfo.Registrar.ReferralURL)
 		content += fmt.Sprintf("domain_id: %s\n", whoisInfo.Registrar.DomainId)

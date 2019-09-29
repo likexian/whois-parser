@@ -23,11 +23,14 @@ import (
 	"fmt"
 	"regexp"
 	"strings"
+
+	"github.com/likexian/gokit/assert"
 )
 
 var (
 	textReplacer = regexp.MustCompile(`\n\[(.+?)\][\ ]+(.+?)`)
 	chDomain     = regexp.MustCompile(`Domain name\s+[a-z0-9\-]+\.ch`)
+	itDomain     = regexp.MustCompile(`Domain\:\s+[a-z0-9\-]+\.it`)
 )
 
 // Prepare do prepare the whois info for parsing
@@ -39,6 +42,11 @@ func Prepare(text string) string {
 	m := chDomain.FindStringSubmatch(text)
 	if len(m) > 0 {
 		return prepareCH(text)
+	}
+
+	m = itDomain.FindStringSubmatch(text)
+	if len(m) > 0 {
+		return prepareIT(text)
 	}
 
 	return text
@@ -105,4 +113,47 @@ func prepareCH(text string) string {
 	text = strings.Replace(text, ": ,", ":", -1)
 
 	return text
+}
+
+// prepareIT do prepare the .it domain
+func prepareIT(text string) string {
+	topTokens := []string{
+		"Registrant",
+		"Admin Contact",
+		"Technical Contacts",
+		"Registrar",
+		"Nameservers",
+	}
+
+	topToken := ""
+	subToken := ""
+
+	result := ""
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if v == "" {
+			continue
+		}
+		if assert.IsContains(topTokens, v) {
+			topToken = v + " "
+			subToken = ""
+		} else {
+			if v[0] != '*' && strings.Contains(v, ":") {
+				vs := strings.Split(v, ":")
+				subToken = vs[0]
+			} else {
+				if subToken != "" {
+					result += ", " + v
+					continue
+				}
+			}
+			if topToken != "" && !strings.Contains(v, ":") {
+				result += fmt.Sprintf("\n%s: %s", topToken, v)
+			} else {
+				result += fmt.Sprintf("\n%s%s", topToken, v)
+			}
+		}
+	}
+
+	return result
 }
