@@ -29,8 +29,7 @@ import (
 
 var (
 	textReplacer = regexp.MustCompile(`\n\[(.+?)\][\ ]+(.+?)`)
-	chDomain     = regexp.MustCompile(`Domain name\s+[a-z0-9\-]+\.ch`)
-	itDomain     = regexp.MustCompile(`Domain\:\s+[a-z0-9\-]+\.it`)
+	searchDomain = regexp.MustCompile(`Domain(\s+name)?\:?\s+([a-z0-9\-]+)\.([a-z]{2,})`)
 )
 
 // Prepare do prepare the whois info for parsing
@@ -39,14 +38,14 @@ func Prepare(text string) string {
 	text = strings.Replace(text, "\t", " ", -1)
 	text = textReplacer.ReplaceAllString(text, "\n$1: $2")
 
-	m := chDomain.FindStringSubmatch(text)
+	m := searchDomain.FindStringSubmatch(text)
 	if len(m) > 0 {
-		return prepareCH(text)
-	}
-
-	m = itDomain.FindStringSubmatch(text)
-	if len(m) > 0 {
-		return prepareIT(text)
+		switch strings.ToLower(m[3]) {
+		case "ch":
+			return prepareCH(text)
+		case "it":
+			return prepareIT(text)
+		}
 	}
 
 	return text
