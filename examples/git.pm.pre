@@ -1,0 +1,93 @@
+
+%%
+%% This is the AFNIC Whois server.
+%%
+%% complete date format : YYYY-MM-DDThh:mm:ssZ
+%% short date format    : DD/MM
+%% version              : FRNIC-2.5
+%%
+%% Rights restricted by copyright.
+%% See https://www.afnic.fr/en/products-and-services/services/whois/whois-special-notice/
+%%
+%% Use '-h' option to obtain more information about this service.
+%%
+%% [1.1.1.1 REQUEST] >> git.pm
+%%
+%% RL Net [##########] - RL IP [######....]
+%%
+domain:      git.pm
+status:      ACTIVE
+hold:        NO
+holder-c:    TS6102-FRNIC
+admin-c:     TS6101-FRNIC
+tech-c:      TS6101-FRNIC
+zone-c:      NFC1-FRNIC
+nsl-id:      NSL38500-FRNIC
+registrar:   GRANSY s.r.o.
+Expiry Date: 2020-07-18T16:17:05Z
+created:     2013-07-18T16:17:05Z
+last-update: 2019-06-12T07:35:08Z
+source:      FRNIC
+ns-list:     NSL38500-FRNIC
+nserver:     ns1.srna.sk
+nserver:     ns2.srna.sk
+source:      FRNIC
+registrar name: GRANSY s.r.o.
+registrar type:        Isp Option 1
+registrar address:     Borivojova 35
+registrar address:     130 00 PRAGUE 3
+registrar country:     CZ
+registrar phone:       +420 732 954549
+registrar e-mail:      info@subreg.cz
+registrar website:     http://www.subreg.cz
+registrar anonymous:   NO
+registrar registered:  2010-05-19T12:00:00Z
+registrar source:      FRNIC
+holder nic-hdl:     TS6102-FRNIC
+holder type:        ORGANIZATION
+holder contact:     Tomas Srna
+holder address:     Vanickova 7
+holder address:     16900 Praha
+holder address:     Hlavni mesto Praha
+holder country:     CZ
+holder phone:       +420 608920049
+holder e-mail:      tomas@srna.sk
+holder registrar:   GRANSY s.r.o.
+holder changed:     2016-11-22T13:45:12Z nic@nic.fr
+holder anonymous:   NO
+holder obsoleted:   NO
+holder eligstatus:  not identified
+holder reachstatus: not identified
+holder source:      FRNIC
+admin nic-hdl:     TS6101-FRNIC
+admin type:        PERSON
+admin contact:     Tomá Srna
+admin address:     Patockova 2472/81a
+admin address:     16900 Praha
+admin address:     Hlavni mesto Praha
+admin country:     CZ
+admin phone:       +420 608920049
+admin e-mail:      tomas@srna.net
+admin registrar:   GRANSY s.r.o.
+admin changed:     2018-06-25T13:27:02Z nic@nic.fr
+admin anonymous:   NO
+admin obsoleted:   NO
+admin eligstatus:  not identified
+admin reachstatus: not identified
+admin source:      FRNIC
+tech nic-hdl:     TS6101-FRNIC
+tech type:        PERSON
+tech contact:     Tomá Srna
+tech address:     Patockova 2472/81a
+tech address:     16900 Praha
+tech address:     Hlavni mesto Praha
+tech country:     CZ
+tech phone:       +420 608920049
+tech e-mail:      tomas@srna.net
+tech registrar:   GRANSY s.r.o.
+tech changed:     2018-06-25T13:27:02Z nic@nic.fr
+tech anonymous:   NO
+tech obsoleted:   NO
+tech eligstatus:  not identified
+tech reachstatus: not identified
+tech source:      FRNIC

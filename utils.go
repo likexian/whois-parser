@@ -20,6 +20,7 @@
 package whoisparser
 
 import (
+	"sort"
 	"strings"
 
 	"github.com/likexian/gokit/xslice"
@@ -122,4 +123,17 @@ func FixNameServers(nservers string) string {
 	}
 
 	return strings.Join(servers, ",")
+}
+
+// Keys returns all keys of map by sort
+func Keys(m map[string]string) []string {
+	r := []string{}
+
+	for k := range m {
+		r = append(r, k)
+	}
+
+	sort.Strings(r)
+
+	return r
 }

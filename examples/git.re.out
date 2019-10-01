@@ -1,0 +1,77 @@
+registrar_id: 
+registrar_name: TLD Registrar Solutions Ltd
+registrar_organization: 
+whois_server: 
+referral_url: https://internetbs.net/en/domain-name-registrations/price.html?setCurrency=EUR
+domain_id: 
+domain_name: git.re
+domain_status: active
+created_date: 2018-03-13T18:39:24Z
+updated_date: 2019-06-21T07:43:29Z
+expiration_date: 2022-03-13T18:39:24Z
+name_servers: dns1.yandex.net,dns2.yandex.net
+domain_dnssec: 
+
+registrant
+id: ANO00-FRNIC
+name: Ano Nymous
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: ANO00-FRNIC
+name: Ano Nymous
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: DA55158-FRNIC
+name: Domain Admin
+organization: 
+street: EC2R 6AR London
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: GB
+phone: +44.2034357312
+phone_ext: 
+fax: 
+fax_ext: 
+email: admin@tldregistrarsolutions.com
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

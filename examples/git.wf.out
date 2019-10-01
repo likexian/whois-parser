@@ -1,0 +1,77 @@
+registrar_id: 
+registrar_name: INWX GmbH & Co. KG
+registrar_organization: 
+whois_server: 
+referral_url: http://www.domrobot.com
+domain_id: 
+domain_name: git.wf
+domain_status: active
+created_date: 2016-04-19T17:08:51Z
+updated_date: 2019-05-12T21:49:18Z
+expiration_date: 2019-10-19T22:07:38Z
+name_servers: ns.inwx.de,ns2.inwx.de,ns3.inwx.eu,ns4.inwx.com,ns5.inwx.net
+domain_dnssec: signed
+
+registrant
+id: ANO00-FRNIC
+name: Ano Nymous
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: ANO00-FRNIC
+name: Ano Nymous
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: HOTD14-FRNIC
+name: Hostmaster Of The Day
+organization: 
+street: 10969 Berlin
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: DE
+phone: +49.309832120
+phone_ext: 
+fax: 
+fax_ext: 
+email: hostmaster@inwx.de
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

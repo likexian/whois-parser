@@ -10,42 +10,41 @@
 %%
 %% Use '-h' option to obtain more information about this service.
 %%
-%% [103.7.29.6 REQUEST] >> singularity.fr
+%% [1.1.1.1 REQUEST] >> git.re
 %%
-%% RL Net [##########] - RL IP [#########.]
+%% RL Net [##########] - RL IP [######....]
 %%
 
-domain:      singularity.fr
+domain:      git.re
 status:      ACTIVE
 hold:        NO
 holder-c:    ANO00-FRNIC
 admin-c:     ANO00-FRNIC
-tech-c:      GR283-FRNIC
+tech-c:      DA55158-FRNIC
 zone-c:      NFC1-FRNIC
-nsl-id:      NSL29702-FRNIC
-registrar:   GANDI
-Expiry Date: 2019-08-31T22:01:18Z
-created:     2009-04-04T19:28:55Z
-last-update: 2018-03-17T20:48:01Z
+nsl-id:      NSL1095-FRNIC
+registrar:   TLD Registrar Solutions Ltd
+Expiry Date: 2022-03-13T18:39:24Z
+created:     2018-03-13T18:39:24Z
+last-update: 2019-06-21T07:43:29Z
 source:      FRNIC
 
-ns-list:     NSL29702-FRNIC
-nserver:     ns-sec.toile-libre.org
-nserver:     ns-pri.toile-libre.org
+ns-list:     NSL1095-FRNIC
+nserver:     dns1.yandex.net
+nserver:     dns2.yandex.net
 source:      FRNIC
 
-registrar:   GANDI
+registrar:   TLD Registrar Solutions Ltd
 type:        Isp Option 1
-address:     63-65 boulevard Massena
-address:     75013 PARIS
-country:     FR
-phone:       +33 1 70 37 76 61
-fax-no:      +33 1 43 73 18 51
-e-mail:      reg.afnic-notification@gandi.net
-website:     https://www.gandi.net/fr/tlds/fr/
-https://www.gandi.net/en/tlds/fr/prices
+address:     35-39 Moorgate
+address:     Level 1
+address:     EC2R 6AR LONDON
+country:     GB
+phone:       +44 2034357304
+e-mail:      admin@tldregistrarsolutions.com
+website:     https://internetbs.net/en/domain-name-registrations/price.html?setCurrency=EUR
 anonymous:   NO
-registered:  2004-03-09T12:00:00Z
+registered:  2014-11-17T12:00:00Z
 source:      FRNIC
 
 nic-hdl:     ANO00-FRNIC
@@ -59,11 +58,12 @@ remarks:     don't send emails to Ano Nymous. This
 remarks:     address is bogus and there is no hope
 remarks:     of a reply.
 remarks:     -------------- WARNING --------------
-registrar:   GANDI
-changed:     2009-08-31T21:12:06Z anonymous@anonymous
+registrar:   TLD Registrar Solutions Ltd
+changed:     2018-03-13T18:38:44Z anonymous@anonymous
 anonymous:   YES
 obsoleted:   NO
 eligstatus:  ok
+eligdate:    2018-03-13T18:38:44Z
 reachstatus: not identified
 source:      FRNIC
 
@@ -78,36 +78,27 @@ remarks:     don't send emails to Ano Nymous. This
 remarks:     address is bogus and there is no hope
 remarks:     of a reply.
 remarks:     -------------- WARNING --------------
-registrar:   GANDI
-changed:     2009-08-31T21:12:06Z anonymous@anonymous
+registrar:   TLD Registrar Solutions Ltd
+changed:     2018-03-13T18:38:44Z anonymous@anonymous
 anonymous:   YES
 obsoleted:   NO
 eligstatus:  ok
+eligdate:    2018-03-13T18:38:44Z
 reachstatus: not identified
 source:      FRNIC
 
-nic-hdl:     GR283-FRNIC
-type:        ROLE
-contact:     GANDI ROLE
-address:     Gandi
-address:     15, place de la Nation
-address:     75011 Paris
-country:     FR
-e-mail:      noc@gandi.net
-trouble:     -------------------------------------------------
-trouble:     GANDI is an ICANN accredited registrar
-trouble:     for more information:
-trouble:     Web:   http://www.gandi.net
-trouble:     -------------------------------------------------
-trouble:     - network troubles: noc@gandi.net
-trouble:     - SPAM:             abuse@gandi.net
-trouble:     -------------------------------------------------
-admin-c:     NL346-FRNIC
-tech-c:      NL346-FRNIC
-tech-c:      TUF1-FRNIC
-notify:      noc@gandi.net
-registrar:   GANDI
-changed:     2006-03-03T14:39:12Z noc@gandi.net
+nic-hdl:     DA55158-FRNIC
+type:        PERSON
+contact:     Domain Admin
+address:     TLD Registrar Solutions Ltd
+address:     Lvl 1, 35-39 Moorgate
+address:     EC2R 6AR London
+country:     GB
+phone:       +44.2034357312
+fax-no:      +44.2033880601
+e-mail:      admin@tldregistrarsolutions.com
+registrar:   TLD Registrar Solutions Ltd
+changed:     2019-06-19T16:32:56Z nic@nic.fr
 anonymous:   NO
 obsoleted:   NO
 eligstatus:  not identified

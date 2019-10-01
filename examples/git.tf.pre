@@ -1,0 +1,94 @@
+
+%%
+%% This is the AFNIC Whois server.
+%%
+%% complete date format : YYYY-MM-DDThh:mm:ssZ
+%% short date format    : DD/MM
+%% version              : FRNIC-2.5
+%%
+%% Rights restricted by copyright.
+%% See https://www.afnic.fr/en/products-and-services/services/whois/whois-special-notice/
+%%
+%% Use '-h' option to obtain more information about this service.
+%%
+%% [1.1.1.1 REQUEST] >> git.tf
+%%
+%% RL Net [##########] - RL IP [#######...]
+%%
+domain:      git.tf
+status:      ACTIVE
+hold:        NO
+holder-c:    JN6975-FRNIC
+admin-c:     JN7243-FRNIC
+tech-c:      JN7243-FRNIC
+zone-c:      NFC1-FRNIC
+nsl-id:      NSL53460-FRNIC
+registrar:   1API GmbH
+Expiry Date: 2020-01-20T04:16:05Z
+created:     2019-01-20T04:16:05Z
+last-update: 2019-01-21T15:35:50Z
+source:      FRNIC
+ns-list:     NSL53460-FRNIC
+nserver:     ns1.parkingcrew.net
+nserver:     ns2.parkingcrew.net
+source:      FRNIC
+registrar name: 1API GmbH
+registrar type:        Isp Option 1
+registrar address:     Talstrasse 27
+registrar address:     66424 HOMBURG
+registrar country:     DE
+registrar phone:       +49 6841 6984200
+registrar fax-no:      +49 6841 6984299
+registrar e-mail:      info@1api.net
+registrar website:     http://www.1api.net
+registrar anonymous:   NO
+registrar registered:  2008-09-03T12:00:00Z
+registrar source:      FRNIC
+holder nic-hdl:     JN6975-FRNIC
+holder type:        PERSON
+holder contact:     Jurgen Neeme
+holder address:     Parnu Mnt 139C
+holder address:     11317 Tallinn
+holder address:     Harjumaa
+holder country:     EE
+holder phone:       +372 55983275
+holder e-mail:      jurgen@opus.ws
+holder registrar:   1API GmbH
+holder changed:     2019-08-14T00:05:22Z nic@nic.fr
+holder anonymous:   NO
+holder obsoleted:   NO
+holder eligstatus:  not identified
+holder reachstatus: not identified
+holder source:      FRNIC
+admin nic-hdl:     JN7243-FRNIC
+admin type:        PERSON
+admin contact:     Jurgen Neeme
+admin address:     Parnu Mnt 139C
+admin address:     11317 Tallinn
+admin address:     Harjumaa
+admin country:     EE
+admin phone:       +372.55983275
+admin e-mail:      jurgen@opus.ws
+admin registrar:   1API GmbH
+admin changed:     2017-09-28T16:59:52Z nic@nic.fr
+admin anonymous:   NO
+admin obsoleted:   NO
+admin eligstatus:  not identified
+admin reachstatus: not identified
+admin source:      FRNIC
+tech nic-hdl:     JN7243-FRNIC
+tech type:        PERSON
+tech contact:     Jurgen Neeme
+tech address:     Parnu Mnt 139C
+tech address:     11317 Tallinn
+tech address:     Harjumaa
+tech country:     EE
+tech phone:       +372.55983275
+tech e-mail:      jurgen@opus.ws
+tech registrar:   1API GmbH
+tech changed:     2017-09-28T16:59:52Z nic@nic.fr
+tech anonymous:   NO
+tech obsoleted:   NO
+tech eligstatus:  not identified
+tech reachstatus: not identified
+tech source:      FRNIC

@@ -1,0 +1,108 @@
+
+%%
+%% This is the AFNIC Whois server.
+%%
+%% complete date format : YYYY-MM-DDThh:mm:ssZ
+%% short date format    : DD/MM
+%% version              : FRNIC-2.5
+%%
+%% Rights restricted by copyright.
+%% See https://www.afnic.fr/en/products-and-services/services/whois/whois-special-notice/
+%%
+%% Use '-h' option to obtain more information about this service.
+%%
+%% [1.1.1.1 REQUEST] >> git.yt
+%%
+%% RL Net [##########] - RL IP [#######...]
+%%
+domain:      git.yt
+status:      ACTIVE
+hold:        NO
+holder-c:    ANO00-FRNIC
+admin-c:     R12684-FRNIC
+tech-c:      GR283-FRNIC
+zone-c:      NFC1-FRNIC
+nsl-id:      NSL60190-FRNIC
+registrar:   GANDI
+Expiry Date: 2020-02-23T09:43:27Z
+created:     2015-02-23T09:43:27Z
+last-update: 2019-01-23T08:01:40Z
+source:      FRNIC
+ns-list:     NSL60190-FRNIC
+nserver:     ns0.random.sh
+nserver:     ns1.random.sh
+nserver:     ns2.random.sh
+source:      FRNIC
+registrar name: GANDI
+registrar type:        Isp Option 1
+registrar address:     63-65 boulevard Massena
+registrar address:     75013 PARIS
+registrar country:     FR
+registrar phone:       +33 1 70 37 76 61
+registrar fax-no:      +33 1 43 73 18 51
+registrar e-mail:      support@support.gandi.net
+registrar website:     https://www.gandi.net/fr/tlds/fr/
+registrar anonymous:   NO
+registrar registered:  2004-03-09T12:00:00Z
+registrar source:      FRNIC
+holder nic-hdl:     ANO00-FRNIC
+holder type:        PERSON
+holder contact:     Ano Nymous
+holder remarks:     -------------- WARNING --------------
+holder remarks:     While the registrar knows him/her,
+holder remarks:     this person chose to restrict access
+holder remarks:     to his/her personal data. So PLEASE,
+holder remarks:     don't send emails to Ano Nymous. This
+holder remarks:     address is bogus and there is no hope
+holder remarks:     of a reply.
+holder remarks:     -------------- WARNING --------------
+holder registrar:   GANDI
+holder changed:     2017-06-29T09:26:13Z anonymous@anonymous
+holder anonymous:   YES
+holder obsoleted:   NO
+holder eligstatus:  not identified
+holder reachstatus: not identified
+holder source:      FRNIC
+admin nic-hdl:     R12684-FRNIC
+admin type:        ORGANIZATION
+admin contact:     random.sh
+admin address:     random.sh
+admin address:     530, chemin de Cartouche
+admin address:     30220 Aigues Mortes
+admin country:     FR
+admin phone:       +33 6 61 88 63 15
+admin e-mail:      root+domains@random.sh
+admin registrar:   GANDI
+admin changed:     2017-06-23T13:34:39Z nic@nic.fr
+admin anonymous:   NO
+admin obsoleted:   NO
+admin eligstatus:  not identified
+admin reachstatus: not identified
+admin source:      FRNIC
+tech nic-hdl:     GR283-FRNIC
+tech type:        ROLE
+tech contact:     GANDI ROLE
+tech address:     Gandi
+tech address:     15, place de la Nation
+tech address:     75011 Paris
+tech country:     FR
+tech e-mail:      noc@gandi.net
+tech trouble:     -------------------------------------------------
+tech trouble:     GANDI is an ICANN accredited registrar
+tech trouble:     for more information:
+tech trouble:     Web:   http://www.gandi.net
+tech trouble:     -------------------------------------------------
+tech trouble:     - network troubles: noc@gandi.net
+tech trouble:     - SPAM:             abuse@support.gandi.net
+tech trouble:     -------------------------------------------------
+tech admin-c:     NL346-FRNIC
+tech tech-c:      NL346-FRNIC
+tech tech-c:      TUF1-FRNIC
+tech notify:      noc@gandi.net
+tech registrar:   GANDI
+tech changed:     2006-03-03T14:39:12Z noc@gandi.net
+tech anonymous:   NO
+tech obsoleted:   NO
+tech eligstatus:  not identified
+tech reachstatus: not identified
+tech source:      FRNIC

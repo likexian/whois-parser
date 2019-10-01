@@ -1,0 +1,77 @@
+registrar_id: 
+registrar_name: GRANSY s.r.o.
+registrar_organization: 
+whois_server: 
+referral_url: http://www.subreg.cz
+domain_id: 
+domain_name: git.pm
+domain_status: active
+created_date: 2013-07-18T16:17:05Z
+updated_date: 2019-06-12T07:35:08Z
+expiration_date: 2020-07-18T16:17:05Z
+name_servers: ns1.srna.sk,ns2.srna.sk
+domain_dnssec: 
+
+registrant
+id: TS6102-FRNIC
+name: Tomas Srna
+organization: 
+street: Hlavni mesto Praha
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: CZ
+phone: +420 608920049
+phone_ext: 
+fax: 
+fax_ext: 
+email: tomas@srna.sk
+
+admin
+id: TS6101-FRNIC
+name: Tomá Srna
+organization: 
+street: Hlavni mesto Praha
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: CZ
+phone: +420 608920049
+phone_ext: 
+fax: 
+fax_ext: 
+email: tomas@srna.net
+
+tech
+id: TS6101-FRNIC
+name: Tomá Srna
+organization: 
+street: Hlavni mesto Praha
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: CZ
+phone: +420 608920049
+phone_ext: 
+fax: 
+fax_ext: 
+email: tomas@srna.net
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

@@ -1,0 +1,115 @@
+%%
+%% This is the AFNIC Whois server.
+%%
+%% complete date format : YYYY-MM-DDThh:mm:ssZ
+%% short date format    : DD/MM
+%% version              : FRNIC-2.5
+%%
+%% Rights restricted by copyright.
+%% See https://www.afnic.fr/en/products-and-services/services/whois/whois-special-notice/
+%%
+%% Use '-h' option to obtain more information about this service.
+%%
+%% [1.1.1.1 REQUEST] >> git.yt
+%%
+%% RL Net [##########] - RL IP [#######...]
+%%
+
+domain:      git.yt
+status:      ACTIVE
+hold:        NO
+holder-c:    ANO00-FRNIC
+admin-c:     R12684-FRNIC
+tech-c:      GR283-FRNIC
+zone-c:      NFC1-FRNIC
+nsl-id:      NSL60190-FRNIC
+registrar:   GANDI
+Expiry Date: 2020-02-23T09:43:27Z
+created:     2015-02-23T09:43:27Z
+last-update: 2019-01-23T08:01:40Z
+source:      FRNIC
+
+ns-list:     NSL60190-FRNIC
+nserver:     ns0.random.sh
+nserver:     ns1.random.sh
+nserver:     ns2.random.sh
+source:      FRNIC
+
+registrar:   GANDI
+type:        Isp Option 1
+address:     63-65 boulevard Massena
+address:     75013 PARIS
+country:     FR
+phone:       +33 1 70 37 76 61
+fax-no:      +33 1 43 73 18 51
+e-mail:      support@support.gandi.net
+website:     https://www.gandi.net/fr/tlds/fr/
+anonymous:   NO
+registered:  2004-03-09T12:00:00Z
+source:      FRNIC
+
+nic-hdl:     ANO00-FRNIC
+type:        PERSON
+contact:     Ano Nymous
+remarks:     -------------- WARNING --------------
+remarks:     While the registrar knows him/her,
+remarks:     this person chose to restrict access
+remarks:     to his/her personal data. So PLEASE,
+remarks:     don't send emails to Ano Nymous. This
+remarks:     address is bogus and there is no hope
+remarks:     of a reply.
+remarks:     -------------- WARNING --------------
+registrar:   GANDI
+changed:     2017-06-29T09:26:13Z anonymous@anonymous
+anonymous:   YES
+obsoleted:   NO
+eligstatus:  not identified
+reachstatus: not identified
+source:      FRNIC
+
+nic-hdl:     R12684-FRNIC
+type:        ORGANIZATION
+contact:     random.sh
+address:     random.sh
+address:     530, chemin de Cartouche
+address:     30220 Aigues Mortes
+country:     FR
+phone:       +33 6 61 88 63 15
+e-mail:      root+domains@random.sh
+registrar:   GANDI
+changed:     2017-06-23T13:34:39Z nic@nic.fr
+anonymous:   NO
+obsoleted:   NO
+eligstatus:  not identified
+reachstatus: not identified
+source:      FRNIC
+
+nic-hdl:     GR283-FRNIC
+type:        ROLE
+contact:     GANDI ROLE
+address:     Gandi
+address:     15, place de la Nation
+address:     75011 Paris
+country:     FR
+e-mail:      noc@gandi.net
+trouble:     -------------------------------------------------
+trouble:     GANDI is an ICANN accredited registrar
+trouble:     for more information:
+trouble:     Web:   http://www.gandi.net
+trouble:     -------------------------------------------------
+trouble:     - network troubles: noc@gandi.net
+trouble:     - SPAM:             abuse@support.gandi.net
+trouble:     -------------------------------------------------
+admin-c:     NL346-FRNIC
+tech-c:      NL346-FRNIC
+tech-c:      TUF1-FRNIC
+notify:      noc@gandi.net
+registrar:   GANDI
+changed:     2006-03-03T14:39:12Z noc@gandi.net
+anonymous:   NO
+obsoleted:   NO
+eligstatus:  not identified
+reachstatus: not identified
+source:      FRNIC
+
+

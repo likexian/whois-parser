@@ -42,6 +42,7 @@ var (
 		"referral url":                           "referral_url",
 		"registrar url":                          "referral_url",
 		"registrar web":                          "referral_url",
+		"registrar website":                      "referral_url",
 		"status":                                 "domain_status",
 		"state":                                  "domain_status",
 		"domain status":                          "domain_status",

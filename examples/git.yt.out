@@ -1,0 +1,77 @@
+registrar_id: 
+registrar_name: GANDI
+registrar_organization: 
+whois_server: 
+referral_url: https://www.gandi.net/fr/tlds/fr/
+domain_id: 
+domain_name: git.yt
+domain_status: active
+created_date: 2015-02-23T09:43:27Z
+updated_date: 2019-01-23T08:01:40Z
+expiration_date: 2020-02-23T09:43:27Z
+name_servers: ns0.random.sh,ns1.random.sh,ns2.random.sh
+domain_dnssec: 
+
+registrant
+id: ANO00-FRNIC
+name: Ano Nymous
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: R12684-FRNIC
+name: random.sh
+organization: 
+street: 30220 Aigues Mortes
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: FR
+phone: +33 6 61 88 63 15
+phone_ext: 
+fax: 
+fax_ext: 
+email: root+domains@random.sh
+
+tech
+id: GR283-FRNIC
+name: GANDI ROLE
+organization: 
+street: 75011 Paris
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: FR
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: noc@gandi.net
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

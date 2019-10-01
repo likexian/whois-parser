@@ -1,0 +1,99 @@
+
+%%
+%% This is the AFNIC Whois server.
+%%
+%% complete date format : YYYY-MM-DDThh:mm:ssZ
+%% short date format    : DD/MM
+%% version              : FRNIC-2.5
+%%
+%% Rights restricted by copyright.
+%% See https://www.afnic.fr/en/products-and-services/services/whois/whois-special-notice/
+%%
+%% Use '-h' option to obtain more information about this service.
+%%
+%% [1.1.1.1 REQUEST] >> git.fr
+%%
+%% RL Net [##########] - RL IP [########..]
+%%
+domain:      git.fr
+status:      ACTIVE
+hold:        NO
+holder-c:    GGIT3-FRNIC
+admin-c:     GGIT8-FRNIC
+tech-c:      OVH5-FRNIC
+zone-c:      NFC1-FRNIC
+nsl-id:      NSL10496-FRNIC
+registrar:   OVH
+Expiry Date: 2020-05-05T08:07:09Z
+created:     1999-12-22T23:00:00Z
+last-update: 2019-05-05T08:38:28Z
+source:      FRNIC
+ns-list:     NSL10496-FRNIC
+nserver:     ns104.ovh.net
+nserver:     dns104.ovh.net
+source:      FRNIC
+registrar name: OVH
+registrar type:        Isp Option 1
+registrar address:     2 Rue Kellermann
+registrar address:     59100 ROUBAIX
+registrar country:     FR
+registrar phone:       +33 8 99 70 17 61
+registrar fax-no:      +33 3 20 20 09 58
+registrar e-mail:      support@ovh.net
+registrar website:     http://www.ovh.com
+registrar anonymous:   NO
+registrar registered:  1999-10-21T12:00:00Z
+registrar source:      FRNIC
+holder nic-hdl:     GGIT3-FRNIC
+holder type:        ORGANIZATION
+holder contact:     G.I.T. GALVANOPLASTIE INDUSTRIELLE TOULOUSAINE
+holder address:     7 rue Joseph-Marie Jacquard
+holder address:     31270 CUGNAUX
+holder country:     FR
+holder phone:       +33.561076303
+holder e-mail:      git@git.fr
+holder registrar:   OVH
+holder changed:     2018-12-26T12:48:55Z nic@nic.fr
+holder anonymous:   NO
+holder obsoleted:   NO
+holder eligstatus:  not identified
+holder reachstatus: not identified
+holder source:      FRNIC
+admin nic-hdl:     GGIT8-FRNIC
+admin type:        ORGANIZATION
+admin contact:     G.I.T. GALVANOPLASTIE INDUSTRIELLE TOULOUSAINE
+admin address:     G.I.T. GALVANOPLASTIE INDUSTRIELLE TOULOUSAINE
+admin address:     7, rue Joseph-Marie Jacquard
+admin address:     31270 CUGNAUX
+admin country:     FR
+admin phone:       +33.561076303
+admin e-mail:      lq29z6vpt0b6de92p3wk@q.o-w-o.info
+admin registrar:   OVH
+admin changed:     2018-12-26T12:52:19Z nic@nic.fr
+admin anonymous:   NO
+admin obsoleted:   NO
+admin eligstatus:  not identified
+admin reachstatus: not identified
+admin source:      FRNIC
+tech nic-hdl:     OVH5-FRNIC
+tech type:        ROLE
+tech contact:     OVH NET
+tech address:     OVH
+tech address:     140, quai du Sartel
+tech address:     59100 Roubaix
+tech country:     FR
+tech phone:       +33 8 99 70 17 61
+tech e-mail:      tech@ovh.net
+tech trouble:     Information: http://www.ovh.fr
+tech trouble:     Questions:  mailto:tech@ovh.net
+tech trouble:     Spam: mailto:abuse@ovh.net
+tech admin-c:     OK217-FRNIC
+tech tech-c:      OK217-FRNIC
+tech notify:      tech@ovh.net
+tech registrar:   OVH
+tech changed:     2006-10-11T08:41:58Z tech@ovh.net
+tech anonymous:   NO
+tech obsoleted:   NO
+tech eligstatus:  not identified
+tech reachstatus: not identified
+tech source:      FRNIC

@@ -1,0 +1,101 @@
+
+%%
+%% This is the AFNIC Whois server.
+%%
+%% complete date format : YYYY-MM-DDThh:mm:ssZ
+%% short date format    : DD/MM
+%% version              : FRNIC-2.5
+%%
+%% Rights restricted by copyright.
+%% See https://www.afnic.fr/en/products-and-services/services/whois/whois-special-notice/
+%%
+%% Use '-h' option to obtain more information about this service.
+%%
+%% [1.1.1.1 REQUEST] >> git.re
+%%
+%% RL Net [##########] - RL IP [######....]
+%%
+domain:      git.re
+status:      ACTIVE
+hold:        NO
+holder-c:    ANO00-FRNIC
+admin-c:     ANO00-FRNIC
+tech-c:      DA55158-FRNIC
+zone-c:      NFC1-FRNIC
+nsl-id:      NSL1095-FRNIC
+registrar:   TLD Registrar Solutions Ltd
+Expiry Date: 2022-03-13T18:39:24Z
+created:     2018-03-13T18:39:24Z
+last-update: 2019-06-21T07:43:29Z
+source:      FRNIC
+ns-list:     NSL1095-FRNIC
+nserver:     dns1.yandex.net
+nserver:     dns2.yandex.net
+source:      FRNIC
+registrar name: TLD Registrar Solutions Ltd
+registrar type:        Isp Option 1
+registrar address:     35-39 Moorgate
+registrar address:     Level 1
+registrar address:     EC2R 6AR LONDON
+registrar country:     GB
+registrar phone:       +44 2034357304
+registrar e-mail:      admin@tldregistrarsolutions.com
+registrar website:     https://internetbs.net/en/domain-name-registrations/price.html?setCurrency=EUR
+registrar anonymous:   NO
+registrar registered:  2014-11-17T12:00:00Z
+registrar source:      FRNIC
+admin nic-hdl:     ANO00-FRNIC
+admin type:        PERSON
+admin contact:     Ano Nymous
+admin remarks:     -------------- WARNING --------------
+admin remarks:     While the registrar knows him/her,
+admin remarks:     this person chose to restrict access
+admin remarks:     to his/her personal data. So PLEASE,
+admin remarks:     don't send emails to Ano Nymous. This
+admin remarks:     address is bogus and there is no hope
+admin remarks:     of a reply.
+admin remarks:     -------------- WARNING --------------
+admin registrar:   TLD Registrar Solutions Ltd
+admin changed:     2018-03-13T18:38:44Z anonymous@anonymous
+admin anonymous:   YES
+admin obsoleted:   NO
+admin eligstatus:  ok
+admin eligdate:    2018-03-13T18:38:44Z
+admin reachstatus: not identified
+admin source:      FRNIC
+holder nic-hdl:     ANO00-FRNIC
+holder type:        PERSON
+holder contact:     Ano Nymous
+holder remarks:     -------------- WARNING --------------
+holder remarks:     While the registrar knows him/her,
+holder remarks:     this person chose to restrict access
+holder remarks:     to his/her personal data. So PLEASE,
+holder remarks:     don't send emails to Ano Nymous. This
+holder remarks:     address is bogus and there is no hope
+holder remarks:     of a reply.
+holder remarks:     -------------- WARNING --------------
+holder registrar:   TLD Registrar Solutions Ltd
+holder changed:     2018-03-13T18:38:44Z anonymous@anonymous
+holder anonymous:   YES
+holder obsoleted:   NO
+holder eligstatus:  ok
+holder eligdate:    2018-03-13T18:38:44Z
+holder reachstatus: not identified
+holder source:      FRNIC
+tech nic-hdl:     DA55158-FRNIC
+tech type:        PERSON
+tech contact:     Domain Admin
+tech address:     TLD Registrar Solutions Ltd
+tech address:     Lvl 1, 35-39 Moorgate
+tech address:     EC2R 6AR London
+tech country:     GB
+tech phone:       +44.2034357312
+tech fax-no:      +44.2033880601
+tech e-mail:      admin@tldregistrarsolutions.com
+tech registrar:   TLD Registrar Solutions Ltd
+tech changed:     2019-06-19T16:32:56Z nic@nic.fr
+tech anonymous:   NO
+tech obsoleted:   NO
+tech eligstatus:  not identified
+tech reachstatus: not identified
+tech source:      FRNIC

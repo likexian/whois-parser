@@ -10,28 +10,28 @@
 %%
 %% Use '-h' option to obtain more information about this service.
 %%
-%% [103.7.29.6 REQUEST] >> vie.re
+%% [1.1.1.1 REQUEST] >> git.fr
 %%
-%% RL Net [##########] - RL IP [#########.]
+%% RL Net [##########] - RL IP [########..]
 %%
 
-domain:      vie.re
+domain:      git.fr
 status:      ACTIVE
 hold:        NO
-holder-c:    EI2664-FRNIC
-admin-c:     A105818-FRNIC
+holder-c:    GGIT3-FRNIC
+admin-c:     GGIT8-FRNIC
 tech-c:      OVH5-FRNIC
 zone-c:      NFC1-FRNIC
-nsl-id:      NSL29885-FRNIC
+nsl-id:      NSL10496-FRNIC
 registrar:   OVH
-Expiry Date: 2019-01-30T11:06:10Z
-created:     2015-01-30T11:06:10Z
-last-update: 2018-12-18T10:26:14Z
+Expiry Date: 2020-05-05T08:07:09Z
+created:     1999-12-22T23:00:00Z
+last-update: 2019-05-05T08:38:28Z
 source:      FRNIC
 
-ns-list:     NSL29885-FRNIC
-nserver:     dns200.anycast.me
-nserver:     ns200.anycast.me
+ns-list:     NSL10496-FRNIC
+nserver:     ns104.ovh.net
+nserver:     dns104.ovh.net
 source:      FRNIC
 
 registrar:   OVH
@@ -47,34 +47,33 @@ anonymous:   NO
 registered:  1999-10-21T12:00:00Z
 source:      FRNIC
 
-nic-hdl:     EI2664-FRNIC
+nic-hdl:     GGIT3-FRNIC
 type:        ORGANIZATION
-contact:     entreprise individuelle
-address:     entreprise individuelle
-address:     52, avenue Joseph Bédier, appartement n°527
-address:     97490 Sainte-Clotilde
-country:     RE
-phone:       +262.692434363
-e-mail:      media7prod.re@orange.fr
+contact:     G.I.T. GALVANOPLASTIE INDUSTRIELLE TOULOUSAINE
+address:     7 rue Joseph-Marie Jacquard
+address:     31270 CUGNAUX
+country:     FR
+phone:       +33.561076303
+e-mail:      git@git.fr
 registrar:   OVH
-changed:     2018-12-18T10:26:11Z nic@nic.fr
+changed:     2018-12-26T12:48:55Z nic@nic.fr
 anonymous:   NO
 obsoleted:   NO
 eligstatus:  not identified
 reachstatus: not identified
 source:      FRNIC
 
-nic-hdl:     A105818-FRNIC
+nic-hdl:     GGIT8-FRNIC
 type:        ORGANIZATION
-contact:     association
-address:     association
-address:     14, rue Jean Jaures
-address:     97450 Saint-Louis
-country:     RE
-phone:       +262.692434363
-e-mail:      ddwvjv0viw6qtlb529ys@b.o-w-o.info
+contact:     G.I.T. GALVANOPLASTIE INDUSTRIELLE TOULOUSAINE
+address:     G.I.T. GALVANOPLASTIE INDUSTRIELLE TOULOUSAINE
+address:     7, rue Joseph-Marie Jacquard
+address:     31270 CUGNAUX
+country:     FR
+phone:       +33.561076303
+e-mail:      lq29z6vpt0b6de92p3wk@q.o-w-o.info
 registrar:   OVH
-changed:     2018-12-18T10:26:12Z nic@nic.fr
+changed:     2018-12-26T12:52:19Z nic@nic.fr
 anonymous:   NO
 obsoleted:   NO
 eligstatus:  not identified

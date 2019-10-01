@@ -29,10 +29,23 @@ import (
 
 func TestPrepare(t *testing.T) {
 	tests := []string{
-		"switch.ch",
-		"google.ch",
-		"github.it",
 		"admin.it",
+		"git.fr",
+		"git.pm",
+		"git.re",
+		"git.tf",
+		"git.wf",
+		"git.yt",
+		"github.it",
+		"google.ch",
+		"google.fr",
+		"google.pm",
+		"google.re",
+		"google.tf",
+		"google.wf",
+		"google.yt",
+		"ovh.fr",
+		"switch.ch",
 	}
 
 	for _, v := range tests {

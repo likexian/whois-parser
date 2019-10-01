@@ -1,0 +1,112 @@
+
+%%
+%% This is the AFNIC Whois server.
+%%
+%% complete date format : YYYY-MM-DDThh:mm:ssZ
+%% short date format    : DD/MM
+%% version              : FRNIC-2.5
+%%
+%% Rights restricted by copyright.
+%% See https://www.afnic.fr/en/products-and-services/services/whois/whois-special-notice/
+%%
+%% Use '-h' option to obtain more information about this service.
+%%
+%% [1.1.1.1 REQUEST] >> git.wf
+%%
+%% RL Net [##########] - RL IP [###.......]
+%%
+domain:      git.wf
+status:      ACTIVE
+hold:        NO
+holder-c:    ANO00-FRNIC
+admin-c:     ANO00-FRNIC
+tech-c:      HOTD14-FRNIC
+zone-c:      NFC1-FRNIC
+nsl-id:      NSL69982-FRNIC
+dsl-id:      SIGN1586367-FRNIC
+DNSSEC: signed
+registrar:   INWX GmbH & Co. KG
+Expiry Date: 2019-10-19T22:07:38Z
+created:     2016-04-19T17:08:51Z
+last-update: 2019-05-12T21:49:18Z
+source:      FRNIC
+ns-list:     NSL69982-FRNIC
+nserver:     ns.inwx.de
+nserver:     ns2.inwx.de
+nserver:     ns3.inwx.eu
+nserver:     ns4.inwx.com
+nserver:     ns5.inwx.net
+source:      FRNIC
+ds-list:     SIGN1586367-FRNIC
+key1-tag:    62351
+key1-algo:   8 [RSASHA256]
+key1-dgst-t: 2 [SHA-256]
+key1-dgst:   5F638FDAEC1FAB5CFE00206509FB12FF84EF689361C343A4EF1D3542F1513DEB
+source:      FRNIC
+registrar name: INWX GmbH & Co. KG
+registrar type:        Isp Option 1
+registrar address:     Prinzessinnenstr. 30
+registrar address:     10969 BERLIN
+registrar country:     DE
+registrar phone:       +49 306 6400 137
+registrar fax-no:      +49 306 6400 138
+registrar e-mail:      tld-fr@domrobot.com
+registrar website:     http://www.domrobot.com
+registrar anonymous:   NO
+registrar registered:  2009-07-28T12:00:00Z
+registrar source:      FRNIC
+admin nic-hdl:     ANO00-FRNIC
+admin type:        PERSON
+admin contact:     Ano Nymous
+admin remarks:     -------------- WARNING --------------
+admin remarks:     While the registrar knows him/her,
+admin remarks:     this person chose to restrict access
+admin remarks:     to his/her personal data. So PLEASE,
+admin remarks:     don't send emails to Ano Nymous. This
+admin remarks:     address is bogus and there is no hope
+admin remarks:     of a reply.
+admin remarks:     -------------- WARNING --------------
+admin registrar:   INWX GmbH & Co. KG
+admin changed:     2017-10-11T18:11:05Z anonymous@anonymous
+admin anonymous:   YES
+admin obsoleted:   NO
+admin eligstatus:  ok
+admin eligdate:    2017-10-11T18:11:05Z
+admin reachstatus: not identified
+admin source:      FRNIC
+holder nic-hdl:     ANO00-FRNIC
+holder type:        PERSON
+holder contact:     Ano Nymous
+holder remarks:     -------------- WARNING --------------
+holder remarks:     While the registrar knows him/her,
+holder remarks:     this person chose to restrict access
+holder remarks:     to his/her personal data. So PLEASE,
+holder remarks:     don't send emails to Ano Nymous. This
+holder remarks:     address is bogus and there is no hope
+holder remarks:     of a reply.
+holder remarks:     -------------- WARNING --------------
+holder registrar:   INWX GmbH & Co. KG
+holder changed:     2017-10-11T18:11:05Z anonymous@anonymous
+holder anonymous:   YES
+holder obsoleted:   NO
+holder eligstatus:  ok
+holder eligdate:    2017-10-11T18:11:05Z
+holder reachstatus: not identified
+holder source:      FRNIC
+tech nic-hdl:     HOTD14-FRNIC
+tech type:        PERSON
+tech contact:     Hostmaster Of The Day
+tech address:     INWX GmbH & Co. KG
+tech address:     Prinzessinnenstr. 30
+tech address:     10969 Berlin
+tech country:     DE
+tech phone:       +49.309832120
+tech fax-no:      +49.3098321290
+tech e-mail:      hostmaster@inwx.de
+tech registrar:   INWX GmbH & Co. KG
+tech changed:     2018-01-17T08:48:24Z nic@nic.fr
+tech anonymous:   NO
+tech obsoleted:   NO
+tech eligstatus:  not identified
+tech reachstatus: not identified
+tech source:      FRNIC

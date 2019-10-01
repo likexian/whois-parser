@@ -1,0 +1,100 @@
+
+%%
+%% This is the AFNIC Whois server.
+%%
+%% complete date format : YYYY-MM-DDThh:mm:ssZ
+%% short date format    : DD/MM
+%% version              : FRNIC-2.5
+%%
+%% Rights restricted by copyright.
+%% See https://www.afnic.fr/en/products-and-services/services/whois/whois-special-notice/
+%%
+%% Use '-h' option to obtain more information about this service.
+%%
+%% [1.1.1.1 REQUEST] >> google.tf
+%%
+%% RL Net [##########] - RL IP [#########.]
+%%
+domain:      google.tf
+status:      ACTIVE
+hold:        NO
+holder-c:    GIHU100-FRNIC
+admin-c:     GIHU100-FRNIC
+tech-c:      MC239-FRNIC
+zone-c:      NFC1-FRNIC
+nsl-id:      NSL17130-FRNIC
+registrar:   MARKMONITOR Inc.
+Expiry Date: 2020-02-15T19:06:41Z
+created:     2011-12-06T09:12:58Z
+last-update: 2019-01-14T10:32:14Z
+source:      FRNIC
+ns-list:     NSL17130-FRNIC
+nserver:     ns1.markmonitor.com
+nserver:     ns3.markmonitor.com
+source:      FRNIC
+registrar name: MARKMONITOR Inc.
+registrar type:        Isp Option 1
+registrar address:     3540 East Longwing Lane
+registrar address:
+registrar address:     ID 83646 MERIDIAN
+registrar country:     US
+registrar phone:       +1 208 389 5740
+registrar fax-no:      +1 208 389 5771
+registrar e-mail:      registry.admin@markmonitor.com
+registrar website:     http://www.markmonitor.com
+registrar anonymous:   NO
+registrar registered:  2002-01-10T12:00:00Z
+registrar source:      FRNIC
+admin nic-hdl:     GIHU100-FRNIC
+admin type:        ORGANIZATION
+admin contact:     Google Ireland Holdings Unlimited Company
+admin address:     Google Ireland Holdings Unlimited Company
+admin address:     70 Sir John Rogerson's Quay
+admin address:     2 Dublin
+admin address:     Dublin
+admin country:     IE
+admin phone:       +353.14361000
+admin e-mail:      dns-admin@google.com
+admin registrar:   MARKMONITOR Inc.
+admin changed:     2018-03-02T18:03:31Z nic@nic.fr
+admin anonymous:   NO
+admin obsoleted:   NO
+admin eligstatus:  not identified
+admin reachstatus: not identified
+admin source:      FRNIC
+holder nic-hdl:     GIHU100-FRNIC
+holder type:        ORGANIZATION
+holder contact:     Google Ireland Holdings Unlimited Company
+holder address:     Google Ireland Holdings Unlimited Company
+holder address:     70 Sir John Rogerson's Quay
+holder address:     2 Dublin
+holder address:     Dublin
+holder country:     IE
+holder phone:       +353.14361000
+holder e-mail:      dns-admin@google.com
+holder registrar:   MARKMONITOR Inc.
+holder changed:     2018-03-02T18:03:31Z nic@nic.fr
+holder anonymous:   NO
+holder obsoleted:   NO
+holder eligstatus:  not identified
+holder reachstatus: not identified
+holder source:      FRNIC
+tech nic-hdl:     MC239-FRNIC
+tech type:        ROLE
+tech contact:     MARKMONITOR CCOPS
+tech address:     eMarkmonitor Inc. dba MarkMonitor
+tech address:     PMB 155
+tech address:     10400 Overland Road
+tech address:     83709-1433 Boise, Id
+tech address:     US
+tech phone:       +01 2083895740
+tech e-mail:      ccops@markmonitor.com
+tech admin-c:     DL534-FRNIC
+tech tech-c:      DL534-FRNIC
+tech registrar:   MARKMONITOR Inc.
+tech changed:     2008-10-10T16:18:55Z ccops@markmonitor.com
+tech anonymous:   NO
+tech obsoleted:   NO
+tech eligstatus:  not identified
+tech reachstatus: not identified
+tech source:      FRNIC
