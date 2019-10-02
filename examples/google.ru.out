@@ -1,21 +1,21 @@
 registrar_id: 
-registrar_name: REGRU-RU
+registrar_name: RU-CENTER-RU
 registrar_organization: 
 whois_server: 
 referral_url: 
 domain_id: 
-domain_name: MJJ.RU
-domain_status: registered,delegated,unverified
-created_date: 2014-09-25T13:06:18Z
+domain_name: GOOGLE.RU
+domain_status: registered,delegated,verified
+created_date: 2004-03-03T21:00:00Z
 updated_date: 
-expiration_date: 2019-09-25T14:06:18Z
-name_servers: ns1.domainparking.ru,ns2.domainparking.ru
+expiration_date: 2020-03-04T21:00:00Z
+name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
 domain_dnssec: 
 
 registrant
 id: 
 name: 
-organization: 
+organization: Google LLC
 street: 
 street_ext: 
 city: 
@@ -30,7 +30,7 @@ email:
 
 admin
 id: 
-name: http://www.reg.ru/whois/admin_contact
+name: https://www.nic.ru/whois
 organization: 
 street: 
 street_ext: 
