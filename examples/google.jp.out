@@ -30,19 +30,19 @@ email:
 
 admin
 id: 
-name: 
+name: Google Inc.
 organization: 
-street: 
+street: Mountain View, 1600 Amphitheatre Parkway, US
 street_ext: 
 city: 
 province: 
-postal_code: 
+postal_code: 94043
 country: 
-phone: 
+phone: 16502530000
 phone_ext: 
-fax: 
+fax: 16502530001
 fax_ext: 
-email: 
+email: dns-admin@google.com
 
 tech
 id: 

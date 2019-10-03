@@ -1,15 +1,15 @@
 registrar_id: 
-registrar_name: RU-CENTER-RU
+registrar_name: RELCOMHOST-RU
 registrar_organization: 
 whois_server: 
 referral_url: 
 domain_id: 
-domain_name: 2X4.RU
-domain_status: registered,delegated,verified
-created_date: 2004-06-23T20:00:00Z
+domain_name: GIT.RU
+domain_status: registered,delegated,unverified
+created_date: 2001-11-19T21:00:00Z
 updated_date: 
-expiration_date: 2019-06-23T21:00:00Z
-name_servers: dns1.yandex.net,dns2.yandex.net
+expiration_date: 2020-11-20T21:00:00Z
+name_servers: hosting1.telekom.ru,ns2.telekom.ru
 domain_dnssec: 
 
 registrant
@@ -30,7 +30,7 @@ email:
 
 admin
 id: 
-name: https://www.nic.ru/whois
+name: https://relcom.host
 organization: 
 street: 
 street_ext: 

@@ -28,15 +28,14 @@ import (
 )
 
 var (
-	dotJPReplacer = regexp.MustCompile(`\n\[(.+?)\][\ ]+(.+?)`)
-	searchDomain  = regexp.MustCompile(`(?i)Domain(\s+name)?\:?\s+([a-z0-9\-]+)\.([a-z]{2,})`)
+	dotJPReplacer = regexp.MustCompile(`\n\[(.+?)\][\ ]*(.+?)?`)
+	searchDomain  = regexp.MustCompile(`(?i)\[?Domain(\s+name)?\]?\:?\s+([a-z0-9\-]+)\.([a-z]{2,})`)
 )
 
 // Prepare do prepare the whois info for parsing
 func Prepare(text string) string {
 	text = strings.Replace(text, "\r", "", -1)
 	text = strings.Replace(text, "\t", " ", -1)
-	text = dotJPReplacer.ReplaceAllString(text, "\n$1: $2")
 
 	m := searchDomain.FindStringSubmatch(text)
 	if len(m) > 0 {
@@ -49,6 +48,8 @@ func Prepare(text string) string {
 			return prepareFR(text)
 		case "ru":
 			return prepareRU(text)
+		case "jp":
+			return prepareJP(text)
 		}
 	}
 
@@ -236,6 +237,40 @@ func prepareRU(text string) string {
 			v = fmt.Sprintf("Registrant Organization: %s", vs[1])
 		}
 		result += v + "\n"
+	}
+
+	return result
+}
+
+// prepareJP do prepare the .jp domain
+func prepareJP(text string) string {
+	text = dotJPReplacer.ReplaceAllString(text, "\n$1: $2")
+
+	adminToken := "Contact Information"
+	addressToken := "Postal Address"
+
+	token := ""
+	prefixToken := ""
+
+	result := ""
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if v == "" {
+			continue
+		}
+		if strings.Contains(v, ":") {
+			vs := strings.Split(v, ":")
+			token = strings.TrimSpace(vs[0])
+			if token == adminToken {
+				prefixToken = "admin "
+			}
+		} else {
+			if token == addressToken {
+				result += ", " + v
+				continue
+			}
+		}
+		result += "\n" + prefixToken + v
 	}
 
 	return result
