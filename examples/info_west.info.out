@@ -1,0 +1,80 @@
+registrar_id: 151
+registrar_name: PSI-USA, Inc. dba Domain Robot
+registrar_organization: 
+registrar_phone: +49.94159559482
+registrar_email: domain-abuse@psi-usa.info
+registrar_reseller: 
+whois_server: whois.psi-usa.info
+referral_url: https://www.psi-usa.info
+domain_id: D34417-LRMS
+domain_name: west.info
+domain_status: clienttransferprohibited
+created_date: 2001-07-31T21:14:42Z
+updated_date: 2019-09-20T00:17:40Z
+expiration_date: 2020-07-31T21:14:42Z
+name_servers: dns1.ipmanagerinc.net,dns2.ipmanagerinc.net,dns3.ipmanagerinc.net
+domain_dnssec: unsigned
+
+registrant
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: Imperial Tobacco Limited
+street: REDACTED FOR PRIVACY
+street_ext: 
+city: REDACTED FOR PRIVACY
+province: GB
+postal_code: REDACTED FOR PRIVACY
+country: GB
+phone: REDACTED FOR PRIVACY
+phone_ext: REDACTED FOR PRIVACY
+fax: REDACTED FOR PRIVACY
+fax_ext: REDACTED FOR PRIVACY
+email: https://contact.domain-robot.org/west.info
+
+admin
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY
+street_ext: 
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
+phone_ext: REDACTED FOR PRIVACY
+fax: REDACTED FOR PRIVACY
+fax_ext: REDACTED FOR PRIVACY
+email: https://contact.domain-robot.org/west.info
+
+tech
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY
+street_ext: 
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
+phone_ext: REDACTED FOR PRIVACY
+fax: REDACTED FOR PRIVACY
+fax_ext: REDACTED FOR PRIVACY
+email: https://contact.domain-robot.org/west.info
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

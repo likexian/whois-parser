@@ -1,20 +1,20 @@
-Domain Name: github.biz
-Registry Domain ID: D40741417-BIZ
+Domain Name: google.biz
+Registry Domain ID: D2835288-BIZ
 Registrar WHOIS Server:
 Registrar URL: www.markmonitor.com
-Updated Date: 2018-10-21T11:00:23Z
-Creation Date: 2010-08-05T17:04:27Z
-Registry Expiry Date: 2020-08-04T23:59:59Z
+Updated Date: 2019-02-27T10:56:14Z
+Creation Date: 2002-03-27T16:03:44Z
+Registry Expiry Date: 2020-03-26T23:59:59Z
 Registrar: MarkMonitor, Inc.
 Registrar IANA ID: 292
 Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
 Registrar Abuse Contact Phone: +1.2083895740
 Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
-Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
 Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
 Registry Registrant ID:
 Registrant Name:
-Registrant Organization: GitHub, Inc.
+Registrant Organization: Google LLC
 Registrant Street:
 Registrant Street:
 Registrant Street:
@@ -57,13 +57,13 @@ Tech Phone Ext:
 Tech Fax:
 Tech Fax Ext:
 Tech Email: Please query the RDDS service of the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Tech contact of the queried domain name.
-Name Server: ns2.p16.dynect.net
-Name Server: ns3.p16.dynect.net
-Name Server: ns1.p16.dynect.net
-Name Server: ns4.p16.dynect.net
+Name Server: ns1.google.com
+Name Server: ns2.google.com
+Name Server: ns4.google.com
+Name Server: ns3.google.com
 DNSSEC: unsigned
 URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
->>> Last update of WHOIS database: 2019-01-24T12:47:48Z <<<
+>>> Last update of WHOIS database: 2019-10-06T06:43:12Z <<<
 
 For more information on Whois status codes, please visit https://icann.org/epp
 
