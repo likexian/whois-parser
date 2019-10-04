@@ -1,0 +1,80 @@
+registrar_id: 2
+registrar_name: Network Solutions, LLC
+registrar_organization: 
+registrar_phone: +1.8003337680
+registrar_email: abuse@web.com
+registrar_reseller: 
+whois_server: whois.networksolutions.com
+referral_url: http://networksolutions.com
+domain_id: 486609_DOMAIN_NET-VRSN
+domain_name: HE.NET
+domain_status: clienttransferprohibited
+created_date: 1995-07-31T04:00:00Z
+updated_date: 2019-07-30T19:17:40Z
+expiration_date: 2029-07-30T04:00:00Z
+name_servers: ns1.he.net,ns2.he.net,ns3.he.net,ns4.he.net,ns5.he.net
+domain_dnssec: unsigned
+
+registrant
+id: 
+name: Hurricane, Electric
+organization: Hurricane Electric Hostmaster
+street: 760 MISSION CT
+street_ext: 
+city: FREMONT
+province: CA
+postal_code: 94539-8204
+country: US
+phone: +1.5105804100
+phone_ext: 
+fax: 
+fax_ext: 
+email: hostmaster@he.net
+
+admin
+id: 
+name: Hurricane, Electric
+organization: Hurricane Electric Hostmaster
+street: 760 MISSION CT
+street_ext: 
+city: FREMONT
+province: CA
+postal_code: 94539-8204
+country: US
+phone: +1.5105804100
+phone_ext: 
+fax: 
+fax_ext: 
+email: hostmaster@he.net
+
+tech
+id: 
+name: Hurricane, Electric
+organization: Hurricane Electric Hostmaster
+street: 760 MISSION CT
+street_ext: 
+city: FREMONT
+province: CA
+postal_code: 94539-8204
+country: US
+phone: +1.5105804100
+phone_ext: 
+fax: 
+fax_ext: 
+email: hostmaster@he.net
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

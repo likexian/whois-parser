@@ -1,0 +1,63 @@
+Domain name: apache.org
+Registry Domain ID: D706686-LROR
+Registrar WHOIS Server: whois.namecheap.com
+Registrar URL: http://www.namecheap.com
+Updated Date: 2018-09-25T13:18:21.00Z
+Creation Date: 1995-04-11T04:00:00.00Z
+Registrar Registration Expiration Date: 2022-04-12T04:00:00.00Z
+Registrar: NAMECHEAP INC
+Registrar IANA ID: 1068
+Registrar Abuse Contact Email: abuse@namecheap.com
+Registrar Abuse Contact Phone: +1.6613102107
+Reseller: NAMECHEAP INC
+Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited 
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited 
+Registry Registrant ID: 
+Registrant Name: Apache DNS
+Registrant Organization: The Apache Software Foundation
+Registrant Street: 401 Edgewater Place Suite 600
+Registrant City: Wakefield
+Registrant State/Province: MA
+Registrant Postal Code: 01880
+Registrant Country: US
+Registrant Phone: +1.1234567890
+Registrant Phone Ext: 
+Registrant Fax: +1.7816238460
+Registrant Fax Ext: 
+Registrant Email: dns@apache.org
+Registry Admin ID: 
+Admin Name: Apache DNS
+Admin Organization: The Apache Software Foundation
+Admin Street: 401 Edgewater Place Suite 600
+Admin City: Wakefield
+Admin State/Province: MA
+Admin Postal Code: 01880
+Admin Country: US
+Admin Phone: +1.1234567890
+Admin Phone Ext: 
+Admin Fax: +1.7816238460
+Admin Fax Ext: 
+Admin Email: dns@apache.org
+Registry Tech ID: 
+Tech Name: Apache DNS
+Tech Organization: The Apache Software Foundation
+Tech Street: 401 Edgewater Place Suite 600
+Tech City: Wakefield
+Tech State/Province: MA
+Tech Postal Code: 01880
+Tech Country: US
+Tech Phone: +1.1234567890
+Tech Phone Ext: 
+Tech Fax: +1.7816238460
+Tech Fax Ext: 
+Tech Email: dns@apache.org
+Name Server: ns2.surfnet.nl 
+Name Server: ns3.no-ip.com 
+Name Server: ns2.no-ip.com 
+Name Server: ns1.no-ip.com 
+Name Server: ns4.no-ip.com 
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2019-09-30T07:09:03.68Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp

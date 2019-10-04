@@ -117,6 +117,18 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 			if registrar.Organization == "" {
 				registrar.Organization = value
 			}
+		case "registrar_phone":
+			if registrar.Phone == "" {
+				registrar.Phone = value
+			}
+		case "registrar_email":
+			if registrar.Email == "" {
+				registrar.Email = value
+			}
+		case "registrar_reseller":
+			if registrar.Reseller == "" {
+				registrar.Reseller = value
+			}
 		case "whois_server":
 			if registrar.WhoisServer == "" {
 				registrar.WhoisServer = value

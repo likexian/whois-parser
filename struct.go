@@ -33,6 +33,9 @@ type Registrar struct {
 	ID             string `json:"id"`
 	Name           string `json:"name"`
 	Organization   string `json:"organization"`
+	Phone          string `json:"phone"`
+	Email          string `json:"email"`
+	Reseller       string `json:"reseller"`
 	WhoisServer    string `json:"whois_server"`
 	ReferralURL    string `json:"referral_url"`
 	DomainId       string `json:"domain_id"`

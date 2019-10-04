@@ -1,0 +1,80 @@
+registrar_id: 472
+registrar_name: DYNADOT LLC
+registrar_organization: 
+registrar_phone: +1.6502620100
+registrar_email: abuse@dynadot.com
+registrar_reseller: 
+whois_server: whois.dynadot.com
+referral_url: http://www.dynadot.com
+domain_id: 91721384_DOMAIN_COM-VRSN
+domain_name: DYNADOT.COM
+domain_status: clienttransferprohibited
+created_date: 2002-10-30T17:44:41.0Z
+updated_date: 2019-09-17T10:43:57.0Z
+expiration_date: 2020-10-30T16:44:41.0Z
+name_servers: ns1-geo.dynadot.com,ns2-geo.dynadot.com
+domain_dnssec: unsigned
+
+registrant
+id: 
+name: Dynadot LLC
+organization: 
+street: PO Box 345
+street_ext: 
+city: San Mateo
+province: CA
+postal_code: 94401
+country: US
+phone: +1.6502620100
+phone_ext: 
+fax: +1.4158692893
+fax_ext: 
+email: info@dynadot.com
+
+admin
+id: 
+name: Dynadot LLC
+organization: 
+street: PO Box 345
+street_ext: 
+city: San Mateo
+province: CA
+postal_code: 94401
+country: US
+phone: +1.6502620100
+phone_ext: 
+fax: +1.4158692893
+fax_ext: 
+email: info@dynadot.com
+
+tech
+id: 
+name: Dynadot LLC
+organization: 
+street: PO Box 345
+street_ext: 
+city: San Mateo
+province: CA
+postal_code: 94401
+country: US
+phone: +1.6502620100
+phone_ext: 
+fax: +1.4158692893
+fax_ext: 
+email: info@dynadot.com
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

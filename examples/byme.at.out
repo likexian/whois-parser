@@ -1,6 +1,9 @@
 registrar_id: 
 registrar_name: GANDI SAS ( https://nic.at/registrar/580 )
 registrar_organization: 
+registrar_phone: 
+registrar_email: 
+registrar_reseller: 
 whois_server: 
 referral_url: 
 domain_id: 

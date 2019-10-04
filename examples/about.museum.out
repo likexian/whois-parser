@@ -1,6 +1,9 @@
 registrar_id: 9999
 registrar_name: Registry Operations
 registrar_organization: 
+registrar_phone: 
+registrar_email: 
+registrar_reseller: 
 whois_server: 
 referral_url: 
 domain_id: DOM000000000677-MUSEUM

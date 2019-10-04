@@ -1,35 +1,38 @@
-registrar_id: 48
-registrar_name: ENOM, INC.
+registrar_id: 81
+registrar_name: GANDI SAS
 registrar_organization: 
-whois_server: WHOIS.ENOM.COM
-referral_url: WWW.ENOM.COM
-domain_id: 1558436_DOMAIN_NET-VRSN
-domain_name: mjj.net
-domain_status: clienttransferprohibited,registrar-lock*
-created_date: 1998-04-02T05:00:00.00Z
-updated_date: 2018-03-31T20:12:49.00Z
-expiration_date: 2019-04-01T04:00:00.00Z
-name_servers: dns1.name-services.com,dns2.name-services.com,dns3.name-services.com,dns4.name-services.com,dns5.name-services.com
-domain_dnssec: UNSIGNED
+registrar_phone: +33.170377661
+registrar_email: abuse@support.gandi.net
+registrar_reseller: GANDI SAS
+whois_server: whois.gandi.net
+referral_url: http://www.gandi.net
+domain_id: 6683836_DOMAIN_NET-VRSN
+domain_name: gandi.net
+domain_status: clientupdateprohibited,clientdeleteprohibited,clienttransferprohibited
+created_date: 1999-05-21T10:09:21Z
+updated_date: 2019-02-07T09:22:28Z
+expiration_date: 2025-05-21T14:09:56Z
+name_servers: dns0.gandi.net,dns1.gandi.net,dns2.gandi.net,dns3.gandi.net,dns4.gandi.net,dns6.gandi.net
+domain_dnssec: Unsigned
 
 registrant
-id: 
+id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
+organization: Gandi SAS
 street: REDACTED FOR PRIVACY
 street_ext: 
 city: REDACTED FOR PRIVACY
-province: REDACTED FOR PRIVACY
+province: 
 postal_code: REDACTED FOR PRIVACY
-country: REDACTED FOR PRIVACY
+country: FR
 phone: REDACTED FOR PRIVACY
 phone_ext: 
 fax: REDACTED FOR PRIVACY
 fax_ext: 
-email: redacted for privacy
+email: 1c3a11bd1da2ad84dde09bcc831747a8-523678@contact.gandi.net
 
 admin
-id: 
+id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
 street: REDACTED FOR PRIVACY
@@ -42,10 +45,10 @@ phone: REDACTED FOR PRIVACY
 phone_ext: 
 fax: REDACTED FOR PRIVACY
 fax_ext: 
-email: redacted for privacy
+email: 3521bef593b0080b0644bce75aa22a5d-248842@contact.gandi.net
 
 tech
-id: 
+id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
 street: REDACTED FOR PRIVACY
@@ -58,7 +61,7 @@ phone: REDACTED FOR PRIVACY
 phone_ext: 
 fax: REDACTED FOR PRIVACY
 fax_ext: 
-email: redacted for privacy
+email: 3521bef593b0080b0644bce75aa22a5d-248842@contact.gandi.net
 
 bill
 id: 
