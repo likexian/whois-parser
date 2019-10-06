@@ -1,0 +1,80 @@
+registrar_id: 9999
+registrar_name: Merchant Law Group LLP
+registrar_organization: 
+registrar_phone: +1.3063597777
+registrar_email: info@get.love
+registrar_reseller: 
+whois_server: whois.nic.love
+referral_url: https://get.love/
+domain_id: D7924624-CNIC
+domain_name: GET.LOVE
+domain_status: ok
+created_date: 2015-05-06T10:39:53.0Z
+updated_date: 2019-04-30T00:17:23.0Z
+expiration_date: 2020-05-06T23:59:59.0Z
+name_servers: ns01.merchantlaw.com,ns02.merchantlaw.com
+domain_dnssec: unsigned
+
+registrant
+id: 
+name: IT Manager
+organization: Merchant Law Group LLP
+street: Regina
+street_ext: 
+city: Saskatchewan
+province: 
+postal_code: S4P 4H8
+country: CA
+phone: +1.3063597777
+phone_ext: 
+fax: +1.3065223299
+fax_ext: 
+email: info@get.love
+
+admin
+id: 
+name: IT Manager
+organization: Merchant Law Group LLP
+street: Regina
+street_ext: 
+city: Saskatchewan
+province: 
+postal_code: S4P 4H8
+country: CA
+phone: +1.3063597777
+phone_ext: 
+fax: +1.3065223299
+fax_ext: 
+email: info@get.love
+
+tech
+id: 
+name: IT Manager
+organization: Merchant Law Group LLP
+street: Regina
+street_ext: 
+city: Saskatchewan
+province: 
+postal_code: S4P 4H8
+country: CA
+phone: +1.3063597777
+phone_ext: 
+fax: +1.3065223299
+fax_ext: 
+email: info@get.love
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

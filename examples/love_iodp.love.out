@@ -1,0 +1,80 @@
+registrar_id: 1390
+registrar_name: Mesh Digital Ltd
+registrar_organization: 
+registrar_phone: +44.1483304030
+registrar_email: abuse.contact@hosteuropegroup.com
+registrar_reseller: 
+whois_server: whois.meshdigital.com
+referral_url: 
+domain_id: D38533842-CNIC
+domain_name: IODP.LOVE
+domain_status: clienttransferprohibited,clientupdateprohibited,clientdeleteprohibited
+created_date: 2016-11-10T14:17:33.0Z
+updated_date: 2019-07-10T12:26:00.0Z
+expiration_date: 2020-11-10T23:59:59.0Z
+name_servers: ns1.esm1066.sgded.com,ns2.esm1066.sgded.com
+domain_dnssec: unsigned
+
+registrant
+id: 
+name: 
+organization: Innerversity of Divine Perfection
+street: 
+street_ext: 
+city: 
+province: CA
+postal_code: 
+country: US
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+
+admin
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+
+tech
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.

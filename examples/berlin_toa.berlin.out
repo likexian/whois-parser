@@ -1,0 +1,80 @@
+registrar_id: 1420
+registrar_name: InterNetworX GmbH & Co. KG
+registrar_organization: 
+registrar_phone: +49.309832120
+registrar_email: info@inwx.de
+registrar_reseller: 
+whois_server: 
+referral_url: http://www.inwx.berlin
+domain_id: D0000176766-BERLIN
+domain_name: toa.berlin
+domain_status: clienttransferprohibited
+created_date: 2014-06-16T19:42:59Z
+updated_date: 2017-01-24T23:11:12Z
+expiration_date: 2020-06-16T19:42:59Z
+name_servers: ns-1232.awsdns-26.org,ns-1962.awsdns-53.co.uk,ns-412.awsdns-51.com,ns-903.awsdns-48.net
+domain_dnssec: unsigned
+
+registrant
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
