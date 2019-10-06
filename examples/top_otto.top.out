@@ -1,0 +1,80 @@
+registrar_id: 269
+registrar_name: Key-Systems GmbH
+registrar_organization: 
+registrar_phone: +49.68949396850
+registrar_email: abuse@key-systems.net
+registrar_reseller: 
+whois_server: whois.rrpproxy.net
+referral_url: 
+domain_id: 20150226g10001g-30971494
+domain_name: otto.top
+domain_status: clienttransferprohibited
+created_date: 2015-02-26T13:19:20Z
+updated_date: 2019-03-05T07:41:41Z
+expiration_date: 2020-02-26T13:19:20Z
+name_servers: ns1.p20.dynect.net,ns2.p20.dynect.net,ns3.p20.dynect.net,ns4.p20.dynect.net
+domain_dnssec: unsigned
+
+registrant
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY
+street_ext: 
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
+phone_ext: REDACTED FOR PRIVACY
+fax: REDACTED FOR PRIVACY
+fax_ext: REDACTED FOR PRIVACY
+email: info@domain-contact.org
+
+admin
+id: REDACTED FOR PRIVACY
+name: Domain Manager
+organization: Otto (GmbH & Co KG)
+street: Werner-Otto-Straße 1-7
+street_ext: 
+city: Hamburg
+province: HH
+postal_code: 22179
+country: DE
+phone: +49.4064610
+phone_ext: 
+fax: 
+fax_ext: 
+email: adminc@ottogroup.com
+
+tech
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY
+street_ext: 
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
+phone_ext: REDACTED FOR PRIVACY
+fax: REDACTED FOR PRIVACY
+fax_ext: REDACTED FOR PRIVACY
+email: info@domain-contact.org
+
+bill
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY
+street_ext: 
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
+phone_ext: REDACTED FOR PRIVACY
+fax: REDACTED FOR PRIVACY
+fax_ext: REDACTED FOR PRIVACY
+email: info@domain-contact.org

@@ -1,30 +1,30 @@
-registrar_id: 3775
-registrar_name: ALIBABA.COM SINGAPORE E-COMMERCE PRIVATE LIMITED
+registrar_id: 292
+registrar_name: MarkMonitor Inc.
 registrar_organization: 
 registrar_phone: 
 registrar_email: 
 registrar_reseller: 
 whois_server: 
-referral_url: 
-domain_id: D425500000032899133-AGRS
-domain_name: MJJ.ASIA
-domain_status: ok
-created_date: 2018-03-14T08:52:54Z
-updated_date: 2018-05-13T21:15:59Z
-expiration_date: 2019-03-14T08:52:54Z
-name_servers: ns7.alidns.com,ns8.alidns.com
+referral_url: http://www.markmonitor.com
+domain_id: D29317-AGRS
+domain_name: GOOGLE.XXX
+domain_status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
+created_date: 2011-12-01T21:25:32Z
+updated_date: 2018-10-30T09:36:37Z
+expiration_date: 2019-12-01T21:25:32Z
+name_servers: ns3.googledomains.com,ns1.googledomains.com,ns2.googledomains.com,ns4.googledomains.com
 domain_dnssec: unsigned
 
 registrant
 id: 
 name: 
-organization: Nexperian Holding Limited
+organization: Google Inc.
 street: 
 street_ext: 
 city: 
-province: Zhejiang
+province: CA
 postal_code: 
-country: CN
+country: US
 phone: 
 phone_ext: 
 fax: 

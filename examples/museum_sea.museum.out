@@ -1,19 +1,19 @@
-registrar_id: 9999
-registrar_name: Registry Operations
+registrar_id: 111
+registrar_name: Secura GmbH
 registrar_organization: 
-registrar_phone: 
-registrar_email: 
+registrar_phone: +49 221 2571213
+registrar_email: abuse@domainregistry.de
 registrar_reseller: 
-whois_server: 
+whois_server: whois.nic.museum
 referral_url: 
-domain_id: DOM000000000677-MUSEUM
-domain_name: about.museum
-domain_status: ok
-created_date: 2005-02-04T18:32:48Z
-updated_date: 2018-03-07T08:20:19Z
-expiration_date: 2019-02-04T19:32:48Z
-name_servers: ns1.nic.fr,ns2.nic.fr,ns3.nic.fr
-domain_dnssec: signedDelegation
+domain_id: DOM000000582523-MUSEUM
+domain_name: sea.museum
+domain_status: clienttransferprohibited
+created_date: 2018-10-23T14:02:32Z
+updated_date: 2019-04-30T07:34:28Z
+expiration_date: 2019-10-23T14:02:33Z
+name_servers: ns01.trademarkarea.com,ns02.trademarkearea.com,ns03.trademarkarea.com
+domain_dnssec: unsigned
 
 registrant
 id: REDACTED FOR PRIVACY
@@ -24,7 +24,7 @@ street_ext:
 city: REDACTED FOR PRIVACY
 province: 
 postal_code: REDACTED FOR PRIVACY
-country: FR
+country: AU
 phone: REDACTED FOR PRIVACY
 phone_ext: 
 fax: REDACTED FOR PRIVACY

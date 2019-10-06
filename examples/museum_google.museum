@@ -1,21 +1,21 @@
 
-Domain Name: about.museum
-Registry Domain ID: DOM000000000677-MUSEUM
-Registrar URL:  
-Updated Date: 2018-03-07T08:20:19Z
-Creation Date: 2005-02-04T18:32:48Z
-Registry Expiry Date: 2019-02-04T19:32:48Z
-Registrar: Registry Operations
-Registrar IANA ID: 9999
-Registrar Abuse Contact Email:  
-Registrar Abuse Contact Phone:  
-Domain Status: ok  https://icann.org/epp#ok
+Domain Name: google.museum
+Registry Domain ID: DOM000001477194-MUSEUM
+Registrar URL: https://inwx.de
+Updated Date: 2019-05-02T09:18:25Z
+Creation Date: 2019-05-02T09:18:21Z
+Registry Expiry Date: 2020-05-02T09:18:22Z
+Registrar: INWX GMBH & Co. KG
+Registrar IANA ID: 1420
+Registrar Abuse Contact Email: abuse@inwx.com
+Registrar Abuse Contact Phone: +4930983212121
+Domain Status: clientTransferProhibited  https://icann.org/epp#clientTransferProhibited
 Registry Registrant ID: REDACTED FOR PRIVACY
 Registrant Name: REDACTED FOR PRIVACY
 Registrant Street: REDACTED FOR PRIVACY
 Registrant City: REDACTED FOR PRIVACY
 Registrant Postal Code: REDACTED FOR PRIVACY
-Registrant Country: FR
+Registrant Country: DE
 Registrant Phone: REDACTED FOR PRIVACY
 Registrant Fax: REDACTED FOR PRIVACY
 Registrant Email: Please query the RDDS service of the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Tech contact of the queried domain name.
@@ -41,12 +41,14 @@ Tech Country: REDACTED FOR PRIVACY
 Tech Phone: REDACTED FOR PRIVACY
 Tech Fax: REDACTED FOR PRIVACY
 Tech Email: Please query the RDDS service of the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Tech contact of the queried domain name.
-Name Server: ns1.nic.fr
-Name Server: ns2.nic.fr
-Name Server: ns3.nic.fr
-DNSSEC: signedDelegation
+Name Server: ns.inwx.de
+Name Server: ns2.inwx.de
+Name Server: ns3.inwx.eu
+Name Server: ns4.inwx.com
+Name Server: ns5.inwx.net
+DNSSEC: unsigned
 URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
->>> Last update of WHOIS database: 2019-01-24T12:47:36Z <<<
+>>> Last update of WHOIS database: 2019-10-07T00:27:00Z <<<
 
 For more information on Whois status codes, please visit https://icann.org/epp
 

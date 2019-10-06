@@ -1,34 +1,34 @@
-registrar_id: 9999
-registrar_name: Donuts Internal (9999)
+registrar_id: 1420
+registrar_name: INWX GMBH & Co. KG
 registrar_organization: 
-registrar_phone: 
-registrar_email: 
+registrar_phone: +4930983212121
+registrar_email: abuse@inwx.com
 registrar_reseller: 
-whois_server: whois.donuts.co
-referral_url: http://www.donuts.co
-domain_id: a0fb5438b41f49579aadf206bdc8c063-DONUTS
-domain_name: nic.technology
-domain_status: servertransferprohibited
-created_date: 2013-09-23T12:31:33Z
-updated_date: 2018-11-07T12:32:11Z
-expiration_date: 2019-09-23T12:31:33Z
-name_servers: ns-1501.awsdns-59.org,ns-380.awsdns-47.com,ns-811.awsdns-37.net,ns-1597.awsdns-07.co.uk
+whois_server: 
+referral_url: https://inwx.de
+domain_id: DOM000001477194-MUSEUM
+domain_name: google.museum
+domain_status: clienttransferprohibited
+created_date: 2019-05-02T09:18:21Z
+updated_date: 2019-05-02T09:18:25Z
+expiration_date: 2020-05-02T09:18:22Z
+name_servers: ns.inwx.de,ns2.inwx.de,ns3.inwx.eu,ns4.inwx.com,ns5.inwx.net
 domain_dnssec: unsigned
 
 registrant
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
-organization: Donuts Inc.
+organization: 
 street: REDACTED FOR PRIVACY
 street_ext: 
 city: REDACTED FOR PRIVACY
-province: WA
+province: 
 postal_code: REDACTED FOR PRIVACY
-country: US
+country: DE
 phone: REDACTED FOR PRIVACY
-phone_ext: REDACTED FOR PRIVACY
+phone_ext: 
 fax: REDACTED FOR PRIVACY
-fax_ext: REDACTED FOR PRIVACY
+fax_ext: 
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 
 admin
@@ -42,9 +42,9 @@ province: REDACTED FOR PRIVACY
 postal_code: REDACTED FOR PRIVACY
 country: REDACTED FOR PRIVACY
 phone: REDACTED FOR PRIVACY
-phone_ext: REDACTED FOR PRIVACY
+phone_ext: 
 fax: REDACTED FOR PRIVACY
-fax_ext: REDACTED FOR PRIVACY
+fax_ext: 
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 
 tech
@@ -58,9 +58,9 @@ province: REDACTED FOR PRIVACY
 postal_code: REDACTED FOR PRIVACY
 country: REDACTED FOR PRIVACY
 phone: REDACTED FOR PRIVACY
-phone_ext: REDACTED FOR PRIVACY
+phone_ext: 
 fax: REDACTED FOR PRIVACY
-fax_ext: REDACTED FOR PRIVACY
+fax_ext: 
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 
 bill
