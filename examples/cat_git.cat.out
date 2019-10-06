@@ -1,0 +1,80 @@
+registrar_id: 81
+registrar_name: GANDI SAS
+registrar_organization: 
+registrar_phone: +33.170377661
+registrar_email: abuse@support.gandi.net
+registrar_reseller: Netsto Limited
+whois_server: whois.gandi.net
+referral_url: http://www.gandi.net
+domain_id: UNDEF-ROID
+domain_name: git.cat
+domain_status: clienttransferprohibited
+created_date: 2018-11-17T16:11:05Z
+updated_date: 2019-09-18T15:20:27Z
+expiration_date: 2019-11-17T16:11:05Z
+name_servers: ns1.smartgslb.com,ns2.smartgslb.com
+domain_dnssec: Unsigned
+
+registrant
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: 
+street: REDACTED FOR PRIVACY
+street_ext: 
+city: REDACTED FOR PRIVACY
+province: 
+postal_code: REDACTED FOR PRIVACY
+country: CN
+phone: REDACTED FOR PRIVACY
+phone_ext: 
+fax: REDACTED FOR PRIVACY
+fax_ext: 
+email: 2cd081e85316a178f93dba64aedfd467-11466628@contact.gandi.net
+
+admin
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY
+street_ext: 
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
+phone_ext: 
+fax: REDACTED FOR PRIVACY
+fax_ext: 
+email: e5f8b8e62c6cdf6cf1779d13d7979adb-11466632@contact.gandi.net
+
+tech
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY
+street_ext: 
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
+phone_ext: 
+fax: REDACTED FOR PRIVACY
+fax_ext: 
+email: 0a099929a74cb35f7f1301344a022505-11466636@contact.gandi.net
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

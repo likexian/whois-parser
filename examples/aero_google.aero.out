@@ -1,0 +1,80 @@
+registrar_id: 85
+registrar_name: EPAG Domainservices GmbH
+registrar_organization: 
+registrar_phone: 
+registrar_email: 
+registrar_reseller: 
+whois_server: 
+referral_url: 
+domain_id: D4480451-AERO
+domain_name: GOOGLE.AERO
+domain_status: ok
+created_date: 2019-08-04T11:35:07Z
+updated_date: 2019-10-04T05:05:04Z
+expiration_date: 2020-08-04T11:35:07Z
+name_servers: ns2.hosting.reg.ru,ns1.hosting.reg.ru
+domain_dnssec: unsigned
+
+registrant
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

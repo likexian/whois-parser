@@ -1,0 +1,80 @@
+registrar_id: 81
+registrar_name: Gandi SAS
+registrar_organization: 
+registrar_phone: +33.170377661
+registrar_email: abuse@support.gandi.net
+registrar_reseller: 
+whois_server: whois.gandi.net
+referral_url: http://www.gandi.net/
+domain_id: D7898338-CNIC
+domain_name: SLB.COOP
+domain_status: clienttransferprohibited
+created_date: 2014-07-04T10:24:18.0Z
+updated_date: 2019-07-09T09:44:08.0Z
+expiration_date: 2020-07-04T23:59:59.0Z
+name_servers: ns-27-a.gandi.net,ns-138-b.gandi.net,ns-148-c.gandi.net
+domain_dnssec: unsigned
+
+registrant
+id: 
+name: 
+organization: Cooperativa de Serveis Linguistics de Barcelona (SLB), SCCL
+street: 
+street_ext: 
+city: 
+province: B
+postal_code: 
+country: ES
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+
+admin
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+
+tech
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
