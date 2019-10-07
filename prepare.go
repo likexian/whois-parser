@@ -40,6 +40,8 @@ func Prepare(text string) string {
 	m := searchDomain.FindStringSubmatch(text)
 	if len(m) > 0 {
 		switch strings.ToLower(m[3]) {
+		case "edu":
+			return prepareEDU(text)
 		case "ch":
 			return prepareCH(text)
 		case "it":
@@ -54,6 +56,63 @@ func Prepare(text string) string {
 	}
 
 	return text
+}
+
+// prepareEDU do prepare the .edu domain
+func prepareEDU(text string) string {
+	tokens := map[string][]string{
+		"Registrant:": {
+			"Organization",
+			"Address",
+			"Address1",
+			"Country",
+		},
+		"Administrative Contact:": {
+			"Name",
+			"Organization",
+			"Address",
+			"Address1",
+			"Country",
+			"Phone",
+			"Email",
+		},
+		"Technical Contact:": {
+			"Name",
+			"Organization",
+			"Address",
+			"Address1",
+			"Country",
+			"Phone",
+			"Email",
+		},
+	}
+
+	token := ""
+	index := 0
+
+	result := ""
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if v == "" {
+			continue
+		}
+		if strings.HasSuffix(v, ":") {
+			token = ""
+			index = 0
+		}
+		if _, ok := tokens[v]; ok {
+			token = v
+		} else {
+			if token == "" {
+				result += "\n" + v
+			} else {
+				result += fmt.Sprintf("\n%s %s: %s", token[:len(token)-1], tokens[token][index], v)
+				index += 1
+			}
+		}
+	}
+
+	return result
 }
 
 // prepareCH do prepare the .ch domain

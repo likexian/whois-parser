@@ -1,0 +1,80 @@
+registrar_id: 
+registrar_name: 
+registrar_organization: 
+registrar_phone: 
+registrar_email: 
+registrar_reseller: 
+whois_server: 
+referral_url: 
+domain_id: 
+domain_name: SNAI.EDU
+domain_status: 
+created_date: 27-Apr-2001
+updated_date: 08-Jan-2019
+expiration_date: 31-Jul-2021
+name_servers: ns1.alidns.com,ns2.alidns.com
+domain_dnssec: 
+
+registrant
+id: 
+name: 
+organization: Shanghai National Accounting Institute
+street: 200 Panlong Rd,xu jin,Qing pu zone
+street_ext: Shanghai, SH 201702
+city: 
+province: 
+postal_code: 
+country: China
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: chengyan Yin
+organization: Shanghai National Accounting Institute
+street: 200 Panlong Rd,xu jin,Qing pu zone
+street_ext: Shanghai, SH 201702
+city: 
+province: 
+postal_code: 
+country: China
+phone: +86.0216976800068028
+phone_ext: 
+fax: 
+fax_ext: 
+email: webmaster@snai.edu
+
+tech
+id: 
+name: Jindong Dou
+organization: Shanghai National Accounting Institute
+street: 200 Panlong Rd,xu jin,Qing pu zone
+street_ext: Shanghai, SH 201702
+city: 
+province: 
+postal_code: 
+country: China
+phone: +86.0216976800068096
+phone_ext: 
+fax: 
+fax_ext: 
+email: kindong@snai.edu
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

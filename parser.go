@@ -211,6 +211,8 @@ func parseRegistrant(registrant Registrant, name, value string) Registrant {
 		registrant.Organization = value
 	case "registrant_street":
 		registrant.Street = value
+	case "registrant_street_ext":
+		registrant.StreetExt = value
 	case "registrant_city":
 		registrant.City = value
 	case "registrant_state_province":

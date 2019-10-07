@@ -1,0 +1,80 @@
+registrar_id: 
+registrar_name: 
+registrar_organization: 
+registrar_phone: 
+registrar_email: 
+registrar_reseller: 
+whois_server: 
+referral_url: 
+domain_id: 
+domain_name: GIT.EDU
+domain_status: 
+created_date: 24-Dec-1998
+updated_date: 26-Sep-2019
+expiration_date: 31-Jul-2020
+name_servers: ns1.md-in-28.webhostbox.net,ns2.md-in-28.webhostbox.net
+domain_dnssec: 
+
+registrant
+id: 
+name: 
+organization: Gogte Institute of Technology
+street: Udyambag
+street_ext: Belgaum, Karnataka 590008
+city: 
+province: 
+postal_code: 
+country: India
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: Santosh Saraf
+organization: Gogte Institute of Technology
+street: Udyambag
+street_ext: Belgaum, Karnataka 590008
+city: 
+province: 
+postal_code: 
+country: India
+phone: +91.8312405500
+phone_ext: 
+fax: 
+fax_ext: 
+email: cc@git.edu
+
+tech
+id: 
+name: Santosh Saraf
+organization: Gogte Institute of Technology
+street: Udyambag
+street_ext: Belgaum, Karnataka 590008
+city: 
+province: 
+postal_code: 
+country: India
+phone: +91.8312405500
+phone_ext: 
+fax: 
+fax_ext: 
+email: cc@git.edu
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
