@@ -1,0 +1,33 @@
+% IANA WHOIS server
+% for more information on IANA, visit http://www.iana.org
+% This query returned 1 object
+domain:       ESA.INT
+registrant organisation: European Space Agency (ESA)
+registrant address:      8-10, Rue Mario Nikis
+registrant address:      Paris N/A 75738 Paris Cedex 15
+registrant address:      France
+contact:      administrative
+administrative name:         ESANIC - Role Account
+administrative organisation: ESA's European Space Operations Centre (ESA-ESOC)
+administrative address:      Via Galileo Galilei, snr
+administrative address:      Frascati  I-00044
+administrative address:      Italy
+administrative phone:        +39 06941 88 688 (Please include country prefix)
+administrative e-mail:       esanic@esa.int
+contact:      technical
+technical name:         ESANOC - Role Account
+technical organisation: ESA's European Space Research Institute (ESA-ESRIN)
+technical address:      Via Galileo Galilei, snr
+technical address:      Frascati  I-00044
+technical address:      Italy
+technical phone:        +39 06 941 80 205
+technical e-mail:       esanoc@esa.int
+nserver:      DNS1.ESA.INT 131.176.107.3
+nserver:      DNS2.ESA.INT 131.176.107.4
+nserver:      DNS3.ESA.INT 131.176.86.2
+nserver:      DNS4.ESA.INT 131.176.86.4
+nserver:      DNS5.ESA.INT 192.171.5.18
+nserver:      DNS6.ESA.INT 192.171.5.19
+created:      1996-08-23
+changed:      2009-03-19
+source:       IANA

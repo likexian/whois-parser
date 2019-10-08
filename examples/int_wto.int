@@ -1,0 +1,40 @@
+% IANA WHOIS server
+% for more information on IANA, visit http://www.iana.org
+% This query returned 1 object
+
+domain:       WTO.INT
+
+organisation: World Trade Organization
+address:      Palais des Nations
+address:      c/o UNICC
+address:      Geneva 10  1211
+address:      Switzerland
+
+contact:      administrative
+name:         Name Service Administrative Contact
+address:      Palais des Nations
+address:      c/o UNICC
+address:      Geneva 10  1211
+address:      Switzerland
+phone:        +41 22 929 1411
+fax-no:       +41 22 929 1412
+e-mail:       ns-admin@unicc.org
+
+contact:      technical
+name:         Name Service Technical Contact
+address:      Palais des Nations
+address:      c/o UNICC
+address:      Geneva 10  1211
+address:      Switzerland
+phone:        +41 22 929 1411
+fax-no:       +41 22 929 1412
+e-mail:       ns-tech@unicc.org
+
+nserver:      NS.UNICC.ORG
+nserver:      NS1.GVA.CH.COLT.NET
+
+created:      2001-09-10
+changed:      2019-02-21
+source:       IANA
+
+

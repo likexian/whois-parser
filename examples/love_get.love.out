@@ -19,7 +19,7 @@ registrant
 id: 
 name: IT Manager
 organization: Merchant Law Group LLP
-street: Regina
+street: 100 - 2401 Saskatchewan Drive, Regina
 street_ext: 
 city: Saskatchewan
 province: 
@@ -35,7 +35,7 @@ admin
 id: 
 name: IT Manager
 organization: Merchant Law Group LLP
-street: Regina
+street: 100 - 2401 Saskatchewan Drive, Regina
 street_ext: 
 city: Saskatchewan
 province: 
@@ -51,7 +51,7 @@ tech
 id: 
 name: IT Manager
 organization: Merchant Law Group LLP
-street: Regina
+street: 100 - 2401 Saskatchewan Drive, Regina
 street_ext: 
 city: Saskatchewan
 province: 

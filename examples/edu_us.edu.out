@@ -19,12 +19,12 @@ registrant
 id: 
 name: 
 organization: University School
-street: 20701 Brantley Rd
-street_ext: Shaker Hts, OH 44122
+street: 20701 Brantley Rd, Shaker Hts, OH 44122, USA
+street_ext: 
 city: 
 province: 
 postal_code: 
-country: USA
+country: 
 phone: 
 phone_ext: 
 fax: 
@@ -35,12 +35,12 @@ admin
 id: 
 name: Ross Duncan
 organization: University School
-street: 20701 Brantley Rd
-street_ext: Shaker Heights, OH 44122
+street: 20701 Brantley Rd, Shaker Heights, OH 44122, USA
+street_ext: 
 city: 
 province: 
 postal_code: 
-country: USA
+country: 
 phone: +1.2163716803
 phone_ext: 
 fax: 
@@ -51,12 +51,12 @@ tech
 id: 
 name: Lisa ulery
 organization: University School
-street: 20701 Brantley Rd
-street_ext: Shaker Heights, OH 44122
+street: 20701 Brantley Rd, Shaker Heights, OH 44122, USA
+street_ext: 
 city: 
 province: 
 postal_code: 
-country: USA
+country: 
 phone: +1.2163716803
 phone_ext: 
 fax: 

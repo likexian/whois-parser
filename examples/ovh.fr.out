@@ -19,7 +19,7 @@ registrant
 id: SO255-FRNIC
 name: OVH SAS
 organization: 
-street: 59100 Roubaix
+street: 2, rue Kellermann, 59100 Roubaix
 street_ext: 
 city: 
 province: 
@@ -35,7 +35,7 @@ admin
 id: OS10535-FRNIC
 name: OVH SAS
 organization: 
-street: 59100 ROUBAIX
+street: OVH SAS, 2 Rue Kellermann, 59100 ROUBAIX
 street_ext: 
 city: 
 province: 
@@ -51,7 +51,7 @@ tech
 id: OVH5-FRNIC
 name: OVH NET
 organization: 
-street: 59100 Roubaix
+street: OVH, 140, quai du Sartel, 59100 Roubaix
 street_ext: 
 city: 
 province: 

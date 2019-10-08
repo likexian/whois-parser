@@ -35,7 +35,7 @@ admin
 id: R12684-FRNIC
 name: random.sh
 organization: 
-street: 30220 Aigues Mortes
+street: random.sh, 530, chemin de Cartouche, 30220 Aigues Mortes
 street_ext: 
 city: 
 province: 
@@ -51,7 +51,7 @@ tech
 id: GR283-FRNIC
 name: GANDI ROLE
 organization: 
-street: 75011 Paris
+street: Gandi, 15, place de la Nation, 75011 Paris
 street_ext: 
 city: 
 province: 

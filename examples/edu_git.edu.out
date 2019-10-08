@@ -19,12 +19,12 @@ registrant
 id: 
 name: 
 organization: Gogte Institute of Technology
-street: Udyambag
-street_ext: Belgaum, Karnataka 590008
+street: Udyambag, Belgaum, Karnataka 590008, India
+street_ext: 
 city: 
 province: 
 postal_code: 
-country: India
+country: 
 phone: 
 phone_ext: 
 fax: 
@@ -35,12 +35,12 @@ admin
 id: 
 name: Santosh Saraf
 organization: Gogte Institute of Technology
-street: Udyambag
-street_ext: Belgaum, Karnataka 590008
+street: Udyambag, Belgaum, Karnataka 590008, India
+street_ext: 
 city: 
 province: 
 postal_code: 
-country: India
+country: 
 phone: +91.8312405500
 phone_ext: 
 fax: 
@@ -51,12 +51,12 @@ tech
 id: 
 name: Santosh Saraf
 organization: Gogte Institute of Technology
-street: Udyambag
-street_ext: Belgaum, Karnataka 590008
+street: Udyambag, Belgaum, Karnataka 590008, India
+street_ext: 
 city: 
 province: 
 postal_code: 
-country: India
+country: 
 phone: +91.8312405500
 phone_ext: 
 fax: 

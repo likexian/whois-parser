@@ -53,6 +53,8 @@ func TestPrepare(t *testing.T) {
 		"edu_git.edu",
 		"edu_snai.edu",
 		"edu_us.edu",
+		"int_esa.int",
+		"int_wto.int",
 	}
 
 	for _, v := range tests {

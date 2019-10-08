@@ -7,19 +7,19 @@ registrar_reseller:
 whois_server: 
 referral_url: 
 domain_id: 
-domain_name: YMCA.INT
+domain_name: WTO.INT
 domain_status: 
-created_date: 1996-05-17
-updated_date: 2008-11-06
+created_date: 2001-09-10
+updated_date: 2019-02-21
 expiration_date: 
-name_servers: dns1.agenceweb.ch,dns2.agenceweb.ch
+name_servers: ns.unicc.org,ns1.gva.ch.colt.net
 domain_dnssec: 
 
 registrant
 id: 
 name: 
-organization: 
-street: 
+organization: World Trade Organization
+street: Palais des Nations, c/o UNICC, Geneva 10  1211, Switzerland
 street_ext: 
 city: 
 province: 
@@ -33,35 +33,35 @@ email:
 
 admin
 id: 
-name: 
+name: Name Service Administrative Contact
 organization: 
-street: 
+street: Palais des Nations, c/o UNICC, Geneva 10  1211, Switzerland
 street_ext: 
 city: 
 province: 
 postal_code: 
 country: 
-phone: 
+phone: +41 22 929 1411
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: ns-admin@unicc.org
 
 tech
 id: 
-name: 
+name: Name Service Technical Contact
 organization: 
-street: 
+street: Palais des Nations, c/o UNICC, Geneva 10  1211, Switzerland
 street_ext: 
 city: 
 province: 
 postal_code: 
 country: 
-phone: 
+phone: +41 22 929 1411
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: ns-tech@unicc.org
 
 bill
 id: 

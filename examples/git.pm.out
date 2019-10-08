@@ -19,7 +19,7 @@ registrant
 id: TS6102-FRNIC
 name: Tomas Srna
 organization: 
-street: Hlavni mesto Praha
+street: Vanickova 7, 16900 Praha, Hlavni mesto Praha
 street_ext: 
 city: 
 province: 
@@ -35,7 +35,7 @@ admin
 id: TS6101-FRNIC
 name: Tomá Srna
 organization: 
-street: Hlavni mesto Praha
+street: Patockova 2472/81a, 16900 Praha, Hlavni mesto Praha
 street_ext: 
 city: 
 province: 
@@ -51,7 +51,7 @@ tech
 id: TS6101-FRNIC
 name: Tomá Srna
 organization: 
-street: Hlavni mesto Praha
+street: Patockova 2472/81a, 16900 Praha, Hlavni mesto Praha
 street_ext: 
 city: 
 province: 

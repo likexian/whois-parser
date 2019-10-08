@@ -19,12 +19,12 @@ registrant
 id: 
 name: 
 organization: Shanghai National Accounting Institute
-street: 200 Panlong Rd,xu jin,Qing pu zone
-street_ext: Shanghai, SH 201702
+street: 200 Panlong Rd,xu jin,Qing pu zone, Shanghai, SH 201702, China
+street_ext: 
 city: 
 province: 
 postal_code: 
-country: China
+country: 
 phone: 
 phone_ext: 
 fax: 
@@ -35,12 +35,12 @@ admin
 id: 
 name: chengyan Yin
 organization: Shanghai National Accounting Institute
-street: 200 Panlong Rd,xu jin,Qing pu zone
-street_ext: Shanghai, SH 201702
+street: 200 Panlong Rd,xu jin,Qing pu zone, Shanghai, SH 201702, China
+street_ext: 
 city: 
 province: 
 postal_code: 
-country: China
+country: 
 phone: +86.0216976800068028
 phone_ext: 
 fax: 
@@ -51,12 +51,12 @@ tech
 id: 
 name: Jindong Dou
 organization: Shanghai National Accounting Institute
-street: 200 Panlong Rd,xu jin,Qing pu zone
-street_ext: Shanghai, SH 201702
+street: 200 Panlong Rd,xu jin,Qing pu zone, Shanghai, SH 201702, China
+street_ext: 
 city: 
 province: 
 postal_code: 
-country: China
+country: 
 phone: +86.0216976800068096
 phone_ext: 
 fax: 

@@ -19,7 +19,7 @@ registrant
 id: GGIT3-FRNIC
 name: G.I.T. GALVANOPLASTIE INDUSTRIELLE TOULOUSAINE
 organization: 
-street: 31270 CUGNAUX
+street: 7 rue Joseph-Marie Jacquard, 31270 CUGNAUX
 street_ext: 
 city: 
 province: 
@@ -35,7 +35,7 @@ admin
 id: GGIT8-FRNIC
 name: G.I.T. GALVANOPLASTIE INDUSTRIELLE TOULOUSAINE
 organization: 
-street: 31270 CUGNAUX
+street: G.I.T. GALVANOPLASTIE INDUSTRIELLE TOULOUSAINE, 7, rue Joseph-Marie Jacquard, 31270 CUGNAUX
 street_ext: 
 city: 
 province: 
@@ -51,7 +51,7 @@ tech
 id: OVH5-FRNIC
 name: OVH NET
 organization: 
-street: 59100 Roubaix
+street: OVH, 140, quai du Sartel, 59100 Roubaix
 street_ext: 
 city: 
 province: 

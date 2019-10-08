@@ -1,0 +1,32 @@
+% IANA WHOIS server
+% for more information on IANA, visit http://www.iana.org
+% This query returned 1 object
+domain:       WTO.INT
+registrant organisation: World Trade Organization
+registrant address:      Palais des Nations
+registrant address:      c/o UNICC
+registrant address:      Geneva 10  1211
+registrant address:      Switzerland
+contact:      administrative
+administrative name:         Name Service Administrative Contact
+administrative address:      Palais des Nations
+administrative address:      c/o UNICC
+administrative address:      Geneva 10  1211
+administrative address:      Switzerland
+administrative phone:        +41 22 929 1411
+administrative fax-no:       +41 22 929 1412
+administrative e-mail:       ns-admin@unicc.org
+contact:      technical
+technical name:         Name Service Technical Contact
+technical address:      Palais des Nations
+technical address:      c/o UNICC
+technical address:      Geneva 10  1211
+technical address:      Switzerland
+technical phone:        +41 22 929 1411
+technical fax-no:       +41 22 929 1412
+technical e-mail:       ns-tech@unicc.org
+nserver:      NS.UNICC.ORG
+nserver:      NS1.GVA.CH.COLT.NET
+created:      2001-09-10
+changed:      2019-02-21
+source:       IANA

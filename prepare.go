@@ -42,6 +42,8 @@ func Prepare(text string) string {
 		switch strings.ToLower(m[3]) {
 		case "edu":
 			return prepareEDU(text)
+		case "int":
+			return prepareINT(text)
 		case "ch":
 			return prepareCH(text)
 		case "it":
@@ -64,15 +66,15 @@ func prepareEDU(text string) string {
 		"Registrant:": {
 			"Organization",
 			"Address",
-			"Address1",
-			"Country",
+			"Address",
+			"Address",
 		},
 		"Administrative Contact:": {
 			"Name",
 			"Organization",
 			"Address",
-			"Address1",
-			"Country",
+			"Address",
+			"Address",
 			"Phone",
 			"Email",
 		},
@@ -80,8 +82,8 @@ func prepareEDU(text string) string {
 			"Name",
 			"Organization",
 			"Address",
-			"Address1",
-			"Country",
+			"Address",
+			"Address",
 			"Phone",
 			"Email",
 		},
@@ -110,6 +112,38 @@ func prepareEDU(text string) string {
 				index += 1
 			}
 		}
+	}
+
+	return result
+}
+
+// prepareINT do prepare the .int domain
+func prepareINT(text string) string {
+	token := ""
+	result := ""
+
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if v == "" {
+			token = ""
+			continue
+		}
+		if strings.Contains(v, ":") {
+			vs := strings.Split(v, ":")
+			if strings.TrimSpace(vs[0]) == "organisation" {
+				if token == "" {
+					token = "registrant"
+				}
+			}
+			if strings.TrimSpace(vs[0]) == "contact" {
+				token = strings.TrimSpace(vs[1])
+			} else {
+				if token != "" {
+					v = fmt.Sprintf("%s %s", token, v)
+				}
+			}
+		}
+		result += "\n" + v
 	}
 
 	return result
