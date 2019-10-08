@@ -1,23 +1,23 @@
 registrar_id: 
-registrar_name: 厦门易名科技有限公司（原厦门易名网络科技有限公司）
+registrar_name: 厦门易名科技股份有限公司
 registrar_organization: 
 registrar_phone: 
 registrar_email: 
 registrar_reseller: 
 whois_server: 
 referral_url: 
-domain_id: 20060704s10001s56772678-cn
-domain_name: mjj.cn
-domain_status: clientdeleteprohibited,clienttransferprohibited
-created_date: 2006-07-04 19:47:07
+domain_id: 20030311s10001s00033735-cn
+domain_name: google.cn
+domain_status: clientdeleteprohibited,serverdeleteprohibited,serverupdateprohibited,clienttransferprohibited,servertransferprohibited
+created_date: 2003-03-17 12:20:05
 updated_date: 
-expiration_date: 2020-07-04 19:47:07
-name_servers: ns4.dns.com,ns3.dns.com
+expiration_date: 2021-03-17 12:48:36
+name_servers: ns2.google.com,ns1.google.com,ns3.google.com,ns4.google.com
 domain_dnssec: unsigned
 
 registrant
-id: ename_0bgf309imq
-name: 深圳市华源轩家具股份有限公司
+id: ename_el7lxxxazw
+name: 北京谷翔信息技术有限公司
 organization: 
 street: 
 street_ext: 
@@ -29,7 +29,7 @@ phone:
 phone_ext: 
 fax: 
 fax_ext: 
-email: xsc@cn-furniture.com
+email: dns-admin@google.com
 
 admin
 id: 

@@ -1,23 +1,23 @@
 registrar_id: 
-registrar_name: 阿里云计算有限公司（万网）
+registrar_name: Corporation Service Company
 registrar_organization: 
 registrar_phone: 
 registrar_email: 
 registrar_reseller: 
 whois_server: 
 referral_url: 
-domain_id: 20161019s10001s85184339-cn
-domain_name: cmsyuns.cn
-domain_status: ok
-created_date: 2016-10-19 13:58:48
+domain_id: 20030312s10001s00044494-cn
+domain_name: apple.cn
+domain_status: serverdeleteprohibited,serverupdateprohibited,clienttransferprohibited,servertransferprohibited
+created_date: 2003-03-17 12:20:05
 updated_date: 
-expiration_date: 2019-10-19 13:58:48
-name_servers: f1g1ns1.dnspod.net,f1g1ns2.dnspod.net
+expiration_date: 2020-03-17 12:48:36
+name_servers: a.ns.apple.com,b.ns.apple.com,c.ns.apple.com,d.ns.apple.com
 domain_dnssec: unsigned
 
 registrant
-id: hc7338100301121
-name: 金创互动科技（深圳）有限公司
+id: rs-30406
+name: Apple Inc.
 organization: 
 street: 
 street_ext: 
@@ -29,7 +29,7 @@ phone:
 phone_ext: 
 fax: 
 fax_ext: 
-email: 1344842954@qq.com
+email: domains@apple.com
 
 admin
 id: 
