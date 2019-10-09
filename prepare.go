@@ -44,6 +44,8 @@ func Prepare(text string) string {
 			return prepareEDU(text)
 		case "int":
 			return prepareINT(text)
+		case "mo":
+			return prepareMO(text)
 		case "ch":
 			return prepareCH(text)
 		case "it":
@@ -141,6 +143,45 @@ func prepareINT(text string) string {
 				if token != "" {
 					v = fmt.Sprintf("%s %s", token, v)
 				}
+			}
+		}
+		result += "\n" + v
+	}
+
+	return result
+}
+
+// prepareMO do prepare the .mo domain
+func prepareMO(text string) string {
+	tokens := map[string]string{
+		"Registrant:":           "Registrant",
+		"Admin Contact(s):":     "Admin",
+		"Billing Contact(s):":   "Billing",
+		"Technical Contact(s):": "Technical",
+	}
+
+	token := ""
+	result := ""
+
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if v == "" {
+			token = ""
+			continue
+		}
+		if v[0] == '-' {
+			continue
+		}
+		for _, s := range []string{"Record created on", "Record expires on"} {
+			if strings.HasPrefix(v, s) {
+				v = strings.Replace(v, s, s+":", 1)
+			}
+		}
+		if _, ok := tokens[v]; ok {
+			token = tokens[v]
+		} else {
+			if token != "" {
+				v = fmt.Sprintf("%s %s", token, v)
 			}
 		}
 		result += "\n" + v

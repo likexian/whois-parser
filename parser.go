@@ -22,6 +22,8 @@ package whoisparser
 import (
 	"errors"
 	"strings"
+
+	"github.com/likexian/gokit/assert"
 )
 
 // Domain info error and replacer variables
@@ -74,7 +76,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		}
 
 		fChar := line[:1]
-		if fChar == ">" || fChar == "%" || fChar == "*" {
+		if assert.IsContains([]string{"-", "*", "%", ">", ";"}, fChar) {
 			continue
 		}
 
