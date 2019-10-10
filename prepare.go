@@ -46,6 +46,8 @@ func Prepare(text string) string {
 			return prepareINT(text)
 		case "mo":
 			return prepareMO(text)
+		case "hk":
+			return prepareHK(text)
 		case "ch":
 			return prepareCH(text)
 		case "it":
@@ -181,6 +183,80 @@ func prepareMO(text string) string {
 			token = tokens[v]
 		} else {
 			if token != "" {
+				v = fmt.Sprintf("%s %s", token, v)
+			}
+		}
+		result += "\n" + v
+	}
+
+	return result
+}
+
+// prepareHK do prepare the .hk domain
+func prepareHK(text string) string {
+	tokens := map[string]string{
+		"Registrant Contact Information:":     "Registrant",
+		"Administrative Contact Information:": "Admin",
+		"Technical Contact Information:":      "Technical",
+		"Name Servers Information:":           "Name Servers:",
+	}
+
+	dateTokens := []string{
+		"Domain Name Commencement Date",
+		"Expiry Date",
+	}
+
+	token := ""
+	addressToken := false
+	text = strings.Replace(text, "\n\n", "\n", -1)
+
+	result := ""
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if v == "" {
+			token = ""
+			continue
+		}
+		field := ""
+		if strings.Contains(v, ":") {
+			vs := strings.SplitN(v, ":", 2)
+			field = strings.TrimSpace(vs[0])
+			if strings.Contains(field, "(") {
+				field = strings.Split(field, "(")[0]
+				v = fmt.Sprintf("%s: %s", field, vs[1])
+			}
+			addressToken = field == "Address"
+			if field == "Registrar Contact Information" {
+				re := regexp.MustCompile(`Email\:\s+([^\s]+)(\s+Hotline\:(.*))?`)
+				m := re.FindStringSubmatch(vs[1])
+				if len(m) == 4 {
+					v = ""
+					if m[1] != "" {
+						v += "Registrar Contact Email: " + m[1] + "\n"
+					}
+					if m[3] != "" {
+						v += "Registrar Contact Phone: " + m[3] + "\n"
+					}
+					v = strings.TrimSpace(v)
+				}
+			}
+			if field == "Family name" {
+				vv := strings.TrimSpace(vs[1])
+				if vv != "" && vv != "." {
+					result += " " + vv
+				}
+				continue
+			}
+		} else {
+			if addressToken {
+				result += ", " + v
+				continue
+			}
+		}
+		if _, ok := tokens[v]; ok {
+			token = tokens[v]
+		} else {
+			if token != "" && !assert.IsContains(dateTokens, field) {
 				v = fmt.Sprintf("%s %s", token, v)
 			}
 		}

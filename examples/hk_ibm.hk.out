@@ -1,0 +1,80 @@
+registrar_id: 
+registrar_name: Hong Kong Domain Name Registration Company Limited
+registrar_organization: 
+registrar_phone: +852 2319 1313
+registrar_email: enquiry@hkdnr.hk
+registrar_reseller: 
+whois_server: 
+referral_url: 
+domain_id: 
+domain_name: IBM.HK
+domain_status: active
+created_date: 14-03-2004
+updated_date: 
+expiration_date: 03-04-2020
+name_servers: ns1-206.akam.net,ns1-99.akam.net,asia3.akam.net,eur2.akam.net,eur5.akam.net,usc2.akam.net,usc3.akam.net
+domain_dnssec: unsigned
+
+registrant
+id: 
+name: 
+organization: INTERNATIONAL BUSINESS MACHINES CORPORATION
+street: New Orchard Road, North Castle Drive, Armonk, NY 10504
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: United States (US)
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: dnsadm@us.ibm.com
+
+admin
+id: 
+name: Admin, DNS
+organization: IBM CORPORATION
+street: North Castle Drive, Armonk, NY 10504-1785
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: United States (US)
+phone: +1-9147654227
+phone_ext: 
+fax: +1-9147654370
+fax_ext: 
+email: dnsadm@us.ibm.com
+
+tech
+id: 
+name: Technical, DNS
+organization: IBM CORPORATION
+street: PO Box 704, Yorktown Heights, NY 10598
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: United States (US)
+phone: +1-9149451850
+phone_ext: 
+fax: +1-9149451850
+fax_ext: 
+email: dnstech@us.ibm.com
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

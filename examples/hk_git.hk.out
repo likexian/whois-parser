@@ -7,29 +7,29 @@ registrar_reseller:
 whois_server: 
 referral_url: 
 domain_id: 
-domain_name: MJJ.HK
+domain_name: GIT.HK
 domain_status: active
-created_date: 23-10-2014
+created_date: 11-07-2017
 updated_date: 
-expiration_date: 23-10-2019
-name_servers: carl.ns.cloudflare.com,nicole.ns.cloudflare.com
+expiration_date: 11-07-2020
+name_servers: f1g1ns1.dnspod.net,f1g1ns2.dnspod.net
 domain_dnssec: unsigned
 
 registrant
 id: 
-name: 
+name: JACK BI
 organization: 
 street: 
 street_ext: 
 city: 
 province: 
 postal_code: 
-country: 
+country: China (CN)
 phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: b@bzizi.com
 
 admin
 id: 
@@ -49,8 +49,8 @@ email:
 
 tech
 id: 
-name: 
-organization: 
+name: JACK BI
+organization: JACK BI
 street: 
 street_ext: 
 city: 

@@ -57,6 +57,9 @@ func TestPrepare(t *testing.T) {
 		"int_wto.int",
 		"mo_yp.mo",
 		"mo_moo.mo",
+		"hk_git.hk",
+		"hk_google.hk",
+		"hk_ibm.hk",
 	}
 
 	for _, v := range tests {
