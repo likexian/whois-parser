@@ -48,6 +48,8 @@ func Prepare(text string) string {
 			return prepareMO(text)
 		case "hk":
 			return prepareHK(text)
+		case "tw":
+			return prepareTW(text)
 		case "ch":
 			return prepareCH(text)
 		case "it":
@@ -261,6 +263,84 @@ func prepareHK(text string) string {
 			}
 		}
 		result += "\n" + v
+	}
+
+	return result
+}
+
+// prepareTW do prepare the .tw domain
+func prepareTW(text string) string {
+	tokens := map[string][]string{
+		"Registrant:": {
+			"Organization",
+			"Name,Email",
+			"Phone",
+			"Fax",
+			"Address",
+			"Address",
+			"Address",
+		},
+		"Administrative Contact:": {
+			"Name,Email",
+			"Phone",
+			"Fax",
+		},
+		"Technical Contact:": {
+			"Name,Email",
+			"Phone",
+			"Fax",
+		},
+		"Contact:": {
+			"Name",
+			"Email",
+		},
+	}
+
+	token := ""
+	index := -1
+
+	result := ""
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if v == "" {
+			continue
+		}
+		for _, s := range []string{"Record created on", "Record expires on"} {
+			if strings.HasPrefix(v, s) {
+				v = strings.Replace(v, s, s+":", 1)
+			}
+		}
+		if strings.Contains(v, ":") {
+			token = ""
+			index = -1
+		}
+		if _, ok := tokens[v]; ok {
+			token = v
+		} else {
+			if token == "" {
+				result += "\n" + v
+			} else {
+				index += 1
+				tokenName := token[:len(token)-1]
+				indexName := tokens[token][index]
+				if tokenName == "Contact" {
+					tokenName = "Registrant Contact"
+				}
+				if strings.Contains(indexName, ",") {
+					ins := strings.Split(indexName, ",")
+					re := regexp.MustCompile(`(.*)\s+([^\s]+@[^\s]+)`)
+					m := re.FindStringSubmatch(v)
+					if len(m) == 3 {
+						result += fmt.Sprintf("\n%s %s: %s", tokenName, ins[0], strings.TrimSpace(m[1]))
+						result += fmt.Sprintf("\n%s %s: %s", tokenName, ins[1], strings.TrimSpace(m[2]))
+					} else {
+						result += fmt.Sprintf("\n%s %s: %s", tokenName, ins[0], strings.TrimSpace(v))
+					}
+					continue
+				}
+				result += fmt.Sprintf("\n%s %s: %s", tokenName, indexName, v)
+			}
+		}
 	}
 
 	return result

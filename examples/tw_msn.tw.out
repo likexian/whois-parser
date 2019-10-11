@@ -1,0 +1,80 @@
+registrar_id: 
+registrar_name: HINET
+registrar_organization: 
+registrar_phone: 
+registrar_email: 
+registrar_reseller: 
+whois_server: 
+referral_url: http://domain.hinet.net
+domain_id: 
+domain_name: msn.tw
+domain_status: 
+created_date: 2005-10-27 (YYYY-MM-DD)
+updated_date: 
+expiration_date: 2019-10-27 (YYYY-MM-DD)
+name_servers: 
+domain_dnssec: 
+
+registrant
+id: 
+name: Simmy Wang
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: simmy.wang@gmail.com
+
+admin
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

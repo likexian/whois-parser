@@ -1,0 +1,80 @@
+registrar_id: 
+registrar_name: Markmonitor, Inc.
+registrar_organization: 
+registrar_phone: 
+registrar_email: 
+registrar_reseller: 
+whois_server: 
+referral_url: http://www.markmonitor.com/
+domain_id: 
+domain_name: google.tw
+domain_status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
+created_date: 2005-10-27 (YYYY-MM-DD)
+updated_date: 
+expiration_date: 2020-10-31 (YYYY-MM-DD)
+name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
+domain_dnssec: 
+
+registrant
+id: 
+name: DNS Admin
+organization: Google Inc.
+street: 1600 Amphitheatre Parkway, Mountain View, CA, US
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.6506234000
+phone_ext: 
+fax: +1.6506188571
+fax_ext: 
+email: dns-admin@google.com
+
+admin
+id: 
+name: DNS Admin
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.6506234000
+phone_ext: 
+fax: +1.6506188571
+fax_ext: 
+email: dns-admin@google.com
+
+tech
+id: 
+name: DNS Admin
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.6506234000
+phone_ext: 
+fax: +1.6506188571
+fax_ext: 
+email: dns-admin@google.com
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

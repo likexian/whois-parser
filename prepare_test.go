@@ -60,6 +60,9 @@ func TestPrepare(t *testing.T) {
 		"hk_git.hk",
 		"hk_google.hk",
 		"hk_ibm.hk",
+		"tw_git.tw",
+		"tw_google.tw",
+		"tw_msn.tw",
 	}
 
 	for _, v := range tests {
