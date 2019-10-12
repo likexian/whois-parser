@@ -6,30 +6,30 @@ registrar_email: abuse@godaddy.com
 registrar_reseller: 
 whois_server: whois.godaddy.com
 referral_url: http://www.godaddy.com
-domain_id: D1142814-CO
-domain_name: DONUTS.CO
+domain_id: D1602048-CO
+domain_name: GIT.CO
 domain_status: clienttransferprohibited,clientupdateprohibited,clientrenewprohibited,clientdeleteprohibited
-created_date: 2010-07-20T18:01:36Z
-updated_date: 2018-10-01T18:20:16Z
-expiration_date: 2021-07-19T23:59:59Z
-name_servers: pdns07.domaincontrol.com,pdns08.domaincontrol.com
-domain_dnssec: signedDelegation
+created_date: 2010-07-21T21:16:03Z
+updated_date: 2019-07-21T12:37:14Z
+expiration_date: 2020-07-20T23:59:59Z
+name_servers: dns1.stabletransit.com,dns2.stabletransit.com
+domain_dnssec: unsigned
 
 registrant
 id: 
 name: 
-organization: Donuts Inc.
+organization: 
 street: 
 street_ext: 
 city: 
-province: Washington
+province: California
 postal_code: 
 country: US
 phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=donuts.co
+email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.co
 
 admin
 id: 
@@ -45,7 +45,7 @@ phone:
 phone_ext: 
 fax: 
 fax_ext: 
-email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=donuts.co
+email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.co
 
 tech
 id: 
@@ -61,7 +61,7 @@ phone:
 phone_ext: 
 fax: 
 fax_ext: 
-email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=donuts.co
+email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.co
 
 bill
 id: 

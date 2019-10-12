@@ -1,25 +1,27 @@
-Domain Name: mjj.co
-Registry Domain ID: D1224290-CO
+Domain Name: google.co
+Registry Domain ID: D656843-CO
 Registrar WHOIS Server:
-Registrar URL: www.domainbox.com
-Updated Date: 2018-08-20T02:53:35Z
-Creation Date: 2010-07-20T18:13:41Z
-Registry Expiry Date: 2019-07-19T23:59:59Z
-Registrar: Domainbox Limited
-Registrar IANA ID: 1626
-Registrar Abuse Contact Email:
-Registrar Abuse Contact Phone:
-Domain Status: ok https://icann.org/epp#ok
+Registrar URL: www.markmonitor.com
+Updated Date: 2019-01-28T10:39:22Z
+Creation Date: 2010-02-25T01:04:59Z
+Registry Expiry Date: 2020-02-24T23:59:59Z
+Registrar: MarkMonitor, Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+Registrar Abuse Contact Phone: +1.2083895740
+Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
 Registry Registrant ID:
 Registrant Name:
-Registrant Organization:
+Registrant Organization: Google Inc.
 Registrant Street:
 Registrant Street:
 Registrant Street:
 Registrant City:
-Registrant State/Province: jiangsu
+Registrant State/Province: CA
 Registrant Postal Code:
-Registrant Country: CN
+Registrant Country: US
 Registrant Phone:
 Registrant Phone Ext:
 Registrant Fax:
@@ -55,11 +57,13 @@ Tech Phone Ext:
 Tech Fax:
 Tech Fax Ext:
 Tech Email: Please query the RDDS service of the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Tech contact of the queried domain name.
-Name Server: ns1.sedoparking.com
-Name Server: ns2.sedoparking.com
+Name Server: ns3.google.com
+Name Server: ns1.google.com
+Name Server: ns2.google.com
+Name Server: ns4.google.com
 DNSSEC: unsigned
 URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
->>> Last update of WHOIS database: 2019-01-24T12:48:08Z <<<
+>>> Last update of WHOIS database: 2019-10-10T03:40:31Z <<<
 
 For more information on Whois status codes, please visit https://icann.org/epp
 

@@ -1,0 +1,80 @@
+registrar_id: 292
+registrar_name: MarkMonitor, Inc.
+registrar_organization: 
+registrar_phone: +1.2083895740
+registrar_email: abusecomplaints@markmonitor.com
+registrar_reseller: 
+whois_server: 
+referral_url: www.markmonitor.com
+domain_id: D775573-US
+domain_name: google.us
+domain_status: clientupdateprohibited,clientdeleteprohibited,clienttransferprohibited
+created_date: 2002-04-19T23:16:01Z
+updated_date: 2019-03-22T09:56:02Z
+expiration_date: 2020-04-18T23:59:59Z
+name_servers: ns2.google.com,ns4.google.com,ns3.google.com,ns1.google.com
+domain_dnssec: unsigned
+
+registrant
+id: C37454483-US
+name: Google Inc
+organization: Google LLC
+street: 1600 Amphitheatre Parkway
+street_ext: 
+city: Mountain View
+province: CA
+postal_code: 94043
+country: US
+phone: +1.6502530000
+phone_ext: 
+fax: +1.6502530001
+fax_ext: 
+email: dns-admin@google.com
+
+admin
+id: C37613731-US
+name: Christina Chiou
+organization: Google Inc.
+street: 1600 Amphitheatre Parkway
+street_ext: 
+city: Mountain View
+province: CA
+postal_code: 94043
+country: US
+phone: +1.6502530000
+phone_ext: 
+fax: +1.6502530001
+fax_ext: 
+email: dns-admin@google.com
+
+tech
+id: C37613731-US
+name: Christina Chiou
+organization: Google Inc.
+street: 1600 Amphitheatre Parkway
+street_ext: 
+city: Mountain View
+province: CA
+postal_code: 94043
+country: US
+phone: +1.6502530000
+phone_ext: 
+fax: +1.6502530001
+fax_ext: 
+email: dns-admin@google.com
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
