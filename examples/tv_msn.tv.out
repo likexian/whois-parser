@@ -1,0 +1,80 @@
+registrar_id: 292
+registrar_name: MarkMonitor, Inc.
+registrar_organization: 
+registrar_phone: +1.2083895740
+registrar_email: abusecomplaints@markmonitor.com
+registrar_reseller: 
+whois_server: whois.markmonitor.com
+referral_url: http://www.markmonitor.com
+domain_id: 90059809_DOMAIN_TV-VRSN
+domain_name: msn.tv
+domain_status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
+created_date: 2008-09-27T09:16:00-0700
+updated_date: 2019-08-26T02:49:35-0700
+expiration_date: 2020-09-27T00:00:00-0700
+name_servers: ns4-09.azure-dns.info,ns2-09.azure-dns.net,ns1-09.azure-dns.com,ns3-09.azure-dns.org
+domain_dnssec: unsigned
+
+registrant
+id: 
+name: Domain Administrator
+organization: Microsoft Corporation
+street: One Microsoft Way,
+street_ext: 
+city: Redmond
+province: WA
+postal_code: 98052
+country: US
+phone: +1.4258828080
+phone_ext: 
+fax: +1.4259367329
+fax_ext: 
+email: domains@microsoft.com
+
+admin
+id: 
+name: Domain Administrator
+organization: Microsoft Corporation
+street: One Microsoft Way,
+street_ext: 
+city: Redmond
+province: WA
+postal_code: 98052
+country: US
+phone: +1.4258828080
+phone_ext: 
+fax: +1.4259367329
+fax_ext: 
+email: domains@microsoft.com
+
+tech
+id: 
+name: MSN Hostmaster
+organization: Microsoft Corporation
+street: One Microsoft Way,
+street_ext: 
+city: Redmond
+province: WA
+postal_code: 98052
+country: US
+phone: +1.4258828080
+phone_ext: 
+fax: +1.4259367329
+fax_ext: 
+email: msnhst@microsoft.com
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
