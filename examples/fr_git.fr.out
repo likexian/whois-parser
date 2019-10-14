@@ -1,51 +1,51 @@
 registrar_id: 
 registrar_name: OVH
 registrar_organization: 
-registrar_phone: 
-registrar_email: 
+registrar_phone: +33 8 99 70 17 61
+registrar_email: support@ovh.net
 registrar_reseller: 
 whois_server: 
 referral_url: http://www.ovh.com
 domain_id: 
-domain_name: ovh.fr
+domain_name: git.fr
 domain_status: active
-created_date: 1999-11-11T23:00:00Z
-updated_date: 2019-04-18T12:14:43Z
-expiration_date: 2019-11-11T23:00:00Z
-name_servers: dns.ovh.net,dns10.ovh.net,ns.ovh.net,ns10.ovh.net
+created_date: 1999-12-22T23:00:00Z
+updated_date: 2019-05-05T08:38:28Z
+expiration_date: 2020-05-05T08:07:09Z
+name_servers: ns104.ovh.net,dns104.ovh.net
 domain_dnssec: 
 
 registrant
-id: SO255-FRNIC
-name: OVH SAS
+id: GGIT3-FRNIC
+name: G.I.T. GALVANOPLASTIE INDUSTRIELLE TOULOUSAINE
 organization: 
-street: 2, rue Kellermann, 59100 Roubaix
+street: 7 rue Joseph-Marie Jacquard, 31270 CUGNAUX
 street_ext: 
 city: 
 province: 
 postal_code: 
 country: FR
-phone: +33.899701761
-phone_ext: 
-fax: +33.320200958
-fax_ext: 
-email: oles@ovh.net
-
-admin
-id: OS10535-FRNIC
-name: OVH SAS
-organization: 
-street: OVH SAS, 2 Rue Kellermann, 59100 ROUBAIX
-street_ext: 
-city: 
-province: 
-postal_code: 
-country: FR
-phone: +33.972100908
+phone: +33.561076303
 phone_ext: 
 fax: 
 fax_ext: 
-email: x4zojgmlpzo8z127ekjs@z.o-w-o.info
+email: git@git.fr
+
+admin
+id: GGIT8-FRNIC
+name: G.I.T. GALVANOPLASTIE INDUSTRIELLE TOULOUSAINE
+organization: 
+street: G.I.T. GALVANOPLASTIE INDUSTRIELLE TOULOUSAINE, 7, rue Joseph-Marie Jacquard, 31270 CUGNAUX
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: FR
+phone: +33.561076303
+phone_ext: 
+fax: 
+fax_ext: 
+email: lq29z6vpt0b6de92p3wk@q.o-w-o.info
 
 tech
 id: OVH5-FRNIC
