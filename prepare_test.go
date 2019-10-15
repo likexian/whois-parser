@@ -29,9 +29,10 @@ import (
 
 func TestPrepare(t *testing.T) {
 	tests := []string{
-		"admin.it",
-		"github.it",
-		"google.ch",
+		"it_git.it",
+		"it_google.it",
+		"ch_google.ch",
+		"ch_switch.ch",
 		"fr_git.fr",
 		"pm_git.pm",
 		"re_git.re",
@@ -45,7 +46,6 @@ func TestPrepare(t *testing.T) {
 		"wf_google.wf",
 		"yt_google.yt",
 		"fr_ovh.fr",
-		"switch.ch",
 		"git.ru",
 		"google.ru",
 		"git.jp",

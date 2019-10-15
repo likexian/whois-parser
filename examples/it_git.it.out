@@ -1,25 +1,25 @@
 registrar_id: 
-registrar_name: OVH-REG
-registrar_organization: OVH
+registrar_name: AM-REG
+registrar_organization: Algorithmedia S.r.l.
 registrar_phone: 
 registrar_email: 
 registrar_reseller: 
 whois_server: 
-referral_url: http://www.ovh.com/welcome
+referral_url: http://www.algorithmedia.com
 domain_id: 
-domain_name: github.it
-domain_status: clientdeleteprohibited
-created_date: 2010-12-06 09:34:04
-updated_date: 2018-12-03 00:54:08
-expiration_date: 2019-11-17
-name_servers: dns20.ovh.net,ns20.ovh.net
+domain_name: git.it
+domain_status: ok
+created_date: 2018-08-28 09:00:00
+updated_date: 2019-09-13 00:43:43
+expiration_date: 2020-08-28
+name_servers: ns1.parkingcrew.net,ns2.parkingcrew.net
 domain_dnssec: no
 
 registrant
 id: 
 name: 
-organization: MAKEVOID
-street: via Bandini 15, Fiesole, 50014, FI, IT
+organization: Macrosten LTD
+street: 77 Strovolou Avenue, Strovolos Center, off. 204 Strovolos, Nicosia, 2018, Nicosia, CY
 street_ext: 
 city: 
 province: 
@@ -33,9 +33,9 @@ email:
 
 admin
 id: 
-name: hidden
-organization: hidden
-street: 
+name: Macrosten LTD
+organization: Macrosten LTD
+street: 77 Strovolou Avenue, Strovolos Center, off. 204 Strovolos, Strovolos, Nicosia-Cyprus, 02018, Strovolos, Nicosia-Cyprus, CY
 street_ext: 
 city: 
 province: 
