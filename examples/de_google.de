@@ -1,0 +1,7 @@
+Domain: google.de
+Nserver: ns1.google.com
+Nserver: ns2.google.com
+Nserver: ns3.google.com
+Nserver: ns4.google.com
+Status: connect
+Changed: 2018-03-12T21:44:25+01:00

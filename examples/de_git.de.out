@@ -1,19 +1,19 @@
 registrar_id: 
-registrar_name: MarkMonitor Inc.
+registrar_name: 
 registrar_organization: 
 registrar_phone: 
 registrar_email: 
 registrar_reseller: 
 whois_server: 
-referral_url: www.markmonitor.com
+referral_url: 
 domain_id: 
-domain_name: github.ro
-domain_status: ok
-created_date: 2012-07-06
-updated_date: 
-expiration_date: 2020-09-05
-name_servers: ns1.markmonitor.com,ns2.markmonitor.com,ns3.markmonitor.com,ns4.markmonitor.com,ns5.markmonitor.com,ns6.markmonitor.com
-domain_dnssec: Inactive
+domain_name: git.de
+domain_status: connect
+created_date: 
+updated_date: 2008-10-22T11:33:44+02:00
+expiration_date: 
+name_servers: ns1.webcoding24.com,ns2.webcoding24.com,ns3.webcoding24.com
+domain_dnssec: 
 
 registrant
 id: 

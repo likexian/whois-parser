@@ -25,22 +25,20 @@
 % the ROTLD website www.rotld.ro
 
 
-  Domain Name: github.ro
-  Registered On: 2012-07-06
-  Expires On: 2020-09-05
+  Domain Name: google.ro
+  Registered On: 2000-07-17
+  Expires On: 2020-09-16
   Registrar: MarkMonitor Inc.
   Referral URL: www.markmonitor.com
 
   DNSSEC: Inactive
 
-  Nameserver: ns1.markmonitor.com
-  Nameserver: ns2.markmonitor.com
-  Nameserver: ns3.markmonitor.com
-  Nameserver: ns4.markmonitor.com
-  Nameserver: ns5.markmonitor.com
-  Nameserver: ns6.markmonitor.com
+  Nameserver: ns1.google.com
+  Nameserver: ns2.google.com
+  Nameserver: ns3.google.com
+  Nameserver: ns4.google.com
 
-  Domain Status: OK
+  Domain Status: UpdateProhibited
 
 
 
