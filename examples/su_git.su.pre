@@ -1,0 +1,23 @@
+% you agree to abide by the following terms of use:
+% http://www.ripn.net/about/servpol.html#3.2 (in Russian)
+% http://www.ripn.net/about/en/servpol.html#3.2 (in English).
+domain:        GIT.SU
+descr:         git.
+descr:         Powered by BSD UNIX.
+nserver:       d.ns.git.su. 2001:470:7240::d
+nserver:       ns2.he.net.
+nserver:       ns2.linode.com.
+nserver:       ns3.he.net.
+nserver:       ns4.he.net.
+nserver:       ns4.linode.com.
+nserver:       ns5.he.net.
+nserver:       ns5.linode.com.
+state:         REGISTERED, DELEGATED
+Registrant Name:         Private Person
+Registrant Email:         mureninka@yandex.ru
+registrar:     DOMENUS-SU
+created:       2013-03-26T19:00:20Z
+paid-till:     2020-03-26T20:00:20Z
+free-date:     2020-04-28
+source:        TCI
+Last updated on 2019-10-12T08:06:33Z

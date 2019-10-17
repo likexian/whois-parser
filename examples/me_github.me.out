@@ -1,0 +1,80 @@
+registrar_id: 292
+registrar_name: MarkMonitor Inc.
+registrar_organization: 
+registrar_phone: 
+registrar_email: 
+registrar_reseller: 
+whois_server: 
+referral_url: http://www.markmonitor.com
+domain_id: D108500000001237245-AGRS
+domain_name: GITHUB.ME
+domain_status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
+created_date: 2010-08-05T17:04:24Z
+updated_date: 2018-07-04T09:14:12Z
+expiration_date: 2020-08-05T17:04:24Z
+name_servers: ns1.p16.dynect.net,ns2.p16.dynect.net,ns3.p16.dynect.net,ns4.p16.dynect.net
+domain_dnssec: unsigned
+
+registrant
+id: 
+name: 
+organization: GitHub, Inc.
+street: 
+street_ext: 
+city: 
+province: CA
+postal_code: 
+country: US
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

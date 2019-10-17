@@ -3,19 +3,19 @@
 % http://www.ripn.net/about/servpol.html#3.2 (in Russian) 
 % http://www.ripn.net/about/en/servpol.html#3.2 (in English).
 
-domain:        KGB.SU
-nserver:       ns1.masterhost.ru.
-nserver:       ns2.masterhost.ru.
-nserver:       ns.masterhost.ru.
+domain:        GOOGLE.SU
+nserver:       ns3.nic.ru.
+nserver:       ns4.nic.ru.
+nserver:       ns8.nic.ru.
 state:         REGISTERED, DELEGATED
 person:        Private Person
-e-mail:        mail@bergoldgross.com
+e-mail:        domens@mail.com
 registrar:     RUCENTER-SU
-created:       2003-06-26T20:00:00Z
-paid-till:     2019-06-26T21:00:00Z
-free-date:     2019-07-30
+created:       2005-10-15T20:00:00Z
+paid-till:     2019-10-15T21:00:00Z
+free-date:     2019-11-18
 source:        TCI
 
-Last updated on 2019-01-24T12:46:33Z
+Last updated on 2019-10-12T08:06:33Z
 
 

@@ -1,30 +1,30 @@
-registrar_id: 
-registrar_name: RUCENTER-SU
+registrar_id: 292
+registrar_name: MarkMonitor Inc.
 registrar_organization: 
 registrar_phone: 
 registrar_email: 
 registrar_reseller: 
 whois_server: 
-referral_url: 
-domain_id: 
-domain_name: CHRONICLE.SU
-domain_status: registered,delegated
-created_date: 2010-10-08T23:17:02Z
-updated_date: 
-expiration_date: 2019-10-09T00:17:02Z
-name_servers: theo.ns.cloudflare.com,uma.ns.cloudflare.com
-domain_dnssec: 
+referral_url: http://www.markmonitor.com
+domain_id: D108500000000011599-AGRS
+domain_name: GOOGLE.ME
+domain_status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited,serverdeleteprohibited,servertransferprohibited,serverupdateprohibited
+created_date: 2008-06-13T17:17:40Z
+updated_date: 2019-05-12T09:35:12Z
+expiration_date: 2020-06-13T17:17:40Z
+name_servers: ns1.google.com,ns2.google.com,ns4.google.com,ns3.google.com
+domain_dnssec: unsigned
 
 registrant
 id: 
 name: 
-organization: 
+organization: Google LLC
 street: 
 street_ext: 
 city: 
-province: 
+province: CA
 postal_code: 
-country: 
+country: US
 phone: 
 phone_ext: 
 fax: 

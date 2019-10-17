@@ -1,0 +1,16 @@
+% you agree to abide by the following terms of use:
+% http://www.ripn.net/about/servpol.html#3.2 (in Russian)
+% http://www.ripn.net/about/en/servpol.html#3.2 (in English).
+domain:        GOOGLE.SU
+nserver:       ns3.nic.ru.
+nserver:       ns4.nic.ru.
+nserver:       ns8.nic.ru.
+state:         REGISTERED, DELEGATED
+Registrant Name:         Private Person
+Registrant Email:         domens@mail.com
+registrar:     RUCENTER-SU
+created:       2005-10-15T20:00:00Z
+paid-till:     2019-10-15T21:00:00Z
+free-date:     2019-11-18
+source:        TCI
+Last updated on 2019-10-12T08:06:33Z

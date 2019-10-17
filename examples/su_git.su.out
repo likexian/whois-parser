@@ -1,5 +1,5 @@
 registrar_id: 
-registrar_name: RUCENTER-SU
+registrar_name: DOMENUS-SU
 registrar_organization: 
 registrar_phone: 
 registrar_email: 
@@ -7,17 +7,17 @@ registrar_reseller:
 whois_server: 
 referral_url: 
 domain_id: 
-domain_name: KGB.SU
+domain_name: GIT.SU
 domain_status: registered,delegated
-created_date: 2003-06-26T20:00:00Z
+created_date: 2013-03-26T19:00:20Z
 updated_date: 
-expiration_date: 2019-06-26T21:00:00Z
-name_servers: ns1.masterhost.ru,ns2.masterhost.ru,ns.masterhost.ru
+expiration_date: 2020-03-26T20:00:20Z
+name_servers: d.ns.git.su,ns2.he.net,ns2.linode.com,ns3.he.net,ns4.he.net,ns4.linode.com,ns5.he.net,ns5.linode.com
 domain_dnssec: 
 
 registrant
 id: 
-name: 
+name: Private Person
 organization: 
 street: 
 street_ext: 
@@ -29,7 +29,7 @@ phone:
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: mureninka@yandex.ru
 
 admin
 id: 

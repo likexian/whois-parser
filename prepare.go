@@ -56,7 +56,7 @@ func Prepare(text string) string {
 			return prepareIT(text)
 		case "fr", "re", "tf", "yt", "pm", "wf":
 			return prepareFR(text)
-		case "ru":
+		case "ru", "su":
 			return prepareRU(text)
 		case "jp":
 			return prepareJP(text)
@@ -509,8 +509,13 @@ func prepareFR(text string) string {
 
 // prepareRU do prepare the .ru domain
 func prepareRU(text string) string {
-	result := ""
+	tokens := map[string]string{
+		"person": "Registrant Name",
+		"e-mail": "Registrant Email",
+		"org":    "Registrant Organization",
+	}
 
+	result := ""
 	for _, v := range strings.Split(text, "\n") {
 		v = strings.TrimSpace(v)
 		if v == "" {
@@ -520,11 +525,8 @@ func prepareRU(text string) string {
 			continue
 		}
 		vs := strings.Split(v, ":")
-		if strings.TrimSpace(vs[0]) == "person" {
-			v = fmt.Sprintf("Registrant Name: %s", vs[1])
-		}
-		if strings.TrimSpace(vs[0]) == "org" {
-			v = fmt.Sprintf("Registrant Organization: %s", vs[1])
+		if vv, ok := tokens[strings.TrimSpace(vs[0])]; ok {
+			v = fmt.Sprintf("%s: %s", vv, vs[1])
 		}
 		result += v + "\n"
 	}
