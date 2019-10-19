@@ -96,6 +96,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		lines := strings.SplitN(line, ":", 2)
 		name := strings.TrimSpace(lines[0])
 		value := strings.TrimSpace(lines[1])
+		value = strings.TrimSpace(strings.Trim(value, ":"))
 
 		if value == "" {
 			continue

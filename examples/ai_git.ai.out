@@ -1,0 +1,80 @@
+registrar_id: 
+registrar_name: Instra
+registrar_organization: 
+registrar_phone: 
+registrar_email: 
+registrar_reseller: 
+whois_server: whois.nic.ai
+referral_url: 
+domain_id: 291858_nic_ai
+domain_name: git.ai
+domain_status: ok
+created_date: 2017-12-16T03:58:55.24Z
+updated_date: 2018-02-27T17:13:41.976Z
+expiration_date: 2020-02-28T03:58:55.78Z
+name_servers: ns2.onlydomains.com,ns1.onlydomains.com
+domain_dnssec: unsigned
+
+registrant
+id: g3U4c-CbzD5
+name: aidomains@instra.com
+organization: Sumihiro Ueda
+street: 426-17 Hikishou-haradera-cho
+street_ext: 
+city: Sakai-shi Higashi-ku
+province: Osaka
+postal_code: 599-8112
+country: JP
+phone: +1.2645815398
+phone_ext: 
+fax: 
+fax_ext: 
+email: aidomains@instra.com
+
+admin
+id: QTAQg-buRB1
+name: Ueda, Sumihiro
+organization: aidomains@instra.com
+street: 426-17 Hikishou-haradera-cho
+street_ext: 
+city: Sakai-shi Higashi-ku
+province: Osaka
+postal_code: 599-8112
+country: JP
+phone: +81.722869606
+phone_ext: 
+fax: 
+fax_ext: 
+email: aidomains@instra.com
+
+tech
+id: jigEf-DfyTO
+name: Lentino, Tony
+organization: Instra Corporation Pty Ltd
+street: GPO Box 988
+street_ext: 
+city: Melbourne
+province: Victoria
+postal_code: 3001
+country: AU
+phone: +61.397831800
+phone_ext: 
+fax: 
+fax_ext: 
+email: aidomains@instra.com
+
+bill
+id: 4NEPm-feDqg
+name: Lentino, Tony
+organization: Instra Corporation Pty Ltd
+street: GPO Box 988
+street_ext: 
+city: Melbourne
+province: Victoria
+postal_code: 3001
+country: AU
+phone: +61.397831800
+phone_ext: 
+fax: 
+fax_ext: 
+email: aidomains@instra.com

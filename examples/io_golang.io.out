@@ -1,0 +1,80 @@
+registrar_id: 81
+registrar_name: GANDI SAS
+registrar_organization: 
+registrar_phone: +33.170377661
+registrar_email: abuse@support.gandi.net
+registrar_reseller: 
+whois_server: whois.gandi.net
+referral_url: http://www.gandi.net
+domain_id: UNDEF-ROID
+domain_name: golang.io
+domain_status: clienttransferprohibited
+created_date: 2013-01-24T18:29:21Z
+updated_date: 2019-01-17T08:47:20Z
+expiration_date: 2020-01-24T18:29:21Z
+name_servers: dns103.ovh.net,ns103.ovh.net
+domain_dnssec: Unsigned
+
+registrant
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: 
+street: Obfuscated whois Gandi-63-65 boulevard Massena
+street_ext: 
+city: Obfuscated whois Gandi-Paris
+province: Paris
+postal_code: 75013
+country: FR
+phone: +33.170377666
+phone_ext: 
+fax: +33.143730576
+fax_ext: 
+email: 142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net
+
+admin
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: 
+street: Obfuscated whois Gandi-63-65 boulevard Massena
+street_ext: 
+city: Obfuscated whois Gandi-Paris
+province: Paris
+postal_code: 75013
+country: FR
+phone: +33.170377666
+phone_ext: 
+fax: +33.143730576
+fax_ext: 
+email: 142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net
+
+tech
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: 
+street: Obfuscated whois Gandi-63-65 boulevard Massena
+street_ext: 
+city: Obfuscated whois Gandi-Paris
+province: Paris
+postal_code: 75013
+country: FR
+phone: +33.170377666
+phone_ext: 
+fax: +33.143730576
+fax_ext: 
+email: 142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

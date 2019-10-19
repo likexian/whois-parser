@@ -1,0 +1,80 @@
+registrar_id: 292
+registrar_name: MarkMonitor, Inc.
+registrar_organization: 
+registrar_phone: +1.2083895740
+registrar_email: abusecomplaints@markmonitor.com
+registrar_reseller: 
+whois_server: whois.markmonitor.com
+referral_url: http://www.markmonitor.com
+domain_id: D503300000040385778-LRMS
+domain_name: google.ac
+domain_status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited,serverupdateprohibited,servertransferprohibited,serverdeleteprohibited
+created_date: 2006-04-03T06:38:02-0700
+updated_date: 2019-08-12T10:52:01-0700
+expiration_date: 2020-04-03T00:00:00-0700
+name_servers: ns1.google.com,ns4.google.com,ns3.google.com,ns2.google.com
+domain_dnssec: unsigned
+
+registrant
+id: 
+name: 
+organization: Google LLC
+street: 
+street_ext: 
+city: 
+province: CA
+postal_code: 
+country: US
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: 
+organization: Google LLC
+street: 
+street_ext: 
+city: 
+province: CA
+postal_code: 
+country: US
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: 
+organization: Google LLC
+street: 
+street_ext: 
+city: 
+province: CA
+postal_code: 
+country: US
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

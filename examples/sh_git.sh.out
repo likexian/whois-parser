@@ -1,0 +1,80 @@
+registrar_id: 1868
+registrar_name: Eranet International Limited
+registrar_organization: 
+registrar_phone: 
+registrar_email: 
+registrar_reseller: 
+whois_server: 
+referral_url: http://www.eranet.com
+domain_id: D503300000040457188-LRMS
+domain_name: GIT.SH
+domain_status: clienttransferprohibited
+created_date: 2009-04-13T05:16:13Z
+updated_date: 2019-04-13T22:28:39Z
+expiration_date: 2020-04-13T05:16:13Z
+name_servers: ns1.ezdnscenter.com,ns2.ezdnscenter.com
+domain_dnssec: unsigned
+
+registrant
+id: 
+name: 
+organization: shanghai guangda
+street: 
+street_ext: 
+city: 
+province: SH
+postal_code: 
+country: CN
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

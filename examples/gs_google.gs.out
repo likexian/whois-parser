@@ -1,0 +1,80 @@
+registrar_id: 
+registrar_name: MarkMonitor
+registrar_organization: 
+registrar_phone: 
+registrar_email: 
+registrar_reseller: 
+whois_server: whois.coccaregistry.org
+referral_url: http://www.markmonitor.com
+domain_id: 4258-CoCCA.gs
+domain_name: google.gs
+domain_status: serverupdateprohibited,servertransferprohibited,serverdeleteprohibited,clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
+created_date: 2004-07-08T12:00:00.0Z
+updated_date: 2019-06-06T09:32:35.587Z
+expiration_date: 2020-07-08T12:00:00.0Z
+name_servers: ns1.google.com,ns2.google.com
+domain_dnssec: unsigned
+
+registrant
+id: uo3er-xAcPO
+name: Domain Administrator
+organization: Google LLC
+street: 1600 Amphitheatre Parkway
+street_ext: 
+city: Mountain View
+province: CA
+postal_code: 94043
+country: US
+phone: +1.6502530000
+phone_ext: 
+fax: +1.6502530001
+fax_ext: 
+email: dns-admin@google.com
+
+admin
+id: goQ6D-NQBoD
+name: Domain Administrator
+organization: Google LLC
+street: 1600 Amphitheatre Parkway
+street_ext: 
+city: Mountain View
+province: CA
+postal_code: 94043
+country: US
+phone: +1.6502530000
+phone_ext: 
+fax: +1.6502530001
+fax_ext: 
+email: dns-admin@google.com
+
+tech
+id: ct4fz-Dlnfo
+name: Domain Administrator
+organization: Google LLC
+street: 1600 Amphitheatre Parkway
+street_ext: 
+city: Mountain View
+province: CA
+postal_code: 94043
+country: US
+phone: +1.6502530000
+phone_ext: 
+fax: +1.6502530001
+fax_ext: 
+email: dns-admin@google.com
+
+bill
+id: XeFuf-jSM9q
+name: CCOPS Billing
+organization: MarkMonitor Inc.
+street: 3540 East Longwing Lane, Suite 300
+street_ext: 
+city: Meridian
+province: Idaho
+postal_code: 83646
+country: US
+phone: +1.2083895740
+phone_ext: 
+fax: +1.2083895771
+fax_ext: 
+email: ccopsbilling@markmonitor.com
