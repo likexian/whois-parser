@@ -1,0 +1,80 @@
+registrar_id: 1488
+registrar_name: Demys Limited
+registrar_organization: 
+registrar_phone: +44.1312260660
+registrar_email: gtld+abuse@demys.com
+registrar_reseller: 
+whois_server: whois.demys.com
+referral_url: http://www.demys.com
+domain_id: D10758-SCOT
+domain_name: gov.scot
+domain_status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
+created_date: 2015-01-07T09:26:57.553Z
+updated_date: 2019-09-29T08:12:11.484Z
+expiration_date: 2021-01-07T09:26:57.553Z
+name_servers: ns3.ja.net,ns2.ja.net,ns4.ja.net,ns0.ja.net
+domain_dnssec: unsigned
+
+registrant
+id: 
+name: 
+organization: The Scottish Government
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: GB
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: please query the whois service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+
+admin
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: please query the whois service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+
+tech
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: please query the whois service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

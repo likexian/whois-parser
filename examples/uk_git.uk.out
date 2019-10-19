@@ -1,18 +1,18 @@
 registrar_id: 
-registrar_name: Markmonitor Inc. t/a MarkMonitor Inc. [Tag = MARKMONITOR]
+registrar_name: 123-Reg Limited t/a 123-reg [Tag = 123-REG]
 registrar_organization: 
 registrar_phone: 
 registrar_email: 
 registrar_reseller: 
 whois_server: 
-referral_url: 
+referral_url: http://www.123-reg.co.uk
 domain_id: 
-domain_name: google.uk
+domain_name: git.uk
 domain_status: registered
-created_date: 11-Jun-2014
-updated_date: 10-May-2019
-expiration_date: 11-Jun-2020
-name_servers: ns1.googledomains.com,ns2.googledomains.com,ns3.googledomains.com,ns4.googledomains.com
+created_date: 22-Oct-2017
+updated_date: 29-Jun-2019
+expiration_date: 22-Oct-2019
+name_servers: ns.123-reg.co.uk,ns2.123-reg.co.uk
 domain_dnssec: 
 
 registrant

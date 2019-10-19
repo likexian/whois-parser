@@ -60,6 +60,8 @@ func Prepare(text string) string {
 			return prepareRU(text)
 		case "jp":
 			return prepareJP(text)
+		case "uk":
+			return prepareUK(text)
 		}
 	}
 
@@ -563,6 +565,30 @@ func prepareJP(text string) string {
 			}
 		}
 		result += "\n" + prefixToken + v
+	}
+
+	return result
+}
+
+// prepareUK do prepare the .uk domain
+func prepareUK(text string) string {
+	tokens := map[string]string{
+		"URL": "Registrar URL",
+	}
+
+	result := ""
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if v == "" {
+			continue
+		}
+		if strings.Contains(v, ":") {
+			vs := strings.SplitN(v, ":", 2)
+			if vv, ok := tokens[strings.TrimSpace(vs[0])]; ok {
+				v = fmt.Sprintf("%s: %s", vv, vs[1])
+			}
+		}
+		result += "\n" + v
 	}
 
 	return result

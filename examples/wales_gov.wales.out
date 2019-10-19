@@ -1,0 +1,80 @@
+registrar_id: 1345
+registrar_name: Key-Systems, LLC
+registrar_organization: 
+registrar_phone: +49.68949396850
+registrar_email: abuse@key-systems.net
+registrar_reseller: 
+whois_server: 
+referral_url: http://www.key-systems.net
+domain_id: gov-WALES
+domain_name: GOV.WALES
+domain_status: clienttransferprohibited
+created_date: 2015-01-14T13:49:09Z
+updated_date: 2019-10-01T10:07:25Z
+expiration_date: 2020-01-14T13:49:09Z
+name_servers: ns3.ja.net,ns0.ja.net,ns4.ja.net,ns2.ja.net
+domain_dnssec: unsigned
+
+registrant
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY
+street_ext: 
+city: REDACTED FOR PRIVACY
+province: 
+postal_code: REDACTED FOR PRIVACY
+country: GB
+phone: REDACTED FOR PRIVACY
+phone_ext: 
+fax: REDACTED FOR PRIVACY
+fax_ext: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+
+admin
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY
+street_ext: 
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
+phone_ext: 
+fax: REDACTED FOR PRIVACY
+fax_ext: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+
+tech
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY
+street_ext: 
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
+phone_ext: 
+fax: REDACTED FOR PRIVACY
+fax_ext: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+
+bill
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY
+street_ext: 
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
+phone_ext: 
+fax: REDACTED FOR PRIVACY
+fax_ext: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.

@@ -1,0 +1,80 @@
+registrar_id: 292
+registrar_name: MarkMonitor Inc.
+registrar_organization: 
+registrar_phone: 
+registrar_email: stu.homan@markmonitor.com
+registrar_reseller: 
+whois_server: 
+referral_url: https://www.markmonitor.com
+domain_id: D_00000223_258CCB469A014AD68FD08C3845888FBB_00000148C32E9201-WALES
+domain_name: GOOGLE.WALES
+domain_status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
+created_date: 2014-10-31T13:27:43Z
+updated_date: 2019-09-29T09:41:08Z
+expiration_date: 2020-10-31T13:27:43Z
+name_servers: ns1.google.com,ns4.google.com,ns2.google.com,ns3.google.com
+domain_dnssec: unsigned
+
+registrant
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY
+street_ext: 
+city: REDACTED FOR PRIVACY
+province: CA
+postal_code: REDACTED FOR PRIVACY
+country: US
+phone: REDACTED FOR PRIVACY
+phone_ext: 
+fax: REDACTED FOR PRIVACY
+fax_ext: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+
+admin
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY
+street_ext: 
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
+phone_ext: 
+fax: REDACTED FOR PRIVACY
+fax_ext: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+
+tech
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY
+street_ext: 
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
+phone_ext: 
+fax: REDACTED FOR PRIVACY
+fax_ext: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
