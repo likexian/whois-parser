@@ -1,18 +1,18 @@
-registrar_id: 1345
-registrar_name: Key-Systems GmbH
+registrar_id: 292
+registrar_name: MarkMonitor Inc.
 registrar_organization: 
-registrar_phone: +49 / 6332 791850
-registrar_email: info@key-systems.net
+registrar_phone: 2083895740
+registrar_email: ccops@markmonitor.com
 registrar_reseller: 
-whois_server: whois.rrpproxy.net
-referral_url: http://rrpproxy.com
-domain_id: D865CD2B39D1835CE040010AAB015FFF
-domain_name: KIWA.WS
-domain_status: ok
-created_date: 2005-09-05T20:26:28Z
-updated_date: 2018-09-05T08:56:12Z
-expiration_date: 2019-09-05T20:26:28Z
-name_servers: ns1.openprovider.nl,ns2.openprovider.be,ns3.openprovider.eu
+whois_server: whois.markmonitor.com
+referral_url: http://www.markmonitor.com/whois.asp
+domain_id: D865CD2AE420835CE040010AAB015FFF
+domain_name: GITHUB.WS
+domain_status: clienttransferprohibited,clientdeleteprohibited,clientupdateprohibited
+created_date: 2010-08-05T17:04:22Z
+updated_date: 2018-07-04T09:14:12Z
+expiration_date: 2020-08-05T17:04:22Z
+name_servers: ns1.p16.dynect.net,ns2.p16.dynect.net,ns3.p16.dynect.net,ns4.p16.dynect.net
 domain_dnssec: unsigned
 
 registrant

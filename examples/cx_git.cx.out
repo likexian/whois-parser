@@ -1,0 +1,80 @@
+registrar_id: 433
+registrar_name: OVH
+registrar_organization: 
+registrar_phone: +33.899701761
+registrar_email: support@ovh.net
+registrar_reseller: 
+whois_server: whois.coccaregistry.org
+referral_url: http://www.ovh.com
+domain_id: 685916-CoCCA
+domain_name: git.cx
+domain_status: clienttransferprohibited,clientdeleteprohibited
+created_date: 2012-01-26T05:49:44.787Z
+updated_date: 2019-01-01T18:14:16.77Z
+expiration_date: 2020-01-26T05:52:26.85Z
+name_servers: dns100.ovh.net,ns100.ovh.net
+domain_dnssec: unsigned
+
+registrant
+id: fBgAM-Lbsyt
+name: Redacted | EU Registrar
+organization: Openance
+street: 65 rue du moulin sarrazin
+street_ext: 
+city: Argenteuil
+province: 
+postal_code: 95100
+country: FR
+phone: Redacted | EU Registrar
+phone_ext: 
+fax: Redacted | EU Registrar
+fax_ext: 
+email: redacted | eu registrar
+
+admin
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
