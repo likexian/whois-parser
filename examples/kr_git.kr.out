@@ -1,5 +1,5 @@
 registrar_id: 
-registrar_name: Inames Co., Ltd.(http://www.inames.co.kr)
+registrar_name: Megazone(http://HOSTING.KR)
 registrar_organization: 
 registrar_phone: 
 registrar_email: 
@@ -7,23 +7,23 @@ registrar_reseller:
 whois_server: 
 referral_url: 
 domain_id: 
-domain_name: mjj.kr
-domain_status: 
-created_date: 2013. 09. 26.
-updated_date: 2013. 09. 26.
-expiration_date: 2019. 09. 26.
-name_servers: ns.basehosting.co.kr,ns1.basehosting.co.kr,ns2.basehosting.co.kr,ns3.basehosting.co.kr
-domain_dnssec: 미서명
+domain_name: git.kr
+domain_status: clienttransferprohibited
+created_date: 2012. 05. 19.
+updated_date: 2017. 10. 17.
+expiration_date: 2020. 05. 19.
+name_servers: ns1.parkingcrew.net,ns2.parkingcrew.net
+domain_dnssec: unsigned
 
 registrant
 id: 
-name: KIM WON KI
+name: beats
 organization: 
-street: 
+street: 202-1902 cimsan1cha prugio chilseongdong2ga Oksan-ro,, Buk-gu Daegu
 street_ext: 
 city: 
 province: 
-postal_code: 
+postal_code: 41593
 country: 
 phone: 
 phone_ext: 
@@ -33,7 +33,7 @@ email:
 
 admin
 id: 
-name: KIM WON KI
+name: beats
 organization: 
 street: 
 street_ext: 
@@ -41,11 +41,11 @@ city:
 province: 
 postal_code: 
 country: 
-phone: 
+phone: 82-10-6485-1888
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: lawyer247@hotmail.com
 
 tech
 id: 

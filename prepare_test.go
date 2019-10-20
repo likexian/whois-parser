@@ -65,6 +65,8 @@ func TestPrepare(t *testing.T) {
 		"tw_msn.tw",
 		"su_git.su",
 		"su_google.su",
+		"kr_git.kr",
+		"kr_google.kr",
 	}
 
 	for _, v := range tests {

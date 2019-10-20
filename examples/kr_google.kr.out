@@ -1,5 +1,5 @@
 registrar_id: 
-registrar_name: GANDI SAS ( https://nic.at/registrar/580 )
+registrar_name: Whois Corp.(http://whois.co.kr)
 registrar_organization: 
 registrar_phone: 
 registrar_email: 
@@ -7,23 +7,23 @@ registrar_reseller:
 whois_server: 
 referral_url: 
 domain_id: 
-domain_name: byme.at
+domain_name: google.kr
 domain_status: 
-created_date: 
-updated_date: 20180829 02:53:52
-expiration_date: 
-name_servers: andromedaascendant.byme.at,milleniumfalcon.byme.at
-domain_dnssec: 
+created_date: 2007. 03. 02.
+updated_date: 2010. 10. 04.
+expiration_date: 2020. 03. 02.
+name_servers: ns1.google.com,ns2.google.com
+domain_dnssec: unsigned
 
 registrant
 id: 
-name: <data not disclosed>
+name: Google Korea, LLC
 organization: 
-street: 
+street: 22nd Floor Gangnam Finance Center, 737 Yeoksam-dong Kangnam-ku Seoul
 street_ext: 
 city: 
 province: 
-postal_code: 
+postal_code: 135984
 country: 
 phone: 
 phone_ext: 
@@ -33,7 +33,7 @@ email:
 
 admin
 id: 
-name: 
+name: Domain Administrator
 organization: 
 street: 
 street_ext: 
@@ -41,14 +41,14 @@ city:
 province: 
 postal_code: 
 country: 
-phone: 
+phone: 82.25319000
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: dns-admin@google.com
 
 tech
-id: <data not disclosed>
+id: 
 name: 
 organization: 
 street: 

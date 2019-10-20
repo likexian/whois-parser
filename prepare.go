@@ -29,7 +29,7 @@ import (
 
 var (
 	dotJPReplacer = regexp.MustCompile(`\n\[(.+?)\][\ ]*(.+?)?`)
-	searchDomain  = regexp.MustCompile(`(?i)\[?Domain(\s+name)?\]?\:?\s+([a-z0-9\-]+)\.([a-z]{2,})`)
+	searchDomain  = regexp.MustCompile(`(?i)\[?Domain(\s+name)?\]?\s*\:?\s*([a-z0-9\-]+)\.([a-z]{2,})`)
 )
 
 // Prepare do prepare the whois info for parsing
@@ -62,6 +62,8 @@ func Prepare(text string) string {
 			return prepareJP(text)
 		case "uk":
 			return prepareUK(text)
+		case "kr":
+			return prepareKR(text)
 		}
 	}
 
@@ -580,6 +582,41 @@ func prepareUK(text string) string {
 	for _, v := range strings.Split(text, "\n") {
 		v = strings.TrimSpace(v)
 		if v == "" {
+			continue
+		}
+		if strings.Contains(v, ":") {
+			vs := strings.SplitN(v, ":", 2)
+			if vv, ok := tokens[strings.TrimSpace(vs[0])]; ok {
+				v = fmt.Sprintf("%s: %s", vv, vs[1])
+			}
+		}
+		result += "\n" + v
+	}
+
+	return result
+}
+
+// prepareKR do prepare the .kr domain
+func prepareKR(text string) string {
+	english := "# ENGLISH"
+	tokens := map[string]string{
+		"Administrative Contact(AC)": "Administrative Contact Name",
+		"AC E-Mail":                  "Administrative Contact E-Mail",
+		"AC Phone Number":            "Administrative Contact Phone Number",
+	}
+
+	pos := strings.Index(text, english)
+	if pos != -1 {
+		text = text[pos+len(english):]
+	}
+
+	result := ""
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if v == "" {
+			continue
+		}
+		if v[0] == '\'' || v[0] == '-' {
 			continue
 		}
 		if strings.Contains(v, ":") {

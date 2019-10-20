@@ -155,6 +155,7 @@ var (
 		"registrant contact city":                "registrant_city",
 		"registrant state province":              "registrant_state_province",
 		"registrant contact state province":      "registrant_state_province",
+		"registrant zip code":                    "registrant_postal_code",
 		"registrant postal code":                 "registrant_postal_code",
 		"registrant contact postal code":         "registrant_postal_code",
 		"registrant country":                     "registrant_country",
