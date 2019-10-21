@@ -1,0 +1,80 @@
+registrar_id: 
+registrar_name: Gandi
+registrar_organization: 
+registrar_phone: +33 1 70393740
+registrar_email: reg.nz-admin@gandi.net
+registrar_reseller: 
+whois_server: 
+referral_url: 
+domain_id: 
+domain_name: gre.nz
+domain_status: 200
+created_date: 
+updated_date: 2019-01-02T04:55:30+13:00
+expiration_date: 
+name_servers: ns-196-c.gandi.net,ns-110-a.gandi.net,ns-104-b.gandi.net
+domain_dnssec: no
+
+registrant
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

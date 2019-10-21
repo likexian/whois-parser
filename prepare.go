@@ -29,7 +29,7 @@ import (
 
 var (
 	dotJPReplacer = regexp.MustCompile(`\n\[(.+?)\][\ ]*(.+?)?`)
-	searchDomain  = regexp.MustCompile(`(?i)\[?Domain(\s+name)?\]?\s*\:?\s*([a-z0-9\-]+)\.([a-z]{2,})`)
+	searchDomain  = regexp.MustCompile(`(?i)\[?domain(\s*\_?name)?\]?\s*\:?\s*([a-z0-9\-]+)\.([a-z]{2,})`)
 )
 
 // Prepare do prepare the whois info for parsing
@@ -64,6 +64,8 @@ func Prepare(text string) string {
 			return prepareUK(text)
 		case "kr":
 			return prepareKR(text)
+		case "nz":
+			return prepareNZ(text)
 		}
 	}
 
@@ -623,6 +625,27 @@ func prepareKR(text string) string {
 			vs := strings.SplitN(v, ":", 2)
 			if vv, ok := tokens[strings.TrimSpace(vs[0])]; ok {
 				v = fmt.Sprintf("%s: %s", vv, vs[1])
+			}
+		}
+		result += "\n" + v
+	}
+
+	return result
+}
+
+// prepareNZ do prepare the .nz domain
+func prepareNZ(text string) string {
+	result := ""
+
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if v == "" {
+			continue
+		}
+		if strings.Contains(v, ":") {
+			vs := strings.SplitN(v, ":", 2)
+			if strings.HasPrefix(strings.TrimSpace(vs[0]), "ns_name_") {
+				v = fmt.Sprintf("name server: %s", vs[1])
 			}
 		}
 		result += "\n" + v
