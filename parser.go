@@ -21,6 +21,7 @@ package whoisparser
 
 import (
 	"errors"
+	"regexp"
 	"strings"
 
 	"github.com/likexian/gokit/assert"
@@ -35,7 +36,7 @@ var (
 
 // Version returns package version
 func Version() string {
-	return "1.5.0"
+	return "1.6.0"
 }
 
 // Author returns package author
@@ -50,8 +51,8 @@ func License() string {
 
 // Parse returns parsed whois info
 func Parse(text string) (whoisInfo WhoisInfo, err error) {
-	text = strings.TrimSpace(text)
-	if len(text) < 100 {
+	name, ext := searchDomain(text)
+	if name == "" {
 		err = ErrDomainInvalidData
 		if IsNotFound(text) {
 			err = ErrDomainNotFound
@@ -67,7 +68,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 	var tech Registrant
 	var bill Registrant
 
-	whoisText := Prepare(text)
+	whoisText := Prepare(text, ext)
 	whoisLines := strings.Split(whoisText, "\n")
 	for i := 0; i < len(whoisLines); i++ {
 		line := strings.TrimSpace(whoisLines[i])
@@ -241,4 +242,18 @@ func parseRegistrant(registrant Registrant, name, value string) Registrant {
 	}
 
 	return registrant
+}
+
+// searchDomain find domain from whois info
+func searchDomain(text string) (name, ext string) {
+	name, ext = "", ""
+
+	r := regexp.MustCompile(`(?i)\[?domain(\s*\_?name)?\]?\s*\:?\s*([a-z0-9\-\.]+)\.([a-z]{2,})`)
+	m := r.FindStringSubmatch(text)
+	if len(m) > 0 {
+		name = strings.ToLower(strings.TrimSpace(m[2]))
+		ext = strings.ToLower(strings.TrimSpace(m[3]))
+	}
+
+	return
 }

@@ -27,49 +27,42 @@ import (
 	"github.com/likexian/gokit/assert"
 )
 
-var (
-	dotJPReplacer = regexp.MustCompile(`\n\[(.+?)\][\ ]*(.+?)?`)
-	searchDomain  = regexp.MustCompile(`(?i)\[?domain(\s*\_?name)?\]?\s*\:?\s*([a-z0-9\-]+)\.([a-z]{2,})`)
-)
-
 // Prepare do prepare the whois info for parsing
-func Prepare(text string) string {
+func Prepare(text, ext string) string {
 	text = strings.Replace(text, "\r", "", -1)
 	text = strings.Replace(text, "\t", " ", -1)
+	text = strings.TrimSpace(text)
 
-	m := searchDomain.FindStringSubmatch(text)
-	if len(m) > 0 {
-		switch strings.ToLower(m[3]) {
-		case "edu":
-			return prepareEDU(text)
-		case "int":
-			return prepareINT(text)
-		case "mo":
-			return prepareMO(text)
-		case "hk":
-			return prepareHK(text)
-		case "tw":
-			return prepareTW(text)
-		case "ch":
-			return prepareCH(text)
-		case "it":
-			return prepareIT(text)
-		case "fr", "re", "tf", "yt", "pm", "wf":
-			return prepareFR(text)
-		case "ru", "su":
-			return prepareRU(text)
-		case "jp":
-			return prepareJP(text)
-		case "uk":
-			return prepareUK(text)
-		case "kr":
-			return prepareKR(text)
-		case "nz":
-			return prepareNZ(text)
-		}
+	switch ext {
+	case "edu":
+		return prepareEDU(text)
+	case "int":
+		return prepareINT(text)
+	case "mo":
+		return prepareMO(text)
+	case "hk":
+		return prepareHK(text)
+	case "tw":
+		return prepareTW(text)
+	case "ch":
+		return prepareCH(text)
+	case "it":
+		return prepareIT(text)
+	case "fr", "re", "tf", "yt", "pm", "wf":
+		return prepareFR(text)
+	case "ru", "su":
+		return prepareRU(text)
+	case "jp":
+		return prepareJP(text)
+	case "uk":
+		return prepareUK(text)
+	case "kr":
+		return prepareKR(text)
+	case "nz":
+		return prepareNZ(text)
+	default:
+		return text
 	}
-
-	return text
 }
 
 // prepareEDU do prepare the .edu domain
@@ -542,7 +535,8 @@ func prepareRU(text string) string {
 
 // prepareJP do prepare the .jp domain
 func prepareJP(text string) string {
-	text = dotJPReplacer.ReplaceAllString(text, "\n$1: $2")
+	replacer := regexp.MustCompile(`\n\[(.+?)\][\ ]*(.+?)?`)
+	text = replacer.ReplaceAllString(text, "\n$1: $2")
 
 	adminToken := "Contact Information"
 	addressToken := "Postal Address"

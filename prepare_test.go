@@ -74,7 +74,7 @@ func TestPrepare(t *testing.T) {
 		assert.Nil(t, err)
 		whoisPre, err := xfile.ReadText("./examples/" + v + ".pre")
 		assert.Nil(t, err)
-		result := Prepare(whoisRaw)
+		result := Prepare(whoisRaw, strings.Split(v, "_")[0])
 		assert.Equal(t, strings.TrimSpace(result), strings.TrimSpace(whoisPre))
 	}
 }
