@@ -60,6 +60,8 @@ func Prepare(text, ext string) string {
 		return prepareKR(text)
 	case "nz":
 		return prepareNZ(text)
+	case "tk":
+		return prepareTK(text)
 	default:
 		return text
 	}
@@ -640,6 +642,45 @@ func prepareNZ(text string) string {
 			vs := strings.SplitN(v, ":", 2)
 			if strings.HasPrefix(strings.TrimSpace(vs[0]), "ns_name_") {
 				v = fmt.Sprintf("name server: %s", vs[1])
+			}
+		}
+		result += "\n" + v
+	}
+
+	return result
+}
+
+// prepareTK do prepare the .tk domain
+func prepareTK(text string) string {
+	tokens := map[string]string{
+		"Domain name:":     "Domain",
+		"Owner contact:":   "Registrant",
+		"Admin contact:":   "Admin",
+		"Billing contact:": "Billing",
+		"Tech contact:":    "Technical",
+	}
+
+	token := ""
+	result := ""
+
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if v == "" {
+			token = ""
+			continue
+		}
+		if _, ok := tokens[v]; ok {
+			token = tokens[v]
+			continue
+		} else {
+			if token == "Domain" {
+				if strings.Contains(v, " is ") {
+					vs := strings.Split(v, " is ")
+					v = fmt.Sprintf("Name: %s\nStatus: %s", vs[0], vs[1])
+				}
+			}
+			if token != "" {
+				v = fmt.Sprintf("%s %s", token, v)
 			}
 		}
 		result += "\n" + v

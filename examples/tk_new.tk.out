@@ -1,0 +1,80 @@
+registrar_id: 
+registrar_name: 
+registrar_organization: 
+registrar_phone: 
+registrar_email: 
+registrar_reseller: 
+whois_server: 
+referral_url: 
+domain_id: 
+domain_name: NEW.TK
+domain_status: active
+created_date: 02/05/2013
+updated_date: 
+expiration_date: 02/10/2022
+name_servers: ns1.newtek.com,ns3.newtek.com,ns4.newtek.com
+domain_dnssec: 
+
+registrant
+id: 
+name: NewTek Domain manager
+organization: NewTek
+street: 5131 Beckwith Blvd
+street_ext: 
+city: San Antonio
+province: 
+postal_code: 78249
+country: U.S.A.
+phone: +1-210-3708000
+phone_ext: 
+fax: +1--
+fax_ext: 
+email: cs@newtek.com
+
+admin
+id: 
+name: NewTek Domain manager
+organization: NewTek
+street: 5131 Beckwith Blvd
+street_ext: 
+city: San Antonio
+province: 
+postal_code: 78249
+country: U.S.A.
+phone: +1-210-3708000
+phone_ext: 
+fax: +1--
+fax_ext: 
+email: cs@newtek.com
+
+tech
+id: 
+name: NewTek Domain manager
+organization: NewTek
+street: 5131 Beckwith Blvd
+street_ext: 
+city: San Antonio
+province: 
+postal_code: 78249
+country: U.S.A.
+phone: +1-210-3708000
+phone_ext: 
+fax: +1--
+fax_ext: 
+email: cs@newtek.com
+
+bill
+id: 
+name: NewTek Domain manager
+organization: NewTek
+street: 5131 Beckwith Blvd
+street_ext: 
+city: San Antonio
+province: 
+postal_code: 78249
+country: U.S.A.
+phone: +1-210-3708000
+phone_ext: 
+fax: +1--
+fax_ext: 
+email: cs@newtek.com
