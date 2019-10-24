@@ -62,6 +62,8 @@ func Prepare(text, ext string) string {
 		return prepareNZ(text)
 	case "tk":
 		return prepareTK(text)
+	case "nl":
+		return prepareNL(text)
 	default:
 		return text
 	}
@@ -684,6 +686,53 @@ func prepareTK(text string) string {
 			}
 		}
 		result += "\n" + v
+	}
+
+	return result
+}
+
+// prepareNL do prepare the .nl domain
+func prepareNL(text string) string {
+	tokens := map[string][]string{
+		"Reseller:": {
+			"Name",
+			"Address",
+			"Address",
+			"Address",
+			"Address",
+		},
+		"Registrar:": {
+			"Name",
+			"Address",
+			"Address",
+			"Address",
+			"Address",
+		},
+	}
+
+	token := ""
+	index := 0
+
+	result := ""
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if v == "" {
+			continue
+		}
+		if strings.HasSuffix(v, ":") {
+			token = ""
+			index = 0
+		}
+		if _, ok := tokens[v]; ok {
+			token = v
+		} else {
+			if token == "" {
+				result += "\n" + v
+			} else {
+				result += fmt.Sprintf("\n%s %s: %s", token[:len(token)-1], tokens[token][index], v)
+				index += 1
+			}
+		}
 	}
 
 	return result

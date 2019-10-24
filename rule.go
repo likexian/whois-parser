@@ -50,6 +50,7 @@ var (
 		"registrar organisation":                 "registrar_organization",
 		"registrar contact organisation":         "registrar_organization",
 		"reseller":                               "registrar_reseller",
+		"reseller name":                          "registrar_reseller",
 		"whois server":                           "whois_server",
 		"registry whois server":                  "whois_server",
 		"registrar whois server":                 "whois_server",

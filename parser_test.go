@@ -81,17 +81,17 @@ func TestWhoisParser(t *testing.T) {
 		}
 
 		if !assert.IsContains([]string{"au", "at", "int", "jp", "name", "gov",
-			"de", "nz", "aq", "hm"}, domainExt) {
+			"de", "nz", "aq", "hm", "nl"}, domainExt) {
 			assert.NotZero(t, whoisInfo.Registrar.CreatedDate)
 		}
 
 		if !assert.IsContains([]string{"cn", "ru", "su", "hk", "ro", "ch", "name", "gov",
-			"mo", "tw", "aq", "hm", "tk"}, domainExt) {
+			"mo", "tw", "aq", "hm", "tk", "nl"}, domainExt) {
 			assert.NotZero(t, whoisInfo.Registrar.UpdatedDate)
 		}
 
 		if !assert.IsContains([]string{"au", "at", "re", "fr", "int", "ch", "name", "gov",
-			"de", "nz", "aq", "hm"}, domainExt) {
+			"de", "nz", "aq", "hm", "nl"}, domainExt) {
 			assert.NotZero(t, whoisInfo.Registrar.ExpirationDate)
 		}
 
