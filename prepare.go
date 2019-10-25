@@ -64,6 +64,8 @@ func Prepare(text, ext string) string {
 		return prepareTK(text)
 	case "nl":
 		return prepareNL(text)
+	case "eu":
+		return prepareEU(text)
 	default:
 		return text
 	}
@@ -733,6 +735,46 @@ func prepareNL(text string) string {
 				index += 1
 			}
 		}
+	}
+
+	return result
+}
+
+// prepareEU do prepare the .eu domain
+func prepareEU(text string) string {
+	tokens := map[string]string{
+		"Registrant:":   "Registrant",
+		"Technical:":    "Technical",
+		"Registrar:":    "Registrar",
+		"Onsite(s):":    "Onsite",
+		"Name servers:": "Name servers",
+	}
+
+	token := ""
+	result := ""
+
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if v == "" {
+			token = ""
+			continue
+		}
+		if _, ok := tokens[v]; ok {
+			token = tokens[v]
+			continue
+		} else {
+			if token != "" {
+				if strings.Contains(v, ":") {
+					v = fmt.Sprintf("%s %s", token, v)
+				} else {
+					if strings.HasPrefix(v, "Visit www.eurid.eu") {
+						continue
+					}
+					v = fmt.Sprintf("%s: %s", token, v)
+				}
+			}
+		}
+		result += "\n" + v
 	}
 
 	return result

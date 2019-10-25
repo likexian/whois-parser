@@ -1,0 +1,80 @@
+registrar_id: 
+registrar_name: Frankcom EU Service
+registrar_organization: 
+registrar_phone: 
+registrar_email: 
+registrar_reseller: 
+whois_server: 
+referral_url: www.frankcom.eu
+domain_id: 
+domain_name: git.eu
+domain_status: 
+created_date: 
+updated_date: 
+expiration_date: 
+name_servers: wally.ns.cloudflare.com,thomas.ns.cloudflare.com
+domain_dnssec: 
+
+registrant
+id: 
+name: NOT DISCLOSED!
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+admin
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+
+tech
+id: 
+name: 
+organization: Frankcom IT Service
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: info@frankcom.info
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
