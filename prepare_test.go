@@ -73,6 +73,8 @@ func TestPrepare(t *testing.T) {
 		"nl_google.nl",
 		"eu_git.eu",
 		"eu_google.eu",
+		"br_espm.br",
+		"br_unip.br",
 	}
 
 	for _, v := range tests {

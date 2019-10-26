@@ -1,0 +1,49 @@
+
+% Copyright (c) Nic.br
+%  The use of the data below is only permitted as described in
+%  full by the terms of use at https://registro.br/termo/en.html ,
+%  being prohibited its distribution, commercialization or
+%  reproduction, in particular, to use it for advertising or
+%  any similar purpose.
+%  2019-10-26T10:10:22-03:00
+
+domain:      espm.br
+owner:       ASSOC.ESC. SUPERIOR DE PROPAGANDA E MARKETING - SP
+owner-c:     CLA75
+admin-c:     CLA75
+tech-c:      CLA75
+billing-c:   FATAK6
+nserver:     ns-1434.awsdns-51.org
+nsstat:      20191013 AA
+nslastaa:    20191013
+nserver:     ns-340.awsdns-42.com
+nsstat:      20191013 AA
+nslastaa:    20191013
+nserver:     ns-1751.awsdns-26.co.uk
+nsstat:      20191013 AA
+nslastaa:    20191013
+nserver:     ns-538.awsdns-03.net
+nsstat:      20191013 AA
+nslastaa:    20191013
+created:     19961206 #24302
+changed:     20150427
+status:      published
+
+nic-hdl-br:  CLA75
+person:      Cosmo Luis Arrivabene
+created:     20000513
+changed:     20100825
+
+nic-hdl-br:  FATAK6
+person:      Fabio Takeuti
+created:     20090811
+changed:     20161212
+
+% Security and mail abuse issues should also be addressed to
+% cert.br, http://www.cert.br/ , respectivelly to cert@cert.br
+% and mail-abuse@cert.br
+%
+% whois.registro.br accepts only direct match queries. Types
+% of queries are: domain (.br), registrant (tax ID), ticket,
+% provider, contact handle (ID), CIDR block, IP and ASN.
+

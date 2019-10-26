@@ -135,6 +135,7 @@ var (
 		"registrant contact id":                  "registrant_id",
 		"registrant":                             "registrant_name",
 		"registrant name":                        "registrant_name",
+		"registrant person":                      "registrant_name",
 		"registrant contact":                     "registrant_name",
 		"registrant contact name":                "registrant_name",
 		"registrant given name":                  "registrant_name",
