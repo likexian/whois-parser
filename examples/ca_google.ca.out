@@ -1,0 +1,80 @@
+registrar_id: 
+registrar_name: MarkMonitor International Canada Ltd.
+registrar_organization: 
+registrar_phone: 
+registrar_email: 
+registrar_reseller: 
+whois_server: whois.ca.fury.ca
+referral_url: Markmonitor.com
+domain_id: D73081-CIRA
+domain_name: google.ca
+domain_status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited,serverdeleteprohibited,servertransferprohibited,serverupdateprohibited
+created_date: 2000-10-04T02:21:23Z
+updated_date: 2019-04-28T04:04:23Z
+expiration_date: 2020-04-28T04:00:00Z
+name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
+domain_dnssec: unsigned
+
+registrant
+id: 59969059-CIRA
+name: Google LLC - TMA868122
+organization: 
+street: 1600 Amphitheatre Parkway
+street_ext: 
+city: Mountain View
+province: CA
+postal_code: 94043
+country: US
+phone: +1.6502530000
+phone_ext: 
+fax: 
+fax_ext: 
+email: dns-admin@google.com
+
+admin
+id: 59969161-CIRA
+name: Lauren Johnston
+organization: Google LLC
+street: 1600 Amphitheatre Parkway
+street_ext: 
+city: Mountain View
+province: CA
+postal_code: 94043
+country: US
+phone: +1.6502530000
+phone_ext: 
+fax: 
+fax_ext: 
+email: dns-admin@google.com
+
+tech
+id: 59969161-CIRA
+name: Lauren Johnston
+organization: Google LLC
+street: 1600 Amphitheatre Parkway
+street_ext: 
+city: Mountain View
+province: CA
+postal_code: 94043
+country: US
+phone: +1.6502530000
+phone_ext: 
+fax: 
+fax_ext: 
+email: dns-admin@google.com
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 

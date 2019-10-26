@@ -1,0 +1,80 @@
+registrar_id: 
+registrar_name: Go Daddy Domains Canada, Inc
+registrar_organization: 
+registrar_phone: 
+registrar_email: 
+registrar_reseller: 
+whois_server: whois.ca.fury.ca
+referral_url: ca.godaddy.com
+domain_id: D163404-CIRA
+domain_name: git.ca
+domain_status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
+created_date: 2003-07-11T15:52:06Z
+updated_date: 2017-04-07T16:59:35Z
+expiration_date: 2026-07-08T04:00:00Z
+name_servers: pdns09.domaincontrol.com,pdns10.domaincontrol.com
+domain_dnssec: unsigned
+
+registrant
+id: 39878117-CIRA
+name: G.I.T. PORTES ET FENETRES LTEE
+organization: 
+street: 8645 boul Langelier
+street_ext: 
+city: St-Leonard
+province: QC
+postal_code: H1P2C6
+country: CA
+phone: +1.5143232954
+phone_ext: 
+fax: 
+fax_ext: 
+email: michel.fafard@git.ca
+
+admin
+id: 39878134-CIRA
+name: Michel Fafard
+organization: G.I.T. PORTES ET FENETRES LTEE
+street: 8645 boul Langelier
+street_ext: 
+city: St-Leonard
+province: QC
+postal_code: H1P2C6
+country: CA
+phone: +1.5143232954
+phone_ext: 
+fax: 
+fax_ext: 
+email: michel.fafard@git.ca
+
+tech
+id: 39878133-CIRA
+name: Michel Fafard
+organization: G.I.T. PORTES ET FENETRES LTEE
+street: 8645 boul Langelier
+street_ext: 
+city: St-Leonard
+province: QC
+postal_code: H1P2C6
+country: CA
+phone: +1.5143232954
+phone_ext: 
+fax: 
+fax_ext: 
+email: michel.fafard@git.ca
+
+bill
+id: 
+name: 
+organization: 
+street: 
+street_ext: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
