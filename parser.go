@@ -36,7 +36,7 @@ var (
 
 // Version returns package version
 func Version() string {
-	return "1.7.0"
+	return "1.7.1"
 }
 
 // Author returns package author
@@ -68,7 +68,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 	var tech Registrant
 	var bill Registrant
 
-	whoisText := Prepare(text, ext)
+	whoisText, _ := Prepare(text, ext)
 	whoisLines := strings.Split(whoisText, "\n")
 	for i := 0; i < len(whoisLines); i++ {
 		line := strings.TrimSpace(whoisLines[i])

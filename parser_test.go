@@ -36,70 +36,87 @@ func TestVersion(t *testing.T) {
 
 func TestWhoisParser(t *testing.T) {
 	_, err := Parse("not found")
-	assert.NotNil(t, err)
-	assert.Equal(t, fmt.Sprintf("%s", err), "Domain is not found.")
+	assert.Equal(t, err, ErrDomainNotFound)
 
 	_, err = Parse("WHOIS LIMIT EXCEEDED - SEE WWW.PIR.ORG/WHOIS FOR DETAILS")
-	assert.NotNil(t, err)
-	assert.Equal(t, fmt.Sprintf("%s", err), "Domain query limit exceeded.")
+	assert.Equal(t, err, ErrDomainLimitExceed)
 
 	_, err = Parse("Hello - SEE WWW.PIR.ORG/WHOIS FOR DETAILS")
-	assert.NotNil(t, err)
-	assert.Equal(t, fmt.Sprintf("%s", err), "Domain whois data invalid.")
+	assert.Equal(t, err, ErrDomainInvalidData)
 
 	dirs, err := xfile.ListDir("./examples/", xfile.TypeFile, -1)
 	assert.Nil(t, err)
 
 	for _, v := range dirs {
-		domain := v.Name
-		domainExt := domain[strings.LastIndex(domain, ".")+1:]
-		whoisRaw, err := xfile.ReadText("./examples/" + domain)
-		assert.Nil(t, err)
+		fileName := v.Name
+		fileExt := fileName[strings.LastIndex(fileName, ".")+1:]
 
-		if assert.IsContains([]string{".pre", ".out"}, domain[len(domain)-4:]) {
+		if assert.IsContains([]string{"pre", "out"}, fileExt) {
 			continue
 		}
+
+		whoisRaw, err := xfile.ReadText("./examples/" + fileName)
+		assert.Nil(t, err)
 
 		whoisInfo, err := Parse(whoisRaw)
 		assert.Nil(t, err)
 
-		if !assert.IsContains([]string{"museum", "at", "int", "jp", "it", "gov", "edu",
-			"mo", "de", "aq", "hm", "tk", "br"}, domainExt) {
+		assert.NotZero(t, whoisInfo.Registrar.DomainName)
+
+		if !assert.IsContains([]string{"ai", "aq", "au", "br", "ca", "ch", "cn", "cx", "de",
+			"edu", "eu", "fr", "gov", "gs", "hk", "hm", "int", "it", "jp", "kr", "la", "mo", "nl",
+			"nz", "pm", "re", "ro", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt"}, fileExt) {
+			assert.NotZero(t, whoisInfo.Registrar.ID)
+		}
+
+		if !assert.IsContains([]string{"aq", "br", "de",
+			"edu", "gov", "hm", "int", "jp", "mo", "tk"}, fileExt) {
 			assert.NotZero(t, whoisInfo.Registrar.Name)
 		}
 
-		if domainExt == "com" {
-			assert.NotZero(t, whoisInfo.Registrar.ID)
+		if !assert.IsContains([]string{"aq", "br", "ch", "de", "edu", "eu", "fr", "gov", "hk",
+			"hm", "int", "it", "jp", "kr", "mo", "nl", "nz", "pm", "re", "ro", "ru", "su", "tf",
+			"tk", "travel", "tv", "tw", "uk", "wf", "yt"}, fileExt) {
 			assert.NotZero(t, whoisInfo.Registrar.DomainId)
+		}
+
+		if !assert.IsContains([]string{"aero", "aq", "asia", "berlin", "biz", "br", "ch", "cn",
+			"co", "cymru", "de", "edu", "eu", "fr", "gov", "hk", "hm", "in", "int", "it", "jp", "kr",
+			"la", "london", "me", "mo", "museum", "name", "nl", "nz", "pm", "re", "ro", "ru", "sh",
+			"su", "tel", "tf", "tk", "travel", "tw", "uk", "us", "wales", "wf", "xxx", "yt"}, fileExt) {
 			assert.NotZero(t, whoisInfo.Registrar.WhoisServer)
+		}
+
+		if !assert.IsContains([]string{"aero", "ai", "aq", "asia", "au", "br", "ch", "cn", "de",
+			"edu", "gov", "hk", "hm", "int", "jp", "kr", "la", "london", "love", "mo",
+			"museum", "name", "nl", "nz", "ru", "su", "tk", "top"}, fileExt) {
 			assert.NotZero(t, whoisInfo.Registrar.ReferralURL)
 		}
 
-		assert.NotZero(t, whoisInfo.Registrar.DomainName)
-		if !assert.IsContains([]string{"at", "kr", "int", "ch", "edu", "mo", "tw", "eu"}, domainExt) {
+		if !assert.IsContains([]string{"ch", "edu", "eu", "int", "kr", "mo", "tw"}, fileExt) {
 			assert.NotZero(t, whoisInfo.Registrar.DomainStatus)
 		}
 
-		if !assert.IsContains([]string{"au", "at", "int", "jp", "name", "gov",
-			"de", "nz", "aq", "hm", "nl", "eu"}, domainExt) {
+		if !assert.IsContains([]string{"aq", "au", "de", "eu", "gov", "hm", "name", "nl", "nz"}, fileExt) {
 			assert.NotZero(t, whoisInfo.Registrar.CreatedDate)
 		}
 
-		if !assert.IsContains([]string{"cn", "ru", "su", "hk", "ro", "ch", "name", "gov",
-			"mo", "tw", "aq", "hm", "tk", "nl", "eu"}, domainExt) {
+		if !assert.IsContains([]string{"aq", "ch", "cn", "eu", "gov", "hk", "hm", "mo",
+			"name", "nl", "ro", "ru", "su", "tk", "tw"}, fileExt) {
 			assert.NotZero(t, whoisInfo.Registrar.UpdatedDate)
 		}
 
-		if !assert.IsContains([]string{"au", "at", "re", "fr", "int", "ch", "name", "gov",
-			"de", "nz", "aq", "hm", "nl", "eu", "br"}, domainExt) {
+		if !assert.IsContains([]string{"aq", "au", "br", "ch", "de", "eu", "gov",
+			"hm", "int", "name", "nl", "nz"}, fileExt) {
 			assert.NotZero(t, whoisInfo.Registrar.ExpirationDate)
 		}
 
-		if !assert.IsContains([]string{"name", "gov", "tw"}, domainExt) {
+		if !assert.IsContains([]string{"gov", "name", "tw"}, fileExt) {
 			assert.NotZero(t, whoisInfo.Registrar.NameServers)
 		}
 
-		if domainExt == "cn" {
+		if !assert.IsContains([]string{"aq", "br", "de", "edu", "eu", "fr", "gov", "hm", "int",
+			"jp", "mo", "name", "pm", "re", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt"}, fileExt) {
 			assert.NotZero(t, whoisInfo.Registrar.DomainDNSSEC)
 		}
 
@@ -185,6 +202,7 @@ func TestWhoisParser(t *testing.T) {
 		content += fmt.Sprintf("fax_ext: %s\n", whoisInfo.Bill.FaxExt)
 		content += fmt.Sprintf("email: %s\n", whoisInfo.Bill.Email)
 
-		_ = xfile.WriteText("./examples/"+v.Name+".out", content)
+		err = xfile.WriteText("./examples/"+fileName+".out", content)
+		assert.Nil(t, err)
 	}
 }

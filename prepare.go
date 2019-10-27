@@ -28,48 +28,48 @@ import (
 )
 
 // Prepare do prepare the whois info for parsing
-func Prepare(text, ext string) string {
+func Prepare(text, ext string) (string, bool) {
 	text = strings.Replace(text, "\r", "", -1)
 	text = strings.Replace(text, "\t", " ", -1)
 	text = strings.TrimSpace(text)
 
 	switch ext {
 	case "edu":
-		return prepareEDU(text)
+		return prepareEDU(text), true
 	case "int":
-		return prepareINT(text)
+		return prepareINT(text), true
 	case "mo":
-		return prepareMO(text)
+		return prepareMO(text), true
 	case "hk":
-		return prepareHK(text)
+		return prepareHK(text), true
 	case "tw":
-		return prepareTW(text)
+		return prepareTW(text), true
 	case "ch":
-		return prepareCH(text)
+		return prepareCH(text), true
 	case "it":
-		return prepareIT(text)
+		return prepareIT(text), true
 	case "fr", "re", "tf", "yt", "pm", "wf":
-		return prepareFR(text)
+		return prepareFR(text), true
 	case "ru", "su":
-		return prepareRU(text)
+		return prepareRU(text), true
 	case "jp":
-		return prepareJP(text)
+		return prepareJP(text), true
 	case "uk":
-		return prepareUK(text)
+		return prepareUK(text), true
 	case "kr":
-		return prepareKR(text)
+		return prepareKR(text), true
 	case "nz":
-		return prepareNZ(text)
+		return prepareNZ(text), true
 	case "tk":
-		return prepareTK(text)
+		return prepareTK(text), true
 	case "nl":
-		return prepareNL(text)
+		return prepareNL(text), true
 	case "eu":
-		return prepareEU(text)
+		return prepareEU(text), true
 	case "br":
-		return prepareBR(text)
+		return prepareBR(text), true
 	default:
-		return text
+		return text, false
 	}
 }
 

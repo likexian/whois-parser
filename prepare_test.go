@@ -20,6 +20,7 @@
 package whoisparser
 
 import (
+	"fmt"
 	"strings"
 	"testing"
 
@@ -28,61 +29,37 @@ import (
 )
 
 func TestPrepare(t *testing.T) {
-	tests := []string{
-		"it_git.it",
-		"it_google.it",
-		"ch_google.ch",
-		"ch_switch.ch",
-		"fr_git.fr",
-		"pm_git.pm",
-		"re_git.re",
-		"tf_git.tf",
-		"wf_git.wf",
-		"yt_git.yt",
-		"fr_google.fr",
-		"pm_google.pm",
-		"re_google.re",
-		"tf_google.tf",
-		"wf_google.wf",
-		"yt_google.yt",
-		"fr_ovh.fr",
-		"ru_git.ru",
-		"ru_google.ru",
-		"jp_git.jp",
-		"jp_google.jp",
-		"edu_git.edu",
-		"edu_snai.edu",
-		"edu_us.edu",
-		"int_esa.int",
-		"int_wto.int",
-		"mo_yp.mo",
-		"mo_moo.mo",
-		"hk_git.hk",
-		"hk_google.hk",
-		"hk_ibm.hk",
-		"tw_git.tw",
-		"tw_google.tw",
-		"tw_msn.tw",
-		"su_git.su",
-		"su_google.su",
-		"kr_git.kr",
-		"kr_google.kr",
-		"tk_new.tk",
-		"tk_google.tk",
-		"nl_git.nl",
-		"nl_google.nl",
-		"eu_git.eu",
-		"eu_google.eu",
-		"br_espm.br",
-		"br_unip.br",
-	}
+	dirs, err := xfile.ListDir("./examples/", xfile.TypeFile, -1)
+	assert.Nil(t, err)
 
-	for _, v := range tests {
-		whoisRaw, err := xfile.ReadText("./examples/" + v)
+	for _, v := range dirs {
+		fileName := v.Name
+		fileExt := fileName[strings.LastIndex(fileName, ".")+1:]
+
+		if assert.IsContains([]string{"pre", "out"}, fileExt) {
+			continue
+		}
+
+		whoisRaw, err := xfile.ReadText("./examples/" + fileName)
 		assert.Nil(t, err)
-		whoisPre, err := xfile.ReadText("./examples/" + v + ".pre")
-		assert.Nil(t, err)
-		result := Prepare(whoisRaw, strings.Split(v, "_")[0])
-		assert.Equal(t, strings.TrimSpace(result), strings.TrimSpace(whoisPre))
+
+		whoisPrepare, prepared := Prepare(whoisRaw, fileExt)
+		if prepared {
+			prePrepare := ""
+			whoisPrepare = strings.TrimSpace(whoisPrepare)
+
+			preFile := fmt.Sprintf("./examples/%s.pre", fileName)
+			if xfile.Exists(preFile) {
+				prePrepare, err = xfile.ReadText(preFile)
+				assert.Nil(t, err)
+			}
+
+			err = xfile.WriteText(preFile, whoisPrepare)
+			assert.Nil(t, err)
+
+			if prePrepare != "" {
+				assert.Equal(t, whoisPrepare, prePrepare)
+			}
+		}
 	}
 }
