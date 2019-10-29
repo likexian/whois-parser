@@ -35,6 +35,9 @@ func TestPrepare(t *testing.T) {
 	for _, v := range dirs {
 		fileName := v.Name
 		fileExt := fileName[strings.LastIndex(fileName, ".")+1:]
+		if fileName == "README.md" {
+			continue
+		}
 
 		if assert.IsContains([]string{"pre", "out"}, fileExt) {
 			continue

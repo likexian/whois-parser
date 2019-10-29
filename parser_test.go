@@ -21,11 +21,29 @@ package whoisparser
 
 import (
 	"fmt"
+	"sort"
 	"strings"
 	"testing"
 
 	"github.com/likexian/gokit/assert"
 	"github.com/likexian/gokit/xfile"
+)
+
+const (
+	VERIFIEDLIST = `
+# whois-parser.go
+
+## Overview
+
+It is supposed to be working with all domain extensions, but verified extensions as below must works, because I have checked them one by one manually.
+
+If there is any problems, please feel free to open a new issue.
+
+## Verified Extensions
+
+| extension | whois | output | verified |
+| --------- | ----- | ------ | :------: |
+`
 )
 
 func TestVersion(t *testing.T) {
@@ -35,6 +53,9 @@ func TestVersion(t *testing.T) {
 }
 
 func TestWhoisParser(t *testing.T) {
+	exts := []string{}
+	domains := map[string][]string{}
+
 	_, err := Parse("not found")
 	assert.Equal(t, err, ErrDomainNotFound)
 
@@ -50,6 +71,9 @@ func TestWhoisParser(t *testing.T) {
 	for _, v := range dirs {
 		fileName := v.Name
 		fileExt := fileName[strings.LastIndex(fileName, ".")+1:]
+		if fileName == "README.md" {
+			continue
+		}
 
 		if assert.IsContains([]string{"pre", "out"}, fileExt) {
 			continue
@@ -200,5 +224,29 @@ func TestWhoisParser(t *testing.T) {
 
 		err = xfile.WriteText("./examples/"+fileName+".out", content)
 		assert.Nil(t, err)
+
+		if !assert.IsContains(exts, fileExt) {
+			exts = append(exts, fileExt)
+		}
+
+		if _, ok := domains[fileExt]; !ok {
+			domains[fileExt] = []string{}
+		}
+
+		domains[fileExt] = append(domains[fileExt], strings.ToLower(whoisInfo.Registrar.DomainName))
 	}
+
+	sort.Strings(exts)
+	verified := VERIFIEDLIST
+
+	for _, k := range exts {
+		sort.Strings(domains[k])
+		for _, vv := range domains[k] {
+			verified += fmt.Sprintf("| .%s | [%s](%s_%s) | [%s](%s_%s.out) | √ |\n",
+				k, vv, k, vv, vv, k, vv)
+		}
+	}
+
+	err = xfile.WriteText("./examples/README.md", strings.TrimSpace(verified))
+	assert.Nil(t, err)
 }
