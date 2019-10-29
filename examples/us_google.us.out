@@ -20,7 +20,6 @@ id: C37454483-US
 name: Google Inc
 organization: Google LLC
 street: 1600 Amphitheatre Parkway
-street_ext: 
 city: Mountain View
 province: CA
 postal_code: 94043
@@ -36,7 +35,6 @@ id: C37613731-US
 name: Christina Chiou
 organization: Google Inc.
 street: 1600 Amphitheatre Parkway
-street_ext: 
 city: Mountain View
 province: CA
 postal_code: 94043
@@ -52,7 +50,6 @@ id: C37613731-US
 name: Christina Chiou
 organization: Google Inc.
 street: 1600 Amphitheatre Parkway
-street_ext: 
 city: Mountain View
 province: CA
 postal_code: 94043
@@ -68,7 +65,6 @@ id:
 name: 
 organization: 
 street: 
-street_ext: 
 city: 
 province: 
 postal_code: 

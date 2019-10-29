@@ -20,7 +20,6 @@ id: GIHU100-FRNIC
 name: Google Ireland Holdings Unlimited Company
 organization: 
 street: Google Ireland Holdings Unlimited Company, 70 Sir John Rogerson's Quay, 2 Dublin, Dublin
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -36,7 +35,6 @@ id: GIHU100-FRNIC
 name: Google Ireland Holdings Unlimited Company
 organization: 
 street: Google Ireland Holdings Unlimited Company, 70 Sir John Rogerson's Quay, 2 Dublin, Dublin
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -52,7 +50,6 @@ id: MC239-FRNIC
 name: MARKMONITOR CCOPS
 organization: 
 street: eMarkmonitor Inc. dba MarkMonitor, PMB 155, 10400 Overland Road, 83709-1433 Boise, Id, US
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -68,7 +65,6 @@ id:
 name: 
 organization: 
 street: 
-street_ext: 
 city: 
 province: 
 postal_code: 

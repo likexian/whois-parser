@@ -36,7 +36,7 @@ var (
 
 // Version returns package version
 func Version() string {
-	return "1.7.1"
+	return "1.7.2"
 }
 
 // Author returns package author
@@ -219,8 +219,6 @@ func parseRegistrant(registrant Registrant, name, value string) Registrant {
 		} else {
 			registrant.Street += ", " + value
 		}
-	case "registrant_street_ext":
-		registrant.StreetExt = value
 	case "registrant_city":
 		registrant.City = value
 	case "registrant_state_province":

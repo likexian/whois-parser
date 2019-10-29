@@ -20,7 +20,6 @@ id:
 name: Apache DNS
 organization: The Apache Software Foundation
 street: 401 Edgewater Place Suite 600
-street_ext: 
 city: Wakefield
 province: MA
 postal_code: 01880
@@ -36,7 +35,6 @@ id:
 name: Apache DNS
 organization: The Apache Software Foundation
 street: 401 Edgewater Place Suite 600
-street_ext: 
 city: Wakefield
 province: MA
 postal_code: 01880
@@ -52,7 +50,6 @@ id:
 name: Apache DNS
 organization: The Apache Software Foundation
 street: 401 Edgewater Place Suite 600
-street_ext: 
 city: Wakefield
 province: MA
 postal_code: 01880
@@ -68,7 +65,6 @@ id:
 name: 
 organization: 
 street: 
-street_ext: 
 city: 
 province: 
 postal_code: 

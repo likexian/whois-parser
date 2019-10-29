@@ -20,7 +20,6 @@ id: ANO00-FRNIC
 name: Ano Nymous
 organization: 
 street: 
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -36,7 +35,6 @@ id: ANO00-FRNIC
 name: Ano Nymous
 organization: 
 street: 
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -52,7 +50,6 @@ id: DA55158-FRNIC
 name: Domain Admin
 organization: 
 street: TLD Registrar Solutions Ltd, Lvl 1, 35-39 Moorgate, EC2R 6AR London
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -68,7 +65,6 @@ id:
 name: 
 organization: 
 street: 
-street_ext: 
 city: 
 province: 
 postal_code: 

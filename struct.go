@@ -54,7 +54,6 @@ type Registrant struct {
 	Name         string `json:"name"`
 	Organization string `json:"organization"`
 	Street       string `json:"street"`
-	StreetExt    string `json:"street_ext"`
 	City         string `json:"city"`
 	Province     string `json:"province"`
 	PostalCode   string `json:"postal_code"`

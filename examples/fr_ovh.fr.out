@@ -20,7 +20,6 @@ id: SO255-FRNIC
 name: OVH SAS
 organization: 
 street: 2, rue Kellermann, 59100 Roubaix
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -36,7 +35,6 @@ id: OS10535-FRNIC
 name: OVH SAS
 organization: 
 street: OVH SAS, 2 Rue Kellermann, 59100 ROUBAIX
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -52,7 +50,6 @@ id: OVH5-FRNIC
 name: OVH NET
 organization: 
 street: OVH, 140, quai du Sartel, 59100 Roubaix
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -68,7 +65,6 @@ id:
 name: 
 organization: 
 street: 
-street_ext: 
 city: 
 province: 
 postal_code: 

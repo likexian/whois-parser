@@ -20,7 +20,6 @@ id:
 name: 
 organization: University School
 street: 20701 Brantley Rd, Shaker Hts, OH 44122, USA
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -36,7 +35,6 @@ id:
 name: Ross Duncan
 organization: University School
 street: 20701 Brantley Rd, Shaker Heights, OH 44122, USA
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -52,7 +50,6 @@ id:
 name: Lisa ulery
 organization: University School
 street: 20701 Brantley Rd, Shaker Heights, OH 44122, USA
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -68,7 +65,6 @@ id:
 name: 
 organization: 
 street: 
-street_ext: 
 city: 
 province: 
 postal_code: 

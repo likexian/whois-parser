@@ -20,7 +20,6 @@ id:
 name: George Shew
 organization: Directel Macau Ltd.
 street: Alm.Dr. Carlos d'Assumpcao 411-417, Dynasty Plaza 21/O
-street_ext: 
 city: Macau
 province: 
 postal_code: 
@@ -36,7 +35,6 @@ id:
 name: Simon Leung
 organization: Directel Macau Ltd.
 street: Alm.Dr. Carlos d'Assumpcao 411-417, Dynasty Plaza 21/O
-street_ext: 
 city: Macau
 province: 
 postal_code: 
@@ -52,7 +50,6 @@ id:
 name: Simon Leung
 organization: Directel Macau Ltd.
 street: Alm Dr. Carlos d'Assumpcao 411-417, Edf. Dynasty Plaza 21
-street_ext: 
 city: Macau
 province: 
 postal_code: 
@@ -68,7 +65,6 @@ id:
 name: Eliza Loi
 organization: Directel Macau Ltd.
 street: Alm Dr. Carlos d'Assumpcao 411-417, Edf. Dynasty Plaza 21
-street_ext: 
 city: Macau
 province: 
 postal_code: 

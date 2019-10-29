@@ -20,7 +20,6 @@ id:
 name: 
 organization: Macrosten LTD
 street: 77 Strovolou Avenue, Strovolos Center, off. 204 Strovolos, Nicosia, 2018, Nicosia, CY
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -36,7 +35,6 @@ id:
 name: Macrosten LTD
 organization: Macrosten LTD
 street: 77 Strovolou Avenue, Strovolos Center, off. 204 Strovolos, Strovolos, Nicosia-Cyprus, 02018, Strovolos, Nicosia-Cyprus, CY
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -52,7 +50,6 @@ id:
 name: 
 organization: 
 street: 
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -68,7 +65,6 @@ id:
 name: 
 organization: 
 street: 
-street_ext: 
 city: 
 province: 
 postal_code: 

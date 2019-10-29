@@ -20,7 +20,6 @@ id: DV1364-FRNIC
 name: DIGITAL VOX
 organization: 
 street: 3, rue de Cremont bureau N 4, 97400 Saint-Denis
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -36,7 +35,6 @@ id: DC2023-FRNIC
 name: David Cesar
 organization: 
 street: Digital Vox, 3, rue de Cremont bureau N 4, 97400 Saint-Denis
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -52,7 +50,6 @@ id: MC239-FRNIC
 name: MARKMONITOR CCOPS
 organization: 
 street: eMarkmonitor Inc. dba MarkMonitor, PMB 155, 10400 Overland Road, 83709-1433 Boise, Id, US
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -68,7 +65,6 @@ id:
 name: 
 organization: 
 street: 
-street_ext: 
 city: 
 province: 
 postal_code: 

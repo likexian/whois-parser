@@ -20,7 +20,6 @@ id:
 name: Dynadot LLC
 organization: 
 street: PO Box 345
-street_ext: 
 city: San Mateo
 province: CA
 postal_code: 94401
@@ -36,7 +35,6 @@ id:
 name: Dynadot LLC
 organization: 
 street: PO Box 345
-street_ext: 
 city: San Mateo
 province: CA
 postal_code: 94401
@@ -52,7 +50,6 @@ id:
 name: Dynadot LLC
 organization: 
 street: PO Box 345
-street_ext: 
 city: San Mateo
 province: CA
 postal_code: 94401
@@ -68,7 +65,6 @@ id:
 name: 
 organization: 
 street: 
-street_ext: 
 city: 
 province: 
 postal_code: 

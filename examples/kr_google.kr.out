@@ -20,7 +20,6 @@ id:
 name: Google Korea, LLC
 organization: 
 street: 22nd Floor Gangnam Finance Center, 737 Yeoksam-dong Kangnam-ku Seoul
-street_ext: 
 city: 
 province: 
 postal_code: 135984
@@ -36,7 +35,6 @@ id:
 name: Domain Administrator
 organization: 
 street: 
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -52,7 +50,6 @@ id:
 name: 
 organization: 
 street: 
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -68,7 +65,6 @@ id:
 name: 
 organization: 
 street: 
-street_ext: 
 city: 
 province: 
 postal_code: 

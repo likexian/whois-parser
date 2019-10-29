@@ -20,7 +20,6 @@ id:
 name: 
 organization: Google Ireland Holdings Unlimited Company
 street: 70 Sir John Rogerson's Quay, Dublin, 2, Dublin, IE
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -36,7 +35,6 @@ id:
 name: Christina Chiou
 organization: Google LLC
 street: 1600 Amphitheatre Parkway, Mountain View, 94043, CA, US
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -52,7 +50,6 @@ id:
 name: 
 organization: 
 street: 
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -68,7 +65,6 @@ id:
 name: 
 organization: 
 street: 
-street_ext: 
 city: 
 province: 
 postal_code: 

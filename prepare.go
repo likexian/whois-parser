@@ -641,9 +641,6 @@ func prepareNZ(text string) string {
 
 	for _, v := range strings.Split(text, "\n") {
 		v = strings.TrimSpace(v)
-		if v == "" {
-			continue
-		}
 		if strings.Contains(v, ":") {
 			vs := strings.SplitN(v, ":", 2)
 			if strings.HasPrefix(strings.TrimSpace(vs[0]), "ns_name_") {

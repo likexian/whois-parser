@@ -20,7 +20,6 @@ id: GGIT3-FRNIC
 name: G.I.T. GALVANOPLASTIE INDUSTRIELLE TOULOUSAINE
 organization: 
 street: 7 rue Joseph-Marie Jacquard, 31270 CUGNAUX
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -36,7 +35,6 @@ id: GGIT8-FRNIC
 name: G.I.T. GALVANOPLASTIE INDUSTRIELLE TOULOUSAINE
 organization: 
 street: G.I.T. GALVANOPLASTIE INDUSTRIELLE TOULOUSAINE, 7, rue Joseph-Marie Jacquard, 31270 CUGNAUX
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -52,7 +50,6 @@ id: OVH5-FRNIC
 name: OVH NET
 organization: 
 street: OVH, 140, quai du Sartel, 59100 Roubaix
-street_ext: 
 city: 
 province: 
 postal_code: 
@@ -68,7 +65,6 @@ id:
 name: 
 organization: 
 street: 
-street_ext: 
 city: 
 province: 
 postal_code: 
