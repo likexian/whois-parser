@@ -69,79 +69,81 @@ func TestWhoisParser(t *testing.T) {
 	assert.Nil(t, err)
 
 	for _, v := range dirs {
-		fileName := v.Name
-		fileExt := fileName[strings.LastIndex(fileName, ".")+1:]
-		if fileName == "README.md" {
+		if v.Name == "README.md" {
 			continue
 		}
 
-		if assert.IsContains([]string{"pre", "out"}, fileExt) {
+		domain := strings.Split(v.Name, "_")[1]
+		extension := domain[strings.LastIndex(domain, ".")+1:]
+
+		if assert.IsContains([]string{"pre", "out"}, extension) {
 			continue
 		}
 
-		whoisRaw, err := xfile.ReadText("./examples/" + fileName)
+		whoisRaw, err := xfile.ReadText("./examples/" + v.Name)
 		assert.Nil(t, err)
 
 		whoisInfo, err := Parse(whoisRaw)
 		assert.Nil(t, err)
 
-		assert.NotZero(t, whoisInfo.Registrar.DomainName)
-
-		if !assert.IsContains([]string{"ai", "aq", "au", "br", "ca", "ch", "cn", "cx", "de",
-			"edu", "eu", "fr", "gov", "gs", "hk", "hm", "int", "it", "jp", "kr", "la", "mo", "nl",
-			"nz", "pm", "re", "ro", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt"}, fileExt) {
-			assert.NotZero(t, whoisInfo.Registrar.ID)
-		}
-
-		if !assert.IsContains([]string{"aq", "br", "de",
-			"edu", "gov", "hm", "int", "jp", "mo", "tk"}, fileExt) {
-			assert.NotZero(t, whoisInfo.Registrar.Name)
-		}
+		assert.Equal(t, strings.ToLower(whoisInfo.Domain.Domain), domain)
+		assert.Equal(t, strings.ToLower(whoisInfo.Domain.Extension), extension)
 
 		if !assert.IsContains([]string{"aq", "br", "ch", "de", "edu", "eu", "fr", "gov", "hk",
 			"hm", "int", "it", "jp", "kr", "mo", "nl", "nz", "pm", "re", "ro", "ru", "su", "tf",
-			"tk", "travel", "tv", "tw", "uk", "wf", "yt"}, fileExt) {
-			assert.NotZero(t, whoisInfo.Registrar.DomainId)
+			"tk", "travel", "tv", "tw", "uk", "wf", "yt"}, extension) {
+			assert.NotZero(t, whoisInfo.Domain.Id)
+		}
+
+		if !assert.IsContains([]string{"ch", "edu", "eu", "int", "kr", "mo", "tw"}, extension) {
+			assert.NotZero(t, whoisInfo.Domain.Status)
+		}
+
+		if !assert.IsContains([]string{"aq", "br", "de", "edu", "eu", "fr", "gov", "hm", "int",
+			"jp", "mo", "name", "pm", "re", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt"}, extension) {
+			assert.NotZero(t, whoisInfo.Domain.DNSSEC)
 		}
 
 		if !assert.IsContains([]string{"aero", "aq", "asia", "berlin", "biz", "br", "ch", "cn",
 			"co", "cymru", "de", "edu", "eu", "fr", "gov", "hk", "hm", "in", "int", "it", "jp", "kr",
 			"la", "london", "me", "mo", "museum", "name", "nl", "nz", "pm", "re", "ro", "ru", "sh",
-			"su", "tel", "tf", "tk", "travel", "tw", "uk", "us", "wales", "wf", "xxx", "yt"}, fileExt) {
-			assert.NotZero(t, whoisInfo.Registrar.WhoisServer)
+			"su", "tel", "tf", "tk", "travel", "tw", "uk", "us", "wales", "wf", "xxx", "yt"}, extension) {
+			assert.NotZero(t, whoisInfo.Domain.WhoisServer)
+		}
+
+		if !assert.IsContains([]string{"gov", "name", "tw"}, extension) {
+			assert.NotZero(t, whoisInfo.Domain.NameServers)
+		}
+
+		if !assert.IsContains([]string{"aq", "au", "de", "eu", "gov", "hm", "name", "nl", "nz"}, extension) {
+			assert.NotZero(t, whoisInfo.Domain.CreatedDate)
+		}
+
+		if !assert.IsContains([]string{"aq", "ch", "cn", "eu", "gov", "hk", "hm", "mo",
+			"name", "nl", "ro", "ru", "su", "tk", "tw"}, extension) {
+			assert.NotZero(t, whoisInfo.Domain.UpdatedDate)
+		}
+
+		if !assert.IsContains([]string{"aq", "au", "br", "ch", "de", "eu", "gov",
+			"hm", "int", "name", "nl", "nz"}, extension) {
+			assert.NotZero(t, whoisInfo.Domain.ExpirationDate)
+		}
+
+		if !assert.IsContains([]string{"ai", "aq", "au", "br", "ca", "ch", "cn", "cx", "de",
+			"edu", "eu", "fr", "gov", "gs", "hk", "hm", "int", "it", "jp", "kr", "la", "mo", "nl",
+			"nz", "pm", "re", "ro", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt"}, extension) {
+			assert.NotZero(t, whoisInfo.Registrar.ID)
+		}
+
+		if !assert.IsContains([]string{"aq", "br", "de",
+			"edu", "gov", "hm", "int", "jp", "mo", "tk"}, extension) {
+			assert.NotZero(t, whoisInfo.Registrar.Name)
 		}
 
 		if !assert.IsContains([]string{"aero", "ai", "aq", "asia", "au", "br", "ch", "cn", "de",
 			"edu", "gov", "hk", "hm", "int", "jp", "kr", "la", "london", "love", "mo",
-			"museum", "name", "nl", "nz", "ru", "su", "tk", "top"}, fileExt) {
+			"museum", "name", "nl", "nz", "ru", "su", "tk", "top"}, extension) {
 			assert.NotZero(t, whoisInfo.Registrar.ReferralURL)
-		}
-
-		if !assert.IsContains([]string{"ch", "edu", "eu", "int", "kr", "mo", "tw"}, fileExt) {
-			assert.NotZero(t, whoisInfo.Registrar.DomainStatus)
-		}
-
-		if !assert.IsContains([]string{"aq", "au", "de", "eu", "gov", "hm", "name", "nl", "nz"}, fileExt) {
-			assert.NotZero(t, whoisInfo.Registrar.CreatedDate)
-		}
-
-		if !assert.IsContains([]string{"aq", "ch", "cn", "eu", "gov", "hk", "hm", "mo",
-			"name", "nl", "ro", "ru", "su", "tk", "tw"}, fileExt) {
-			assert.NotZero(t, whoisInfo.Registrar.UpdatedDate)
-		}
-
-		if !assert.IsContains([]string{"aq", "au", "br", "ch", "de", "eu", "gov",
-			"hm", "int", "name", "nl", "nz"}, fileExt) {
-			assert.NotZero(t, whoisInfo.Registrar.ExpirationDate)
-		}
-
-		if !assert.IsContains([]string{"gov", "name", "tw"}, fileExt) {
-			assert.NotZero(t, whoisInfo.Registrar.NameServers)
-		}
-
-		if !assert.IsContains([]string{"aq", "br", "de", "edu", "eu", "fr", "gov", "hm", "int",
-			"jp", "mo", "name", "pm", "re", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt"}, fileExt) {
-			assert.NotZero(t, whoisInfo.Registrar.DomainDNSSEC)
 		}
 
 		content := ""
@@ -150,17 +152,17 @@ func TestWhoisParser(t *testing.T) {
 		content += fmt.Sprintf("registrar_organization: %s\n", whoisInfo.Registrar.Organization)
 		content += fmt.Sprintf("registrar_phone: %s\n", whoisInfo.Registrar.Phone)
 		content += fmt.Sprintf("registrar_email: %s\n", whoisInfo.Registrar.Email)
-		content += fmt.Sprintf("registrar_reseller: %s\n", whoisInfo.Registrar.Reseller)
-		content += fmt.Sprintf("whois_server: %s\n", whoisInfo.Registrar.WhoisServer)
+		content += fmt.Sprintf("registrar_reseller: %s\n", "")
+		content += fmt.Sprintf("whois_server: %s\n", whoisInfo.Domain.WhoisServer)
 		content += fmt.Sprintf("referral_url: %s\n", whoisInfo.Registrar.ReferralURL)
-		content += fmt.Sprintf("domain_id: %s\n", whoisInfo.Registrar.DomainId)
-		content += fmt.Sprintf("domain_name: %s\n", whoisInfo.Registrar.DomainName)
-		content += fmt.Sprintf("domain_status: %s\n", whoisInfo.Registrar.DomainStatus)
-		content += fmt.Sprintf("created_date: %s\n", whoisInfo.Registrar.CreatedDate)
-		content += fmt.Sprintf("updated_date: %s\n", whoisInfo.Registrar.UpdatedDate)
-		content += fmt.Sprintf("expiration_date: %s\n", whoisInfo.Registrar.ExpirationDate)
-		content += fmt.Sprintf("name_servers: %s\n", whoisInfo.Registrar.NameServers)
-		content += fmt.Sprintf("domain_dnssec: %s\n", whoisInfo.Registrar.DomainDNSSEC)
+		content += fmt.Sprintf("domain_id: %s\n", whoisInfo.Domain.Id)
+		content += fmt.Sprintf("domain_name: %s\n", whoisInfo.Domain.Domain)
+		content += fmt.Sprintf("domain_status: %s\n", whoisInfo.Domain.Status)
+		content += fmt.Sprintf("created_date: %s\n", whoisInfo.Domain.CreatedDate)
+		content += fmt.Sprintf("updated_date: %s\n", whoisInfo.Domain.UpdatedDate)
+		content += fmt.Sprintf("expiration_date: %s\n", whoisInfo.Domain.ExpirationDate)
+		content += fmt.Sprintf("name_servers: %s\n", whoisInfo.Domain.NameServers)
+		content += fmt.Sprintf("domain_dnssec: %s\n", whoisInfo.Domain.DNSSEC)
 
 		content += fmt.Sprintf("\nregistrant\n")
 		content += fmt.Sprintf("id: %s\n", whoisInfo.Registrant.ID)
@@ -178,62 +180,62 @@ func TestWhoisParser(t *testing.T) {
 		content += fmt.Sprintf("email: %s\n", whoisInfo.Registrant.Email)
 
 		content += fmt.Sprintf("\nadmin\n")
-		content += fmt.Sprintf("id: %s\n", whoisInfo.Admin.ID)
-		content += fmt.Sprintf("name: %s\n", whoisInfo.Admin.Name)
-		content += fmt.Sprintf("organization: %s\n", whoisInfo.Admin.Organization)
-		content += fmt.Sprintf("street: %s\n", whoisInfo.Admin.Street)
-		content += fmt.Sprintf("city: %s\n", whoisInfo.Admin.City)
-		content += fmt.Sprintf("province: %s\n", whoisInfo.Admin.Province)
-		content += fmt.Sprintf("postal_code: %s\n", whoisInfo.Admin.PostalCode)
-		content += fmt.Sprintf("country: %s\n", whoisInfo.Admin.Country)
-		content += fmt.Sprintf("phone: %s\n", whoisInfo.Admin.Phone)
-		content += fmt.Sprintf("phone_ext: %s\n", whoisInfo.Admin.PhoneExt)
-		content += fmt.Sprintf("fax: %s\n", whoisInfo.Admin.Fax)
-		content += fmt.Sprintf("fax_ext: %s\n", whoisInfo.Admin.FaxExt)
-		content += fmt.Sprintf("email: %s\n", whoisInfo.Admin.Email)
+		content += fmt.Sprintf("id: %s\n", whoisInfo.Administrative.ID)
+		content += fmt.Sprintf("name: %s\n", whoisInfo.Administrative.Name)
+		content += fmt.Sprintf("organization: %s\n", whoisInfo.Administrative.Organization)
+		content += fmt.Sprintf("street: %s\n", whoisInfo.Administrative.Street)
+		content += fmt.Sprintf("city: %s\n", whoisInfo.Administrative.City)
+		content += fmt.Sprintf("province: %s\n", whoisInfo.Administrative.Province)
+		content += fmt.Sprintf("postal_code: %s\n", whoisInfo.Administrative.PostalCode)
+		content += fmt.Sprintf("country: %s\n", whoisInfo.Administrative.Country)
+		content += fmt.Sprintf("phone: %s\n", whoisInfo.Administrative.Phone)
+		content += fmt.Sprintf("phone_ext: %s\n", whoisInfo.Administrative.PhoneExt)
+		content += fmt.Sprintf("fax: %s\n", whoisInfo.Administrative.Fax)
+		content += fmt.Sprintf("fax_ext: %s\n", whoisInfo.Administrative.FaxExt)
+		content += fmt.Sprintf("email: %s\n", whoisInfo.Administrative.Email)
 
 		content += fmt.Sprintf("\ntech\n")
-		content += fmt.Sprintf("id: %s\n", whoisInfo.Tech.ID)
-		content += fmt.Sprintf("name: %s\n", whoisInfo.Tech.Name)
-		content += fmt.Sprintf("organization: %s\n", whoisInfo.Tech.Organization)
-		content += fmt.Sprintf("street: %s\n", whoisInfo.Tech.Street)
-		content += fmt.Sprintf("city: %s\n", whoisInfo.Tech.City)
-		content += fmt.Sprintf("province: %s\n", whoisInfo.Tech.Province)
-		content += fmt.Sprintf("postal_code: %s\n", whoisInfo.Tech.PostalCode)
-		content += fmt.Sprintf("country: %s\n", whoisInfo.Tech.Country)
-		content += fmt.Sprintf("phone: %s\n", whoisInfo.Tech.Phone)
-		content += fmt.Sprintf("phone_ext: %s\n", whoisInfo.Tech.PhoneExt)
-		content += fmt.Sprintf("fax: %s\n", whoisInfo.Tech.Fax)
-		content += fmt.Sprintf("fax_ext: %s\n", whoisInfo.Tech.FaxExt)
-		content += fmt.Sprintf("email: %s\n", whoisInfo.Tech.Email)
+		content += fmt.Sprintf("id: %s\n", whoisInfo.Technical.ID)
+		content += fmt.Sprintf("name: %s\n", whoisInfo.Technical.Name)
+		content += fmt.Sprintf("organization: %s\n", whoisInfo.Technical.Organization)
+		content += fmt.Sprintf("street: %s\n", whoisInfo.Technical.Street)
+		content += fmt.Sprintf("city: %s\n", whoisInfo.Technical.City)
+		content += fmt.Sprintf("province: %s\n", whoisInfo.Technical.Province)
+		content += fmt.Sprintf("postal_code: %s\n", whoisInfo.Technical.PostalCode)
+		content += fmt.Sprintf("country: %s\n", whoisInfo.Technical.Country)
+		content += fmt.Sprintf("phone: %s\n", whoisInfo.Technical.Phone)
+		content += fmt.Sprintf("phone_ext: %s\n", whoisInfo.Technical.PhoneExt)
+		content += fmt.Sprintf("fax: %s\n", whoisInfo.Technical.Fax)
+		content += fmt.Sprintf("fax_ext: %s\n", whoisInfo.Technical.FaxExt)
+		content += fmt.Sprintf("email: %s\n", whoisInfo.Technical.Email)
 
 		content += fmt.Sprintf("\nbill\n")
-		content += fmt.Sprintf("id: %s\n", whoisInfo.Bill.ID)
-		content += fmt.Sprintf("name: %s\n", whoisInfo.Bill.Name)
-		content += fmt.Sprintf("organization: %s\n", whoisInfo.Bill.Organization)
-		content += fmt.Sprintf("street: %s\n", whoisInfo.Bill.Street)
-		content += fmt.Sprintf("city: %s\n", whoisInfo.Bill.City)
-		content += fmt.Sprintf("province: %s\n", whoisInfo.Bill.Province)
-		content += fmt.Sprintf("postal_code: %s\n", whoisInfo.Bill.PostalCode)
-		content += fmt.Sprintf("country: %s\n", whoisInfo.Bill.Country)
-		content += fmt.Sprintf("phone: %s\n", whoisInfo.Bill.Phone)
-		content += fmt.Sprintf("phone_ext: %s\n", whoisInfo.Bill.PhoneExt)
-		content += fmt.Sprintf("fax: %s\n", whoisInfo.Bill.Fax)
-		content += fmt.Sprintf("fax_ext: %s\n", whoisInfo.Bill.FaxExt)
-		content += fmt.Sprintf("email: %s\n", whoisInfo.Bill.Email)
+		content += fmt.Sprintf("id: %s\n", whoisInfo.Billing.ID)
+		content += fmt.Sprintf("name: %s\n", whoisInfo.Billing.Name)
+		content += fmt.Sprintf("organization: %s\n", whoisInfo.Billing.Organization)
+		content += fmt.Sprintf("street: %s\n", whoisInfo.Billing.Street)
+		content += fmt.Sprintf("city: %s\n", whoisInfo.Billing.City)
+		content += fmt.Sprintf("province: %s\n", whoisInfo.Billing.Province)
+		content += fmt.Sprintf("postal_code: %s\n", whoisInfo.Billing.PostalCode)
+		content += fmt.Sprintf("country: %s\n", whoisInfo.Billing.Country)
+		content += fmt.Sprintf("phone: %s\n", whoisInfo.Billing.Phone)
+		content += fmt.Sprintf("phone_ext: %s\n", whoisInfo.Billing.PhoneExt)
+		content += fmt.Sprintf("fax: %s\n", whoisInfo.Billing.Fax)
+		content += fmt.Sprintf("fax_ext: %s\n", whoisInfo.Billing.FaxExt)
+		content += fmt.Sprintf("email: %s\n", whoisInfo.Billing.Email)
 
-		err = xfile.WriteText("./examples/"+fileName+".out", content)
+		err = xfile.WriteText("./examples/"+v.Name+".out", content)
 		assert.Nil(t, err)
 
-		if !assert.IsContains(exts, fileExt) {
-			exts = append(exts, fileExt)
+		if !assert.IsContains(exts, extension) {
+			exts = append(exts, extension)
 		}
 
-		if _, ok := domains[fileExt]; !ok {
-			domains[fileExt] = []string{}
+		if _, ok := domains[extension]; !ok {
+			domains[extension] = []string{}
 		}
 
-		domains[fileExt] = append(domains[fileExt], strings.ToLower(whoisInfo.Registrar.DomainName))
+		domains[extension] = append(domains[extension], strings.ToLower(whoisInfo.Domain.Domain))
 	}
 
 	sort.Strings(exts)

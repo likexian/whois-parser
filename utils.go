@@ -71,6 +71,9 @@ func ClearName(key string) string {
 	key = strings.Replace(key, "'", " ", -1)
 	key = strings.Replace(key, ".", " ", -1)
 
+	key = strings.TrimPrefix(key, "Registry ")
+	key = strings.TrimPrefix(key, "Sponsoring ")
+
 	key = strings.TrimSpace(key)
 	key = strings.ToLower(key)
 

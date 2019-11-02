@@ -19,37 +19,33 @@
 
 package whoisparser
 
-// WhoisInfo storing main info
+// WhoisInfo storing domain whois info
 type WhoisInfo struct {
-	Registrar  Registrar  `json:"registrar"`
-	Registrant Registrant `json:"registrant"`
-	Admin      Registrant `json:"admin"`
-	Tech       Registrant `json:"tech"`
-	Bill       Registrant `json:"bill"`
+	Domain         Domain  `json:"domain"`
+	Registrar      Contact `json:"registrar"`
+	Registrant     Contact `json:"registrant"`
+	Administrative Contact `json:"administrative"`
+	Technical      Contact `json:"technical"`
+	Billing        Contact `json:"billing"`
 }
 
-// Registrar storing registrar info
-type Registrar struct {
-	ID             string `json:"id"`
+// Domain storing domain name info
+type Domain struct {
+	Id             string `json:"id"`
+	Domain         string `json:"domain"`
 	Name           string `json:"name"`
-	Organization   string `json:"organization"`
-	Phone          string `json:"phone"`
-	Email          string `json:"email"`
-	Reseller       string `json:"reseller"`
+	Extension      string `json:"extension"`
+	Status         string `json:"status"`
+	DNSSEC         string `json:"dnssec"`
 	WhoisServer    string `json:"whois_server"`
-	ReferralURL    string `json:"referral_url"`
-	DomainId       string `json:"domain_id"`
-	DomainName     string `json:"domain_name"`
-	DomainStatus   string `json:"domain_status"`
-	DomainDNSSEC   string `json:"domain_dnssec"`
 	NameServers    string `json:"name_servers"`
 	CreatedDate    string `json:"created_date"`
 	UpdatedDate    string `json:"updated_date"`
 	ExpirationDate string `json:"expiration_date"`
 }
 
-// Registrant storing registrant info
-type Registrant struct {
+// Contact storing domain contact info
+type Contact struct {
 	ID           string `json:"id"`
 	Name         string `json:"name"`
 	Organization string `json:"organization"`
@@ -63,4 +59,5 @@ type Registrant struct {
 	Fax          string `json:"fax"`
 	FaxExt       string `json:"fax_ext"`
 	Email        string `json:"email"`
+	ReferralURL  string `json:"referral_url"`
 }

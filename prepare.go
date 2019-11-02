@@ -607,6 +607,7 @@ func prepareKR(text string) string {
 		"Administrative Contact(AC)": "Administrative Contact Name",
 		"AC E-Mail":                  "Administrative Contact E-Mail",
 		"AC Phone Number":            "Administrative Contact Phone Number",
+		"Authorized Agency":          "Registrar Name",
 	}
 
 	pos := strings.Index(text, english)

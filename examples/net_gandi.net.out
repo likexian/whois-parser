@@ -3,7 +3,7 @@ registrar_name: GANDI SAS
 registrar_organization: 
 registrar_phone: +33.170377661
 registrar_email: abuse@support.gandi.net
-registrar_reseller: GANDI SAS
+registrar_reseller: 
 whois_server: whois.gandi.net
 referral_url: http://www.gandi.net
 domain_id: 6683836_DOMAIN_NET-VRSN

@@ -38,13 +38,16 @@ Visit the docs on [GoDoc](https://godoc.org/github.com/likexian/whois-parser-go)
 result, err := whoisparser.Parse(whois_raw)
 if err == nil {
     // Print the domain status
-    fmt.Println(result.Registrar.DomainStatus)
+    fmt.Println(result.Domain.Status)
 
     // Print the domain created date
-    fmt.Println(result.Registrar.CreatedDate)
+    fmt.Println(result.Domain.CreatedDate)
 
     // Print the domain expiration date
-    fmt.Println(result.Registrar.ExpirationDate)
+    fmt.Println(result.Domain.ExpirationDate)
+
+    // Print the registrar name
+    fmt.Println(result.Registrar.Name)
 
     // Print the registrant name
     fmt.Println(result.Registrant.Name)

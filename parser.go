@@ -36,7 +36,7 @@ var (
 
 // Version returns package version
 func Version() string {
-	return "1.8.0"
+	return "1.9.0"
 }
 
 // Author returns package author
@@ -51,7 +51,7 @@ func License() string {
 
 // Parse returns parsed whois info
 func Parse(text string) (whoisInfo WhoisInfo, err error) {
-	name, ext := searchDomain(text)
+	name, extension := searchDomain(text)
 	if name == "" {
 		err = ErrDomainInvalidData
 		if IsNotFound(text) {
@@ -62,13 +62,17 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		return
 	}
 
-	var registrar Registrar
-	var registrant Registrant
-	var admin Registrant
-	var tech Registrant
-	var bill Registrant
+	var domain Domain
+	var registrar Contact
+	var registrant Contact
+	var administrative Contact
+	var technical Contact
+	var billing Contact
 
-	whoisText, _ := Prepare(text, ext)
+	domain.Name = name
+	domain.Extension = extension
+
+	whoisText, _ := Prepare(text, extension)
 	whoisLines := strings.Split(whoisText, "\n")
 	for i := 0; i < len(whoisLines); i++ {
 		line := strings.TrimSpace(whoisLines[i])
@@ -106,69 +110,35 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		keyName := FindKeyName(name)
 		switch keyName {
 		case "domain_id":
-			registrar.DomainId = value
+			domain.Id = value
 		case "domain_name":
-			registrar.DomainName = value
-		case "registrar_id":
-			if registrar.ID == "" {
-				registrar.ID = value
-			}
-		case "registrar_name":
-			if registrar.Name == "" {
-				registrar.Name = value
-			}
-		case "registrar_organization":
-			if registrar.Organization == "" {
-				registrar.Organization = value
-			}
-		case "registrar_phone":
-			if registrar.Phone == "" {
-				registrar.Phone = value
-			}
-		case "registrar_email":
-			if registrar.Email == "" {
-				registrar.Email = value
-			}
-		case "registrar_reseller":
-			if registrar.Reseller == "" {
-				registrar.Reseller = value
+			domain.Domain = value
+		case "domain_status":
+			domain.Status += value + ","
+		case "domain_dnssec":
+			if domain.DNSSEC == "" {
+				domain.DNSSEC = value
 			}
 		case "whois_server":
-			if registrar.WhoisServer == "" {
-				registrar.WhoisServer = value
+			if domain.WhoisServer == "" {
+				domain.WhoisServer = value
 			}
-		case "referral_url":
-			if registrar.ReferralURL == "" {
-				registrar.ReferralURL = value
-			}
-		case "domain_status":
-			registrar.DomainStatus += value + ","
 		case "name_servers":
-			registrar.NameServers += value + ","
-		case "domain_dnssec":
-			if registrar.DomainDNSSEC == "" {
-				registrar.DomainDNSSEC = value
-			}
+			domain.NameServers += value + ","
 		case "created_date":
-			if registrar.CreatedDate == "" {
-				registrar.CreatedDate = value
+			if domain.CreatedDate == "" {
+				domain.CreatedDate = value
 			}
 		case "updated_date":
-			if registrar.UpdatedDate == "" {
-				registrar.UpdatedDate = value
+			if domain.UpdatedDate == "" {
+				domain.UpdatedDate = value
 			}
 		case "expired_date":
-			if registrar.ExpirationDate == "" {
-				registrar.ExpirationDate = value
+			if domain.ExpirationDate == "" {
+				domain.ExpirationDate = value
 			}
-		case "registrant_id":
-			registrant.ID = value
-		case "admin_id":
-			admin.ID = value
-		case "tech_id":
-			tech.ID = value
-		case "bill_id":
-			bill.ID = value
+		case "referral_url":
+			registrar.ReferralURL = value
 		default:
 			name = ClearName(name)
 			if !strings.Contains(name, " ") {
@@ -176,70 +146,74 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 			}
 			ns := strings.SplitN(name, " ", 2)
 			name = strings.TrimSpace("registrant " + ns[1])
-			if ns[0] == "registrant" || ns[0] == "holder" {
-				registrant = parseRegistrant(registrant, name, value)
+			if ns[0] == "registrar" || ns[0] == "registration" {
+				registrar = parseContact(registrar, name, value)
+			} else if ns[0] == "registrant" || ns[0] == "holder" {
+				registrant = parseContact(registrant, name, value)
 			} else if ns[0] == "admin" || ns[0] == "administrative" {
-				admin = parseRegistrant(admin, name, value)
+				administrative = parseContact(administrative, name, value)
 			} else if ns[0] == "tech" || ns[0] == "technical" {
-				tech = parseRegistrant(tech, name, value)
+				technical = parseContact(technical, name, value)
 			} else if ns[0] == "bill" || ns[0] == "billing" {
-				bill = parseRegistrant(bill, name, value)
+				billing = parseContact(billing, name, value)
 			}
 		}
 	}
 
-	registrar.NameServers = FixNameServers(strings.ToLower(registrar.NameServers))
-	registrar.DomainStatus = FixDomainStatus(strings.ToLower(registrar.DomainStatus))
+	domain.NameServers = FixNameServers(strings.ToLower(domain.NameServers))
+	domain.Status = FixDomainStatus(strings.ToLower(domain.Status))
 
-	registrar.NameServers = RemoveDuplicateField(registrar.NameServers)
-	registrar.DomainStatus = RemoveDuplicateField(registrar.DomainStatus)
+	domain.NameServers = RemoveDuplicateField(domain.NameServers)
+	domain.Status = RemoveDuplicateField(domain.Status)
 
+	whoisInfo.Domain = domain
 	whoisInfo.Registrar = registrar
 	whoisInfo.Registrant = registrant
-	whoisInfo.Admin = admin
-	whoisInfo.Tech = tech
-	whoisInfo.Bill = bill
+	whoisInfo.Administrative = administrative
+	whoisInfo.Technical = technical
+	whoisInfo.Billing = billing
 
 	return
 }
 
-// parseRegistrant do parse registrant info
-func parseRegistrant(registrant Registrant, name, value string) Registrant {
+// parseContact do parse contact info
+func parseContact(contact Contact, name, value string) Contact {
 	keyName := FindKeyName(name)
+
 	switch keyName {
 	case "registrant_id":
-		registrant.ID = value
+		contact.ID = value
 	case "registrant_name":
-		registrant.Name = value
+		contact.Name = value
 	case "registrant_organization":
-		registrant.Organization = value
+		contact.Organization = value
 	case "registrant_street":
-		if registrant.Street == "" {
-			registrant.Street = value
+		if contact.Street == "" {
+			contact.Street = value
 		} else {
-			registrant.Street += ", " + value
+			contact.Street += ", " + value
 		}
 	case "registrant_city":
-		registrant.City = value
+		contact.City = value
 	case "registrant_state_province":
-		registrant.Province = value
+		contact.Province = value
 	case "registrant_postal_code":
-		registrant.PostalCode = value
+		contact.PostalCode = value
 	case "registrant_country":
-		registrant.Country = value
+		contact.Country = value
 	case "registrant_phone":
-		registrant.Phone = value
+		contact.Phone = value
 	case "registrant_phone_ext":
-		registrant.PhoneExt = value
+		contact.PhoneExt = value
 	case "registrant_fax":
-		registrant.Fax = value
+		contact.Fax = value
 	case "registrant_fax_ext":
-		registrant.FaxExt = value
+		contact.FaxExt = value
 	case "registrant_email":
-		registrant.Email = strings.ToLower(value)
+		contact.Email = strings.ToLower(value)
 	}
 
-	return registrant
+	return contact
 }
 
 // searchDomain find domain from whois info
