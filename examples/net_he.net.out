@@ -1,19 +1,32 @@
-registrar_id: 2
-registrar_name: Network Solutions, LLC
-registrar_organization: 
-registrar_phone: +1.8003337680
-registrar_email: abuse@web.com
-registrar_reseller: 
+
+domain
+id: 486609_DOMAIN_NET-VRSN
+domain: HE.NET
+name: he
+extension: net
+status: clienttransferprohibited
+dnssec: unsigned
 whois_server: whois.networksolutions.com
-referral_url: http://networksolutions.com
-domain_id: 486609_DOMAIN_NET-VRSN
-domain_name: HE.NET
-domain_status: clienttransferprohibited
+name_servers: ns1.he.net,ns2.he.net,ns3.he.net,ns4.he.net,ns5.he.net
 created_date: 1995-07-31T04:00:00Z
 updated_date: 2019-07-30T19:17:40Z
 expiration_date: 2029-07-30T04:00:00Z
-name_servers: ns1.he.net,ns2.he.net,ns3.he.net,ns4.he.net,ns5.he.net
-domain_dnssec: unsigned
+
+registrar
+id: 2
+name: Network Solutions, LLC
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.8003337680
+phone_ext: 
+fax: 
+fax_ext: 
+email: abuse@web.com
+referral_url: http://networksolutions.com
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: hostmaster@he.net
+referral_url: 
 
-admin
+administrative
 id: 
 name: Hurricane, Electric
 organization: Hurricane Electric Hostmaster
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: hostmaster@he.net
+referral_url: 
 
-tech
+technical
 id: 
 name: Hurricane, Electric
 organization: Hurricane Electric Hostmaster
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: hostmaster@he.net
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

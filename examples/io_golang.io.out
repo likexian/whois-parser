@@ -1,19 +1,32 @@
-registrar_id: 81
-registrar_name: GANDI SAS
-registrar_organization: 
-registrar_phone: +33.170377661
-registrar_email: abuse@support.gandi.net
-registrar_reseller: 
+
+domain
+id: UNDEF-ROID
+domain: golang.io
+name: golang
+extension: io
+status: clienttransferprohibited
+dnssec: Unsigned
 whois_server: whois.gandi.net
-referral_url: http://www.gandi.net
-domain_id: UNDEF-ROID
-domain_name: golang.io
-domain_status: clienttransferprohibited
+name_servers: dns103.ovh.net,ns103.ovh.net
 created_date: 2013-01-24T18:29:21Z
 updated_date: 2019-01-17T08:47:20Z
 expiration_date: 2020-01-24T18:29:21Z
-name_servers: dns103.ovh.net,ns103.ovh.net
-domain_dnssec: Unsigned
+
+registrar
+id: 81
+name: GANDI SAS
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +33.170377661
+phone_ext: 
+fax: 
+fax_ext: 
+email: abuse@support.gandi.net
+referral_url: http://www.gandi.net
 
 registrant
 id: REDACTED FOR PRIVACY
@@ -29,8 +42,9 @@ phone_ext:
 fax: +33.143730576
 fax_ext: 
 email: 142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net
+referral_url: 
 
-admin
+administrative
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: +33.143730576
 fax_ext: 
 email: 142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net
+referral_url: 
 
-tech
+technical
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: +33.143730576
 fax_ext: 
 email: 142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

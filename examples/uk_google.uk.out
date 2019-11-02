@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: Markmonitor Inc. t/a MarkMonitor Inc. [Tag = MARKMONITOR]
-registrar_organization: 
-registrar_phone: 
-registrar_email: 
-registrar_reseller: 
+
+domain
+id: 
+domain: google.uk
+name: google
+extension: uk
+status: registered
+dnssec: 
 whois_server: 
-referral_url: http://www.markmonitor.com
-domain_id: 
-domain_name: google.uk
-domain_status: registered
+name_servers: ns1.googledomains.com,ns2.googledomains.com,ns3.googledomains.com,ns4.googledomains.com
 created_date: 11-Jun-2014
 updated_date: 10-May-2019
 expiration_date: 11-Jun-2020
-name_servers: ns1.googledomains.com,ns2.googledomains.com,ns3.googledomains.com,ns4.googledomains.com
-domain_dnssec: 
+
+registrar
+id: 
+name: Markmonitor Inc. t/a MarkMonitor Inc. [Tag = MARKMONITOR]
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: http://www.markmonitor.com
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-admin
+administrative
 id: 
 name: 
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

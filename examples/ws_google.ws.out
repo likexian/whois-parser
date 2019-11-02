@@ -1,19 +1,32 @@
-registrar_id: 292
-registrar_name: MarkMonitor Inc.
-registrar_organization: 
-registrar_phone: 2083895740
-registrar_email: ccops@markmonitor.com
-registrar_reseller: 
+
+domain
+id: D865CD29234E835CE040010AAB015FFF
+domain: GOOGLE.WS
+name: google
+extension: ws
+status: clienttransferprohibited,clientdeleteprohibited,clientupdateprohibited
+dnssec: unsigned
 whois_server: whois.markmonitor.com
-referral_url: http://www.markmonitor.com/whois.asp
-domain_id: D865CD29234E835CE040010AAB015FFF
-domain_name: GOOGLE.WS
-domain_status: clienttransferprohibited,clientdeleteprohibited,clientupdateprohibited
+name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
 created_date: 2002-03-03T17:00:26Z
 updated_date: 2019-01-30T09:53:55Z
 expiration_date: 2020-03-03T23:00:26Z
-name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
-domain_dnssec: unsigned
+
+registrar
+id: 292
+name: MarkMonitor Inc.
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 2083895740
+phone_ext: 
+fax: 
+fax_ext: 
+email: ccops@markmonitor.com
+referral_url: http://www.markmonitor.com/whois.asp
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-admin
+administrative
 id: 
 name: 
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

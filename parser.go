@@ -110,7 +110,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		keyName := FindKeyName(name)
 		switch keyName {
 		case "domain_id":
-			domain.Id = value
+			domain.ID = value
 		case "domain_name":
 			domain.Domain = value
 		case "domain_status":

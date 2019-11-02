@@ -31,7 +31,7 @@ type WhoisInfo struct {
 
 // Domain storing domain name info
 type Domain struct {
-	Id             string `json:"id"`
+	ID             string `json:"id"`
 	Domain         string `json:"domain"`
 	Name           string `json:"name"`
 	Extension      string `json:"extension"`

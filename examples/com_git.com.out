@@ -1,19 +1,32 @@
-registrar_id: 1659
-registrar_name: UNIREGISTRAR CORP
-registrar_organization: 
-registrar_phone: +1.4426008800
-registrar_email: abuse@uniregistry.com
-registrar_reseller: 
+
+domain
+id: 72657455_DOMAIN_COM-VRSN
+domain: GIT.COM
+name: git
+extension: com
+status: clienttransferprohibited
+dnssec: unsigned
 whois_server: whois.uniregistrar.net
-referral_url: http://uniregistry.com
-domain_id: 72657455_DOMAIN_COM-VRSN
-domain_name: GIT.COM
-domain_status: clienttransferprohibited
+name_servers: ns2.venture.com,ns1.venture.com
 created_date: 2001-06-14-T10:32:43Z
 updated_date: 2019-05-17-T23:02:50Z
 expiration_date: 2020-06-14-T10:32:43Z
-name_servers: ns2.venture.com,ns1.venture.com
-domain_dnssec: unsigned
+
+registrar
+id: 1659
+name: UNIREGISTRAR CORP
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.4426008800
+phone_ext: 
+fax: 
+fax_ext: 
+email: abuse@uniregistry.com
+referral_url: http://uniregistry.com
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 1078347@privacy-link.com
+referral_url: 
 
-admin
+administrative
 id: 
 name: PRIVACYDOTLINK CUSTOMER 1078347
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 1078347@privacy-link.com
+referral_url: 
 
-tech
+technical
 id: 
 name: PRIVACYDOTLINK CUSTOMER 1078347
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 1078347@privacy-link.com
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

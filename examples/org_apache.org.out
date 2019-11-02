@@ -1,19 +1,32 @@
-registrar_id: 1068
-registrar_name: NAMECHEAP INC
-registrar_organization: 
-registrar_phone: +1.6613102107
-registrar_email: abuse@namecheap.com
-registrar_reseller: 
+
+domain
+id: D706686-LROR
+domain: apache.org
+name: apache
+extension: org
+status: clientdeleteprohibited,clienttransferprohibited
+dnssec: unsigned
 whois_server: whois.namecheap.com
-referral_url: http://www.namecheap.com
-domain_id: D706686-LROR
-domain_name: apache.org
-domain_status: clientdeleteprohibited,clienttransferprohibited
+name_servers: ns2.surfnet.nl,ns3.no-ip.com,ns2.no-ip.com,ns1.no-ip.com,ns4.no-ip.com
 created_date: 1995-04-11T04:00:00.00Z
 updated_date: 2018-09-25T13:18:21.00Z
 expiration_date: 2022-04-12T04:00:00.00Z
-name_servers: ns2.surfnet.nl,ns3.no-ip.com,ns2.no-ip.com,ns1.no-ip.com,ns4.no-ip.com
-domain_dnssec: unsigned
+
+registrar
+id: 1068
+name: NAMECHEAP INC
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.6613102107
+phone_ext: 
+fax: 
+fax_ext: 
+email: abuse@namecheap.com
+referral_url: http://www.namecheap.com
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: +1.7816238460
 fax_ext: 
 email: dns@apache.org
+referral_url: 
 
-admin
+administrative
 id: 
 name: Apache DNS
 organization: The Apache Software Foundation
@@ -44,8 +58,9 @@ phone_ext:
 fax: +1.7816238460
 fax_ext: 
 email: dns@apache.org
+referral_url: 
 
-tech
+technical
 id: 
 name: Apache DNS
 organization: The Apache Software Foundation
@@ -59,8 +74,9 @@ phone_ext:
 fax: +1.7816238460
 fax_ext: 
 email: dns@apache.org
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: Whois Corp.(http://whois.co.kr)
-registrar_organization: 
-registrar_phone: 
-registrar_email: 
-registrar_reseller: 
+
+domain
+id: 
+domain: google.kr
+name: google
+extension: kr
+status: 
+dnssec: unsigned
 whois_server: 
-referral_url: 
-domain_id: 
-domain_name: google.kr
-domain_status: 
+name_servers: ns1.google.com,ns2.google.com
 created_date: 2007. 03. 02.
 updated_date: 2010. 10. 04.
 expiration_date: 2020. 03. 02.
-name_servers: ns1.google.com,ns2.google.com
-domain_dnssec: unsigned
+
+registrar
+id: 
+name: Whois Corp.(http://whois.co.kr)
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: 
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-admin
+administrative
 id: 
 name: Domain Administrator
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: dns-admin@google.com
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

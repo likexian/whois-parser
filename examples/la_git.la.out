@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: Name.com LLC
-registrar_organization: 
-registrar_phone: +1.7202492374
-registrar_email: support@registry.la
-registrar_reseller: 
+
+domain
+id: D605176-LANIC
+domain: GIT.LA
+name: git
+extension: la
+status: clienttransferprohibited
+dnssec: unsigned
 whois_server: 
-referral_url: 
-domain_id: D605176-LANIC
-domain_name: GIT.LA
-domain_status: clienttransferprohibited
+name_servers: bob.ns.cloudflare.com,ivy.ns.cloudflare.com
 created_date: 2008-11-27T08:14:56.0Z
 updated_date: 2019-03-27T04:42:11.0Z
 expiration_date: 2019-11-27T23:59:59.0Z
-name_servers: bob.ns.cloudflare.com,ivy.ns.cloudflare.com
-domain_dnssec: unsigned
+
+registrar
+id: 
+name: Name.com LLC
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.7202492374
+phone_ext: 
+fax: 
+fax_ext: 
+email: support@registry.la
+referral_url: 
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: https://whois.nic.la/contact/git.la/registrant
+referral_url: 
 
-admin
+administrative
 id: 
 name: 
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: https://whois.nic.la/contact/git.la/admin
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: https://whois.nic.la/contact/git.la/tech
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: https://whois.nic.la/contact/git.la/billing
+referral_url: 

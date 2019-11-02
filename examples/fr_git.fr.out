@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: OVH
-registrar_organization: 
-registrar_phone: +33 8 99 70 17 61
-registrar_email: support@ovh.net
-registrar_reseller: 
+
+domain
+id: 
+domain: git.fr
+name: git
+extension: fr
+status: active
+dnssec: 
 whois_server: 
-referral_url: http://www.ovh.com
-domain_id: 
-domain_name: git.fr
-domain_status: active
+name_servers: ns104.ovh.net,dns104.ovh.net
 created_date: 1999-12-22T23:00:00Z
 updated_date: 2019-05-05T08:38:28Z
 expiration_date: 2020-05-05T08:07:09Z
-name_servers: ns104.ovh.net,dns104.ovh.net
-domain_dnssec: 
+
+registrar
+id: 
+name: OVH
+organization: 
+street: 2 Rue Kellermann, 59100 ROUBAIX
+city: 
+province: 
+postal_code: 
+country: FR
+phone: +33 8 99 70 17 61
+phone_ext: 
+fax: +33 3 20 20 09 58
+fax_ext: 
+email: support@ovh.net
+referral_url: http://www.ovh.com
 
 registrant
 id: GGIT3-FRNIC
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: git@git.fr
+referral_url: 
 
-admin
+administrative
 id: GGIT8-FRNIC
 name: G.I.T. GALVANOPLASTIE INDUSTRIELLE TOULOUSAINE
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: lq29z6vpt0b6de92p3wk@q.o-w-o.info
+referral_url: 
 
-tech
+technical
 id: OVH5-FRNIC
 name: OVH NET
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: tech@ovh.net
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

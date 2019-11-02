@@ -1,19 +1,32 @@
-registrar_id: 1861
-registrar_name: Porkbun LLC
-registrar_organization: 
-registrar_phone: +1.5038508351
-registrar_email: abuse@porkbun.com
-registrar_reseller: 
+
+domain
+id: D503300000063709937-LRMS
+domain: GIT.AC
+name: git
+extension: ac
+status: clientdeleteprohibited,clienttransferprohibited,servertransferprohibited
+dnssec: unsignedDelegation
 whois_server: whois.porkbun.com
-referral_url: http://www.porkbun.com
-domain_id: D503300000063709937-LRMS
-domain_name: GIT.AC
-domain_status: clientdeleteprohibited,clienttransferprohibited,servertransferprohibited
+name_servers: f1g1ns2.dnspod.net,f1g1ns1.dnspod.net
 created_date: 2018-02-09 11:59:43
 updated_date: 2018-12-10 01:00:04
 expiration_date: 2020-02-09 11:59:43
-name_servers: f1g1ns2.dnspod.net,f1g1ns1.dnspod.net
-domain_dnssec: unsignedDelegation
+
+registrar
+id: 1861
+name: Porkbun LLC
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.5038508351
+phone_ext: 
+fax: 
+fax_ext: 
+email: abuse@porkbun.com
+referral_url: http://www.porkbun.com
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: https://porkbun.com/whois/contact/registrant/git.ac
+referral_url: 
 
-admin
+administrative
 id: 
 name: Whois Privacy
 organization: Private by Design, LLC
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: https://porkbun.com/whois/contact/admin/git.ac
+referral_url: 
 
-tech
+technical
 id: 
 name: Whois Privacy
 organization: Private by Design, LLC
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: https://porkbun.com/whois/contact/tech/git.ac
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: 
-registrar_organization: 
-registrar_phone: 
-registrar_email: 
-registrar_reseller: 
+
+domain
+id: 
+domain: NEW.TK
+name: new
+extension: tk
+status: active
+dnssec: 
 whois_server: 
-referral_url: 
-domain_id: 
-domain_name: NEW.TK
-domain_status: active
+name_servers: ns1.newtek.com,ns3.newtek.com,ns4.newtek.com
 created_date: 02/05/2013
 updated_date: 
 expiration_date: 02/10/2022
-name_servers: ns1.newtek.com,ns3.newtek.com,ns4.newtek.com
-domain_dnssec: 
+
+registrar
+id: 
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: 
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: +1--
 fax_ext: 
 email: cs@newtek.com
+referral_url: 
 
-admin
+administrative
 id: 
 name: NewTek Domain manager
 organization: NewTek
@@ -44,8 +58,9 @@ phone_ext:
 fax: +1--
 fax_ext: 
 email: cs@newtek.com
+referral_url: 
 
-tech
+technical
 id: 
 name: NewTek Domain manager
 organization: NewTek
@@ -59,8 +74,9 @@ phone_ext:
 fax: +1--
 fax_ext: 
 email: cs@newtek.com
+referral_url: 
 
-bill
+billing
 id: 
 name: NewTek Domain manager
 organization: NewTek
@@ -74,3 +90,4 @@ phone_ext:
 fax: +1--
 fax_ext: 
 email: cs@newtek.com
+referral_url: 

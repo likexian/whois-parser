@@ -1,19 +1,32 @@
-registrar_id: 433
-registrar_name: OVH
-registrar_organization: 
-registrar_phone: +33.899701761
-registrar_email: support@ovh.net
-registrar_reseller: 
+
+domain
+id: 685916-CoCCA
+domain: git.cx
+name: git
+extension: cx
+status: clienttransferprohibited,clientdeleteprohibited
+dnssec: unsigned
 whois_server: whois.coccaregistry.org
-referral_url: http://www.ovh.com
-domain_id: 685916-CoCCA
-domain_name: git.cx
-domain_status: clienttransferprohibited,clientdeleteprohibited
+name_servers: dns100.ovh.net,ns100.ovh.net
 created_date: 2012-01-26T05:49:44.787Z
 updated_date: 2019-01-01T18:14:16.77Z
 expiration_date: 2020-01-26T05:52:26.85Z
-name_servers: dns100.ovh.net,ns100.ovh.net
-domain_dnssec: unsigned
+
+registrar
+id: 433
+name: OVH
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: FR
+phone: +33.899701761
+phone_ext: 
+fax: +33.320200958
+fax_ext: 
+email: support@ovh.net
+referral_url: http://www.ovh.com
 
 registrant
 id: fBgAM-Lbsyt
@@ -29,8 +42,9 @@ phone_ext:
 fax: Redacted | EU Registrar
 fax_ext: 
 email: redacted | eu registrar
+referral_url: 
 
-admin
+administrative
 id: 
 name: 
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: TLD Registrar Solutions Ltd
-registrar_organization: 
-registrar_phone: +44 2034357304
-registrar_email: admin@tldregistrarsolutions.com
-registrar_reseller: 
+
+domain
+id: 
+domain: git.re
+name: git
+extension: re
+status: active
+dnssec: 
 whois_server: 
-referral_url: https://internetbs.net/en/domain-name-registrations/price.html?setCurrency=EUR
-domain_id: 
-domain_name: git.re
-domain_status: active
+name_servers: dns1.yandex.net,dns2.yandex.net
 created_date: 2018-03-13T18:39:24Z
 updated_date: 2019-06-21T07:43:29Z
 expiration_date: 2022-03-13T18:39:24Z
-name_servers: dns1.yandex.net,dns2.yandex.net
-domain_dnssec: 
+
+registrar
+id: 
+name: TLD Registrar Solutions Ltd
+organization: 
+street: 35-39 Moorgate, Level 1, EC2R 6AR LONDON
+city: 
+province: 
+postal_code: 
+country: GB
+phone: +44 2034357304
+phone_ext: 
+fax: 
+fax_ext: 
+email: admin@tldregistrarsolutions.com
+referral_url: https://internetbs.net/en/domain-name-registrations/price.html?setCurrency=EUR
 
 registrant
 id: ANO00-FRNIC
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-admin
+administrative
 id: ANO00-FRNIC
 name: Ano Nymous
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-tech
+technical
 id: DA55158-FRNIC
 name: Domain Admin
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: +44.2033880601
 fax_ext: 
 email: admin@tldregistrarsolutions.com
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

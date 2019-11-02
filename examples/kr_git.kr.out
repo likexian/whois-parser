@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: Megazone(http://HOSTING.KR)
-registrar_organization: 
-registrar_phone: 
-registrar_email: 
-registrar_reseller: 
+
+domain
+id: 
+domain: git.kr
+name: git
+extension: kr
+status: clienttransferprohibited
+dnssec: unsigned
 whois_server: 
-referral_url: 
-domain_id: 
-domain_name: git.kr
-domain_status: clienttransferprohibited
+name_servers: ns1.parkingcrew.net,ns2.parkingcrew.net
 created_date: 2012. 05. 19.
 updated_date: 2017. 10. 17.
 expiration_date: 2020. 05. 19.
-name_servers: ns1.parkingcrew.net,ns2.parkingcrew.net
-domain_dnssec: unsigned
+
+registrar
+id: 
+name: Megazone(http://HOSTING.KR)
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: 
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-admin
+administrative
 id: 
 name: beats
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: lawyer247@hotmail.com
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

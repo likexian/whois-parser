@@ -1,19 +1,32 @@
-registrar_id: 151
-registrar_name: PSI-USA, Inc. dba Domain Robot
-registrar_organization: 
-registrar_phone: +49.94159559482
-registrar_email: domain-abuse@psi-usa.info
-registrar_reseller: 
+
+domain
+id: D34417-LRMS
+domain: west.info
+name: west
+extension: info
+status: clienttransferprohibited
+dnssec: unsigned
 whois_server: whois.psi-usa.info
-referral_url: https://www.psi-usa.info
-domain_id: D34417-LRMS
-domain_name: west.info
-domain_status: clienttransferprohibited
+name_servers: dns1.ipmanagerinc.net,dns2.ipmanagerinc.net,dns3.ipmanagerinc.net
 created_date: 2001-07-31T21:14:42Z
 updated_date: 2019-09-20T00:17:40Z
 expiration_date: 2020-07-31T21:14:42Z
-name_servers: dns1.ipmanagerinc.net,dns2.ipmanagerinc.net,dns3.ipmanagerinc.net
-domain_dnssec: unsigned
+
+registrar
+id: 151
+name: PSI-USA, Inc. dba Domain Robot
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +49.94159559482
+phone_ext: 
+fax: 
+fax_ext: 
+email: domain-abuse@psi-usa.info
+referral_url: https://www.psi-usa.info
 
 registrant
 id: REDACTED FOR PRIVACY
@@ -29,8 +42,9 @@ phone_ext: REDACTED FOR PRIVACY
 fax: REDACTED FOR PRIVACY
 fax_ext: REDACTED FOR PRIVACY
 email: https://contact.domain-robot.org/west.info
+referral_url: 
 
-admin
+administrative
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -44,8 +58,9 @@ phone_ext: REDACTED FOR PRIVACY
 fax: REDACTED FOR PRIVACY
 fax_ext: REDACTED FOR PRIVACY
 email: https://contact.domain-robot.org/west.info
+referral_url: 
 
-tech
+technical
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -59,8 +74,9 @@ phone_ext: REDACTED FOR PRIVACY
 fax: REDACTED FOR PRIVACY
 fax_ext: REDACTED FOR PRIVACY
 email: https://contact.domain-robot.org/west.info
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

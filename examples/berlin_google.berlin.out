@@ -1,19 +1,32 @@
-registrar_id: 292
-registrar_name: MarkMonitor Inc.
-registrar_organization: 
-registrar_phone: +1.2083895740
-registrar_email: abusecomplaints@markmonitor.com
-registrar_reseller: 
+
+domain
+id: D0000000243-BERLIN
+domain: google.berlin
+name: google
+extension: berlin
+status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
+dnssec: unsigned
 whois_server: 
-referral_url: http://www.markmonitor.com
-domain_id: D0000000243-BERLIN
-domain_name: google.berlin
-domain_status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
+name_servers: ns1.googledomains.com,ns2.googledomains.com,ns3.googledomains.com,ns4.googledomains.com
 created_date: 2014-02-15T20:24:48Z
 updated_date: 2019-01-14T10:32:15Z
 expiration_date: 2020-02-15T20:24:48Z
-name_servers: ns1.googledomains.com,ns2.googledomains.com,ns3.googledomains.com,ns4.googledomains.com
-domain_dnssec: unsigned
+
+registrar
+id: 292
+name: MarkMonitor Inc.
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.2083895740
+phone_ext: 
+fax: 
+fax_ext: 
+email: abusecomplaints@markmonitor.com
+referral_url: http://www.markmonitor.com
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-admin
+administrative
 id: 
 name: 
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

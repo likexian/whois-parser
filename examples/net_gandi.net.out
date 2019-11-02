@@ -1,19 +1,32 @@
-registrar_id: 81
-registrar_name: GANDI SAS
-registrar_organization: 
-registrar_phone: +33.170377661
-registrar_email: abuse@support.gandi.net
-registrar_reseller: 
+
+domain
+id: 6683836_DOMAIN_NET-VRSN
+domain: gandi.net
+name: gandi
+extension: net
+status: clientupdateprohibited,clientdeleteprohibited,clienttransferprohibited
+dnssec: Unsigned
 whois_server: whois.gandi.net
-referral_url: http://www.gandi.net
-domain_id: 6683836_DOMAIN_NET-VRSN
-domain_name: gandi.net
-domain_status: clientupdateprohibited,clientdeleteprohibited,clienttransferprohibited
+name_servers: dns0.gandi.net,dns1.gandi.net,dns2.gandi.net,dns3.gandi.net,dns4.gandi.net,dns6.gandi.net
 created_date: 1999-05-21T10:09:21Z
 updated_date: 2019-02-07T09:22:28Z
 expiration_date: 2025-05-21T14:09:56Z
-name_servers: dns0.gandi.net,dns1.gandi.net,dns2.gandi.net,dns3.gandi.net,dns4.gandi.net,dns6.gandi.net
-domain_dnssec: Unsigned
+
+registrar
+id: 81
+name: GANDI SAS
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +33.170377661
+phone_ext: 
+fax: 
+fax_ext: 
+email: abuse@support.gandi.net
+referral_url: http://www.gandi.net
 
 registrant
 id: REDACTED FOR PRIVACY
@@ -29,8 +42,9 @@ phone_ext:
 fax: REDACTED FOR PRIVACY
 fax_ext: 
 email: 1c3a11bd1da2ad84dde09bcc831747a8-523678@contact.gandi.net
+referral_url: 
 
-admin
+administrative
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -44,8 +58,9 @@ phone_ext:
 fax: REDACTED FOR PRIVACY
 fax_ext: 
 email: 3521bef593b0080b0644bce75aa22a5d-248842@contact.gandi.net
+referral_url: 
 
-tech
+technical
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -59,8 +74,9 @@ phone_ext:
 fax: REDACTED FOR PRIVACY
 fax_ext: 
 email: 3521bef593b0080b0644bce75aa22a5d-248842@contact.gandi.net
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

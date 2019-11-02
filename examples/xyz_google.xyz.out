@@ -1,19 +1,32 @@
-registrar_id: 292
-registrar_name: MarkMonitor, Inc.
-registrar_organization: 
-registrar_phone: +1.2083895740
-registrar_email: abusecomplaints@markmonitor.com
-registrar_reseller: 
+
+domain
+id: D2689447-CNIC
+domain: google.xyz
+name: google
+extension: xyz
+status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
+dnssec: unsigned
 whois_server: whois.markmonitor.com
-referral_url: http://www.markmonitor.com
-domain_id: D2689447-CNIC
-domain_name: google.xyz
-domain_status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
+name_servers: ns3.google.com,ns1.google.com,ns4.google.com,ns2.google.com
 created_date: 2014-05-20T05:04:51-0700
 updated_date: 2018-10-25T02:32:20-0700
 expiration_date: 2019-11-26T00:00:00-0800
-name_servers: ns3.google.com,ns1.google.com,ns4.google.com,ns2.google.com
-domain_dnssec: unsigned
+
+registrar
+id: 292
+name: MarkMonitor, Inc.
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.2083895740
+phone_ext: 
+fax: 
+fax_ext: 
+email: abusecomplaints@markmonitor.com
+referral_url: http://www.markmonitor.com
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-admin
+administrative
 id: 
 name: 
 organization: Google LLC
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: Google LLC
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

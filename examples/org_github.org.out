@@ -1,19 +1,32 @@
-registrar_id: 48
-registrar_name: ENOM, INC.
-registrar_organization: 
-registrar_phone: +1.4259744689
-registrar_email: abuse@enom.com
-registrar_reseller: 
+
+domain
+id: D150926227-LROR
+domain: github.org
+name: github
+extension: org
+status: clienttransferprohibited
+dnssec: unsigned
 whois_server: WHOIS.ENOM.COM
-referral_url: WWW.ENOM.COM
-domain_id: D150926227-LROR
-domain_name: github.org
-domain_status: clienttransferprohibited
+name_servers: ns1.dnsimple.com,ns2.dnsimple.com,ns3.dnsimple.com,ns4.dnsimple.com
 created_date: 2008-02-09T02:07:00.00Z
 updated_date: 2019-01-11T08:26:28.00Z
 expiration_date: 2020-02-09T02:07:00.00Z
-name_servers: ns1.dnsimple.com,ns2.dnsimple.com,ns3.dnsimple.com,ns4.dnsimple.com
-domain_dnssec: unsigned
+
+registrar
+id: 48
+name: ENOM, INC.
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.4259744689
+phone_ext: 
+fax: 
+fax_ext: 
+email: abuse@enom.com
+referral_url: WWW.ENOM.COM
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: REDACTED FOR PRIVACY
 fax_ext: 
 email: https://tieredaccess.com/contact/e406a066-effd-4c8c-9f5b-483c6d2b37cf
+referral_url: 
 
-admin
+administrative
 id: 
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -44,8 +58,9 @@ phone_ext:
 fax: REDACTED FOR PRIVACY
 fax_ext: 
 email: redacted for privacy
+referral_url: 
 
-tech
+technical
 id: 
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -59,8 +74,9 @@ phone_ext:
 fax: REDACTED FOR PRIVACY
 fax_ext: 
 email: redacted for privacy
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

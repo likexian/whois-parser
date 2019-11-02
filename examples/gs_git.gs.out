@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: Name.com LLC
-registrar_organization: 
-registrar_phone: 
-registrar_email: 
-registrar_reseller: 
+
+domain
+id: 893204-CoCCA
+domain: git.gs
+name: git
+extension: gs
+status: clienttransferprohibited
+dnssec: unsigned
 whois_server: whois.coccaregistry.org
-referral_url: http://www.name.com
-domain_id: 893204-CoCCA
-domain_name: git.gs
-domain_status: clienttransferprohibited
+name_servers: ns1.linode.com,ns2.linode.com,ns3.linode.com,ns4.linode.com,ns5.linode.com
 created_date: 2013-04-19T12:25:43.248Z
 updated_date: 2019-03-28T17:14:27.619Z
 expiration_date: 2020-04-19T12:25:43.504Z
-name_servers: ns1.linode.com,ns2.linode.com,ns3.linode.com,ns4.linode.com,ns5.linode.com
-domain_dnssec: unsigned
+
+registrar
+id: 
+name: Name.com LLC
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: US
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: http://www.name.com
 
 registrant
 id: KbOC2-s0Ukx
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: bent@cloudkickr.com
+referral_url: 
 
-admin
+administrative
 id: fCYBx-a3j5K
 name: Bent Cardan
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: bent@cloudkickr.com
+referral_url: 
 
-tech
+technical
 id: CkmXA-xGQER
 name: Bent Cardan
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: bent@cloudkickr.com
+referral_url: 
 
-bill
+billing
 id: qZiUV-Bw9in
 name: Bent Cardan
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: bent@cloudkickr.com
+referral_url: 

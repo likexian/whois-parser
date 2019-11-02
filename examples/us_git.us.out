@@ -1,19 +1,32 @@
-registrar_id: 146
-registrar_name: GoDaddy.com, LLC
-registrar_organization: 
-registrar_phone: +1.4806242505
-registrar_email: abuse@godaddy.com
-registrar_reseller: 
+
+domain
+id: D1827192-US
+domain: git.us
+name: git
+extension: us
+status: clienttransferprohibited,clientupdateprohibited,clientrenewprohibited,clientdeleteprohibited
+dnssec: unsigned
 whois_server: whois.godaddy.com
-referral_url: http://www.godaddy.com
-domain_id: D1827192-US
-domain_name: git.us
-domain_status: clienttransferprohibited,clientupdateprohibited,clientrenewprohibited,clientdeleteprohibited
+name_servers: ns1.namefind.com,ns2.namefind.com
 created_date: 2002-04-24T15:27:59Z
 updated_date: 2019-04-03T10:09:33Z
 expiration_date: 2020-04-23T23:59:59Z
-name_servers: ns1.namefind.com,ns2.namefind.com
-domain_dnssec: unsigned
+
+registrar
+id: 146
+name: GoDaddy.com, LLC
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.4806242505
+phone_ext: 
+fax: 
+fax_ext: 
+email: abuse@godaddy.com
+referral_url: http://www.godaddy.com
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.us
+referral_url: 
 
-admin
+administrative
 id: 
 name: 
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.us
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.us
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

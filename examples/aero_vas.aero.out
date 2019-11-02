@@ -1,19 +1,32 @@
-registrar_id: 1011
-registrar_name: 101domain GRS Limited
-registrar_organization: 
-registrar_phone: 
-registrar_email: 
-registrar_reseller: 
+
+domain
+id: D920695-AERO
+domain: VAS.AERO
+name: vas
+extension: aero
+status: clienttransferprohibited
+dnssec: unsigned
 whois_server: 
-referral_url: 
-domain_id: D920695-AERO
-domain_name: VAS.AERO
-domain_status: clienttransferprohibited
+name_servers: ns1.clt.peak-10.com,ns1.jax.peak-10.com
 created_date: 2010-07-07T19:23:48Z
 updated_date: 2018-06-29T00:13:29Z
 expiration_date: 2021-07-07T19:23:48Z
-name_servers: ns1.clt.peak-10.com,ns1.jax.peak-10.com
-domain_dnssec: unsigned
+
+registrar
+id: 1011
+name: 101domain GRS Limited
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: 
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-admin
+administrative
 id: 
 name: 
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

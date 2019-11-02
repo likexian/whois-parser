@@ -1,19 +1,32 @@
-registrar_id: 81
-registrar_name: Gandi SAS
-registrar_organization: 
-registrar_phone: +33.170377661
-registrar_email: abuse@support.gandi.net
-registrar_reseller: 
+
+domain
+id: D44747703-CNIC
+domain: GIT.COOP
+name: git
+extension: coop
+status: clienttransferprohibited
+dnssec: unsigned
 whois_server: whois.gandi.net
-referral_url: http://www.gandi.net/
-domain_id: D44747703-CNIC
-domain_name: GIT.COOP
-domain_status: clienttransferprohibited
+name_servers: dns1.webarchitects.co.uk,dns0.webarchitects.co.uk,dns3.webarch.info,dns2.webarch.info
 created_date: 2017-02-22T14:29:09.0Z
 updated_date: 2019-03-21T09:46:54.0Z
 expiration_date: 2020-02-22T23:59:59.0Z
-name_servers: dns1.webarchitects.co.uk,dns0.webarchitects.co.uk,dns3.webarch.info,dns2.webarch.info
-domain_dnssec: unsigned
+
+registrar
+id: 81
+name: Gandi SAS
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +33.170377661
+phone_ext: 
+fax: 
+fax_ext: 
+email: abuse@support.gandi.net
+referral_url: http://www.gandi.net/
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+referral_url: 
 
-admin
+administrative
 id: 
 name: 
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+referral_url: 

@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: DOMENUS-SU
-registrar_organization: 
-registrar_phone: 
-registrar_email: 
-registrar_reseller: 
+
+domain
+id: 
+domain: GIT.SU
+name: git
+extension: su
+status: registered,delegated
+dnssec: 
 whois_server: 
-referral_url: 
-domain_id: 
-domain_name: GIT.SU
-domain_status: registered,delegated
+name_servers: d.ns.git.su,ns2.he.net,ns2.linode.com,ns3.he.net,ns4.he.net,ns4.linode.com,ns5.he.net,ns5.linode.com
 created_date: 2013-03-26T19:00:20Z
 updated_date: 
 expiration_date: 2020-03-26T20:00:20Z
-name_servers: d.ns.git.su,ns2.he.net,ns2.linode.com,ns3.he.net,ns4.he.net,ns4.linode.com,ns5.he.net,ns5.linode.com
-domain_dnssec: 
+
+registrar
+id: 
+name: DOMENUS-SU
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: 
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: mureninka@yandex.ru
+referral_url: 
 
-admin
+administrative
 id: 
 name: 
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: Digital Transformation Agency
-registrar_organization: 
-registrar_phone: 
-registrar_email: registrar@domainname.gov.au
-registrar_reseller: 
+
+domain
+id: D407400000002676463-AU
+domain: ACMA.GOV.AU
+name: acma.gov
+extension: au
+status: serverrenewprohibited
+dnssec: unsigned
 whois_server: whois.auda.org.au
-referral_url: https://www.domainname.gov.au/
-domain_id: D407400000002676463-AU
-domain_name: ACMA.GOV.AU
-domain_status: serverrenewprohibited
+name_servers: dns4.sge.net,dns2.sge.net,dns1.sge.net,dns3.sge.net
 created_date: 
 updated_date: 2019-04-06T22:20:08Z
 expiration_date: 
-name_servers: dns4.sge.net,dns2.sge.net,dns1.sge.net,dns3.sge.net
-domain_dnssec: unsigned
+
+registrar
+id: 
+name: Digital Transformation Agency
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: registrar@domainname.gov.au
+referral_url: https://www.domainname.gov.au/
 
 registrant
 id: OTHER GOVAU-DESI1000
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-admin
+administrative
 id: 
 name: 
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-tech
+technical
 id: GOVAU-DESI1001
 name: Nathan Penhaligon
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

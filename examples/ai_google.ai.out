@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: Markmonitor
-registrar_organization: 
-registrar_phone: +1.2083895740
-registrar_email: ccops@markmonitor.com
-registrar_reseller: 
+
+domain
+id: 325702_nic_ai
+domain: google.ai
+name: google
+extension: ai
+status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
+dnssec: unsigned
 whois_server: whois.nic.ai
-referral_url: 
-domain_id: 325702_nic_ai
-domain_name: google.ai
-domain_status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
+name_servers: ns3.zdns.google,ns4.zdns.google,ns1.zdns.google,ns2.zdns.google
 created_date: 2017-12-16T05:37:20.801Z
 updated_date: 2019-08-24T09:32:27.549Z
 expiration_date: 2021-09-25T05:37:20.856Z
-name_servers: ns3.zdns.google,ns4.zdns.google,ns1.zdns.google,ns2.zdns.google
-domain_dnssec: unsigned
+
+registrar
+id: 
+name: Markmonitor
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.2083895740
+phone_ext: 
+fax: 
+fax_ext: 
+email: ccops@markmonitor.com
+referral_url: 
 
 registrant
 id: s0WMj-qnEUI
@@ -29,8 +42,9 @@ phone_ext:
 fax: +1.6502530001
 fax_ext: 
 email: dns-admin@google.com
+referral_url: 
 
-admin
+administrative
 id: CcvUP-Jqpbv
 name: Domain Administrator
 organization: Google LLC
@@ -44,8 +58,9 @@ phone_ext:
 fax: +1.6502530001
 fax_ext: 
 email: dns-admin@google.com
+referral_url: 
 
-tech
+technical
 id: u5QWX-TzfM0
 name: Domain Administrator
 organization: Google LLC
@@ -59,8 +74,9 @@ phone_ext:
 fax: +1.6502530001
 fax_ext: 
 email: dns-admin@google.com
+referral_url: 
 
-bill
+billing
 id: jCELG-nkfg9
 name: CCOPS Billing
 organization: MarkMonitor Inc.
@@ -74,3 +90,4 @@ phone_ext:
 fax: +1.2083895771
 fax_ext: 
 email: ccopsbilling@markmonitor.com
+referral_url: 

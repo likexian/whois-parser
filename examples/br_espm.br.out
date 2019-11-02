@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: 
-registrar_organization: 
-registrar_phone: 
-registrar_email: 
-registrar_reseller: 
+
+domain
+id: 
+domain: espm.br
+name: espm
+extension: br
+status: published
+dnssec: 
 whois_server: 
-referral_url: 
-domain_id: 
-domain_name: espm.br
-domain_status: published
+name_servers: ns-1434.awsdns-51.org,ns-340.awsdns-42.com,ns-1751.awsdns-26.co.uk,ns-538.awsdns-03.net
 created_date: 19961206 #24302
 updated_date: 20150427
 expiration_date: 
-name_servers: ns-1434.awsdns-51.org,ns-340.awsdns-42.com,ns-1751.awsdns-26.co.uk,ns-538.awsdns-03.net
-domain_dnssec: 
+
+registrar
+id: 
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: 
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-admin
+administrative
 id: 
 name: Cosmo Luis Arrivabene
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-tech
+technical
 id: 
 name: Cosmo Luis Arrivabene
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-bill
+billing
 id: 
 name: Fabio Takeuti
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

@@ -1,19 +1,32 @@
-registrar_id: 801217
-registrar_name: Endurance Domains Technology LLP
-registrar_organization: 
-registrar_phone: 
-registrar_email: 
-registrar_reseller: 
+
+domain
+id: D509774-IN
+domain: git.in
+name: git
+extension: in
+status: clienttransferprohibited
+dnssec: unsigned
 whois_server: 
-referral_url: https://publicdomainregistry.com/
-domain_id: D509774-IN
-domain_name: git.in
-domain_status: clienttransferprohibited
+name_servers: ns1.parkingcrew.net,ns2.parkingcrew.net
 created_date: 2005-02-16T06:54:49Z
 updated_date: 2019-03-15T19:06:26Z
 expiration_date: 2020-02-16T06:54:49Z
-name_servers: ns1.parkingcrew.net,ns2.parkingcrew.net
-domain_dnssec: unsigned
+
+registrar
+id: 801217
+name: Endurance Domains Technology LLP
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: https://publicdomainregistry.com/
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: please contact the registrar listed above
+referral_url: 
 
-admin
+administrative
 id: 
 name: 
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: please contact the registrar listed above
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: please contact the registrar listed above
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

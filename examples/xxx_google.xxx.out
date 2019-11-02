@@ -1,19 +1,32 @@
-registrar_id: 292
-registrar_name: MarkMonitor Inc.
-registrar_organization: 
-registrar_phone: 
-registrar_email: 
-registrar_reseller: 
+
+domain
+id: D29317-AGRS
+domain: GOOGLE.XXX
+name: google
+extension: xxx
+status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
+dnssec: unsigned
 whois_server: 
-referral_url: http://www.markmonitor.com
-domain_id: D29317-AGRS
-domain_name: GOOGLE.XXX
-domain_status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
+name_servers: ns3.googledomains.com,ns1.googledomains.com,ns2.googledomains.com,ns4.googledomains.com
 created_date: 2011-12-01T21:25:32Z
 updated_date: 2018-10-30T09:36:37Z
 expiration_date: 2019-12-01T21:25:32Z
-name_servers: ns3.googledomains.com,ns1.googledomains.com,ns2.googledomains.com,ns4.googledomains.com
-domain_dnssec: unsigned
+
+registrar
+id: 292
+name: MarkMonitor Inc.
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: http://www.markmonitor.com
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-admin
+administrative
 id: 
 name: 
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: 
-registrar_organization: 
-registrar_phone: 
-registrar_email: 
-registrar_reseller: 
+
+domain
+id: 
+domain: WTO.INT
+name: wto
+extension: int
+status: 
+dnssec: 
 whois_server: 
-referral_url: 
-domain_id: 
-domain_name: WTO.INT
-domain_status: 
+name_servers: ns.unicc.org,ns1.gva.ch.colt.net
 created_date: 2001-09-10
 updated_date: 2019-02-21
 expiration_date: 
-name_servers: ns.unicc.org,ns1.gva.ch.colt.net
-domain_dnssec: 
+
+registrar
+id: 
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: 
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-admin
+administrative
 id: 
 name: Name Service Administrative Contact
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: +41 22 929 1412
 fax_ext: 
 email: ns-admin@unicc.org
+referral_url: 
 
-tech
+technical
 id: 
 name: Name Service Technical Contact
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: +41 22 929 1412
 fax_ext: 
 email: ns-tech@unicc.org
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

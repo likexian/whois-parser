@@ -1,19 +1,32 @@
-registrar_id: 146
-registrar_name: GoDaddy.com, LLC
-registrar_organization: 
-registrar_phone: +1.4806242505
-registrar_email: abuse@godaddy.com
-registrar_reseller: 
+
+domain
+id: D1602048-CO
+domain: GIT.CO
+name: git
+extension: co
+status: clienttransferprohibited,clientupdateprohibited,clientrenewprohibited,clientdeleteprohibited
+dnssec: unsigned
 whois_server: whois.godaddy.com
-referral_url: http://www.godaddy.com
-domain_id: D1602048-CO
-domain_name: GIT.CO
-domain_status: clienttransferprohibited,clientupdateprohibited,clientrenewprohibited,clientdeleteprohibited
+name_servers: dns1.stabletransit.com,dns2.stabletransit.com
 created_date: 2010-07-21T21:16:03Z
 updated_date: 2019-07-21T12:37:14Z
 expiration_date: 2020-07-20T23:59:59Z
-name_servers: dns1.stabletransit.com,dns2.stabletransit.com
-domain_dnssec: unsigned
+
+registrar
+id: 146
+name: GoDaddy.com, LLC
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.4806242505
+phone_ext: 
+fax: 
+fax_ext: 
+email: abuse@godaddy.com
+referral_url: http://www.godaddy.com
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.co
+referral_url: 
 
-admin
+administrative
 id: 
 name: 
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.co
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.co
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: GANDI
-registrar_organization: 
-registrar_phone: +33 1 70 37 76 61
-registrar_email: support@support.gandi.net
-registrar_reseller: 
+
+domain
+id: 
+domain: git.yt
+name: git
+extension: yt
+status: active
+dnssec: 
 whois_server: 
-referral_url: https://www.gandi.net/fr/tlds/fr/
-domain_id: 
-domain_name: git.yt
-domain_status: active
+name_servers: ns0.random.sh,ns1.random.sh,ns2.random.sh
 created_date: 2015-02-23T09:43:27Z
 updated_date: 2019-01-23T08:01:40Z
 expiration_date: 2020-02-23T09:43:27Z
-name_servers: ns0.random.sh,ns1.random.sh,ns2.random.sh
-domain_dnssec: 
+
+registrar
+id: 
+name: GANDI
+organization: 
+street: 63-65 boulevard Massena, 75013 PARIS
+city: 
+province: 
+postal_code: 
+country: FR
+phone: +33 1 70 37 76 61
+phone_ext: 
+fax: +33 1 43 73 18 51
+fax_ext: 
+email: support@support.gandi.net
+referral_url: https://www.gandi.net/fr/tlds/fr/
 
 registrant
 id: ANO00-FRNIC
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-admin
+administrative
 id: R12684-FRNIC
 name: random.sh
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: root+domains@random.sh
+referral_url: 
 
-tech
+technical
 id: GR283-FRNIC
 name: GANDI ROLE
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: noc@gandi.net
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

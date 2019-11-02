@@ -1,19 +1,32 @@
-registrar_id: 9999
-registrar_name: Merchant Law Group LLP
-registrar_organization: 
-registrar_phone: +1.3063597777
-registrar_email: info@get.love
-registrar_reseller: 
+
+domain
+id: D7924624-CNIC
+domain: GET.LOVE
+name: get
+extension: love
+status: ok
+dnssec: unsigned
 whois_server: whois.nic.love
-referral_url: https://get.love/
-domain_id: D7924624-CNIC
-domain_name: GET.LOVE
-domain_status: ok
+name_servers: ns01.merchantlaw.com,ns02.merchantlaw.com
 created_date: 2015-05-06T10:39:53.0Z
 updated_date: 2019-04-30T00:17:23.0Z
 expiration_date: 2020-05-06T23:59:59.0Z
-name_servers: ns01.merchantlaw.com,ns02.merchantlaw.com
-domain_dnssec: unsigned
+
+registrar
+id: 9999
+name: Merchant Law Group LLP
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.3063597777
+phone_ext: 
+fax: 
+fax_ext: 
+email: info@get.love
+referral_url: https://get.love/
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: +1.3065223299
 fax_ext: 
 email: info@get.love
+referral_url: 
 
-admin
+administrative
 id: 
 name: IT Manager
 organization: Merchant Law Group LLP
@@ -44,8 +58,9 @@ phone_ext:
 fax: +1.3065223299
 fax_ext: 
 email: info@get.love
+referral_url: 
 
-tech
+technical
 id: 
 name: IT Manager
 organization: Merchant Law Group LLP
@@ -59,8 +74,9 @@ phone_ext:
 fax: +1.3065223299
 fax_ext: 
 email: info@get.love
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

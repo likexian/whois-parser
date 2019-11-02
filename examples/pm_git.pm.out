@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: GRANSY s.r.o.
-registrar_organization: 
-registrar_phone: +420 732 954549
-registrar_email: info@subreg.cz
-registrar_reseller: 
+
+domain
+id: 
+domain: git.pm
+name: git
+extension: pm
+status: active
+dnssec: 
 whois_server: 
-referral_url: http://www.subreg.cz
-domain_id: 
-domain_name: git.pm
-domain_status: active
+name_servers: ns1.srna.sk,ns2.srna.sk
 created_date: 2013-07-18T16:17:05Z
 updated_date: 2019-06-12T07:35:08Z
 expiration_date: 2020-07-18T16:17:05Z
-name_servers: ns1.srna.sk,ns2.srna.sk
-domain_dnssec: 
+
+registrar
+id: 
+name: GRANSY s.r.o.
+organization: 
+street: Borivojova 35, 130 00 PRAGUE 3
+city: 
+province: 
+postal_code: 
+country: CZ
+phone: +420 732 954549
+phone_ext: 
+fax: 
+fax_ext: 
+email: info@subreg.cz
+referral_url: http://www.subreg.cz
 
 registrant
 id: TS6102-FRNIC
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: tomas@srna.sk
+referral_url: 
 
-admin
+administrative
 id: TS6101-FRNIC
 name: Tomá Srna
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: tomas@srna.net
+referral_url: 
 
-tech
+technical
 id: TS6101-FRNIC
 name: Tomá Srna
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: tomas@srna.net
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

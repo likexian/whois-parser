@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: MarkMonitor International Canada Ltd.
-registrar_organization: 
-registrar_phone: 
-registrar_email: 
-registrar_reseller: 
+
+domain
+id: D73081-CIRA
+domain: google.ca
+name: google
+extension: ca
+status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited,serverdeleteprohibited,servertransferprohibited,serverupdateprohibited
+dnssec: unsigned
 whois_server: whois.ca.fury.ca
-referral_url: Markmonitor.com
-domain_id: D73081-CIRA
-domain_name: google.ca
-domain_status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited,serverdeleteprohibited,servertransferprohibited,serverupdateprohibited
+name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
 created_date: 2000-10-04T02:21:23Z
 updated_date: 2019-04-28T04:04:23Z
 expiration_date: 2020-04-28T04:00:00Z
-name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
-domain_dnssec: unsigned
+
+registrar
+id: 
+name: MarkMonitor International Canada Ltd.
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: Markmonitor.com
 
 registrant
 id: 59969059-CIRA
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: dns-admin@google.com
+referral_url: 
 
-admin
+administrative
 id: 59969161-CIRA
 name: Lauren Johnston
 organization: Google LLC
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: dns-admin@google.com
+referral_url: 
 
-tech
+technical
 id: 59969161-CIRA
 name: Lauren Johnston
 organization: Google LLC
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: dns-admin@google.com
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

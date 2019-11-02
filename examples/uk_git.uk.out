@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: 123-Reg Limited t/a 123-reg [Tag = 123-REG]
-registrar_organization: 
-registrar_phone: 
-registrar_email: 
-registrar_reseller: 
+
+domain
+id: 
+domain: git.uk
+name: git
+extension: uk
+status: registered
+dnssec: 
 whois_server: 
-referral_url: http://www.123-reg.co.uk
-domain_id: 
-domain_name: git.uk
-domain_status: registered
+name_servers: ns.123-reg.co.uk,ns2.123-reg.co.uk
 created_date: 22-Oct-2017
 updated_date: 29-Jun-2019
 expiration_date: 22-Oct-2019
-name_servers: ns.123-reg.co.uk,ns2.123-reg.co.uk
-domain_dnssec: 
+
+registrar
+id: 
+name: 123-Reg Limited t/a 123-reg [Tag = 123-REG]
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: http://www.123-reg.co.uk
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-admin
+administrative
 id: 
 name: 
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: 
-registrar_organization: 
-registrar_phone: 
-registrar_email: 
-registrar_reseller: 
+
+domain
+id: 
+domain: US.EDU
+name: us
+extension: edu
+status: 
+dnssec: 
 whois_server: 
-referral_url: 
-domain_id: 
-domain_name: US.EDU
-domain_status: 
+name_servers: pdns02.domaincontrol.com,pdns01.domaincontrol.com
 created_date: 24-Aug-1995
 updated_date: 04-Jun-2018
 expiration_date: 31-Jul-2021
-name_servers: pdns02.domaincontrol.com,pdns01.domaincontrol.com
-domain_dnssec: 
+
+registrar
+id: 
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: 
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-admin
+administrative
 id: 
 name: Ross Duncan
 organization: University School
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: rduncan@us.edu
+referral_url: 
 
-tech
+technical
 id: 
 name: Lisa ulery
 organization: University School
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: nbrown@us.edu
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

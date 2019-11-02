@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: 1API GmbH
-registrar_organization: 
-registrar_phone: +49 6841 6984200
-registrar_email: info@1api.net
-registrar_reseller: 
+
+domain
+id: 
+domain: git.tf
+name: git
+extension: tf
+status: active
+dnssec: 
 whois_server: 
-referral_url: http://www.1api.net
-domain_id: 
-domain_name: git.tf
-domain_status: active
+name_servers: ns1.parkingcrew.net,ns2.parkingcrew.net
 created_date: 2019-01-20T04:16:05Z
 updated_date: 2019-01-21T15:35:50Z
 expiration_date: 2020-01-20T04:16:05Z
-name_servers: ns1.parkingcrew.net,ns2.parkingcrew.net
-domain_dnssec: 
+
+registrar
+id: 
+name: 1API GmbH
+organization: 
+street: Talstrasse 27, 66424 HOMBURG
+city: 
+province: 
+postal_code: 
+country: DE
+phone: +49 6841 6984200
+phone_ext: 
+fax: +49 6841 6984299
+fax_ext: 
+email: info@1api.net
+referral_url: http://www.1api.net
 
 registrant
 id: JN6975-FRNIC
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: jurgen@opus.ws
+referral_url: 
 
-admin
+administrative
 id: JN7243-FRNIC
 name: Jurgen Neeme
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: jurgen@opus.ws
+referral_url: 
 
-tech
+technical
 id: JN7243-FRNIC
 name: Jurgen Neeme
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: jurgen@opus.ws
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

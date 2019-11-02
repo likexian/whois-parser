@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: 
-registrar_organization: 
-registrar_phone: 
-registrar_email: 
-registrar_reseller: 
+
+domain
+id: 
+domain: GIT.EDU
+name: git
+extension: edu
+status: 
+dnssec: 
 whois_server: 
-referral_url: 
-domain_id: 
-domain_name: GIT.EDU
-domain_status: 
+name_servers: ns1.md-in-28.webhostbox.net,ns2.md-in-28.webhostbox.net
 created_date: 24-Dec-1998
 updated_date: 26-Sep-2019
 expiration_date: 31-Jul-2020
-name_servers: ns1.md-in-28.webhostbox.net,ns2.md-in-28.webhostbox.net
-domain_dnssec: 
+
+registrar
+id: 
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: 
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-admin
+administrative
 id: 
 name: Santosh Saraf
 organization: Gogte Institute of Technology
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: cc@git.edu
+referral_url: 
 
-tech
+technical
 id: 
 name: Santosh Saraf
 organization: Gogte Institute of Technology
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: cc@git.edu
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

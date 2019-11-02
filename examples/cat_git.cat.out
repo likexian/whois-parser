@@ -1,19 +1,32 @@
-registrar_id: 81
-registrar_name: GANDI SAS
-registrar_organization: 
-registrar_phone: +33.170377661
-registrar_email: abuse@support.gandi.net
-registrar_reseller: 
+
+domain
+id: UNDEF-ROID
+domain: git.cat
+name: git
+extension: cat
+status: clienttransferprohibited
+dnssec: Unsigned
 whois_server: whois.gandi.net
-referral_url: http://www.gandi.net
-domain_id: UNDEF-ROID
-domain_name: git.cat
-domain_status: clienttransferprohibited
+name_servers: ns1.smartgslb.com,ns2.smartgslb.com
 created_date: 2018-11-17T16:11:05Z
 updated_date: 2019-09-18T15:20:27Z
 expiration_date: 2019-11-17T16:11:05Z
-name_servers: ns1.smartgslb.com,ns2.smartgslb.com
-domain_dnssec: Unsigned
+
+registrar
+id: 81
+name: GANDI SAS
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +33.170377661
+phone_ext: 
+fax: 
+fax_ext: 
+email: abuse@support.gandi.net
+referral_url: http://www.gandi.net
 
 registrant
 id: REDACTED FOR PRIVACY
@@ -29,8 +42,9 @@ phone_ext:
 fax: REDACTED FOR PRIVACY
 fax_ext: 
 email: 2cd081e85316a178f93dba64aedfd467-11466628@contact.gandi.net
+referral_url: 
 
-admin
+administrative
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -44,8 +58,9 @@ phone_ext:
 fax: REDACTED FOR PRIVACY
 fax_ext: 
 email: e5f8b8e62c6cdf6cf1779d13d7979adb-11466632@contact.gandi.net
+referral_url: 
 
-tech
+technical
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -59,8 +74,9 @@ phone_ext:
 fax: REDACTED FOR PRIVACY
 fax_ext: 
 email: 0a099929a74cb35f7f1301344a022505-11466636@contact.gandi.net
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

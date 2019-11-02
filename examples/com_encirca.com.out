@@ -1,19 +1,32 @@
-registrar_id: 455
-registrar_name: EnCirca, Inc.
-registrar_organization: 
-registrar_phone: +1.7819429975
-registrar_email: abuse-2014-2@encirca.com
-registrar_reseller: 
+
+domain
+id: 4570310_DOMAIN_COM-VRSN
+domain: ENCIRCA.COM
+name: encirca
+extension: com
+status: clienttransferprohibited,clientdeleteprohibited
+dnssec: Unsigned
 whois_server: whois.encirca.com
-referral_url: http://www.encirca.com
-domain_id: 4570310_DOMAIN_COM-VRSN
-domain_name: ENCIRCA.COM
-domain_status: clienttransferprohibited,clientdeleteprohibited
+name_servers: dns3.encirca.com,dns4.encirca.com
 created_date: 1999-03-21T00:00:00Z
 updated_date: 2019-03-19T20:31:55Z
 expiration_date: 2022-03-22T04:00:00Z
-name_servers: dns3.encirca.com,dns4.encirca.com
-domain_dnssec: Unsigned
+
+registrar
+id: 455
+name: EnCirca, Inc.
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.7819429975
+phone_ext: 
+fax: 
+fax_ext: 
+email: abuse-2014-2@encirca.com
+referral_url: http://www.encirca.com
 
 registrant
 id: REDACTED FOR PRIVACY
@@ -29,8 +42,9 @@ phone_ext: REDACTED FOR PRIVACY
 fax: REDACTED FOR PRIVACY
 fax_ext: REDACTED FOR PRIVACY
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain.
+referral_url: 
 
-admin
+administrative
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -44,8 +58,9 @@ phone_ext: REDACTED FOR PRIVACY
 fax: REDACTED FOR PRIVACY
 fax_ext: REDACTED FOR PRIVACY
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain.
+referral_url: 
 
-tech
+technical
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -59,8 +74,9 @@ phone_ext: REDACTED FOR PRIVACY
 fax: REDACTED FOR PRIVACY
 fax_ext: REDACTED FOR PRIVACY
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain.
+referral_url: 
 
-bill
+billing
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -74,3 +90,4 @@ phone_ext: REDACTED FOR PRIVACY
 fax: REDACTED FOR PRIVACY
 fax_ext: REDACTED FOR PRIVACY
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain.
+referral_url: 

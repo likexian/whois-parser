@@ -1,19 +1,32 @@
-registrar_id: 1556
-registrar_name: Chengdu west dimension digital technology Co., LTD
-registrar_organization: 
-registrar_phone: +86.2862778877 ext 8359
-registrar_email: westabuse@gmail.com
-registrar_reseller: 
+
+domain
+id: whois protect
+domain: git.xyz
+name: git
+extension: xyz
+status: ok
+dnssec: signedDelegation
 whois_server: whois.west.cn
-referral_url: www.west.cn
-domain_id: whois protect
-domain_name: git.xyz
-domain_status: ok
+name_servers: ns1.myhostadmin.net,ns2.myhostadmin.net
 created_date: 2017-01-19T02:15:20.0Z
 updated_date: 2017-01-19T02:15:20.0Z
 expiration_date: 2020-01-19T23:59:59.0Z
-name_servers: ns1.myhostadmin.net,ns2.myhostadmin.net
-domain_dnssec: signedDelegation
+
+registrar
+id: 1556
+name: Chengdu west dimension digital technology Co., LTD
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +86.2862778877 ext 8359
+phone_ext: 
+fax: 
+fax_ext: 
+email: westabuse@gmail.com
+referral_url: www.west.cn
 
 registrant
 id: xyz4697443686140
@@ -29,8 +42,9 @@ phone_ext:
 fax: REDACTED FOR PRIVACY
 fax_ext: 
 email: link at https://www.west.cn/web/whoisform?domain=git.xyz
+referral_url: 
 
-admin
+administrative
 id: xyz4697443686140
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -44,8 +58,9 @@ phone_ext:
 fax: REDACTED FOR PRIVACY
 fax_ext: 
 email: link at https://www.west.cn/web/whoisform?domain=git.xyz
+referral_url: 
 
-tech
+technical
 id: xyz4697443686140
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -59,8 +74,9 @@ phone_ext:
 fax: REDACTED FOR PRIVACY
 fax_ext: 
 email: link at https://www.west.cn/web/whoisform?domain=git.xyz
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

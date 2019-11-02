@@ -1,19 +1,32 @@
-registrar_id: 85
-registrar_name: EPAG DOMAINSERVICES GmbH
-registrar_organization: 
-registrar_phone: +1.4165350123
-registrar_email: legal@tucows.com
-registrar_reseller: 
+
+domain
+id: 90094483_DOMAIN_JOBS-VRSN
+domain: YBS.JOBS
+name: ybs
+extension: jobs
+status: ok
+dnssec: unsigned
 whois_server: whois.enterprice.net
-referral_url: http://www.epag.de
-domain_id: 90094483_DOMAIN_JOBS-VRSN
-domain_name: YBS.JOBS
-domain_status: ok
+name_servers: ns0.ukfast.co.uk,ns1.ukfast.co.uk
 created_date: 2008-11-13T12:41:59Z
 updated_date: 2018-01-27T12:16:12Z
 expiration_date: 2019-11-13T12:41:59Z
-name_servers: ns0.ukfast.co.uk,ns1.ukfast.co.uk
-domain_dnssec: unsigned
+
+registrar
+id: 85
+name: EPAG DOMAINSERVICES GmbH
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.4165350123
+phone_ext: 
+fax: 
+fax_ext: 
+email: legal@tucows.com
+referral_url: http://www.epag.de
 
 registrant
 id: REDACTED FOR PRIVACY
@@ -29,8 +42,9 @@ phone_ext: REDACTED FOR PRIVACY
 fax: REDACTED FOR PRIVACY
 fax_ext: REDACTED FOR PRIVACY
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain.
+referral_url: 
 
-admin
+administrative
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -44,8 +58,9 @@ phone_ext: REDACTED FOR PRIVACY
 fax: REDACTED FOR PRIVACY
 fax_ext: REDACTED FOR PRIVACY
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain.
+referral_url: 
 
-tech
+technical
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -59,8 +74,9 @@ phone_ext: REDACTED FOR PRIVACY
 fax: REDACTED FOR PRIVACY
 fax_ext: REDACTED FOR PRIVACY
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain.
+referral_url: 
 
-bill
+billing
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -74,3 +90,4 @@ phone_ext: REDACTED FOR PRIVACY
 fax: REDACTED FOR PRIVACY
 fax_ext: REDACTED FOR PRIVACY
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain.
+referral_url: 

@@ -92,7 +92,7 @@ func TestWhoisParser(t *testing.T) {
 		if !assert.IsContains([]string{"aq", "br", "ch", "de", "edu", "eu", "fr", "gov", "hk",
 			"hm", "int", "it", "jp", "kr", "mo", "nl", "nz", "pm", "re", "ro", "ru", "su", "tf",
 			"tk", "travel", "tv", "tw", "uk", "wf", "yt"}, extension) {
-			assert.NotZero(t, whoisInfo.Domain.Id)
+			assert.NotZero(t, whoisInfo.Domain.ID)
 		}
 
 		if !assert.IsContains([]string{"ch", "edu", "eu", "int", "kr", "mo", "tw"}, extension) {
@@ -147,22 +147,34 @@ func TestWhoisParser(t *testing.T) {
 		}
 
 		content := ""
-		content += fmt.Sprintf("registrar_id: %s\n", whoisInfo.Registrar.ID)
-		content += fmt.Sprintf("registrar_name: %s\n", whoisInfo.Registrar.Name)
-		content += fmt.Sprintf("registrar_organization: %s\n", whoisInfo.Registrar.Organization)
-		content += fmt.Sprintf("registrar_phone: %s\n", whoisInfo.Registrar.Phone)
-		content += fmt.Sprintf("registrar_email: %s\n", whoisInfo.Registrar.Email)
-		content += fmt.Sprintf("registrar_reseller: %s\n", "")
+		content += fmt.Sprintf("\ndomain\n")
+		content += fmt.Sprintf("id: %s\n", whoisInfo.Domain.ID)
+		content += fmt.Sprintf("domain: %s\n", whoisInfo.Domain.Domain)
+		content += fmt.Sprintf("name: %s\n", whoisInfo.Domain.Name)
+		content += fmt.Sprintf("extension: %s\n", whoisInfo.Domain.Extension)
+		content += fmt.Sprintf("status: %s\n", whoisInfo.Domain.Status)
+		content += fmt.Sprintf("dnssec: %s\n", whoisInfo.Domain.DNSSEC)
 		content += fmt.Sprintf("whois_server: %s\n", whoisInfo.Domain.WhoisServer)
-		content += fmt.Sprintf("referral_url: %s\n", whoisInfo.Registrar.ReferralURL)
-		content += fmt.Sprintf("domain_id: %s\n", whoisInfo.Domain.Id)
-		content += fmt.Sprintf("domain_name: %s\n", whoisInfo.Domain.Domain)
-		content += fmt.Sprintf("domain_status: %s\n", whoisInfo.Domain.Status)
+		content += fmt.Sprintf("name_servers: %s\n", whoisInfo.Domain.NameServers)
 		content += fmt.Sprintf("created_date: %s\n", whoisInfo.Domain.CreatedDate)
 		content += fmt.Sprintf("updated_date: %s\n", whoisInfo.Domain.UpdatedDate)
 		content += fmt.Sprintf("expiration_date: %s\n", whoisInfo.Domain.ExpirationDate)
-		content += fmt.Sprintf("name_servers: %s\n", whoisInfo.Domain.NameServers)
-		content += fmt.Sprintf("domain_dnssec: %s\n", whoisInfo.Domain.DNSSEC)
+
+		content += fmt.Sprintf("\nregistrar\n")
+		content += fmt.Sprintf("id: %s\n", whoisInfo.Registrar.ID)
+		content += fmt.Sprintf("name: %s\n", whoisInfo.Registrar.Name)
+		content += fmt.Sprintf("organization: %s\n", whoisInfo.Registrar.Organization)
+		content += fmt.Sprintf("street: %s\n", whoisInfo.Registrar.Street)
+		content += fmt.Sprintf("city: %s\n", whoisInfo.Registrar.City)
+		content += fmt.Sprintf("province: %s\n", whoisInfo.Registrar.Province)
+		content += fmt.Sprintf("postal_code: %s\n", whoisInfo.Registrar.PostalCode)
+		content += fmt.Sprintf("country: %s\n", whoisInfo.Registrar.Country)
+		content += fmt.Sprintf("phone: %s\n", whoisInfo.Registrar.Phone)
+		content += fmt.Sprintf("phone_ext: %s\n", whoisInfo.Registrar.PhoneExt)
+		content += fmt.Sprintf("fax: %s\n", whoisInfo.Registrar.Fax)
+		content += fmt.Sprintf("fax_ext: %s\n", whoisInfo.Registrar.FaxExt)
+		content += fmt.Sprintf("email: %s\n", whoisInfo.Registrar.Email)
+		content += fmt.Sprintf("referral_url: %s\n", whoisInfo.Registrar.ReferralURL)
 
 		content += fmt.Sprintf("\nregistrant\n")
 		content += fmt.Sprintf("id: %s\n", whoisInfo.Registrant.ID)
@@ -178,8 +190,9 @@ func TestWhoisParser(t *testing.T) {
 		content += fmt.Sprintf("fax: %s\n", whoisInfo.Registrant.Fax)
 		content += fmt.Sprintf("fax_ext: %s\n", whoisInfo.Registrant.FaxExt)
 		content += fmt.Sprintf("email: %s\n", whoisInfo.Registrant.Email)
+		content += fmt.Sprintf("referral_url: %s\n", whoisInfo.Registrant.ReferralURL)
 
-		content += fmt.Sprintf("\nadmin\n")
+		content += fmt.Sprintf("\nadministrative\n")
 		content += fmt.Sprintf("id: %s\n", whoisInfo.Administrative.ID)
 		content += fmt.Sprintf("name: %s\n", whoisInfo.Administrative.Name)
 		content += fmt.Sprintf("organization: %s\n", whoisInfo.Administrative.Organization)
@@ -193,8 +206,9 @@ func TestWhoisParser(t *testing.T) {
 		content += fmt.Sprintf("fax: %s\n", whoisInfo.Administrative.Fax)
 		content += fmt.Sprintf("fax_ext: %s\n", whoisInfo.Administrative.FaxExt)
 		content += fmt.Sprintf("email: %s\n", whoisInfo.Administrative.Email)
+		content += fmt.Sprintf("referral_url: %s\n", whoisInfo.Administrative.ReferralURL)
 
-		content += fmt.Sprintf("\ntech\n")
+		content += fmt.Sprintf("\ntechnical\n")
 		content += fmt.Sprintf("id: %s\n", whoisInfo.Technical.ID)
 		content += fmt.Sprintf("name: %s\n", whoisInfo.Technical.Name)
 		content += fmt.Sprintf("organization: %s\n", whoisInfo.Technical.Organization)
@@ -208,8 +222,9 @@ func TestWhoisParser(t *testing.T) {
 		content += fmt.Sprintf("fax: %s\n", whoisInfo.Technical.Fax)
 		content += fmt.Sprintf("fax_ext: %s\n", whoisInfo.Technical.FaxExt)
 		content += fmt.Sprintf("email: %s\n", whoisInfo.Technical.Email)
+		content += fmt.Sprintf("referral_url: %s\n", whoisInfo.Technical.ReferralURL)
 
-		content += fmt.Sprintf("\nbill\n")
+		content += fmt.Sprintf("\nbilling\n")
 		content += fmt.Sprintf("id: %s\n", whoisInfo.Billing.ID)
 		content += fmt.Sprintf("name: %s\n", whoisInfo.Billing.Name)
 		content += fmt.Sprintf("organization: %s\n", whoisInfo.Billing.Organization)
@@ -223,6 +238,7 @@ func TestWhoisParser(t *testing.T) {
 		content += fmt.Sprintf("fax: %s\n", whoisInfo.Billing.Fax)
 		content += fmt.Sprintf("fax_ext: %s\n", whoisInfo.Billing.FaxExt)
 		content += fmt.Sprintf("email: %s\n", whoisInfo.Billing.Email)
+		content += fmt.Sprintf("referral_url: %s\n", whoisInfo.Billing.ReferralURL)
 
 		err = xfile.WriteText("./examples/"+v.Name+".out", content)
 		assert.Nil(t, err)

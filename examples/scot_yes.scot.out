@@ -1,19 +1,32 @@
-registrar_id: 15
-registrar_name: COREhub
-registrar_organization: 
-registrar_phone: +34.935275235
-registrar_email: abuse@corehub.net
-registrar_reseller: 
+
+domain
+id: D23-SCOT
+domain: yes.scot
+name: yes
+extension: scot
+status: ok
+dnssec: unsigned
 whois_server: whois.corehub.net
-referral_url: http://corehub.net
-domain_id: D23-SCOT
-domain_name: yes.scot
-domain_status: ok
+name_servers: ns-656.awsdns-18.net,ns-319.awsdns-39.com,ns-1031.awsdns-00.org,ns-1938.awsdns-50.co.uk
 created_date: 2014-07-15T12:05:57.342Z
 updated_date: 2019-08-29T12:08:46.864Z
 expiration_date: 2020-07-15T12:05:57.342Z
-name_servers: ns-656.awsdns-18.net,ns-319.awsdns-39.com,ns-1031.awsdns-00.org,ns-1938.awsdns-50.co.uk
-domain_dnssec: unsigned
+
+registrar
+id: 15
+name: COREhub
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +34.935275235
+phone_ext: 
+fax: 
+fax_ext: 
+email: abuse@corehub.net
+referral_url: http://corehub.net
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: please query the whois service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+referral_url: 
 
-admin
+administrative
 id: 
 name: 
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: please query the whois service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: please query the whois service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

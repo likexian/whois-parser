@@ -1,19 +1,32 @@
-registrar_id: 1479
-registrar_name: NameSilo, LLC
-registrar_organization: 
-registrar_phone: 
-registrar_email: 
-registrar_reseller: 
+
+domain
+id: D425500000052489785-AGRS
+domain: GIT.ASIA
+name: git
+extension: asia
+status: clienttransferprohibited,autorenewperiod
+dnssec: unsigned
 whois_server: 
-referral_url: 
-domain_id: D425500000052489785-AGRS
-domain_name: GIT.ASIA
-domain_status: clienttransferprohibited,autorenewperiod
+name_servers: ns1.dnsowl.com,ns2.dnsowl.com,ns3.dnsowl.com
 created_date: 2018-09-27T13:26:20Z
 updated_date: 2019-09-27T22:24:16Z
 expiration_date: 2020-09-27T13:26:20Z
-name_servers: ns1.dnsowl.com,ns2.dnsowl.com,ns3.dnsowl.com
-domain_dnssec: unsigned
+
+registrar
+id: 1479
+name: NameSilo, LLC
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: 
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-admin
+administrative
 id: 
 name: 
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: Catalyst DNS Administrator
-registrar_organization: 
-registrar_phone: +64 4 499 2267
-registrar_email: dns@catalyst.net.nz
-registrar_reseller: 
+
+domain
+id: 
+domain: vote.nz
+name: vote
+extension: nz
+status: 200
+dnssec: no
 whois_server: 
-referral_url: 
-domain_id: 
-domain_name: vote.nz
-domain_status: 200
+name_servers: ns3.catalyst.net.nz,ns4.catalyst.net.nz,ns1.catalyst.net.nz,ns2.catalyst.net.nz
 created_date: 
 updated_date: 2019-10-12T23:35:35+13:00
 expiration_date: 
-name_servers: ns3.catalyst.net.nz,ns4.catalyst.net.nz,ns1.catalyst.net.nz,ns2.catalyst.net.nz
-domain_dnssec: no
+
+registrar
+id: 
+name: Catalyst DNS Administrator
+organization: 
+street: PO Box 11-053
+city: Wellington
+province: 
+postal_code: 
+country: NZ (NEW ZEALAND)
+phone: +64 4 499 2267
+phone_ext: 
+fax: 
+fax_ext: 
+email: dns@catalyst.net.nz
+referral_url: 
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-admin
+administrative
 id: 
 name: 
 organization: 
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: 
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

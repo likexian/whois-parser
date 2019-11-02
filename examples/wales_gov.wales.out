@@ -1,19 +1,32 @@
-registrar_id: 1345
-registrar_name: Key-Systems, LLC
-registrar_organization: 
-registrar_phone: +49.68949396850
-registrar_email: abuse@key-systems.net
-registrar_reseller: 
+
+domain
+id: gov-WALES
+domain: GOV.WALES
+name: gov
+extension: wales
+status: clienttransferprohibited
+dnssec: unsigned
 whois_server: 
-referral_url: http://www.key-systems.net
-domain_id: gov-WALES
-domain_name: GOV.WALES
-domain_status: clienttransferprohibited
+name_servers: ns3.ja.net,ns0.ja.net,ns4.ja.net,ns2.ja.net
 created_date: 2015-01-14T13:49:09Z
 updated_date: 2019-10-01T10:07:25Z
 expiration_date: 2020-01-14T13:49:09Z
-name_servers: ns3.ja.net,ns0.ja.net,ns4.ja.net,ns2.ja.net
-domain_dnssec: unsigned
+
+registrar
+id: 1345
+name: Key-Systems, LLC
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +49.68949396850
+phone_ext: 
+fax: 
+fax_ext: 
+email: abuse@key-systems.net
+referral_url: http://www.key-systems.net
 
 registrant
 id: REDACTED FOR PRIVACY
@@ -29,8 +42,9 @@ phone_ext:
 fax: REDACTED FOR PRIVACY
 fax_ext: 
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+referral_url: 
 
-admin
+administrative
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -44,8 +58,9 @@ phone_ext:
 fax: REDACTED FOR PRIVACY
 fax_ext: 
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+referral_url: 
 
-tech
+technical
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -59,8 +74,9 @@ phone_ext:
 fax: REDACTED FOR PRIVACY
 fax_ext: 
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+referral_url: 
 
-bill
+billing
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -74,3 +90,4 @@ phone_ext:
 fax: REDACTED FOR PRIVACY
 fax_ext: 
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+referral_url: 

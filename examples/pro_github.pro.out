@@ -1,19 +1,32 @@
-registrar_id: 292
-registrar_name: MarkMonitor, Inc.
-registrar_organization: 
-registrar_phone: +1.2083895740
-registrar_email: abusecomplaints@markmonitor.com
-registrar_reseller: 
+
+domain
+id: D107300000001426087-LRMS
+domain: github.pro
+name: github
+extension: pro
+status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
+dnssec: unsigned
 whois_server: whois.markmonitor.com
-referral_url: http://www.markmonitor.com
-domain_id: D107300000001426087-LRMS
-domain_name: github.pro
-domain_status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
+name_servers: ns1.p16.dynect.net,ns2.p16.dynect.net,ns4.p16.dynect.net,ns3.p16.dynect.net
 created_date: 2015-11-25T12:29:48-0800
 updated_date: 2017-10-25T02:11:44-0700
 expiration_date: 2019-11-25T00:00:00-0800
-name_servers: ns1.p16.dynect.net,ns2.p16.dynect.net,ns4.p16.dynect.net,ns3.p16.dynect.net
-domain_dnssec: unsigned
+
+registrar
+id: 292
+name: MarkMonitor, Inc.
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.2083895740
+phone_ext: 
+fax: 
+fax_ext: 
+email: abusecomplaints@markmonitor.com
+referral_url: http://www.markmonitor.com
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-admin
+administrative
 id: 
 name: 
 organization: GitHub, Inc.
@@ -44,8 +58,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-tech
+technical
 id: 
 name: 
 organization: GitHub, Inc.
@@ -59,8 +74,9 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

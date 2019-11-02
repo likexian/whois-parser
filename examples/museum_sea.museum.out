@@ -1,19 +1,32 @@
-registrar_id: 111
-registrar_name: Secura GmbH
-registrar_organization: 
-registrar_phone: +49 221 2571213
-registrar_email: abuse@domainregistry.de
-registrar_reseller: 
+
+domain
+id: DOM000000582523-MUSEUM
+domain: sea.museum
+name: sea
+extension: museum
+status: clienttransferprohibited
+dnssec: unsigned
 whois_server: whois.nic.museum
-referral_url: 
-domain_id: DOM000000582523-MUSEUM
-domain_name: sea.museum
-domain_status: clienttransferprohibited
+name_servers: ns01.trademarkarea.com,ns02.trademarkearea.com,ns03.trademarkarea.com
 created_date: 2018-10-23T14:02:32Z
 updated_date: 2019-04-30T07:34:28Z
 expiration_date: 2019-10-23T14:02:33Z
-name_servers: ns01.trademarkarea.com,ns02.trademarkearea.com,ns03.trademarkarea.com
-domain_dnssec: unsigned
+
+registrar
+id: 111
+name: Secura GmbH
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: +49 221 2571213
+phone_ext: 
+fax: 
+fax_ext: 
+email: abuse@domainregistry.de
+referral_url: 
 
 registrant
 id: REDACTED FOR PRIVACY
@@ -29,8 +42,9 @@ phone_ext:
 fax: REDACTED FOR PRIVACY
 fax_ext: 
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+referral_url: 
 
-admin
+administrative
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -44,8 +58,9 @@ phone_ext:
 fax: REDACTED FOR PRIVACY
 fax_ext: 
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+referral_url: 
 
-tech
+technical
 id: REDACTED FOR PRIVACY
 name: REDACTED FOR PRIVACY
 organization: REDACTED FOR PRIVACY
@@ -59,8 +74,9 @@ phone_ext:
 fax: REDACTED FOR PRIVACY
 fax_ext: 
 email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
+referral_url: 
 
-bill
+billing
 id: 
 name: 
 organization: 
@@ -74,3 +90,4 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
+referral_url: 

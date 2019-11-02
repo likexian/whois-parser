@@ -1,19 +1,32 @@
-registrar_id: 
-registrar_name: 
-registrar_organization: 
-registrar_phone: 
-registrar_email: 
-registrar_reseller: 
+
+domain
+id: 
+domain: yp.mo
+name: yp
+extension: mo
+status: 
+dnssec: 
 whois_server: 
-referral_url: 
-domain_id: 
-domain_name: yp.mo
-domain_status: 
+name_servers: kim.ns.cloudflare.com,art.ns.cloudflare.com
 created_date: 2005-04-15 21:43:27
 updated_date: 
 expiration_date: 2020-11-02
-name_servers: kim.ns.cloudflare.com,art.ns.cloudflare.com
-domain_dnssec: 
+
+registrar
+id: 
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: 
 
 registrant
 id: 
@@ -29,8 +42,9 @@ phone_ext:
 fax: 28517523
 fax_ext: 
 email: george@yp.mo
+referral_url: 
 
-admin
+administrative
 id: 
 name: Simon Leung
 organization: Directel Macau Ltd.
@@ -44,8 +58,9 @@ phone_ext:
 fax: 28517523
 fax_ext: 
 email: domain@yp.com.mo
+referral_url: 
 
-tech
+technical
 id: 
 name: Simon Leung
 organization: Directel Macau Ltd.
@@ -59,8 +74,9 @@ phone_ext:
 fax: 28517523
 fax_ext: 
 email: simon.leung@yp.com.mo
+referral_url: 
 
-bill
+billing
 id: 
 name: Eliza Loi
 organization: Directel Macau Ltd.
@@ -74,3 +90,4 @@ phone_ext:
 fax: 28517523
 fax_ext: 
 email: eliza.loi@yp.com.mo
+referral_url: 
