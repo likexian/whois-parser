@@ -10,6 +10,9 @@ If there is any problems, please feel free to open a new issue.
 
 | extension | whois | output | verified |
 | --------- | ----- | ------ | :------: |
+| . | [cn](cn_cn) | [cn](cn_cn.out) | √ |
+| . | [com](com_com) | [com](com_com.out) | √ |
+| . | [google](google_google) | [google](google_google.out) | √ |
 | .ac | [git.ac](ac_git.ac) | [git.ac](ac_git.ac.out) | √ |
 | .ac | [google.ac](ac_google.ac) | [google.ac](ac_google.ac.out) | √ |
 | .aero | [google.aero](aero_google.aero) | [google.aero](aero_google.aero.out) | √ |

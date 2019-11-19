@@ -74,7 +74,10 @@ func TestWhoisParser(t *testing.T) {
 		}
 
 		domain := strings.Split(v.Name, "_")[1]
-		extension := domain[strings.LastIndex(domain, ".")+1:]
+		extension := ""
+		if strings.Contains(v.Name, ".") {
+			extension = domain[strings.LastIndex(domain, ".")+1:]
+		}
 
 		if assert.IsContains([]string{"pre", "out"}, extension) {
 			continue
@@ -89,7 +92,7 @@ func TestWhoisParser(t *testing.T) {
 		assert.Equal(t, strings.ToLower(whoisInfo.Domain.Domain), domain)
 		assert.Equal(t, strings.ToLower(whoisInfo.Domain.Extension), extension)
 
-		if !assert.IsContains([]string{"aq", "br", "ch", "de", "edu", "eu", "fr", "gov", "hk",
+		if !assert.IsContains([]string{"", "aq", "br", "ch", "de", "edu", "eu", "fr", "gov", "hk",
 			"hm", "int", "it", "jp", "kr", "mo", "nl", "nz", "pm", "re", "ro", "ru", "su", "tf",
 			"tk", "travel", "tv", "tw", "uk", "wf", "yt"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.ID)
@@ -99,7 +102,7 @@ func TestWhoisParser(t *testing.T) {
 			assert.NotZero(t, whoisInfo.Domain.Status)
 		}
 
-		if !assert.IsContains([]string{"aq", "br", "de", "edu", "eu", "fr", "gov", "hm", "int",
+		if !assert.IsContains([]string{"", "aq", "br", "de", "edu", "eu", "fr", "gov", "hm", "int",
 			"jp", "mo", "name", "pm", "re", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.DNSSEC)
 		}
@@ -124,23 +127,23 @@ func TestWhoisParser(t *testing.T) {
 			assert.NotZero(t, whoisInfo.Domain.UpdatedDate)
 		}
 
-		if !assert.IsContains([]string{"aq", "au", "br", "ch", "de", "eu", "gov",
+		if !assert.IsContains([]string{"", "aq", "au", "br", "ch", "de", "eu", "gov",
 			"hm", "int", "name", "nl", "nz"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.ExpirationDate)
 		}
 
-		if !assert.IsContains([]string{"ai", "aq", "au", "br", "ca", "ch", "cn", "cx", "de",
+		if !assert.IsContains([]string{"", "ai", "aq", "au", "br", "ca", "ch", "cn", "cx", "de",
 			"edu", "eu", "fr", "gov", "gs", "hk", "hm", "int", "it", "jp", "kr", "la", "mo", "nl",
 			"nz", "pm", "re", "ro", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt"}, extension) {
 			assert.NotZero(t, whoisInfo.Registrar.ID)
 		}
 
-		if !assert.IsContains([]string{"aq", "br", "de",
+		if !assert.IsContains([]string{"", "aq", "br", "de",
 			"edu", "gov", "hm", "int", "jp", "mo", "tk"}, extension) {
 			assert.NotZero(t, whoisInfo.Registrar.Name)
 		}
 
-		if !assert.IsContains([]string{"aero", "ai", "aq", "asia", "au", "br", "ch", "cn", "de",
+		if !assert.IsContains([]string{"", "aero", "ai", "aq", "asia", "au", "br", "ch", "cn", "de",
 			"edu", "gov", "hk", "hm", "int", "jp", "kr", "la", "london", "love", "mo",
 			"museum", "name", "nl", "nz", "ru", "su", "tk", "top"}, extension) {
 			assert.NotZero(t, whoisInfo.Registrar.ReferralURL)
@@ -260,8 +263,12 @@ func TestWhoisParser(t *testing.T) {
 	for _, k := range exts {
 		sort.Strings(domains[k])
 		for _, vv := range domains[k] {
+			kk := k
+			if kk == "" {
+				kk = vv
+			}
 			verified += fmt.Sprintf("| .%s | [%s](%s_%s) | [%s](%s_%s.out) | √ |\n",
-				k, vv, k, vv, vv, k, vv)
+				k, vv, kk, vv, vv, kk, vv)
 		}
 	}
 

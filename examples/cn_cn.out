@@ -1,0 +1,93 @@
+
+domain
+id: 
+domain: CN
+name: cn
+extension: 
+status: active
+dnssec: 
+whois_server: whois.cnnic.cn
+name_servers: a.dns.cn,b.dns.cn,c.dns.cn,d.dns.cn,e.dns.cn,f.dns.cn,g.dns.cn,ns.cernet.net
+created_date: 1990-11-28
+updated_date: 2018-03-01
+expiration_date: 
+
+registrar
+id: 
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: 
+
+registrant
+id: 
+name: 
+organization: China Internet Network Information Center (CNNIC)
+street: No. 4, South 4th Street, Zhong Guan Cun, Beijing  100190, China
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: 
+
+administrative
+id: 
+name: Yu Zeng
+organization: China Internet Network Information Center (CNNIC)
+street: No. 4, South 4th Street, Zhong Guan Cun, Beijing  100190, China
+city: 
+province: 
+postal_code: 
+country: 
+phone: +8610-58813686
+phone_ext: 
+fax: +8610-58813632
+fax_ext: 
+email: ceo@cnnic.cn
+referral_url: 
+
+technical
+id: 
+name: Yuedong Zhang
+organization: China Internet Network Information Center (CNNIC)
+street: No. 4, South 4th Street, Zhong Guan Cun, Beijing  100190, China
+city: 
+province: 
+postal_code: 
+country: 
+phone: +8610-58813202
+phone_ext: 
+fax: +8610-58812666
+fax_ext: 
+email: tech@cnnic.cn
+referral_url: 
+
+billing
+id: 
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: 

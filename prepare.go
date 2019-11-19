@@ -34,6 +34,8 @@ func Prepare(text, ext string) (string, bool) {
 	text = strings.TrimSpace(text)
 
 	switch ext {
+	case "":
+		return prepareTLD(text), true
 	case "edu":
 		return prepareEDU(text), true
 	case "int":
@@ -71,6 +73,38 @@ func Prepare(text, ext string) (string, bool) {
 	default:
 		return text, false
 	}
+}
+
+// prepareTLD do prepare the tld domain
+func prepareTLD(text string) string {
+	token := ""
+	result := ""
+
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if v == "" {
+			token = ""
+			continue
+		}
+		if strings.Contains(v, ":") {
+			vs := strings.Split(v, ":")
+			if strings.TrimSpace(vs[0]) == "organisation" {
+				if token == "" {
+					token = "registrant"
+				}
+			}
+			if strings.TrimSpace(vs[0]) == "contact" {
+				token = strings.TrimSpace(vs[1])
+			} else {
+				if token != "" {
+					v = fmt.Sprintf("%s %s", token, v)
+				}
+			}
+		}
+		result += "\n" + v
+	}
+
+	return result
 }
 
 // prepareEDU do prepare the .edu domain

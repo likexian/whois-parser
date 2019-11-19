@@ -37,6 +37,7 @@ var (
 		"registrar dnssec":                       "domain_dnssec",
 		"signing key":                            "domain_dnssec",
 		"domain signed":                          "domain_dnssec",
+		"whois":                                  "whois_server",
 		"whois server":                           "whois_server",
 		"registrar whois server":                 "whois_server",
 		"nserver":                                "name_servers",

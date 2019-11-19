@@ -1,0 +1,44 @@
+% IANA WHOIS server
+% for more information on IANA, visit http://www.iana.org
+% This query returned 1 object
+domain:       CN
+registrant organisation: China Internet Network Information Center (CNNIC)
+registrant address:      No. 4, South 4th Street
+registrant address:      Zhong Guan Cun
+registrant address:      Beijing  100190
+registrant address:      China
+contact:      administrative
+administrative name:         Yu Zeng
+administrative organisation: China Internet Network Information Center (CNNIC)
+administrative address:      No. 4, South 4th Street
+administrative address:      Zhong Guan Cun
+administrative address:      Beijing  100190
+administrative address:      China
+administrative phone:        +8610-58813686
+administrative fax-no:       +8610-58813632
+administrative e-mail:       ceo@cnnic.cn
+contact:      technical
+technical name:         Yuedong Zhang
+technical organisation: China Internet Network Information Center (CNNIC)
+technical address:      No. 4, South 4th Street
+technical address:      Zhong Guan Cun
+technical address:      Beijing  100190
+technical address:      China
+technical phone:        +8610-58813202
+technical fax-no:       +8610-58812666
+technical e-mail:       tech@cnnic.cn
+nserver:      A.DNS.CN 2001:dc7:0:0:0:0:0:1 203.119.25.1
+nserver:      B.DNS.CN 203.119.26.1
+nserver:      C.DNS.CN 203.119.27.1
+nserver:      D.DNS.CN 2001:dc7:1000:0:0:0:0:1 203.119.28.1
+nserver:      E.DNS.CN 203.119.29.1
+nserver:      F.DNS.CN 195.219.8.90
+nserver:      G.DNS.CN 66.198.183.65
+nserver:      NS.CERNET.NET 202.112.0.44
+ds-rdata:     57724 8 2 5D0423633EB24A499BE78AA22D1C0C9BA36218FF49FD95A4CDF1A4AD97C67044
+whois:        whois.cnnic.cn
+status:       ACTIVE
+remarks:      Registration information: http://www.cnnic.cn/
+created:      1990-11-28
+changed:      2018-03-01
+source:       IANA

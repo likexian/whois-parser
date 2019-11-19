@@ -1,0 +1,38 @@
+% IANA WHOIS server
+% for more information on IANA, visit http://www.iana.org
+% This query returned 1 object
+domain:       GOOGLE
+registrant organisation: Charleston Road Registry Inc.
+registrant address:      1600 Amphitheatre Parkway
+registrant address:      Mountain View, CA 94043
+registrant address:      United States
+contact:      administrative
+administrative name:         Domains Policy and Compliance
+administrative organisation: Google Inc.
+administrative address:      601 N. 34th Street
+administrative address:      Seattle, WA 98103
+administrative address:      United States
+administrative phone:        1 202 642 2325
+administrative fax-no:       1 650 492 5631
+administrative e-mail:       iana-contact@google.com
+contact:      technical
+technical name:         Richard Roberto
+technical organisation: Google Inc.
+technical address:      76 9th Avenue, 4th Floor
+technical address:      New York, NY 10011
+technical address:      United States
+technical phone:        1 212 565 2633
+technical fax-no:       1 650 492 5631
+technical e-mail:       crr-tech@google.com
+nserver:      NS-TLD1.CHARLESTONROADREGISTRY.COM 2001:4860:4802:32:0:0:0:69 216.239.32.105
+nserver:      NS-TLD2.CHARLESTONROADREGISTRY.COM 2001:4860:4802:34:0:0:0:69 216.239.34.105
+nserver:      NS-TLD3.CHARLESTONROADREGISTRY.COM 2001:4860:4802:36:0:0:0:69 216.239.36.105
+nserver:      NS-TLD4.CHARLESTONROADREGISTRY.COM 2001:4860:4802:38:0:0:0:69 216.239.38.105
+nserver:      NS-TLD5.CHARLESTONROADREGISTRY.COM 2001:4860:4805:0:0:0:0:69 216.239.60.105
+ds-rdata:     6125 8 2 80f8b78d23107153578bad3800e9543500474e5c30c29698b40a3db23ed9da9f
+whois:        whois.nic.google
+status:       ACTIVE
+remarks:      Registration information: http://www.registry.google
+created:      2014-09-04
+changed:      2019-07-02
+source:       IANA

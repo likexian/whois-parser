@@ -33,25 +33,29 @@ func TestPrepare(t *testing.T) {
 	assert.Nil(t, err)
 
 	for _, v := range dirs {
-		fileName := v.Name
-		fileExt := fileName[strings.LastIndex(fileName, ".")+1:]
-		if fileName == "README.md" {
+		if v.Name == "README.md" {
 			continue
 		}
 
-		if assert.IsContains([]string{"pre", "out"}, fileExt) {
+		domain := strings.Split(v.Name, "_")[1]
+		extension := ""
+		if strings.Contains(v.Name, ".") {
+			extension = domain[strings.LastIndex(domain, ".")+1:]
+		}
+
+		if assert.IsContains([]string{"pre", "out"}, extension) {
 			continue
 		}
 
-		whoisRaw, err := xfile.ReadText("./examples/" + fileName)
+		whoisRaw, err := xfile.ReadText("./examples/" + v.Name)
 		assert.Nil(t, err)
 
-		whoisPrepare, prepared := Prepare(whoisRaw, fileExt)
+		whoisPrepare, prepared := Prepare(whoisRaw, extension)
 		if prepared {
 			prePrepare := ""
 			whoisPrepare = strings.TrimSpace(whoisPrepare)
 
-			preFile := fmt.Sprintf("./examples/%s.pre", fileName)
+			preFile := fmt.Sprintf("./examples/%s.pre", v.Name)
 			if xfile.Exists(preFile) {
 				prePrepare, err = xfile.ReadText(preFile)
 				assert.Nil(t, err)
