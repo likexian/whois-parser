@@ -82,6 +82,8 @@ If there is any problems, please feel free to open a new issue.
 | .int | [wto.int](int_wto.int) | [wto.int](int_wto.int.out) | √ |
 | .io | [golang.io](io_golang.io) | [golang.io](io_golang.io.out) | √ |
 | .io | [google.io](io_google.io) | [google.io](io_google.io.out) | √ |
+| .ir | [git.ir](ir_git.ir) | [git.ir](ir_git.ir.out) | √ |
+| .ir | [google.ir](ir_google.ir) | [google.ir](ir_google.ir.out) | √ |
 | .it | [git.it](it_git.it) | [git.it](it_git.it.out) | √ |
 | .it | [google.it](it_google.it) | [google.it](it_google.it.out) | √ |
 | .jobs | [google.jobs](jobs_google.jobs) | [google.jobs](jobs_google.jobs.out) | √ |

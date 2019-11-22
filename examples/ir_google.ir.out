@@ -1,0 +1,93 @@
+
+domain
+id: 
+domain: google.ir
+name: google
+extension: ir
+status: 
+dnssec: 
+whois_server: 
+name_servers: ns1.googledomains.com,ns2.googledomains.com,ns3.googledomains.com,ns4.googledomains.com
+created_date: 
+updated_date: 2019-11-07
+expiration_date: 2020-12-22
+
+registrar
+id: 
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: 
+
+registrant
+id: 
+name: 
+organization: Google Inc.
+street: 1600 Amphitheatre Parkway, Mountain View, CA, US
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1 650 623 4000
+phone_ext: 
+fax: +1 650 618 8571
+fax_ext: 
+email: support@domainservicesltd.co.uk
+referral_url: 
+
+administrative
+id: 
+name: 
+organization: Instra Corporation Pty Ltd
+street: level 2, 222-225 Beach Road, Mordialloc, Vic, AU
+city: 
+province: 
+postal_code: 
+country: 
+phone: +61 3 9783 1800
+phone_ext: 
+fax: +61 3 9783 6844
+fax_ext: 
+email: irapplications@instra.com
+referral_url: 
+
+technical
+id: 
+name: 
+organization: Instra Corporation Pty Ltd
+street: level 2, 222-225 Beach Road, Mordialloc, Vic, AU
+city: 
+province: 
+postal_code: 
+country: 
+phone: +61 3 9783 1800
+phone_ext: 
+fax: +61 3 9783 6844
+fax_ext: 
+email: irapplications@instra.com
+referral_url: 
+
+billing
+id: 
+name: 
+organization: Ravand Tazeh (ouriran)
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: hostmaster@ouriran.com
+referral_url: 

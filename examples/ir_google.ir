@@ -1,0 +1,49 @@
+% This is the IRNIC Whois server v1.6.2.
+% Available on web at http://whois.nic.ir/
+% Find the terms and conditions of use on http://www.nic.ir/
+% 
+% This server uses UTF-8 as the encoding for requests and responses.
+
+% NOTE: This output has been filtered.
+
+% Information related to 'google.ir'
+
+
+domain:		google.ir
+ascii:		google.ir
+remarks:	(Domain Holder) Google Inc.
+remarks:	(Domain Holder Address) 1600 Amphitheatre Parkway, Mountain View, CA, US
+holder-c:	go438-irnic
+admin-c:	in103-irnic
+tech-c:		in103-irnic
+bill-c:		ra50-irnic
+nserver:	ns1.googledomains.com
+nserver:	ns2.googledomains.com
+nserver:	ns3.googledomains.com
+nserver:	ns4.googledomains.com
+last-updated:	2019-11-07
+expire-date:	2020-12-22
+source:		IRNIC # Filtered
+
+nic-hdl:	go438-irnic
+org:		Google Inc.
+e-mail:		support@domainservicesltd.co.uk
+address:	1600 Amphitheatre Parkway, Mountain View, CA, US
+phone:		+1 650 623 4000
+fax-no:		+1 650 618 8571
+source:		IRNIC # Filtered
+
+nic-hdl:	in103-irnic
+org:		Instra Corporation Pty Ltd
+e-mail:		irapplications@instra.com
+address:	level 2, 222-225 Beach Road, Mordialloc, Vic, AU
+phone:		+61 3 9783 1800
+fax-no:		+61 3 9783 6844
+source:		IRNIC # Filtered
+
+nic-hdl:	ra50-irnic
+org:		Ravand Tazeh (ouriran)
+e-mail:		hostmaster@ouriran.com
+source:		IRNIC # Filtered
+
+

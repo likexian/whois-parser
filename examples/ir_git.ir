@@ -1,0 +1,38 @@
+% This is the IRNIC Whois server v1.6.2.
+% Available on web at http://whois.nic.ir/
+% Find the terms and conditions of use on http://www.nic.ir/
+% 
+% This server uses UTF-8 as the encoding for requests and responses.
+
+% NOTE: This output has been filtered.
+
+% Information related to 'git.ir'
+
+
+domain:		git.ir
+ascii:		git.ir
+remarks:	(Domain Holder) Amin Sheybani nia
+remarks:	(Domain Holder Address) No. 63.Azadi Ave. Shahid Habiballah St. Shahid Ghasemi St.Tehran. Iran, Tehran, Tehran, IR
+holder-c:	as10780-irnic
+admin-c:	as10780-irnic
+tech-c:		as10780-irnic
+bill-c:		pa602-irnic
+nserver:	ns1.git.ir
+nserver:	ns2.git.ir
+last-updated:	2019-03-06
+expire-date:	2023-10-16
+source:		IRNIC # Filtered
+
+nic-hdl:	as10780-irnic
+person:		Amin Sheybani nia
+e-mail:		info@git.ir
+address:	No. 63.Azadi Ave. Shahid Habiballah St. Shahid Ghasemi St.Tehran. Iran, Tehran, Tehran, IR
+phone:		09399609269
+source:		IRNIC # Filtered
+
+nic-hdl:	pa602-irnic
+org:		Pars Parva System Ltd.
+e-mail:		info@parspack.com
+source:		IRNIC # Filtered
+
+

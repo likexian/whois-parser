@@ -70,6 +70,8 @@ func Prepare(text, ext string) (string, bool) {
 		return prepareEU(text), true
 	case "br":
 		return prepareBR(text), true
+	case "ir":
+		return prepareIR(text), true
 	default:
 		return text, false
 	}
@@ -856,6 +858,61 @@ func prepareBR(text string) string {
 			if strings.TrimSpace(vs[0]) == "owner" {
 				v = fmt.Sprintf("registrant organization: %s", vs[1])
 			}
+			if vv, ok := tokens[strings.TrimSpace(vs[0])]; ok {
+				for _, tt := range strings.Split(hdlMap[strings.TrimSpace(vs[1])], "\n") {
+					if strings.TrimSpace(tt) == "" {
+						continue
+					}
+					result += fmt.Sprintf("\n%s %s", vv, tt)
+				}
+				continue
+			}
+		}
+		result += "\n" + v
+	}
+
+	return result
+}
+
+// prepareIR do prepare the .ir domain
+func prepareIR(text string) string {
+	hdlToken := "nic-hdl"
+	tokens := map[string]string{
+		"holder-c": "registrant",
+		"admin-c":  "admin",
+		"tech-c":   "tech",
+		"bill-c":   "billing",
+	}
+
+	token := ""
+	hdlMap := map[string]string{}
+
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if v == "" {
+			token = ""
+			continue
+		}
+		if strings.Contains(v, ":") {
+			vs := strings.SplitN(v, ":", 2)
+			if strings.TrimSpace(vs[0]) == hdlToken {
+				token = strings.TrimSpace(vs[1])
+				hdlMap[token] = ""
+			}
+		}
+		if token != "" {
+			hdlMap[token] += "\n" + v
+		}
+	}
+
+	result := ""
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if v == "" {
+			continue
+		}
+		if strings.Contains(v, ":") {
+			vs := strings.SplitN(v, ":", 2)
 			if vv, ok := tokens[strings.TrimSpace(vs[0])]; ok {
 				for _, tt := range strings.Split(hdlMap[strings.TrimSpace(vs[1])], "\n") {
 					if strings.TrimSpace(tt) == "" {

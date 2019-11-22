@@ -1,0 +1,48 @@
+% This is the IRNIC Whois server v1.6.2.
+% Available on web at http://whois.nic.ir/
+% Find the terms and conditions of use on http://www.nic.ir/
+%
+% This server uses UTF-8 as the encoding for requests and responses.
+% NOTE: This output has been filtered.
+% Information related to 'git.ir'
+domain:  git.ir
+ascii:  git.ir
+remarks: (Domain Holder) Amin Sheybani nia
+remarks: (Domain Holder Address) No. 63.Azadi Ave. Shahid Habiballah St. Shahid Ghasemi St.Tehran. Iran, Tehran, Tehran, IR
+registrant nic-hdl: as10780-irnic
+registrant person:  Amin Sheybani nia
+registrant e-mail:  info@git.ir
+registrant address: No. 63.Azadi Ave. Shahid Habiballah St. Shahid Ghasemi St.Tehran. Iran, Tehran, Tehran, IR
+registrant phone:  09399609269
+registrant source:  IRNIC # Filtered
+admin nic-hdl: as10780-irnic
+admin person:  Amin Sheybani nia
+admin e-mail:  info@git.ir
+admin address: No. 63.Azadi Ave. Shahid Habiballah St. Shahid Ghasemi St.Tehran. Iran, Tehran, Tehran, IR
+admin phone:  09399609269
+admin source:  IRNIC # Filtered
+tech nic-hdl: as10780-irnic
+tech person:  Amin Sheybani nia
+tech e-mail:  info@git.ir
+tech address: No. 63.Azadi Ave. Shahid Habiballah St. Shahid Ghasemi St.Tehran. Iran, Tehran, Tehran, IR
+tech phone:  09399609269
+tech source:  IRNIC # Filtered
+billing nic-hdl: pa602-irnic
+billing org:  Pars Parva System Ltd.
+billing e-mail:  info@parspack.com
+billing source:  IRNIC # Filtered
+nserver: ns1.git.ir
+nserver: ns2.git.ir
+last-updated: 2019-03-06
+expire-date: 2023-10-16
+source:  IRNIC # Filtered
+nic-hdl: as10780-irnic
+person:  Amin Sheybani nia
+e-mail:  info@git.ir
+address: No. 63.Azadi Ave. Shahid Habiballah St. Shahid Ghasemi St.Tehran. Iran, Tehran, Tehran, IR
+phone:  09399609269
+source:  IRNIC # Filtered
+nic-hdl: pa602-irnic
+org:  Pars Parva System Ltd.
+e-mail:  info@parspack.com
+source:  IRNIC # Filtered

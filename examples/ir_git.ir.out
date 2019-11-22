@@ -1,0 +1,93 @@
+
+domain
+id: 
+domain: git.ir
+name: git
+extension: ir
+status: 
+dnssec: 
+whois_server: 
+name_servers: ns1.git.ir,ns2.git.ir
+created_date: 
+updated_date: 2019-03-06
+expiration_date: 2023-10-16
+
+registrar
+id: 
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: 
+
+registrant
+id: 
+name: Amin Sheybani nia
+organization: 
+street: No. 63.Azadi Ave. Shahid Habiballah St. Shahid Ghasemi St.Tehran. Iran, Tehran, Tehran, IR
+city: 
+province: 
+postal_code: 
+country: 
+phone: 09399609269
+phone_ext: 
+fax: 
+fax_ext: 
+email: info@git.ir
+referral_url: 
+
+administrative
+id: 
+name: Amin Sheybani nia
+organization: 
+street: No. 63.Azadi Ave. Shahid Habiballah St. Shahid Ghasemi St.Tehran. Iran, Tehran, Tehran, IR
+city: 
+province: 
+postal_code: 
+country: 
+phone: 09399609269
+phone_ext: 
+fax: 
+fax_ext: 
+email: info@git.ir
+referral_url: 
+
+technical
+id: 
+name: Amin Sheybani nia
+organization: 
+street: No. 63.Azadi Ave. Shahid Habiballah St. Shahid Ghasemi St.Tehran. Iran, Tehran, Tehran, IR
+city: 
+province: 
+postal_code: 
+country: 
+phone: 09399609269
+phone_ext: 
+fax: 
+fax_ext: 
+email: info@git.ir
+referral_url: 
+
+billing
+id: 
+name: 
+organization: Pars Parva System Ltd.
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: info@parspack.com
+referral_url: 
