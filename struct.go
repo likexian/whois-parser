@@ -19,6 +19,8 @@
 
 package whoisparser
 
+import "time"
+
 // WhoisInfo storing domain whois info
 type WhoisInfo struct {
 	Domain         Domain  `json:"domain"`
@@ -31,17 +33,22 @@ type WhoisInfo struct {
 
 // Domain storing domain name info
 type Domain struct {
-	ID             string `json:"id"`
-	Domain         string `json:"domain"`
-	Name           string `json:"name"`
-	Extension      string `json:"extension"`
-	Status         string `json:"status"`
-	DNSSEC         string `json:"dnssec"`
-	WhoisServer    string `json:"whois_server"`
-	NameServers    string `json:"name_servers"`
-	CreatedDate    string `json:"created_date"`
-	UpdatedDate    string `json:"updated_date"`
-	ExpirationDate string `json:"expiration_date"`
+	ID          string `json:"id"`
+	Domain      string `json:"domain"`
+	Name        string `json:"name"`
+	Extension   string `json:"extension"`
+	Status      string `json:"status"`
+	DNSSEC      string `json:"dnssec"`
+	WhoisServer string `json:"whois_server"`
+	NameServers string `json:"name_servers"`
+
+	createdDate    string
+	updatedDate    string
+	expirationDate string
+
+	CreatedDate    time.Time `json:"created_date"`
+	UpdatedDate    time.Time `json:"updated_date"`
+	ExpirationDate time.Time `json:"expiration_date"`
 }
 
 // Contact storing domain contact info

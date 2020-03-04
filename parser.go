@@ -32,6 +32,7 @@ var (
 	ErrDomainNotFound    = errors.New("Domain is not found.")
 	ErrDomainInvalidData = errors.New("Domain whois data invalid.")
 	ErrDomainLimitExceed = errors.New("Domain query limit exceeded.")
+	ErrDomainInvalidDate = errors.New("Domain date is invalid.")
 )
 
 // Version returns package version
@@ -126,16 +127,16 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		case "name_servers":
 			domain.NameServers += value + ","
 		case "created_date":
-			if domain.CreatedDate == "" {
-				domain.CreatedDate = value
+			if domain.createdDate == "" {
+				domain.createdDate = value
 			}
 		case "updated_date":
-			if domain.UpdatedDate == "" {
-				domain.UpdatedDate = value
+			if domain.updatedDate == "" {
+				domain.updatedDate = value
 			}
 		case "expired_date":
-			if domain.ExpirationDate == "" {
-				domain.ExpirationDate = value
+			if domain.expirationDate == "" {
+				domain.expirationDate = value
 			}
 		case "referral_url":
 			registrar.ReferralURL = value
@@ -165,6 +166,25 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 
 	domain.NameServers = RemoveDuplicateField(domain.NameServers)
 	domain.Status = RemoveDuplicateField(domain.Status)
+
+	// parse dates
+	domain.CreatedDate, err = parseDate(domain.Extension, domain.createdDate)
+	if err != nil {
+		err = ErrDomainInvalidDate
+		return
+	}
+
+	domain.UpdatedDate, err = parseDate(domain.Extension, domain.updatedDate)
+	if err != nil {
+		err = ErrDomainInvalidDate
+		return
+	}
+
+	domain.ExpirationDate, err = parseDate(domain.Extension, domain.expirationDate)
+	if err != nil {
+		err = ErrDomainInvalidDate
+		return
+	}
 
 	whoisInfo.Domain = domain
 	whoisInfo.Registrar = registrar
