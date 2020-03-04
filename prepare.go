@@ -54,6 +54,8 @@ func Prepare(text, ext string) (string, bool) {
 		return prepareFR(text), true
 	case "ru", "su":
 		return prepareRU(text), true
+	case "fi":
+		return prepareFI(text), true
 	case "jp":
 		return prepareJP(text), true
 	case "uk":
@@ -921,6 +923,44 @@ func prepareIR(text string) string {
 					result += fmt.Sprintf("\n%s %s", vv, tt)
 				}
 				continue
+			}
+		}
+		result += "\n" + v
+	}
+
+	return result
+}
+
+// prepareFI do prepare the .fi domain
+func prepareFI(text string) string {
+	tokens := map[string]string{
+		"Holder":    "Registrant",
+		"Registrar": "Registrar",
+		"Tech":      "Technical",
+	}
+
+	token := ""
+	result := ""
+
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if len(v) == 0 {
+			continue
+		}
+
+		if v[0] == '>' {
+			token = ""
+		}
+
+		if _, ok := tokens[v]; ok {
+			token = tokens[v]
+		} else {
+			if token != "" {
+				// special case as for various reasons this was causing lots of issues
+				if token == "Registrar" && strings.Contains(v, "registrar..........:") {
+					v = strings.Replace(v, "registrar..........:", "name..........:", 1)
+				}
+				v = fmt.Sprintf("%s %s", token, v)
 			}
 		}
 		result += "\n" + v
