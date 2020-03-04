@@ -218,7 +218,7 @@ func parseContact(contact Contact, name, value string) Contact {
 
 // searchDomain find domain from whois info
 func searchDomain(text string) (string, string) {
-	r := regexp.MustCompile(`(?i)\[?domain(\s*\_?name)?\]?\s*\:?\s*([a-z0-9\-\.]+)\.([a-z]{2,})`)
+	r := regexp.MustCompile(`(?i)\[?domain(\s*\_?name)?\]?[\s\.]*\:?\s*([a-z0-9\-\.]+)\.([a-z]{2,})`)
 	m := r.FindStringSubmatch(text)
 	if len(m) > 0 {
 		return strings.ToLower(strings.TrimSpace(m[2])), strings.ToLower(strings.TrimSpace(m[3]))

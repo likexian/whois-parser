@@ -54,6 +54,8 @@ func Prepare(text, ext string) (string, bool) {
 		return prepareFR(text), true
 	case "ru", "su":
 		return prepareRU(text), true
+	case "fi":
+		return prepareFI(text), true
 	case "jp":
 		return prepareJP(text), true
 	case "uk":
@@ -921,6 +923,36 @@ func prepareIR(text string) string {
 					result += fmt.Sprintf("\n%s %s", vv, tt)
 				}
 				continue
+			}
+		}
+		result += "\n" + v
+	}
+
+	return result
+}
+
+// prepareFI do prepare the .mo domain
+func prepareFI(text string) string {
+	tokens := map[string]string{
+		"Holder":    "Registrant",
+		"Registrar": "Registrar",
+		"Tech":      "Technical",
+	}
+
+	token := ""
+	result := ""
+
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if v == "" {
+			token = ""
+			continue
+		}
+		if _, ok := tokens[v]; ok {
+			token = tokens[v]
+		} else {
+			if token != "" {
+				v = fmt.Sprintf("%s %s", token, v)
 			}
 		}
 		result += "\n" + v
