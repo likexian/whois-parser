@@ -2,14 +2,15 @@
 Domain Name: google.museum
 Registry Domain ID: DOM000001477194-MUSEUM
 Registrar URL: https://inwx.de
-Updated Date: 2019-05-02T09:18:25Z
+Updated Date: 2020-03-01T09:44:05Z
 Creation Date: 2019-05-02T09:18:21Z
-Registry Expiry Date: 2020-05-02T09:18:22Z
+Registry Expiry Date: 2021-05-02T09:18:22Z
 Registrar: INWX GMBH & Co. KG
 Registrar IANA ID: 1420
 Registrar Abuse Contact Email: abuse@inwx.com
 Registrar Abuse Contact Phone: +4930983212121
 Domain Status: clientTransferProhibited  https://icann.org/epp#clientTransferProhibited
+Domain Status: renewPeriod  https://icann.org/epp#renewPeriod
 Registry Registrant ID: REDACTED FOR PRIVACY
 Registrant Name: REDACTED FOR PRIVACY
 Registrant Street: REDACTED FOR PRIVACY
@@ -48,7 +49,7 @@ Name Server: ns4.inwx.com
 Name Server: ns5.inwx.net
 DNSSEC: unsigned
 URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
->>> Last update of WHOIS database: 2019-10-07T00:27:00Z <<<
+>>> Last update of WHOIS database: 2020-03-04T08:14:47Z <<<
 
 For more information on Whois status codes, please visit https://icann.org/epp
 
@@ -69,5 +70,4 @@ and rules in effect. Moreover, the user is bound to respect the French Data Prot
 The infringement of the French Data Protection Law can carry penal sanctions. As the user will access personal information,
 the user must refrain from collecting or misuse this information. In a more general way, the user must refrain from any act likely
 to infringe the privacy or reputation of individuals.
-
 

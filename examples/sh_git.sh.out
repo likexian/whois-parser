@@ -6,11 +6,11 @@ name: git
 extension: sh
 status: clienttransferprohibited
 dnssec: unsigned
-whois_server: 
+whois_server: whois.eranet.com
 name_servers: ns1.ezdnscenter.com,ns2.ezdnscenter.com
-created_date: 2009-04-13T05:16:13Z
-updated_date: 2019-04-13T22:28:39Z
-expiration_date: 2020-04-13T05:16:13Z
+created_date: 2009-04-13 05:16:13 +0000 UTC
+updated_date: 2019-04-13 22:28:39 +0000 UTC
+expiration_date: 2020-04-13 05:16:13 +0000 UTC
 
 registrar
 id: 1868

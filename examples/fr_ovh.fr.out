@@ -8,9 +8,9 @@ status: active
 dnssec: 
 whois_server: 
 name_servers: dns.ovh.net,dns10.ovh.net,ns.ovh.net,ns10.ovh.net
-created_date: 1999-11-11T23:00:00Z
-updated_date: 2019-04-18T12:14:43Z
-expiration_date: 2019-11-11T23:00:00Z
+created_date: 1999-11-11 23:00:00 +0000 UTC
+updated_date: 2019-11-11 23:35:17 +0000 UTC
+expiration_date: 2020-11-11 23:00:00 +0000 UTC
 
 registrar
 id: 

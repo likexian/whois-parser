@@ -4,21 +4,21 @@ use 'whois -h whois.jprs.jp help'. To suppress Japanese output, add'/e'     :
 at the end of command, e.g. 'whois -h whois.jprs.jp xxx/e'.                 :
 Domain Information:
 Domain Name: GOOGLE.JP
-Registrant: Google Inc.
+Registrant: Google LLC
 Name Server: ns1.google.com
 Name Server: ns2.google.com
 Name Server: ns3.google.com
 Name Server: ns4.google.com
 Signing Key:
 Created on: 2005/05/30
-Expires on: 2018/05/31
+Expires on: 2020/05/31
 Status: Active
-Last Updated: 2017/06/01 01:05:09 (JST)
+Last Updated: 2019/06/01 04:52:02 (JST)
 admin Contact Information:
-admin Name: Google Inc.
+admin Name: Google LLC
 admin Email: dns-admin@google.com
 admin Web Page:
 admin Postal code: 94043
-admin Postal Address: Mountain View, 1600 Amphitheatre Parkway, US
+admin Postal Address: Mountain View, 1600 Amphitheatre Parkway, CA
 admin Phone: 16502530000
 admin Fax: 16502530001

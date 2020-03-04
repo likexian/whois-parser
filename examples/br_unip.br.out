@@ -8,9 +8,9 @@ status: published
 dnssec: 
 whois_server: 
 name_servers: datcenter.unip.br,datcenter2.unip.br
-created_date: 19990717 #175298
-updated_date: 20190523
-expiration_date: 
+created_date: 1999-07-17 00:00:00 +0000 UTC
+updated_date: 2019-05-23 00:00:00 +0000 UTC
+expiration_date: 0001-01-01 00:00:00 +0000 UTC
 
 registrar
 id: 

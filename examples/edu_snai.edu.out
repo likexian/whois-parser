@@ -8,9 +8,9 @@ status:
 dnssec: 
 whois_server: 
 name_servers: ns1.alidns.com,ns2.alidns.com
-created_date: 27-Apr-2001
-updated_date: 08-Jan-2019
-expiration_date: 31-Jul-2021
+created_date: 2001-04-27 00:00:00 +0000 UTC
+updated_date: 2019-01-08 00:00:00 +0000 UTC
+expiration_date: 2021-07-31 00:00:00 +0000 UTC
 
 registrar
 id: 

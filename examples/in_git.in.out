@@ -7,14 +7,14 @@ extension: in
 status: clienttransferprohibited
 dnssec: unsigned
 whois_server: 
-name_servers: ns1.parkingcrew.net,ns2.parkingcrew.net
-created_date: 2005-02-16T06:54:49Z
-updated_date: 2019-03-15T19:06:26Z
-expiration_date: 2020-02-16T06:54:49Z
+name_servers: dns7.parkpage.foundationapi.com,dns8.parkpage.foundationapi.com
+created_date: 2005-02-16 06:54:49 +0000 UTC
+updated_date: 2020-03-02 16:21:59 +0000 UTC
+expiration_date: 2021-02-16 06:54:49 +0000 UTC
 
 registrar
-id: 801217
-name: Endurance Domains Technology LLP
+id: 472
+name: Dynadot LLC
 organization: 
 street: 
 city: 
@@ -26,7 +26,7 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
-referral_url: https://publicdomainregistry.com/
+referral_url: http://www.dynadot.com
 
 registrant
 id: 
@@ -34,7 +34,7 @@ name:
 organization: Treadall Inc.
 street: 
 city: 
-province: Ontario
+province: ON
 postal_code: 
 country: CA
 phone: 

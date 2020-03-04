@@ -8,9 +8,9 @@ status: serverupdateprohibited,servertransferprohibited,serverdeleteprohibited,c
 dnssec: unsigned
 whois_server: whois.coccaregistry.org
 name_servers: ns1.google.com,ns3.google.com,ns4.google.com,ns2.google.com
-created_date: 2010-07-29T18:15:42.56Z
-updated_date: 2019-06-27T09:31:23.513Z
-expiration_date: 2020-07-29T18:15:42.158Z
+created_date: 2010-07-29 18:15:42.56 +0000 UTC
+updated_date: 2019-06-27 09:31:23.513 +0000 UTC
+expiration_date: 2020-07-29 18:15:42.158 +0000 UTC
 
 registrar
 id: 
@@ -29,7 +29,7 @@ email: ccops@markmonitor.com
 referral_url: http://www.markmonitor.com
 
 registrant
-id: Q6RDD-iThq7
+id: nUGl1-ovikp
 name: Redacted | Registry Policy
 organization: Google LLC
 street: 1600 Amphitheatre Parkway
@@ -45,7 +45,7 @@ email: redacted | registry policy
 referral_url: 
 
 administrative
-id: qpyUv-8PqZy
+id: mjnfm-T3Czm
 name: Redacted | Registry Policy
 organization: Google LLC
 street: 1600 Amphitheatre Parkway
@@ -61,7 +61,7 @@ email: redacted | registry policy
 referral_url: 
 
 technical
-id: oSzcd-PDwUy
+id: N0NYL-FRd5p
 name: Redacted | Registry Policy
 organization: Google LLC
 street: 1600 Amphitheatre Parkway
@@ -77,7 +77,7 @@ email: redacted | registry policy
 referral_url: 
 
 billing
-id: cEMhc-TrHqA
+id: vSWMz-QH7ga
 name: Redacted | Registry Policy
 organization: MarkMonitor Inc.
 street: 3540 East Longwing Lane, Suite 300

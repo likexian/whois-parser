@@ -8,9 +8,9 @@ status: clienttransferprohibited
 dnssec: unsigned
 whois_server: whois.dynadot.com
 name_servers: ns1-geo.dynadot.com,ns2-geo.dynadot.com
-created_date: 2002-10-30T17:44:41.0Z
-updated_date: 2019-09-17T10:43:57.0Z
-expiration_date: 2020-10-30T16:44:41.0Z
+created_date: 2002-10-30 17:44:41 +0000 UTC
+updated_date: 2019-09-17 10:43:57 +0000 UTC
+expiration_date: 2020-10-30 16:44:41 +0000 UTC
 
 registrar
 id: 472

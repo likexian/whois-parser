@@ -8,9 +8,9 @@ status: connect
 dnssec: 
 whois_server: 
 name_servers: ns1.webcoding24.com,ns2.webcoding24.com,ns3.webcoding24.com
-created_date: 
-updated_date: 2008-10-22T11:33:44+02:00
-expiration_date: 
+created_date: 0001-01-01 00:00:00 +0000 UTC
+updated_date: 2008-10-22 11:33:44 +0200 +0200
+expiration_date: 0001-01-01 00:00:00 +0000 UTC
 
 registrar
 id: 

@@ -8,9 +8,9 @@ status: active
 dnssec: 
 whois_server: 
 name_servers: ns0.random.sh,ns1.random.sh,ns2.random.sh
-created_date: 2015-02-23T09:43:27Z
-updated_date: 2019-01-23T08:01:40Z
-expiration_date: 2020-02-23T09:43:27Z
+created_date: 2015-02-23 09:43:27 +0000 UTC
+updated_date: 2020-02-23 14:57:46 +0000 UTC
+expiration_date: 2021-02-23 09:43:27 +0000 UTC
 
 registrar
 id: 

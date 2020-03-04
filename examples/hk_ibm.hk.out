@@ -8,9 +8,9 @@ status: active
 dnssec: unsigned
 whois_server: 
 name_servers: ns1-206.akam.net,ns1-99.akam.net,asia3.akam.net,eur2.akam.net,eur5.akam.net,usc2.akam.net,usc3.akam.net
-created_date: 14-03-2004
-updated_date: 
-expiration_date: 03-04-2020
+created_date: 2004-03-14 00:00:00 +0000 UTC
+updated_date: 0001-01-01 00:00:00 +0000 UTC
+expiration_date: 2020-04-03 00:00:00 +0000 UTC
 
 registrar
 id: 

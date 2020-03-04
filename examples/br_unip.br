@@ -5,7 +5,7 @@
 %  being prohibited its distribution, commercialization or
 %  reproduction, in particular, to use it for advertising or
 %  any similar purpose.
-%  2019-10-16T04:52:39-03:00
+%  2020-03-04T05:10:53-03:00
 
 domain:      unip.br
 owner:       SOCIEDADE UNIF PAULISTA DE ENSINO REN OBJETIVO
@@ -14,11 +14,11 @@ admin-c:     LBS2
 tech-c:      EPM85
 billing-c:   TLSCU2
 nserver:     datcenter.unip.br 200.196.224.5
-nsstat:      20191015 AA
-nslastaa:    20191015
+nsstat:      20200229 AA
+nslastaa:    20200229
 nserver:     datcenter2.unip.br 200.196.224.8
-nsstat:      20191015 AA
-nslastaa:    20191015
+nsstat:      20200229 AA
+nslastaa:    20200229
 created:     19990717 #175298
 changed:     20190523
 status:      published
@@ -45,4 +45,3 @@ changed:     20160627
 % whois.registro.br accepts only direct match queries. Types
 % of queries are: domain (.br), registrant (tax ID), ticket,
 % provider, contact handle (ID), CIDR block, IP and ASN.
-

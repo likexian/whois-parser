@@ -4,13 +4,13 @@ id: D503300000063709937-LRMS
 domain: GIT.AC
 name: git
 extension: ac
-status: clientdeleteprohibited,clienttransferprohibited,servertransferprohibited
-dnssec: unsignedDelegation
+status: clientdeleteprohibited,clienttransferprohibited
+dnssec: unsigned
 whois_server: whois.porkbun.com
 name_servers: f1g1ns2.dnspod.net,f1g1ns1.dnspod.net
-created_date: 2018-02-09 11:59:43
-updated_date: 2018-12-10 01:00:04
-expiration_date: 2020-02-09 11:59:43
+created_date: 2018-02-09 11:59:43 +0000 UTC
+updated_date: 2020-02-01 04:14:40 +0000 UTC
+expiration_date: 2021-02-09 11:59:43 +0000 UTC
 
 registrar
 id: 1861
@@ -26,54 +26,54 @@ phone_ext:
 fax: 
 fax_ext: 
 email: abuse@porkbun.com
-referral_url: http://www.porkbun.com
+referral_url: https://porkbun.com
 
 registrant
 id: 
-name: Whois Privacy
+name: 
 organization: Private by Design, LLC
-street: 500 Westover Dr #9816
-city: Sanford
+street: 
+city: 
 province: NC
-postal_code: 27330
+postal_code: 
 country: US
-phone: +1.9712666028
+phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: https://porkbun.com/whois/contact/registrant/git.ac
+email: 
 referral_url: 
 
 administrative
 id: 
-name: Whois Privacy
-organization: Private by Design, LLC
-street: 500 Westover Dr #9816
-city: Sanford
-province: NC
-postal_code: 27330
-country: US
-phone: +1.9712666028
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: https://porkbun.com/whois/contact/admin/git.ac
+email: 
 referral_url: 
 
 technical
 id: 
-name: Whois Privacy
-organization: Private by Design, LLC
-street: 500 Westover Dr #9816
-city: Sanford
-province: NC
-postal_code: 27330
-country: US
-phone: +1.9712666028
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: https://porkbun.com/whois/contact/tech/git.ac
+email: 
 referral_url: 
 
 billing

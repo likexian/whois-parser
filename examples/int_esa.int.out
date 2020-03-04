@@ -8,9 +8,9 @@ status:
 dnssec: 
 whois_server: 
 name_servers: dns1.esa.int,dns2.esa.int,dns3.esa.int,dns4.esa.int,dns5.esa.int,dns6.esa.int
-created_date: 1996-08-23
-updated_date: 2009-03-19
-expiration_date: 
+created_date: 1996-08-23 00:00:00 +0000 UTC
+updated_date: 2009-03-19 00:00:00 +0000 UTC
+expiration_date: 0001-01-01 00:00:00 +0000 UTC
 
 registrar
 id: 

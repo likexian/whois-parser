@@ -8,9 +8,9 @@ status: clienttransferprohibited
 dnssec: unsigned
 whois_server: whois.coccaregistry.org
 name_servers: ns1.linode.com,ns2.linode.com,ns3.linode.com,ns4.linode.com,ns5.linode.com
-created_date: 2013-04-19T12:25:43.248Z
-updated_date: 2019-03-28T17:14:27.619Z
-expiration_date: 2020-04-19T12:25:43.504Z
+created_date: 2013-04-19 12:25:43.248 +0000 UTC
+updated_date: 2019-03-28 17:14:27.619 +0000 UTC
+expiration_date: 2020-04-19 12:25:43.504 +0000 UTC
 
 registrar
 id: 
@@ -29,7 +29,7 @@ email:
 referral_url: http://www.name.com
 
 registrant
-id: KbOC2-s0Ukx
+id: 3kzoN-0pEkn
 name: Bent Cardan
 organization: 
 street: 104-60 Queens Blvd. #15L
@@ -45,7 +45,7 @@ email: bent@cloudkickr.com
 referral_url: 
 
 administrative
-id: fCYBx-a3j5K
+id: irSrY-fs6Ys
 name: Bent Cardan
 organization: 
 street: 104-60 Queens Blvd. #15L
@@ -61,7 +61,7 @@ email: bent@cloudkickr.com
 referral_url: 
 
 technical
-id: CkmXA-xGQER
+id: 7NTEJ-pEPT9
 name: Bent Cardan
 organization: 
 street: 104-60 Queens Blvd. #15L
@@ -77,7 +77,7 @@ email: bent@cloudkickr.com
 referral_url: 
 
 billing
-id: qZiUV-Bw9in
+id: bsXFr-WijQt
 name: Bent Cardan
 organization: 
 street: 104-60 Queens Blvd. #15L

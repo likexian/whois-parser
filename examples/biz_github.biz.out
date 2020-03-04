@@ -4,13 +4,13 @@ id: D40741417-BIZ
 domain: github.biz
 name: github
 extension: biz
-status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
+status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
 dnssec: unsigned
 whois_server: 
 name_servers: ns2.p16.dynect.net,ns3.p16.dynect.net,ns1.p16.dynect.net,ns4.p16.dynect.net
-created_date: 2010-08-05T17:04:27Z
-updated_date: 2018-10-21T11:00:23Z
-expiration_date: 2020-08-04T23:59:59Z
+created_date: 2010-08-05 17:04:27 +0000 UTC
+updated_date: 2018-10-21 11:00:23 +0000 UTC
+expiration_date: 2020-08-04 23:59:59 +0000 UTC
 
 registrar
 id: 292

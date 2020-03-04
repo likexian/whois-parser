@@ -5,7 +5,7 @@
 %  being prohibited its distribution, commercialization or
 %  reproduction, in particular, to use it for advertising or
 %  any similar purpose.
-%  2019-10-26T10:10:22-03:00
+%  2020-03-04T05:14:22-03:00
 
 domain:      espm.br
 owner:       ASSOC.ESC. SUPERIOR DE PROPAGANDA E MARKETING - SP
@@ -14,17 +14,17 @@ admin-c:     CLA75
 tech-c:      CLA75
 billing-c:   FATAK6
 nserver:     ns-1434.awsdns-51.org
-nsstat:      20191013 AA
-nslastaa:    20191013
+nsstat:      20200302 AA
+nslastaa:    20200302
 nserver:     ns-340.awsdns-42.com
-nsstat:      20191013 AA
-nslastaa:    20191013
+nsstat:      20200302 AA
+nslastaa:    20200302
 nserver:     ns-1751.awsdns-26.co.uk
-nsstat:      20191013 AA
-nslastaa:    20191013
+nsstat:      20200302 AA
+nslastaa:    20200302
 nserver:     ns-538.awsdns-03.net
-nsstat:      20191013 AA
-nslastaa:    20191013
+nsstat:      20200302 AA
+nslastaa:    20200302
 created:     19961206 #24302
 changed:     20150427
 status:      published
@@ -46,4 +46,3 @@ changed:     20161212
 % whois.registro.br accepts only direct match queries. Types
 % of queries are: domain (.br), registrant (tax ID), ticket,
 % provider, contact handle (ID), CIDR block, IP and ASN.
-

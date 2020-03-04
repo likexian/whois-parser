@@ -1,77 +1,30 @@
-Domain Name: github.org
+Domain Name: GITHUB.ORG
 Registry Domain ID: D150926227-LROR
-Registrar WHOIS Server: WHOIS.ENOM.COM
-Registrar URL: WWW.ENOM.COM
-Updated Date: 2019-01-11T08:26:28.00Z
-Creation Date: 2008-02-09T02:07:00.00Z
-Registrar Registration Expiration Date: 2020-02-09T02:07:00.00Z
-Registrar: ENOM, INC.
+Registrar WHOIS Server: whois.enom.com
+Registrar URL: http://www.enom.com
+Updated Date: 2020-01-11T08:21:26Z
+Creation Date: 2008-02-09T02:07:09Z
+Registry Expiry Date: 2021-02-09T02:07:09Z
+Registrar Registration Expiration Date:
+Registrar: eNom, Inc.
 Registrar IANA ID: 48
-Domain Status: clientTransferProhibited https://www.icann.org/epp#clientTransferProhibited
-Registrant Name: REDACTED FOR PRIVACY
-Registrant Organization: REDACTED FOR PRIVACY
-Registrant Street: REDACTED FOR PRIVACY
-Registrant Street: 
-Registrant City: REDACTED FOR PRIVACY
+Registrar Abuse Contact Email: abuse@enom.com
+Registrar Abuse Contact Phone: +1.4252982646
+Reseller:
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Registrant Organization: Github
 Registrant State/Province: CA
-Registrant Postal Code: REDACTED FOR PRIVACY
 Registrant Country: US
-Registrant Phone: REDACTED FOR PRIVACY
-Registrant Phone Ext: 
-Registrant Fax: REDACTED FOR PRIVACY
-Registrant Email: https://tieredaccess.com/contact/e406a066-effd-4c8c-9f5b-483c6d2b37cf
-Admin Name: REDACTED FOR PRIVACY
-Admin Organization: REDACTED FOR PRIVACY
-Admin Street: REDACTED FOR PRIVACY
-Admin Street: 
-Admin City: REDACTED FOR PRIVACY
-Admin State/Province: REDACTED FOR PRIVACY
-Admin Postal Code: REDACTED FOR PRIVACY
-Admin Country: REDACTED FOR PRIVACY
-Admin Phone: REDACTED FOR PRIVACY
-Admin Phone Ext: 
-Admin Fax: REDACTED FOR PRIVACY
-Admin Email: REDACTED FOR PRIVACY
-Tech Name: REDACTED FOR PRIVACY
-Tech Organization: REDACTED FOR PRIVACY
-Tech Street: REDACTED FOR PRIVACY
-Tech Street: 
-Tech City: REDACTED FOR PRIVACY
-Tech State/Province: REDACTED FOR PRIVACY
-Tech Postal Code: REDACTED FOR PRIVACY
-Tech Country: REDACTED FOR PRIVACY
-Tech Phone: REDACTED FOR PRIVACY
-Tech Phone Ext: 
-Tech Fax: REDACTED FOR PRIVACY
-Tech Email: REDACTED FOR PRIVACY
 Name Server: NS1.DNSIMPLE.COM
 Name Server: NS2.DNSIMPLE.COM
 Name Server: NS3.DNSIMPLE.COM
 Name Server: NS4.DNSIMPLE.COM
 DNSSEC: unsigned
-Registrar Abuse Contact Email: ABUSE@ENOM.COM
-Registrar Abuse Contact Phone: +1.4259744689
-URL of the ICANN WHOIS Data Problem Reporting System: HTTP://WDPRS.INTERNIC.NET/
->>> Last update of WHOIS database: 2019-09-30T15:10:48.00Z <<<
+URL of the ICANN Whois Inaccuracy Complaint Form https://www.icann.org/wicf/)
+>>> Last update of WHOIS database: 2020-03-04T08:05:37Z <<<
 
 For more information on Whois status codes, please visit https://icann.org/epp
 
+Access to Public Interest Registry WHOIS information is provided to assist persons in determining the contents of a domain name registration record in the Public Interest Registry registry database. The data in this record is provided by Public Interest Registry for informational purposes only, and Public Interest Registry does not guarantee its accuracy. This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to (a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the data recipient's own existing customers; or (b) enable high volume, automated, electronic processes that send queries or data to the systems of Registry Operator, a Registrar, or Afilias except as reasonably necessary to register domain names or modify existing registrations. All rights reserved. Public Interest Registry reserves the right to modify these terms at any time. By submitting this query, you agree to abide by this policy.
 
-The data in this whois database is provided to you for information
-purposes only, that is, to assist you in obtaining information about or
-related to a domain name registration record. We make this information
-available "as is," and do not guarantee its accuracy. By submitting a
-whois query, you agree that you will use this data only for lawful
-purposes and that, under no circumstances will you use this data to: (1)
-enable high volume, automated, electronic processes that stress or load
-this whois database system providing you this information; or (2) allow,
-enable, or otherwise support the transmission of mass unsolicited,
-commercial advertising or solicitations via direct mail, electronic
-mail, or by telephone. The compilation, repackaging, dissemination or
-other use of this data is expressly prohibited without prior written
-consent from us.  
-
-We reserve the right to modify these terms at any time. By submitting 
-this query, you agree to abide by these terms.
-Version 6.3 4/3/2002
-
+The Registrar of Record identified in this output may have an RDDS service that can be queried for additional information on how to contact the Registrant, Admin, or Tech contact of the queried domain name.

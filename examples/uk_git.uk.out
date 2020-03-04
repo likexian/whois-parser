@@ -5,16 +5,16 @@ domain: git.uk
 name: git
 extension: uk
 status: registered
-dnssec: 
+dnssec: Signed
 whois_server: 
-name_servers: ns.123-reg.co.uk,ns2.123-reg.co.uk
-created_date: 22-Oct-2017
-updated_date: 29-Jun-2019
-expiration_date: 22-Oct-2019
+name_servers: mona.ns.cloudflare.com,nitin.ns.cloudflare.com
+created_date: 2020-01-22 00:00:00 +0000 UTC
+updated_date: 2020-01-25 00:00:00 +0000 UTC
+expiration_date: 2021-01-22 00:00:00 +0000 UTC
 
 registrar
 id: 
-name: 123-Reg Limited t/a 123-reg [Tag = 123-REG]
+name: Digital Ventures Group Ltd [Tag = DIGITALVENTURES]
 organization: 
 street: 
 city: 
@@ -26,13 +26,13 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
-referral_url: http://www.123-reg.co.uk
+referral_url: https://digitalventures.uk
 
 registrant
 id: 
-name: 
+name: Digital Ventures Group Ltd
 organization: 
-street: 
+street: 71-75 Shelton Street,Covent Garden,London,WC2H 9JQ,United Kingdom
 city: 
 province: 
 postal_code: 

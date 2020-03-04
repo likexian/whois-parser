@@ -4,13 +4,13 @@ id: D2835288-BIZ
 domain: google.biz
 name: google
 extension: biz
-status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
+status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
 dnssec: unsigned
 whois_server: 
 name_servers: ns1.google.com,ns2.google.com,ns4.google.com,ns3.google.com
-created_date: 2002-03-27T16:03:44Z
-updated_date: 2019-02-27T10:56:14Z
-expiration_date: 2020-03-26T23:59:59Z
+created_date: 2002-03-27 16:03:44 +0000 UTC
+updated_date: 2020-02-28 11:07:21 +0000 UTC
+expiration_date: 2021-03-26 23:59:59 +0000 UTC
 
 registrar
 id: 292

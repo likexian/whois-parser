@@ -38,7 +38,7 @@
 %
 % The EURid WHOIS service on port 43 (textual whois) never
 % discloses any information concerning the registrant.
-% Registrant and onsite contact information can be obtained through use of the
+% Registrant and on-site contact information can be obtained through use of the
 % webbased WHOIS service available from the EURid website www.eurid.eu
 %
 % WHOIS google.eu
@@ -49,7 +49,7 @@ Registrant:
         NOT DISCLOSED!
         Visit www.eurid.eu for webbased WHOIS.
 
-Onsite(s):
+On-site(s):
         NOT DISCLOSED!
         Visit www.eurid.eu for webbased WHOIS.
 
@@ -64,4 +64,3 @@ Name servers:
         ns2.google.com
 
 Please visit www.eurid.eu for more info.
-

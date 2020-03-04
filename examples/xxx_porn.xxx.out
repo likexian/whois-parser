@@ -1,16 +1,16 @@
 
 domain
 id: D1195891-AGRS
-domain: PORN.XXX
+domain: porn.xxx
 name: porn
 extension: xxx
-status: servertransferprohibited,transferperiod
+status: ok
 dnssec: unsigned
-whois_server: 
-name_servers: ns1.eurodns.com,ns2.eurodns.com,ns3.eurodns.com,ns4.eurodns.com
-created_date: 2013-05-16T22:38:13Z
-updated_date: 2019-10-04T20:56:58Z
-expiration_date: 2021-05-16T22:38:13Z
+whois_server: whois.eurodns.com
+name_servers: ns4.eurodns.com,ns3.eurodns.com,ns1.eurodns.com,ns2.eurodns.com
+created_date: 2013-05-16 22:38:13.295 +0000 UTC
+updated_date: 2019-11-26 17:59:40.115 +0000 UTC
+expiration_date: 2021-05-16 22:38:13.295 +0000 UTC
 
 registrar
 id: 1052
@@ -21,73 +21,73 @@ city:
 province: 
 postal_code: 
 country: 
-phone: +352.27220150
+phone: +352.263725200
 phone_ext: 
 fax: 
 fax_ext: 
-email: legalservices@eurodns.com
-referral_url: http://www.eurodns.com
+email: legal@eurodns.com
+referral_url: https://www.eurodns.com/
 
 registrant
-id: 
-name: 
-organization: Sagan Limited
-street: 
-city: 
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: 
+street: REDACTED FOR PRIVACY
+city: REDACTED FOR PRIVACY
 province: 
-postal_code: 
-country: SC
-phone: 
+postal_code: REDACTED FOR PRIVACY
+country: 
+phone: REDACTED FOR PRIVACY
 phone_ext: 
-fax: 
+fax: REDACTED FOR PRIVACY
 fax_ext: 
-email: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 referral_url: 
 
 administrative
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
 phone_ext: 
-fax: 
+fax: REDACTED FOR PRIVACY
 fax_ext: 
-email: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 referral_url: 
 
 technical
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
 phone_ext: 
-fax: 
+fax: REDACTED FOR PRIVACY
 fax_ext: 
-email: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 referral_url: 
 
 billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
+id: REDACTED FOR PRIVACY
+name: REDACTED FOR PRIVACY
+organization: REDACTED FOR PRIVACY
+street: REDACTED FOR PRIVACY
+city: REDACTED FOR PRIVACY
+province: REDACTED FOR PRIVACY
+postal_code: REDACTED FOR PRIVACY
+country: REDACTED FOR PRIVACY
+phone: REDACTED FOR PRIVACY
 phone_ext: 
-fax: 
+fax: REDACTED FOR PRIVACY
 fax_ext: 
-email: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 referral_url: 

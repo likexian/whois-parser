@@ -14,7 +14,7 @@ Domain Status: serverDeleteProhibited (Secured by CoCCA Premium Registry Lock) h
 Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
 Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
 Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
-Registry Registrant ID: uo3er-xAcPO
+Registry Registrant ID: TSMre-IIFy1
 Registrant Name: Domain Administrator
 Registrant Organization: Google LLC
 Registrant Street: 1600 Amphitheatre Parkway
@@ -25,7 +25,7 @@ Registrant Country: US
 Registrant Phone: +1.6502530000
 Registrant Fax: +1.6502530001
 Registrant Email: dns-admin@google.com
-Registry Admin ID: goQ6D-NQBoD
+Registry Admin ID: xsKDK-Z9TN8
 Admin Name: Domain Administrator
 Admin Organization: Google LLC
 Admin Street: 1600 Amphitheatre Parkway
@@ -36,7 +36,7 @@ Admin Country: US
 Admin Phone: +1.6502530000
 Admin Fax: +1.6502530001
 Admin Email: dns-admin@google.com
-Registry Tech ID: ct4fz-Dlnfo
+Registry Tech ID: t3eka-oarCc
 Tech Name: Domain Administrator
 Tech Organization: Google LLC
 Tech Street: 1600 Amphitheatre Parkway
@@ -47,7 +47,7 @@ Tech Country: US
 Tech Phone: +1.6502530000
 Tech Fax: +1.6502530001
 Tech Email: dns-admin@google.com
-Registry Billing ID: XeFuf-jSM9q
+Registry Billing ID: GQ9cj-natr3
 Billing Name: CCOPS Billing
 Billing Organization: MarkMonitor Inc.
 Billing Street: 3540 East Longwing Lane
@@ -62,7 +62,7 @@ Billing Email: ccopsbilling@markmonitor.com
 Name Server: ns1.google.com
 Name Server: ns2.google.com
 DNSSEC: unsigned
->>> Last update of WHOIS database: 2019-10-12T10:41:32.416Z <<<
+>>> Last update of WHOIS database: 2020-03-04T08:10:46.532Z <<<
 
 For more information on Whois status codes, please visit https://icann.org/epp
 
@@ -70,4 +70,3 @@ TERMS OF USE: You are not authorized to access or query our Whois database throu
 for lawful purposes and that under no circumstances will you use this Data to: (1) allow, enable, or otherwise support the transmission of mass unsolicited, commercial advertising or solicitations via e-mail, telephone, or facsimile; or (2) enable high volume, automated, electronic processes.compilation, repackaging, dissemination or other use of this Data is expressly prohibited.
 
 CoCCA Helpdesk |  support@coccaregistry.org
-

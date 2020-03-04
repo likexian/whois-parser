@@ -1,81 +1,28 @@
-Domain Name: golang.io
-Registry Domain ID: UNDEF-ROID
+Domain Name: GOLANG.IO
+Registry Domain ID: D503300000040331433-LRMS
 Registrar WHOIS Server: whois.gandi.net
-Registrar URL: http://www.gandi.net
-Updated Date: 2019-01-17T08:47:20Z
+Registrar URL: https://www.gandi.net/whois
+Updated Date: 2020-01-23T17:59:39Z
 Creation Date: 2013-01-24T18:29:21Z
-Registrar Registration Expiration Date: 2020-01-24T18:29:21Z
-Registrar: GANDI SAS
+Registry Expiry Date: 2021-01-24T18:29:21Z
+Registrar Registration Expiration Date:
+Registrar: Gandi SAS
 Registrar IANA ID: 81
 Registrar Abuse Contact Email: abuse@support.gandi.net
 Registrar Abuse Contact Phone: +33.170377661
-Reseller: 
-Domain Status: clientTransferProhibited http://www.icann.org/epp#clientTransferProhibited
-Domain Status: 
-Domain Status: 
-Domain Status: 
-Domain Status: 
-Registry Registrant ID: REDACTED FOR PRIVACY
-Registrant Name: REDACTED FOR PRIVACY
-Registrant Organization: 
-Registrant Street: Obfuscated whois Gandi-63-65 boulevard Massena
-Registrant City: Obfuscated whois Gandi-Paris
-Registrant State/Province: Paris
-Registrant Postal Code: 75013
+Reseller:
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Registrant Organization: Vincent Letourneau
+Registrant State/Province: longjumeau
 Registrant Country: FR
-Registrant Phone: +33.170377666
-Registrant Phone Ext:
-Registrant Fax: +33.143730576
-Registrant Fax Ext:
-Registrant Email: 142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net
-Registry Admin ID: REDACTED FOR PRIVACY
-Admin Name: REDACTED FOR PRIVACY
-Admin Organization: 
-Admin Street: Obfuscated whois Gandi-63-65 boulevard Massena
-Admin City: Obfuscated whois Gandi-Paris
-Admin State/Province: Paris
-Admin Postal Code: 75013
-Admin Country: FR
-Admin Phone: +33.170377666
-Admin Phone Ext:
-Admin Fax: +33.143730576
-Admin Fax Ext:
-Admin Email: 142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net
-Registry Tech ID: REDACTED FOR PRIVACY
-Tech Name: REDACTED FOR PRIVACY
-Tech Organization: 
-Tech Street: Obfuscated whois Gandi-63-65 boulevard Massena
-Tech City: Obfuscated whois Gandi-Paris
-Tech State/Province: Paris
-Tech Postal Code: 75013
-Tech Country: FR
-Tech Phone: +33.170377666
-Tech Phone Ext:
-Tech Fax: +33.143730576
-Tech Fax Ext:
-Tech Email: 142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net
 Name Server: DNS103.OVH.NET
 Name Server: NS103.OVH.NET
-Name Server: 
-Name Server: 
-Name Server: 
-Name Server: 
-Name Server: 
-Name Server: 
-Name Server: 
-Name Server: 
-DNSSEC: Unsigned
-URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
->>> Last update of WHOIS database: 2019-10-12T10:31:48Z <<<
+DNSSEC: unsigned
 
-For more information on Whois status codes, please visit
-https://www.icann.org/epp
+>>> Last update of WHOIS database: 2020-03-04T08:08:48Z <<<
 
-Reseller Email: 
-Reseller URL: 
+For more information on Whois status codes, please visit https://icann.org/epp
 
-Personal data access and use are governed by French law, any use for the purpose of unsolicited mass commercial advertising as well as any mass or automated inquiries (for any intent other than the registration or modification of a domain name) are strictly forbidden. Copy of whole or part of our database without Gandi's endorsement is strictly forbidden. <br />
-A dispute over the ownership of a domain name may be subject to the alternate procedure established by the Registry in question or brought before the courts. <br />
-For additional information, please contact us via the following form:<br />
- https://www.gandi.net/support/contacter/mail/
+Access to WHOIS information provided by Internet Computer Bureau Ltd. ICB is provided to assist persons in determining the contents of a domain name registration record in the ICB registry database. The data in this record is provided by ICB for informational purposes only, and ICB does not guarantee its accuracy. This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to(i) allow, enable, or otherwise support the transmission by e-mail, telephone, facsimile or other electronic means of mass, unsolicited, commercial advertising or solicitations to entities other than the data recipient's own existing customers; or (ii) enable high volume, automated, electronic processes that send queries or data to the systems of Registry Operator, a Registrar, or ICB or its services providers except as reasonably necessary to register domain names or modify existing registrations. UK privacy laws limit the scope of information permitted for certain public access.  Therefore, concerns regarding abusive use of domain registrations in the ICB registry should be directed to either (a) the Registrar of Record as indicated in the WHOIS output, or (b) the ICB anti-abuse department at abuse@icbregistry.info.
 
+All rights reserved. ICB reserves the right to modify these terms at any time. By submitting this query, you agree to abide by these policies

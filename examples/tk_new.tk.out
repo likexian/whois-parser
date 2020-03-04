@@ -7,10 +7,10 @@ extension: tk
 status: active
 dnssec: 
 whois_server: 
-name_servers: ns1.newtek.com,ns3.newtek.com,ns4.newtek.com
-created_date: 02/05/2013
-updated_date: 
-expiration_date: 02/10/2022
+name_servers: ns1.domaindiscount24.net,ns2.domaindiscount24.net,ns3.domaindiscount24.net
+created_date: 2013-02-05 00:00:00 +0000 UTC
+updated_date: 0001-01-01 00:00:00 +0000 UTC
+expiration_date: 2022-02-10 00:00:00 +0000 UTC
 
 registrar
 id: 

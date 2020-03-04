@@ -8,9 +8,9 @@ status: active
 dnssec: 
 whois_server: 
 name_servers: ns1.markmonitor.com,ns3.markmonitor.com
-created_date: 2011-12-06T09:12:58Z
-updated_date: 2019-01-14T10:32:14Z
-expiration_date: 2020-02-15T19:06:41Z
+created_date: 2011-12-06 09:12:58 +0000 UTC
+updated_date: 2020-01-14 10:32:47 +0000 UTC
+expiration_date: 2021-02-15 19:06:41 +0000 UTC
 
 registrar
 id: 

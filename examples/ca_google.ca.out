@@ -8,9 +8,9 @@ status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited,s
 dnssec: unsigned
 whois_server: whois.ca.fury.ca
 name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
-created_date: 2000-10-04T02:21:23Z
-updated_date: 2019-04-28T04:04:23Z
-expiration_date: 2020-04-28T04:00:00Z
+created_date: 2000-10-04 02:21:23 +0000 UTC
+updated_date: 2019-04-28 04:04:23 +0000 UTC
+expiration_date: 2020-04-28 04:00:00 +0000 UTC
 
 registrar
 id: 

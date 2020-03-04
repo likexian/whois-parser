@@ -2,12 +2,13 @@ Domain Name: GOOGLE.LA
 Registry Domain ID: D471480-LANIC
 Registrar WHOIS Server:
 Registrar URL:
-Updated Date: 2019-06-17T16:18:05.0Z
+Updated Date: 2019-10-24T21:48:10.0Z
 Creation Date: 2002-07-18T01:00:00.0Z
 Registry Expiry Date: 2020-07-18T23:59:59.0Z
 Registrar: TLD Registrar Solutions Ltd
 Registrar IANA ID:
 Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
 Registrant Email: https://whois.nic.la/contact/google.la/registrant
 Admin Email: https://whois.nic.la/contact/google.la/admin
 Tech Email: https://whois.nic.la/contact/google.la/tech
@@ -20,7 +21,7 @@ Billing Email: https://whois.nic.la/contact/google.la/billing
 Registrar Abuse Contact Email: support@registry.la
 Registrar Abuse Contact Phone: +44.20338806
 URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
->>> Last update of WHOIS database: 2019-10-10T03:13:53.0Z <<<
+>>> Last update of WHOIS database: 2020-03-04T08:11:10.0Z <<<
 
 For more information on Whois status codes, please visit https://icann.org/epp
 
@@ -36,4 +37,3 @@ blacklisted. All data is (c) LANIC http://www.lanic.gov.la/
 
 Access to the whois service is rate limited. For more information, please
 see https://registrar-console.lanic.la/pub/whois_guidance.
-

@@ -8,9 +8,9 @@ status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
 dnssec: unsigned
 whois_server: 
 name_servers: ns3.googledomains.com,ns1.googledomains.com,ns2.googledomains.com,ns4.googledomains.com
-created_date: 2007-11-21T20:47:29Z
-updated_date: 2018-10-20T09:32:07Z
-expiration_date: 2019-11-21T20:47:29Z
+created_date: 2007-11-21 20:47:29 +0000 UTC
+updated_date: 2020-01-14 17:07:15 +0000 UTC
+expiration_date: 2020-11-21 20:47:29 +0000 UTC
 
 registrar
 id: 292
@@ -31,7 +31,7 @@ referral_url: http://www.markmonitor.com
 registrant
 id: 
 name: 
-organization: Google Inc.
+organization: Google LLC
 street: 
 city: 
 province: CA

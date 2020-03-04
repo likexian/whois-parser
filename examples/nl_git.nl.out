@@ -5,18 +5,18 @@ domain: git.nl
 name: git
 extension: nl
 status: active
-dnssec: yes
+dnssec: no
 whois_server: 
-name_servers: ns5.firstfind.net,ns4.firstfind.nl,ns3.firstfind.nl
-created_date: 
-updated_date: 
-expiration_date: 
+name_servers: ns1.dan.com,ns2.dan.com
+created_date: 0001-01-01 00:00:00 +0000 UTC
+updated_date: 0001-01-01 00:00:00 +0000 UTC
+expiration_date: 0001-01-01 00:00:00 +0000 UTC
 
 registrar
 id: 
-name: Realtime Register
+name: NVA Online Advertising B.V.
 organization: 
-street: Ceintuurbaan 32a, 8024AA ZWOLLE, Netherlands
+street: Opper 14, 5406CA UDEN, Netherlands
 city: 
 province: 
 postal_code: 

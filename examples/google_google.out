@@ -8,9 +8,9 @@ status: active
 dnssec: 
 whois_server: whois.nic.google
 name_servers: ns-tld1.charlestonroadregistry.com,ns-tld2.charlestonroadregistry.com,ns-tld3.charlestonroadregistry.com,ns-tld4.charlestonroadregistry.com,ns-tld5.charlestonroadregistry.com
-created_date: 2014-09-04
-updated_date: 2019-07-02
-expiration_date: 
+created_date: 2014-09-04 00:00:00 +0000 UTC
+updated_date: 2019-07-02 00:00:00 +0000 UTC
+expiration_date: 0001-01-01 00:00:00 +0000 UTC
 
 registrar
 id: 

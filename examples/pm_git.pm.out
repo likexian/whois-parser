@@ -7,10 +7,10 @@ extension: pm
 status: active
 dnssec: 
 whois_server: 
-name_servers: ns1.srna.sk,ns2.srna.sk
-created_date: 2013-07-18T16:17:05Z
-updated_date: 2019-06-12T07:35:08Z
-expiration_date: 2020-07-18T16:17:05Z
+name_servers: ns1.digitalocean.com,ns2.digitalocean.com,ns3.digitalocean.com
+created_date: 2013-07-18 16:17:05 +0000 UTC
+updated_date: 2019-11-01 08:29:14 +0000 UTC
+expiration_date: 2020-07-18 16:17:05 +0000 UTC
 
 registrar
 id: 

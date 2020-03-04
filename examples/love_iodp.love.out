@@ -7,10 +7,10 @@ extension: love
 status: clienttransferprohibited,clientupdateprohibited,clientdeleteprohibited
 dnssec: unsigned
 whois_server: whois.meshdigital.com
-name_servers: ns1.esm1066.sgded.com,ns2.esm1066.sgded.com
-created_date: 2016-11-10T14:17:33.0Z
-updated_date: 2019-07-10T12:26:00.0Z
-expiration_date: 2020-11-10T23:59:59.0Z
+name_servers: ns1.cloudns.io,ns2.cloudns.io
+created_date: 2016-11-10 14:17:33 +0000 UTC
+updated_date: 2020-01-24 12:22:38 +0000 UTC
+expiration_date: 2020-11-10 23:59:59 +0000 UTC
 
 registrar
 id: 1390

@@ -1,20 +1,20 @@
 
 domain
 id: D1602048-CO
-domain: GIT.CO
+domain: git.co
 name: git
 extension: co
-status: clienttransferprohibited,clientupdateprohibited,clientrenewprohibited,clientdeleteprohibited
+status: clientrenewprohibited,clientdeleteprohibited,clientupdateprohibited,clienttransferprohibited
 dnssec: unsigned
 whois_server: whois.godaddy.com
 name_servers: dns1.stabletransit.com,dns2.stabletransit.com
-created_date: 2010-07-21T21:16:03Z
-updated_date: 2019-07-21T12:37:14Z
-expiration_date: 2020-07-20T23:59:59Z
+created_date: 2010-07-21 21:16:03 +0000 UTC
+updated_date: 2019-07-26 12:37:13 +0000 UTC
+expiration_date: 2020-07-20 23:59:59 +0000 UTC
 
 registrar
 id: 146
-name: GoDaddy.com, LLC
+name: GoDaddy.com, Inc.
 organization: 
 street: 
 city: 
@@ -26,7 +26,7 @@ phone_ext:
 fax: 
 fax_ext: 
 email: abuse@godaddy.com
-referral_url: http://www.godaddy.com
+referral_url: whois.godaddy.com
 
 registrant
 id: 
@@ -41,7 +41,7 @@ phone:
 phone_ext: 
 fax: 
 fax_ext: 
-email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.co
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 referral_url: 
 
 administrative
@@ -57,7 +57,7 @@ phone:
 phone_ext: 
 fax: 
 fax_ext: 
-email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.co
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 referral_url: 
 
 technical
@@ -73,7 +73,7 @@ phone:
 phone_ext: 
 fax: 
 fax_ext: 
-email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.co
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 referral_url: 
 
 billing

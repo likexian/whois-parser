@@ -6,11 +6,11 @@ name: git
 extension: com
 status: clienttransferprohibited
 dnssec: unsigned
-whois_server: whois.uniregistrar.net
-name_servers: ns2.venture.com,ns1.venture.com
-created_date: 2001-06-14-T10:32:43Z
-updated_date: 2019-05-17-T23:02:50Z
-expiration_date: 2020-06-14-T10:32:43Z
+whois_server: whois.uniregistrar.com
+name_servers: ns1.venture.com,ns2.venture.com
+created_date: 2001-06-14 10:32:43 +0000 UTC
+updated_date: 2019-05-17 23:02:50 +0000 UTC
+expiration_date: 2020-06-14 10:32:43 +0000 UTC
 
 registrar
 id: 1659

@@ -4,13 +4,13 @@ id: D21089-IN
 domain: google.in
 name: google
 extension: in
-status: clienttransferprohibited,clientdeleteprohibited,clientupdateprohibited
+status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
 dnssec: unsigned
 whois_server: 
 name_servers: ns4.google.com,ns2.google.com,ns1.google.com,ns3.google.com
-created_date: 2005-02-14T20:35:14Z
-updated_date: 2019-08-08T18:39:47Z
-expiration_date: 2020-02-14T20:35:14Z
+created_date: 2005-02-14 20:35:14 +0000 UTC
+updated_date: 2020-01-18 10:35:29 +0000 UTC
+expiration_date: 2021-02-14 20:35:14 +0000 UTC
 
 registrar
 id: 292

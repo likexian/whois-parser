@@ -8,9 +8,9 @@ status: ok
 dnssec: unsigned
 whois_server: whois.nic.love
 name_servers: ns01.merchantlaw.com,ns02.merchantlaw.com
-created_date: 2015-05-06T10:39:53.0Z
-updated_date: 2019-04-30T00:17:23.0Z
-expiration_date: 2020-05-06T23:59:59.0Z
+created_date: 2015-05-06 10:39:53 +0000 UTC
+updated_date: 2019-04-30 00:17:23 +0000 UTC
+expiration_date: 2020-05-06 23:59:59 +0000 UTC
 
 registrar
 id: 9999

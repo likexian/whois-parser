@@ -8,9 +8,9 @@ status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
 dnssec: unsigned
 whois_server: whois.demys.com
 name_servers: ns3.ja.net,ns2.ja.net,ns4.ja.net,ns0.ja.net
-created_date: 2015-01-07T09:26:57.553Z
-updated_date: 2019-09-29T08:12:11.484Z
-expiration_date: 2021-01-07T09:26:57.553Z
+created_date: 2015-01-07 09:26:57.553 +0000 UTC
+updated_date: 2019-09-29 08:12:11.484 +0000 UTC
+expiration_date: 2021-01-07 09:26:57.553 +0000 UTC
 
 registrar
 id: 1488

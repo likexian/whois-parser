@@ -46,4 +46,3 @@ in the Netherlands.
 (c) The Foundation for Internet Domain Registration in the Netherlands
 (SIDN) Dutch Copyright Act, protection of authors' rights (Section 10,
 subsection 1, clause 1).
-

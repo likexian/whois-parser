@@ -8,9 +8,9 @@ status: clienttransferprohibited
 dnssec: 
 whois_server: 
 name_servers: kristin.ns.cloudflare.com,paul.ns.cloudflare.com
-created_date: 2008-05-23 (YYYY-MM-DD)
-updated_date: 
-expiration_date: 2020-05-23 (YYYY-MM-DD)
+created_date: 2008-05-23 00:00:00 +0000 UTC
+updated_date: 0001-01-01 00:00:00 +0000 UTC
+expiration_date: 2020-05-23 00:00:00 +0000 UTC
 
 registrar
 id: 

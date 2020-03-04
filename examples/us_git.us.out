@@ -4,17 +4,17 @@ id: D1827192-US
 domain: git.us
 name: git
 extension: us
-status: clienttransferprohibited,clientupdateprohibited,clientrenewprohibited,clientdeleteprohibited
+status: clientrenewprohibited,clientdeleteprohibited,clientupdateprohibited,clienttransferprohibited
 dnssec: unsigned
 whois_server: whois.godaddy.com
 name_servers: ns1.namefind.com,ns2.namefind.com
-created_date: 2002-04-24T15:27:59Z
-updated_date: 2019-04-03T10:09:33Z
-expiration_date: 2020-04-23T23:59:59Z
+created_date: 2002-04-24 15:27:59 +0000 UTC
+updated_date: 2019-07-13 19:37:25 +0000 UTC
+expiration_date: 2020-04-23 23:59:59 +0000 UTC
 
 registrar
 id: 146
-name: GoDaddy.com, LLC
+name: GoDaddy.com, Inc.
 organization: 
 street: 
 city: 
@@ -26,54 +26,54 @@ phone_ext:
 fax: 
 fax_ext: 
 email: abuse@godaddy.com
-referral_url: http://www.godaddy.com
+referral_url: whois.godaddy.com
 
 registrant
-id: 
-name: 
+id: CF9A4F78E6B724C70BE57DBF0AE1286BB-NSR
+name: Domain Administrator
 organization: NameFind LLC
-street: 
-city: 
+street: 1 Main Street, Suite 1120
+city: Cambridge
 province: Massachusetts
-postal_code: 
-country: US
-phone: 
+postal_code: 02142
+country: us
+phone: +1.7813736856
 phone_ext: 
-fax: 
+fax: +1.4259744689
 fax_ext: 
-email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.us
+email: admin@namefind.com
 referral_url: 
 
 administrative
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
+id: C51786CC78A8042E5B06019AEA002F7A6-NSR
+name: Domain Administrator
+organization: NameFind LLC
+street: 1 Main Street, Suite 1120
+city: Cambridge
+province: Massachusetts
+postal_code: 02142
+country: us
+phone: +1.7813736856
 phone_ext: 
-fax: 
+fax: +1.4259744689
 fax_ext: 
-email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.us
+email: admin@namefind.com
 referral_url: 
 
 technical
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
+id: C154D9426A0DF4369B50222B2DB84A87D-NSR
+name: Domain Administrator
+organization: NameFind LLC
+street: 1 Main Street, Suite 1120
+city: Cambridge
+province: Massachusetts
+postal_code: 02142
+country: us
+phone: +1.7813736856
 phone_ext: 
-fax: 
+fax: +1.4258838860
 fax_ext: 
-email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.us
+email: admin@namefind.com
 referral_url: 
 
 billing

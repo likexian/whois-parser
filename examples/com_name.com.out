@@ -5,12 +5,12 @@ domain: NAME.COM
 name: name
 extension: com
 status: clienttransferprohibited,serverdeleteprohibited,servertransferprohibited,serverupdateprohibited
-dnssec: unSigned
+dnssec: unsigned
 whois_server: whois.name.com
-name_servers: asia3.akam.net,usw5.akam.net,use4.akam.net,aus1.akam.net,ns1-35.akam.net,usw1.akam.net,eur4.akam.net,ns1-242.akam.net,eur2.akam.net
-created_date: 1995-01-03T05:00:00Z
-updated_date: 2014-04-18T17:04:21Z
-expiration_date: 2019-11-04T00:00:00Z
+name_servers: asia3.akam.net,aus1.akam.net,eur2.akam.net,eur4.akam.net,ns1-242.akam.net,ns1-35.akam.net,use4.akam.net,usw1.akam.net,usw5.akam.net
+created_date: 1995-01-03 05:00:00 +0000 UTC
+updated_date: 2019-12-16 17:53:59 +0000 UTC
+expiration_date: 2021-11-04 13:56:30 +0000 UTC
 
 registrar
 id: 625

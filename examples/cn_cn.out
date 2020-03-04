@@ -8,9 +8,9 @@ status: active
 dnssec: 
 whois_server: whois.cnnic.cn
 name_servers: a.dns.cn,b.dns.cn,c.dns.cn,d.dns.cn,e.dns.cn,f.dns.cn,g.dns.cn,ns.cernet.net
-created_date: 1990-11-28
-updated_date: 2018-03-01
-expiration_date: 
+created_date: 1990-11-28 00:00:00 +0000 UTC
+updated_date: 2018-03-01 00:00:00 +0000 UTC
+expiration_date: 0001-01-01 00:00:00 +0000 UTC
 
 registrar
 id: 

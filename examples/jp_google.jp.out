@@ -8,9 +8,9 @@ status: active
 dnssec: 
 whois_server: 
 name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
-created_date: 2005/05/30
-updated_date: 2017/06/01 01:05:09 (JST)
-expiration_date: 2018/05/31
+created_date: 2005-05-30 00:00:00 +0000 UTC
+updated_date: 2019-06-01 04:52:02 +0900 KST
+expiration_date: 2020-05-31 00:00:00 +0000 UTC
 
 registrar
 id: 
@@ -30,7 +30,7 @@ referral_url:
 
 registrant
 id: 
-name: Google Inc.
+name: Google LLC
 organization: 
 street: 
 city: 
@@ -46,9 +46,9 @@ referral_url:
 
 administrative
 id: 
-name: Google Inc.
+name: Google LLC
 organization: 
-street: Mountain View, 1600 Amphitheatre Parkway, US
+street: Mountain View, 1600 Amphitheatre Parkway, CA
 city: 
 province: 
 postal_code: 94043

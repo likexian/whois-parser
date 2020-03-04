@@ -1,79 +1,79 @@
 
 domain
 id: D150926227-LROR
-domain: github.org
+domain: GITHUB.ORG
 name: github
 extension: org
 status: clienttransferprohibited
 dnssec: unsigned
-whois_server: WHOIS.ENOM.COM
+whois_server: whois.enom.com
 name_servers: ns1.dnsimple.com,ns2.dnsimple.com,ns3.dnsimple.com,ns4.dnsimple.com
-created_date: 2008-02-09T02:07:00.00Z
-updated_date: 2019-01-11T08:26:28.00Z
-expiration_date: 2020-02-09T02:07:00.00Z
+created_date: 2008-02-09 02:07:09 +0000 UTC
+updated_date: 2020-01-11 08:21:26 +0000 UTC
+expiration_date: 2021-02-09 02:07:09 +0000 UTC
 
 registrar
 id: 48
-name: ENOM, INC.
+name: eNom, Inc.
 organization: 
 street: 
 city: 
 province: 
 postal_code: 
 country: 
-phone: +1.4259744689
+phone: +1.4252982646
 phone_ext: 
 fax: 
 fax_ext: 
 email: abuse@enom.com
-referral_url: WWW.ENOM.COM
+referral_url: http://www.enom.com
 
 registrant
 id: 
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
+name: 
+organization: Github
+street: 
+city: 
 province: CA
-postal_code: REDACTED FOR PRIVACY
+postal_code: 
 country: US
-phone: REDACTED FOR PRIVACY
+phone: 
 phone_ext: 
-fax: REDACTED FOR PRIVACY
+fax: 
 fax_ext: 
-email: https://tieredaccess.com/contact/e406a066-effd-4c8c-9f5b-483c6d2b37cf
+email: 
 referral_url: 
 
 administrative
 id: 
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
-province: REDACTED FOR PRIVACY
-postal_code: REDACTED FOR PRIVACY
-country: REDACTED FOR PRIVACY
-phone: REDACTED FOR PRIVACY
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
-fax: REDACTED FOR PRIVACY
+fax: 
 fax_ext: 
-email: redacted for privacy
+email: 
 referral_url: 
 
 technical
 id: 
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
-province: REDACTED FOR PRIVACY
-postal_code: REDACTED FOR PRIVACY
-country: REDACTED FOR PRIVACY
-phone: REDACTED FOR PRIVACY
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
-fax: REDACTED FOR PRIVACY
+fax: 
 fax_ext: 
-email: redacted for privacy
+email: 
 referral_url: 
 
 billing

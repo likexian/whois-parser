@@ -10,9 +10,9 @@
 %%
 %% Use '-h' option to obtain more information about this service.
 %%
-%% [1.1.1.1 REQUEST] >> git.yt
+%% [58.127.14.63 REQUEST] >> git.yt
 %%
-%% RL Net [##########] - RL IP [#######...]
+%% RL Net [##########] - RL IP [#########.]
 %%
 
 domain:      git.yt
@@ -24,9 +24,9 @@ tech-c:      GR283-FRNIC
 zone-c:      NFC1-FRNIC
 nsl-id:      NSL60190-FRNIC
 registrar:   GANDI
-Expiry Date: 2020-02-23T09:43:27Z
+Expiry Date: 2021-02-23T09:43:27Z
 created:     2015-02-23T09:43:27Z
-last-update: 2019-01-23T08:01:40Z
+last-update: 2020-02-23T14:57:46Z
 source:      FRNIC
 
 ns-list:     NSL60190-FRNIC
@@ -111,5 +111,4 @@ obsoleted:   NO
 eligstatus:  not identified
 reachstatus: not identified
 source:      FRNIC
-
 

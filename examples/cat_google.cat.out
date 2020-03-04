@@ -4,17 +4,17 @@ id: 3780-D
 domain: google.cat
 name: google
 extension: cat
-status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
+status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
 dnssec: unsigned
 whois_server: whois.markmonitor.com
-name_servers: ns4.google.com,ns3.google.com,ns2.google.com,ns1.google.com
-created_date: 2006-02-13T00:00:00-0800
-updated_date: 2019-01-23T15:02:06-0800
-expiration_date: 2020-02-14T00:00:00-0800
+name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
+created_date: 2006-02-14 08:55:44.988 +0000 UTC
+updated_date: 2020-01-13 20:29:58.838 +0000 UTC
+expiration_date: 2021-02-14 08:55:44.988 +0000 UTC
 
 registrar
 id: 292
-name: MarkMonitor, Inc.
+name: MarkMonitor
 organization: 
 street: 
 city: 
@@ -25,69 +25,69 @@ phone: +1.2083895740
 phone_ext: 
 fax: 
 fax_ext: 
-email: abusecomplaints@markmonitor.com
-referral_url: http://www.markmonitor.com
+email: abuse@markmonitor.com
+referral_url: https://www.markmonitor.com/
 
 registrant
-id: 
-name: 
+id: 103-C
+name: Domain Administrator
 organization: Google LLC
-street: 
-city: 
+street: 1600 Amphitheatre Parkway
+city: Mountain View
 province: CA
-postal_code: 
+postal_code: 94043
 country: US
-phone: 
+phone: +1.6502530000
 phone_ext: 
-fax: 
+fax: +1.6502530001
 fax_ext: 
-email: 
+email: dns-admin@google.com
 referral_url: 
 
 administrative
-id: 
-name: 
+id: 103-C
+name: Domain Administrator
 organization: Google LLC
-street: 
-city: 
+street: 1600 Amphitheatre Parkway
+city: Mountain View
 province: CA
-postal_code: 
+postal_code: 94043
 country: US
-phone: 
+phone: +1.6502530000
 phone_ext: 
-fax: 
+fax: +1.6502530001
 fax_ext: 
-email: 
+email: dns-admin@google.com
 referral_url: 
 
 technical
-id: 
-name: 
+id: 103-C
+name: Domain Administrator
 organization: Google LLC
-street: 
-city: 
+street: 1600 Amphitheatre Parkway
+city: Mountain View
 province: CA
-postal_code: 
+postal_code: 94043
 country: US
-phone: 
+phone: +1.6502530000
 phone_ext: 
-fax: 
+fax: +1.6502530001
 fax_ext: 
-email: 
+email: dns-admin@google.com
 referral_url: 
 
 billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
+id: CUVEMEUTSYA1170835-CAT
+name: CCOPS Billing
+organization: MarkMonitor Inc.
+street: 3540 East Longwing Lane, Suite 300
+city: Meridian
+province: ID
+postal_code: 83646
+country: US
+phone: +1.2083895740
 phone_ext: 
-fax: 
+fax: +1.2083895771
 fax_ext: 
-email: 
+email: ccopsbilling@markmonitor.com
 referral_url: 

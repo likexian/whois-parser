@@ -8,9 +8,9 @@ status: taken
 dnssec: 
 whois_server: 
 name_servers: ns4.zoneedit.com,ns5.zoneedit.com
-created_date: 
-updated_date: 
-expiration_date: 
+created_date: 0001-01-01 00:00:00 +0000 UTC
+updated_date: 0001-01-01 00:00:00 +0000 UTC
+expiration_date: 0001-01-01 00:00:00 +0000 UTC
 
 registrar
 id: 

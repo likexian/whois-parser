@@ -8,9 +8,9 @@ status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
 dnssec: unsigned
 whois_server: 
 name_servers: ns4.googledomains.com,ns1.googledomains.com,ns2.googledomains.com,ns3.googledomains.com
-created_date: 2015-03-04T10:30:28Z
-updated_date: 2019-01-31T10:39:36Z
-expiration_date: 2020-03-04T10:30:28Z
+created_date: 2015-03-04 10:30:28 +0000 UTC
+updated_date: 2020-02-01 10:36:28 +0000 UTC
+expiration_date: 2021-03-04 10:30:28 +0000 UTC
 
 registrar
 id: 292

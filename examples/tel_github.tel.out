@@ -4,13 +4,13 @@ id: D2797731-TEL
 domain: github.tel
 name: github
 extension: tel
-status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
+status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
 dnssec: unsigned
 whois_server: 
 name_servers: ns4.markmonitor.com,ns2.markmonitor.com,ns3.markmonitor.com,ns7.markmonitor.com,ns5.markmonitor.com,ns1.markmonitor.com,ns6.markmonitor.com
-created_date: 2012-05-29T19:21:21Z
-updated_date: 2018-05-01T09:13:33Z
-expiration_date: 2020-05-28T23:59:59Z
+created_date: 2012-05-29 19:21:21 +0000 UTC
+updated_date: 2018-05-01 09:13:33 +0000 UTC
+expiration_date: 2020-05-28 23:59:59 +0000 UTC
 
 registrar
 id: 292

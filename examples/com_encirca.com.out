@@ -5,12 +5,12 @@ domain: ENCIRCA.COM
 name: encirca
 extension: com
 status: clienttransferprohibited,clientdeleteprohibited
-dnssec: Unsigned
+dnssec: signedDelegation
 whois_server: whois.encirca.com
 name_servers: dns3.encirca.com,dns4.encirca.com
-created_date: 1999-03-21T00:00:00Z
-updated_date: 2019-03-19T20:31:55Z
-expiration_date: 2022-03-22T04:00:00Z
+created_date: 1999-03-22 05:00:00 +0000 UTC
+updated_date: 2018-03-22 20:41:25 +0000 UTC
+expiration_date: 2022-03-22 04:00:00 +0000 UTC
 
 registrar
 id: 455

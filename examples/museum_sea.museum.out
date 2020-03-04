@@ -8,9 +8,9 @@ status: clienttransferprohibited
 dnssec: unsigned
 whois_server: whois.nic.museum
 name_servers: ns01.trademarkarea.com,ns02.trademarkearea.com,ns03.trademarkarea.com
-created_date: 2018-10-23T14:02:32Z
-updated_date: 2019-04-30T07:34:28Z
-expiration_date: 2019-10-23T14:02:33Z
+created_date: 2018-10-23 14:02:32 +0000 UTC
+updated_date: 2019-10-14 09:15:14 +0000 UTC
+expiration_date: 2020-10-23 14:02:33 +0000 UTC
 
 registrar
 id: 111

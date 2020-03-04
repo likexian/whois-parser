@@ -1,20 +1,20 @@
 
 domain
-id: UNDEF-ROID
-domain: golang.io
+id: D503300000040331433-LRMS
+domain: GOLANG.IO
 name: golang
 extension: io
 status: clienttransferprohibited
-dnssec: Unsigned
+dnssec: unsigned
 whois_server: whois.gandi.net
 name_servers: dns103.ovh.net,ns103.ovh.net
-created_date: 2013-01-24T18:29:21Z
-updated_date: 2019-01-17T08:47:20Z
-expiration_date: 2020-01-24T18:29:21Z
+created_date: 2013-01-24 18:29:21 +0000 UTC
+updated_date: 2020-01-23 17:59:39 +0000 UTC
+expiration_date: 2021-01-24 18:29:21 +0000 UTC
 
 registrar
 id: 81
-name: GANDI SAS
+name: Gandi SAS
 organization: 
 street: 
 city: 
@@ -26,54 +26,54 @@ phone_ext:
 fax: 
 fax_ext: 
 email: abuse@support.gandi.net
-referral_url: http://www.gandi.net
+referral_url: https://www.gandi.net/whois
 
 registrant
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
-organization: 
-street: Obfuscated whois Gandi-63-65 boulevard Massena
-city: Obfuscated whois Gandi-Paris
-province: Paris
-postal_code: 75013
+id: 
+name: 
+organization: Vincent Letourneau
+street: 
+city: 
+province: longjumeau
+postal_code: 
 country: FR
-phone: +33.170377666
+phone: 
 phone_ext: 
-fax: +33.143730576
+fax: 
 fax_ext: 
-email: 142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net
+email: 
 referral_url: 
 
 administrative
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
+id: 
+name: 
 organization: 
-street: Obfuscated whois Gandi-63-65 boulevard Massena
-city: Obfuscated whois Gandi-Paris
-province: Paris
-postal_code: 75013
-country: FR
-phone: +33.170377666
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
-fax: +33.143730576
+fax: 
 fax_ext: 
-email: 142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net
+email: 
 referral_url: 
 
 technical
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
+id: 
+name: 
 organization: 
-street: Obfuscated whois Gandi-63-65 boulevard Massena
-city: Obfuscated whois Gandi-Paris
-province: Paris
-postal_code: 75013
-country: FR
-phone: +33.170377666
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
-fax: +33.143730576
+fax: 
 fax_ext: 
-email: 142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net
+email: 
 referral_url: 
 
 billing

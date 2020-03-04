@@ -8,9 +8,9 @@ status: clienttransferprohibited
 dnssec: unsigned
 whois_server: 
 name_servers: ns-1232.awsdns-26.org,ns-1962.awsdns-53.co.uk,ns-412.awsdns-51.com,ns-903.awsdns-48.net
-created_date: 2014-06-16T19:42:59Z
-updated_date: 2017-01-24T23:11:12Z
-expiration_date: 2020-06-16T19:42:59Z
+created_date: 2014-06-16 19:42:59 +0000 UTC
+updated_date: 2017-01-24 23:11:12 +0000 UTC
+expiration_date: 2020-06-16 19:42:59 +0000 UTC
 
 registrar
 id: 1420

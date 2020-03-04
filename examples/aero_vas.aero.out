@@ -1,16 +1,16 @@
 
 domain
-id: D920695-AERO
+id: D108300000000920695-AGRS
 domain: VAS.AERO
 name: vas
 extension: aero
 status: clienttransferprohibited
 dnssec: unsigned
-whois_server: 
+whois_server: whois.101domain.com
 name_servers: ns1.clt.peak-10.com,ns1.jax.peak-10.com
-created_date: 2010-07-07T19:23:48Z
-updated_date: 2018-06-29T00:13:29Z
-expiration_date: 2021-07-07T19:23:48Z
+created_date: 2010-07-07 19:23:48 +0000 UTC
+updated_date: 2018-06-29 00:13:29 +0000 UTC
+expiration_date: 2021-07-07 19:23:48 +0000 UTC
 
 registrar
 id: 1011
@@ -21,12 +21,12 @@ city:
 province: 
 postal_code: 
 country: 
-phone: 
+phone: +858.2954626
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
-referral_url: 
+email: abuse@101domain.com
+referral_url: https://www.101domain.com
 
 registrant
 id: 
@@ -34,9 +34,9 @@ name:
 organization: 
 street: 
 city: 
-province: 
+province: Florida
 postal_code: 
-country: 
+country: US
 phone: 
 phone_ext: 
 fax: 

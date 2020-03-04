@@ -8,9 +8,9 @@ status:
 dnssec: 
 whois_server: 
 name_servers: kim.ns.cloudflare.com,art.ns.cloudflare.com
-created_date: 2005-04-15 21:43:27
-updated_date: 
-expiration_date: 2020-11-02
+created_date: 2005-04-15 21:43:27 +0000 UTC
+updated_date: 0001-01-01 00:00:00 +0000 UTC
+expiration_date: 2020-11-02 00:00:00 +0000 UTC
 
 registrar
 id: 

@@ -10,92 +10,96 @@
 %%
 %% Use '-h' option to obtain more information about this service.
 %%
-%% [1.1.1.1 REQUEST] >> git.tf
+%% [58.127.14.63 REQUEST] >> git.tf
 %%
-%% RL Net [##########] - RL IP [#######...]
+%% RL Net [##########] - RL IP [#########.]
 %%
 
 domain:      git.tf
 status:      ACTIVE
 hold:        NO
-holder-c:    JN6975-FRNIC
-admin-c:     JN7243-FRNIC
-tech-c:      JN7243-FRNIC
+holder-c:    ANO00-FRNIC
+admin-c:     ANO00-FRNIC
+tech-c:      DA55158-FRNIC
 zone-c:      NFC1-FRNIC
-nsl-id:      NSL53460-FRNIC
-registrar:   1API GmbH
-Expiry Date: 2020-01-20T04:16:05Z
-created:     2019-01-20T04:16:05Z
-last-update: 2019-01-21T15:35:50Z
+nsl-id:      NSL383565-FRNIC
+registrar:   TLD Registrar Solutions Ltd
+Expiry Date: 2021-02-20T05:27:52Z
+created:     2020-02-20T05:27:52Z
+last-update: 2020-02-20T05:35:38Z
 source:      FRNIC
 
-ns-list:     NSL53460-FRNIC
-nserver:     ns1.parkingcrew.net
-nserver:     ns2.parkingcrew.net
+ns-list:     NSL383565-FRNIC
+nserver:     brenda.ns.cloudflare.com
+nserver:     justin.ns.cloudflare.com
 source:      FRNIC
 
-registrar:   1API GmbH
+registrar:   TLD Registrar Solutions Ltd
 type:        Isp Option 1
-address:     Talstrasse 27
-address:     66424 HOMBURG
-country:     DE
-phone:       +49 6841 6984200
-fax-no:      +49 6841 6984299
-e-mail:      info@1api.net
-website:     http://www.1api.net
+address:     35-39 Moorgate
+address:     Level 1
+address:     EC2R 6AR LONDON
+country:     GB
+phone:       +44 2034357304
+e-mail:      admin@tldregistrarsolutions.com
+website:     https://internetbs.net/en/domain-name-registrations/price.html?setCurrency=EUR
 anonymous:   NO
-registered:  2008-09-03T12:00:00Z
+registered:  2014-11-17T12:00:00Z
 source:      FRNIC
 
-nic-hdl:     JN6975-FRNIC
+nic-hdl:     ANO00-FRNIC
 type:        PERSON
-contact:     Jurgen Neeme
-address:     Parnu Mnt 139C
-address:     11317 Tallinn
-address:     Harjumaa
-country:     EE
-phone:       +372 55983275
-e-mail:      jurgen@opus.ws
-registrar:   1API GmbH
-changed:     2019-08-14T00:05:22Z nic@nic.fr
-anonymous:   NO
+contact:     Ano Nymous
+remarks:     -------------- WARNING --------------
+remarks:     While the registrar knows him/her,
+remarks:     this person chose to restrict access
+remarks:     to his/her personal data. So PLEASE,
+remarks:     don't send emails to Ano Nymous. This
+remarks:     address is bogus and there is no hope
+remarks:     of a reply.
+remarks:     -------------- WARNING --------------
+registrar:   TLD Registrar Solutions Ltd
+changed:     2020-02-20T05:25:48Z anonymous@anonymous
+anonymous:   YES
 obsoleted:   NO
 eligstatus:  not identified
 reachstatus: not identified
 source:      FRNIC
 
-nic-hdl:     JN7243-FRNIC
+nic-hdl:     ANO00-FRNIC
 type:        PERSON
-contact:     Jurgen Neeme
-address:     Parnu Mnt 139C
-address:     11317 Tallinn
-address:     Harjumaa
-country:     EE
-phone:       +372.55983275
-e-mail:      jurgen@opus.ws
-registrar:   1API GmbH
-changed:     2017-09-28T16:59:52Z nic@nic.fr
-anonymous:   NO
+contact:     Ano Nymous
+remarks:     -------------- WARNING --------------
+remarks:     While the registrar knows him/her,
+remarks:     this person chose to restrict access
+remarks:     to his/her personal data. So PLEASE,
+remarks:     don't send emails to Ano Nymous. This
+remarks:     address is bogus and there is no hope
+remarks:     of a reply.
+remarks:     -------------- WARNING --------------
+registrar:   TLD Registrar Solutions Ltd
+changed:     2020-02-20T05:25:48Z anonymous@anonymous
+anonymous:   YES
 obsoleted:   NO
 eligstatus:  not identified
 reachstatus: not identified
 source:      FRNIC
 
-nic-hdl:     JN7243-FRNIC
+nic-hdl:     DA55158-FRNIC
 type:        PERSON
-contact:     Jurgen Neeme
-address:     Parnu Mnt 139C
-address:     11317 Tallinn
-address:     Harjumaa
-country:     EE
-phone:       +372.55983275
-e-mail:      jurgen@opus.ws
-registrar:   1API GmbH
-changed:     2017-09-28T16:59:52Z nic@nic.fr
+contact:     Domain Admin
+address:     TLD Registrar Solutions Ltd
+address:     Lvl 1, 35-39 Moorgate
+address:     EC2R 6AR London
+country:     GB
+phone:       +44.2034357312
+fax-no:      +44.2033880601
+e-mail:      admin@tldregistrarsolutions.com
+registrar:   TLD Registrar Solutions Ltd
+changed:     2019-06-19T16:32:56Z nic@nic.fr
 anonymous:   NO
 obsoleted:   NO
 eligstatus:  not identified
 reachstatus: not identified
 source:      FRNIC
-
 

@@ -8,9 +8,9 @@ status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
 dnssec: 
 whois_server: 
 name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
-created_date: 2005-10-27 (YYYY-MM-DD)
-updated_date: 
-expiration_date: 2020-10-31 (YYYY-MM-DD)
+created_date: 2005-10-27 00:00:00 +0000 UTC
+updated_date: 0001-01-01 00:00:00 +0000 UTC
+expiration_date: 2020-10-31 00:00:00 +0000 UTC
 
 registrar
 id: 
@@ -30,48 +30,48 @@ referral_url: http://www.markmonitor.com/
 
 registrant
 id: 
-name: DNS Admin
-organization: Google Inc.
+name: Domain Administrator
+organization: Google LLC
 street: 1600 Amphitheatre Parkway, Mountain View, CA, US
 city: 
 province: 
 postal_code: 
 country: 
-phone: +1.6506234000
+phone: +1.6502530000
 phone_ext: 
-fax: +1.6506188571
+fax: +1.6502530001
 fax_ext: 
 email: dns-admin@google.com
 referral_url: 
 
 administrative
 id: 
-name: DNS Admin
+name: Domain Administrator
 organization: 
 street: 
 city: 
 province: 
 postal_code: 
 country: 
-phone: +1.6506234000
+phone: +1.6502530000
 phone_ext: 
-fax: +1.6506188571
+fax: +1.6502530001
 fax_ext: 
 email: dns-admin@google.com
 referral_url: 
 
 technical
 id: 
-name: DNS Admin
+name: Domain Administrator
 organization: 
 street: 
 city: 
 province: 
 postal_code: 
 country: 
-phone: +1.6506234000
+phone: +1.6502530000
 phone_ext: 
-fax: +1.6506188571
+fax: +1.6502530001
 fax_ext: 
 email: dns-admin@google.com
 referral_url: 

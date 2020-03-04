@@ -8,9 +8,9 @@ status: ok
 dnssec: unsigned
 whois_server: whois.enterprice.net
 name_servers: ns0.ukfast.co.uk,ns1.ukfast.co.uk
-created_date: 2008-11-13T12:41:59Z
-updated_date: 2018-01-27T12:16:12Z
-expiration_date: 2019-11-13T12:41:59Z
+created_date: 2008-11-13 12:41:59 +0000 UTC
+updated_date: 2018-01-27 12:16:12 +0000 UTC
+expiration_date: 2019-11-13 12:41:59 +0000 UTC
 
 registrar
 id: 85

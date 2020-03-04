@@ -10,7 +10,7 @@ Domain Information:
 
 [Name Server]                   ns1.onamae.com
 [Name Server]                   ns2.onamae.com
-[Signing Key]
+[Signing Key]                   
 
 [Created on]                    2001/05/14
 [Expires on]                    2020/05/31
@@ -20,10 +20,11 @@ Domain Information:
 Contact Information:
 [Name]                          GIT Co.,Ltd
 [Email]                         shiozawa@git.jp
-[Web Page]
+[Web Page]                       
 [Postal code]                   107-0052
 [Postal Address]                Minato-ku
                                 3-18-10 AKASAKA
                                 No,2 Osakaya Building 4F
 [Phone]                         03-3586-2351
 [Fax]                           03-3582-3175
+

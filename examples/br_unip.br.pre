@@ -4,7 +4,7 @@
 %  being prohibited its distribution, commercialization or
 %  reproduction, in particular, to use it for advertising or
 %  any similar purpose.
-%  2019-10-16T04:52:39-03:00
+%  2020-03-04T05:10:53-03:00
 domain:      unip.br
 registrant organization:        SOCIEDADE UNIF PAULISTA DE ENSINO REN OBJETIVO
 registrant nic-hdl-br:  LBS2
@@ -24,11 +24,11 @@ billing person:      Tiago Luis de Souza Cunha
 billing created:     20160627
 billing changed:     20160627
 nserver:     datcenter.unip.br 200.196.224.5
-nsstat:      20191015 AA
-nslastaa:    20191015
+nsstat:      20200229 AA
+nslastaa:    20200229
 nserver:     datcenter2.unip.br 200.196.224.8
-nsstat:      20191015 AA
-nslastaa:    20191015
+nsstat:      20200229 AA
+nslastaa:    20200229
 created:     19990717 #175298
 changed:     20190523
 status:      published

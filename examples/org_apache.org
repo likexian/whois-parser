@@ -1,63 +1,32 @@
-Domain name: apache.org
+Domain Name: APACHE.ORG
 Registry Domain ID: D706686-LROR
 Registrar WHOIS Server: whois.namecheap.com
 Registrar URL: http://www.namecheap.com
-Updated Date: 2018-09-25T13:18:21.00Z
-Creation Date: 1995-04-11T04:00:00.00Z
-Registrar Registration Expiration Date: 2022-04-12T04:00:00.00Z
-Registrar: NAMECHEAP INC
+Updated Date: 2019-11-24T10:32:55Z
+Creation Date: 1995-04-11T04:00:00Z
+Registry Expiry Date: 2029-04-12T04:00:00Z
+Registrar Registration Expiration Date:
+Registrar: NameCheap, Inc.
 Registrar IANA ID: 1068
 Registrar Abuse Contact Email: abuse@namecheap.com
 Registrar Abuse Contact Phone: +1.6613102107
-Reseller: NAMECHEAP INC
-Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited 
-Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited 
-Registry Registrant ID: 
-Registrant Name: Apache DNS
+Reseller:
+Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
 Registrant Organization: The Apache Software Foundation
-Registrant Street: 401 Edgewater Place Suite 600
-Registrant City: Wakefield
 Registrant State/Province: MA
-Registrant Postal Code: 01880
 Registrant Country: US
-Registrant Phone: +1.1234567890
-Registrant Phone Ext: 
-Registrant Fax: +1.7816238460
-Registrant Fax Ext: 
-Registrant Email: dns@apache.org
-Registry Admin ID: 
-Admin Name: Apache DNS
-Admin Organization: The Apache Software Foundation
-Admin Street: 401 Edgewater Place Suite 600
-Admin City: Wakefield
-Admin State/Province: MA
-Admin Postal Code: 01880
-Admin Country: US
-Admin Phone: +1.1234567890
-Admin Phone Ext: 
-Admin Fax: +1.7816238460
-Admin Fax Ext: 
-Admin Email: dns@apache.org
-Registry Tech ID: 
-Tech Name: Apache DNS
-Tech Organization: The Apache Software Foundation
-Tech Street: 401 Edgewater Place Suite 600
-Tech City: Wakefield
-Tech State/Province: MA
-Tech Postal Code: 01880
-Tech Country: US
-Tech Phone: +1.1234567890
-Tech Phone Ext: 
-Tech Fax: +1.7816238460
-Tech Fax Ext: 
-Tech Email: dns@apache.org
-Name Server: ns2.surfnet.nl 
-Name Server: ns3.no-ip.com 
-Name Server: ns2.no-ip.com 
-Name Server: ns1.no-ip.com 
-Name Server: ns4.no-ip.com 
+Name Server: NS2.SURFNET.NL
+Name Server: NS3.NO-IP.COM
+Name Server: NS2.NO-IP.COM
+Name Server: NS1.NO-IP.COM
+Name Server: NS4.NO-IP.COM
 DNSSEC: unsigned
-URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
->>> Last update of WHOIS database: 2019-09-30T07:09:03.68Z <<<
+URL of the ICANN Whois Inaccuracy Complaint Form https://www.icann.org/wicf/)
+>>> Last update of WHOIS database: 2020-03-04T08:14:57Z <<<
 
 For more information on Whois status codes, please visit https://icann.org/epp
+
+Access to Public Interest Registry WHOIS information is provided to assist persons in determining the contents of a domain name registration record in the Public Interest Registry registry database. The data in this record is provided by Public Interest Registry for informational purposes only, and Public Interest Registry does not guarantee its accuracy. This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to (a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the data recipient's own existing customers; or (b) enable high volume, automated, electronic processes that send queries or data to the systems of Registry Operator, a Registrar, or Afilias except as reasonably necessary to register domain names or modify existing registrations. All rights reserved. Public Interest Registry reserves the right to modify these terms at any time. By submitting this query, you agree to abide by this policy.
+
+The Registrar of Record identified in this output may have an RDDS service that can be queried for additional information on how to contact the Registrant, Admin, or Tech contact of the queried domain name.

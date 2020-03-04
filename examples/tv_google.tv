@@ -1,3 +1,60 @@
+   Domain Name: GOOGLE.TV
+   Registry Domain ID: 87196881_DOMAIN_TV-VRSN
+   Registrar WHOIS Server: whois.markmonitor.com
+   Registrar URL: http://www.markmonitor.com
+   Updated Date: 2019-07-01T09:33:39Z
+   Creation Date: 2002-08-02T16:43:36Z
+   Registry Expiry Date: 2020-08-02T16:43:36Z
+   Registrar: MarkMonitor Inc.
+   Registrar IANA ID: 292
+   Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+   Registrar Abuse Contact Phone: +1.2083895740
+   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+   Name Server: NS1.GOOGLE.COM
+   Name Server: NS2.GOOGLE.COM
+   Name Server: NS3.GOOGLE.COM
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2020-03-04T08:05:06Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+NOTICE: The expiration date displayed in this record is the date the
+registrar's sponsorship of the domain name registration in the registry is
+currently set to expire. This date does not necessarily reflect the
+expiration date of the domain name registrant's agreement with the
+sponsoring registrar.  Users may consult the sponsoring registrar's
+Whois database to view the registrar's reported date of expiration
+for this registration.
+
+TERMS OF USE: You are not authorized to access or query our Whois
+database through the use of electronic processes that are high-volume and
+automated except as reasonably necessary to register domain names or
+modify existing registrations; the Data in VeriSign's ("VeriSign") Whois
+database is provided by VeriSign for information purposes only, and to
+assist persons in obtaining information about or related to a domain name
+registration record. VeriSign does not guarantee its accuracy.
+By submitting a Whois query, you agree to abide by the following terms of
+use: You agree that you may use this Data only for lawful purposes and that
+under no circumstances will you use this Data to: (1) allow, enable, or
+otherwise support the transmission of mass unsolicited, commercial
+advertising or solicitations via e-mail, telephone, or facsimile; or
+(2) enable high volume, automated, electronic processes that apply to
+VeriSign (or its computer systems). The compilation, repackaging,
+dissemination or other use of this Data is expressly prohibited without
+the prior written consent of VeriSign. You agree not to use electronic
+processes that are automated and high-volume to access or query the
+Whois database except as reasonably necessary to register domain names
+or modify existing registrations. VeriSign reserves the right to restrict
+your access to the Whois database in its sole discretion to ensure
+operational stability.  VeriSign may restrict or terminate your access to the
+Whois database for failure to abide by these terms of use. VeriSign
+reserves the right to modify these terms at any time.
 Domain Name: google.tv
 Registry Domain ID: 
 Registrar WHOIS Server: whois.markmonitor.com
@@ -8,7 +65,7 @@ Registrar Registration Expiration Date: 2020-08-02T00:00:00-0700
 Registrar: MarkMonitor, Inc.
 Registrar IANA ID: 292
 Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
-Registrar Abuse Contact Phone: +1.2083895740
+Registrar Abuse Contact Phone: +1.2083895770
 Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
 Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
 Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
@@ -18,18 +75,21 @@ Domain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeletePro
 Registrant Organization: Google Inc.
 Registrant State/Province: CA
 Registrant Country: US
+Registrant Email: Select Request Email Form at https://domains.markmonitor.com/whois/google.tv
 Admin Organization: Google Inc.
 Admin State/Province: CA
 Admin Country: US
+Admin Email: Select Request Email Form at https://domains.markmonitor.com/whois/google.tv
 Tech Organization: Google Inc.
 Tech State/Province: CA
 Tech Country: US
-Name Server: ns1.google.com
+Tech Email: Select Request Email Form at https://domains.markmonitor.com/whois/google.tv
 Name Server: ns3.google.com
+Name Server: ns1.google.com
 Name Server: ns2.google.com
 DNSSEC: unsigned
 URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
->>> Last update of WHOIS database: 2019-10-09T20:05:00-0700 <<<
+>>> Last update of WHOIS database: 2020-03-03T23:58:58-0800 <<<
 
 For more information on WHOIS status codes, please visit:
   https://www.icann.org/resources/pages/epp-status-codes
@@ -79,4 +139,3 @@ Visit MarkMonitor at https://www.markmonitor.com
 Contact us at +1.8007459229
 In Europe, at +44.02032062220
 --
-

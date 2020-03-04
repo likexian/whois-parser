@@ -1,16 +1,16 @@
 
 domain
 id: D34417-LRMS
-domain: west.info
+domain: WEST.INFO
 name: west
 extension: info
 status: clienttransferprohibited
 dnssec: unsigned
 whois_server: whois.psi-usa.info
 name_servers: dns1.ipmanagerinc.net,dns2.ipmanagerinc.net,dns3.ipmanagerinc.net
-created_date: 2001-07-31T21:14:42Z
-updated_date: 2019-09-20T00:17:40Z
-expiration_date: 2020-07-31T21:14:42Z
+created_date: 2001-07-31 21:14:42 +0000 UTC
+updated_date: 2019-07-31 22:22:36 +0000 UTC
+expiration_date: 2020-07-31 21:14:42 +0000 UTC
 
 registrar
 id: 151
@@ -26,54 +26,54 @@ phone_ext:
 fax: 
 fax_ext: 
 email: domain-abuse@psi-usa.info
-referral_url: https://www.psi-usa.info
+referral_url: http://www.psi-usa.info
 
 registrant
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
+id: 
+name: 
 organization: Imperial Tobacco Limited
-street: REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
+street: 
+city: 
 province: GB
-postal_code: REDACTED FOR PRIVACY
+postal_code: 
 country: GB
-phone: REDACTED FOR PRIVACY
-phone_ext: REDACTED FOR PRIVACY
-fax: REDACTED FOR PRIVACY
-fax_ext: REDACTED FOR PRIVACY
-email: https://contact.domain-robot.org/west.info
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
 referral_url: 
 
 administrative
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
-province: REDACTED FOR PRIVACY
-postal_code: REDACTED FOR PRIVACY
-country: REDACTED FOR PRIVACY
-phone: REDACTED FOR PRIVACY
-phone_ext: REDACTED FOR PRIVACY
-fax: REDACTED FOR PRIVACY
-fax_ext: REDACTED FOR PRIVACY
-email: https://contact.domain-robot.org/west.info
+id: 
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
 referral_url: 
 
 technical
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
-province: REDACTED FOR PRIVACY
-postal_code: REDACTED FOR PRIVACY
-country: REDACTED FOR PRIVACY
-phone: REDACTED FOR PRIVACY
-phone_ext: REDACTED FOR PRIVACY
-fax: REDACTED FOR PRIVACY
-fax_ext: REDACTED FOR PRIVACY
-email: https://contact.domain-robot.org/west.info
+id: 
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
 referral_url: 
 
 billing

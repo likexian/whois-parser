@@ -8,9 +8,9 @@ status: clientdeleteprohibited,clientupdateprohibited,serverdeleteprohibited,ser
 dnssec: unsigned
 whois_server: whois.auda.org.au
 name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
-created_date: 
-updated_date: 2019-04-17T19:49:19Z
-expiration_date: 
+created_date: 0001-01-01 00:00:00 +0000 UTC
+updated_date: 2019-04-17 19:49:19 +0000 UTC
+expiration_date: 0001-01-01 00:00:00 +0000 UTC
 
 registrar
 id: 

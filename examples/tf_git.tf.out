@@ -7,73 +7,73 @@ extension: tf
 status: active
 dnssec: 
 whois_server: 
-name_servers: ns1.parkingcrew.net,ns2.parkingcrew.net
-created_date: 2019-01-20T04:16:05Z
-updated_date: 2019-01-21T15:35:50Z
-expiration_date: 2020-01-20T04:16:05Z
+name_servers: brenda.ns.cloudflare.com,justin.ns.cloudflare.com
+created_date: 2020-02-20 05:27:52 +0000 UTC
+updated_date: 2020-02-20 05:35:38 +0000 UTC
+expiration_date: 2021-02-20 05:27:52 +0000 UTC
 
 registrar
 id: 
-name: 1API GmbH
+name: TLD Registrar Solutions Ltd
 organization: 
-street: Talstrasse 27, 66424 HOMBURG
+street: 35-39 Moorgate, Level 1, EC2R 6AR LONDON
 city: 
 province: 
 postal_code: 
-country: DE
-phone: +49 6841 6984200
-phone_ext: 
-fax: +49 6841 6984299
-fax_ext: 
-email: info@1api.net
-referral_url: http://www.1api.net
-
-registrant
-id: JN6975-FRNIC
-name: Jurgen Neeme
-organization: 
-street: Parnu Mnt 139C, 11317 Tallinn, Harjumaa
-city: 
-province: 
-postal_code: 
-country: EE
-phone: +372 55983275
+country: GB
+phone: +44 2034357304
 phone_ext: 
 fax: 
 fax_ext: 
-email: jurgen@opus.ws
+email: admin@tldregistrarsolutions.com
+referral_url: https://internetbs.net/en/domain-name-registrations/price.html?setCurrency=EUR
+
+registrant
+id: ANO00-FRNIC
+name: Ano Nymous
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
 referral_url: 
 
 administrative
-id: JN7243-FRNIC
-name: Jurgen Neeme
+id: ANO00-FRNIC
+name: Ano Nymous
 organization: 
-street: Parnu Mnt 139C, 11317 Tallinn, Harjumaa
+street: 
 city: 
 province: 
 postal_code: 
-country: EE
-phone: +372.55983275
+country: 
+phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: jurgen@opus.ws
+email: 
 referral_url: 
 
 technical
-id: JN7243-FRNIC
-name: Jurgen Neeme
+id: DA55158-FRNIC
+name: Domain Admin
 organization: 
-street: Parnu Mnt 139C, 11317 Tallinn, Harjumaa
+street: TLD Registrar Solutions Ltd, Lvl 1, 35-39 Moorgate, EC2R 6AR London
 city: 
 province: 
 postal_code: 
-country: EE
-phone: +372.55983275
+country: GB
+phone: +44.2034357312
 phone_ext: 
-fax: 
+fax: +44.2033880601
 fax_ext: 
-email: jurgen@opus.ws
+email: admin@tldregistrarsolutions.com
 referral_url: 
 
 billing

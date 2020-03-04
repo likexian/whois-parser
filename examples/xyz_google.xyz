@@ -1,80 +1,46 @@
-Domain Name: google.xyz
+Domain Name: GOOGLE.XYZ
 Registry Domain ID: D2689447-CNIC
 Registrar WHOIS Server: whois.markmonitor.com
-Registrar URL: http://www.markmonitor.com
-Updated Date: 2018-10-25T02:32:20-0700
-Creation Date: 2014-05-20T05:04:51-0700
-Registrar Registration Expiration Date: 2019-11-26T00:00:00-0800
-Registrar: MarkMonitor, Inc.
+Registrar URL:
+Updated Date: 2019-11-15T11:12:29.0Z
+Creation Date: 2014-05-20T12:04:51.0Z
+Registry Expiry Date: 2020-11-26T23:59:59.0Z
+Registrar: MarkMonitor, Inc (TLDs)
 Registrar IANA ID: 292
-Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
-Registrar Abuse Contact Phone: +1.2083895740
-Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
-Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
-Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
 Registrant Organization: Google LLC
 Registrant State/Province: CA
 Registrant Country: US
-Admin Organization: Google LLC
-Admin State/Province: CA
-Admin Country: US
-Tech Organization: Google LLC
-Tech State/Province: CA
-Tech Country: US
-Name Server: ns3.google.com
-Name Server: ns1.google.com
-Name Server: ns4.google.com
-Name Server: ns2.google.com
+Registrant Email: Please query the RDDS service of the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Tech contact of the queried domain name.
+Admin Email: Please query the RDDS service of the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Tech contact of the queried domain name.
+Tech Email: Please query the RDDS service of the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Tech contact of the queried domain name.
+Name Server: NS1.GOOGLE.COM
+Name Server: NS2.GOOGLE.COM
+Name Server: NS3.GOOGLE.COM
+Name Server: NS4.GOOGLE.COM
 DNSSEC: unsigned
-URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
->>> Last update of WHOIS database: 2019-10-05T23:37:12-0700 <<<
+Billing Email: Please query the RDDS service of the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Tech contact of the queried domain name.
+Registrar Abuse Contact Email: ccops@markmonitor.com
+Registrar Abuse Contact Phone: +1.2083895740
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2020-03-04T08:27:39.0Z <<<
 
-For more information on WHOIS status codes, please visit:
-  https://www.icann.org/resources/pages/epp-status-codes
+For more information on Whois status codes, please visit https://icann.org/epp
 
-If you wish to contact this domain’s Registrant, Administrative, or Technical
-contact, and such email address is not visible above, you may do so via our web
-form, pursuant to ICANN’s Temporary Specification. To verify that you are not a
-robot, please enter your email address to receive a link to a page that
-facilitates email communication with the relevant contact(s).
+>>> IMPORTANT INFORMATION ABOUT THE DEPLOYMENT OF RDAP: please visit
+https://www.centralnic.com/support/rdap <<<
 
-Web-based WHOIS:
-  https://domains.markmonitor.com/whois
+The Whois and RDAP services are provided by CentralNic, and contain
+information pertaining to Internet domain names registered by our
+our customers. By using this service you are agreeing (1) not to use any
+information presented here for any purpose other than determining
+ownership of domain names, (2) not to store or reproduce this data in
+any way, (3) not to use any high-volume, automated, electronic processes
+to obtain data from this service. Abuse of this service is monitored and
+actions in contravention of these terms will result in being permanently
+blacklisted. All data is (c) CentralNic Ltd (https://www.centralnic.com)
 
-If you have a legitimate interest in viewing the non-public WHOIS details, send
-your request and the reasons for your request to whoisrequest@markmonitor.com
-and specify the domain name in the subject line. We will review that request and
-may ask for supporting documentation and explanation.
-
-The data in MarkMonitor’s WHOIS database is provided for information purposes,
-and to assist persons in obtaining information about or related to a domain
-name’s registration record. While MarkMonitor believes the data to be accurate,
-the data is provided "as is" with no guarantee or warranties regarding its
-accuracy.
-
-By submitting a WHOIS query, you agree that you will use this data only for
-lawful purposes and that, under no circumstances will you use this data to:
-  (1) allow, enable, or otherwise support the transmission by email, telephone,
-or facsimile of mass, unsolicited, commercial advertising, or spam; or
-  (2) enable high volume, automated, or electronic processes that send queries,
-data, or email to MarkMonitor (or its systems) or the domain name contacts (or
-its systems).
-
-MarkMonitor.com reserves the right to modify these terms at any time.
-
-By submitting this query, you agree to abide by this policy.
-
-MarkMonitor is the Global Leader in Online Brand Protection.
-
-MarkMonitor Domain Management(TM)
-MarkMonitor Brand Protection(TM)
-MarkMonitor AntiCounterfeiting(TM)
-MarkMonitor AntiPiracy(TM)
-MarkMonitor AntiFraud(TM)
-Professional and Managed Services
-
-Visit MarkMonitor at https://www.markmonitor.com
-Contact us at +1.8007459229
-In Europe, at +44.02032062220
-
-
+Access to the Whois and RDAP services is rate limited. For more
+information, visit https://registrar-console.centralnic.com/pub/whois_guidance.

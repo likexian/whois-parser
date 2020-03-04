@@ -4,13 +4,13 @@ id: D13012-TRAVEL
 domain: google.travel
 name: google
 extension: travel
-status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
+status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
 dnssec: unsigned
 whois_server: 
 name_servers: ns3.google.com,ns1.google.com,ns2.google.com,ns4.google.com
-created_date: 2005-10-03T14:16:24Z
-updated_date: 2019-09-04T12:23:16Z
-expiration_date: 2020-10-02T23:59:59Z
+created_date: 2005-10-03 14:16:24 +0000 UTC
+updated_date: 2020-01-14 20:49:36 +0000 UTC
+expiration_date: 2020-10-02 23:59:59 +0000 UTC
 
 registrar
 id: 292
@@ -31,7 +31,7 @@ referral_url: www.markmonitor.com
 registrant
 id: 
 name: 
-organization: Google Inc.
+organization: Google LLC
 street: 
 city: 
 province: CA

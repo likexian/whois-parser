@@ -1,20 +1,20 @@
 
 domain
 id: D503300000040385778-LRMS
-domain: google.ac
+domain: GOOGLE.AC
 name: google
 extension: ac
-status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited,serverupdateprohibited,servertransferprohibited,serverdeleteprohibited
+status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited,serverdeleteprohibited,servertransferprohibited,serverupdateprohibited,renewperiod
 dnssec: unsigned
 whois_server: whois.markmonitor.com
-name_servers: ns1.google.com,ns4.google.com,ns3.google.com,ns2.google.com
-created_date: 2006-04-03T06:38:02-0700
-updated_date: 2019-08-12T10:52:01-0700
-expiration_date: 2020-04-03T00:00:00-0700
+name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
+created_date: 2006-04-03 13:38:02 +0000 UTC
+updated_date: 2020-03-02 10:38:06 +0000 UTC
+expiration_date: 2021-04-03 13:38:02 +0000 UTC
 
 registrar
 id: 292
-name: MarkMonitor, Inc.
+name: MarkMonitor Inc.
 organization: 
 street: 
 city: 
@@ -47,12 +47,12 @@ referral_url:
 administrative
 id: 
 name: 
-organization: Google LLC
+organization: 
 street: 
 city: 
-province: CA
+province: 
 postal_code: 
-country: US
+country: 
 phone: 
 phone_ext: 
 fax: 
@@ -63,12 +63,12 @@ referral_url:
 technical
 id: 
 name: 
-organization: Google LLC
+organization: 
 street: 
 city: 
-province: CA
+province: 
 postal_code: 
-country: US
+country: 
 phone: 
 phone_ext: 
 fax: 

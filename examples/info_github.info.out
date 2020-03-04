@@ -4,13 +4,13 @@ id: D51322538-LRMS
 domain: GITHUB.INFO
 name: github
 extension: info
-status: clienttransferprohibited,clientupdateprohibited,clientrenewprohibited,clientdeleteprohibited
+status: clientdeleteprohibited,clientrenewprohibited,clienttransferprohibited,clientupdateprohibited
 dnssec: unsigned
 whois_server: whois.godaddy.com
 name_servers: ns.romania-webhosting.com,ns.clausweb.ro,ns.registar.ro
-created_date: 2014-01-05T12:18:22Z
-updated_date: 2019-01-06T12:04:19Z
-expiration_date: 2020-01-05T12:18:22Z
+created_date: 2014-01-05 12:18:22 +0000 UTC
+updated_date: 2020-01-06 17:37:57 +0000 UTC
+expiration_date: 2021-01-05 12:18:22 +0000 UTC
 
 registrar
 id: 146
@@ -41,7 +41,7 @@ phone:
 phone_ext: 
 fax: 
 fax_ext: 
-email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=github.info
+email: 
 referral_url: 
 
 administrative
@@ -57,7 +57,7 @@ phone:
 phone_ext: 
 fax: 
 fax_ext: 
-email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=github.info
+email: 
 referral_url: 
 
 technical
@@ -73,7 +73,7 @@ phone:
 phone_ext: 
 fax: 
 fax_ext: 
-email: select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=github.info
+email: 
 referral_url: 
 
 billing

@@ -1,66 +1,29 @@
 Domain Name: GIT.AC
 Registry Domain ID: D503300000063709937-LRMS
 Registrar WHOIS Server: whois.porkbun.com
-Registrar URL: http://www.porkbun.com
-Updated Date: 2018-12-10 01:00:04
-Created Date: 2018-02-09 11:59:43
-Registrar Registration Expiration Date: 2020-02-09 11:59:43
+Registrar URL: https://porkbun.com
+Updated Date: 2020-02-01T04:14:40Z
+Creation Date: 2018-02-09T11:59:43Z
+Registry Expiry Date: 2021-02-09T11:59:43Z
+Registrar Registration Expiration Date:
 Registrar: Porkbun LLC
 Registrar IANA ID: 1861
 Registrar Abuse Contact Email: abuse@porkbun.com
 Registrar Abuse Contact Phone: +1.5038508351
-Domain Status: clientDeleteProhibited http://icann.org/epp#clientDeleteProhibited
-Domain Status: clientTransferProhibited http://icann.org/epp#clientTransferProhibited
-Domain Status: serverTransferProhibited http://icann.org/epp#serverTransferProhibited
-Registry Registrant ID: 
-Registrant Name: Whois Privacy
+Reseller:
+Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
 Registrant Organization: Private by Design, LLC
-Registrant Street: 500 Westover Dr #9816
-Registrant City: Sanford
 Registrant State/Province: NC
-Registrant Postal Code: 27330
 Registrant Country: US
-Registrant Phone: +1.9712666028
-Registrant Phone Ext: 
-Registrant Fax:
-Registrant Fax Ext: 
-Registrant Email: https://porkbun.com/whois/contact/registrant/git.ac
-Registry Admin ID: 
-Admin Name: Whois Privacy
-Admin Organization: Private by Design, LLC
-Admin Street: 500 Westover Dr #9816
-Admin City: Sanford
-Admin State/Province: NC
-Admin Postal Code: 27330
-Admin Country: US
-Admin Phone: +1.9712666028
-Admin Phone Ext: 
-Admin Fax:
-Admin Fax Ext: 
-Admin Email: https://porkbun.com/whois/contact/admin/git.ac
-Registry Tech ID: 
-Tech Name: Whois Privacy
-Tech Organization: Private by Design, LLC
-Tech Street: 500 Westover Dr #9816
-Tech City: Sanford
-Tech State/Province: NC
-Tech Postal Code: 27330
-Tech Country: US
-Tech Phone: +1.9712666028
-Tech Phone Ext: 
-Tech Fax:
-Tech Fax Ext: 
-Tech Email: https://porkbun.com/whois/contact/tech/git.ac
-Name Server: f1g1ns2.dnspod.net
-Name Server: f1g1ns1.dnspod.net
-DNSSEC: unsignedDelegation
-URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net
->>> Last update of WHOIS database: 2018-12-10 01:00:04 <<<
+Name Server: F1G1NS2.DNSPOD.NET
+Name Server: F1G1NS1.DNSPOD.NET
+DNSSEC: unsigned
+URL of the ICANN Whois Inaccuracy Complaint Form is https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2020-03-04T07:42:20Z <<<
 
-For more information on Whois status codes, please visit https://www.icann.org/resources/pages/epp-status-codes-2014-06-16-en.
+For more information on Whois status codes, please visit https://icann.org/epp
 
-The Data in the Porkbun LLC WHOIS database is provided by Porkbun LLC for information purposes, and to assist persons in obtaining information about or related to a domain name registration record. Porkbun LLC does not guarantee its accuracy. By submitting a WHOIS query, you agree that you will use this Data only for lawful purposes and that, under no circumstances will you use this Data to: (1) allow, enable, or otherwise support the transmission of mass unsolicited, commercial advertising or solicitations via e-mail (spam); or (2) enable high volume, automated, electronic processes that apply to Porkbun LLC (or its systems). Porkbun LLC reserves the right to modify these terms at any time. By submitting this query, you agree to abide by this policy.
+Access to WHOIS information provided by Internet Computer Bureau Ltd. ICB is provided to assist persons in determining the contents of a domain name registration record in the ICB registry database. The data in this record is provided by ICB for informational purposes only, and ICB does not guarantee its accuracy. This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to(i) allow, enable, or otherwise support the transmission by e-mail, telephone, facsimile or other electronic means of mass, unsolicited, commercial advertising or solicitations to entities other than the data recipient's own existing customers; or (ii) enable high volume, automated, electronic processes that send queries or data to the systems of Registry Operator, a Registrar, or ICB or its services providers except as reasonably necessary to register domain names or modify existing registrations. UK privacy laws limit the scope of information permitted for certain public access.  Therefore, concerns regarding abusive use of domain registrations in the ICB registry should be directed to either (a) the Registrar of Record as indicated in the WHOIS output, or (b) the ICB anti-abuse department at abuse@icbregistry.info.
 
-Porkbun!
-
-
+All rights reserved. ICB reserves the right to modify these terms at any time. By submitting this query, you agree to abide by these policies

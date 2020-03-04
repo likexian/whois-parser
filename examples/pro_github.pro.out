@@ -1,20 +1,20 @@
 
 domain
 id: D107300000001426087-LRMS
-domain: github.pro
+domain: GITHUB.PRO
 name: github
 extension: pro
-status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
+status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
 dnssec: unsigned
 whois_server: whois.markmonitor.com
-name_servers: ns1.p16.dynect.net,ns2.p16.dynect.net,ns4.p16.dynect.net,ns3.p16.dynect.net
-created_date: 2015-11-25T12:29:48-0800
-updated_date: 2017-10-25T02:11:44-0700
-expiration_date: 2019-11-25T00:00:00-0800
+name_servers: ns3.p16.dynect.net,ns1.p16.dynect.net,ns2.p16.dynect.net,ns4.p16.dynect.net
+created_date: 2015-11-25 20:29:48 +0000 UTC
+updated_date: 2019-10-24 09:13:51 +0000 UTC
+expiration_date: 2021-11-25 20:29:48 +0000 UTC
 
 registrar
 id: 292
-name: MarkMonitor, Inc.
+name: MarkMonitor Inc.
 organization: 
 street: 
 city: 
@@ -47,12 +47,12 @@ referral_url:
 administrative
 id: 
 name: 
-organization: GitHub, Inc.
+organization: 
 street: 
 city: 
-province: CA
+province: 
 postal_code: 
-country: US
+country: 
 phone: 
 phone_ext: 
 fax: 
@@ -63,12 +63,12 @@ referral_url:
 technical
 id: 
 name: 
-organization: GitHub, Inc.
+organization: 
 street: 
 city: 
-province: CA
+province: 
 postal_code: 
-country: US
+country: 
 phone: 
 phone_ext: 
 fax: 

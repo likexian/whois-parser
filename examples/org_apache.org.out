@@ -1,20 +1,20 @@
 
 domain
 id: D706686-LROR
-domain: apache.org
+domain: APACHE.ORG
 name: apache
 extension: org
 status: clientdeleteprohibited,clienttransferprohibited
 dnssec: unsigned
 whois_server: whois.namecheap.com
 name_servers: ns2.surfnet.nl,ns3.no-ip.com,ns2.no-ip.com,ns1.no-ip.com,ns4.no-ip.com
-created_date: 1995-04-11T04:00:00.00Z
-updated_date: 2018-09-25T13:18:21.00Z
-expiration_date: 2022-04-12T04:00:00.00Z
+created_date: 1995-04-11 04:00:00 +0000 UTC
+updated_date: 2019-11-24 10:32:55 +0000 UTC
+expiration_date: 2029-04-12 04:00:00 +0000 UTC
 
 registrar
 id: 1068
-name: NAMECHEAP INC
+name: NameCheap, Inc.
 organization: 
 street: 
 city: 
@@ -30,50 +30,50 @@ referral_url: http://www.namecheap.com
 
 registrant
 id: 
-name: Apache DNS
+name: 
 organization: The Apache Software Foundation
-street: 401 Edgewater Place Suite 600
-city: Wakefield
+street: 
+city: 
 province: MA
-postal_code: 01880
+postal_code: 
 country: US
-phone: +1.1234567890
+phone: 
 phone_ext: 
-fax: +1.7816238460
+fax: 
 fax_ext: 
-email: dns@apache.org
+email: 
 referral_url: 
 
 administrative
 id: 
-name: Apache DNS
-organization: The Apache Software Foundation
-street: 401 Edgewater Place Suite 600
-city: Wakefield
-province: MA
-postal_code: 01880
-country: US
-phone: +1.1234567890
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
-fax: +1.7816238460
+fax: 
 fax_ext: 
-email: dns@apache.org
+email: 
 referral_url: 
 
 technical
 id: 
-name: Apache DNS
-organization: The Apache Software Foundation
-street: 401 Edgewater Place Suite 600
-city: Wakefield
-province: MA
-postal_code: 01880
-country: US
-phone: +1.1234567890
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
-fax: +1.7816238460
+fax: 
 fax_ext: 
-email: dns@apache.org
+email: 
 referral_url: 
 
 billing

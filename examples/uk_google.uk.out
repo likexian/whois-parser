@@ -8,9 +8,9 @@ status: registered
 dnssec: 
 whois_server: 
 name_servers: ns1.googledomains.com,ns2.googledomains.com,ns3.googledomains.com,ns4.googledomains.com
-created_date: 11-Jun-2014
-updated_date: 10-May-2019
-expiration_date: 11-Jun-2020
+created_date: 2014-06-11 00:00:00 +0000 UTC
+updated_date: 2019-05-10 00:00:00 +0000 UTC
+expiration_date: 2020-06-11 00:00:00 +0000 UTC
 
 registrar
 id: 

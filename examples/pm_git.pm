@@ -10,9 +10,9 @@
 %%
 %% Use '-h' option to obtain more information about this service.
 %%
-%% [1.1.1.1 REQUEST] >> git.pm
+%% [58.127.14.63 REQUEST] >> git.pm
 %%
-%% RL Net [##########] - RL IP [######....]
+%% RL Net [##########] - RL IP [#########.]
 %%
 
 domain:      git.pm
@@ -22,16 +22,17 @@ holder-c:    TS6102-FRNIC
 admin-c:     TS6101-FRNIC
 tech-c:      TS6101-FRNIC
 zone-c:      NFC1-FRNIC
-nsl-id:      NSL38500-FRNIC
+nsl-id:      NSL2858-FRNIC
 registrar:   GRANSY s.r.o.
 Expiry Date: 2020-07-18T16:17:05Z
 created:     2013-07-18T16:17:05Z
-last-update: 2019-06-12T07:35:08Z
+last-update: 2019-11-01T08:29:14Z
 source:      FRNIC
 
-ns-list:     NSL38500-FRNIC
-nserver:     ns1.srna.sk
-nserver:     ns2.srna.sk
+ns-list:     NSL2858-FRNIC
+nserver:     ns1.digitalocean.com
+nserver:     ns2.digitalocean.com
+nserver:     ns3.digitalocean.com
 source:      FRNIC
 
 registrar:   GRANSY s.r.o.
@@ -96,5 +97,4 @@ obsoleted:   NO
 eligstatus:  not identified
 reachstatus: not identified
 source:      FRNIC
-
 

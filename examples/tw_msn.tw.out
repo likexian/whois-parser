@@ -8,9 +8,9 @@ status:
 dnssec: 
 whois_server: 
 name_servers: 
-created_date: 2005-10-27 (YYYY-MM-DD)
-updated_date: 
-expiration_date: 2019-10-27 (YYYY-MM-DD)
+created_date: 2005-10-27 00:00:00 +0000 UTC
+updated_date: 0001-01-01 00:00:00 +0000 UTC
+expiration_date: 2020-10-27 00:00:00 +0000 UTC
 
 registrar
 id: 

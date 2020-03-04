@@ -8,9 +8,9 @@ status: clienttransferprohibited,clientdeleteprohibited,clientupdateprohibited
 dnssec: unsigned
 whois_server: whois.markmonitor.com
 name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
-created_date: 2002-03-03T17:00:26Z
-updated_date: 2019-01-30T09:53:55Z
-expiration_date: 2020-03-03T23:00:26Z
+created_date: 2002-03-03 18:00:26 +0000 UTC
+updated_date: 2020-01-31 10:37:09 +0000 UTC
+expiration_date: 2021-03-04 00:00:26 +0000 UTC
 
 registrar
 id: 292

@@ -38,14 +38,16 @@
 %
 % The EURid WHOIS service on port 43 (textual whois) never
 % discloses any information concerning the registrant.
-% Registrant and onsite contact information can be obtained through use of the
+% Registrant and on-site contact information can be obtained through use of the
 % webbased WHOIS service available from the EURid website www.eurid.eu
 %
 % WHOIS google.eu
 Domain: google.eu
 Script: LATIN
 Registrant: NOT DISCLOSED!
-Onsite: NOT DISCLOSED!
+On-site(s):
+NOT DISCLOSED!
+Visit www.eurid.eu for webbased WHOIS.
 Registrar Name: MarkMonitor Inc.
 Registrar Website: https://www.markmonitor.com/
 Name servers: ns3.google.com

@@ -12,7 +12,7 @@ query : google.kr
 책임자 전화번호             : 82.25319000
 등록일                      : 2007. 03. 02.
 최근 정보 변경일            : 2010. 10. 04.
-사용 종료일                 : 2020. 03. 02.
+사용 종료일                 : 2021. 03. 02.
 정보공개여부                : Y
 등록대행자                  : (주)후이즈(http://whois.co.kr)
 DNSSEC                      : 미서명
@@ -37,7 +37,7 @@ AC E-Mail                   : dns-admin@google.com
 AC Phone Number             : 82.25319000
 Registered Date             : 2007. 03. 02.
 Last Updated Date           : 2010. 10. 04.
-Expiration Date             : 2020. 03. 02.
+Expiration Date             : 2021. 03. 02.
 Publishes                   : Y
 Authorized Agency           : Whois Corp.(http://whois.co.kr)
 DNSSEC                      : unsigned
@@ -48,8 +48,6 @@ Primary Name Server
 Secondary Name Server
    Host Name                : ns2.google.com
 
-'19.11월 KISA의 인터넷주소센터 나주 이전으로 WHOIS 검색 서비스의 IP주소가 변경될 예정입니다. 동 서비스 이용시 도메인(whois.kisa.or.kr)을 이용하여 접속하시기 바랍니다.
 
 - KISA/KRNIC WHOIS Service -
-
 

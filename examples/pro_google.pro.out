@@ -1,20 +1,20 @@
 
 domain
 id: D107300000000011545-LRMS
-domain: google.pro
+domain: GOOGLE.PRO
 name: google
 extension: pro
-status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
+status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
 dnssec: unsigned
 whois_server: whois.markmonitor.com
 name_servers: ns1.google.com,ns2.google.com
-created_date: 2008-09-08T14:27:22-0700
-updated_date: 2019-08-07T02:30:57-0700
-expiration_date: 2020-09-07T00:00:00-0700
+created_date: 2008-07-22 00:00:00 +0000 UTC
+updated_date: 2019-08-07 09:30:57 +0000 UTC
+expiration_date: 2020-09-08 00:00:00 +0000 UTC
 
 registrar
 id: 292
-name: MarkMonitor, Inc.
+name: MarkMonitor Inc.
 organization: 
 street: 
 city: 
@@ -47,12 +47,12 @@ referral_url:
 administrative
 id: 
 name: 
-organization: Google Inc.
+organization: 
 street: 
 city: 
-province: CA
+province: 
 postal_code: 
-country: US
+country: 
 phone: 
 phone_ext: 
 fax: 
@@ -63,12 +63,12 @@ referral_url:
 technical
 id: 
 name: 
-organization: Google Inc.
+organization: 
 street: 
 city: 
-province: CA
+province: 
 postal_code: 
-country: US
+country: 
 phone: 
 phone_ext: 
 fax: 

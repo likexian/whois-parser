@@ -1,6 +1,6 @@
 
 domain
-id: 20150226g10001g-30971494
+id: D20150226G10001G_30971494-top
 domain: otto.top
 name: otto
 extension: top
@@ -8,13 +8,13 @@ status: clienttransferprohibited
 dnssec: unsigned
 whois_server: whois.rrpproxy.net
 name_servers: ns1.p20.dynect.net,ns2.p20.dynect.net,ns3.p20.dynect.net,ns4.p20.dynect.net
-created_date: 2015-02-26T13:19:20Z
-updated_date: 2019-03-05T07:41:41Z
-expiration_date: 2020-02-26T13:19:20Z
+created_date: 2015-02-26 13:19:20 +0000 UTC
+updated_date: 2019-03-05 07:41:41 +0000 UTC
+expiration_date: 2021-02-26 13:19:20 +0000 UTC
 
 registrar
-id: 269
-name: Key-Systems GmbH
+id: 1345
+name: Key Systems LLC
 organization: 
 street: 
 city: 
@@ -26,68 +26,68 @@ phone_ext:
 fax: 
 fax_ext: 
 email: abuse@key-systems.net
-referral_url: 
+referral_url: http://www.key-systems.net
 
 registrant
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
-province: REDACTED FOR PRIVACY
-postal_code: REDACTED FOR PRIVACY
-country: REDACTED FOR PRIVACY
-phone: REDACTED FOR PRIVACY
-phone_ext: REDACTED FOR PRIVACY
-fax: REDACTED FOR PRIVACY
-fax_ext: REDACTED FOR PRIVACY
-email: info@domain-contact.org
-referral_url: 
-
-administrative
-id: REDACTED FOR PRIVACY
-name: Domain Manager
-organization: Otto (GmbH & Co KG)
-street: Werner-Otto-Straße 1-7
-city: Hamburg
-province: HH
-postal_code: 22179
-country: DE
-phone: +49.4064610
+id: C20150205C_02515892-top
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: adminc@ottogroup.com
+email: 
+referral_url: 
+
+administrative
+id: C20190305C_38202713-top
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
 referral_url: 
 
 technical
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
-province: REDACTED FOR PRIVACY
-postal_code: REDACTED FOR PRIVACY
-country: REDACTED FOR PRIVACY
-phone: REDACTED FOR PRIVACY
-phone_ext: REDACTED FOR PRIVACY
-fax: REDACTED FOR PRIVACY
-fax_ext: REDACTED FOR PRIVACY
-email: info@domain-contact.org
+id: C20150205C_02515902-top
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
 referral_url: 
 
 billing
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
-province: REDACTED FOR PRIVACY
-postal_code: REDACTED FOR PRIVACY
-country: REDACTED FOR PRIVACY
-phone: REDACTED FOR PRIVACY
-phone_ext: REDACTED FOR PRIVACY
-fax: REDACTED FOR PRIVACY
-fax_ext: REDACTED FOR PRIVACY
-email: info@domain-contact.org
+id: 
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
 referral_url: 

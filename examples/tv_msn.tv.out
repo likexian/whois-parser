@@ -1,20 +1,20 @@
 
 domain
 id: 90059809_DOMAIN_TV-VRSN
-domain: msn.tv
+domain: MSN.TV
 name: msn
 extension: tv
-status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
+status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
 dnssec: unsigned
 whois_server: whois.markmonitor.com
-name_servers: ns4-09.azure-dns.info,ns2-09.azure-dns.net,ns1-09.azure-dns.com,ns3-09.azure-dns.org
-created_date: 2008-09-27T09:16:00-0700
-updated_date: 2019-08-26T02:49:35-0700
-expiration_date: 2020-09-27T00:00:00-0700
+name_servers: ns1-09.azure-dns.com,ns2-09.azure-dns.net,ns3-09.azure-dns.org,ns4-09.azure-dns.info
+created_date: 2008-09-27 16:16:00 +0000 UTC
+updated_date: 2019-08-26 09:49:34 +0000 UTC
+expiration_date: 2020-09-27 16:16:00 +0000 UTC
 
 registrar
 id: 292
-name: MarkMonitor, Inc.
+name: MarkMonitor Inc.
 organization: 
 street: 
 city: 
@@ -30,50 +30,50 @@ referral_url: http://www.markmonitor.com
 
 registrant
 id: 
-name: Domain Administrator
-organization: Microsoft Corporation
-street: One Microsoft Way,
-city: Redmond
-province: WA
-postal_code: 98052
-country: US
-phone: +1.4258828080
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
-fax: +1.4259367329
+fax: 
 fax_ext: 
-email: domains@microsoft.com
+email: 
 referral_url: 
 
 administrative
 id: 
-name: Domain Administrator
-organization: Microsoft Corporation
-street: One Microsoft Way,
-city: Redmond
-province: WA
-postal_code: 98052
-country: US
-phone: +1.4258828080
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
-fax: +1.4259367329
+fax: 
 fax_ext: 
-email: domains@microsoft.com
+email: 
 referral_url: 
 
 technical
 id: 
-name: MSN Hostmaster
-organization: Microsoft Corporation
-street: One Microsoft Way,
-city: Redmond
-province: WA
-postal_code: 98052
-country: US
-phone: +1.4258828080
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
-fax: +1.4259367329
+fax: 
 fax_ext: 
-email: msnhst@microsoft.com
+email: 
 referral_url: 
 
 billing

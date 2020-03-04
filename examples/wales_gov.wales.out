@@ -8,9 +8,9 @@ status: clienttransferprohibited
 dnssec: unsigned
 whois_server: 
 name_servers: ns3.ja.net,ns0.ja.net,ns4.ja.net,ns2.ja.net
-created_date: 2015-01-14T13:49:09Z
-updated_date: 2019-10-01T10:07:25Z
-expiration_date: 2020-01-14T13:49:09Z
+created_date: 2015-01-14 13:49:09 +0000 UTC
+updated_date: 2020-01-14 13:49:31 +0000 UTC
+expiration_date: 2021-01-14 13:49:09 +0000 UTC
 
 registrar
 id: 1345

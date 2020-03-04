@@ -8,9 +8,9 @@ status: published
 dnssec: 
 whois_server: 
 name_servers: ns-1434.awsdns-51.org,ns-340.awsdns-42.com,ns-1751.awsdns-26.co.uk,ns-538.awsdns-03.net
-created_date: 19961206 #24302
-updated_date: 20150427
-expiration_date: 
+created_date: 1996-12-06 00:00:00 +0000 UTC
+updated_date: 2015-04-27 00:00:00 +0000 UTC
+expiration_date: 0001-01-01 00:00:00 +0000 UTC
 
 registrar
 id: 

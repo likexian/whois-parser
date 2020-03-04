@@ -10,9 +10,9 @@
 %%
 %% Use '-h' option to obtain more information about this service.
 %%
-%% [1.1.1.1 REQUEST] >> google.re
+%% [58.127.14.63 REQUEST] >> google.re
 %%
-%% RL Net [##########] - RL IP [#######...]
+%% RL Net [##########] - RL IP [#########.]
 %%
 
 domain:      google.re
@@ -105,5 +105,4 @@ obsoleted:   NO
 eligstatus:  not identified
 reachstatus: not identified
 source:      FRNIC
-
 

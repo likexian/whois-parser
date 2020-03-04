@@ -4,13 +4,13 @@ id: D425500000052489785-AGRS
 domain: GIT.ASIA
 name: git
 extension: asia
-status: clienttransferprohibited,autorenewperiod
+status: clienttransferprohibited
 dnssec: unsigned
 whois_server: 
 name_servers: ns1.dnsowl.com,ns2.dnsowl.com,ns3.dnsowl.com
-created_date: 2018-09-27T13:26:20Z
-updated_date: 2019-09-27T22:24:16Z
-expiration_date: 2020-09-27T13:26:20Z
+created_date: 2018-09-27 13:26:20 +0000 UTC
+updated_date: 2019-09-27 22:24:16 +0000 UTC
+expiration_date: 2020-09-27 13:26:20 +0000 UTC
 
 registrar
 id: 1479

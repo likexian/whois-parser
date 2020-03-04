@@ -10,9 +10,9 @@
 %%
 %% Use '-h' option to obtain more information about this service.
 %%
-%% [1.1.1.1 REQUEST] >> google.wf
+%% [58.127.14.63 REQUEST] >> google.wf
 %%
-%% RL Net [##########] - RL IP [####......]
+%% RL Net [##########] - RL IP [#########.]
 %%
 domain:      google.wf
 status:      ACTIVE
@@ -23,9 +23,9 @@ tech-c:      MC239-FRNIC
 zone-c:      NFC1-FRNIC
 nsl-id:      NSL17130-FRNIC
 registrar:   MARKMONITOR Inc.
-Expiry Date: 2020-02-15T19:06:49Z
+Expiry Date: 2021-02-15T19:06:49Z
 created:     2011-12-06T09:03:53Z
-last-update: 2019-01-14T10:32:21Z
+last-update: 2020-01-14T10:32:31Z
 source:      FRNIC
 ns-list:     NSL17130-FRNIC
 nserver:     ns1.markmonitor.com

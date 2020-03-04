@@ -1,20 +1,20 @@
 
 domain
 id: D2689447-CNIC
-domain: google.xyz
+domain: GOOGLE.XYZ
 name: google
 extension: xyz
-status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
+status: clienttransferprohibited,clientupdateprohibited,clientdeleteprohibited
 dnssec: unsigned
 whois_server: whois.markmonitor.com
-name_servers: ns3.google.com,ns1.google.com,ns4.google.com,ns2.google.com
-created_date: 2014-05-20T05:04:51-0700
-updated_date: 2018-10-25T02:32:20-0700
-expiration_date: 2019-11-26T00:00:00-0800
+name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
+created_date: 2014-05-20 12:04:51 +0000 UTC
+updated_date: 2019-11-15 11:12:29 +0000 UTC
+expiration_date: 2020-11-26 23:59:59 +0000 UTC
 
 registrar
 id: 292
-name: MarkMonitor, Inc.
+name: MarkMonitor, Inc (TLDs)
 organization: 
 street: 
 city: 
@@ -25,8 +25,8 @@ phone: +1.2083895740
 phone_ext: 
 fax: 
 fax_ext: 
-email: abusecomplaints@markmonitor.com
-referral_url: http://www.markmonitor.com
+email: ccops@markmonitor.com
+referral_url: 
 
 registrant
 id: 
@@ -41,39 +41,39 @@ phone:
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 referral_url: 
 
 administrative
 id: 
 name: 
-organization: Google LLC
+organization: 
 street: 
 city: 
-province: CA
+province: 
 postal_code: 
-country: US
+country: 
 phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 referral_url: 
 
 technical
 id: 
 name: 
-organization: Google LLC
+organization: 
 street: 
 city: 
-province: CA
+province: 
 postal_code: 
-country: US
+country: 
 phone: 
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 referral_url: 
 
 billing
@@ -89,5 +89,5 @@ phone:
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 referral_url: 

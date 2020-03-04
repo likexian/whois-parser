@@ -8,10 +8,10 @@ Registrar Registration Expiration Date: 2021-09-25T05:37:20.856Z
 Registrar: Markmonitor
 Registrar Abuse Contact Email: ccops@markmonitor.com
 Registrar Abuse Contact Phone: +1.2083895740
-Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
 Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
 Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
-Registry Registrant ID: s0WMj-qnEUI
+Registry Registrant ID: nX0Lh-jrlnV
 Registrant Name: Domain Administrator
 Registrant Organization: Google LLC
 Registrant Street: 1600 Amphitheatre Parkway
@@ -22,7 +22,7 @@ Registrant Country: US
 Registrant Phone: +1.6502530000
 Registrant Fax: +1.6502530001
 Registrant Email: dns-admin@google.com
-Registry Admin ID: CcvUP-Jqpbv
+Registry Admin ID: t5XGe-0NfmU
 Admin Name: Domain Administrator
 Admin Organization: Google LLC
 Admin Street: 1600 Amphitheatre Parkway
@@ -33,7 +33,7 @@ Admin Country: US
 Admin Phone: +1.6502530000
 Admin Fax: +1.6502530001
 Admin Email: dns-admin@google.com
-Registry Tech ID: u5QWX-TzfM0
+Registry Tech ID: h0FnB-EIQNp
 Tech Name: Domain Administrator
 Tech Organization: Google LLC
 Tech Street: 1600 Amphitheatre Parkway
@@ -44,7 +44,7 @@ Tech Country: US
 Tech Phone: +1.6502530000
 Tech Fax: +1.6502530001
 Tech Email: dns-admin@google.com
-Registry Billing ID: jCELG-nkfg9
+Registry Billing ID: 0W4Yv-hBjMn
 Billing Name: CCOPS Billing
 Billing Organization: MarkMonitor Inc.
 Billing Street: 3540 East Longwing Lane
@@ -61,7 +61,7 @@ Name Server: ns4.zdns.google
 Name Server: ns1.zdns.google
 Name Server: ns2.zdns.google
 DNSSEC: unsigned
->>> Last update of WHOIS database: 2019-10-12T09:55:00.506Z <<<
+>>> Last update of WHOIS database: 2020-03-04T08:03:22.955Z <<<
 
 For more information on Whois status codes, please visit https://icann.org/epp
 

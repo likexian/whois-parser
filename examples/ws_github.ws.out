@@ -8,9 +8,9 @@ status: clienttransferprohibited,clientdeleteprohibited,clientupdateprohibited
 dnssec: unsigned
 whois_server: whois.markmonitor.com
 name_servers: ns1.p16.dynect.net,ns2.p16.dynect.net,ns3.p16.dynect.net,ns4.p16.dynect.net
-created_date: 2010-08-05T17:04:22Z
-updated_date: 2018-07-04T09:14:12Z
-expiration_date: 2020-08-05T17:04:22Z
+created_date: 2010-08-05 18:04:22 +0000 UTC
+updated_date: 2018-07-04 10:14:12 +0000 UTC
+expiration_date: 2020-08-05 18:04:22 +0000 UTC
 
 registrar
 id: 292

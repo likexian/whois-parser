@@ -8,9 +8,9 @@ status:
 dnssec: 
 whois_server: 
 name_servers: ns1.md-in-28.webhostbox.net,ns2.md-in-28.webhostbox.net
-created_date: 24-Dec-1998
-updated_date: 26-Sep-2019
-expiration_date: 31-Jul-2020
+created_date: 1998-12-24 00:00:00 +0000 UTC
+updated_date: 2019-09-26 00:00:00 +0000 UTC
+expiration_date: 2020-07-31 00:00:00 +0000 UTC
 
 registrar
 id: 

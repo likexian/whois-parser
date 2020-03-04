@@ -10,7 +10,7 @@
 %%
 %% Use '-h' option to obtain more information about this service.
 %%
-%% [103.7.29.7 REQUEST] >> ovh.fr
+%% [58.127.14.63 REQUEST] >> -V Md5.5.4 ovh.fr
 %%
 %% RL Net [##########] - RL IP [#########.]
 %%
@@ -23,9 +23,9 @@ tech-c:      OVH5-FRNIC
 zone-c:      NFC1-FRNIC
 nsl-id:      NSL16790-FRNIC
 registrar:   OVH
-Expiry Date: 2019-11-11T23:00:00Z
+Expiry Date: 2020-11-11T23:00:00Z
 created:     1999-11-11T23:00:00Z
-last-update: 2019-04-18T12:14:43Z
+last-update: 2019-11-11T23:35:17Z
 source:      FRNIC
 ns-list:     NSL16790-FRNIC
 nserver:     dns.ovh.net

@@ -8,9 +8,9 @@ status: 200
 dnssec: no
 whois_server: 
 name_servers: ns3.catalyst.net.nz,ns4.catalyst.net.nz,ns1.catalyst.net.nz,ns2.catalyst.net.nz
-created_date: 
-updated_date: 2019-10-12T23:35:35+13:00
-expiration_date: 
+created_date: 0001-01-01 00:00:00 +0000 UTC
+updated_date: 2020-02-12 23:31:58 +1300 +1300
+expiration_date: 0001-01-01 00:00:00 +0000 UTC
 
 registrar
 id: 

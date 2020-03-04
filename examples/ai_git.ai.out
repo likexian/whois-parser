@@ -8,9 +8,9 @@ status: ok
 dnssec: unsigned
 whois_server: whois.nic.ai
 name_servers: ns2.onlydomains.com,ns1.onlydomains.com
-created_date: 2017-12-16T03:58:55.24Z
-updated_date: 2018-02-27T17:13:41.976Z
-expiration_date: 2020-02-28T03:58:55.78Z
+created_date: 2017-12-16 03:58:55.24 +0000 UTC
+updated_date: 2020-02-27 19:51:17.621 +0000 UTC
+expiration_date: 2022-02-28 03:58:55.78 +0000 UTC
 
 registrar
 id: 
@@ -29,25 +29,9 @@ email:
 referral_url: 
 
 registrant
-id: g3U4c-CbzD5
-name: aidomains@instra.com
-organization: Sumihiro Ueda
-street: 426-17 Hikishou-haradera-cho
-city: Sakai-shi Higashi-ku
-province: Osaka
-postal_code: 599-8112
-country: JP
-phone: +1.2645815398
-phone_ext: 
-fax: 
-fax_ext: 
-email: aidomains@instra.com
-referral_url: 
-
-administrative
-id: QTAQg-buRB1
-name: Ueda, Sumihiro
-organization: aidomains@instra.com
+id: bWZK6-q8G1W
+name: Sumihiro Ueda
+organization: 
 street: 426-17 Hikishou-haradera-cho
 city: Sakai-shi Higashi-ku
 province: Osaka
@@ -57,37 +41,53 @@ phone: +81.722869606
 phone_ext: 
 fax: 
 fax_ext: 
-email: aidomains@instra.com
+email: ueda@sumihiro.biz
+referral_url: 
+
+administrative
+id: lehad-mzYLt
+name: Sumihiro Ueda
+organization: 
+street: 426-17 Hikishou-haradera-cho
+city: Sakai-shi Higashi-ku
+province: Osaka
+postal_code: 599-8112
+country: JP
+phone: +81.722869606
+phone_ext: 
+fax: 
+fax_ext: 
+email: ueda@sumihiro.biz
 referral_url: 
 
 technical
-id: jigEf-DfyTO
-name: Lentino, Tony
-organization: Instra Corporation Pty Ltd
-street: GPO Box 988
-city: Melbourne
-province: Victoria
-postal_code: 3001
-country: AU
-phone: +61.397831800
+id: VuhbW-Dx0th
+name: Sumihiro Ueda
+organization: 
+street: 426-17 Hikishou-haradera-cho
+city: Sakai-shi Higashi-ku
+province: Osaka
+postal_code: 599-8112
+country: JP
+phone: +81.722869606
 phone_ext: 
 fax: 
 fax_ext: 
-email: aidomains@instra.com
+email: ueda@sumihiro.biz
 referral_url: 
 
 billing
-id: 4NEPm-feDqg
-name: Lentino, Tony
-organization: Instra Corporation Pty Ltd
-street: GPO Box 988
-city: Melbourne
-province: Victoria
-postal_code: 3001
-country: AU
-phone: +61.397831800
+id: ogcgI-B1yA8
+name: Sumihiro Ueda
+organization: 
+street: 426-17 Hikishou-haradera-cho
+city: Sakai-shi Higashi-ku
+province: Osaka
+postal_code: 599-8112
+country: JP
+phone: +81.722869606
 phone_ext: 
 fax: 
 fax_ext: 
-email: aidomains@instra.com
+email: ueda@sumihiro.biz
 referral_url: 

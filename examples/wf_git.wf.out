@@ -8,9 +8,9 @@ status: active
 dnssec: signed
 whois_server: 
 name_servers: ns.inwx.de,ns2.inwx.de,ns3.inwx.eu,ns4.inwx.com,ns5.inwx.net
-created_date: 2016-04-19T17:08:51Z
-updated_date: 2019-05-12T21:49:18Z
-expiration_date: 2019-10-19T22:07:38Z
+created_date: 2016-04-19 17:08:51 +0000 UTC
+updated_date: 2019-10-19 00:08:57 +0000 UTC
+expiration_date: 2020-10-19 22:07:38 +0000 UTC
 
 registrar
 id: 

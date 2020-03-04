@@ -9,7 +9,7 @@ Registrar Registration Expiration Date: 2020-04-19T12:25:43.504Z
 Registrar: Name.com LLC
 Registrar Country: US
 Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
-Registry Registrant ID: KbOC2-s0Ukx
+Registry Registrant ID: 3kzoN-0pEkn
 Registrant Name: Bent Cardan
 Registrant Street: 104-60 Queens Blvd. #15L
 Registrant City: Forest Hills
@@ -18,7 +18,7 @@ Registrant Postal Code: 11375
 Registrant Country: US
 Registrant Phone: +1.6465436717
 Registrant Email: bent@cloudkickr.com
-Registry Admin ID: fCYBx-a3j5K
+Registry Admin ID: irSrY-fs6Ys
 Admin Name: Bent Cardan
 Admin Street: 104-60 Queens Blvd. #15L
 Admin City: Forest Hills
@@ -27,7 +27,7 @@ Admin Postal Code: 11375
 Admin Country: US
 Admin Phone: +1.6465436717
 Admin Email: bent@cloudkickr.com
-Registry Tech ID: CkmXA-xGQER
+Registry Tech ID: 7NTEJ-pEPT9
 Tech Name: Bent Cardan
 Tech Street: 104-60 Queens Blvd. #15L
 Tech City: Forest Hills
@@ -36,7 +36,7 @@ Tech Postal Code: 11375
 Tech Country: US
 Tech Phone: +1.6465436717
 Tech Email: bent@cloudkickr.com
-Registry Billing ID: qZiUV-Bw9in
+Registry Billing ID: bsXFr-WijQt
 Billing Name: Bent Cardan
 Billing Street: 104-60 Queens Blvd. #15L
 Billing City: Forest Hills
@@ -51,7 +51,7 @@ Name Server: ns3.linode.com
 Name Server: ns4.linode.com
 Name Server: ns5.linode.com
 DNSSEC: unsigned
->>> Last update of WHOIS database: 2019-10-12T10:41:37.820Z <<<
+>>> Last update of WHOIS database: 2020-03-04T08:10:46.532Z <<<
 
 For more information on Whois status codes, please visit https://icann.org/epp
 
@@ -59,4 +59,3 @@ TERMS OF USE: You are not authorized to access or query our Whois database throu
 for lawful purposes and that under no circumstances will you use this Data to: (1) allow, enable, or otherwise support the transmission of mass unsolicited, commercial advertising or solicitations via e-mail, telephone, or facsimile; or (2) enable high volume, automated, electronic processes.compilation, repackaging, dissemination or other use of this Data is expressly prohibited.
 
 CoCCA Helpdesk |  support@coccaregistry.org
-

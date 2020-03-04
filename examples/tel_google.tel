@@ -2,19 +2,19 @@ Domain Name: google.tel
 Registry Domain ID: D587349-TEL
 Registrar WHOIS Server:
 Registrar URL: www.markmonitor.com
-Updated Date: 2019-02-23T10:48:27Z
+Updated Date: 2020-02-24T10:42:25Z
 Creation Date: 2009-01-22T21:06:56Z
-Registry Expiry Date: 2020-03-22T23:59:59Z
+Registry Expiry Date: 2021-03-22T23:59:59Z
 Registrar: MarkMonitor, Inc.
 Registrar IANA ID: 292
 Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
 Registrar Abuse Contact Phone: +1.2083895740
+Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
 Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
 Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
-Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
 Registry Registrant ID:
 Registrant Name:
-Registrant Organization: Google Inc.
+Registrant Organization: Google LLC
 Registrant Street:
 Registrant Street:
 Registrant Street:
@@ -63,7 +63,7 @@ Name Server: ns4.google.com
 Name Server: ns3.google.com
 DNSSEC: unsigned
 URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
->>> Last update of WHOIS database: 2019-10-06T14:20:13Z <<<
+>>> Last update of WHOIS database: 2020-03-04T08:06:29Z <<<
 The above WHOIS results have been redacted to remove potential personal data. The full WHOIS output may be available to individuals and organisations with a legitimate interest in accessing this data not outweighed by the fundamental privacy rights of the data subject. To find out more, or to make a request for access, please visit: RDDSrequest.nic.tel.
 
 For more information on Whois status codes, please visit https://icann.org/epp 
@@ -73,4 +73,3 @@ Telnames Limited, the Registry Operator for .TEL, has collected this information
 Contact information: Disclosure of contact data is restricted because of UK and EU Data Protection legislation. The contact details for this contact ID may be available by looking up a domain object in the WHOIS system. The information can also be obtained through the Telnames Special Access Service. Visit https://www.do.tel/sas/ for more details.
 
 .TEL WHOIS DISCLAIMER AND TERMS & CONDITIONS By submitting a query and/or making further queries in the future, you agree to these terms and conditions: This whois information is provided by Telnames Limited, a UK registered company. Telnames operates the Registry for .tel top level domain names. whois information is provided for information purposes only and Telnames shall not be responsible and shall have no liability for any information that is incomplete or inaccurate. Telnames is the owner of all Copyright (c) and Database Rights in information that is made available via this whois service. You are not licensed to use the information you obtain from this whois service for any purpose other than to obtain information about whether a .tel domain name is available for registration or to obtain the contact information of a registrant of of a domain name that is already registered. You must not utilise, combine or compile any information you obtain from this whois service to produce a list or database containing such information without obtaining a license from Telnames to do so. At our request, which may be made for any reason, you will destroy all information you obtain or have obtained using this whois service. You must not use the information you obtain from this whois service to: (a) allow, enable or otherwise facilitate or support the transmission of unsolicited commercial advertising or other marketing information by any means; (b) harass any person; or (c) cause nuisance in any possible way to any person. 
-

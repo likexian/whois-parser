@@ -1,26 +1,19 @@
 Domain name: git.nl
 Status:      active
 
-Reseller:
-   Yourhosting
-   Ceintuurbaan 28
-   8024AA Zwolle
-   Netherlands
-
 Registrar:
-   Realtime Register
-   Ceintuurbaan 32a
-   8024AA ZWOLLE
+   NVA Online Advertising B.V.
+   Opper 14
+   5406CA UDEN
    Netherlands
 
 Abuse Contact:
 
-DNSSEC:      yes
+DNSSEC:      no
 
 Domain nameservers:
-   ns5.firstfind.net
-   ns4.firstfind.nl
-   ns3.firstfind.nl
+   ns1.dan.com
+   ns2.dan.com
 
 Record maintained by: NL Domain Registry
 
@@ -43,4 +36,3 @@ in the Netherlands.
 (c) The Foundation for Internet Domain Registration in the Netherlands
 (SIDN) Dutch Copyright Act, protection of authors' rights (Section 10,
 subsection 1, clause 1).
-

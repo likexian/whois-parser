@@ -4,13 +4,13 @@ id: 685916-CoCCA
 domain: git.cx
 name: git
 extension: cx
-status: clienttransferprohibited,clientdeleteprohibited
+status: clientdeleteprohibited,clienttransferprohibited
 dnssec: unsigned
 whois_server: whois.coccaregistry.org
 name_servers: dns100.ovh.net,ns100.ovh.net
-created_date: 2012-01-26T05:49:44.787Z
-updated_date: 2019-01-01T18:14:16.77Z
-expiration_date: 2020-01-26T05:52:26.85Z
+created_date: 2012-01-26 05:49:44.787 +0000 UTC
+updated_date: 2020-01-01 09:03:27.808 +0000 UTC
+expiration_date: 2021-01-26 05:52:26.85 +0000 UTC
 
 registrar
 id: 433
@@ -29,7 +29,7 @@ email: support@ovh.net
 referral_url: http://www.ovh.com
 
 registrant
-id: fBgAM-Lbsyt
+id: ijYxz-Bh6yi
 name: Redacted | EU Registrar
 organization: Openance
 street: 65 rue du moulin sarrazin

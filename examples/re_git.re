@@ -10,9 +10,9 @@
 %%
 %% Use '-h' option to obtain more information about this service.
 %%
-%% [1.1.1.1 REQUEST] >> git.re
+%% [58.127.14.63 REQUEST] >> git.re
 %%
-%% RL Net [##########] - RL IP [######....]
+%% RL Net [##########] - RL IP [#########.]
 %%
 
 domain:      git.re
@@ -104,5 +104,4 @@ obsoleted:   NO
 eligstatus:  not identified
 reachstatus: not identified
 source:      FRNIC
-
 

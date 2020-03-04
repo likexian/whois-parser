@@ -4,13 +4,13 @@ id: 325702_nic_ai
 domain: google.ai
 name: google
 extension: ai
-status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
+status: clienttransferprohibited,clientdeleteprohibited,clientupdateprohibited
 dnssec: unsigned
 whois_server: whois.nic.ai
 name_servers: ns3.zdns.google,ns4.zdns.google,ns1.zdns.google,ns2.zdns.google
-created_date: 2017-12-16T05:37:20.801Z
-updated_date: 2019-08-24T09:32:27.549Z
-expiration_date: 2021-09-25T05:37:20.856Z
+created_date: 2017-12-16 05:37:20.801 +0000 UTC
+updated_date: 2019-08-24 09:32:27.549 +0000 UTC
+expiration_date: 2021-09-25 05:37:20.856 +0000 UTC
 
 registrar
 id: 
@@ -29,7 +29,7 @@ email: ccops@markmonitor.com
 referral_url: 
 
 registrant
-id: s0WMj-qnEUI
+id: nX0Lh-jrlnV
 name: Domain Administrator
 organization: Google LLC
 street: 1600 Amphitheatre Parkway
@@ -45,7 +45,7 @@ email: dns-admin@google.com
 referral_url: 
 
 administrative
-id: CcvUP-Jqpbv
+id: t5XGe-0NfmU
 name: Domain Administrator
 organization: Google LLC
 street: 1600 Amphitheatre Parkway
@@ -61,7 +61,7 @@ email: dns-admin@google.com
 referral_url: 
 
 technical
-id: u5QWX-TzfM0
+id: h0FnB-EIQNp
 name: Domain Administrator
 organization: Google LLC
 street: 1600 Amphitheatre Parkway
@@ -77,7 +77,7 @@ email: dns-admin@google.com
 referral_url: 
 
 billing
-id: jCELG-nkfg9
+id: 0W4Yv-hBjMn
 name: CCOPS Billing
 organization: MarkMonitor Inc.
 street: 3540 East Longwing Lane, Suite 300

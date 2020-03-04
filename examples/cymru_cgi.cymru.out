@@ -7,10 +7,10 @@ extension: cymru
 status: clienttransferprohibited
 dnssec: unsigned
 whois_server: 
-name_servers: dns1.cscdns.net,dns2.cscdns.net
-created_date: 2015-03-10T14:06:10Z
-updated_date: 2019-09-09T09:34:52Z
-expiration_date: 2021-03-10T14:06:10Z
+name_servers: ns.cgi.com,ns.cgi.ca
+created_date: 2015-03-10 14:06:10 +0000 UTC
+updated_date: 2019-11-07 20:09:51 +0000 UTC
+expiration_date: 2021-03-10 14:06:10 +0000 UTC
 
 registrar
 id: 299

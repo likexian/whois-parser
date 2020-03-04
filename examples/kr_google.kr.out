@@ -8,9 +8,9 @@ status:
 dnssec: unsigned
 whois_server: 
 name_servers: ns1.google.com,ns2.google.com
-created_date: 2007. 03. 02.
-updated_date: 2010. 10. 04.
-expiration_date: 2020. 03. 02.
+created_date: 2007-03-02 00:00:00 +0000 UTC
+updated_date: 2010-10-04 00:00:00 +0000 UTC
+expiration_date: 2021-03-02 00:00:00 +0000 UTC
 
 registrar
 id: 

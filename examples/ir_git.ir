@@ -17,9 +17,9 @@ holder-c:	as10780-irnic
 admin-c:	as10780-irnic
 tech-c:		as10780-irnic
 bill-c:		pa602-irnic
-nserver:	ns1.git.ir
-nserver:	ns2.git.ir
-last-updated:	2019-03-06
+nserver:	desiree.ns.cloudflare.com
+nserver:	leo.ns.cloudflare.com
+last-updated:	2020-03-04
 expire-date:	2023-10-16
 source:		IRNIC # Filtered
 
@@ -34,5 +34,4 @@ nic-hdl:	pa602-irnic
 org:		Pars Parva System Ltd.
 e-mail:		info@parspack.com
 source:		IRNIC # Filtered
-
 

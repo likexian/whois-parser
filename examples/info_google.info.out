@@ -1,20 +1,20 @@
 
 domain
 id: D37288-LRMS
-domain: google.info
+domain: GOOGLE.INFO
 name: google
 extension: info
-status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited,serverupdateprohibited,servertransferprohibited,serverdeleteprohibited
+status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited,serverdeleteprohibited,servertransferprohibited,serverupdateprohibited
 dnssec: unsigned
 whois_server: whois.markmonitor.com
-name_servers: ns3.google.com,ns2.google.com,ns1.google.com,ns4.google.com
-created_date: 2001-07-31T00:00:00-0700
-updated_date: 2019-08-12T10:52:01-0700
-expiration_date: 2020-07-31T00:00:00-0700
+name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
+created_date: 2001-07-31 23:57:50 +0000 UTC
+updated_date: 2019-08-12 22:27:59 +0000 UTC
+expiration_date: 2020-07-31 23:57:50 +0000 UTC
 
 registrar
 id: 292
-name: MarkMonitor, Inc.
+name: MarkMonitor Inc.
 organization: 
 street: 
 city: 
@@ -47,12 +47,12 @@ referral_url:
 administrative
 id: 
 name: 
-organization: Google LLC
+organization: 
 street: 
 city: 
-province: CA
+province: 
 postal_code: 
-country: US
+country: 
 phone: 
 phone_ext: 
 fax: 
@@ -63,12 +63,12 @@ referral_url:
 technical
 id: 
 name: 
-organization: Google LLC
+organization: 
 street: 
 city: 
-province: CA
+province: 
 postal_code: 
-country: US
+country: 
 phone: 
 phone_ext: 
 fax: 

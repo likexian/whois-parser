@@ -8,9 +8,9 @@ status: connect
 dnssec: 
 whois_server: 
 name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
-created_date: 
-updated_date: 2018-03-12T21:44:25+01:00
-expiration_date: 
+created_date: 0001-01-01 00:00:00 +0000 UTC
+updated_date: 2018-03-12 21:44:25 +0100 +0100
+expiration_date: 0001-01-01 00:00:00 +0000 UTC
 
 registrar
 id: 

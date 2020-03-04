@@ -29,10 +29,10 @@
 % The WHOIS service is provided by NZRS Limited.
 %
 version: 8.0
-query_datetime: 2019-10-13T12:40:15+13:00
+query_datetime: 2020-03-04T21:08:48+13:00
 domain_name: gre.nz
 query_status: 200 Active
-domain_datelastmodified: 2019-01-02T04:55:30+13:00
+domain_datelastmodified: 2020-01-02T04:55:45+13:00
 domain_delegaterequested: yes
 domain_signed: no
 %

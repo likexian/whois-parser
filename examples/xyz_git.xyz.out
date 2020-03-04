@@ -1,79 +1,79 @@
 
 domain
-id: whois protect
-domain: git.xyz
+id: D42804849-CNIC
+domain: GIT.XYZ
 name: git
 extension: xyz
-status: ok
-dnssec: signedDelegation
+status: inactive
+dnssec: unsigned
 whois_server: whois.west.cn
-name_servers: ns1.myhostadmin.net,ns2.myhostadmin.net
-created_date: 2017-01-19T02:15:20.0Z
-updated_date: 2017-01-19T02:15:20.0Z
-expiration_date: 2020-01-19T23:59:59.0Z
+name_servers: 
+created_date: 2017-01-19 02:15:20 +0000 UTC
+updated_date: 2020-01-20 17:58:45 +0000 UTC
+expiration_date: 2021-01-19 23:59:59 +0000 UTC
 
 registrar
 id: 1556
-name: Chengdu west dimension digital technology Co., LTD
+name: CHENGDU WEST DIMENSION DIGITAL TECHNOLOGY CO., LTD.
 organization: 
 street: 
 city: 
 province: 
 postal_code: 
 country: 
-phone: +86.2862778877 ext 8359
+phone: +86.2862778877
 phone_ext: 
 fax: 
 fax_ext: 
-email: westabuse@gmail.com
-referral_url: www.west.cn
+email: abuse@west.cn
+referral_url: http://www.west.cn
 
 registrant
-id: xyz4697443686140
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY
-city: Chengdu
-province: Sichuan
-postal_code: REDACTED FOR PRIVACY
+id: 
+name: 
+organization: chen jun jie
+street: 
+city: 
+province: Bei Jing Shi
+postal_code: 
 country: CN
-phone: REDACTED FOR PRIVACY
+phone: 
 phone_ext: 
-fax: REDACTED FOR PRIVACY
+fax: 
 fax_ext: 
-email: link at https://www.west.cn/web/whoisform?domain=git.xyz
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 referral_url: 
 
 administrative
-id: xyz4697443686140
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY
-city: Chengdu
-province: Sichuan
-postal_code: REDACTED FOR PRIVACY
-country: CN
-phone: REDACTED FOR PRIVACY
+id: 
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
-fax: REDACTED FOR PRIVACY
+fax: 
 fax_ext: 
-email: link at https://www.west.cn/web/whoisform?domain=git.xyz
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 referral_url: 
 
 technical
-id: xyz4697443686140
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY
-city: Chengdu
-province: Sichuan
-postal_code: REDACTED FOR PRIVACY
-country: CN
-phone: REDACTED FOR PRIVACY
+id: 
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
 phone_ext: 
-fax: REDACTED FOR PRIVACY
+fax: 
 fax_ext: 
-email: link at https://www.west.cn/web/whoisform?domain=git.xyz
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 referral_url: 
 
 billing
@@ -89,5 +89,5 @@ phone:
 phone_ext: 
 fax: 
 fax_ext: 
-email: 
+email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
 referral_url: 

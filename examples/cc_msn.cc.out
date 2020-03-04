@@ -7,10 +7,10 @@ extension: cc
 status: clienttransferprohibited
 dnssec: unsigned
 whois_server: whois.corporatedomains.com
-name_servers: ns3.msft.net,ns2.msft.net,ns4.msft.net,ns1.msft.net
-created_date: 1997-10-12T00:00:00Z
-updated_date: 2019-09-10T01:00:17Z
-expiration_date: 2020-10-12T04:00:00Z
+name_servers: ns1.msft.net,ns2.msft.net,ns3.msft.net,ns4.msft.net
+created_date: 1997-10-12 04:00:00 +0000 UTC
+updated_date: 2019-09-10 05:00:16 +0000 UTC
+expiration_date: 2020-10-12 04:00:00 +0000 UTC
 
 registrar
 id: 299
