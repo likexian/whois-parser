@@ -87,6 +87,7 @@ func TestWhoisParser(t *testing.T) {
 		assert.Nil(t, err)
 
 		whoisInfo, err := Parse(whoisRaw)
+
 		assert.Nil(t, err)
 
 		assert.Equal(t, strings.ToLower(whoisInfo.Domain.Domain), domain)
@@ -114,7 +115,7 @@ func TestWhoisParser(t *testing.T) {
 			assert.NotZero(t, whoisInfo.Domain.WhoisServer)
 		}
 
-		if !assert.IsContains([]string{"gov", "name", "tw"}, extension) {
+		if !assert.IsContains([]string{"gov", "name", "tw", "xyz"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.NameServers)
 		}
 
@@ -145,7 +146,7 @@ func TestWhoisParser(t *testing.T) {
 
 		if !assert.IsContains([]string{"", "aero", "ai", "aq", "asia", "au", "br", "ch", "cn", "de",
 			"edu", "gov", "hk", "hm", "int", "jp", "kr", "la", "london", "love", "mo",
-			"museum", "name", "nl", "nz", "ru", "su", "tk", "top", "ir", "fi"}, extension) {
+			"museum", "name", "nl", "nz", "ru", "su", "tk", "top", "ir", "fi", "xyz"}, extension) {
 			assert.NotZero(t, whoisInfo.Registrar.ReferralURL)
 		}
 
