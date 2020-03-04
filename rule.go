@@ -63,7 +63,7 @@ var (
 		"registered date":                        "created_date",
 		"registered on":                          "created_date",
 		"registration time":                      "created_date",
-		"first registration date":                "created_date",
+		"first registration date before":         "created_date",
 		"domain record activated":                "created_date",
 		"record created on":                      "created_date",
 		"domain registered":                      "created_date",
