@@ -931,7 +931,7 @@ func prepareIR(text string) string {
 	return result
 }
 
-// prepareFI do prepare the .mo domain
+// prepareFI do prepare the .fi domain
 func prepareFI(text string) string {
 	tokens := map[string]string{
 		"Holder":    "Registrant",
