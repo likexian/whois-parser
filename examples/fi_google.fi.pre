@@ -14,19 +14,19 @@ nserver............: ns2.google.com [OK]
 DNSSEC
 dnssec.............: no
 Holder
-name...............: Google LLC
-register number....: 3582691
-address............: 1600 Amphitheatre Parkway
-address............: 94043
-address............: Mountain View
-country............: United States of America
-phone..............: +1.6502530000
-holder email.......:
+Registrant name...............: Google LLC
+Registrant register number....: 3582691
+Registrant address............: 1600 Amphitheatre Parkway
+Registrant address............: 94043
+Registrant address............: Mountain View
+Registrant country............: United States of America
+Registrant phone..............: +1.6502530000
+Registrant holder email.......:
 Registrar
-registrar..........: MarkMonitor Inc.
-www................: www.markmonitor.com
+Registrar name..........: MarkMonitor Inc.
+Registrar www................: www.markmonitor.com
 Tech
-name...............: Google LLC
-email..............: ccops@markmonitor.com
+Technical name...............: Google LLC
+Technical email..............: ccops@markmonitor.com
 >>> Last update of WHOIS database: 3.3.2020 21:30:14 (EET) <<<
 Copyright (c) Finnish Transport and Communications Agency Traficom

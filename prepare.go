@@ -944,14 +944,22 @@ func prepareFI(text string) string {
 
 	for _, v := range strings.Split(text, "\n") {
 		v = strings.TrimSpace(v)
-		if v == "" {
-			token = ""
+		if len(v) == 0 {
 			continue
 		}
+
+		if v[0] == '>' {
+			token = ""
+		}
+
 		if _, ok := tokens[v]; ok {
 			token = tokens[v]
 		} else {
 			if token != "" {
+				// special case as for various reasons this was causing lots of issues
+				if token == "Registrar" && strings.Contains(v, "registrar..........:") {
+					v = strings.Replace(v, "registrar..........:", "name..........:", 1)
+				}
 				v = fmt.Sprintf("%s %s", token, v)
 			}
 		}
