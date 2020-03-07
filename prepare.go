@@ -695,15 +695,28 @@ func prepareNZ(text string) string {
 // prepareTK do prepare the .tk domain
 func prepareTK(text string) string {
 	tokens := map[string]string{
-		"Domain name:":     "Domain",
-		"Owner contact:":   "Registrant",
-		"Admin contact:":   "Admin",
-		"Billing contact:": "Billing",
-		"Tech contact:":    "Technical",
+		"Domain name:":        "Domain",
+		"Domain Nameservers:": "Nameservers",
+		"Owner contact:":      "Registrant",
+		"Admin contact:":      "Admin",
+		"Billing contact:":    "Billing",
+		"Tech contact:":       "Technical",
+		"Organisation:":       "Registrant",
+	}
+
+	fields := map[string][]string{
+		"Registrant": {
+			"Organization",
+			"Name",
+			"Address",
+			"Address",
+			"Address",
+		},
 	}
 
 	token := ""
 	result := ""
+	index := 0
 
 	for _, v := range strings.Split(text, "\n") {
 		v = strings.TrimSpace(v)
@@ -714,18 +727,22 @@ func prepareTK(text string) string {
 		if _, ok := tokens[v]; ok {
 			token = tokens[v]
 			continue
-		} else {
-			if token == "Domain" {
-				if strings.Contains(v, " is ") {
-					vs := strings.Split(v, " is ")
-					v = fmt.Sprintf("Name: %s\nStatus: %s", vs[0], vs[1])
-				}
-			}
-			if token != "" {
+		}
+		if token == "Domain" && strings.Contains(v, " is ") {
+			vv := strings.Split(v, " is ")
+			v = fmt.Sprintf("Name: %s\nStatus: %s", vv[0], vv[1])
+		} else if token == "Registrant" && !strings.Contains(v, ":") {
+			v = fmt.Sprintf("%s: %s", fields[token][index], v)
+			index += 1
+		}
+		if token != "" {
+			if !strings.Contains(v, ":") {
+				v = fmt.Sprintf("%s: %s", token, v)
+			} else {
 				v = fmt.Sprintf("%s %s", token, v)
 			}
 		}
-		result += "\n" + v
+		result += "\n" + strings.TrimSpace(v)
 	}
 
 	return result

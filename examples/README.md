@@ -142,7 +142,7 @@ If there is any problems, please feel free to open a new issue.
 | .tf | [git.tf](tf_git.tf) | [git.tf](tf_git.tf.out) | √ |
 | .tf | [google.tf](tf_google.tf) | [google.tf](tf_google.tf.out) | √ |
 | .tk | [google.tk](tk_google.tk) | [google.tk](tk_google.tk.out) | √ |
-| .tk | [new.tk](tk_new.tk) | [new.tk](tk_new.tk.out) | √ |
+| .tk | [yazeji.tk](tk_yazeji.tk) | [yazeji.tk](tk_yazeji.tk.out) | √ |
 | .top | [google.top](top_google.top) | [google.top](top_google.top.out) | √ |
 | .top | [otto.top](top_otto.top) | [otto.top](top_otto.top.out) | √ |
 | .travel | [google.travel](travel_google.travel) | [google.travel](travel_google.travel.out) | √ |

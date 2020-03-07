@@ -40,11 +40,10 @@ Technical Country:      U.S.A.
 Technical Phone:        +1-6502530000
 Technical Fax:          +1-6502530001
 Technical E-mail:       dns-admin@google.com
-Domain Nameservers:
-NS2.GOOGLE.COM
-NS3.GOOGLE.COM
-NS1.GOOGLE.COM
-NS4.GOOGLE.COM
+Nameservers: NS2.GOOGLE.COM
+Nameservers: NS3.GOOGLE.COM
+Nameservers: NS1.GOOGLE.COM
+Nameservers: NS4.GOOGLE.COM
 Domain registered: 12/18/2001
 Record will expire on: 03/02/2020
 Record maintained by: Dot TK Domain Registry
