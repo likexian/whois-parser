@@ -63,7 +63,7 @@ Please refer to [whois-go](https://github.com/likexian/whois-go)
 
 ## LICENSE
 
-Copyright 2014-2019 Li Kexian
+Copyright 2014-2020 Li Kexian
 
 Licensed under the Apache License 2.0
 
