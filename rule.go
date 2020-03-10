@@ -105,6 +105,7 @@ var (
 		"registrant id":                          "registrant_id",
 		"registrant iana id":                     "registrant_id",
 		"registrant contact id":                  "registrant_id",
+		"registrant register number":             "registrant_id",
 		"registrant name":                        "registrant_name",
 		"registrant person":                      "registrant_name",
 		"registrant contact":                     "registrant_name",

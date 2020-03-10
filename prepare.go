@@ -964,19 +964,21 @@ func prepareFI(text string) string {
 		if len(v) == 0 {
 			continue
 		}
-
 		if v[0] == '>' {
 			token = ""
 		}
-
 		if _, ok := tokens[v]; ok {
 			token = tokens[v]
 		} else {
-			if token != "" {
-				// special case as for various reasons this was causing lots of issues
-				if token == "Registrar" && strings.Contains(v, "registrar..........:") {
-					v = strings.Replace(v, "registrar..........:", "name..........:", 1)
+			if strings.Contains(v, ":") {
+				vv := strings.SplitN(v, ":", 2)
+				vv[0] = strings.Trim(vv[0], ".")
+				if token == "Registrar" && vv[0] == "registrar" {
+					vv[0] = "name"
 				}
+				v = fmt.Sprintf("%s: %s", vv[0], vv[1])
+			}
+			if token != "" {
 				v = fmt.Sprintf("%s %s", token, v)
 			}
 		}

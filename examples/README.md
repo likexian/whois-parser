@@ -61,6 +61,7 @@ If there is any problems, please feel free to open a new issue.
 | .edu | [us.edu](edu_us.edu) | [us.edu](edu_us.edu.out) | √ |
 | .eu | [git.eu](eu_git.eu) | [git.eu](eu_git.eu.out) | √ |
 | .eu | [google.eu](eu_google.eu) | [google.eu](eu_google.eu.out) | √ |
+| .fi | [git.fi](fi_git.fi) | [git.fi](fi_git.fi.out) | √ |
 | .fi | [google.fi](fi_google.fi) | [google.fi](fi_google.fi.out) | √ |
 | .fr | [git.fr](fr_git.fr) | [git.fr](fr_git.fr.out) | √ |
 | .fr | [google.fr](fr_google.fr) | [google.fr](fr_google.fr.out) | √ |

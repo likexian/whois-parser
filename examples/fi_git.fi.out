@@ -1,20 +1,20 @@
 
 domain
 id: 
-domain: google.fi
-name: google
+domain: git.fi
+name: git
 extension: fi
 status: registered
 dnssec: no
 whois_server: 
-name_servers: ns3.google.com,ns4.google.com,ns1.google.com,ns2.google.com
-created_date: 30.6.2006 00:00:00
-updated_date: 2.6.2019
-expiration_date: 4.7.2020 10:15:55
+name_servers: ns-1453.awsdns-53.org,ns-535.awsdns-02.net,ns-133.awsdns-16.com,ns-1849.awsdns-39.co.uk
+created_date: 15.12.2015 09:48:01
+updated_date: 19.2.2019
+expiration_date: 15.12.2020 09:37:54
 
 registrar
 id: 
-name: MarkMonitor Inc.
+name: Gandi SAS
 organization: 
 street: 
 city: 
@@ -26,18 +26,18 @@ phone_ext:
 fax: 
 fax_ext: 
 email: 
-referral_url: www.markmonitor.com
+referral_url: www.gandi.net
 
 registrant
-id: 3582691
-name: Google LLC
+id: 2639098-3
+name: Vincit Oy
 organization: 
-street: 1600 Amphitheatre Parkway, 94043, Mountain View
+street: Visiokatu 1, 33720, Tampere
 city: 
 province: 
 postal_code: 
-country: United States of America
-phone: +1.6502530000
+country: Finland
+phone: +358291707007
 phone_ext: 
 fax: 
 fax_ext: 
@@ -62,7 +62,7 @@ referral_url:
 
 technical
 id: 
-name: Google LLC
+name: 
 organization: 
 street: 
 city: 
@@ -73,7 +73,7 @@ phone:
 phone_ext: 
 fax: 
 fax_ext: 
-email: ccops@markmonitor.com
+email: 
 referral_url: 
 
 billing
