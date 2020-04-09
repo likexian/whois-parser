@@ -24,9 +24,11 @@ If there is any problems, please feel free to open a new issue.
 
 ## Importing
 
-    import (
-        "github.com/likexian/whois-parser-go"
-    )
+```go
+import (
+    "github.com/likexian/whois-parser-go"
+)
+```
 
 ## Documentation
 
