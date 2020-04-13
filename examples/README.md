@@ -56,9 +56,8 @@ If there is any problems, please feel free to open a new issue.
 | .cymru | [google.cymru](cymru_google.cymru) | [google.cymru](cymru_google.cymru.out) | √ |
 | .de | [git.de](de_git.de) | [git.de](de_git.de.out) | √ |
 | .de | [google.de](de_google.de) | [google.de](de_google.de.out) | √ |
-| .edu | [git.edu](edu_git.edu) | [git.edu](edu_git.edu.out) | √ |
+| .edu | [rutgers.edu](edu_rutgers.edu) | [rutgers.edu](edu_rutgers.edu.out) | √ |
 | .edu | [snai.edu](edu_snai.edu) | [snai.edu](edu_snai.edu.out) | √ |
-| .edu | [us.edu](edu_us.edu) | [us.edu](edu_us.edu.out) | √ |
 | .eu | [git.eu](eu_git.eu) | [git.eu](eu_git.eu.out) | √ |
 | .eu | [google.eu](eu_google.eu) | [google.eu](eu_google.eu.out) | √ |
 | .fi | [git.fi](fi_git.fi) | [git.fi](fi_git.fi.out) | √ |

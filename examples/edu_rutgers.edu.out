@@ -1,0 +1,93 @@
+
+domain
+id: 
+domain: RUTGERS.EDU
+name: rutgers
+extension: edu
+status: 
+dnssec: 
+whois_server: 
+name_servers: ns8.a1.incapsecuredns.net,ns124.a2.incapsecuredns.net,ns87.a0.incapsecuredns.net
+created_date: 25-Apr-1985
+updated_date: 25-Mar-2020
+expiration_date: 31-Jul-2020
+
+registrar
+id: 
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: 
+
+registrant
+id: 
+name: 
+organization: Rutgers, The State University of New Jersey
+street: Office of Information Technology, 96 Davidson Road, Piscataway, NJ 08854-8096, USA
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: 
+
+administrative
+id: 
+name: Domain Admin
+organization: Office of Information Technology
+street: Telecommunications Division, 96 Davidson Road, Piscataway, NJ 08854, USA
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.8484457541
+phone_ext: 
+fax: 
+fax_ext: 
+email: netmanager@rutgers.edu
+referral_url: 
+
+technical
+id: 
+name: Domain Admin
+organization: Office of Information Technology
+street: Telecommunications Division, 96 Davidson Road, Piscataway, NJ 08854, USA
+city: 
+province: 
+postal_code: 
+country: 
+phone: +1.8484457541
+phone_ext: 
+fax: 
+fax_ext: 
+email: netmanager@rutgers.edu
+referral_url: 
+
+billing
+id: 
+name: 
+organization: 
+street: 
+city: 
+province: 
+postal_code: 
+country: 
+phone: 
+phone_ext: 
+fax: 
+fax_ext: 
+email: 
+referral_url: 

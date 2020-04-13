@@ -119,10 +119,12 @@ func prepareEDU(text string) string {
 			"Address",
 			"Address",
 			"Address",
+			"Address",
 		},
 		"Administrative Contact:": {
 			"Name",
 			"Organization",
+			"Address",
 			"Address",
 			"Address",
 			"Address",
@@ -132,6 +134,7 @@ func prepareEDU(text string) string {
 		"Technical Contact:": {
 			"Name",
 			"Organization",
+			"Address",
 			"Address",
 			"Address",
 			"Address",
@@ -159,6 +162,20 @@ func prepareEDU(text string) string {
 			if token == "" {
 				result += "\n" + v
 			} else {
+				// address ending now jump to phone
+				if tokens[token][index] == "Address" && strings.HasPrefix(v, "+") {
+					var found int
+					for m, n := range tokens[token] {
+						if n == "Phone" {
+							found = m
+							break
+						}
+					}
+					if found == 0 {
+						break
+					}
+					index = found
+				}
 				result += fmt.Sprintf("\n%s %s: %s", token[:len(token)-1], tokens[token][index], v)
 				index += 1
 			}
