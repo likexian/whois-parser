@@ -6,7 +6,6 @@
         "extension": "cymru",
         "status": "clienttransferprohibited",
         "dnssec": "unsigned",
-        "whois_server": "",
         "name_servers": "dns1.cscdns.net,dns2.cscdns.net",
         "created_date": "2015-03-10T14:06:10Z",
         "updated_date": "2019-09-09T09:34:52Z",
@@ -15,16 +14,7 @@
     "registrar": {
         "id": "299",
         "name": "CSC Corporate Domains, Inc.",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1.8887802723",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "domainabuse@cscglobal.com",
         "referral_url": "http://cscglobal.com"
     },
@@ -38,11 +28,8 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "CA",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
-        "referral_url": ""
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
     },
     "administrative": {
         "id": "REDACTED FOR PRIVACY",
@@ -54,11 +41,8 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "REDACTED FOR PRIVACY",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
-        "referral_url": ""
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
     },
     "technical": {
         "id": "REDACTED FOR PRIVACY",
@@ -70,11 +54,8 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "REDACTED FOR PRIVACY",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
-        "referral_url": ""
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
     },
     "billing": {
         "id": "REDACTED FOR PRIVACY",
@@ -86,10 +67,7 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "REDACTED FOR PRIVACY",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
-        "referral_url": ""
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
     }
 }

@@ -1,95 +1,38 @@
 {
     "domain": {
-        "id": "",
         "domain": "git.re",
         "name": "git",
         "extension": "re",
         "status": "active",
-        "dnssec": "",
-        "whois_server": "",
         "name_servers": "dns1.yandex.net,dns2.yandex.net",
         "created_date": "2018-03-13T18:39:24Z",
         "updated_date": "2019-06-21T07:43:29Z",
         "expiration_date": "2022-03-13T18:39:24Z"
     },
     "registrar": {
-        "id": "",
         "name": "TLD Registrar Solutions Ltd",
-        "organization": "",
         "street": "35-39 Moorgate, Level 1, EC2R 6AR LONDON",
-        "city": "",
-        "province": "",
-        "postal_code": "",
         "country": "GB",
         "phone": "+44 2034357304",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "admin@tldregistrarsolutions.com",
         "referral_url": "https://internetbs.net/en/domain-name-registrations/price.html?setCurrency=EUR"
     },
     "registrant": {
         "id": "ANO00-FRNIC",
-        "name": "Ano Nymous",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "name": "Ano Nymous"
     },
     "administrative": {
         "id": "ANO00-FRNIC",
-        "name": "Ano Nymous",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "name": "Ano Nymous"
     },
     "technical": {
         "id": "DA55158-FRNIC",
         "name": "Domain Admin",
-        "organization": "",
         "street": "TLD Registrar Solutions Ltd, Lvl 1, 35-39 Moorgate, EC2R 6AR London",
-        "city": "",
-        "province": "",
-        "postal_code": "",
         "country": "GB",
         "phone": "+44.2034357312",
-        "phone_ext": "",
         "fax": "+44.2033880601",
-        "fax_ext": "",
-        "email": "admin@tldregistrarsolutions.com",
-        "referral_url": ""
+        "email": "admin@tldregistrarsolutions.com"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

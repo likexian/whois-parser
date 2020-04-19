@@ -15,81 +15,39 @@
     "registrar": {
         "id": "1659",
         "name": "UNIREGISTRAR CORP",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1.4426008800",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "abuse@uniregistry.com",
         "referral_url": "http://uniregistry.com"
     },
     "registrant": {
-        "id": "",
         "name": "PRIVACYDOTLINK CUSTOMER 1078347",
-        "organization": "",
         "street": "PO BOX 30485",
         "city": "SEVEN MILE BEACH",
         "province": "GRAND CAYMAN",
         "postal_code": "KY1-1202",
         "country": "KY",
         "phone": "+1.3457495465",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "1078347@privacy-link.com",
-        "referral_url": ""
+        "email": "1078347@privacy-link.com"
     },
     "administrative": {
-        "id": "",
         "name": "PRIVACYDOTLINK CUSTOMER 1078347",
-        "organization": "",
         "street": "PO BOX 30485",
         "city": "SEVEN MILE BEACH",
         "province": "GRAND CAYMAN",
         "postal_code": "KY1-1202",
         "country": "KY",
         "phone": "+1.3457495465",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "1078347@privacy-link.com",
-        "referral_url": ""
+        "email": "1078347@privacy-link.com"
     },
     "technical": {
-        "id": "",
         "name": "PRIVACYDOTLINK CUSTOMER 1078347",
-        "organization": "",
         "street": "PO BOX 30485",
         "city": "SEVEN MILE BEACH",
         "province": "GRAND CAYMAN",
         "postal_code": "KY1-1202",
         "country": "KY",
         "phone": "+1.3457495465",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "1078347@privacy-link.com",
-        "referral_url": ""
+        "email": "1078347@privacy-link.com"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

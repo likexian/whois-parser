@@ -13,36 +13,19 @@
         "expiration_date": "2026-07-08T04:00:00Z"
     },
     "registrar": {
-        "id": "",
         "name": "Go Daddy Domains Canada, Inc",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
         "referral_url": "ca.godaddy.com"
     },
     "registrant": {
         "id": "39878117-CIRA",
         "name": "G.I.T. PORTES ET FENETRES LTEE",
-        "organization": "",
         "street": "8645 boul Langelier",
         "city": "St-Leonard",
         "province": "QC",
         "postal_code": "H1P2C6",
         "country": "CA",
         "phone": "+1.5143232954",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "michel.fafard@git.ca",
-        "referral_url": ""
+        "email": "michel.fafard@git.ca"
     },
     "administrative": {
         "id": "39878134-CIRA",
@@ -54,11 +37,7 @@
         "postal_code": "H1P2C6",
         "country": "CA",
         "phone": "+1.5143232954",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "michel.fafard@git.ca",
-        "referral_url": ""
+        "email": "michel.fafard@git.ca"
     },
     "technical": {
         "id": "39878133-CIRA",
@@ -70,26 +49,7 @@
         "postal_code": "H1P2C6",
         "country": "CA",
         "phone": "+1.5143232954",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "michel.fafard@git.ca",
-        "referral_url": ""
+        "email": "michel.fafard@git.ca"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

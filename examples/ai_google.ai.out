@@ -13,20 +13,9 @@
         "expiration_date": "2021-09-25T05:37:20.856Z"
     },
     "registrar": {
-        "id": "",
         "name": "Markmonitor",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1.2083895740",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "ccops@markmonitor.com",
-        "referral_url": ""
+        "email": "ccops@markmonitor.com"
     },
     "registrant": {
         "id": "s0WMj-qnEUI",
@@ -38,11 +27,8 @@
         "postal_code": "94043",
         "country": "US",
         "phone": "+1.6502530000",
-        "phone_ext": "",
         "fax": "+1.6502530001",
-        "fax_ext": "",
-        "email": "dns-admin@google.com",
-        "referral_url": ""
+        "email": "dns-admin@google.com"
     },
     "administrative": {
         "id": "CcvUP-Jqpbv",
@@ -54,11 +40,8 @@
         "postal_code": "94043",
         "country": "US",
         "phone": "+1.6502530000",
-        "phone_ext": "",
         "fax": "+1.6502530001",
-        "fax_ext": "",
-        "email": "dns-admin@google.com",
-        "referral_url": ""
+        "email": "dns-admin@google.com"
     },
     "technical": {
         "id": "u5QWX-TzfM0",
@@ -70,11 +53,8 @@
         "postal_code": "94043",
         "country": "US",
         "phone": "+1.6502530000",
-        "phone_ext": "",
         "fax": "+1.6502530001",
-        "fax_ext": "",
-        "email": "dns-admin@google.com",
-        "referral_url": ""
+        "email": "dns-admin@google.com"
     },
     "billing": {
         "id": "jCELG-nkfg9",
@@ -86,10 +66,7 @@
         "postal_code": "83646",
         "country": "US",
         "phone": "+1.2083895740",
-        "phone_ext": "",
         "fax": "+1.2083895771",
-        "fax_ext": "",
-        "email": "ccopsbilling@markmonitor.com",
-        "referral_url": ""
+        "email": "ccopsbilling@markmonitor.com"
     }
 }

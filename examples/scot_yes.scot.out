@@ -15,81 +15,20 @@
     "registrar": {
         "id": "15",
         "name": "COREhub",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+34.935275235",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "abuse@corehub.net",
         "referral_url": "http://corehub.net"
     },
     "registrant": {
-        "id": "",
-        "name": "",
         "organization": "Yes Scotland",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
         "country": "GB",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "please query the whois service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
-        "referral_url": ""
+        "email": "please query the whois service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
     },
     "administrative": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "please query the whois service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
-        "referral_url": ""
+        "email": "please query the whois service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
     },
     "technical": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "please query the whois service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
-        "referral_url": ""
+        "email": "please query the whois service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

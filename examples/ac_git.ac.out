@@ -15,21 +15,11 @@
     "registrar": {
         "id": "1861",
         "name": "Porkbun LLC",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1.5038508351",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "abuse@porkbun.com",
         "referral_url": "http://www.porkbun.com"
     },
     "registrant": {
-        "id": "",
         "name": "Whois Privacy",
         "organization": "Private by Design, LLC",
         "street": "500 Westover Dr #9816",
@@ -38,14 +28,9 @@
         "postal_code": "27330",
         "country": "US",
         "phone": "+1.9712666028",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "https://porkbun.com/whois/contact/registrant/git.ac",
-        "referral_url": ""
+        "email": "https://porkbun.com/whois/contact/registrant/git.ac"
     },
     "administrative": {
-        "id": "",
         "name": "Whois Privacy",
         "organization": "Private by Design, LLC",
         "street": "500 Westover Dr #9816",
@@ -54,14 +39,9 @@
         "postal_code": "27330",
         "country": "US",
         "phone": "+1.9712666028",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "https://porkbun.com/whois/contact/admin/git.ac",
-        "referral_url": ""
+        "email": "https://porkbun.com/whois/contact/admin/git.ac"
     },
     "technical": {
-        "id": "",
         "name": "Whois Privacy",
         "organization": "Private by Design, LLC",
         "street": "500 Westover Dr #9816",
@@ -70,26 +50,7 @@
         "postal_code": "27330",
         "country": "US",
         "phone": "+1.9712666028",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "https://porkbun.com/whois/contact/tech/git.ac",
-        "referral_url": ""
+        "email": "https://porkbun.com/whois/contact/tech/git.ac"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

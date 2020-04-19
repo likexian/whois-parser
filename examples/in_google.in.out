@@ -6,7 +6,6 @@
         "extension": "in",
         "status": "clienttransferprohibited,clientdeleteprohibited,clientupdateprohibited",
         "dnssec": "unsigned",
-        "whois_server": "",
         "name_servers": "ns4.google.com,ns2.google.com,ns1.google.com,ns3.google.com",
         "created_date": "2005-02-14T20:35:14Z",
         "updated_date": "2019-08-08T18:39:47Z",
@@ -15,81 +14,19 @@
     "registrar": {
         "id": "292",
         "name": "MarkMonitor Inc.",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
         "referral_url": "http://www.markmonitor.com"
     },
     "registrant": {
-        "id": "",
-        "name": "",
         "organization": "Google LLC",
-        "street": "",
-        "city": "",
         "province": "CA",
-        "postal_code": "",
         "country": "US",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "please contact the registrar listed above",
-        "referral_url": ""
+        "email": "please contact the registrar listed above"
     },
     "administrative": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "please contact the registrar listed above",
-        "referral_url": ""
+        "email": "please contact the registrar listed above"
     },
     "technical": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "please contact the registrar listed above",
-        "referral_url": ""
+        "email": "please contact the registrar listed above"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

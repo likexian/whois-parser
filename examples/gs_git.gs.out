@@ -13,83 +13,52 @@
         "expiration_date": "2020-04-19T12:25:43.504Z"
     },
     "registrar": {
-        "id": "",
         "name": "Name.com LLC",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
         "country": "US",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
         "referral_url": "http://www.name.com"
     },
     "registrant": {
         "id": "KbOC2-s0Ukx",
         "name": "Bent Cardan",
-        "organization": "",
         "street": "104-60 Queens Blvd. #15L",
         "city": "Forest Hills",
         "province": "NY",
         "postal_code": "11375",
         "country": "US",
         "phone": "+1.6465436717",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "bent@cloudkickr.com",
-        "referral_url": ""
+        "email": "bent@cloudkickr.com"
     },
     "administrative": {
         "id": "fCYBx-a3j5K",
         "name": "Bent Cardan",
-        "organization": "",
         "street": "104-60 Queens Blvd. #15L",
         "city": "Forest Hills",
         "province": "NY",
         "postal_code": "11375",
         "country": "US",
         "phone": "+1.6465436717",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "bent@cloudkickr.com",
-        "referral_url": ""
+        "email": "bent@cloudkickr.com"
     },
     "technical": {
         "id": "CkmXA-xGQER",
         "name": "Bent Cardan",
-        "organization": "",
         "street": "104-60 Queens Blvd. #15L",
         "city": "Forest Hills",
         "province": "NY",
         "postal_code": "11375",
         "country": "US",
         "phone": "+1.6465436717",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "bent@cloudkickr.com",
-        "referral_url": ""
+        "email": "bent@cloudkickr.com"
     },
     "billing": {
         "id": "qZiUV-Bw9in",
         "name": "Bent Cardan",
-        "organization": "",
         "street": "104-60 Queens Blvd. #15L",
         "city": "Forest Hills",
         "province": "NY",
         "postal_code": "11375",
         "country": "US",
         "phone": "+1.6465436717",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "bent@cloudkickr.com",
-        "referral_url": ""
+        "email": "bent@cloudkickr.com"
     }
 }

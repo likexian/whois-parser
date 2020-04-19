@@ -6,90 +6,26 @@
         "extension": "la",
         "status": "clienttransferprohibited",
         "dnssec": "unsigned",
-        "whois_server": "",
         "name_servers": "bob.ns.cloudflare.com,ivy.ns.cloudflare.com",
         "created_date": "2008-11-27T08:14:56.0Z",
         "updated_date": "2019-03-27T04:42:11.0Z",
         "expiration_date": "2019-11-27T23:59:59.0Z"
     },
     "registrar": {
-        "id": "",
         "name": "Name.com LLC",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1.7202492374",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "support@registry.la",
-        "referral_url": ""
+        "email": "support@registry.la"
     },
     "registrant": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "https://whois.nic.la/contact/git.la/registrant",
-        "referral_url": ""
+        "email": "https://whois.nic.la/contact/git.la/registrant"
     },
     "administrative": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "https://whois.nic.la/contact/git.la/admin",
-        "referral_url": ""
+        "email": "https://whois.nic.la/contact/git.la/admin"
     },
     "technical": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "https://whois.nic.la/contact/git.la/tech",
-        "referral_url": ""
+        "email": "https://whois.nic.la/contact/git.la/tech"
     },
     "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "https://whois.nic.la/contact/git.la/billing",
-        "referral_url": ""
+        "email": "https://whois.nic.la/contact/git.la/billing"
     }
 }

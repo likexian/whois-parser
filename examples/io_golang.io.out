@@ -15,81 +15,45 @@
     "registrar": {
         "id": "81",
         "name": "GANDI SAS",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+33.170377661",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "abuse@support.gandi.net",
         "referral_url": "http://www.gandi.net"
     },
     "registrant": {
         "id": "REDACTED FOR PRIVACY",
         "name": "REDACTED FOR PRIVACY",
-        "organization": "",
         "street": "Obfuscated whois Gandi-63-65 boulevard Massena",
         "city": "Obfuscated whois Gandi-Paris",
         "province": "Paris",
         "postal_code": "75013",
         "country": "FR",
         "phone": "+33.170377666",
-        "phone_ext": "",
         "fax": "+33.143730576",
-        "fax_ext": "",
-        "email": "142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net",
-        "referral_url": ""
+        "email": "142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net"
     },
     "administrative": {
         "id": "REDACTED FOR PRIVACY",
         "name": "REDACTED FOR PRIVACY",
-        "organization": "",
         "street": "Obfuscated whois Gandi-63-65 boulevard Massena",
         "city": "Obfuscated whois Gandi-Paris",
         "province": "Paris",
         "postal_code": "75013",
         "country": "FR",
         "phone": "+33.170377666",
-        "phone_ext": "",
         "fax": "+33.143730576",
-        "fax_ext": "",
-        "email": "142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net",
-        "referral_url": ""
+        "email": "142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net"
     },
     "technical": {
         "id": "REDACTED FOR PRIVACY",
         "name": "REDACTED FOR PRIVACY",
-        "organization": "",
         "street": "Obfuscated whois Gandi-63-65 boulevard Massena",
         "city": "Obfuscated whois Gandi-Paris",
         "province": "Paris",
         "postal_code": "75013",
         "country": "FR",
         "phone": "+33.170377666",
-        "phone_ext": "",
         "fax": "+33.143730576",
-        "fax_ext": "",
-        "email": "142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net",
-        "referral_url": ""
+        "email": "142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

@@ -13,36 +13,19 @@
         "expiration_date": "2020-04-28T04:00:00Z"
     },
     "registrar": {
-        "id": "",
         "name": "MarkMonitor International Canada Ltd.",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
         "referral_url": "Markmonitor.com"
     },
     "registrant": {
         "id": "59969059-CIRA",
         "name": "Google LLC - TMA868122",
-        "organization": "",
         "street": "1600 Amphitheatre Parkway",
         "city": "Mountain View",
         "province": "CA",
         "postal_code": "94043",
         "country": "US",
         "phone": "+1.6502530000",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "dns-admin@google.com",
-        "referral_url": ""
+        "email": "dns-admin@google.com"
     },
     "administrative": {
         "id": "59969161-CIRA",
@@ -54,11 +37,7 @@
         "postal_code": "94043",
         "country": "US",
         "phone": "+1.6502530000",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "dns-admin@google.com",
-        "referral_url": ""
+        "email": "dns-admin@google.com"
     },
     "technical": {
         "id": "59969161-CIRA",
@@ -70,26 +49,7 @@
         "postal_code": "94043",
         "country": "US",
         "phone": "+1.6502530000",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "dns-admin@google.com",
-        "referral_url": ""
+        "email": "dns-admin@google.com"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

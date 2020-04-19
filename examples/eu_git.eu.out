@@ -1,95 +1,21 @@
 {
     "domain": {
-        "id": "",
         "domain": "git.eu",
         "name": "git",
         "extension": "eu",
-        "status": "",
-        "dnssec": "",
-        "whois_server": "",
-        "name_servers": "wally.ns.cloudflare.com,thomas.ns.cloudflare.com",
-        "created_date": "",
-        "updated_date": "",
-        "expiration_date": ""
+        "name_servers": "wally.ns.cloudflare.com,thomas.ns.cloudflare.com"
     },
     "registrar": {
-        "id": "",
         "name": "Frankcom EU Service",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
         "referral_url": "www.frankcom.eu"
     },
     "registrant": {
-        "id": "",
-        "name": "NOT DISCLOSED!",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "name": "NOT DISCLOSED!"
     },
-    "administrative": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    },
+    "administrative": {},
     "technical": {
-        "id": "",
-        "name": "",
         "organization": "Frankcom IT Service",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "info@frankcom.info",
-        "referral_url": ""
+        "email": "info@frankcom.info"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

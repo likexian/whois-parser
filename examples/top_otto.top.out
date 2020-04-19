@@ -15,18 +15,8 @@
     "registrar": {
         "id": "269",
         "name": "Key-Systems GmbH",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+49.68949396850",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "abuse@key-systems.net",
-        "referral_url": ""
+        "email": "abuse@key-systems.net"
     },
     "registrant": {
         "id": "REDACTED FOR PRIVACY",
@@ -41,8 +31,7 @@
         "phone_ext": "REDACTED FOR PRIVACY",
         "fax": "REDACTED FOR PRIVACY",
         "fax_ext": "REDACTED FOR PRIVACY",
-        "email": "info@domain-contact.org",
-        "referral_url": ""
+        "email": "info@domain-contact.org"
     },
     "administrative": {
         "id": "REDACTED FOR PRIVACY",
@@ -54,11 +43,7 @@
         "postal_code": "22179",
         "country": "DE",
         "phone": "+49.4064610",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "adminc@ottogroup.com",
-        "referral_url": ""
+        "email": "adminc@ottogroup.com"
     },
     "technical": {
         "id": "REDACTED FOR PRIVACY",
@@ -73,8 +58,7 @@
         "phone_ext": "REDACTED FOR PRIVACY",
         "fax": "REDACTED FOR PRIVACY",
         "fax_ext": "REDACTED FOR PRIVACY",
-        "email": "info@domain-contact.org",
-        "referral_url": ""
+        "email": "info@domain-contact.org"
     },
     "billing": {
         "id": "REDACTED FOR PRIVACY",
@@ -89,7 +73,6 @@
         "phone_ext": "REDACTED FOR PRIVACY",
         "fax": "REDACTED FOR PRIVACY",
         "fax_ext": "REDACTED FOR PRIVACY",
-        "email": "info@domain-contact.org",
-        "referral_url": ""
+        "email": "info@domain-contact.org"
     }
 }

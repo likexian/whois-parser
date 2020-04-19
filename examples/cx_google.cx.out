@@ -13,18 +13,10 @@
         "expiration_date": "2020-07-29T18:15:42.158Z"
     },
     "registrar": {
-        "id": "",
         "name": "MarkMonitor",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
         "country": "US",
         "phone": "+1.2083895740",
-        "phone_ext": "",
         "fax": "+1.2083895771",
-        "fax_ext": "",
         "email": "ccops@markmonitor.com",
         "referral_url": "http://www.markmonitor.com"
     },
@@ -38,11 +30,8 @@
         "postal_code": "94043",
         "country": "US",
         "phone": "Redacted | Registry Policy",
-        "phone_ext": "",
         "fax": "Redacted | Registry Policy",
-        "fax_ext": "",
-        "email": "redacted | registry policy",
-        "referral_url": ""
+        "email": "redacted | registry policy"
     },
     "administrative": {
         "id": "qpyUv-8PqZy",
@@ -54,11 +43,8 @@
         "postal_code": "94043",
         "country": "US",
         "phone": "Redacted | Registry Policy",
-        "phone_ext": "",
         "fax": "Redacted | Registry Policy",
-        "fax_ext": "",
-        "email": "redacted | registry policy",
-        "referral_url": ""
+        "email": "redacted | registry policy"
     },
     "technical": {
         "id": "oSzcd-PDwUy",
@@ -70,11 +56,8 @@
         "postal_code": "94043",
         "country": "US",
         "phone": "Redacted | Registry Policy",
-        "phone_ext": "",
         "fax": "Redacted | Registry Policy",
-        "fax_ext": "",
-        "email": "redacted | registry policy",
-        "referral_url": ""
+        "email": "redacted | registry policy"
     },
     "billing": {
         "id": "cEMhc-TrHqA",
@@ -86,10 +69,7 @@
         "postal_code": "83646",
         "country": "US",
         "phone": "Redacted | Registry Policy",
-        "phone_ext": "",
         "fax": "Redacted | Registry Policy",
-        "fax_ext": "",
-        "email": "redacted | registry policy",
-        "referral_url": ""
+        "email": "redacted | registry policy"
     }
 }

@@ -15,81 +15,21 @@
     "registrar": {
         "id": "146",
         "name": "GoDaddy.com, LLC",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1.4806242505",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "abuse@godaddy.com",
         "referral_url": "http://www.godaddy.com"
     },
     "registrant": {
-        "id": "",
-        "name": "",
         "organization": "Tnx",
-        "street": "",
-        "city": "",
         "province": "Bacau",
-        "postal_code": "",
         "country": "RO",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=github.info",
-        "referral_url": ""
+        "email": "select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=github.info"
     },
     "administrative": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=github.info",
-        "referral_url": ""
+        "email": "select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=github.info"
     },
     "technical": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=github.info",
-        "referral_url": ""
+        "email": "select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=github.info"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

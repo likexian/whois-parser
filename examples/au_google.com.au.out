@@ -8,88 +8,19 @@
         "dnssec": "unsigned",
         "whois_server": "whois.auda.org.au",
         "name_servers": "ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com",
-        "created_date": "",
-        "updated_date": "2019-04-17T19:49:19Z",
-        "expiration_date": ""
+        "updated_date": "2019-04-17T19:49:19Z"
     },
     "registrar": {
-        "id": "",
-        "name": "MarkMonitor Corporate Services Inc",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "name": "MarkMonitor Corporate Services Inc"
     },
     "registrant": {
         "id": "MMR-122026",
-        "name": "Google INC",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "name": "Google INC"
     },
-    "administrative": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    },
+    "administrative": {},
     "technical": {
         "id": "MMR-87489",
-        "name": "DNS Admin",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "name": "DNS Admin"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

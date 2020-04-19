@@ -6,7 +6,6 @@
         "extension": "us",
         "status": "clientupdateprohibited,clientdeleteprohibited,clienttransferprohibited",
         "dnssec": "unsigned",
-        "whois_server": "",
         "name_servers": "ns2.google.com,ns4.google.com,ns3.google.com,ns1.google.com",
         "created_date": "2002-04-19T23:16:01Z",
         "updated_date": "2019-03-22T09:56:02Z",
@@ -15,16 +14,7 @@
     "registrar": {
         "id": "292",
         "name": "MarkMonitor, Inc.",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1.2083895740",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "abusecomplaints@markmonitor.com",
         "referral_url": "www.markmonitor.com"
     },
@@ -38,11 +28,8 @@
         "postal_code": "94043",
         "country": "US",
         "phone": "+1.6502530000",
-        "phone_ext": "",
         "fax": "+1.6502530001",
-        "fax_ext": "",
-        "email": "dns-admin@google.com",
-        "referral_url": ""
+        "email": "dns-admin@google.com"
     },
     "administrative": {
         "id": "C37613731-US",
@@ -54,11 +41,8 @@
         "postal_code": "94043",
         "country": "US",
         "phone": "+1.6502530000",
-        "phone_ext": "",
         "fax": "+1.6502530001",
-        "fax_ext": "",
-        "email": "dns-admin@google.com",
-        "referral_url": ""
+        "email": "dns-admin@google.com"
     },
     "technical": {
         "id": "C37613731-US",
@@ -70,26 +54,8 @@
         "postal_code": "94043",
         "country": "US",
         "phone": "+1.6502530000",
-        "phone_ext": "",
         "fax": "+1.6502530001",
-        "fax_ext": "",
-        "email": "dns-admin@google.com",
-        "referral_url": ""
+        "email": "dns-admin@google.com"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

@@ -13,20 +13,7 @@
         "expiration_date": "2020-02-28T03:58:55.78Z"
     },
     "registrar": {
-        "id": "",
-        "name": "Instra",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "name": "Instra"
     },
     "registrant": {
         "id": "g3U4c-CbzD5",
@@ -38,11 +25,7 @@
         "postal_code": "599-8112",
         "country": "JP",
         "phone": "+1.2645815398",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "aidomains@instra.com",
-        "referral_url": ""
+        "email": "aidomains@instra.com"
     },
     "administrative": {
         "id": "QTAQg-buRB1",
@@ -54,11 +37,7 @@
         "postal_code": "599-8112",
         "country": "JP",
         "phone": "+81.722869606",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "aidomains@instra.com",
-        "referral_url": ""
+        "email": "aidomains@instra.com"
     },
     "technical": {
         "id": "jigEf-DfyTO",
@@ -70,11 +49,7 @@
         "postal_code": "3001",
         "country": "AU",
         "phone": "+61.397831800",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "aidomains@instra.com",
-        "referral_url": ""
+        "email": "aidomains@instra.com"
     },
     "billing": {
         "id": "4NEPm-feDqg",
@@ -86,10 +61,6 @@
         "postal_code": "3001",
         "country": "AU",
         "phone": "+61.397831800",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "aidomains@instra.com",
-        "referral_url": ""
+        "email": "aidomains@instra.com"
     }
 }

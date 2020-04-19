@@ -15,16 +15,7 @@
     "registrar": {
         "id": "151",
         "name": "PSI-USA, Inc. dba Domain Robot",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+49.94159559482",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "domain-abuse@psi-usa.info",
         "referral_url": "https://www.psi-usa.info"
     },
@@ -41,8 +32,7 @@
         "phone_ext": "REDACTED FOR PRIVACY",
         "fax": "REDACTED FOR PRIVACY",
         "fax_ext": "REDACTED FOR PRIVACY",
-        "email": "https://contact.domain-robot.org/west.info",
-        "referral_url": ""
+        "email": "https://contact.domain-robot.org/west.info"
     },
     "administrative": {
         "id": "REDACTED FOR PRIVACY",
@@ -57,8 +47,7 @@
         "phone_ext": "REDACTED FOR PRIVACY",
         "fax": "REDACTED FOR PRIVACY",
         "fax_ext": "REDACTED FOR PRIVACY",
-        "email": "https://contact.domain-robot.org/west.info",
-        "referral_url": ""
+        "email": "https://contact.domain-robot.org/west.info"
     },
     "technical": {
         "id": "REDACTED FOR PRIVACY",
@@ -73,23 +62,7 @@
         "phone_ext": "REDACTED FOR PRIVACY",
         "fax": "REDACTED FOR PRIVACY",
         "fax_ext": "REDACTED FOR PRIVACY",
-        "email": "https://contact.domain-robot.org/west.info",
-        "referral_url": ""
+        "email": "https://contact.domain-robot.org/west.info"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

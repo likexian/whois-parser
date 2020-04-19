@@ -1,95 +1,42 @@
 {
     "domain": {
-        "id": "",
         "domain": "IBM.HK",
         "name": "ibm",
         "extension": "hk",
         "status": "active",
         "dnssec": "unsigned",
-        "whois_server": "",
         "name_servers": "ns1-206.akam.net,ns1-99.akam.net,asia3.akam.net,eur2.akam.net,eur5.akam.net,usc2.akam.net,usc3.akam.net",
         "created_date": "14-03-2004",
-        "updated_date": "",
         "expiration_date": "03-04-2020"
     },
     "registrar": {
-        "id": "",
         "name": "Hong Kong Domain Name Registration Company Limited",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+852 2319 1313",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "enquiry@hkdnr.hk",
-        "referral_url": ""
+        "email": "enquiry@hkdnr.hk"
     },
     "registrant": {
-        "id": "",
-        "name": "",
         "organization": "INTERNATIONAL BUSINESS MACHINES CORPORATION",
         "street": "New Orchard Road, North Castle Drive, Armonk, NY 10504",
-        "city": "",
-        "province": "",
-        "postal_code": "",
         "country": "United States (US)",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "dnsadm@us.ibm.com",
-        "referral_url": ""
+        "email": "dnsadm@us.ibm.com"
     },
     "administrative": {
-        "id": "",
         "name": "Admin, DNS",
         "organization": "IBM CORPORATION",
         "street": "North Castle Drive, Armonk, NY 10504-1785",
-        "city": "",
-        "province": "",
-        "postal_code": "",
         "country": "United States (US)",
         "phone": "+1-9147654227",
-        "phone_ext": "",
         "fax": "+1-9147654370",
-        "fax_ext": "",
-        "email": "dnsadm@us.ibm.com",
-        "referral_url": ""
+        "email": "dnsadm@us.ibm.com"
     },
     "technical": {
-        "id": "",
         "name": "Technical, DNS",
         "organization": "IBM CORPORATION",
         "street": "PO Box 704, Yorktown Heights, NY 10598",
-        "city": "",
-        "province": "",
-        "postal_code": "",
         "country": "United States (US)",
         "phone": "+1-9149451850",
-        "phone_ext": "",
         "fax": "+1-9149451850",
-        "fax_ext": "",
-        "email": "dnstech@us.ibm.com",
-        "referral_url": ""
+        "email": "dnstech@us.ibm.com"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

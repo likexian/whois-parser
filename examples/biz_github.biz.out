@@ -6,7 +6,6 @@
         "extension": "biz",
         "status": "clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited",
         "dnssec": "unsigned",
-        "whois_server": "",
         "name_servers": "ns2.p16.dynect.net,ns3.p16.dynect.net,ns1.p16.dynect.net,ns4.p16.dynect.net",
         "created_date": "2010-08-05T17:04:27Z",
         "updated_date": "2018-10-21T11:00:23Z",
@@ -15,81 +14,21 @@
     "registrar": {
         "id": "292",
         "name": "MarkMonitor, Inc.",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1.2083895740",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "abusecomplaints@markmonitor.com",
         "referral_url": "www.markmonitor.com"
     },
     "registrant": {
-        "id": "",
-        "name": "",
         "organization": "GitHub, Inc.",
-        "street": "",
-        "city": "",
         "province": "CA",
-        "postal_code": "",
         "country": "US",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
-        "referral_url": ""
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
     },
     "administrative": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
-        "referral_url": ""
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
     },
     "technical": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
-        "referral_url": ""
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

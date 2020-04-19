@@ -1,95 +1,40 @@
 {
     "domain": {
-        "id": "",
         "domain": "git.wf",
         "name": "git",
         "extension": "wf",
         "status": "active",
         "dnssec": "signed",
-        "whois_server": "",
         "name_servers": "ns.inwx.de,ns2.inwx.de,ns3.inwx.eu,ns4.inwx.com,ns5.inwx.net",
         "created_date": "2016-04-19T17:08:51Z",
         "updated_date": "2019-05-12T21:49:18Z",
         "expiration_date": "2019-10-19T22:07:38Z"
     },
     "registrar": {
-        "id": "",
         "name": "INWX GmbH & Co. KG",
-        "organization": "",
         "street": "Prinzessinnenstr. 30, 10969 BERLIN",
-        "city": "",
-        "province": "",
-        "postal_code": "",
         "country": "DE",
         "phone": "+49 306 6400 137",
-        "phone_ext": "",
         "fax": "+49 306 6400 138",
-        "fax_ext": "",
         "email": "tld-fr@domrobot.com",
         "referral_url": "http://www.domrobot.com"
     },
     "registrant": {
         "id": "ANO00-FRNIC",
-        "name": "Ano Nymous",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "name": "Ano Nymous"
     },
     "administrative": {
         "id": "ANO00-FRNIC",
-        "name": "Ano Nymous",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "name": "Ano Nymous"
     },
     "technical": {
         "id": "HOTD14-FRNIC",
         "name": "Hostmaster Of The Day",
-        "organization": "",
         "street": "INWX GmbH & Co. KG, Prinzessinnenstr. 30, 10969 Berlin",
-        "city": "",
-        "province": "",
-        "postal_code": "",
         "country": "DE",
         "phone": "+49.309832120",
-        "phone_ext": "",
         "fax": "+49.3098321290",
-        "fax_ext": "",
-        "email": "hostmaster@inwx.de",
-        "referral_url": ""
+        "email": "hostmaster@inwx.de"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

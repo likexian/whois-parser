@@ -15,21 +15,11 @@
     "registrar": {
         "id": "2",
         "name": "Network Solutions, LLC",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1.8003337680",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "abuse@web.com",
         "referral_url": "http://networksolutions.com"
     },
     "registrant": {
-        "id": "",
         "name": "Hurricane, Electric",
         "organization": "Hurricane Electric Hostmaster",
         "street": "760 MISSION CT",
@@ -38,14 +28,9 @@
         "postal_code": "94539-8204",
         "country": "US",
         "phone": "+1.5105804100",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "hostmaster@he.net",
-        "referral_url": ""
+        "email": "hostmaster@he.net"
     },
     "administrative": {
-        "id": "",
         "name": "Hurricane, Electric",
         "organization": "Hurricane Electric Hostmaster",
         "street": "760 MISSION CT",
@@ -54,14 +39,9 @@
         "postal_code": "94539-8204",
         "country": "US",
         "phone": "+1.5105804100",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "hostmaster@he.net",
-        "referral_url": ""
+        "email": "hostmaster@he.net"
     },
     "technical": {
-        "id": "",
         "name": "Hurricane, Electric",
         "organization": "Hurricane Electric Hostmaster",
         "street": "760 MISSION CT",
@@ -70,26 +50,7 @@
         "postal_code": "94539-8204",
         "country": "US",
         "phone": "+1.5105804100",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "hostmaster@he.net",
-        "referral_url": ""
+        "email": "hostmaster@he.net"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

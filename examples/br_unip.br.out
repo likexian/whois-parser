@@ -1,95 +1,25 @@
 {
     "domain": {
-        "id": "",
         "domain": "unip.br",
         "name": "unip",
         "extension": "br",
         "status": "published",
-        "dnssec": "",
-        "whois_server": "",
         "name_servers": "datcenter.unip.br,datcenter2.unip.br",
         "created_date": "19990717 #175298",
-        "updated_date": "20190523",
-        "expiration_date": ""
+        "updated_date": "20190523"
     },
-    "registrar": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    },
+    "registrar": {},
     "registrant": {
-        "id": "",
         "name": "Leonardo Barbosa Santos",
-        "organization": "SOCIEDADE UNIF PAULISTA DE ENSINO REN OBJETIVO",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "organization": "SOCIEDADE UNIF PAULISTA DE ENSINO REN OBJETIVO"
     },
     "administrative": {
-        "id": "",
-        "name": "Leonardo Barbosa Santos",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "name": "Leonardo Barbosa Santos"
     },
     "technical": {
-        "id": "",
-        "name": "Elisangela pereira monaco",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "name": "Elisangela pereira monaco"
     },
     "billing": {
-        "id": "",
-        "name": "Tiago Luis de Souza Cunha",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "name": "Tiago Luis de Souza Cunha"
     }
 }

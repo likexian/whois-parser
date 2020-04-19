@@ -15,16 +15,7 @@
     "registrar": {
         "id": "81",
         "name": "GANDI SAS",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+33.170377661",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "abuse@support.gandi.net",
         "referral_url": "http://www.gandi.net"
     },
@@ -34,15 +25,11 @@
         "organization": "Gandi SAS",
         "street": "REDACTED FOR PRIVACY",
         "city": "REDACTED FOR PRIVACY",
-        "province": "",
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "FR",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "1c3a11bd1da2ad84dde09bcc831747a8-523678@contact.gandi.net",
-        "referral_url": ""
+        "email": "1c3a11bd1da2ad84dde09bcc831747a8-523678@contact.gandi.net"
     },
     "administrative": {
         "id": "REDACTED FOR PRIVACY",
@@ -54,11 +41,8 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "REDACTED FOR PRIVACY",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "3521bef593b0080b0644bce75aa22a5d-248842@contact.gandi.net",
-        "referral_url": ""
+        "email": "3521bef593b0080b0644bce75aa22a5d-248842@contact.gandi.net"
     },
     "technical": {
         "id": "REDACTED FOR PRIVACY",
@@ -70,26 +54,8 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "REDACTED FOR PRIVACY",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "3521bef593b0080b0644bce75aa22a5d-248842@contact.gandi.net",
-        "referral_url": ""
+        "email": "3521bef593b0080b0644bce75aa22a5d-248842@contact.gandi.net"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

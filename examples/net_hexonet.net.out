@@ -15,21 +15,11 @@
     "registrar": {
         "id": "1387",
         "name": "1API GmbH",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+49.68416984x200",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "abuse@1api.net",
         "referral_url": "http://www.1api.net"
     },
     "registrant": {
-        "id": "",
         "name": "REDACTED FOR PRIVACY",
         "organization": "REDACTED FOR PRIVACY",
         "street": "REDACTED FOR PRIVACY",
@@ -38,14 +28,9 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "DE",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "contact via https://www.1api.net/send-message/hexonet.net/registrant",
-        "referral_url": ""
+        "email": "contact via https://www.1api.net/send-message/hexonet.net/registrant"
     },
     "administrative": {
-        "id": "",
         "name": "REDACTED FOR PRIVACY",
         "organization": "REDACTED FOR PRIVACY",
         "street": "REDACTED FOR PRIVACY",
@@ -54,14 +39,9 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "REDACTED FOR PRIVACY",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "contact via https://www.1api.net/send-message/hexonet.net/admin",
-        "referral_url": ""
+        "email": "contact via https://www.1api.net/send-message/hexonet.net/admin"
     },
     "technical": {
-        "id": "",
         "name": "REDACTED FOR PRIVACY",
         "organization": "REDACTED FOR PRIVACY",
         "street": "REDACTED FOR PRIVACY",
@@ -70,26 +50,7 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "REDACTED FOR PRIVACY",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "contact via https://www.1api.net/send-message/hexonet.net/tech",
-        "referral_url": ""
+        "email": "contact via https://www.1api.net/send-message/hexonet.net/tech"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

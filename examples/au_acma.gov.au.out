@@ -8,88 +8,21 @@
         "dnssec": "unsigned",
         "whois_server": "whois.auda.org.au",
         "name_servers": "dns4.sge.net,dns2.sge.net,dns1.sge.net,dns3.sge.net",
-        "created_date": "",
-        "updated_date": "2019-04-06T22:20:08Z",
-        "expiration_date": ""
+        "updated_date": "2019-04-06T22:20:08Z"
     },
     "registrar": {
-        "id": "",
         "name": "Digital Transformation Agency",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "registrar@domainname.gov.au",
         "referral_url": "https://www.domainname.gov.au/"
     },
     "registrant": {
         "id": "OTHER GOVAU-DESI1000",
-        "name": "Australian Communications and Media Authority (ACMA)",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "name": "Australian Communications and Media Authority (ACMA)"
     },
-    "administrative": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    },
+    "administrative": {},
     "technical": {
         "id": "GOVAU-DESI1001",
-        "name": "Nathan Penhaligon",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "name": "Nathan Penhaligon"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

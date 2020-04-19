@@ -15,81 +15,42 @@
     "registrar": {
         "id": "472",
         "name": "DYNADOT LLC",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1.6502620100",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "abuse@dynadot.com",
         "referral_url": "http://www.dynadot.com"
     },
     "registrant": {
-        "id": "",
         "name": "Dynadot LLC",
-        "organization": "",
         "street": "PO Box 345",
         "city": "San Mateo",
         "province": "CA",
         "postal_code": "94401",
         "country": "US",
         "phone": "+1.6502620100",
-        "phone_ext": "",
         "fax": "+1.4158692893",
-        "fax_ext": "",
-        "email": "info@dynadot.com",
-        "referral_url": ""
+        "email": "info@dynadot.com"
     },
     "administrative": {
-        "id": "",
         "name": "Dynadot LLC",
-        "organization": "",
         "street": "PO Box 345",
         "city": "San Mateo",
         "province": "CA",
         "postal_code": "94401",
         "country": "US",
         "phone": "+1.6502620100",
-        "phone_ext": "",
         "fax": "+1.4158692893",
-        "fax_ext": "",
-        "email": "info@dynadot.com",
-        "referral_url": ""
+        "email": "info@dynadot.com"
     },
     "technical": {
-        "id": "",
         "name": "Dynadot LLC",
-        "organization": "",
         "street": "PO Box 345",
         "city": "San Mateo",
         "province": "CA",
         "postal_code": "94401",
         "country": "US",
         "phone": "+1.6502620100",
-        "phone_ext": "",
         "fax": "+1.4158692893",
-        "fax_ext": "",
-        "email": "info@dynadot.com",
-        "referral_url": ""
+        "email": "info@dynadot.com"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

@@ -15,81 +15,20 @@
     "registrar": {
         "id": "146",
         "name": "GoDaddy.com, LLC",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1.4806242505",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "abuse@godaddy.com",
         "referral_url": "http://www.godaddy.com"
     },
     "registrant": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
         "province": "California",
-        "postal_code": "",
         "country": "US",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.co",
-        "referral_url": ""
+        "email": "select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.co"
     },
     "administrative": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.co",
-        "referral_url": ""
+        "email": "select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.co"
     },
     "technical": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.co",
-        "referral_url": ""
+        "email": "select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.co"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

@@ -15,81 +15,21 @@
     "registrar": {
         "id": "146",
         "name": "GoDaddy.com, LLC",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1.4806242505",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "abuse@godaddy.com",
         "referral_url": "http://www.godaddy.com"
     },
     "registrant": {
-        "id": "",
-        "name": "",
         "organization": "NameFind LLC",
-        "street": "",
-        "city": "",
         "province": "Massachusetts",
-        "postal_code": "",
         "country": "US",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.us",
-        "referral_url": ""
+        "email": "select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.us"
     },
     "administrative": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.us",
-        "referral_url": ""
+        "email": "select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.us"
     },
     "technical": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.us",
-        "referral_url": ""
+        "email": "select contact domain holder link at https://www.godaddy.com/whois/results.aspx?domain=git.us"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

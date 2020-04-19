@@ -6,7 +6,6 @@
         "extension": "cymru",
         "status": "clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited",
         "dnssec": "unsigned",
-        "whois_server": "",
         "name_servers": "ns4.google.com,ns1.google.com,ns3.google.com,ns2.google.com",
         "created_date": "2014-10-31T13:27:48Z",
         "updated_date": "2019-09-29T09:41:07Z",
@@ -15,16 +14,6 @@
     "registrar": {
         "id": "292",
         "name": "MarkMonitor Inc.",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "stu.homan@markmonitor.com",
         "referral_url": "https://www.markmonitor.com"
     },
@@ -38,11 +27,8 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "US",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
-        "referral_url": ""
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
     },
     "administrative": {
         "id": "REDACTED FOR PRIVACY",
@@ -54,11 +40,8 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "REDACTED FOR PRIVACY",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
-        "referral_url": ""
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
     },
     "technical": {
         "id": "REDACTED FOR PRIVACY",
@@ -70,26 +53,8 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "REDACTED FOR PRIVACY",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
-        "referral_url": ""
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

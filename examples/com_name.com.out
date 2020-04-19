@@ -15,16 +15,7 @@
     "registrar": {
         "id": "625",
         "name": "Name.com, Inc.",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1.7203101849",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "abuse@name.com",
         "referral_url": "http://www.name.com"
     },
@@ -38,11 +29,8 @@
         "postal_code": "80201",
         "country": "US",
         "phone": "+1.7208009072",
-        "phone_ext": "",
         "fax": "+1.7209758725",
-        "fax_ext": "",
-        "email": "https://www.name.com/contact-domain-whois/name.com",
-        "referral_url": ""
+        "email": "https://www.name.com/contact-domain-whois/name.com"
     },
     "administrative": {
         "id": "Not Available From Registry",
@@ -54,11 +42,8 @@
         "postal_code": "80201",
         "country": "US",
         "phone": "+1.7208009072",
-        "phone_ext": "",
         "fax": "+1.7209758725",
-        "fax_ext": "",
-        "email": "https://www.name.com/contact-domain-whois/name.com",
-        "referral_url": ""
+        "email": "https://www.name.com/contact-domain-whois/name.com"
     },
     "technical": {
         "id": "Not Available From Registry",
@@ -70,26 +55,8 @@
         "postal_code": "80201",
         "country": "US",
         "phone": "+1.7208009072",
-        "phone_ext": "",
         "fax": "+1.7209758725",
-        "fax_ext": "",
-        "email": "https://www.name.com/contact-domain-whois/name.com",
-        "referral_url": ""
+        "email": "https://www.name.com/contact-domain-whois/name.com"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

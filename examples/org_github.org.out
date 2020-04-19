@@ -15,21 +15,11 @@
     "registrar": {
         "id": "48",
         "name": "ENOM, INC.",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1.4259744689",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "abuse@enom.com",
         "referral_url": "WWW.ENOM.COM"
     },
     "registrant": {
-        "id": "",
         "name": "REDACTED FOR PRIVACY",
         "organization": "REDACTED FOR PRIVACY",
         "street": "REDACTED FOR PRIVACY",
@@ -38,14 +28,10 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "US",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "https://tieredaccess.com/contact/e406a066-effd-4c8c-9f5b-483c6d2b37cf",
-        "referral_url": ""
+        "email": "https://tieredaccess.com/contact/e406a066-effd-4c8c-9f5b-483c6d2b37cf"
     },
     "administrative": {
-        "id": "",
         "name": "REDACTED FOR PRIVACY",
         "organization": "REDACTED FOR PRIVACY",
         "street": "REDACTED FOR PRIVACY",
@@ -54,14 +40,10 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "REDACTED FOR PRIVACY",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "redacted for privacy",
-        "referral_url": ""
+        "email": "redacted for privacy"
     },
     "technical": {
-        "id": "",
         "name": "REDACTED FOR PRIVACY",
         "organization": "REDACTED FOR PRIVACY",
         "street": "REDACTED FOR PRIVACY",
@@ -70,26 +52,8 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "REDACTED FOR PRIVACY",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "redacted for privacy",
-        "referral_url": ""
+        "email": "redacted for privacy"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

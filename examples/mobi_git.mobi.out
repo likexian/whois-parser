@@ -15,16 +15,7 @@
     "registrar": {
         "id": "600",
         "name": "Rebel.com",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1.8664973235",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "abuse@rebel.com",
         "referral_url": "http://www.Rebel.com"
     },
@@ -38,11 +29,8 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "CZ",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "redacted for privacy",
-        "referral_url": ""
+        "email": "redacted for privacy"
     },
     "administrative": {
         "id": "REDACTED FOR PRIVACY",
@@ -54,11 +42,8 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "REDACTED FOR PRIVACY",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "redacted for privacy",
-        "referral_url": ""
+        "email": "redacted for privacy"
     },
     "technical": {
         "id": "REDACTED FOR PRIVACY",
@@ -70,26 +55,8 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "REDACTED FOR PRIVACY",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "redacted for privacy",
-        "referral_url": ""
+        "email": "redacted for privacy"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

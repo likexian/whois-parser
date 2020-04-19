@@ -15,81 +15,42 @@
     "registrar": {
         "id": "9999",
         "name": "Merchant Law Group LLP",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1.3063597777",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "info@get.love",
         "referral_url": "https://get.love/"
     },
     "registrant": {
-        "id": "",
         "name": "IT Manager",
         "organization": "Merchant Law Group LLP",
         "street": "100 - 2401 Saskatchewan Drive, Regina",
         "city": "Saskatchewan",
-        "province": "",
         "postal_code": "S4P 4H8",
         "country": "CA",
         "phone": "+1.3063597777",
-        "phone_ext": "",
         "fax": "+1.3065223299",
-        "fax_ext": "",
-        "email": "info@get.love",
-        "referral_url": ""
+        "email": "info@get.love"
     },
     "administrative": {
-        "id": "",
         "name": "IT Manager",
         "organization": "Merchant Law Group LLP",
         "street": "100 - 2401 Saskatchewan Drive, Regina",
         "city": "Saskatchewan",
-        "province": "",
         "postal_code": "S4P 4H8",
         "country": "CA",
         "phone": "+1.3063597777",
-        "phone_ext": "",
         "fax": "+1.3065223299",
-        "fax_ext": "",
-        "email": "info@get.love",
-        "referral_url": ""
+        "email": "info@get.love"
     },
     "technical": {
-        "id": "",
         "name": "IT Manager",
         "organization": "Merchant Law Group LLP",
         "street": "100 - 2401 Saskatchewan Drive, Regina",
         "city": "Saskatchewan",
-        "province": "",
         "postal_code": "S4P 4H8",
         "country": "CA",
         "phone": "+1.3063597777",
-        "phone_ext": "",
         "fax": "+1.3065223299",
-        "fax_ext": "",
-        "email": "info@get.love",
-        "referral_url": ""
+        "email": "info@get.love"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

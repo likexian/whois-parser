@@ -1,95 +1,39 @@
 {
     "domain": {
-        "id": "",
         "domain": "moo.mo",
         "name": "moo",
         "extension": "mo",
-        "status": "",
-        "dnssec": "",
-        "whois_server": "",
         "name_servers": "ns3.wordpress.com,ns2.wordpress.com,ns1.wordpress.com",
         "created_date": "2018-02-05 22:59:12.55172",
-        "updated_date": "",
         "expiration_date": "2021-02-05"
     },
-    "registrar": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    },
+    "registrar": {},
     "registrant": {
-        "id": "",
         "name": "陳秀霞",
         "organization": "澳門有機緣貿易有限公司",
         "street": "澳門雅廉訪大馬路37號達豐大廈地下A鋪",
         "city": "澳門",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "olivia63361668@gmail.com",
-        "referral_url": ""
+        "email": "olivia63361668@gmail.com"
     },
     "administrative": {
-        "id": "",
         "name": "陳秀霞",
         "organization": "澳門有機緣貿易有限公司",
         "street": "澳門雅廉訪大馬路37號達豐大廈地下A鋪",
         "city": "澳門",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "olivia63361668@gmail.com",
-        "referral_url": ""
+        "email": "olivia63361668@gmail.com"
     },
     "technical": {
-        "id": "",
         "name": "陳秀霞",
         "organization": "澳門有機緣貿易有限公司",
         "street": "澳門雅廉訪大馬路37號達豐大廈地下A鋪",
         "city": "澳門",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "olivia63361668@gmail.com",
-        "referral_url": ""
+        "email": "olivia63361668@gmail.com"
     },
     "billing": {
-        "id": "",
         "name": "陳秀霞",
         "organization": "澳門有機緣貿易有限公司",
         "street": "澳門雅廉訪大馬路37號達豐大廈地下A鋪",
         "city": "澳門",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "olivia63361668@gmail.com",
-        "referral_url": ""
+        "email": "olivia63361668@gmail.com"
     }
 }

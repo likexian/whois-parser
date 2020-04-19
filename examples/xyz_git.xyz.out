@@ -15,16 +15,7 @@
     "registrar": {
         "id": "1556",
         "name": "Chengdu west dimension digital technology Co., LTD",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+86.2862778877 ext 8359",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "westabuse@gmail.com",
         "referral_url": "www.west.cn"
     },
@@ -38,11 +29,8 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "CN",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "link at https://www.west.cn/web/whoisform?domain=git.xyz",
-        "referral_url": ""
+        "email": "link at https://www.west.cn/web/whoisform?domain=git.xyz"
     },
     "administrative": {
         "id": "xyz4697443686140",
@@ -54,11 +42,8 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "CN",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "link at https://www.west.cn/web/whoisform?domain=git.xyz",
-        "referral_url": ""
+        "email": "link at https://www.west.cn/web/whoisform?domain=git.xyz"
     },
     "technical": {
         "id": "xyz4697443686140",
@@ -70,26 +55,8 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "CN",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "link at https://www.west.cn/web/whoisform?domain=git.xyz",
-        "referral_url": ""
+        "email": "link at https://www.west.cn/web/whoisform?domain=git.xyz"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

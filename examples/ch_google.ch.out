@@ -1,95 +1,25 @@
 {
     "domain": {
-        "id": "",
         "domain": "google.ch",
         "name": "google",
         "extension": "ch",
-        "status": "",
         "dnssec": "no",
-        "whois_server": "",
         "name_servers": "ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com",
-        "created_date": "31 May 1999",
-        "updated_date": "",
-        "expiration_date": ""
+        "created_date": "31 May 1999"
     },
     "registrar": {
-        "id": "",
-        "name": "MarkMonitor Inc.",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "name": "MarkMonitor Inc."
     },
     "registrant": {
-        "id": "",
         "name": "Domain Administrator",
         "organization": "Google LLC",
-        "street": "1600 Amphitheatre Parkway, US-94043 Mountain View, United States",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "street": "1600 Amphitheatre Parkway, US-94043 Mountain View, United States"
     },
-    "administrative": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    },
+    "administrative": {},
     "technical": {
-        "id": "",
         "name": "Domain Administrator",
         "organization": "Google LLC",
-        "street": "1600 Amphitheatre Parkway, US-94043 Mountain View, United States",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "street": "1600 Amphitheatre Parkway, US-94043 Mountain View, United States"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

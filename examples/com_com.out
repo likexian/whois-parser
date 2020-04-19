@@ -1,95 +1,33 @@
 {
     "domain": {
-        "id": "",
         "domain": "COM",
         "name": "com",
-        "extension": "",
         "status": "active",
-        "dnssec": "",
         "whois_server": "whois.verisign-grs.com",
         "name_servers": "a.gtld-servers.net,b.gtld-servers.net,c.gtld-servers.net,d.gtld-servers.net,e.gtld-servers.net,f.gtld-servers.net,g.gtld-servers.net,h.gtld-servers.net,i.gtld-servers.net,j.gtld-servers.net,k.gtld-servers.net,l.gtld-servers.net,m.gtld-servers.net",
         "created_date": "1985-01-01",
-        "updated_date": "2017-10-05",
-        "expiration_date": ""
+        "updated_date": "2017-10-05"
     },
-    "registrar": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    },
+    "registrar": {},
     "registrant": {
-        "id": "",
-        "name": "",
         "organization": "VeriSign Global Registry Services",
-        "street": "12061 Bluemont Way, Reston Virginia 20190, United States",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "street": "12061 Bluemont Way, Reston Virginia 20190, United States"
     },
     "administrative": {
-        "id": "",
         "name": "Registry Customer Service",
         "organization": "VeriSign Global Registry Services",
         "street": "12061 Bluemont Way, Reston Virginia 20190, United States",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1 703 925-6999",
-        "phone_ext": "",
         "fax": "+1 703 948 3978",
-        "fax_ext": "",
-        "email": "info@verisign-grs.com",
-        "referral_url": ""
+        "email": "info@verisign-grs.com"
     },
     "technical": {
-        "id": "",
         "name": "Registry Customer Service",
         "organization": "VeriSign Global Registry Services",
         "street": "12061 Bluemont Way, Reston Virginia 20190, United States",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1 703 925-6999",
-        "phone_ext": "",
         "fax": "+1 703 948 3978",
-        "fax_ext": "",
-        "email": "info@verisign-grs.com",
-        "referral_url": ""
+        "email": "info@verisign-grs.com"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

@@ -1,95 +1,46 @@
 {
     "domain": {
-        "id": "",
         "domain": "git.tf",
         "name": "git",
         "extension": "tf",
         "status": "active",
-        "dnssec": "",
-        "whois_server": "",
         "name_servers": "ns1.parkingcrew.net,ns2.parkingcrew.net",
         "created_date": "2019-01-20T04:16:05Z",
         "updated_date": "2019-01-21T15:35:50Z",
         "expiration_date": "2020-01-20T04:16:05Z"
     },
     "registrar": {
-        "id": "",
         "name": "1API GmbH",
-        "organization": "",
         "street": "Talstrasse 27, 66424 HOMBURG",
-        "city": "",
-        "province": "",
-        "postal_code": "",
         "country": "DE",
         "phone": "+49 6841 6984200",
-        "phone_ext": "",
         "fax": "+49 6841 6984299",
-        "fax_ext": "",
         "email": "info@1api.net",
         "referral_url": "http://www.1api.net"
     },
     "registrant": {
         "id": "JN6975-FRNIC",
         "name": "Jurgen Neeme",
-        "organization": "",
         "street": "Parnu Mnt 139C, 11317 Tallinn, Harjumaa",
-        "city": "",
-        "province": "",
-        "postal_code": "",
         "country": "EE",
         "phone": "+372 55983275",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "jurgen@opus.ws",
-        "referral_url": ""
+        "email": "jurgen@opus.ws"
     },
     "administrative": {
         "id": "JN7243-FRNIC",
         "name": "Jurgen Neeme",
-        "organization": "",
         "street": "Parnu Mnt 139C, 11317 Tallinn, Harjumaa",
-        "city": "",
-        "province": "",
-        "postal_code": "",
         "country": "EE",
         "phone": "+372.55983275",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "jurgen@opus.ws",
-        "referral_url": ""
+        "email": "jurgen@opus.ws"
     },
     "technical": {
         "id": "JN7243-FRNIC",
         "name": "Jurgen Neeme",
-        "organization": "",
         "street": "Parnu Mnt 139C, 11317 Tallinn, Harjumaa",
-        "city": "",
-        "province": "",
-        "postal_code": "",
         "country": "EE",
         "phone": "+372.55983275",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "jurgen@opus.ws",
-        "referral_url": ""
+        "email": "jurgen@opus.ws"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

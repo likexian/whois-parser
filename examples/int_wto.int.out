@@ -1,95 +1,30 @@
 {
     "domain": {
-        "id": "",
         "domain": "WTO.INT",
         "name": "wto",
         "extension": "int",
-        "status": "",
-        "dnssec": "",
-        "whois_server": "",
         "name_servers": "ns.unicc.org,ns1.gva.ch.colt.net",
         "created_date": "2001-09-10",
-        "updated_date": "2019-02-21",
-        "expiration_date": ""
+        "updated_date": "2019-02-21"
     },
-    "registrar": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    },
+    "registrar": {},
     "registrant": {
-        "id": "",
-        "name": "",
         "organization": "World Trade Organization",
-        "street": "Palais des Nations, c/o UNICC, Geneva 10  1211, Switzerland",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "street": "Palais des Nations, c/o UNICC, Geneva 10  1211, Switzerland"
     },
     "administrative": {
-        "id": "",
         "name": "Name Service Administrative Contact",
-        "organization": "",
         "street": "Palais des Nations, c/o UNICC, Geneva 10  1211, Switzerland",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+41 22 929 1411",
-        "phone_ext": "",
         "fax": "+41 22 929 1412",
-        "fax_ext": "",
-        "email": "ns-admin@unicc.org",
-        "referral_url": ""
+        "email": "ns-admin@unicc.org"
     },
     "technical": {
-        "id": "",
         "name": "Name Service Technical Contact",
-        "organization": "",
         "street": "Palais des Nations, c/o UNICC, Geneva 10  1211, Switzerland",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+41 22 929 1411",
-        "phone_ext": "",
         "fax": "+41 22 929 1412",
-        "fax_ext": "",
-        "email": "ns-tech@unicc.org",
-        "referral_url": ""
+        "email": "ns-tech@unicc.org"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

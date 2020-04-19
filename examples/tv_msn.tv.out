@@ -15,21 +15,11 @@
     "registrar": {
         "id": "292",
         "name": "MarkMonitor, Inc.",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1.2083895740",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "abusecomplaints@markmonitor.com",
         "referral_url": "http://www.markmonitor.com"
     },
     "registrant": {
-        "id": "",
         "name": "Domain Administrator",
         "organization": "Microsoft Corporation",
         "street": "One Microsoft Way,",
@@ -38,14 +28,10 @@
         "postal_code": "98052",
         "country": "US",
         "phone": "+1.4258828080",
-        "phone_ext": "",
         "fax": "+1.4259367329",
-        "fax_ext": "",
-        "email": "domains@microsoft.com",
-        "referral_url": ""
+        "email": "domains@microsoft.com"
     },
     "administrative": {
-        "id": "",
         "name": "Domain Administrator",
         "organization": "Microsoft Corporation",
         "street": "One Microsoft Way,",
@@ -54,14 +40,10 @@
         "postal_code": "98052",
         "country": "US",
         "phone": "+1.4258828080",
-        "phone_ext": "",
         "fax": "+1.4259367329",
-        "fax_ext": "",
-        "email": "domains@microsoft.com",
-        "referral_url": ""
+        "email": "domains@microsoft.com"
     },
     "technical": {
-        "id": "",
         "name": "MSN Hostmaster",
         "organization": "Microsoft Corporation",
         "street": "One Microsoft Way,",
@@ -70,26 +52,8 @@
         "postal_code": "98052",
         "country": "US",
         "phone": "+1.4258828080",
-        "phone_ext": "",
         "fax": "+1.4259367329",
-        "fax_ext": "",
-        "email": "msnhst@microsoft.com",
-        "referral_url": ""
+        "email": "msnhst@microsoft.com"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

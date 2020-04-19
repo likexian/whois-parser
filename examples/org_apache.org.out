@@ -15,21 +15,11 @@
     "registrar": {
         "id": "1068",
         "name": "NAMECHEAP INC",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1.6613102107",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
         "email": "abuse@namecheap.com",
         "referral_url": "http://www.namecheap.com"
     },
     "registrant": {
-        "id": "",
         "name": "Apache DNS",
         "organization": "The Apache Software Foundation",
         "street": "401 Edgewater Place Suite 600",
@@ -38,14 +28,10 @@
         "postal_code": "01880",
         "country": "US",
         "phone": "+1.1234567890",
-        "phone_ext": "",
         "fax": "+1.7816238460",
-        "fax_ext": "",
-        "email": "dns@apache.org",
-        "referral_url": ""
+        "email": "dns@apache.org"
     },
     "administrative": {
-        "id": "",
         "name": "Apache DNS",
         "organization": "The Apache Software Foundation",
         "street": "401 Edgewater Place Suite 600",
@@ -54,14 +40,10 @@
         "postal_code": "01880",
         "country": "US",
         "phone": "+1.1234567890",
-        "phone_ext": "",
         "fax": "+1.7816238460",
-        "fax_ext": "",
-        "email": "dns@apache.org",
-        "referral_url": ""
+        "email": "dns@apache.org"
     },
     "technical": {
-        "id": "",
         "name": "Apache DNS",
         "organization": "The Apache Software Foundation",
         "street": "401 Edgewater Place Suite 600",
@@ -70,26 +52,8 @@
         "postal_code": "01880",
         "country": "US",
         "phone": "+1.1234567890",
-        "phone_ext": "",
         "fax": "+1.7816238460",
-        "fax_ext": "",
-        "email": "dns@apache.org",
-        "referral_url": ""
+        "email": "dns@apache.org"
     },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "billing": {}
 }

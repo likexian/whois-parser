@@ -6,7 +6,6 @@
         "extension": "london",
         "status": "clientdeleteprohibited,clientrenewprohibited,clienttransferprohibited,clientupdateprohibited,autorenewperiod",
         "dnssec": "unsigned",
-        "whois_server": "",
         "name_servers": "ns-1780.awsdns-30.co.uk,ns-462.awsdns-57.com,ns-881.awsdns-46.net,ns-1139.awsdns-14.org",
         "created_date": "2014-09-19T16:12:13Z",
         "updated_date": "2019-09-24T16:34:14Z",
@@ -15,18 +14,8 @@
     "registrar": {
         "id": "146",
         "name": "GoDaddy.com, LLC",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "+1.4806242505",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "abuse@godaddy.com",
-        "referral_url": ""
+        "email": "abuse@godaddy.com"
     },
     "registrant": {
         "id": "REDACTED FOR PRIVACY",
@@ -38,11 +27,8 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "GB",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
-        "referral_url": ""
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
     },
     "administrative": {
         "id": "REDACTED FOR PRIVACY",
@@ -54,11 +40,8 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "REDACTED FOR PRIVACY",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
-        "referral_url": ""
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
     },
     "technical": {
         "id": "REDACTED FOR PRIVACY",
@@ -70,11 +53,8 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "REDACTED FOR PRIVACY",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
-        "referral_url": ""
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
     },
     "billing": {
         "id": "REDACTED FOR PRIVACY",
@@ -86,10 +66,7 @@
         "postal_code": "REDACTED FOR PRIVACY",
         "country": "REDACTED FOR PRIVACY",
         "phone": "REDACTED FOR PRIVACY",
-        "phone_ext": "",
         "fax": "REDACTED FOR PRIVACY",
-        "fax_ext": "",
-        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
-        "referral_url": ""
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
     }
 }

@@ -1,95 +1,28 @@
 {
     "domain": {
-        "id": "",
         "domain": "git.kr",
         "name": "git",
         "extension": "kr",
         "status": "clienttransferprohibited",
         "dnssec": "unsigned",
-        "whois_server": "",
         "name_servers": "ns1.parkingcrew.net,ns2.parkingcrew.net",
         "created_date": "2012. 05. 19.",
         "updated_date": "2017. 10. 17.",
         "expiration_date": "2020. 05. 19."
     },
     "registrar": {
-        "id": "",
-        "name": "Megazone(http://HOSTING.KR)",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "name": "Megazone(http://HOSTING.KR)"
     },
     "registrant": {
-        "id": "",
         "name": "beats",
-        "organization": "",
         "street": "202-1902 cimsan1cha prugio chilseongdong2ga Oksan-ro,, Buk-gu Daegu",
-        "city": "",
-        "province": "",
-        "postal_code": "41593",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
+        "postal_code": "41593"
     },
     "administrative": {
-        "id": "",
         "name": "beats",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
         "phone": "82-10-6485-1888",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "lawyer247@hotmail.com",
-        "referral_url": ""
+        "email": "lawyer247@hotmail.com"
     },
-    "technical": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    },
-    "billing": {
-        "id": "",
-        "name": "",
-        "organization": "",
-        "street": "",
-        "city": "",
-        "province": "",
-        "postal_code": "",
-        "country": "",
-        "phone": "",
-        "phone_ext": "",
-        "fax": "",
-        "fax_ext": "",
-        "email": "",
-        "referral_url": ""
-    }
+    "technical": {},
+    "billing": {}
 }
