@@ -1,93 +1,95 @@
-
-domain
-id: D407400000001774763-AU
-domain: GOOGLE.COM.AU
-name: google.com
-extension: au
-status: clientdeleteprohibited,clientupdateprohibited,serverdeleteprohibited,serverrenewprohibited,serverupdateprohibited
-dnssec: unsigned
-whois_server: whois.auda.org.au
-name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
-created_date: 
-updated_date: 2019-04-17T19:49:19Z
-expiration_date: 
-
-registrar
-id: 
-name: MarkMonitor Corporate Services Inc
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-registrant
-id: MMR-122026
-name: Google INC
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-administrative
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-technical
-id: MMR-87489
-name: DNS Admin
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "D407400000001774763-AU",
+        "domain": "GOOGLE.COM.AU",
+        "name": "google.com",
+        "extension": "au",
+        "status": "clientdeleteprohibited,clientupdateprohibited,serverdeleteprohibited,serverrenewprohibited,serverupdateprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "whois.auda.org.au",
+        "name_servers": "ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com",
+        "created_date": "",
+        "updated_date": "2019-04-17T19:49:19Z",
+        "expiration_date": ""
+    },
+    "registrar": {
+        "id": "",
+        "name": "MarkMonitor Corporate Services Inc",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "registrant": {
+        "id": "MMR-122026",
+        "name": "Google INC",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "MMR-87489",
+        "name": "DNS Admin",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

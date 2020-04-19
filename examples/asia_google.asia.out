@@ -1,93 +1,95 @@
-
-domain
-id: D107700000000022182-AGRS
-domain: GOOGLE.ASIA
-name: google
-extension: asia
-status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
-dnssec: unsigned
-whois_server: 
-name_servers: ns3.googledomains.com,ns1.googledomains.com,ns2.googledomains.com,ns4.googledomains.com
-created_date: 2007-11-21T20:47:29Z
-updated_date: 2018-10-20T09:32:07Z
-expiration_date: 2019-11-21T20:47:29Z
-
-registrar
-id: 292
-name: MarkMonitor Inc.
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: http://www.markmonitor.com
-
-registrant
-id: 
-name: 
-organization: Google Inc.
-street: 
-city: 
-province: CA
-postal_code: 
-country: US
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-administrative
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-technical
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "D107700000000022182-AGRS",
+        "domain": "GOOGLE.ASIA",
+        "name": "google",
+        "extension": "asia",
+        "status": "clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "",
+        "name_servers": "ns3.googledomains.com,ns1.googledomains.com,ns2.googledomains.com,ns4.googledomains.com",
+        "created_date": "2007-11-21T20:47:29Z",
+        "updated_date": "2018-10-20T09:32:07Z",
+        "expiration_date": "2019-11-21T20:47:29Z"
+    },
+    "registrar": {
+        "id": "292",
+        "name": "MarkMonitor Inc.",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": "http://www.markmonitor.com"
+    },
+    "registrant": {
+        "id": "",
+        "name": "",
+        "organization": "Google Inc.",
+        "street": "",
+        "city": "",
+        "province": "CA",
+        "postal_code": "",
+        "country": "US",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

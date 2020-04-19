@@ -1,93 +1,95 @@
-
-domain
-id: 
-domain: espm.br
-name: espm
-extension: br
-status: published
-dnssec: 
-whois_server: 
-name_servers: ns-1434.awsdns-51.org,ns-340.awsdns-42.com,ns-1751.awsdns-26.co.uk,ns-538.awsdns-03.net
-created_date: 19961206 #24302
-updated_date: 20150427
-expiration_date: 
-
-registrar
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-registrant
-id: 
-name: Cosmo Luis Arrivabene
-organization: ASSOC.ESC. SUPERIOR DE PROPAGANDA E MARKETING - SP
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-administrative
-id: 
-name: Cosmo Luis Arrivabene
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-technical
-id: 
-name: Cosmo Luis Arrivabene
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-billing
-id: 
-name: Fabio Takeuti
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "",
+        "domain": "espm.br",
+        "name": "espm",
+        "extension": "br",
+        "status": "published",
+        "dnssec": "",
+        "whois_server": "",
+        "name_servers": "ns-1434.awsdns-51.org,ns-340.awsdns-42.com,ns-1751.awsdns-26.co.uk,ns-538.awsdns-03.net",
+        "created_date": "19961206 #24302",
+        "updated_date": "20150427",
+        "expiration_date": ""
+    },
+    "registrar": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "registrant": {
+        "id": "",
+        "name": "Cosmo Luis Arrivabene",
+        "organization": "ASSOC.ESC. SUPERIOR DE PROPAGANDA E MARKETING - SP",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "Cosmo Luis Arrivabene",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "Cosmo Luis Arrivabene",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "Fabio Takeuti",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

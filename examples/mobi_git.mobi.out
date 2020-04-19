@@ -1,93 +1,95 @@
-
-domain
-id: D8551731-MOBI
-domain: git.mobi
-name: git
-extension: mobi
-status: client_transfer_prohibited,client_update_prohibited
-dnssec: unsigned
-whois_server: whois.Rebel.com
-name_servers: ns1.parklogic.com,ns2.parklogic.com
-created_date: 2015-05-19T03:25:15Z
-updated_date: 2019-08-25T04:21:56Z
-expiration_date: 2020-05-19T03:25:15Z
-
-registrar
-id: 600
-name: Rebel.com
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: +1.8664973235
-phone_ext: 
-fax: 
-fax_ext: 
-email: abuse@rebel.com
-referral_url: http://www.Rebel.com
-
-registrant
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
-organization: DotBadger Domains
-street: REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
-province: Praha
-postal_code: REDACTED FOR PRIVACY
-country: CZ
-phone: REDACTED FOR PRIVACY
-phone_ext: 
-fax: REDACTED FOR PRIVACY
-fax_ext: 
-email: redacted for privacy
-referral_url: 
-
-administrative
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
-organization: DotBadger Domains
-street: REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
-province: REDACTED FOR PRIVACY
-postal_code: REDACTED FOR PRIVACY
-country: REDACTED FOR PRIVACY
-phone: REDACTED FOR PRIVACY
-phone_ext: 
-fax: REDACTED FOR PRIVACY
-fax_ext: 
-email: redacted for privacy
-referral_url: 
-
-technical
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
-organization: DotBadger Domains
-street: REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
-province: REDACTED FOR PRIVACY
-postal_code: REDACTED FOR PRIVACY
-country: REDACTED FOR PRIVACY
-phone: REDACTED FOR PRIVACY
-phone_ext: 
-fax: REDACTED FOR PRIVACY
-fax_ext: 
-email: redacted for privacy
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "D8551731-MOBI",
+        "domain": "git.mobi",
+        "name": "git",
+        "extension": "mobi",
+        "status": "client_transfer_prohibited,client_update_prohibited",
+        "dnssec": "unsigned",
+        "whois_server": "whois.Rebel.com",
+        "name_servers": "ns1.parklogic.com,ns2.parklogic.com",
+        "created_date": "2015-05-19T03:25:15Z",
+        "updated_date": "2019-08-25T04:21:56Z",
+        "expiration_date": "2020-05-19T03:25:15Z"
+    },
+    "registrar": {
+        "id": "600",
+        "name": "Rebel.com",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+1.8664973235",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "abuse@rebel.com",
+        "referral_url": "http://www.Rebel.com"
+    },
+    "registrant": {
+        "id": "REDACTED FOR PRIVACY",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "DotBadger Domains",
+        "street": "REDACTED FOR PRIVACY",
+        "city": "REDACTED FOR PRIVACY",
+        "province": "Praha",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "CZ",
+        "phone": "REDACTED FOR PRIVACY",
+        "phone_ext": "",
+        "fax": "REDACTED FOR PRIVACY",
+        "fax_ext": "",
+        "email": "redacted for privacy",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "REDACTED FOR PRIVACY",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "DotBadger Domains",
+        "street": "REDACTED FOR PRIVACY",
+        "city": "REDACTED FOR PRIVACY",
+        "province": "REDACTED FOR PRIVACY",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "REDACTED FOR PRIVACY",
+        "phone": "REDACTED FOR PRIVACY",
+        "phone_ext": "",
+        "fax": "REDACTED FOR PRIVACY",
+        "fax_ext": "",
+        "email": "redacted for privacy",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "REDACTED FOR PRIVACY",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "DotBadger Domains",
+        "street": "REDACTED FOR PRIVACY",
+        "city": "REDACTED FOR PRIVACY",
+        "province": "REDACTED FOR PRIVACY",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "REDACTED FOR PRIVACY",
+        "phone": "REDACTED FOR PRIVACY",
+        "phone_ext": "",
+        "fax": "REDACTED FOR PRIVACY",
+        "fax_ext": "",
+        "email": "redacted for privacy",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

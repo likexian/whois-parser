@@ -1,93 +1,95 @@
-
-domain
-id: 
-domain: google.re
-name: google
-extension: re
-status: active
-dnssec: 
-whois_server: 
-name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
-created_date: 2008-11-19T09:40:52Z
-updated_date: 2019-07-01T09:33:52Z
-expiration_date: 2020-08-02T23:15:21Z
-
-registrar
-id: 
-name: MARKMONITOR Inc.
-organization: 
-street: 3540 East Longwing Lane, ID 83646 MERIDIAN
-city: 
-province: 
-postal_code: 
-country: US
-phone: +1 208 389 5740
-phone_ext: 
-fax: +1 208 389 5771
-fax_ext: 
-email: registry.admin@markmonitor.com
-referral_url: http://www.markmonitor.com
-
-registrant
-id: DV1364-FRNIC
-name: DIGITAL VOX
-organization: 
-street: 3, rue de Cremont bureau N 4, 97400 Saint-Denis
-city: 
-province: 
-postal_code: 
-country: RE
-phone: +262 262943943
-phone_ext: 
-fax: +262 262943943
-fax_ext: 
-email: dns-admin@google.com
-referral_url: 
-
-administrative
-id: DC2023-FRNIC
-name: David Cesar
-organization: 
-street: Digital Vox, 3, rue de Cremont bureau N 4, 97400 Saint-Denis
-city: 
-province: 
-postal_code: 
-country: RE
-phone: +262 262943943
-phone_ext: 
-fax: +262 262943943
-fax_ext: 
-email: contact@digitalvox.net
-referral_url: 
-
-technical
-id: MC239-FRNIC
-name: MARKMONITOR CCOPS
-organization: 
-street: eMarkmonitor Inc. dba MarkMonitor, PMB 155, 10400 Overland Road, 83709-1433 Boise, Id, US
-city: 
-province: 
-postal_code: 
-country: 
-phone: +01 2083895740
-phone_ext: 
-fax: 
-fax_ext: 
-email: ccops@markmonitor.com
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "",
+        "domain": "google.re",
+        "name": "google",
+        "extension": "re",
+        "status": "active",
+        "dnssec": "",
+        "whois_server": "",
+        "name_servers": "ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com",
+        "created_date": "2008-11-19T09:40:52Z",
+        "updated_date": "2019-07-01T09:33:52Z",
+        "expiration_date": "2020-08-02T23:15:21Z"
+    },
+    "registrar": {
+        "id": "",
+        "name": "MARKMONITOR Inc.",
+        "organization": "",
+        "street": "3540 East Longwing Lane, ID 83646 MERIDIAN",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "US",
+        "phone": "+1 208 389 5740",
+        "phone_ext": "",
+        "fax": "+1 208 389 5771",
+        "fax_ext": "",
+        "email": "registry.admin@markmonitor.com",
+        "referral_url": "http://www.markmonitor.com"
+    },
+    "registrant": {
+        "id": "DV1364-FRNIC",
+        "name": "DIGITAL VOX",
+        "organization": "",
+        "street": "3, rue de Cremont bureau N 4, 97400 Saint-Denis",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "RE",
+        "phone": "+262 262943943",
+        "phone_ext": "",
+        "fax": "+262 262943943",
+        "fax_ext": "",
+        "email": "dns-admin@google.com",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "DC2023-FRNIC",
+        "name": "David Cesar",
+        "organization": "",
+        "street": "Digital Vox, 3, rue de Cremont bureau N 4, 97400 Saint-Denis",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "RE",
+        "phone": "+262 262943943",
+        "phone_ext": "",
+        "fax": "+262 262943943",
+        "fax_ext": "",
+        "email": "contact@digitalvox.net",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "MC239-FRNIC",
+        "name": "MARKMONITOR CCOPS",
+        "organization": "",
+        "street": "eMarkmonitor Inc. dba MarkMonitor, PMB 155, 10400 Overland Road, 83709-1433 Boise, Id, US",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+01 2083895740",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "ccops@markmonitor.com",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

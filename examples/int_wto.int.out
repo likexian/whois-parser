@@ -1,93 +1,95 @@
-
-domain
-id: 
-domain: WTO.INT
-name: wto
-extension: int
-status: 
-dnssec: 
-whois_server: 
-name_servers: ns.unicc.org,ns1.gva.ch.colt.net
-created_date: 2001-09-10
-updated_date: 2019-02-21
-expiration_date: 
-
-registrar
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-registrant
-id: 
-name: 
-organization: World Trade Organization
-street: Palais des Nations, c/o UNICC, Geneva 10  1211, Switzerland
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-administrative
-id: 
-name: Name Service Administrative Contact
-organization: 
-street: Palais des Nations, c/o UNICC, Geneva 10  1211, Switzerland
-city: 
-province: 
-postal_code: 
-country: 
-phone: +41 22 929 1411
-phone_ext: 
-fax: +41 22 929 1412
-fax_ext: 
-email: ns-admin@unicc.org
-referral_url: 
-
-technical
-id: 
-name: Name Service Technical Contact
-organization: 
-street: Palais des Nations, c/o UNICC, Geneva 10  1211, Switzerland
-city: 
-province: 
-postal_code: 
-country: 
-phone: +41 22 929 1411
-phone_ext: 
-fax: +41 22 929 1412
-fax_ext: 
-email: ns-tech@unicc.org
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "",
+        "domain": "WTO.INT",
+        "name": "wto",
+        "extension": "int",
+        "status": "",
+        "dnssec": "",
+        "whois_server": "",
+        "name_servers": "ns.unicc.org,ns1.gva.ch.colt.net",
+        "created_date": "2001-09-10",
+        "updated_date": "2019-02-21",
+        "expiration_date": ""
+    },
+    "registrar": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "registrant": {
+        "id": "",
+        "name": "",
+        "organization": "World Trade Organization",
+        "street": "Palais des Nations, c/o UNICC, Geneva 10  1211, Switzerland",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "Name Service Administrative Contact",
+        "organization": "",
+        "street": "Palais des Nations, c/o UNICC, Geneva 10  1211, Switzerland",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+41 22 929 1411",
+        "phone_ext": "",
+        "fax": "+41 22 929 1412",
+        "fax_ext": "",
+        "email": "ns-admin@unicc.org",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "Name Service Technical Contact",
+        "organization": "",
+        "street": "Palais des Nations, c/o UNICC, Geneva 10  1211, Switzerland",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+41 22 929 1411",
+        "phone_ext": "",
+        "fax": "+41 22 929 1412",
+        "fax_ext": "",
+        "email": "ns-tech@unicc.org",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

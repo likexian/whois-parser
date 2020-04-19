@@ -1,93 +1,95 @@
-
-domain
-id: D503300000040457188-LRMS
-domain: GIT.SH
-name: git
-extension: sh
-status: clienttransferprohibited
-dnssec: unsigned
-whois_server: 
-name_servers: ns1.ezdnscenter.com,ns2.ezdnscenter.com
-created_date: 2009-04-13T05:16:13Z
-updated_date: 2019-04-13T22:28:39Z
-expiration_date: 2020-04-13T05:16:13Z
-
-registrar
-id: 1868
-name: Eranet International Limited
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: http://www.eranet.com
-
-registrant
-id: 
-name: 
-organization: shanghai guangda
-street: 
-city: 
-province: SH
-postal_code: 
-country: CN
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-administrative
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-technical
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "D503300000040457188-LRMS",
+        "domain": "GIT.SH",
+        "name": "git",
+        "extension": "sh",
+        "status": "clienttransferprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "",
+        "name_servers": "ns1.ezdnscenter.com,ns2.ezdnscenter.com",
+        "created_date": "2009-04-13T05:16:13Z",
+        "updated_date": "2019-04-13T22:28:39Z",
+        "expiration_date": "2020-04-13T05:16:13Z"
+    },
+    "registrar": {
+        "id": "1868",
+        "name": "Eranet International Limited",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": "http://www.eranet.com"
+    },
+    "registrant": {
+        "id": "",
+        "name": "",
+        "organization": "shanghai guangda",
+        "street": "",
+        "city": "",
+        "province": "SH",
+        "postal_code": "",
+        "country": "CN",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

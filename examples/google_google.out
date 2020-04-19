@@ -1,93 +1,95 @@
-
-domain
-id: 
-domain: GOOGLE
-name: google
-extension: 
-status: active
-dnssec: 
-whois_server: whois.nic.google
-name_servers: ns-tld1.charlestonroadregistry.com,ns-tld2.charlestonroadregistry.com,ns-tld3.charlestonroadregistry.com,ns-tld4.charlestonroadregistry.com,ns-tld5.charlestonroadregistry.com
-created_date: 2014-09-04
-updated_date: 2019-07-02
-expiration_date: 
-
-registrar
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-registrant
-id: 
-name: 
-organization: Charleston Road Registry Inc.
-street: 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-administrative
-id: 
-name: Domains Policy and Compliance
-organization: Google Inc.
-street: 601 N. 34th Street, Seattle, WA 98103, United States
-city: 
-province: 
-postal_code: 
-country: 
-phone: 1 202 642 2325
-phone_ext: 
-fax: 1 650 492 5631
-fax_ext: 
-email: iana-contact@google.com
-referral_url: 
-
-technical
-id: 
-name: Richard Roberto
-organization: Google Inc.
-street: 76 9th Avenue, 4th Floor, New York, NY 10011, United States
-city: 
-province: 
-postal_code: 
-country: 
-phone: 1 212 565 2633
-phone_ext: 
-fax: 1 650 492 5631
-fax_ext: 
-email: crr-tech@google.com
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "",
+        "domain": "GOOGLE",
+        "name": "google",
+        "extension": "",
+        "status": "active",
+        "dnssec": "",
+        "whois_server": "whois.nic.google",
+        "name_servers": "ns-tld1.charlestonroadregistry.com,ns-tld2.charlestonroadregistry.com,ns-tld3.charlestonroadregistry.com,ns-tld4.charlestonroadregistry.com,ns-tld5.charlestonroadregistry.com",
+        "created_date": "2014-09-04",
+        "updated_date": "2019-07-02",
+        "expiration_date": ""
+    },
+    "registrar": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "registrant": {
+        "id": "",
+        "name": "",
+        "organization": "Charleston Road Registry Inc.",
+        "street": "1600 Amphitheatre Parkway, Mountain View, CA 94043, United States",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "Domains Policy and Compliance",
+        "organization": "Google Inc.",
+        "street": "601 N. 34th Street, Seattle, WA 98103, United States",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "1 202 642 2325",
+        "phone_ext": "",
+        "fax": "1 650 492 5631",
+        "fax_ext": "",
+        "email": "iana-contact@google.com",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "Richard Roberto",
+        "organization": "Google Inc.",
+        "street": "76 9th Avenue, 4th Floor, New York, NY 10011, United States",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "1 212 565 2633",
+        "phone_ext": "",
+        "fax": "1 650 492 5631",
+        "fax_ext": "",
+        "email": "crr-tech@google.com",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

@@ -172,7 +172,9 @@ func prepareEDU(text string) string {
 						}
 					}
 					if found == 0 {
-						break
+						token = ""
+						index = 0
+						continue
 					}
 					index = found
 				}

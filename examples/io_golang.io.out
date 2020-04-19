@@ -1,93 +1,95 @@
-
-domain
-id: UNDEF-ROID
-domain: golang.io
-name: golang
-extension: io
-status: clienttransferprohibited
-dnssec: Unsigned
-whois_server: whois.gandi.net
-name_servers: dns103.ovh.net,ns103.ovh.net
-created_date: 2013-01-24T18:29:21Z
-updated_date: 2019-01-17T08:47:20Z
-expiration_date: 2020-01-24T18:29:21Z
-
-registrar
-id: 81
-name: GANDI SAS
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: +33.170377661
-phone_ext: 
-fax: 
-fax_ext: 
-email: abuse@support.gandi.net
-referral_url: http://www.gandi.net
-
-registrant
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
-organization: 
-street: Obfuscated whois Gandi-63-65 boulevard Massena
-city: Obfuscated whois Gandi-Paris
-province: Paris
-postal_code: 75013
-country: FR
-phone: +33.170377666
-phone_ext: 
-fax: +33.143730576
-fax_ext: 
-email: 142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net
-referral_url: 
-
-administrative
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
-organization: 
-street: Obfuscated whois Gandi-63-65 boulevard Massena
-city: Obfuscated whois Gandi-Paris
-province: Paris
-postal_code: 75013
-country: FR
-phone: +33.170377666
-phone_ext: 
-fax: +33.143730576
-fax_ext: 
-email: 142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net
-referral_url: 
-
-technical
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
-organization: 
-street: Obfuscated whois Gandi-63-65 boulevard Massena
-city: Obfuscated whois Gandi-Paris
-province: Paris
-postal_code: 75013
-country: FR
-phone: +33.170377666
-phone_ext: 
-fax: +33.143730576
-fax_ext: 
-email: 142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "UNDEF-ROID",
+        "domain": "golang.io",
+        "name": "golang",
+        "extension": "io",
+        "status": "clienttransferprohibited",
+        "dnssec": "Unsigned",
+        "whois_server": "whois.gandi.net",
+        "name_servers": "dns103.ovh.net,ns103.ovh.net",
+        "created_date": "2013-01-24T18:29:21Z",
+        "updated_date": "2019-01-17T08:47:20Z",
+        "expiration_date": "2020-01-24T18:29:21Z"
+    },
+    "registrar": {
+        "id": "81",
+        "name": "GANDI SAS",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+33.170377661",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "abuse@support.gandi.net",
+        "referral_url": "http://www.gandi.net"
+    },
+    "registrant": {
+        "id": "REDACTED FOR PRIVACY",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "",
+        "street": "Obfuscated whois Gandi-63-65 boulevard Massena",
+        "city": "Obfuscated whois Gandi-Paris",
+        "province": "Paris",
+        "postal_code": "75013",
+        "country": "FR",
+        "phone": "+33.170377666",
+        "phone_ext": "",
+        "fax": "+33.143730576",
+        "fax_ext": "",
+        "email": "142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "REDACTED FOR PRIVACY",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "",
+        "street": "Obfuscated whois Gandi-63-65 boulevard Massena",
+        "city": "Obfuscated whois Gandi-Paris",
+        "province": "Paris",
+        "postal_code": "75013",
+        "country": "FR",
+        "phone": "+33.170377666",
+        "phone_ext": "",
+        "fax": "+33.143730576",
+        "fax_ext": "",
+        "email": "142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "REDACTED FOR PRIVACY",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "",
+        "street": "Obfuscated whois Gandi-63-65 boulevard Massena",
+        "city": "Obfuscated whois Gandi-Paris",
+        "province": "Paris",
+        "postal_code": "75013",
+        "country": "FR",
+        "phone": "+33.170377666",
+        "phone_ext": "",
+        "fax": "+33.143730576",
+        "fax_ext": "",
+        "email": "142a53b16ff7a76e037e6e7c2971f325-943225@contact.gandi.net",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

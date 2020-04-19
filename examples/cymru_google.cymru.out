@@ -1,93 +1,95 @@
-
-domain
-id: D_00000192_B5C838A0D0864E728CDDD0C7537CD5B4_00000148C32E8BD8-CYMRU
-domain: GOOGLE.CYMRU
-name: google
-extension: cymru
-status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
-dnssec: unsigned
-whois_server: 
-name_servers: ns4.google.com,ns1.google.com,ns3.google.com,ns2.google.com
-created_date: 2014-10-31T13:27:48Z
-updated_date: 2019-09-29T09:41:07Z
-expiration_date: 2020-10-31T13:27:48Z
-
-registrar
-id: 292
-name: MarkMonitor Inc.
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: stu.homan@markmonitor.com
-referral_url: https://www.markmonitor.com
-
-registrant
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
-province: CA
-postal_code: REDACTED FOR PRIVACY
-country: US
-phone: REDACTED FOR PRIVACY
-phone_ext: 
-fax: REDACTED FOR PRIVACY
-fax_ext: 
-email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
-referral_url: 
-
-administrative
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
-province: REDACTED FOR PRIVACY
-postal_code: REDACTED FOR PRIVACY
-country: REDACTED FOR PRIVACY
-phone: REDACTED FOR PRIVACY
-phone_ext: 
-fax: REDACTED FOR PRIVACY
-fax_ext: 
-email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
-referral_url: 
-
-technical
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
-province: REDACTED FOR PRIVACY
-postal_code: REDACTED FOR PRIVACY
-country: REDACTED FOR PRIVACY
-phone: REDACTED FOR PRIVACY
-phone_ext: 
-fax: REDACTED FOR PRIVACY
-fax_ext: 
-email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "D_00000192_B5C838A0D0864E728CDDD0C7537CD5B4_00000148C32E8BD8-CYMRU",
+        "domain": "GOOGLE.CYMRU",
+        "name": "google",
+        "extension": "cymru",
+        "status": "clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "",
+        "name_servers": "ns4.google.com,ns1.google.com,ns3.google.com,ns2.google.com",
+        "created_date": "2014-10-31T13:27:48Z",
+        "updated_date": "2019-09-29T09:41:07Z",
+        "expiration_date": "2020-10-31T13:27:48Z"
+    },
+    "registrar": {
+        "id": "292",
+        "name": "MarkMonitor Inc.",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "stu.homan@markmonitor.com",
+        "referral_url": "https://www.markmonitor.com"
+    },
+    "registrant": {
+        "id": "REDACTED FOR PRIVACY",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "REDACTED FOR PRIVACY",
+        "street": "REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY",
+        "city": "REDACTED FOR PRIVACY",
+        "province": "CA",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "US",
+        "phone": "REDACTED FOR PRIVACY",
+        "phone_ext": "",
+        "fax": "REDACTED FOR PRIVACY",
+        "fax_ext": "",
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "REDACTED FOR PRIVACY",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "REDACTED FOR PRIVACY",
+        "street": "REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY",
+        "city": "REDACTED FOR PRIVACY",
+        "province": "REDACTED FOR PRIVACY",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "REDACTED FOR PRIVACY",
+        "phone": "REDACTED FOR PRIVACY",
+        "phone_ext": "",
+        "fax": "REDACTED FOR PRIVACY",
+        "fax_ext": "",
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "REDACTED FOR PRIVACY",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "REDACTED FOR PRIVACY",
+        "street": "REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY",
+        "city": "REDACTED FOR PRIVACY",
+        "province": "REDACTED FOR PRIVACY",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "REDACTED FOR PRIVACY",
+        "phone": "REDACTED FOR PRIVACY",
+        "phone_ext": "",
+        "fax": "REDACTED FOR PRIVACY",
+        "fax_ext": "",
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

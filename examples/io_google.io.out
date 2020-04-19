@@ -1,93 +1,95 @@
-
-domain
-id: D503300000040517313-LRMS
-domain: google.io
-name: google
-extension: io
-status: clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited,serverupdateprohibited,servertransferprohibited,serverdeleteprohibited
-dnssec: unsigned
-whois_server: whois.markmonitor.com
-name_servers: ns1.google.com,ns4.google.com,ns2.google.com,ns3.google.com
-created_date: 2002-09-30T18:00:00-0700
-updated_date: 2019-08-29T02:41:07-0700
-expiration_date: 2020-09-29T00:00:00-0700
-
-registrar
-id: 292
-name: MarkMonitor, Inc.
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: +1.2083895740
-phone_ext: 
-fax: 
-fax_ext: 
-email: abusecomplaints@markmonitor.com
-referral_url: http://www.markmonitor.com
-
-registrant
-id: 
-name: 
-organization: Google LLC
-street: 
-city: 
-province: CA
-postal_code: 
-country: US
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-administrative
-id: 
-name: 
-organization: Google LLC
-street: 
-city: 
-province: CA
-postal_code: 
-country: US
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-technical
-id: 
-name: 
-organization: Google LLC
-street: 
-city: 
-province: CA
-postal_code: 
-country: US
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "D503300000040517313-LRMS",
+        "domain": "google.io",
+        "name": "google",
+        "extension": "io",
+        "status": "clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited,serverupdateprohibited,servertransferprohibited,serverdeleteprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "whois.markmonitor.com",
+        "name_servers": "ns1.google.com,ns4.google.com,ns2.google.com,ns3.google.com",
+        "created_date": "2002-09-30T18:00:00-0700",
+        "updated_date": "2019-08-29T02:41:07-0700",
+        "expiration_date": "2020-09-29T00:00:00-0700"
+    },
+    "registrar": {
+        "id": "292",
+        "name": "MarkMonitor, Inc.",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+1.2083895740",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "abusecomplaints@markmonitor.com",
+        "referral_url": "http://www.markmonitor.com"
+    },
+    "registrant": {
+        "id": "",
+        "name": "",
+        "organization": "Google LLC",
+        "street": "",
+        "city": "",
+        "province": "CA",
+        "postal_code": "",
+        "country": "US",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "",
+        "organization": "Google LLC",
+        "street": "",
+        "city": "",
+        "province": "CA",
+        "postal_code": "",
+        "country": "US",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "",
+        "organization": "Google LLC",
+        "street": "",
+        "city": "",
+        "province": "CA",
+        "postal_code": "",
+        "country": "US",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

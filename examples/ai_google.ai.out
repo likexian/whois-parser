@@ -1,93 +1,95 @@
-
-domain
-id: 325702_nic_ai
-domain: google.ai
-name: google
-extension: ai
-status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
-dnssec: unsigned
-whois_server: whois.nic.ai
-name_servers: ns3.zdns.google,ns4.zdns.google,ns1.zdns.google,ns2.zdns.google
-created_date: 2017-12-16T05:37:20.801Z
-updated_date: 2019-08-24T09:32:27.549Z
-expiration_date: 2021-09-25T05:37:20.856Z
-
-registrar
-id: 
-name: Markmonitor
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: +1.2083895740
-phone_ext: 
-fax: 
-fax_ext: 
-email: ccops@markmonitor.com
-referral_url: 
-
-registrant
-id: s0WMj-qnEUI
-name: Domain Administrator
-organization: Google LLC
-street: 1600 Amphitheatre Parkway
-city: Mountain View
-province: CA
-postal_code: 94043
-country: US
-phone: +1.6502530000
-phone_ext: 
-fax: +1.6502530001
-fax_ext: 
-email: dns-admin@google.com
-referral_url: 
-
-administrative
-id: CcvUP-Jqpbv
-name: Domain Administrator
-organization: Google LLC
-street: 1600 Amphitheatre Parkway
-city: Mountain View
-province: CA
-postal_code: 94043
-country: US
-phone: +1.6502530000
-phone_ext: 
-fax: +1.6502530001
-fax_ext: 
-email: dns-admin@google.com
-referral_url: 
-
-technical
-id: u5QWX-TzfM0
-name: Domain Administrator
-organization: Google LLC
-street: 1600 Amphitheatre Parkway
-city: Mountain View
-province: CA
-postal_code: 94043
-country: US
-phone: +1.6502530000
-phone_ext: 
-fax: +1.6502530001
-fax_ext: 
-email: dns-admin@google.com
-referral_url: 
-
-billing
-id: jCELG-nkfg9
-name: CCOPS Billing
-organization: MarkMonitor Inc.
-street: 3540 East Longwing Lane, Suite 300
-city: Meridian
-province: Idaho
-postal_code: 83646
-country: US
-phone: +1.2083895740
-phone_ext: 
-fax: +1.2083895771
-fax_ext: 
-email: ccopsbilling@markmonitor.com
-referral_url: 
+{
+    "domain": {
+        "id": "325702_nic_ai",
+        "domain": "google.ai",
+        "name": "google",
+        "extension": "ai",
+        "status": "clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "whois.nic.ai",
+        "name_servers": "ns3.zdns.google,ns4.zdns.google,ns1.zdns.google,ns2.zdns.google",
+        "created_date": "2017-12-16T05:37:20.801Z",
+        "updated_date": "2019-08-24T09:32:27.549Z",
+        "expiration_date": "2021-09-25T05:37:20.856Z"
+    },
+    "registrar": {
+        "id": "",
+        "name": "Markmonitor",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+1.2083895740",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "ccops@markmonitor.com",
+        "referral_url": ""
+    },
+    "registrant": {
+        "id": "s0WMj-qnEUI",
+        "name": "Domain Administrator",
+        "organization": "Google LLC",
+        "street": "1600 Amphitheatre Parkway",
+        "city": "Mountain View",
+        "province": "CA",
+        "postal_code": "94043",
+        "country": "US",
+        "phone": "+1.6502530000",
+        "phone_ext": "",
+        "fax": "+1.6502530001",
+        "fax_ext": "",
+        "email": "dns-admin@google.com",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "CcvUP-Jqpbv",
+        "name": "Domain Administrator",
+        "organization": "Google LLC",
+        "street": "1600 Amphitheatre Parkway",
+        "city": "Mountain View",
+        "province": "CA",
+        "postal_code": "94043",
+        "country": "US",
+        "phone": "+1.6502530000",
+        "phone_ext": "",
+        "fax": "+1.6502530001",
+        "fax_ext": "",
+        "email": "dns-admin@google.com",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "u5QWX-TzfM0",
+        "name": "Domain Administrator",
+        "organization": "Google LLC",
+        "street": "1600 Amphitheatre Parkway",
+        "city": "Mountain View",
+        "province": "CA",
+        "postal_code": "94043",
+        "country": "US",
+        "phone": "+1.6502530000",
+        "phone_ext": "",
+        "fax": "+1.6502530001",
+        "fax_ext": "",
+        "email": "dns-admin@google.com",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "jCELG-nkfg9",
+        "name": "CCOPS Billing",
+        "organization": "MarkMonitor Inc.",
+        "street": "3540 East Longwing Lane, Suite 300",
+        "city": "Meridian",
+        "province": "Idaho",
+        "postal_code": "83646",
+        "country": "US",
+        "phone": "+1.2083895740",
+        "phone_ext": "",
+        "fax": "+1.2083895771",
+        "fax_ext": "",
+        "email": "ccopsbilling@markmonitor.com",
+        "referral_url": ""
+    }
+}

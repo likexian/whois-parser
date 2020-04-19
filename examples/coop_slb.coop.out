@@ -1,93 +1,95 @@
-
-domain
-id: D7898338-CNIC
-domain: SLB.COOP
-name: slb
-extension: coop
-status: clienttransferprohibited
-dnssec: unsigned
-whois_server: whois.gandi.net
-name_servers: ns-27-a.gandi.net,ns-138-b.gandi.net,ns-148-c.gandi.net
-created_date: 2014-07-04T10:24:18.0Z
-updated_date: 2019-07-09T09:44:08.0Z
-expiration_date: 2020-07-04T23:59:59.0Z
-
-registrar
-id: 81
-name: Gandi SAS
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: +33.170377661
-phone_ext: 
-fax: 
-fax_ext: 
-email: abuse@support.gandi.net
-referral_url: http://www.gandi.net/
-
-registrant
-id: 
-name: 
-organization: Cooperativa de Serveis Linguistics de Barcelona (SLB), SCCL
-street: 
-city: 
-province: B
-postal_code: 
-country: ES
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
-referral_url: 
-
-administrative
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
-referral_url: 
-
-technical
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
-referral_url: 
+{
+    "domain": {
+        "id": "D7898338-CNIC",
+        "domain": "SLB.COOP",
+        "name": "slb",
+        "extension": "coop",
+        "status": "clienttransferprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "whois.gandi.net",
+        "name_servers": "ns-27-a.gandi.net,ns-138-b.gandi.net,ns-148-c.gandi.net",
+        "created_date": "2014-07-04T10:24:18.0Z",
+        "updated_date": "2019-07-09T09:44:08.0Z",
+        "expiration_date": "2020-07-04T23:59:59.0Z"
+    },
+    "registrar": {
+        "id": "81",
+        "name": "Gandi SAS",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+33.170377661",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "abuse@support.gandi.net",
+        "referral_url": "http://www.gandi.net/"
+    },
+    "registrant": {
+        "id": "",
+        "name": "",
+        "organization": "Cooperativa de Serveis Linguistics de Barcelona (SLB), SCCL",
+        "street": "",
+        "city": "",
+        "province": "B",
+        "postal_code": "",
+        "country": "ES",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
+        "referral_url": ""
+    }
+}

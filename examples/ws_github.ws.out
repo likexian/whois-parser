@@ -1,93 +1,95 @@
-
-domain
-id: D865CD2AE420835CE040010AAB015FFF
-domain: GITHUB.WS
-name: github
-extension: ws
-status: clienttransferprohibited,clientdeleteprohibited,clientupdateprohibited
-dnssec: unsigned
-whois_server: whois.markmonitor.com
-name_servers: ns1.p16.dynect.net,ns2.p16.dynect.net,ns3.p16.dynect.net,ns4.p16.dynect.net
-created_date: 2010-08-05T17:04:22Z
-updated_date: 2018-07-04T09:14:12Z
-expiration_date: 2020-08-05T17:04:22Z
-
-registrar
-id: 292
-name: MarkMonitor Inc.
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 2083895740
-phone_ext: 
-fax: 
-fax_ext: 
-email: ccops@markmonitor.com
-referral_url: http://www.markmonitor.com/whois.asp
-
-registrant
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-administrative
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-technical
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "D865CD2AE420835CE040010AAB015FFF",
+        "domain": "GITHUB.WS",
+        "name": "github",
+        "extension": "ws",
+        "status": "clienttransferprohibited,clientdeleteprohibited,clientupdateprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "whois.markmonitor.com",
+        "name_servers": "ns1.p16.dynect.net,ns2.p16.dynect.net,ns3.p16.dynect.net,ns4.p16.dynect.net",
+        "created_date": "2010-08-05T17:04:22Z",
+        "updated_date": "2018-07-04T09:14:12Z",
+        "expiration_date": "2020-08-05T17:04:22Z"
+    },
+    "registrar": {
+        "id": "292",
+        "name": "MarkMonitor Inc.",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "2083895740",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "ccops@markmonitor.com",
+        "referral_url": "http://www.markmonitor.com/whois.asp"
+    },
+    "registrant": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

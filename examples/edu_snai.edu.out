@@ -1,93 +1,95 @@
-
-domain
-id: 
-domain: SNAI.EDU
-name: snai
-extension: edu
-status: 
-dnssec: 
-whois_server: 
-name_servers: ns1.alidns.com,ns2.alidns.com
-created_date: 27-Apr-2001
-updated_date: 08-Jan-2019
-expiration_date: 31-Jul-2021
-
-registrar
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-registrant
-id: 
-name: 
-organization: Shanghai National Accounting Institute
-street: 200 Panlong Rd,xu jin,Qing pu zone, Shanghai, SH 201702, China
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-administrative
-id: 
-name: chengyan Yin
-organization: Shanghai National Accounting Institute
-street: 200 Panlong Rd,xu jin,Qing pu zone, Shanghai, SH 201702, China
-city: 
-province: 
-postal_code: 
-country: 
-phone: +86.0216976800068028
-phone_ext: 
-fax: 
-fax_ext: 
-email: webmaster@snai.edu
-referral_url: 
-
-technical
-id: 
-name: Jindong Dou
-organization: Shanghai National Accounting Institute
-street: 200 Panlong Rd,xu jin,Qing pu zone, Shanghai, SH 201702, China
-city: 
-province: 
-postal_code: 
-country: 
-phone: +86.0216976800068096
-phone_ext: 
-fax: 
-fax_ext: 
-email: kindong@snai.edu
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "",
+        "domain": "SNAI.EDU",
+        "name": "snai",
+        "extension": "edu",
+        "status": "",
+        "dnssec": "",
+        "whois_server": "",
+        "name_servers": "ns1.alidns.com,ns2.alidns.com",
+        "created_date": "27-Apr-2001",
+        "updated_date": "08-Jan-2019",
+        "expiration_date": "31-Jul-2021"
+    },
+    "registrar": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "registrant": {
+        "id": "",
+        "name": "",
+        "organization": "Shanghai National Accounting Institute",
+        "street": "200 Panlong Rd,xu jin,Qing pu zone, Shanghai, SH 201702, China",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "chengyan Yin",
+        "organization": "Shanghai National Accounting Institute",
+        "street": "200 Panlong Rd,xu jin,Qing pu zone, Shanghai, SH 201702, China",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+86.0216976800068028",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "webmaster@snai.edu",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "Jindong Dou",
+        "organization": "Shanghai National Accounting Institute",
+        "street": "200 Panlong Rd,xu jin,Qing pu zone, Shanghai, SH 201702, China",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+86.0216976800068096",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "kindong@snai.edu",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

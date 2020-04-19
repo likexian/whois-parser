@@ -1,93 +1,95 @@
-
-domain
-id: 
-domain: GIT.HK
-name: git
-extension: hk
-status: active
-dnssec: unsigned
-whois_server: 
-name_servers: f1g1ns1.dnspod.net,f1g1ns2.dnspod.net
-created_date: 11-07-2017
-updated_date: 
-expiration_date: 11-07-2020
-
-registrar
-id: 
-name: WEST263 INTERNATIONAL LIMITED
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-registrant
-id: 
-name: JACK BI
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: China (CN)
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: b@bzizi.com
-referral_url: 
-
-administrative
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-technical
-id: 
-name: JACK BI
-organization: JACK BI
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "",
+        "domain": "GIT.HK",
+        "name": "git",
+        "extension": "hk",
+        "status": "active",
+        "dnssec": "unsigned",
+        "whois_server": "",
+        "name_servers": "f1g1ns1.dnspod.net,f1g1ns2.dnspod.net",
+        "created_date": "11-07-2017",
+        "updated_date": "",
+        "expiration_date": "11-07-2020"
+    },
+    "registrar": {
+        "id": "",
+        "name": "WEST263 INTERNATIONAL LIMITED",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "registrant": {
+        "id": "",
+        "name": "JACK BI",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "China (CN)",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "b@bzizi.com",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "JACK BI",
+        "organization": "JACK BI",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

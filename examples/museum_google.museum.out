@@ -1,93 +1,95 @@
-
-domain
-id: DOM000001477194-MUSEUM
-domain: google.museum
-name: google
-extension: museum
-status: clienttransferprohibited
-dnssec: unsigned
-whois_server: 
-name_servers: ns.inwx.de,ns2.inwx.de,ns3.inwx.eu,ns4.inwx.com,ns5.inwx.net
-created_date: 2019-05-02T09:18:21Z
-updated_date: 2019-05-02T09:18:25Z
-expiration_date: 2020-05-02T09:18:22Z
-
-registrar
-id: 1420
-name: INWX GMBH & Co. KG
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: +4930983212121
-phone_ext: 
-fax: 
-fax_ext: 
-email: abuse@inwx.com
-referral_url: https://inwx.de
-
-registrant
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
-organization: 
-street: REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
-province: 
-postal_code: REDACTED FOR PRIVACY
-country: DE
-phone: REDACTED FOR PRIVACY
-phone_ext: 
-fax: REDACTED FOR PRIVACY
-fax_ext: 
-email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
-referral_url: 
-
-administrative
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
-province: REDACTED FOR PRIVACY
-postal_code: REDACTED FOR PRIVACY
-country: REDACTED FOR PRIVACY
-phone: REDACTED FOR PRIVACY
-phone_ext: 
-fax: REDACTED FOR PRIVACY
-fax_ext: 
-email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
-referral_url: 
-
-technical
-id: REDACTED FOR PRIVACY
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
-province: REDACTED FOR PRIVACY
-postal_code: REDACTED FOR PRIVACY
-country: REDACTED FOR PRIVACY
-phone: REDACTED FOR PRIVACY
-phone_ext: 
-fax: REDACTED FOR PRIVACY
-fax_ext: 
-email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "DOM000001477194-MUSEUM",
+        "domain": "google.museum",
+        "name": "google",
+        "extension": "museum",
+        "status": "clienttransferprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "",
+        "name_servers": "ns.inwx.de,ns2.inwx.de,ns3.inwx.eu,ns4.inwx.com,ns5.inwx.net",
+        "created_date": "2019-05-02T09:18:21Z",
+        "updated_date": "2019-05-02T09:18:25Z",
+        "expiration_date": "2020-05-02T09:18:22Z"
+    },
+    "registrar": {
+        "id": "1420",
+        "name": "INWX GMBH & Co. KG",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+4930983212121",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "abuse@inwx.com",
+        "referral_url": "https://inwx.de"
+    },
+    "registrant": {
+        "id": "REDACTED FOR PRIVACY",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "",
+        "street": "REDACTED FOR PRIVACY",
+        "city": "REDACTED FOR PRIVACY",
+        "province": "",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "DE",
+        "phone": "REDACTED FOR PRIVACY",
+        "phone_ext": "",
+        "fax": "REDACTED FOR PRIVACY",
+        "fax_ext": "",
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "REDACTED FOR PRIVACY",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "REDACTED FOR PRIVACY",
+        "street": "REDACTED FOR PRIVACY",
+        "city": "REDACTED FOR PRIVACY",
+        "province": "REDACTED FOR PRIVACY",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "REDACTED FOR PRIVACY",
+        "phone": "REDACTED FOR PRIVACY",
+        "phone_ext": "",
+        "fax": "REDACTED FOR PRIVACY",
+        "fax_ext": "",
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "REDACTED FOR PRIVACY",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "REDACTED FOR PRIVACY",
+        "street": "REDACTED FOR PRIVACY",
+        "city": "REDACTED FOR PRIVACY",
+        "province": "REDACTED FOR PRIVACY",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "REDACTED FOR PRIVACY",
+        "phone": "REDACTED FOR PRIVACY",
+        "phone_ext": "",
+        "fax": "REDACTED FOR PRIVACY",
+        "fax_ext": "",
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

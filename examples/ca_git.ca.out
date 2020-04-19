@@ -1,93 +1,95 @@
-
-domain
-id: D163404-CIRA
-domain: git.ca
-name: git
-extension: ca
-status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited
-dnssec: unsigned
-whois_server: whois.ca.fury.ca
-name_servers: pdns09.domaincontrol.com,pdns10.domaincontrol.com
-created_date: 2003-07-11T15:52:06Z
-updated_date: 2017-04-07T16:59:35Z
-expiration_date: 2026-07-08T04:00:00Z
-
-registrar
-id: 
-name: Go Daddy Domains Canada, Inc
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: ca.godaddy.com
-
-registrant
-id: 39878117-CIRA
-name: G.I.T. PORTES ET FENETRES LTEE
-organization: 
-street: 8645 boul Langelier
-city: St-Leonard
-province: QC
-postal_code: H1P2C6
-country: CA
-phone: +1.5143232954
-phone_ext: 
-fax: 
-fax_ext: 
-email: michel.fafard@git.ca
-referral_url: 
-
-administrative
-id: 39878134-CIRA
-name: Michel Fafard
-organization: G.I.T. PORTES ET FENETRES LTEE
-street: 8645 boul Langelier
-city: St-Leonard
-province: QC
-postal_code: H1P2C6
-country: CA
-phone: +1.5143232954
-phone_ext: 
-fax: 
-fax_ext: 
-email: michel.fafard@git.ca
-referral_url: 
-
-technical
-id: 39878133-CIRA
-name: Michel Fafard
-organization: G.I.T. PORTES ET FENETRES LTEE
-street: 8645 boul Langelier
-city: St-Leonard
-province: QC
-postal_code: H1P2C6
-country: CA
-phone: +1.5143232954
-phone_ext: 
-fax: 
-fax_ext: 
-email: michel.fafard@git.ca
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "D163404-CIRA",
+        "domain": "git.ca",
+        "name": "git",
+        "extension": "ca",
+        "status": "clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "whois.ca.fury.ca",
+        "name_servers": "pdns09.domaincontrol.com,pdns10.domaincontrol.com",
+        "created_date": "2003-07-11T15:52:06Z",
+        "updated_date": "2017-04-07T16:59:35Z",
+        "expiration_date": "2026-07-08T04:00:00Z"
+    },
+    "registrar": {
+        "id": "",
+        "name": "Go Daddy Domains Canada, Inc",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": "ca.godaddy.com"
+    },
+    "registrant": {
+        "id": "39878117-CIRA",
+        "name": "G.I.T. PORTES ET FENETRES LTEE",
+        "organization": "",
+        "street": "8645 boul Langelier",
+        "city": "St-Leonard",
+        "province": "QC",
+        "postal_code": "H1P2C6",
+        "country": "CA",
+        "phone": "+1.5143232954",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "michel.fafard@git.ca",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "39878134-CIRA",
+        "name": "Michel Fafard",
+        "organization": "G.I.T. PORTES ET FENETRES LTEE",
+        "street": "8645 boul Langelier",
+        "city": "St-Leonard",
+        "province": "QC",
+        "postal_code": "H1P2C6",
+        "country": "CA",
+        "phone": "+1.5143232954",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "michel.fafard@git.ca",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "39878133-CIRA",
+        "name": "Michel Fafard",
+        "organization": "G.I.T. PORTES ET FENETRES LTEE",
+        "street": "8645 boul Langelier",
+        "city": "St-Leonard",
+        "province": "QC",
+        "postal_code": "H1P2C6",
+        "country": "CA",
+        "phone": "+1.5143232954",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "michel.fafard@git.ca",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

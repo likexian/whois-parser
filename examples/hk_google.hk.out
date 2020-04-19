@@ -1,93 +1,95 @@
-
-domain
-id: 
-domain: GOOGLE.HK
-name: google
-extension: hk
-status: active
-dnssec: unsigned
-whois_server: 
-name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
-created_date: 06-04-2004
-updated_date: 
-expiration_date: 31-03-2020
-
-registrar
-id: 
-name: MARKMONITOR INC.
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: ccops@markmonitor.com
-referral_url: 
-
-registrant
-id: 
-name: 
-organization: GOOGLE LLC
-street: 1600 AMPHITHEATRE PARKWAY  MOUNTAIN VIEW 94043 CA
-city: 
-province: 
-postal_code: 
-country: United States (US)
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: dns-admin@google.com
-referral_url: 
-
-administrative
-id: 
-name: DOMAIN ADMINISTRATOR
-organization: GOOGLE LLC
-street: 1600 AMPHITHEATRE PARKWAY  MOUNTAIN VIEW 94043 CA
-city: 
-province: 
-postal_code: 
-country: United States (US)
-phone: +1-6502530000
-phone_ext: 
-fax: +1-6502530001
-fax_ext: 
-email: dns-admin@google.com
-referral_url: 
-
-technical
-id: 
-name: DOMAIN ADMINISTRATOR
-organization: GOOGLE LLC
-street: 1600 AMPHITHEATRE PARKWAY  MOUNTAIN VIEW 94043 CA
-city: 
-province: 
-postal_code: 
-country: United States (US)
-phone: +1-6502530000
-phone_ext: 
-fax: +1-6502530001
-fax_ext: 
-email: dns-admin@google.com
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "",
+        "domain": "GOOGLE.HK",
+        "name": "google",
+        "extension": "hk",
+        "status": "active",
+        "dnssec": "unsigned",
+        "whois_server": "",
+        "name_servers": "ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com",
+        "created_date": "06-04-2004",
+        "updated_date": "",
+        "expiration_date": "31-03-2020"
+    },
+    "registrar": {
+        "id": "",
+        "name": "MARKMONITOR INC.",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "ccops@markmonitor.com",
+        "referral_url": ""
+    },
+    "registrant": {
+        "id": "",
+        "name": "",
+        "organization": "GOOGLE LLC",
+        "street": "1600 AMPHITHEATRE PARKWAY  MOUNTAIN VIEW 94043 CA",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "United States (US)",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "dns-admin@google.com",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "DOMAIN ADMINISTRATOR",
+        "organization": "GOOGLE LLC",
+        "street": "1600 AMPHITHEATRE PARKWAY  MOUNTAIN VIEW 94043 CA",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "United States (US)",
+        "phone": "+1-6502530000",
+        "phone_ext": "",
+        "fax": "+1-6502530001",
+        "fax_ext": "",
+        "email": "dns-admin@google.com",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "DOMAIN ADMINISTRATOR",
+        "organization": "GOOGLE LLC",
+        "street": "1600 AMPHITHEATRE PARKWAY  MOUNTAIN VIEW 94043 CA",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "United States (US)",
+        "phone": "+1-6502530000",
+        "phone_ext": "",
+        "fax": "+1-6502530001",
+        "fax_ext": "",
+        "email": "dns-admin@google.com",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

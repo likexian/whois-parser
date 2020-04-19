@@ -1,93 +1,95 @@
-
-domain
-id: 20030312s10001s00044494-cn
-domain: apple.cn
-name: apple
-extension: cn
-status: serverdeleteprohibited,serverupdateprohibited,clienttransferprohibited,servertransferprohibited
-dnssec: unsigned
-whois_server: 
-name_servers: a.ns.apple.com,b.ns.apple.com,c.ns.apple.com,d.ns.apple.com
-created_date: 2003-03-17 12:20:05
-updated_date: 
-expiration_date: 2020-03-17 12:48:36
-
-registrar
-id: 
-name: Corporation Service Company
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-registrant
-id: rs-30406
-name: Apple Inc.
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: domains@apple.com
-referral_url: 
-
-administrative
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-technical
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "20030312s10001s00044494-cn",
+        "domain": "apple.cn",
+        "name": "apple",
+        "extension": "cn",
+        "status": "serverdeleteprohibited,serverupdateprohibited,clienttransferprohibited,servertransferprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "",
+        "name_servers": "a.ns.apple.com,b.ns.apple.com,c.ns.apple.com,d.ns.apple.com",
+        "created_date": "2003-03-17 12:20:05",
+        "updated_date": "",
+        "expiration_date": "2020-03-17 12:48:36"
+    },
+    "registrar": {
+        "id": "",
+        "name": "Corporation Service Company",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "registrant": {
+        "id": "rs-30406",
+        "name": "Apple Inc.",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "domains@apple.com",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

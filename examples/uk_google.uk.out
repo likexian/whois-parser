@@ -1,93 +1,95 @@
-
-domain
-id: 
-domain: google.uk
-name: google
-extension: uk
-status: registered
-dnssec: 
-whois_server: 
-name_servers: ns1.googledomains.com,ns2.googledomains.com,ns3.googledomains.com,ns4.googledomains.com
-created_date: 11-Jun-2014
-updated_date: 10-May-2019
-expiration_date: 11-Jun-2020
-
-registrar
-id: 
-name: Markmonitor Inc. t/a MarkMonitor Inc. [Tag = MARKMONITOR]
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: http://www.markmonitor.com
-
-registrant
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-administrative
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-technical
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "",
+        "domain": "google.uk",
+        "name": "google",
+        "extension": "uk",
+        "status": "registered",
+        "dnssec": "",
+        "whois_server": "",
+        "name_servers": "ns1.googledomains.com,ns2.googledomains.com,ns3.googledomains.com,ns4.googledomains.com",
+        "created_date": "11-Jun-2014",
+        "updated_date": "10-May-2019",
+        "expiration_date": "11-Jun-2020"
+    },
+    "registrar": {
+        "id": "",
+        "name": "Markmonitor Inc. t/a MarkMonitor Inc. [Tag = MARKMONITOR]",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": "http://www.markmonitor.com"
+    },
+    "registrant": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

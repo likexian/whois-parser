@@ -1,93 +1,95 @@
-
-domain
-id: D44747703-CNIC
-domain: GIT.COOP
-name: git
-extension: coop
-status: clienttransferprohibited
-dnssec: unsigned
-whois_server: whois.gandi.net
-name_servers: dns1.webarchitects.co.uk,dns0.webarchitects.co.uk,dns3.webarch.info,dns2.webarch.info
-created_date: 2017-02-22T14:29:09.0Z
-updated_date: 2019-03-21T09:46:54.0Z
-expiration_date: 2020-02-22T23:59:59.0Z
-
-registrar
-id: 81
-name: Gandi SAS
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: +33.170377661
-phone_ext: 
-fax: 
-fax_ext: 
-email: abuse@support.gandi.net
-referral_url: http://www.gandi.net/
-
-registrant
-id: 
-name: 
-organization: Webarch Co-operative Limited
-street: 
-city: 
-province: Sheffield(Cityof)
-postal_code: 
-country: GB
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
-referral_url: 
-
-administrative
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
-referral_url: 
-
-technical
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.
-referral_url: 
+{
+    "domain": {
+        "id": "D44747703-CNIC",
+        "domain": "GIT.COOP",
+        "name": "git",
+        "extension": "coop",
+        "status": "clienttransferprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "whois.gandi.net",
+        "name_servers": "dns1.webarchitects.co.uk,dns0.webarchitects.co.uk,dns3.webarch.info,dns2.webarch.info",
+        "created_date": "2017-02-22T14:29:09.0Z",
+        "updated_date": "2019-03-21T09:46:54.0Z",
+        "expiration_date": "2020-02-22T23:59:59.0Z"
+    },
+    "registrar": {
+        "id": "81",
+        "name": "Gandi SAS",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+33.170377661",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "abuse@support.gandi.net",
+        "referral_url": "http://www.gandi.net/"
+    },
+    "registrant": {
+        "id": "",
+        "name": "",
+        "organization": "Webarch Co-operative Limited",
+        "street": "",
+        "city": "",
+        "province": "Sheffield(Cityof)",
+        "postal_code": "",
+        "country": "GB",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name.",
+        "referral_url": ""
+    }
+}

@@ -1,93 +1,95 @@
-
-domain
-id: 91721384_DOMAIN_COM-VRSN
-domain: DYNADOT.COM
-name: dynadot
-extension: com
-status: clienttransferprohibited
-dnssec: unsigned
-whois_server: whois.dynadot.com
-name_servers: ns1-geo.dynadot.com,ns2-geo.dynadot.com
-created_date: 2002-10-30T17:44:41.0Z
-updated_date: 2019-09-17T10:43:57.0Z
-expiration_date: 2020-10-30T16:44:41.0Z
-
-registrar
-id: 472
-name: DYNADOT LLC
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: +1.6502620100
-phone_ext: 
-fax: 
-fax_ext: 
-email: abuse@dynadot.com
-referral_url: http://www.dynadot.com
-
-registrant
-id: 
-name: Dynadot LLC
-organization: 
-street: PO Box 345
-city: San Mateo
-province: CA
-postal_code: 94401
-country: US
-phone: +1.6502620100
-phone_ext: 
-fax: +1.4158692893
-fax_ext: 
-email: info@dynadot.com
-referral_url: 
-
-administrative
-id: 
-name: Dynadot LLC
-organization: 
-street: PO Box 345
-city: San Mateo
-province: CA
-postal_code: 94401
-country: US
-phone: +1.6502620100
-phone_ext: 
-fax: +1.4158692893
-fax_ext: 
-email: info@dynadot.com
-referral_url: 
-
-technical
-id: 
-name: Dynadot LLC
-organization: 
-street: PO Box 345
-city: San Mateo
-province: CA
-postal_code: 94401
-country: US
-phone: +1.6502620100
-phone_ext: 
-fax: +1.4158692893
-fax_ext: 
-email: info@dynadot.com
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "91721384_DOMAIN_COM-VRSN",
+        "domain": "DYNADOT.COM",
+        "name": "dynadot",
+        "extension": "com",
+        "status": "clienttransferprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "whois.dynadot.com",
+        "name_servers": "ns1-geo.dynadot.com,ns2-geo.dynadot.com",
+        "created_date": "2002-10-30T17:44:41.0Z",
+        "updated_date": "2019-09-17T10:43:57.0Z",
+        "expiration_date": "2020-10-30T16:44:41.0Z"
+    },
+    "registrar": {
+        "id": "472",
+        "name": "DYNADOT LLC",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+1.6502620100",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "abuse@dynadot.com",
+        "referral_url": "http://www.dynadot.com"
+    },
+    "registrant": {
+        "id": "",
+        "name": "Dynadot LLC",
+        "organization": "",
+        "street": "PO Box 345",
+        "city": "San Mateo",
+        "province": "CA",
+        "postal_code": "94401",
+        "country": "US",
+        "phone": "+1.6502620100",
+        "phone_ext": "",
+        "fax": "+1.4158692893",
+        "fax_ext": "",
+        "email": "info@dynadot.com",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "Dynadot LLC",
+        "organization": "",
+        "street": "PO Box 345",
+        "city": "San Mateo",
+        "province": "CA",
+        "postal_code": "94401",
+        "country": "US",
+        "phone": "+1.6502620100",
+        "phone_ext": "",
+        "fax": "+1.4158692893",
+        "fax_ext": "",
+        "email": "info@dynadot.com",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "Dynadot LLC",
+        "organization": "",
+        "street": "PO Box 345",
+        "city": "San Mateo",
+        "province": "CA",
+        "postal_code": "94401",
+        "country": "US",
+        "phone": "+1.6502620100",
+        "phone_ext": "",
+        "fax": "+1.4158692893",
+        "fax_ext": "",
+        "email": "info@dynadot.com",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

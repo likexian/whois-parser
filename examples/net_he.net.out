@@ -1,93 +1,95 @@
-
-domain
-id: 486609_DOMAIN_NET-VRSN
-domain: HE.NET
-name: he
-extension: net
-status: clienttransferprohibited
-dnssec: unsigned
-whois_server: whois.networksolutions.com
-name_servers: ns1.he.net,ns2.he.net,ns3.he.net,ns4.he.net,ns5.he.net
-created_date: 1995-07-31T04:00:00Z
-updated_date: 2019-07-30T19:17:40Z
-expiration_date: 2029-07-30T04:00:00Z
-
-registrar
-id: 2
-name: Network Solutions, LLC
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: +1.8003337680
-phone_ext: 
-fax: 
-fax_ext: 
-email: abuse@web.com
-referral_url: http://networksolutions.com
-
-registrant
-id: 
-name: Hurricane, Electric
-organization: Hurricane Electric Hostmaster
-street: 760 MISSION CT
-city: FREMONT
-province: CA
-postal_code: 94539-8204
-country: US
-phone: +1.5105804100
-phone_ext: 
-fax: 
-fax_ext: 
-email: hostmaster@he.net
-referral_url: 
-
-administrative
-id: 
-name: Hurricane, Electric
-organization: Hurricane Electric Hostmaster
-street: 760 MISSION CT
-city: FREMONT
-province: CA
-postal_code: 94539-8204
-country: US
-phone: +1.5105804100
-phone_ext: 
-fax: 
-fax_ext: 
-email: hostmaster@he.net
-referral_url: 
-
-technical
-id: 
-name: Hurricane, Electric
-organization: Hurricane Electric Hostmaster
-street: 760 MISSION CT
-city: FREMONT
-province: CA
-postal_code: 94539-8204
-country: US
-phone: +1.5105804100
-phone_ext: 
-fax: 
-fax_ext: 
-email: hostmaster@he.net
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "486609_DOMAIN_NET-VRSN",
+        "domain": "HE.NET",
+        "name": "he",
+        "extension": "net",
+        "status": "clienttransferprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "whois.networksolutions.com",
+        "name_servers": "ns1.he.net,ns2.he.net,ns3.he.net,ns4.he.net,ns5.he.net",
+        "created_date": "1995-07-31T04:00:00Z",
+        "updated_date": "2019-07-30T19:17:40Z",
+        "expiration_date": "2029-07-30T04:00:00Z"
+    },
+    "registrar": {
+        "id": "2",
+        "name": "Network Solutions, LLC",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+1.8003337680",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "abuse@web.com",
+        "referral_url": "http://networksolutions.com"
+    },
+    "registrant": {
+        "id": "",
+        "name": "Hurricane, Electric",
+        "organization": "Hurricane Electric Hostmaster",
+        "street": "760 MISSION CT",
+        "city": "FREMONT",
+        "province": "CA",
+        "postal_code": "94539-8204",
+        "country": "US",
+        "phone": "+1.5105804100",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "hostmaster@he.net",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "Hurricane, Electric",
+        "organization": "Hurricane Electric Hostmaster",
+        "street": "760 MISSION CT",
+        "city": "FREMONT",
+        "province": "CA",
+        "postal_code": "94539-8204",
+        "country": "US",
+        "phone": "+1.5105804100",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "hostmaster@he.net",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "Hurricane, Electric",
+        "organization": "Hurricane Electric Hostmaster",
+        "street": "760 MISSION CT",
+        "city": "FREMONT",
+        "province": "CA",
+        "postal_code": "94539-8204",
+        "country": "US",
+        "phone": "+1.5105804100",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "hostmaster@he.net",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

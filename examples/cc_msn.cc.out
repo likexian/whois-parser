@@ -1,93 +1,95 @@
-
-domain
-id: 86416313_DOMAIN_CC-VRSN
-domain: msn.cc
-name: msn
-extension: cc
-status: clienttransferprohibited
-dnssec: unsigned
-whois_server: whois.corporatedomains.com
-name_servers: ns3.msft.net,ns2.msft.net,ns4.msft.net,ns1.msft.net
-created_date: 1997-10-12T00:00:00Z
-updated_date: 2019-09-10T01:00:17Z
-expiration_date: 2020-10-12T04:00:00Z
-
-registrar
-id: 299
-name: CSC CORPORATE DOMAINS, INC.
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: +1.8887802723
-phone_ext: 
-fax: 
-fax_ext: 
-email: domainabuse@cscglobal.com
-referral_url: www.cscprotectsbrands.com
-
-registrant
-id: 
-name: Domain Administrator
-organization: Microsoft Corporation
-street: 
-city: Redmond
-province: WA
-postal_code: 98052
-country: US
-phone: +1.4258828080
-phone_ext: 
-fax: +1.4259367329
-fax_ext: 
-email: domains@microsoft.com
-referral_url: 
-
-administrative
-id: 
-name: Domain Administrator
-organization: Microsoft Corporation
-street: 
-city: Redmond
-province: WA
-postal_code: 98052
-country: US
-phone: +1.4258828080
-phone_ext: 
-fax: +1.4259367329
-fax_ext: 
-email: domains@microsoft.com
-referral_url: 
-
-technical
-id: 
-name: MSN Hostmaster
-organization: Microsoft Corporation
-street: 
-city: Redmond
-province: WA
-postal_code: 98052
-country: US
-phone: +1.4258828080
-phone_ext: 
-fax: +1.4259367329
-fax_ext: 
-email: msnhst@microsoft.com
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "86416313_DOMAIN_CC-VRSN",
+        "domain": "msn.cc",
+        "name": "msn",
+        "extension": "cc",
+        "status": "clienttransferprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "whois.corporatedomains.com",
+        "name_servers": "ns3.msft.net,ns2.msft.net,ns4.msft.net,ns1.msft.net",
+        "created_date": "1997-10-12T00:00:00Z",
+        "updated_date": "2019-09-10T01:00:17Z",
+        "expiration_date": "2020-10-12T04:00:00Z"
+    },
+    "registrar": {
+        "id": "299",
+        "name": "CSC CORPORATE DOMAINS, INC.",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+1.8887802723",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "domainabuse@cscglobal.com",
+        "referral_url": "www.cscprotectsbrands.com"
+    },
+    "registrant": {
+        "id": "",
+        "name": "Domain Administrator",
+        "organization": "Microsoft Corporation",
+        "street": "",
+        "city": "Redmond",
+        "province": "WA",
+        "postal_code": "98052",
+        "country": "US",
+        "phone": "+1.4258828080",
+        "phone_ext": "",
+        "fax": "+1.4259367329",
+        "fax_ext": "",
+        "email": "domains@microsoft.com",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "Domain Administrator",
+        "organization": "Microsoft Corporation",
+        "street": "",
+        "city": "Redmond",
+        "province": "WA",
+        "postal_code": "98052",
+        "country": "US",
+        "phone": "+1.4258828080",
+        "phone_ext": "",
+        "fax": "+1.4259367329",
+        "fax_ext": "",
+        "email": "domains@microsoft.com",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "MSN Hostmaster",
+        "organization": "Microsoft Corporation",
+        "street": "",
+        "city": "Redmond",
+        "province": "WA",
+        "postal_code": "98052",
+        "country": "US",
+        "phone": "+1.4258828080",
+        "phone_ext": "",
+        "fax": "+1.4259367329",
+        "fax_ext": "",
+        "email": "msnhst@microsoft.com",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

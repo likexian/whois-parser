@@ -1,93 +1,95 @@
-
-domain
-id: D471480-LANIC
-domain: GOOGLE.LA
-name: google
-extension: la
-status: clienttransferprohibited
-dnssec: unsigned
-whois_server: 
-name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
-created_date: 2002-07-18T01:00:00.0Z
-updated_date: 2019-06-17T16:18:05.0Z
-expiration_date: 2020-07-18T23:59:59.0Z
-
-registrar
-id: 
-name: TLD Registrar Solutions Ltd
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: +44.20338806
-phone_ext: 
-fax: 
-fax_ext: 
-email: support@registry.la
-referral_url: 
-
-registrant
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: https://whois.nic.la/contact/google.la/registrant
-referral_url: 
-
-administrative
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: https://whois.nic.la/contact/google.la/admin
-referral_url: 
-
-technical
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: https://whois.nic.la/contact/google.la/tech
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: https://whois.nic.la/contact/google.la/billing
-referral_url: 
+{
+    "domain": {
+        "id": "D471480-LANIC",
+        "domain": "GOOGLE.LA",
+        "name": "google",
+        "extension": "la",
+        "status": "clienttransferprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "",
+        "name_servers": "ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com",
+        "created_date": "2002-07-18T01:00:00.0Z",
+        "updated_date": "2019-06-17T16:18:05.0Z",
+        "expiration_date": "2020-07-18T23:59:59.0Z"
+    },
+    "registrar": {
+        "id": "",
+        "name": "TLD Registrar Solutions Ltd",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+44.20338806",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "support@registry.la",
+        "referral_url": ""
+    },
+    "registrant": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "https://whois.nic.la/contact/google.la/registrant",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "https://whois.nic.la/contact/google.la/admin",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "https://whois.nic.la/contact/google.la/tech",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "https://whois.nic.la/contact/google.la/billing",
+        "referral_url": ""
+    }
+}

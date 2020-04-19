@@ -1,93 +1,95 @@
-
-domain
-id: 72657455_DOMAIN_COM-VRSN
-domain: GIT.COM
-name: git
-extension: com
-status: clienttransferprohibited
-dnssec: unsigned
-whois_server: whois.uniregistrar.net
-name_servers: ns2.venture.com,ns1.venture.com
-created_date: 2001-06-14-T10:32:43Z
-updated_date: 2019-05-17-T23:02:50Z
-expiration_date: 2020-06-14-T10:32:43Z
-
-registrar
-id: 1659
-name: UNIREGISTRAR CORP
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: +1.4426008800
-phone_ext: 
-fax: 
-fax_ext: 
-email: abuse@uniregistry.com
-referral_url: http://uniregistry.com
-
-registrant
-id: 
-name: PRIVACYDOTLINK CUSTOMER 1078347
-organization: 
-street: PO BOX 30485
-city: SEVEN MILE BEACH
-province: GRAND CAYMAN
-postal_code: KY1-1202
-country: KY
-phone: +1.3457495465
-phone_ext: 
-fax: 
-fax_ext: 
-email: 1078347@privacy-link.com
-referral_url: 
-
-administrative
-id: 
-name: PRIVACYDOTLINK CUSTOMER 1078347
-organization: 
-street: PO BOX 30485
-city: SEVEN MILE BEACH
-province: GRAND CAYMAN
-postal_code: KY1-1202
-country: KY
-phone: +1.3457495465
-phone_ext: 
-fax: 
-fax_ext: 
-email: 1078347@privacy-link.com
-referral_url: 
-
-technical
-id: 
-name: PRIVACYDOTLINK CUSTOMER 1078347
-organization: 
-street: PO BOX 30485
-city: SEVEN MILE BEACH
-province: GRAND CAYMAN
-postal_code: KY1-1202
-country: KY
-phone: +1.3457495465
-phone_ext: 
-fax: 
-fax_ext: 
-email: 1078347@privacy-link.com
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "72657455_DOMAIN_COM-VRSN",
+        "domain": "GIT.COM",
+        "name": "git",
+        "extension": "com",
+        "status": "clienttransferprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "whois.uniregistrar.net",
+        "name_servers": "ns2.venture.com,ns1.venture.com",
+        "created_date": "2001-06-14-T10:32:43Z",
+        "updated_date": "2019-05-17-T23:02:50Z",
+        "expiration_date": "2020-06-14-T10:32:43Z"
+    },
+    "registrar": {
+        "id": "1659",
+        "name": "UNIREGISTRAR CORP",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+1.4426008800",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "abuse@uniregistry.com",
+        "referral_url": "http://uniregistry.com"
+    },
+    "registrant": {
+        "id": "",
+        "name": "PRIVACYDOTLINK CUSTOMER 1078347",
+        "organization": "",
+        "street": "PO BOX 30485",
+        "city": "SEVEN MILE BEACH",
+        "province": "GRAND CAYMAN",
+        "postal_code": "KY1-1202",
+        "country": "KY",
+        "phone": "+1.3457495465",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "1078347@privacy-link.com",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "PRIVACYDOTLINK CUSTOMER 1078347",
+        "organization": "",
+        "street": "PO BOX 30485",
+        "city": "SEVEN MILE BEACH",
+        "province": "GRAND CAYMAN",
+        "postal_code": "KY1-1202",
+        "country": "KY",
+        "phone": "+1.3457495465",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "1078347@privacy-link.com",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "PRIVACYDOTLINK CUSTOMER 1078347",
+        "organization": "",
+        "street": "PO BOX 30485",
+        "city": "SEVEN MILE BEACH",
+        "province": "GRAND CAYMAN",
+        "postal_code": "KY1-1202",
+        "country": "KY",
+        "phone": "+1.3457495465",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "1078347@privacy-link.com",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

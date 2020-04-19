@@ -1,93 +1,95 @@
-
-domain
-id: 447518-CoCCA
-domain: google.cx
-name: google
-extension: cx
-status: serverupdateprohibited,servertransferprohibited,serverdeleteprohibited,clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited
-dnssec: unsigned
-whois_server: whois.coccaregistry.org
-name_servers: ns1.google.com,ns3.google.com,ns4.google.com,ns2.google.com
-created_date: 2010-07-29T18:15:42.56Z
-updated_date: 2019-06-27T09:31:23.513Z
-expiration_date: 2020-07-29T18:15:42.158Z
-
-registrar
-id: 
-name: MarkMonitor
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: US
-phone: +1.2083895740
-phone_ext: 
-fax: +1.2083895771
-fax_ext: 
-email: ccops@markmonitor.com
-referral_url: http://www.markmonitor.com
-
-registrant
-id: Q6RDD-iThq7
-name: Redacted | Registry Policy
-organization: Google LLC
-street: 1600 Amphitheatre Parkway
-city: Mountain View
-province: CA
-postal_code: 94043
-country: US
-phone: Redacted | Registry Policy
-phone_ext: 
-fax: Redacted | Registry Policy
-fax_ext: 
-email: redacted | registry policy
-referral_url: 
-
-administrative
-id: qpyUv-8PqZy
-name: Redacted | Registry Policy
-organization: Google LLC
-street: 1600 Amphitheatre Parkway
-city: Mountain View
-province: CA
-postal_code: 94043
-country: US
-phone: Redacted | Registry Policy
-phone_ext: 
-fax: Redacted | Registry Policy
-fax_ext: 
-email: redacted | registry policy
-referral_url: 
-
-technical
-id: oSzcd-PDwUy
-name: Redacted | Registry Policy
-organization: Google LLC
-street: 1600 Amphitheatre Parkway
-city: Mountain View
-province: CA
-postal_code: 94043
-country: US
-phone: Redacted | Registry Policy
-phone_ext: 
-fax: Redacted | Registry Policy
-fax_ext: 
-email: redacted | registry policy
-referral_url: 
-
-billing
-id: cEMhc-TrHqA
-name: Redacted | Registry Policy
-organization: MarkMonitor Inc.
-street: 3540 East Longwing Lane, Suite 300
-city: Meridian
-province: Idaho
-postal_code: 83646
-country: US
-phone: Redacted | Registry Policy
-phone_ext: 
-fax: Redacted | Registry Policy
-fax_ext: 
-email: redacted | registry policy
-referral_url: 
+{
+    "domain": {
+        "id": "447518-CoCCA",
+        "domain": "google.cx",
+        "name": "google",
+        "extension": "cx",
+        "status": "serverupdateprohibited,servertransferprohibited,serverdeleteprohibited,clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "whois.coccaregistry.org",
+        "name_servers": "ns1.google.com,ns3.google.com,ns4.google.com,ns2.google.com",
+        "created_date": "2010-07-29T18:15:42.56Z",
+        "updated_date": "2019-06-27T09:31:23.513Z",
+        "expiration_date": "2020-07-29T18:15:42.158Z"
+    },
+    "registrar": {
+        "id": "",
+        "name": "MarkMonitor",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "US",
+        "phone": "+1.2083895740",
+        "phone_ext": "",
+        "fax": "+1.2083895771",
+        "fax_ext": "",
+        "email": "ccops@markmonitor.com",
+        "referral_url": "http://www.markmonitor.com"
+    },
+    "registrant": {
+        "id": "Q6RDD-iThq7",
+        "name": "Redacted | Registry Policy",
+        "organization": "Google LLC",
+        "street": "1600 Amphitheatre Parkway",
+        "city": "Mountain View",
+        "province": "CA",
+        "postal_code": "94043",
+        "country": "US",
+        "phone": "Redacted | Registry Policy",
+        "phone_ext": "",
+        "fax": "Redacted | Registry Policy",
+        "fax_ext": "",
+        "email": "redacted | registry policy",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "qpyUv-8PqZy",
+        "name": "Redacted | Registry Policy",
+        "organization": "Google LLC",
+        "street": "1600 Amphitheatre Parkway",
+        "city": "Mountain View",
+        "province": "CA",
+        "postal_code": "94043",
+        "country": "US",
+        "phone": "Redacted | Registry Policy",
+        "phone_ext": "",
+        "fax": "Redacted | Registry Policy",
+        "fax_ext": "",
+        "email": "redacted | registry policy",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "oSzcd-PDwUy",
+        "name": "Redacted | Registry Policy",
+        "organization": "Google LLC",
+        "street": "1600 Amphitheatre Parkway",
+        "city": "Mountain View",
+        "province": "CA",
+        "postal_code": "94043",
+        "country": "US",
+        "phone": "Redacted | Registry Policy",
+        "phone_ext": "",
+        "fax": "Redacted | Registry Policy",
+        "fax_ext": "",
+        "email": "redacted | registry policy",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "cEMhc-TrHqA",
+        "name": "Redacted | Registry Policy",
+        "organization": "MarkMonitor Inc.",
+        "street": "3540 East Longwing Lane, Suite 300",
+        "city": "Meridian",
+        "province": "Idaho",
+        "postal_code": "83646",
+        "country": "US",
+        "phone": "Redacted | Registry Policy",
+        "phone_ext": "",
+        "fax": "Redacted | Registry Policy",
+        "fax_ext": "",
+        "email": "redacted | registry policy",
+        "referral_url": ""
+    }
+}

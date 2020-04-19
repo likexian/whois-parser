@@ -1,93 +1,95 @@
-
-domain
-id: 
-domain: GOOGLE.TK
-name: google
-extension: tk
-status: active
-dnssec: 
-whois_server: 
-name_servers: ns2.google.com,ns3.google.com,ns1.google.com,ns4.google.com
-created_date: 12/18/2001
-updated_date: 
-expiration_date: 03/02/2020
-
-registrar
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-registrant
-id: 
-name: Domain Administrator
-organization: Google LLC
-street: 1600 Amphitheatre Parkway
-city: Mountain View
-province: 
-postal_code: 94043
-country: U.S.A.
-phone: +1-6502530000
-phone_ext: 
-fax: +1-6502530001
-fax_ext: 
-email: dns-admin@google.com
-referral_url: 
-
-administrative
-id: 
-name: Domain Administrator
-organization: Google LLC
-street: 1600 Amphitheatre Parkway
-city: Mountain View
-province: 
-postal_code: 94043
-country: U.S.A.
-phone: +1-6502530000
-phone_ext: 
-fax: +1-6502530001
-fax_ext: 
-email: dns-admin@google.com
-referral_url: 
-
-technical
-id: 
-name: Domain Administrator
-organization: Google LLC
-street: 1600 Amphitheatre Parkway
-city: Mountain View
-province: 
-postal_code: 94043
-country: U.S.A.
-phone: +1-6502530000
-phone_ext: 
-fax: +1-6502530001
-fax_ext: 
-email: dns-admin@google.com
-referral_url: 
-
-billing
-id: 
-name: Domain Administrator
-organization: MarkMonitor Inc.
-street: 3540 E Longwing Lane Suite 300
-city: Meridian
-province: 
-postal_code: 83646
-country: U.S.A.
-phone: +1-2083895740
-phone_ext: 
-fax: +1-208-3895771
-fax_ext: 
-email: ccops@markmonitor.com
-referral_url: 
+{
+    "domain": {
+        "id": "",
+        "domain": "GOOGLE.TK",
+        "name": "google",
+        "extension": "tk",
+        "status": "active",
+        "dnssec": "",
+        "whois_server": "",
+        "name_servers": "ns2.google.com,ns3.google.com,ns1.google.com,ns4.google.com",
+        "created_date": "12/18/2001",
+        "updated_date": "",
+        "expiration_date": "03/02/2020"
+    },
+    "registrar": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "registrant": {
+        "id": "",
+        "name": "Domain Administrator",
+        "organization": "Google LLC",
+        "street": "1600 Amphitheatre Parkway",
+        "city": "Mountain View",
+        "province": "",
+        "postal_code": "94043",
+        "country": "U.S.A.",
+        "phone": "+1-6502530000",
+        "phone_ext": "",
+        "fax": "+1-6502530001",
+        "fax_ext": "",
+        "email": "dns-admin@google.com",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "Domain Administrator",
+        "organization": "Google LLC",
+        "street": "1600 Amphitheatre Parkway",
+        "city": "Mountain View",
+        "province": "",
+        "postal_code": "94043",
+        "country": "U.S.A.",
+        "phone": "+1-6502530000",
+        "phone_ext": "",
+        "fax": "+1-6502530001",
+        "fax_ext": "",
+        "email": "dns-admin@google.com",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "Domain Administrator",
+        "organization": "Google LLC",
+        "street": "1600 Amphitheatre Parkway",
+        "city": "Mountain View",
+        "province": "",
+        "postal_code": "94043",
+        "country": "U.S.A.",
+        "phone": "+1-6502530000",
+        "phone_ext": "",
+        "fax": "+1-6502530001",
+        "fax_ext": "",
+        "email": "dns-admin@google.com",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "Domain Administrator",
+        "organization": "MarkMonitor Inc.",
+        "street": "3540 E Longwing Lane Suite 300",
+        "city": "Meridian",
+        "province": "",
+        "postal_code": "83646",
+        "country": "U.S.A.",
+        "phone": "+1-2083895740",
+        "phone_ext": "",
+        "fax": "+1-208-3895771",
+        "fax_ext": "",
+        "email": "ccops@markmonitor.com",
+        "referral_url": ""
+    }
+}

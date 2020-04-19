@@ -1,93 +1,95 @@
-
-domain
-id: 52772224_DOMAIN_NET-VRSN
-domain: HEXONET.NET
-name: hexonet
-extension: net
-status: clienttransferprohibited
-dnssec: unsigned
-whois_server: whois.1api.net
-name_servers: ns1012.hexonet.net,ns2012.hexonet.net,ns3012.hexonet.net
-created_date: 2001-01-20T13:40:16Z
-updated_date: 2017-02-28T09:53:46Z
-expiration_date: 2021-01-20T13:40:16Z
-
-registrar
-id: 1387
-name: 1API GmbH
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: +49.68416984x200
-phone_ext: 
-fax: 
-fax_ext: 
-email: abuse@1api.net
-referral_url: http://www.1api.net
-
-registrant
-id: 
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
-province: Saarland
-postal_code: REDACTED FOR PRIVACY
-country: DE
-phone: REDACTED FOR PRIVACY
-phone_ext: 
-fax: 
-fax_ext: 
-email: contact via https://www.1api.net/send-message/hexonet.net/registrant
-referral_url: 
-
-administrative
-id: 
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
-province: REDACTED FOR PRIVACY
-postal_code: REDACTED FOR PRIVACY
-country: REDACTED FOR PRIVACY
-phone: REDACTED FOR PRIVACY
-phone_ext: 
-fax: 
-fax_ext: 
-email: contact via https://www.1api.net/send-message/hexonet.net/admin
-referral_url: 
-
-technical
-id: 
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY
-city: REDACTED FOR PRIVACY
-province: REDACTED FOR PRIVACY
-postal_code: REDACTED FOR PRIVACY
-country: REDACTED FOR PRIVACY
-phone: REDACTED FOR PRIVACY
-phone_ext: 
-fax: 
-fax_ext: 
-email: contact via https://www.1api.net/send-message/hexonet.net/tech
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "52772224_DOMAIN_NET-VRSN",
+        "domain": "HEXONET.NET",
+        "name": "hexonet",
+        "extension": "net",
+        "status": "clienttransferprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "whois.1api.net",
+        "name_servers": "ns1012.hexonet.net,ns2012.hexonet.net,ns3012.hexonet.net",
+        "created_date": "2001-01-20T13:40:16Z",
+        "updated_date": "2017-02-28T09:53:46Z",
+        "expiration_date": "2021-01-20T13:40:16Z"
+    },
+    "registrar": {
+        "id": "1387",
+        "name": "1API GmbH",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+49.68416984x200",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "abuse@1api.net",
+        "referral_url": "http://www.1api.net"
+    },
+    "registrant": {
+        "id": "",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "REDACTED FOR PRIVACY",
+        "street": "REDACTED FOR PRIVACY",
+        "city": "REDACTED FOR PRIVACY",
+        "province": "Saarland",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "DE",
+        "phone": "REDACTED FOR PRIVACY",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "contact via https://www.1api.net/send-message/hexonet.net/registrant",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "REDACTED FOR PRIVACY",
+        "street": "REDACTED FOR PRIVACY",
+        "city": "REDACTED FOR PRIVACY",
+        "province": "REDACTED FOR PRIVACY",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "REDACTED FOR PRIVACY",
+        "phone": "REDACTED FOR PRIVACY",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "contact via https://www.1api.net/send-message/hexonet.net/admin",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "REDACTED FOR PRIVACY",
+        "street": "REDACTED FOR PRIVACY",
+        "city": "REDACTED FOR PRIVACY",
+        "province": "REDACTED FOR PRIVACY",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "REDACTED FOR PRIVACY",
+        "phone": "REDACTED FOR PRIVACY",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "contact via https://www.1api.net/send-message/hexonet.net/tech",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

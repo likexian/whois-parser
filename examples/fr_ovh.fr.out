@@ -1,93 +1,95 @@
-
-domain
-id: 
-domain: ovh.fr
-name: ovh
-extension: fr
-status: active
-dnssec: 
-whois_server: 
-name_servers: dns.ovh.net,dns10.ovh.net,ns.ovh.net,ns10.ovh.net
-created_date: 1999-11-11T23:00:00Z
-updated_date: 2019-04-18T12:14:43Z
-expiration_date: 2019-11-11T23:00:00Z
-
-registrar
-id: 
-name: OVH
-organization: 
-street: 2 Rue Kellermann, 59100 ROUBAIX
-city: 
-province: 
-postal_code: 
-country: FR
-phone: +33 8 99 70 17 61
-phone_ext: 
-fax: +33 3 20 20 09 58
-fax_ext: 
-email: support@ovh.net
-referral_url: http://www.ovh.com
-
-registrant
-id: SO255-FRNIC
-name: OVH SAS
-organization: 
-street: 2, rue Kellermann, 59100 Roubaix
-city: 
-province: 
-postal_code: 
-country: FR
-phone: +33.899701761
-phone_ext: 
-fax: +33.320200958
-fax_ext: 
-email: oles@ovh.net
-referral_url: 
-
-administrative
-id: OS10535-FRNIC
-name: OVH SAS
-organization: 
-street: OVH SAS, 2 Rue Kellermann, 59100 ROUBAIX
-city: 
-province: 
-postal_code: 
-country: FR
-phone: +33.972100908
-phone_ext: 
-fax: 
-fax_ext: 
-email: x4zojgmlpzo8z127ekjs@z.o-w-o.info
-referral_url: 
-
-technical
-id: OVH5-FRNIC
-name: OVH NET
-organization: 
-street: OVH, 140, quai du Sartel, 59100 Roubaix
-city: 
-province: 
-postal_code: 
-country: FR
-phone: +33 8 99 70 17 61
-phone_ext: 
-fax: 
-fax_ext: 
-email: tech@ovh.net
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "",
+        "domain": "ovh.fr",
+        "name": "ovh",
+        "extension": "fr",
+        "status": "active",
+        "dnssec": "",
+        "whois_server": "",
+        "name_servers": "dns.ovh.net,dns10.ovh.net,ns.ovh.net,ns10.ovh.net",
+        "created_date": "1999-11-11T23:00:00Z",
+        "updated_date": "2019-04-18T12:14:43Z",
+        "expiration_date": "2019-11-11T23:00:00Z"
+    },
+    "registrar": {
+        "id": "",
+        "name": "OVH",
+        "organization": "",
+        "street": "2 Rue Kellermann, 59100 ROUBAIX",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "FR",
+        "phone": "+33 8 99 70 17 61",
+        "phone_ext": "",
+        "fax": "+33 3 20 20 09 58",
+        "fax_ext": "",
+        "email": "support@ovh.net",
+        "referral_url": "http://www.ovh.com"
+    },
+    "registrant": {
+        "id": "SO255-FRNIC",
+        "name": "OVH SAS",
+        "organization": "",
+        "street": "2, rue Kellermann, 59100 Roubaix",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "FR",
+        "phone": "+33.899701761",
+        "phone_ext": "",
+        "fax": "+33.320200958",
+        "fax_ext": "",
+        "email": "oles@ovh.net",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "OS10535-FRNIC",
+        "name": "OVH SAS",
+        "organization": "",
+        "street": "OVH SAS, 2 Rue Kellermann, 59100 ROUBAIX",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "FR",
+        "phone": "+33.972100908",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "x4zojgmlpzo8z127ekjs@z.o-w-o.info",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "OVH5-FRNIC",
+        "name": "OVH NET",
+        "organization": "",
+        "street": "OVH, 140, quai du Sartel, 59100 Roubaix",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "FR",
+        "phone": "+33 8 99 70 17 61",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "tech@ovh.net",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

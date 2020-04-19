@@ -1,93 +1,95 @@
-
-domain
-id: D73081-CIRA
-domain: google.ca
-name: google
-extension: ca
-status: clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited,serverdeleteprohibited,servertransferprohibited,serverupdateprohibited
-dnssec: unsigned
-whois_server: whois.ca.fury.ca
-name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
-created_date: 2000-10-04T02:21:23Z
-updated_date: 2019-04-28T04:04:23Z
-expiration_date: 2020-04-28T04:00:00Z
-
-registrar
-id: 
-name: MarkMonitor International Canada Ltd.
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: Markmonitor.com
-
-registrant
-id: 59969059-CIRA
-name: Google LLC - TMA868122
-organization: 
-street: 1600 Amphitheatre Parkway
-city: Mountain View
-province: CA
-postal_code: 94043
-country: US
-phone: +1.6502530000
-phone_ext: 
-fax: 
-fax_ext: 
-email: dns-admin@google.com
-referral_url: 
-
-administrative
-id: 59969161-CIRA
-name: Lauren Johnston
-organization: Google LLC
-street: 1600 Amphitheatre Parkway
-city: Mountain View
-province: CA
-postal_code: 94043
-country: US
-phone: +1.6502530000
-phone_ext: 
-fax: 
-fax_ext: 
-email: dns-admin@google.com
-referral_url: 
-
-technical
-id: 59969161-CIRA
-name: Lauren Johnston
-organization: Google LLC
-street: 1600 Amphitheatre Parkway
-city: Mountain View
-province: CA
-postal_code: 94043
-country: US
-phone: +1.6502530000
-phone_ext: 
-fax: 
-fax_ext: 
-email: dns-admin@google.com
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "D73081-CIRA",
+        "domain": "google.ca",
+        "name": "google",
+        "extension": "ca",
+        "status": "clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited,serverdeleteprohibited,servertransferprohibited,serverupdateprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "whois.ca.fury.ca",
+        "name_servers": "ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com",
+        "created_date": "2000-10-04T02:21:23Z",
+        "updated_date": "2019-04-28T04:04:23Z",
+        "expiration_date": "2020-04-28T04:00:00Z"
+    },
+    "registrar": {
+        "id": "",
+        "name": "MarkMonitor International Canada Ltd.",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": "Markmonitor.com"
+    },
+    "registrant": {
+        "id": "59969059-CIRA",
+        "name": "Google LLC - TMA868122",
+        "organization": "",
+        "street": "1600 Amphitheatre Parkway",
+        "city": "Mountain View",
+        "province": "CA",
+        "postal_code": "94043",
+        "country": "US",
+        "phone": "+1.6502530000",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "dns-admin@google.com",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "59969161-CIRA",
+        "name": "Lauren Johnston",
+        "organization": "Google LLC",
+        "street": "1600 Amphitheatre Parkway",
+        "city": "Mountain View",
+        "province": "CA",
+        "postal_code": "94043",
+        "country": "US",
+        "phone": "+1.6502530000",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "dns-admin@google.com",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "59969161-CIRA",
+        "name": "Lauren Johnston",
+        "organization": "Google LLC",
+        "street": "1600 Amphitheatre Parkway",
+        "city": "Mountain View",
+        "province": "CA",
+        "postal_code": "94043",
+        "country": "US",
+        "phone": "+1.6502530000",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "dns-admin@google.com",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

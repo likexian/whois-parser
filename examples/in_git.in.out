@@ -1,93 +1,95 @@
-
-domain
-id: D509774-IN
-domain: git.in
-name: git
-extension: in
-status: clienttransferprohibited
-dnssec: unsigned
-whois_server: 
-name_servers: ns1.parkingcrew.net,ns2.parkingcrew.net
-created_date: 2005-02-16T06:54:49Z
-updated_date: 2019-03-15T19:06:26Z
-expiration_date: 2020-02-16T06:54:49Z
-
-registrar
-id: 801217
-name: Endurance Domains Technology LLP
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: https://publicdomainregistry.com/
-
-registrant
-id: 
-name: 
-organization: Treadall Inc.
-street: 
-city: 
-province: Ontario
-postal_code: 
-country: CA
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: please contact the registrar listed above
-referral_url: 
-
-administrative
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: please contact the registrar listed above
-referral_url: 
-
-technical
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: please contact the registrar listed above
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "D509774-IN",
+        "domain": "git.in",
+        "name": "git",
+        "extension": "in",
+        "status": "clienttransferprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "",
+        "name_servers": "ns1.parkingcrew.net,ns2.parkingcrew.net",
+        "created_date": "2005-02-16T06:54:49Z",
+        "updated_date": "2019-03-15T19:06:26Z",
+        "expiration_date": "2020-02-16T06:54:49Z"
+    },
+    "registrar": {
+        "id": "801217",
+        "name": "Endurance Domains Technology LLP",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": "https://publicdomainregistry.com/"
+    },
+    "registrant": {
+        "id": "",
+        "name": "",
+        "organization": "Treadall Inc.",
+        "street": "",
+        "city": "",
+        "province": "Ontario",
+        "postal_code": "",
+        "country": "CA",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "please contact the registrar listed above",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "please contact the registrar listed above",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "please contact the registrar listed above",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

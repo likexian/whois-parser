@@ -1,93 +1,95 @@
-
-domain
-id: 
-domain: git.it
-name: git
-extension: it
-status: ok
-dnssec: no
-whois_server: 
-name_servers: ns1.parkingcrew.net,ns2.parkingcrew.net
-created_date: 2018-08-28 09:00:00
-updated_date: 2019-09-13 00:43:43
-expiration_date: 2020-08-28
-
-registrar
-id: 
-name: AM-REG
-organization: Algorithmedia S.r.l.
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: http://www.algorithmedia.com
-
-registrant
-id: 
-name: 
-organization: Macrosten LTD
-street: 77 Strovolou Avenue, Strovolos Center, off. 204 Strovolos, Nicosia, 2018, Nicosia, CY
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-administrative
-id: 
-name: Macrosten LTD
-organization: Macrosten LTD
-street: 77 Strovolou Avenue, Strovolos Center, off. 204 Strovolos, Strovolos, Nicosia-Cyprus, 02018, Strovolos, Nicosia-Cyprus, CY
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-technical
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "",
+        "domain": "git.it",
+        "name": "git",
+        "extension": "it",
+        "status": "ok",
+        "dnssec": "no",
+        "whois_server": "",
+        "name_servers": "ns1.parkingcrew.net,ns2.parkingcrew.net",
+        "created_date": "2018-08-28 09:00:00",
+        "updated_date": "2019-09-13 00:43:43",
+        "expiration_date": "2020-08-28"
+    },
+    "registrar": {
+        "id": "",
+        "name": "AM-REG",
+        "organization": "Algorithmedia S.r.l.",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": "http://www.algorithmedia.com"
+    },
+    "registrant": {
+        "id": "",
+        "name": "",
+        "organization": "Macrosten LTD",
+        "street": "77 Strovolou Avenue, Strovolos Center, off. 204 Strovolos, Nicosia, 2018, Nicosia, CY",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "Macrosten LTD",
+        "organization": "Macrosten LTD",
+        "street": "77 Strovolou Avenue, Strovolos Center, off. 204 Strovolos, Strovolos, Nicosia-Cyprus, 02018, Strovolos, Nicosia-Cyprus, CY",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

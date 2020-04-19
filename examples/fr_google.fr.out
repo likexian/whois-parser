@@ -1,93 +1,95 @@
-
-domain
-id: 
-domain: google.fr
-name: google
-extension: fr
-status: active
-dnssec: 
-whois_server: 
-name_servers: ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com
-created_date: 2000-07-26T22:00:00Z
-updated_date: 2018-11-28T10:31:42Z
-expiration_date: 2019-12-30T17:16:48Z
-
-registrar
-id: 
-name: MARKMONITOR Inc.
-organization: 
-street: 3540 East Longwing Lane, ID 83646 MERIDIAN
-city: 
-province: 
-postal_code: 
-country: US
-phone: +1 208 389 5740
-phone_ext: 
-fax: +1 208 389 5771
-fax_ext: 
-email: registry.admin@markmonitor.com
-referral_url: http://www.markmonitor.com
-
-registrant
-id: GIH6-FRNIC
-name: Google Ireland Holdings
-organization: 
-street: 70 Sir John Rogersons Quay, 2 Dublin
-city: 
-province: 
-postal_code: 
-country: IE
-phone: +353 14361000
-phone_ext: 
-fax: 
-fax_ext: 
-email: dns-admin@google.com
-referral_url: 
-
-administrative
-id: GIH5-FRNIC
-name: Google Ireland Holdings
-organization: 
-street: 70 Sir John Rogersons Quay, 2 Dublin
-city: 
-province: 
-postal_code: 
-country: IE
-phone: +353 14361000
-phone_ext: 
-fax: 
-fax_ext: 
-email: dns-admin@google.com
-referral_url: 
-
-technical
-id: CP4370-FRNIC
-name: Ccops Provisioning
-organization: 
-street: MarkMonitor, 10400 Overland Rd., PMB 155, 83709 Boise
-city: 
-province: 
-postal_code: 
-country: US
-phone: +1 2083895740
-phone_ext: 
-fax: +1 2083895771
-fax_ext: 
-email: ccops@markmonitor.com
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "",
+        "domain": "google.fr",
+        "name": "google",
+        "extension": "fr",
+        "status": "active",
+        "dnssec": "",
+        "whois_server": "",
+        "name_servers": "ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com",
+        "created_date": "2000-07-26T22:00:00Z",
+        "updated_date": "2018-11-28T10:31:42Z",
+        "expiration_date": "2019-12-30T17:16:48Z"
+    },
+    "registrar": {
+        "id": "",
+        "name": "MARKMONITOR Inc.",
+        "organization": "",
+        "street": "3540 East Longwing Lane, ID 83646 MERIDIAN",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "US",
+        "phone": "+1 208 389 5740",
+        "phone_ext": "",
+        "fax": "+1 208 389 5771",
+        "fax_ext": "",
+        "email": "registry.admin@markmonitor.com",
+        "referral_url": "http://www.markmonitor.com"
+    },
+    "registrant": {
+        "id": "GIH6-FRNIC",
+        "name": "Google Ireland Holdings",
+        "organization": "",
+        "street": "70 Sir John Rogersons Quay, 2 Dublin",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "IE",
+        "phone": "+353 14361000",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "dns-admin@google.com",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "GIH5-FRNIC",
+        "name": "Google Ireland Holdings",
+        "organization": "",
+        "street": "70 Sir John Rogersons Quay, 2 Dublin",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "IE",
+        "phone": "+353 14361000",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "dns-admin@google.com",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "CP4370-FRNIC",
+        "name": "Ccops Provisioning",
+        "organization": "",
+        "street": "MarkMonitor, 10400 Overland Rd., PMB 155, 83709 Boise",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "US",
+        "phone": "+1 2083895740",
+        "phone_ext": "",
+        "fax": "+1 2083895771",
+        "fax_ext": "",
+        "email": "ccops@markmonitor.com",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

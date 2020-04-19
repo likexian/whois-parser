@@ -1,93 +1,95 @@
-
-domain
-id: 
-domain: ESA.INT
-name: esa
-extension: int
-status: 
-dnssec: 
-whois_server: 
-name_servers: dns1.esa.int,dns2.esa.int,dns3.esa.int,dns4.esa.int,dns5.esa.int,dns6.esa.int
-created_date: 1996-08-23
-updated_date: 2009-03-19
-expiration_date: 
-
-registrar
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-registrant
-id: 
-name: 
-organization: European Space Agency (ESA)
-street: 8-10, Rue Mario Nikis, Paris N/A 75738 Paris Cedex 15, France
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-administrative
-id: 
-name: ESANIC - Role Account
-organization: ESA's European Space Operations Centre (ESA-ESOC)
-street: Via Galileo Galilei, snr, Frascati  I-00044, Italy
-city: 
-province: 
-postal_code: 
-country: 
-phone: +39 06941 88 688 (Please include country prefix)
-phone_ext: 
-fax: 
-fax_ext: 
-email: esanic@esa.int
-referral_url: 
-
-technical
-id: 
-name: ESANOC - Role Account
-organization: ESA's European Space Research Institute (ESA-ESRIN)
-street: Via Galileo Galilei, snr, Frascati  I-00044, Italy
-city: 
-province: 
-postal_code: 
-country: 
-phone: +39 06 941 80 205
-phone_ext: 
-fax: 
-fax_ext: 
-email: esanoc@esa.int
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "",
+        "domain": "ESA.INT",
+        "name": "esa",
+        "extension": "int",
+        "status": "",
+        "dnssec": "",
+        "whois_server": "",
+        "name_servers": "dns1.esa.int,dns2.esa.int,dns3.esa.int,dns4.esa.int,dns5.esa.int,dns6.esa.int",
+        "created_date": "1996-08-23",
+        "updated_date": "2009-03-19",
+        "expiration_date": ""
+    },
+    "registrar": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "registrant": {
+        "id": "",
+        "name": "",
+        "organization": "European Space Agency (ESA)",
+        "street": "8-10, Rue Mario Nikis, Paris N/A 75738 Paris Cedex 15, France",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "ESANIC - Role Account",
+        "organization": "ESA's European Space Operations Centre (ESA-ESOC)",
+        "street": "Via Galileo Galilei, snr, Frascati  I-00044, Italy",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+39 06941 88 688 (Please include country prefix)",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "esanic@esa.int",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "ESANOC - Role Account",
+        "organization": "ESA's European Space Research Institute (ESA-ESRIN)",
+        "street": "Via Galileo Galilei, snr, Frascati  I-00044, Italy",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+39 06 941 80 205",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "esanoc@esa.int",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

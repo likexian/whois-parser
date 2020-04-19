@@ -1,93 +1,95 @@
-
-domain
-id: 
-domain: git.pm
-name: git
-extension: pm
-status: active
-dnssec: 
-whois_server: 
-name_servers: ns1.srna.sk,ns2.srna.sk
-created_date: 2013-07-18T16:17:05Z
-updated_date: 2019-06-12T07:35:08Z
-expiration_date: 2020-07-18T16:17:05Z
-
-registrar
-id: 
-name: GRANSY s.r.o.
-organization: 
-street: Borivojova 35, 130 00 PRAGUE 3
-city: 
-province: 
-postal_code: 
-country: CZ
-phone: +420 732 954549
-phone_ext: 
-fax: 
-fax_ext: 
-email: info@subreg.cz
-referral_url: http://www.subreg.cz
-
-registrant
-id: TS6102-FRNIC
-name: Tomas Srna
-organization: 
-street: Vanickova 7, 16900 Praha, Hlavni mesto Praha
-city: 
-province: 
-postal_code: 
-country: CZ
-phone: +420 608920049
-phone_ext: 
-fax: 
-fax_ext: 
-email: tomas@srna.sk
-referral_url: 
-
-administrative
-id: TS6101-FRNIC
-name: Tomá Srna
-organization: 
-street: Patockova 2472/81a, 16900 Praha, Hlavni mesto Praha
-city: 
-province: 
-postal_code: 
-country: CZ
-phone: +420 608920049
-phone_ext: 
-fax: 
-fax_ext: 
-email: tomas@srna.net
-referral_url: 
-
-technical
-id: TS6101-FRNIC
-name: Tomá Srna
-organization: 
-street: Patockova 2472/81a, 16900 Praha, Hlavni mesto Praha
-city: 
-province: 
-postal_code: 
-country: CZ
-phone: +420 608920049
-phone_ext: 
-fax: 
-fax_ext: 
-email: tomas@srna.net
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "",
+        "domain": "git.pm",
+        "name": "git",
+        "extension": "pm",
+        "status": "active",
+        "dnssec": "",
+        "whois_server": "",
+        "name_servers": "ns1.srna.sk,ns2.srna.sk",
+        "created_date": "2013-07-18T16:17:05Z",
+        "updated_date": "2019-06-12T07:35:08Z",
+        "expiration_date": "2020-07-18T16:17:05Z"
+    },
+    "registrar": {
+        "id": "",
+        "name": "GRANSY s.r.o.",
+        "organization": "",
+        "street": "Borivojova 35, 130 00 PRAGUE 3",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "CZ",
+        "phone": "+420 732 954549",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "info@subreg.cz",
+        "referral_url": "http://www.subreg.cz"
+    },
+    "registrant": {
+        "id": "TS6102-FRNIC",
+        "name": "Tomas Srna",
+        "organization": "",
+        "street": "Vanickova 7, 16900 Praha, Hlavni mesto Praha",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "CZ",
+        "phone": "+420 608920049",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "tomas@srna.sk",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "TS6101-FRNIC",
+        "name": "Tomá Srna",
+        "organization": "",
+        "street": "Patockova 2472/81a, 16900 Praha, Hlavni mesto Praha",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "CZ",
+        "phone": "+420 608920049",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "tomas@srna.net",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "TS6101-FRNIC",
+        "name": "Tomá Srna",
+        "organization": "",
+        "street": "Patockova 2472/81a, 16900 Praha, Hlavni mesto Praha",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "CZ",
+        "phone": "+420 608920049",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "tomas@srna.net",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

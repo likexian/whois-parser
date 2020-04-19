@@ -1,93 +1,95 @@
-
-domain
-id: D0000176766-BERLIN
-domain: toa.berlin
-name: toa
-extension: berlin
-status: clienttransferprohibited
-dnssec: unsigned
-whois_server: 
-name_servers: ns-1232.awsdns-26.org,ns-1962.awsdns-53.co.uk,ns-412.awsdns-51.com,ns-903.awsdns-48.net
-created_date: 2014-06-16T19:42:59Z
-updated_date: 2017-01-24T23:11:12Z
-expiration_date: 2020-06-16T19:42:59Z
-
-registrar
-id: 1420
-name: InterNetworX GmbH & Co. KG
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: +49.309832120
-phone_ext: 
-fax: 
-fax_ext: 
-email: info@inwx.de
-referral_url: http://www.inwx.berlin
-
-registrant
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-administrative
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-technical
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "D0000176766-BERLIN",
+        "domain": "toa.berlin",
+        "name": "toa",
+        "extension": "berlin",
+        "status": "clienttransferprohibited",
+        "dnssec": "unsigned",
+        "whois_server": "",
+        "name_servers": "ns-1232.awsdns-26.org,ns-1962.awsdns-53.co.uk,ns-412.awsdns-51.com,ns-903.awsdns-48.net",
+        "created_date": "2014-06-16T19:42:59Z",
+        "updated_date": "2017-01-24T23:11:12Z",
+        "expiration_date": "2020-06-16T19:42:59Z"
+    },
+    "registrar": {
+        "id": "1420",
+        "name": "InterNetworX GmbH & Co. KG",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+49.309832120",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "info@inwx.de",
+        "referral_url": "http://www.inwx.berlin"
+    },
+    "registrant": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

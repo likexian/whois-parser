@@ -1,93 +1,95 @@
-
-domain
-id: whois protect
-domain: git.xyz
-name: git
-extension: xyz
-status: ok
-dnssec: signedDelegation
-whois_server: whois.west.cn
-name_servers: ns1.myhostadmin.net,ns2.myhostadmin.net
-created_date: 2017-01-19T02:15:20.0Z
-updated_date: 2017-01-19T02:15:20.0Z
-expiration_date: 2020-01-19T23:59:59.0Z
-
-registrar
-id: 1556
-name: Chengdu west dimension digital technology Co., LTD
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: +86.2862778877 ext 8359
-phone_ext: 
-fax: 
-fax_ext: 
-email: westabuse@gmail.com
-referral_url: www.west.cn
-
-registrant
-id: xyz4697443686140
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY
-city: Chengdu
-province: Sichuan
-postal_code: REDACTED FOR PRIVACY
-country: CN
-phone: REDACTED FOR PRIVACY
-phone_ext: 
-fax: REDACTED FOR PRIVACY
-fax_ext: 
-email: link at https://www.west.cn/web/whoisform?domain=git.xyz
-referral_url: 
-
-administrative
-id: xyz4697443686140
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY
-city: Chengdu
-province: Sichuan
-postal_code: REDACTED FOR PRIVACY
-country: CN
-phone: REDACTED FOR PRIVACY
-phone_ext: 
-fax: REDACTED FOR PRIVACY
-fax_ext: 
-email: link at https://www.west.cn/web/whoisform?domain=git.xyz
-referral_url: 
-
-technical
-id: xyz4697443686140
-name: REDACTED FOR PRIVACY
-organization: REDACTED FOR PRIVACY
-street: REDACTED FOR PRIVACY
-city: Chengdu
-province: Sichuan
-postal_code: REDACTED FOR PRIVACY
-country: CN
-phone: REDACTED FOR PRIVACY
-phone_ext: 
-fax: REDACTED FOR PRIVACY
-fax_ext: 
-email: link at https://www.west.cn/web/whoisform?domain=git.xyz
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "whois protect",
+        "domain": "git.xyz",
+        "name": "git",
+        "extension": "xyz",
+        "status": "ok",
+        "dnssec": "signedDelegation",
+        "whois_server": "whois.west.cn",
+        "name_servers": "ns1.myhostadmin.net,ns2.myhostadmin.net",
+        "created_date": "2017-01-19T02:15:20.0Z",
+        "updated_date": "2017-01-19T02:15:20.0Z",
+        "expiration_date": "2020-01-19T23:59:59.0Z"
+    },
+    "registrar": {
+        "id": "1556",
+        "name": "Chengdu west dimension digital technology Co., LTD",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "+86.2862778877 ext 8359",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "westabuse@gmail.com",
+        "referral_url": "www.west.cn"
+    },
+    "registrant": {
+        "id": "xyz4697443686140",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "REDACTED FOR PRIVACY",
+        "street": "REDACTED FOR PRIVACY",
+        "city": "Chengdu",
+        "province": "Sichuan",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "CN",
+        "phone": "REDACTED FOR PRIVACY",
+        "phone_ext": "",
+        "fax": "REDACTED FOR PRIVACY",
+        "fax_ext": "",
+        "email": "link at https://www.west.cn/web/whoisform?domain=git.xyz",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "xyz4697443686140",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "REDACTED FOR PRIVACY",
+        "street": "REDACTED FOR PRIVACY",
+        "city": "Chengdu",
+        "province": "Sichuan",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "CN",
+        "phone": "REDACTED FOR PRIVACY",
+        "phone_ext": "",
+        "fax": "REDACTED FOR PRIVACY",
+        "fax_ext": "",
+        "email": "link at https://www.west.cn/web/whoisform?domain=git.xyz",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "xyz4697443686140",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "REDACTED FOR PRIVACY",
+        "street": "REDACTED FOR PRIVACY",
+        "city": "Chengdu",
+        "province": "Sichuan",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "CN",
+        "phone": "REDACTED FOR PRIVACY",
+        "phone_ext": "",
+        "fax": "REDACTED FOR PRIVACY",
+        "fax_ext": "",
+        "email": "link at https://www.west.cn/web/whoisform?domain=git.xyz",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}

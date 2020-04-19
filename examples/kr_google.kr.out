@@ -1,93 +1,95 @@
-
-domain
-id: 
-domain: google.kr
-name: google
-extension: kr
-status: 
-dnssec: unsigned
-whois_server: 
-name_servers: ns1.google.com,ns2.google.com
-created_date: 2007. 03. 02.
-updated_date: 2010. 10. 04.
-expiration_date: 2020. 03. 02.
-
-registrar
-id: 
-name: Whois Corp.(http://whois.co.kr)
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-registrant
-id: 
-name: Google Korea, LLC
-organization: 
-street: 22nd Floor Gangnam Finance Center, 737 Yeoksam-dong Kangnam-ku Seoul
-city: 
-province: 
-postal_code: 135984
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-administrative
-id: 
-name: Domain Administrator
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 82.25319000
-phone_ext: 
-fax: 
-fax_ext: 
-email: dns-admin@google.com
-referral_url: 
-
-technical
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
-
-billing
-id: 
-name: 
-organization: 
-street: 
-city: 
-province: 
-postal_code: 
-country: 
-phone: 
-phone_ext: 
-fax: 
-fax_ext: 
-email: 
-referral_url: 
+{
+    "domain": {
+        "id": "",
+        "domain": "google.kr",
+        "name": "google",
+        "extension": "kr",
+        "status": "",
+        "dnssec": "unsigned",
+        "whois_server": "",
+        "name_servers": "ns1.google.com,ns2.google.com",
+        "created_date": "2007. 03. 02.",
+        "updated_date": "2010. 10. 04.",
+        "expiration_date": "2020. 03. 02."
+    },
+    "registrar": {
+        "id": "",
+        "name": "Whois Corp.(http://whois.co.kr)",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "registrant": {
+        "id": "",
+        "name": "Google Korea, LLC",
+        "organization": "",
+        "street": "22nd Floor Gangnam Finance Center, 737 Yeoksam-dong Kangnam-ku Seoul",
+        "city": "",
+        "province": "",
+        "postal_code": "135984",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "administrative": {
+        "id": "",
+        "name": "Domain Administrator",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "82.25319000",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "dns-admin@google.com",
+        "referral_url": ""
+    },
+    "technical": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    },
+    "billing": {
+        "id": "",
+        "name": "",
+        "organization": "",
+        "street": "",
+        "city": "",
+        "province": "",
+        "postal_code": "",
+        "country": "",
+        "phone": "",
+        "phone_ext": "",
+        "fax": "",
+        "fax_ext": "",
+        "email": "",
+        "referral_url": ""
+    }
+}
