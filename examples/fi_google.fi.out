@@ -21,10 +21,8 @@
         "country": "United States of America",
         "phone": "+1.6502530000"
     },
-    "administrative": {},
     "technical": {
         "name": "Google LLC",
         "email": "ccops@markmonitor.com"
-    },
-    "billing": {}
+    }
 }

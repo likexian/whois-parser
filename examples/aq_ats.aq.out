@@ -5,10 +5,5 @@
         "extension": "aq",
         "status": "taken",
         "name_servers": "ns19.zoneedit.com,ns4.zoneedit.com"
-    },
-    "registrar": {},
-    "registrant": {},
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

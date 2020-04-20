@@ -40,6 +40,5 @@
         "country": "CZ",
         "phone": "+420 608920049",
         "email": "tomas@srna.net"
-    },
-    "billing": {}
+    }
 }

@@ -36,6 +36,5 @@
         "street": "Gandi, 15, place de la Nation, 75011 Paris",
         "country": "FR",
         "email": "noc@gandi.net"
-    },
-    "billing": {}
+    }
 }

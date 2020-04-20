@@ -15,9 +15,5 @@
         "country": "NZ (NEW ZEALAND)",
         "phone": "+64 4 499 2267",
         "email": "dns@catalyst.net.nz"
-    },
-    "registrant": {},
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

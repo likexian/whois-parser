@@ -8,7 +8,6 @@
         "updated_date": "25-Mar-2020",
         "expiration_date": "31-Jul-2020"
     },
-    "registrar": {},
     "registrant": {
         "organization": "Rutgers, The State University of New Jersey",
         "street": "Office of Information Technology, 96 Davidson Road, Piscataway, NJ 08854-8096, USA"
@@ -26,6 +25,5 @@
         "street": "Telecommunications Division, 96 Davidson Road, Piscataway, NJ 08854, USA",
         "phone": "+1.8484457541",
         "email": "netmanager@rutgers.edu"
-    },
-    "billing": {}
+    }
 }

@@ -16,9 +16,5 @@
         "phone": "+33 1 70393740",
         "fax": "+33 1 43731851",
         "email": "reg.nz-admin@gandi.net"
-    },
-    "registrant": {},
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

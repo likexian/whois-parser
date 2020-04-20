@@ -50,6 +50,5 @@
         "country": "US",
         "phone": "+1.6502530000",
         "email": "dns-admin@google.com"
-    },
-    "billing": {}
+    }
 }

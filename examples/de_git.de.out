@@ -6,10 +6,5 @@
         "status": "connect",
         "name_servers": "ns1.webcoding24.com,ns2.webcoding24.com,ns3.webcoding24.com",
         "updated_date": "2008-10-22T11:33:44+02:00"
-    },
-    "registrar": {},
-    "registrant": {},
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

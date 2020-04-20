@@ -8,7 +8,6 @@
         "created_date": "2014-09-04",
         "updated_date": "2019-07-02"
     },
-    "registrar": {},
     "registrant": {
         "organization": "Charleston Road Registry Inc.",
         "street": "1600 Amphitheatre Parkway, Mountain View, CA 94043, United States"
@@ -28,6 +27,5 @@
         "phone": "1 212 565 2633",
         "fax": "1 650 492 5631",
         "email": "crr-tech@google.com"
-    },
-    "billing": {}
+    }
 }

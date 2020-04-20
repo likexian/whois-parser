@@ -9,7 +9,6 @@
         "updated_date": "2017/06/01 01:05:09 (JST)",
         "expiration_date": "2018/05/31"
     },
-    "registrar": {},
     "registrant": {
         "name": "Google Inc."
     },
@@ -20,7 +19,5 @@
         "phone": "16502530000",
         "fax": "16502530001",
         "email": "dns-admin@google.com"
-    },
-    "technical": {},
-    "billing": {}
+    }
 }

@@ -9,7 +9,6 @@
         "updated_date": "2019/06/01 04:52:02 (JST)",
         "expiration_date": "2020/05/31"
     },
-    "registrar": {},
     "registrant": {
         "name": "GIT Co.,Ltd"
     },
@@ -20,7 +19,5 @@
         "phone": "03-3586-2351",
         "fax": "03-3582-3175",
         "email": "shiozawa@git.jp"
-    },
-    "technical": {},
-    "billing": {}
+    }
 }

@@ -55,6 +55,5 @@
         "phone": "REDACTED FOR PRIVACY",
         "fax": "REDACTED FOR PRIVACY",
         "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
-    },
-    "billing": {}
+    }
 }

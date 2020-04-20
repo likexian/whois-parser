@@ -21,8 +21,5 @@
     "registrant": {
         "organization": "Sagan Limited",
         "country": "SC"
-    },
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

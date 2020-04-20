@@ -16,7 +16,5 @@
     },
     "administrative": {
         "name": "https://relcom.host"
-    },
-    "technical": {},
-    "billing": {}
+    }
 }

@@ -17,10 +17,8 @@
         "country": "China (CN)",
         "email": "b@bzizi.com"
     },
-    "administrative": {},
     "technical": {
         "name": "JACK BI",
         "organization": "JACK BI"
-    },
-    "billing": {}
+    }
 }

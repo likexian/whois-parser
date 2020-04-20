@@ -15,11 +15,9 @@
         "organization": "SWITCH",
         "street": "Werdstrasse 2, Postfach, CH-8021 Zurich, Switzerland"
     },
-    "administrative": {},
     "technical": {
         "name": "DNS Operation",
         "organization": "SWITCH",
         "street": "Werdstrasse 2, P.O. Box, CH-8021 Zurich, Switzerland"
-    },
-    "billing": {}
+    }
 }

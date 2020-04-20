@@ -20,8 +20,5 @@
         "organization": "shanghai guangda",
         "province": "SH",
         "country": "CN"
-    },
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

@@ -56,6 +56,5 @@
         "phone": "+1.6502530000",
         "fax": "+1.6502530001",
         "email": "dns-admin@google.com"
-    },
-    "billing": {}
+    }
 }

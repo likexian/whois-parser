@@ -21,12 +21,12 @@ package whoisparser
 
 // WhoisInfo storing domain whois info
 type WhoisInfo struct {
-	Domain         Domain  `json:"domain"`
-	Registrar      Contact `json:"registrar"`
-	Registrant     Contact `json:"registrant"`
-	Administrative Contact `json:"administrative"`
-	Technical      Contact `json:"technical"`
-	Billing        Contact `json:"billing"`
+	Domain         *Domain  `json:"domain,omitempty"`
+	Registrar      *Contact `json:"registrar,omitempty"`
+	Registrant     *Contact `json:"registrant,omitempty"`
+	Administrative *Contact `json:"administrative,omitempty"`
+	Technical      *Contact `json:"technical,omitempty"`
+	Billing        *Contact `json:"billing,omitempty"`
 }
 
 // Domain storing domain name info

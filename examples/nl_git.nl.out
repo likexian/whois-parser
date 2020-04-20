@@ -10,9 +10,5 @@
     "registrar": {
         "name": "Realtime Register",
         "street": "Ceintuurbaan 32a, 8024AA ZWOLLE, Netherlands"
-    },
-    "registrant": {},
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

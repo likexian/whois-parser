@@ -12,9 +12,5 @@
     "registrar": {
         "name": "NShost SRL",
         "referral_url": "www.nshost.ro"
-    },
-    "registrant": {},
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

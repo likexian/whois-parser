@@ -12,10 +12,8 @@
     "registrant": {
         "name": "NOT DISCLOSED!"
     },
-    "administrative": {},
     "technical": {
         "organization": "Frankcom IT Service",
         "email": "info@frankcom.info"
-    },
-    "billing": {}
+    }
 }

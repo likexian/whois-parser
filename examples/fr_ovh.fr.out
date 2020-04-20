@@ -42,6 +42,5 @@
         "country": "FR",
         "phone": "+33 8 99 70 17 61",
         "email": "tech@ovh.net"
-    },
-    "billing": {}
+    }
 }

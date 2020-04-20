@@ -17,10 +17,8 @@
         "id": "MMR-122026",
         "name": "Google INC"
     },
-    "administrative": {},
     "technical": {
         "id": "MMR-87489",
         "name": "DNS Admin"
-    },
-    "billing": {}
+    }
 }

@@ -5,10 +5,5 @@
         "extension": "hm",
         "status": "taken",
         "name_servers": "ns.udag.de,ns.udag.net,ns.udag.org"
-    },
-    "registrar": {},
-    "registrant": {},
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

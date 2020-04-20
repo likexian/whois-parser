@@ -16,7 +16,5 @@
     },
     "administrative": {
         "name": "https://www.nic.ru/whois"
-    },
-    "technical": {},
-    "billing": {}
+    }
 }

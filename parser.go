@@ -36,7 +36,7 @@ var (
 
 // Version returns package version
 func Version() string {
-	return "1.11.0"
+	return "1.12.0"
 }
 
 // Author returns package author
@@ -166,12 +166,29 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 	domain.NameServers = RemoveDuplicateField(domain.NameServers)
 	domain.Status = RemoveDuplicateField(domain.Status)
 
-	whoisInfo.Domain = domain
-	whoisInfo.Registrar = registrar
-	whoisInfo.Registrant = registrant
-	whoisInfo.Administrative = administrative
-	whoisInfo.Technical = technical
-	whoisInfo.Billing = billing
+	if domain != (Domain{}) {
+		whoisInfo.Domain = &domain
+	}
+
+	if registrar != (Contact{}) {
+		whoisInfo.Registrar = &registrar
+	}
+
+	if registrant != (Contact{}) {
+		whoisInfo.Registrant = &registrant
+	}
+
+	if administrative != (Contact{}) {
+		whoisInfo.Administrative = &administrative
+	}
+
+	if technical != (Contact{}) {
+		whoisInfo.Technical = &technical
+	}
+
+	if billing != (Contact{}) {
+		whoisInfo.Billing = &billing
+	}
 
 	return
 }

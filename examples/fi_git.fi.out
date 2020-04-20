@@ -20,8 +20,5 @@
         "street": "Visiokatu 1, 33720, Tampere",
         "country": "Finland",
         "phone": "+358291707007"
-    },
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

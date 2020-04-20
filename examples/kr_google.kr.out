@@ -21,7 +21,5 @@
         "name": "Domain Administrator",
         "phone": "82.25319000",
         "email": "dns-admin@google.com"
-    },
-    "technical": {},
-    "billing": {}
+    }
 }

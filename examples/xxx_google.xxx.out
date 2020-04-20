@@ -20,8 +20,5 @@
         "organization": "Google Inc.",
         "province": "CA",
         "country": "US"
-    },
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

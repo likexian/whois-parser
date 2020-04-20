@@ -12,9 +12,5 @@
     "registrar": {
         "name": "123-Reg Limited t/a 123-reg [Tag = 123-REG]",
         "referral_url": "http://www.123-reg.co.uk"
-    },
-    "registrant": {},
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

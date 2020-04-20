@@ -7,7 +7,6 @@
         "created_date": "1996-08-23",
         "updated_date": "2009-03-19"
     },
-    "registrar": {},
     "registrant": {
         "organization": "European Space Agency (ESA)",
         "street": "8-10, Rue Mario Nikis, Paris N/A 75738 Paris Cedex 15, France"
@@ -25,6 +24,5 @@
         "street": "Via Galileo Galilei, snr, Frascati  I-00044, Italy",
         "phone": "+39 06 941 80 205",
         "email": "esanoc@esa.int"
-    },
-    "billing": {}
+    }
 }

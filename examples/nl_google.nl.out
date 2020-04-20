@@ -10,9 +10,5 @@
     "registrar": {
         "name": "MarkMonitor Inc.",
         "street": "3540 East Longwing Lane, Suite 300, 83646 Meridian, United States of America"
-    },
-    "registrant": {},
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

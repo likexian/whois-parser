@@ -13,8 +13,5 @@
     "registrant": {
         "name": "Simmy Wang",
         "email": "simmy.wang@gmail.com"
-    },
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

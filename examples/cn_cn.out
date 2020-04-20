@@ -8,7 +8,6 @@
         "created_date": "1990-11-28",
         "updated_date": "2018-03-01"
     },
-    "registrar": {},
     "registrant": {
         "organization": "China Internet Network Information Center (CNNIC)",
         "street": "No. 4, South 4th Street, Zhong Guan Cun, Beijing  100190, China"
@@ -28,6 +27,5 @@
         "phone": "+8610-58813202",
         "fax": "+8610-58812666",
         "email": "tech@cnnic.cn"
-    },
-    "billing": {}
+    }
 }

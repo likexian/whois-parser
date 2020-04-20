@@ -17,8 +17,5 @@
         "id": "rs-30406",
         "name": "Apple Inc.",
         "email": "domains@apple.com"
-    },
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

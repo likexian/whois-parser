@@ -19,8 +19,5 @@
         "organization": "See PrivacyGuardian.org",
         "province": "AZ",
         "country": "US"
-    },
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

@@ -5,10 +5,5 @@
         "extension": "hm",
         "status": "taken",
         "name_servers": "ns4.zoneedit.com,ns5.zoneedit.com"
-    },
-    "registrar": {},
-    "registrant": {},
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

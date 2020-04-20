@@ -19,10 +19,8 @@
         "id": "OTHER GOVAU-DESI1000",
         "name": "Australian Communications and Media Authority (ACMA)"
     },
-    "administrative": {},
     "technical": {
         "id": "GOVAU-DESI1001",
         "name": "Nathan Penhaligon"
-    },
-    "billing": {}
+    }
 }

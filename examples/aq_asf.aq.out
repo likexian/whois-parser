@@ -5,10 +5,5 @@
         "extension": "aq",
         "status": "taken",
         "name_servers": "ns1.aad.gov.au,ns1.aarnet.net.au"
-    },
-    "registrar": {},
-    "registrant": {},
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

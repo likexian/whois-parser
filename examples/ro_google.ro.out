@@ -12,9 +12,5 @@
     "registrar": {
         "name": "MarkMonitor Inc.",
         "referral_url": "www.markmonitor.com"
-    },
-    "registrant": {},
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

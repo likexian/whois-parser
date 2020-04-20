@@ -32,8 +32,5 @@
         "phone": "Redacted | EU Registrar",
         "fax": "Redacted | EU Registrar",
         "email": "redacted | eu registrar"
-    },
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

@@ -8,7 +8,6 @@
         "updated_date": "08-Jan-2019",
         "expiration_date": "31-Jul-2021"
     },
-    "registrar": {},
     "registrant": {
         "organization": "Shanghai National Accounting Institute",
         "street": "200 Panlong Rd,xu jin,Qing pu zone, Shanghai, SH 201702, China"
@@ -26,6 +25,5 @@
         "street": "200 Panlong Rd,xu jin,Qing pu zone, Shanghai, SH 201702, China",
         "phone": "+86.0216976800068096",
         "email": "kindong@snai.edu"
-    },
-    "billing": {}
+    }
 }

@@ -4,10 +4,5 @@
         "name": "fda",
         "extension": "gov",
         "status": "active"
-    },
-    "registrar": {},
-    "registrant": {},
-    "administrative": {},
-    "technical": {},
-    "billing": {}
+    }
 }

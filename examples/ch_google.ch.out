@@ -15,11 +15,9 @@
         "organization": "Google LLC",
         "street": "1600 Amphitheatre Parkway, US-94043 Mountain View, United States"
     },
-    "administrative": {},
     "technical": {
         "name": "Domain Administrator",
         "organization": "Google LLC",
         "street": "1600 Amphitheatre Parkway, US-94043 Mountain View, United States"
-    },
-    "billing": {}
+    }
 }

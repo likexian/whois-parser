@@ -7,7 +7,6 @@
         "created_date": "2001-09-10",
         "updated_date": "2019-02-21"
     },
-    "registrar": {},
     "registrant": {
         "organization": "World Trade Organization",
         "street": "Palais des Nations, c/o UNICC, Geneva 10  1211, Switzerland"
@@ -25,6 +24,5 @@
         "phone": "+41 22 929 1411",
         "fax": "+41 22 929 1412",
         "email": "ns-tech@unicc.org"
-    },
-    "billing": {}
+    }
 }
