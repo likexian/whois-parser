@@ -36,7 +36,7 @@ var (
 
 // Version returns package version
 func Version() string {
-	return "1.12.0"
+	return "1.12.1"
 }
 
 // Author returns package author
@@ -62,12 +62,12 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		return
 	}
 
-	var domain Domain
-	var registrar Contact
-	var registrant Contact
-	var administrative Contact
-	var technical Contact
-	var billing Contact
+	domain := &Domain{}
+	registrar := &Contact{}
+	registrant := &Contact{}
+	administrative := &Contact{}
+	technical := &Contact{}
+	billing := &Contact{}
 
 	domain.Name = name
 	domain.Extension = extension
@@ -147,15 +147,15 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 			ns := strings.SplitN(name, " ", 2)
 			name = strings.TrimSpace("registrant " + ns[1])
 			if ns[0] == "registrar" || ns[0] == "registration" {
-				registrar = parseContact(registrar, name, value)
+				parseContact(registrar, name, value)
 			} else if ns[0] == "registrant" || ns[0] == "holder" {
-				registrant = parseContact(registrant, name, value)
+				parseContact(registrant, name, value)
 			} else if ns[0] == "admin" || ns[0] == "administrative" {
-				administrative = parseContact(administrative, name, value)
+				parseContact(administrative, name, value)
 			} else if ns[0] == "tech" || ns[0] == "technical" {
-				technical = parseContact(technical, name, value)
+				parseContact(technical, name, value)
 			} else if ns[0] == "bill" || ns[0] == "billing" {
-				billing = parseContact(billing, name, value)
+				parseContact(billing, name, value)
 			}
 		}
 	}
@@ -166,38 +166,36 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 	domain.NameServers = RemoveDuplicateField(domain.NameServers)
 	domain.Status = RemoveDuplicateField(domain.Status)
 
-	if domain != (Domain{}) {
-		whoisInfo.Domain = &domain
+	if *domain != (Domain{}) {
+		whoisInfo.Domain = domain
 	}
 
-	if registrar != (Contact{}) {
-		whoisInfo.Registrar = &registrar
+	if *registrar != (Contact{}) {
+		whoisInfo.Registrar = registrar
 	}
 
-	if registrant != (Contact{}) {
-		whoisInfo.Registrant = &registrant
+	if *registrant != (Contact{}) {
+		whoisInfo.Registrant = registrant
 	}
 
-	if administrative != (Contact{}) {
-		whoisInfo.Administrative = &administrative
+	if *administrative != (Contact{}) {
+		whoisInfo.Administrative = administrative
 	}
 
-	if technical != (Contact{}) {
-		whoisInfo.Technical = &technical
+	if *technical != (Contact{}) {
+		whoisInfo.Technical = technical
 	}
 
-	if billing != (Contact{}) {
-		whoisInfo.Billing = &billing
+	if *billing != (Contact{}) {
+		whoisInfo.Billing = billing
 	}
 
 	return
 }
 
 // parseContact do parse contact info
-func parseContact(contact Contact, name, value string) Contact {
-	keyName := FindKeyName(name)
-
-	switch keyName {
+func parseContact(contact *Contact, name, value string) {
+	switch FindKeyName(name) {
 	case "registrant_id":
 		contact.ID = value
 	case "registrant_name":
@@ -229,8 +227,6 @@ func parseContact(contact Contact, name, value string) Contact {
 	case "registrant_email":
 		contact.Email = strings.ToLower(value)
 	}
-
-	return contact
 }
 
 // searchDomain find domain from whois info
