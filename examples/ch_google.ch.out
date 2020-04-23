@@ -3,7 +3,6 @@
         "domain": "google.ch",
         "name": "google",
         "extension": "ch",
-        "dnssec": "no",
         "name_servers": [
             "ns1.google.com",
             "ns2.google.com",

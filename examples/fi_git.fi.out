@@ -6,7 +6,6 @@
         "status": [
             "registered"
         ],
-        "dnssec": "no",
         "name_servers": [
             "ns-1453.awsdns-53.org",
             "ns-535.awsdns-02.net",

@@ -7,7 +7,6 @@
         "status": [
             "clienttransferprohibited"
         ],
-        "dnssec": "unsigned",
         "name_servers": [
             "bob.ns.cloudflare.com",
             "ivy.ns.cloudflare.com"

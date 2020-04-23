@@ -4,11 +4,10 @@
         "domain": "github.org",
         "name": "github",
         "extension": "org",
+        "whois_server": "WHOIS.ENOM.COM",
         "status": [
             "clienttransferprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "WHOIS.ENOM.COM",
         "name_servers": [
             "ns1.dnsimple.com",
             "ns2.dnsimple.com",

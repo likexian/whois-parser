@@ -6,7 +6,6 @@
         "status": [
             "200"
         ],
-        "dnssec": "no",
         "name_servers": [
             "ns3.catalyst.net.nz",
             "ns4.catalyst.net.nz",

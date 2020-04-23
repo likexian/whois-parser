@@ -4,14 +4,13 @@
         "domain": "GIT.CO",
         "name": "git",
         "extension": "co",
+        "whois_server": "whois.godaddy.com",
         "status": [
             "clienttransferprohibited",
             "clientupdateprohibited",
             "clientrenewprohibited",
             "clientdeleteprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.godaddy.com",
         "name_servers": [
             "dns1.stabletransit.com",
             "dns2.stabletransit.com"

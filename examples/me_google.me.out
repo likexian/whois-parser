@@ -12,7 +12,6 @@
             "servertransferprohibited",
             "serverupdateprohibited"
         ],
-        "dnssec": "unsigned",
         "name_servers": [
             "ns1.google.com",
             "ns2.google.com",

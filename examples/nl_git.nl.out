@@ -6,12 +6,12 @@
         "status": [
             "active"
         ],
-        "dnssec": "yes",
         "name_servers": [
             "ns5.firstfind.net",
             "ns4.firstfind.nl",
             "ns3.firstfind.nl"
-        ]
+        ],
+        "dnssec": true
     },
     "registrar": {
         "name": "Realtime Register",

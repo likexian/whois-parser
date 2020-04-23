@@ -4,13 +4,12 @@
         "domain": "msn.tv",
         "name": "msn",
         "extension": "tv",
+        "whois_server": "whois.markmonitor.com",
         "status": [
             "clientupdateprohibited",
             "clienttransferprohibited",
             "clientdeleteprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.markmonitor.com",
         "name_servers": [
             "ns4-09.azure-dns.info",
             "ns2-09.azure-dns.net",

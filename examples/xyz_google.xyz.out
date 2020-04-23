@@ -4,13 +4,12 @@
         "domain": "google.xyz",
         "name": "google",
         "extension": "xyz",
+        "whois_server": "whois.markmonitor.com",
         "status": [
             "clientupdateprohibited",
             "clienttransferprohibited",
             "clientdeleteprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.markmonitor.com",
         "name_servers": [
             "ns3.google.com",
             "ns1.google.com",

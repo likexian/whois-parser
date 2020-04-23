@@ -8,7 +8,6 @@
             "servertransferprohibited",
             "transferperiod"
         ],
-        "dnssec": "unsigned",
         "name_servers": [
             "ns1.eurodns.com",
             "ns2.eurodns.com",

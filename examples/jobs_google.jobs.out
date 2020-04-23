@@ -4,13 +4,12 @@
         "domain": "GOOGLE.JOBS",
         "name": "google",
         "extension": "jobs",
+        "whois_server": "whois.markmonitor.com",
         "status": [
             "clientdeleteprohibited",
             "clienttransferprohibited",
             "clientupdateprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.markmonitor.com",
         "name_servers": [
             "ns1.google.com",
             "ns2.google.com"

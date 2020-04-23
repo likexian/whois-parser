@@ -6,7 +6,6 @@
         "status": [
             "clienttransferprohibited"
         ],
-        "dnssec": "unsigned",
         "name_servers": [
             "ns1.parkingcrew.net",
             "ns2.parkingcrew.net"

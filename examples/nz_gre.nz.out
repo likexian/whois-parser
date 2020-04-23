@@ -6,7 +6,6 @@
         "status": [
             "200"
         ],
-        "dnssec": "no",
         "name_servers": [
             "ns-196-c.gandi.net",
             "ns-110-a.gandi.net",

@@ -11,7 +11,6 @@
             "clientupdateprohibited",
             "autorenewperiod"
         ],
-        "dnssec": "unsigned",
         "name_servers": [
             "ns-1780.awsdns-30.co.uk",
             "ns-462.awsdns-57.com",

@@ -4,12 +4,11 @@
         "domain": "git.cx",
         "name": "git",
         "extension": "cx",
+        "whois_server": "whois.coccaregistry.org",
         "status": [
             "clienttransferprohibited",
             "clientdeleteprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.coccaregistry.org",
         "name_servers": [
             "dns100.ovh.net",
             "ns100.ovh.net"

@@ -6,7 +6,6 @@
         "status": [
             "ok"
         ],
-        "dnssec": "Inactive",
         "name_servers": [
             "a.ns.ro",
             "b.ns.ro"

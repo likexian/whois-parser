@@ -4,11 +4,10 @@
         "domain": "otto.top",
         "name": "otto",
         "extension": "top",
+        "whois_server": "whois.rrpproxy.net",
         "status": [
             "clienttransferprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.rrpproxy.net",
         "name_servers": [
             "ns1.p20.dynect.net",
             "ns2.p20.dynect.net",

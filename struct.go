@@ -35,10 +35,10 @@ type Domain struct {
 	Domain         string   `json:"domain,omitempty"`
 	Name           string   `json:"name,omitempty"`
 	Extension      string   `json:"extension,omitempty"`
-	Status         []string `json:"status,omitempty"`
-	DNSSEC         string   `json:"dnssec,omitempty"`
 	WhoisServer    string   `json:"whois_server,omitempty"`
+	Status         []string `json:"status,omitempty"`
 	NameServers    []string `json:"name_servers,omitempty"`
+	DnsSec         bool     `json:"dnssec,omitempty"`
 	CreatedDate    string   `json:"created_date,omitempty"`
 	UpdatedDate    string   `json:"updated_date,omitempty"`
 	ExpirationDate string   `json:"expiration_date,omitempty"`

@@ -4,13 +4,12 @@
         "domain": "google.top",
         "name": "google",
         "extension": "top",
+        "whois_server": "whois.markmonitor.com",
         "status": [
             "clientupdateprohibited",
             "clienttransferprohibited",
             "clientdeleteprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.markmonitor.com",
         "name_servers": [
             "ns4.google.com",
             "ns2.google.com",

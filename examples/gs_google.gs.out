@@ -4,6 +4,7 @@
         "domain": "google.gs",
         "name": "google",
         "extension": "gs",
+        "whois_server": "whois.coccaregistry.org",
         "status": [
             "serverupdateprohibited",
             "servertransferprohibited",
@@ -12,8 +13,6 @@
             "clienttransferprohibited",
             "clientdeleteprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.coccaregistry.org",
         "name_servers": [
             "ns1.google.com",
             "ns2.google.com"

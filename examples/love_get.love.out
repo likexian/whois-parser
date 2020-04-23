@@ -4,11 +4,10 @@
         "domain": "GET.LOVE",
         "name": "get",
         "extension": "love",
+        "whois_server": "whois.nic.love",
         "status": [
             "ok"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.nic.love",
         "name_servers": [
             "ns01.merchantlaw.com",
             "ns02.merchantlaw.com"

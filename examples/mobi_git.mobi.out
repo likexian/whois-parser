@@ -4,12 +4,11 @@
         "domain": "git.mobi",
         "name": "git",
         "extension": "mobi",
+        "whois_server": "whois.Rebel.com",
         "status": [
             "client_transfer_prohibited",
             "client_update_prohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.Rebel.com",
         "name_servers": [
             "ns1.parklogic.com",
             "ns2.parklogic.com"

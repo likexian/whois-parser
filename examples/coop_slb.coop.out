@@ -4,11 +4,10 @@
         "domain": "SLB.COOP",
         "name": "slb",
         "extension": "coop",
+        "whois_server": "whois.gandi.net",
         "status": [
             "clienttransferprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.gandi.net",
         "name_servers": [
             "ns-27-a.gandi.net",
             "ns-138-b.gandi.net",

@@ -7,7 +7,6 @@
         "status": [
             "clienttransferprohibited"
         ],
-        "dnssec": "unsigned",
         "name_servers": [
             "ns.inwx.de",
             "ns2.inwx.de",

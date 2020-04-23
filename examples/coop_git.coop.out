@@ -4,11 +4,10 @@
         "domain": "GIT.COOP",
         "name": "git",
         "extension": "coop",
+        "whois_server": "whois.gandi.net",
         "status": [
             "clienttransferprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.gandi.net",
         "name_servers": [
             "dns1.webarchitects.co.uk",
             "dns0.webarchitects.co.uk",

@@ -4,13 +4,12 @@
         "domain": "google.ai",
         "name": "google",
         "extension": "ai",
+        "whois_server": "whois.nic.ai",
         "status": [
             "clientdeleteprohibited",
             "clienttransferprohibited",
             "clientupdateprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.nic.ai",
         "name_servers": [
             "ns3.zdns.google",
             "ns4.zdns.google",

@@ -4,13 +4,12 @@
         "domain": "google.sexy",
         "name": "google",
         "extension": "sexy",
+        "whois_server": "whois.markmonitor.com",
         "status": [
             "clientupdateprohibited",
             "clienttransferprohibited",
             "clientdeleteprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.markmonitor.com",
         "name_servers": [
             "ns4.googledomains.com",
             "ns2.googledomains.com",

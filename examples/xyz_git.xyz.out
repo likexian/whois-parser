@@ -4,15 +4,15 @@
         "domain": "git.xyz",
         "name": "git",
         "extension": "xyz",
+        "whois_server": "whois.west.cn",
         "status": [
             "ok"
         ],
-        "dnssec": "signedDelegation",
-        "whois_server": "whois.west.cn",
         "name_servers": [
             "ns1.myhostadmin.net",
             "ns2.myhostadmin.net"
         ],
+        "dnssec": true,
         "created_date": "2017-01-19T02:15:20.0Z",
         "updated_date": "2017-01-19T02:15:20.0Z",
         "expiration_date": "2020-01-19T23:59:59.0Z"

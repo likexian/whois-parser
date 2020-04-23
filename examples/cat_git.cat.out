@@ -4,11 +4,10 @@
         "domain": "git.cat",
         "name": "git",
         "extension": "cat",
+        "whois_server": "whois.gandi.net",
         "status": [
             "clienttransferprohibited"
         ],
-        "dnssec": "Unsigned",
-        "whois_server": "whois.gandi.net",
         "name_servers": [
             "ns1.smartgslb.com",
             "ns2.smartgslb.com"

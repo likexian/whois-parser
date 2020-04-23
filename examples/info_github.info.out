@@ -4,14 +4,13 @@
         "domain": "GITHUB.INFO",
         "name": "github",
         "extension": "info",
+        "whois_server": "whois.godaddy.com",
         "status": [
             "clienttransferprohibited",
             "clientupdateprohibited",
             "clientrenewprohibited",
             "clientdeleteprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.godaddy.com",
         "name_servers": [
             "ns.romania-webhosting.com",
             "ns.clausweb.ro",

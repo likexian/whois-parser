@@ -4,13 +4,12 @@
         "domain": "google.pro",
         "name": "google",
         "extension": "pro",
+        "whois_server": "whois.markmonitor.com",
         "status": [
             "clientupdateprohibited",
             "clienttransferprohibited",
             "clientdeleteprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.markmonitor.com",
         "name_servers": [
             "ns1.google.com",
             "ns2.google.com"

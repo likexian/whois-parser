@@ -3,12 +3,12 @@
         "domain": "switch.ch",
         "name": "switch",
         "extension": "ch",
-        "dnssec": "yes",
         "name_servers": [
             "ns2.switch.ch",
             "ns3.switch.ch",
             "scsnms.switch.ch"
         ],
+        "dnssec": true,
         "created_date": "before 01 January 1996"
     },
     "registrar": {

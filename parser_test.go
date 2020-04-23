@@ -103,9 +103,10 @@ func TestWhoisParser(t *testing.T) {
 			assert.NotZero(t, whoisInfo.Domain.Status)
 		}
 
-		if !assert.IsContains([]string{"", "aq", "br", "de", "edu", "eu", "fr", "gov", "hm", "int",
-			"jp", "mo", "name", "pm", "re", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt", "ir"}, extension) {
-			assert.NotZero(t, whoisInfo.Domain.DNSSEC)
+		if assert.IsContains([]string{"git.nl", "git.wf", "switch.ch", "git.xyz"}, domain) {
+			assert.True(t, whoisInfo.Domain.DnsSec)
+		} else {
+			assert.False(t, whoisInfo.Domain.DnsSec)
 		}
 
 		if !assert.IsContains([]string{"aero", "aq", "asia", "berlin", "biz", "br", "ch", "cn",

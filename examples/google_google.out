@@ -2,10 +2,10 @@
     "domain": {
         "domain": "GOOGLE",
         "name": "google",
+        "whois_server": "whois.nic.google",
         "status": [
             "active"
         ],
-        "whois_server": "whois.nic.google",
         "name_servers": [
             "ns-tld1.charlestonroadregistry.com",
             "ns-tld2.charlestonroadregistry.com",

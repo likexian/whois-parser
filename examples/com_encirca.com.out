@@ -4,12 +4,11 @@
         "domain": "ENCIRCA.COM",
         "name": "encirca",
         "extension": "com",
+        "whois_server": "whois.encirca.com",
         "status": [
             "clienttransferprohibited",
             "clientdeleteprohibited"
         ],
-        "dnssec": "Unsigned",
-        "whois_server": "whois.encirca.com",
         "name_servers": [
             "dns3.encirca.com",
             "dns4.encirca.com"

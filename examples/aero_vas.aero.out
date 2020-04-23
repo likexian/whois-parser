@@ -7,7 +7,6 @@
         "status": [
             "clienttransferprohibited"
         ],
-        "dnssec": "unsigned",
         "name_servers": [
             "ns1.clt.peak-10.com",
             "ns1.jax.peak-10.com"

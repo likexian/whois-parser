@@ -3,6 +3,7 @@
         "domain": "google.tv",
         "name": "google",
         "extension": "tv",
+        "whois_server": "whois.markmonitor.com",
         "status": [
             "clientupdateprohibited",
             "clienttransferprohibited",
@@ -11,8 +12,6 @@
             "servertransferprohibited",
             "serverdeleteprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.markmonitor.com",
         "name_servers": [
             "ns1.google.com",
             "ns3.google.com",

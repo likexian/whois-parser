@@ -4,13 +4,12 @@
         "domain": "gandi.net",
         "name": "gandi",
         "extension": "net",
+        "whois_server": "whois.gandi.net",
         "status": [
             "clientupdateprohibited",
             "clientdeleteprohibited",
             "clienttransferprohibited"
         ],
-        "dnssec": "Unsigned",
-        "whois_server": "whois.gandi.net",
         "name_servers": [
             "dns0.gandi.net",
             "dns1.gandi.net",

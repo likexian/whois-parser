@@ -4,13 +4,12 @@
         "domain": "IODP.LOVE",
         "name": "iodp",
         "extension": "love",
+        "whois_server": "whois.meshdigital.com",
         "status": [
             "clienttransferprohibited",
             "clientupdateprohibited",
             "clientdeleteprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.meshdigital.com",
         "name_servers": [
             "ns1.esm1066.sgded.com",
             "ns2.esm1066.sgded.com"

@@ -56,6 +56,16 @@ func IsLimitExceeded(data string) bool {
 	return strings.Contains(data, "limit exceeded")
 }
 
+// IsDnsSecEnabled returns dnssec is enabled
+func IsDnsSecEnabled(data string) bool {
+	switch strings.ToLower(data) {
+	case "yes", "active", "signed", "signeddelegation":
+		return true
+	default:
+		return false
+	}
+}
+
 // ClearName returns cleared key name
 func ClearName(key string) string {
 	if strings.Contains(key, "(") {

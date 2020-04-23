@@ -4,11 +4,10 @@
         "domain": "golang.io",
         "name": "golang",
         "extension": "io",
+        "whois_server": "whois.gandi.net",
         "status": [
             "clienttransferprohibited"
         ],
-        "dnssec": "Unsigned",
-        "whois_server": "whois.gandi.net",
         "name_servers": [
             "dns103.ovh.net",
             "ns103.ovh.net"

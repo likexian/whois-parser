@@ -10,7 +10,6 @@
             "clienttransferprohibited",
             "servertransferprohibited"
         ],
-        "dnssec": "unsigned",
         "name_servers": [
             "a.ns.apple.com",
             "b.ns.apple.com",

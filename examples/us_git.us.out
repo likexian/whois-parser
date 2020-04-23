@@ -4,14 +4,13 @@
         "domain": "git.us",
         "name": "git",
         "extension": "us",
+        "whois_server": "whois.godaddy.com",
         "status": [
             "clienttransferprohibited",
             "clientupdateprohibited",
             "clientrenewprohibited",
             "clientdeleteprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.godaddy.com",
         "name_servers": [
             "ns1.namefind.com",
             "ns2.namefind.com"

@@ -7,7 +7,6 @@
         "status": [
             "clienttransferprohibited"
         ],
-        "dnssec": "unsigned",
         "name_servers": [
             "ns-1232.awsdns-26.org",
             "ns-1962.awsdns-53.co.uk",

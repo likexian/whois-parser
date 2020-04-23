@@ -4,6 +4,7 @@
         "domain": "GOOGLE.COM.AU",
         "name": "google.com",
         "extension": "au",
+        "whois_server": "whois.auda.org.au",
         "status": [
             "clientdeleteprohibited",
             "clientupdateprohibited",
@@ -11,8 +12,6 @@
             "serverrenewprohibited",
             "serverupdateprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.auda.org.au",
         "name_servers": [
             "ns1.google.com",
             "ns2.google.com",

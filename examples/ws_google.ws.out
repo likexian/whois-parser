@@ -4,13 +4,12 @@
         "domain": "GOOGLE.WS",
         "name": "google",
         "extension": "ws",
+        "whois_server": "whois.markmonitor.com",
         "status": [
             "clienttransferprohibited",
             "clientdeleteprohibited",
             "clientupdateprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.markmonitor.com",
         "name_servers": [
             "ns1.google.com",
             "ns2.google.com",

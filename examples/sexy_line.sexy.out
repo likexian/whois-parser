@@ -4,11 +4,10 @@
         "domain": "line.sexy",
         "name": "line",
         "extension": "sexy",
+        "whois_server": "whois.sawbuck.com",
         "status": [
             "clienttransferprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.sawbuck.com",
         "name_servers": [
             "ns1.wordpress.com",
             "ns2.wordpress.com",

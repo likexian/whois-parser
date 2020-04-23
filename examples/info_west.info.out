@@ -4,11 +4,10 @@
         "domain": "west.info",
         "name": "west",
         "extension": "info",
+        "whois_server": "whois.psi-usa.info",
         "status": [
             "clienttransferprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.psi-usa.info",
         "name_servers": [
             "dns1.ipmanagerinc.net",
             "dns2.ipmanagerinc.net",

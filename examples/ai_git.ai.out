@@ -4,11 +4,10 @@
         "domain": "git.ai",
         "name": "git",
         "extension": "ai",
+        "whois_server": "whois.nic.ai",
         "status": [
             "ok"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.nic.ai",
         "name_servers": [
             "ns2.onlydomains.com",
             "ns1.onlydomains.com"

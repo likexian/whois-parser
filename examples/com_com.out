@@ -2,10 +2,10 @@
     "domain": {
         "domain": "COM",
         "name": "com",
+        "whois_server": "whois.verisign-grs.com",
         "status": [
             "active"
         ],
-        "whois_server": "whois.verisign-grs.com",
         "name_servers": [
             "a.gtld-servers.net",
             "b.gtld-servers.net",

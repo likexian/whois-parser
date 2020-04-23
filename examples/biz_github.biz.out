@@ -9,7 +9,6 @@
             "clienttransferprohibited",
             "clientdeleteprohibited"
         ],
-        "dnssec": "unsigned",
         "name_servers": [
             "ns2.p16.dynect.net",
             "ns3.p16.dynect.net",

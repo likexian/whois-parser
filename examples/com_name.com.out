@@ -4,14 +4,13 @@
         "domain": "NAME.COM",
         "name": "name",
         "extension": "com",
+        "whois_server": "whois.name.com",
         "status": [
             "clienttransferprohibited",
             "serverdeleteprohibited",
             "servertransferprohibited",
             "serverupdateprohibited"
         ],
-        "dnssec": "unSigned",
-        "whois_server": "whois.name.com",
         "name_servers": [
             "asia3.akam.net",
             "usw5.akam.net",

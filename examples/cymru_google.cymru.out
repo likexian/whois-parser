@@ -9,7 +9,6 @@
             "clienttransferprohibited",
             "clientupdateprohibited"
         ],
-        "dnssec": "unsigned",
         "name_servers": [
             "ns4.google.com",
             "ns1.google.com",

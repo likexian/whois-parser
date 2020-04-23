@@ -4,11 +4,10 @@
         "domain": "YBS.JOBS",
         "name": "ybs",
         "extension": "jobs",
+        "whois_server": "whois.enterprice.net",
         "status": [
             "ok"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.enterprice.net",
         "name_servers": [
             "ns0.ukfast.co.uk",
             "ns1.ukfast.co.uk"

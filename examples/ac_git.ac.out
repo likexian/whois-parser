@@ -4,13 +4,12 @@
         "domain": "GIT.AC",
         "name": "git",
         "extension": "ac",
+        "whois_server": "whois.porkbun.com",
         "status": [
             "clientdeleteprohibited",
             "clienttransferprohibited",
             "servertransferprohibited"
         ],
-        "dnssec": "unsignedDelegation",
-        "whois_server": "whois.porkbun.com",
         "name_servers": [
             "f1g1ns2.dnspod.net",
             "f1g1ns1.dnspod.net"

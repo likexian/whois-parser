@@ -4,11 +4,10 @@
         "domain": "DYNADOT.COM",
         "name": "dynadot",
         "extension": "com",
+        "whois_server": "whois.dynadot.com",
         "status": [
             "clienttransferprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.dynadot.com",
         "name_servers": [
             "ns1-geo.dynadot.com",
             "ns2-geo.dynadot.com"

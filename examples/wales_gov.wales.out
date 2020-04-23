@@ -7,7 +7,6 @@
         "status": [
             "clienttransferprohibited"
         ],
-        "dnssec": "unsigned",
         "name_servers": [
             "ns3.ja.net",
             "ns0.ja.net",

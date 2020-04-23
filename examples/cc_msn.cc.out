@@ -4,11 +4,10 @@
         "domain": "msn.cc",
         "name": "msn",
         "extension": "cc",
+        "whois_server": "whois.corporatedomains.com",
         "status": [
             "clienttransferprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.corporatedomains.com",
         "name_servers": [
             "ns3.msft.net",
             "ns2.msft.net",

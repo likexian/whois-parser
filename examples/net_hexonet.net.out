@@ -4,11 +4,10 @@
         "domain": "HEXONET.NET",
         "name": "hexonet",
         "extension": "net",
+        "whois_server": "whois.1api.net",
         "status": [
             "clienttransferprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.1api.net",
         "name_servers": [
             "ns1012.hexonet.net",
             "ns2012.hexonet.net",

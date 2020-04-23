@@ -3,11 +3,10 @@
         "domain": "XPLOR.TRAVEL",
         "name": "xplor",
         "extension": "travel",
+        "whois_server": "whois.encirca.com",
         "status": [
             "clienttransferprohibited"
         ],
-        "dnssec": "Unsigned",
-        "whois_server": "whois.encirca.com",
         "name_servers": [
             "ns-643.awsdns-16.net",
             "ns-1186.awsdns-20.org",

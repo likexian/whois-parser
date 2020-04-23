@@ -7,7 +7,6 @@
         "status": [
             "ok"
         ],
-        "dnssec": "unsigned",
         "name_servers": [
             "ns2.hosting.reg.ru",
             "ns1.hosting.reg.ru"

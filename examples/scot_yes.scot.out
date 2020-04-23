@@ -4,11 +4,10 @@
         "domain": "yes.scot",
         "name": "yes",
         "extension": "scot",
+        "whois_server": "whois.corehub.net",
         "status": [
             "ok"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.corehub.net",
         "name_servers": [
             "ns-656.awsdns-18.net",
             "ns-319.awsdns-39.com",

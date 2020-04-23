@@ -9,7 +9,6 @@
             "clienttransferprohibited",
             "clientdeleteprohibited"
         ],
-        "dnssec": "unsigned",
         "name_servers": [
             "ns4.markmonitor.com",
             "ns2.markmonitor.com",

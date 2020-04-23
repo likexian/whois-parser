@@ -4,11 +4,10 @@
         "domain": "GIT.COM",
         "name": "git",
         "extension": "com",
+        "whois_server": "whois.uniregistrar.net",
         "status": [
             "clienttransferprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.uniregistrar.net",
         "name_servers": [
             "ns2.venture.com",
             "ns1.venture.com"

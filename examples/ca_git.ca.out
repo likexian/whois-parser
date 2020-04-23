@@ -4,13 +4,12 @@
         "domain": "git.ca",
         "name": "git",
         "extension": "ca",
+        "whois_server": "whois.ca.fury.ca",
         "status": [
             "clientdeleteprohibited",
             "clienttransferprohibited",
             "clientupdateprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.ca.fury.ca",
         "name_servers": [
             "pdns09.domaincontrol.com",
             "pdns10.domaincontrol.com"

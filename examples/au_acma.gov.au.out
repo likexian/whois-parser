@@ -4,11 +4,10 @@
         "domain": "ACMA.GOV.AU",
         "name": "acma.gov",
         "extension": "au",
+        "whois_server": "whois.auda.org.au",
         "status": [
             "serverrenewprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.auda.org.au",
         "name_servers": [
             "dns4.sge.net",
             "dns2.sge.net",

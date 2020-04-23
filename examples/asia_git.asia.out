@@ -8,7 +8,6 @@
             "clienttransferprohibited",
             "autorenewperiod"
         ],
-        "dnssec": "unsigned",
         "name_servers": [
             "ns1.dnsowl.com",
             "ns2.dnsowl.com",

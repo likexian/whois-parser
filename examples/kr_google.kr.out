@@ -3,7 +3,6 @@
         "domain": "google.kr",
         "name": "google",
         "extension": "kr",
-        "dnssec": "unsigned",
         "name_servers": [
             "ns1.google.com",
             "ns2.google.com"

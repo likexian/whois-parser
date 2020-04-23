@@ -4,6 +4,7 @@
         "domain": "google.ca",
         "name": "google",
         "extension": "ca",
+        "whois_server": "whois.ca.fury.ca",
         "status": [
             "clientdeleteprohibited",
             "clienttransferprohibited",
@@ -12,8 +13,6 @@
             "servertransferprohibited",
             "serverupdateprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.ca.fury.ca",
         "name_servers": [
             "ns1.google.com",
             "ns2.google.com",

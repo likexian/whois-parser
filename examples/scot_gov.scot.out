@@ -4,13 +4,12 @@
         "domain": "gov.scot",
         "name": "gov",
         "extension": "scot",
+        "whois_server": "whois.demys.com",
         "status": [
             "clientdeleteprohibited",
             "clienttransferprohibited",
             "clientupdateprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.demys.com",
         "name_servers": [
             "ns3.ja.net",
             "ns2.ja.net",

@@ -4,12 +4,11 @@
         "domain": "apache.org",
         "name": "apache",
         "extension": "org",
+        "whois_server": "whois.namecheap.com",
         "status": [
             "clientdeleteprohibited",
             "clienttransferprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.namecheap.com",
         "name_servers": [
             "ns2.surfnet.nl",
             "ns3.no-ip.com",

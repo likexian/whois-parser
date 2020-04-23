@@ -4,13 +4,12 @@
         "domain": "github.pro",
         "name": "github",
         "extension": "pro",
+        "whois_server": "whois.markmonitor.com",
         "status": [
             "clientupdateprohibited",
             "clienttransferprohibited",
             "clientdeleteprohibited"
         ],
-        "dnssec": "unsigned",
-        "whois_server": "whois.markmonitor.com",
         "name_servers": [
             "ns1.p16.dynect.net",
             "ns2.p16.dynect.net",
