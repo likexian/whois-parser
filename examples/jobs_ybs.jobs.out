@@ -4,10 +4,15 @@
         "domain": "YBS.JOBS",
         "name": "ybs",
         "extension": "jobs",
-        "status": "ok",
+        "status": [
+            "ok"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.enterprice.net",
-        "name_servers": "ns0.ukfast.co.uk,ns1.ukfast.co.uk",
+        "name_servers": [
+            "ns0.ukfast.co.uk",
+            "ns1.ukfast.co.uk"
+        ],
         "created_date": "2008-11-13T12:41:59Z",
         "updated_date": "2018-01-27T12:16:12Z",
         "expiration_date": "2019-11-13T12:41:59Z"

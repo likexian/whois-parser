@@ -4,10 +4,16 @@
         "domain": "git.mobi",
         "name": "git",
         "extension": "mobi",
-        "status": "client_transfer_prohibited,client_update_prohibited",
+        "status": [
+            "client_transfer_prohibited",
+            "client_update_prohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.Rebel.com",
-        "name_servers": "ns1.parklogic.com,ns2.parklogic.com",
+        "name_servers": [
+            "ns1.parklogic.com",
+            "ns2.parklogic.com"
+        ],
         "created_date": "2015-05-19T03:25:15Z",
         "updated_date": "2019-08-25T04:21:56Z",
         "expiration_date": "2020-05-19T03:25:15Z"

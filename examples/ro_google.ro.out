@@ -3,9 +3,16 @@
         "domain": "google.ro",
         "name": "google",
         "extension": "ro",
-        "status": "updateprohibited",
+        "status": [
+            "updateprohibited"
+        ],
         "dnssec": "Inactive",
-        "name_servers": "ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com",
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns3.google.com",
+            "ns4.google.com"
+        ],
         "created_date": "2000-07-17",
         "expiration_date": "2020-09-16"
     },

@@ -4,9 +4,18 @@
         "domain": "GITHUB.ME",
         "name": "github",
         "extension": "me",
-        "status": "clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited",
+        "status": [
+            "clientdeleteprohibited",
+            "clienttransferprohibited",
+            "clientupdateprohibited"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "ns1.p16.dynect.net,ns2.p16.dynect.net,ns3.p16.dynect.net,ns4.p16.dynect.net",
+        "name_servers": [
+            "ns1.p16.dynect.net",
+            "ns2.p16.dynect.net",
+            "ns3.p16.dynect.net",
+            "ns4.p16.dynect.net"
+        ],
         "created_date": "2010-08-05T17:04:24Z",
         "updated_date": "2018-07-04T09:14:12Z",
         "expiration_date": "2020-08-05T17:04:24Z"

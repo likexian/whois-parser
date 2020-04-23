@@ -3,9 +3,17 @@
         "domain": "git.wf",
         "name": "git",
         "extension": "wf",
-        "status": "active",
+        "status": [
+            "active"
+        ],
         "dnssec": "signed",
-        "name_servers": "ns.inwx.de,ns2.inwx.de,ns3.inwx.eu,ns4.inwx.com,ns5.inwx.net",
+        "name_servers": [
+            "ns.inwx.de",
+            "ns2.inwx.de",
+            "ns3.inwx.eu",
+            "ns4.inwx.com",
+            "ns5.inwx.net"
+        ],
         "created_date": "2016-04-19T17:08:51Z",
         "updated_date": "2019-05-12T21:49:18Z",
         "expiration_date": "2019-10-19T22:07:38Z"

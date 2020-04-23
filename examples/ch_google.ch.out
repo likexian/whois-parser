@@ -4,7 +4,12 @@
         "name": "google",
         "extension": "ch",
         "dnssec": "no",
-        "name_servers": "ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com",
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns3.google.com",
+            "ns4.google.com"
+        ],
         "created_date": "31 May 1999"
     },
     "registrar": {

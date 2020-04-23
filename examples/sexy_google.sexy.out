@@ -4,10 +4,19 @@
         "domain": "google.sexy",
         "name": "google",
         "extension": "sexy",
-        "status": "clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited",
+        "status": [
+            "clientupdateprohibited",
+            "clienttransferprohibited",
+            "clientdeleteprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.markmonitor.com",
-        "name_servers": "ns4.googledomains.com,ns2.googledomains.com,ns1.googledomains.com,ns3.googledomains.com",
+        "name_servers": [
+            "ns4.googledomains.com",
+            "ns2.googledomains.com",
+            "ns1.googledomains.com",
+            "ns3.googledomains.com"
+        ],
         "created_date": "2015-01-21T12:27:25-0800",
         "updated_date": "2019-05-01T12:36:55-0700",
         "expiration_date": "2020-01-21T00:00:00-0800"

@@ -4,10 +4,17 @@
         "domain": "otto.top",
         "name": "otto",
         "extension": "top",
-        "status": "clienttransferprohibited",
+        "status": [
+            "clienttransferprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.rrpproxy.net",
-        "name_servers": "ns1.p20.dynect.net,ns2.p20.dynect.net,ns3.p20.dynect.net,ns4.p20.dynect.net",
+        "name_servers": [
+            "ns1.p20.dynect.net",
+            "ns2.p20.dynect.net",
+            "ns3.p20.dynect.net",
+            "ns4.p20.dynect.net"
+        ],
         "created_date": "2015-02-26T13:19:20Z",
         "updated_date": "2019-03-05T07:41:41Z",
         "expiration_date": "2020-02-26T13:19:20Z"

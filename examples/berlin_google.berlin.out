@@ -4,9 +4,18 @@
         "domain": "google.berlin",
         "name": "google",
         "extension": "berlin",
-        "status": "clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited",
+        "status": [
+            "clientdeleteprohibited",
+            "clienttransferprohibited",
+            "clientupdateprohibited"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "ns1.googledomains.com,ns2.googledomains.com,ns3.googledomains.com,ns4.googledomains.com",
+        "name_servers": [
+            "ns1.googledomains.com",
+            "ns2.googledomains.com",
+            "ns3.googledomains.com",
+            "ns4.googledomains.com"
+        ],
         "created_date": "2014-02-15T20:24:48Z",
         "updated_date": "2019-01-14T10:32:15Z",
         "expiration_date": "2020-02-15T20:24:48Z"

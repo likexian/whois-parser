@@ -3,7 +3,10 @@
         "domain": "SNAI.EDU",
         "name": "snai",
         "extension": "edu",
-        "name_servers": "ns1.alidns.com,ns2.alidns.com",
+        "name_servers": [
+            "ns1.alidns.com",
+            "ns2.alidns.com"
+        ],
         "created_date": "27-Apr-2001",
         "updated_date": "08-Jan-2019",
         "expiration_date": "31-Jul-2021"

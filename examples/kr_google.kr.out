@@ -4,7 +4,10 @@
         "name": "google",
         "extension": "kr",
         "dnssec": "unsigned",
-        "name_servers": "ns1.google.com,ns2.google.com",
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com"
+        ],
         "created_date": "2007. 03. 02.",
         "updated_date": "2010. 10. 04.",
         "expiration_date": "2020. 03. 02."

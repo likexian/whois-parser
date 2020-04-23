@@ -3,8 +3,14 @@
         "domain": "git.yt",
         "name": "git",
         "extension": "yt",
-        "status": "active",
-        "name_servers": "ns0.random.sh,ns1.random.sh,ns2.random.sh",
+        "status": [
+            "active"
+        ],
+        "name_servers": [
+            "ns0.random.sh",
+            "ns1.random.sh",
+            "ns2.random.sh"
+        ],
         "created_date": "2015-02-23T09:43:27Z",
         "updated_date": "2019-01-23T08:01:40Z",
         "expiration_date": "2020-02-23T09:43:27Z"

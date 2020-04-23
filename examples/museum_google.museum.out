@@ -4,9 +4,17 @@
         "domain": "google.museum",
         "name": "google",
         "extension": "museum",
-        "status": "clienttransferprohibited",
+        "status": [
+            "clienttransferprohibited"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "ns.inwx.de,ns2.inwx.de,ns3.inwx.eu,ns4.inwx.com,ns5.inwx.net",
+        "name_servers": [
+            "ns.inwx.de",
+            "ns2.inwx.de",
+            "ns3.inwx.eu",
+            "ns4.inwx.com",
+            "ns5.inwx.net"
+        ],
         "created_date": "2019-05-02T09:18:21Z",
         "updated_date": "2019-05-02T09:18:25Z",
         "expiration_date": "2020-05-02T09:18:22Z"

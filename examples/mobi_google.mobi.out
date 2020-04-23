@@ -4,10 +4,19 @@
         "domain": "google.mobi",
         "name": "google",
         "extension": "mobi",
-        "status": "clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited",
+        "status": [
+            "clientupdateprohibited",
+            "clienttransferprohibited",
+            "clientdeleteprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.markmonitor.com",
-        "name_servers": "ns4.google.com,ns3.google.com,ns2.google.com,ns1.google.com",
+        "name_servers": [
+            "ns4.google.com",
+            "ns3.google.com",
+            "ns2.google.com",
+            "ns1.google.com"
+        ],
         "created_date": "2006-05-11T14:08:42-0700",
         "updated_date": "2019-04-09T02:38:35-0700",
         "expiration_date": "2020-05-11T00:00:00-0700"

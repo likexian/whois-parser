@@ -4,10 +4,16 @@
         "domain": "west.info",
         "name": "west",
         "extension": "info",
-        "status": "clienttransferprohibited",
+        "status": [
+            "clienttransferprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.psi-usa.info",
-        "name_servers": "dns1.ipmanagerinc.net,dns2.ipmanagerinc.net,dns3.ipmanagerinc.net",
+        "name_servers": [
+            "dns1.ipmanagerinc.net",
+            "dns2.ipmanagerinc.net",
+            "dns3.ipmanagerinc.net"
+        ],
         "created_date": "2001-07-31T21:14:42Z",
         "updated_date": "2019-09-20T00:17:40Z",
         "expiration_date": "2020-07-31T21:14:42Z"

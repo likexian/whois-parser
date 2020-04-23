@@ -4,10 +4,15 @@
         "domain": "GIT.COM",
         "name": "git",
         "extension": "com",
-        "status": "clienttransferprohibited",
+        "status": [
+            "clienttransferprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.uniregistrar.net",
-        "name_servers": "ns2.venture.com,ns1.venture.com",
+        "name_servers": [
+            "ns2.venture.com",
+            "ns1.venture.com"
+        ],
         "created_date": "2001-06-14-T10:32:43Z",
         "updated_date": "2019-05-17-T23:02:50Z",
         "expiration_date": "2020-06-14-T10:32:43Z"

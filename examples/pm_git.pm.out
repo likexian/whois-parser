@@ -3,8 +3,13 @@
         "domain": "git.pm",
         "name": "git",
         "extension": "pm",
-        "status": "active",
-        "name_servers": "ns1.srna.sk,ns2.srna.sk",
+        "status": [
+            "active"
+        ],
+        "name_servers": [
+            "ns1.srna.sk",
+            "ns2.srna.sk"
+        ],
         "created_date": "2013-07-18T16:17:05Z",
         "updated_date": "2019-06-12T07:35:08Z",
         "expiration_date": "2020-07-18T16:17:05Z"

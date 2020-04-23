@@ -4,9 +4,18 @@
         "domain": "google.tel",
         "name": "google",
         "extension": "tel",
-        "status": "clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited",
+        "status": [
+            "clientupdateprohibited",
+            "clienttransferprohibited",
+            "clientdeleteprohibited"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "ns1.google.com,ns2.google.com,ns4.google.com,ns3.google.com",
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns4.google.com",
+            "ns3.google.com"
+        ],
         "created_date": "2009-01-22T21:06:56Z",
         "updated_date": "2019-02-23T10:48:27Z",
         "expiration_date": "2020-03-22T23:59:59Z"

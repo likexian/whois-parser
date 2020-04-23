@@ -3,9 +3,15 @@
         "domain": "git.nl",
         "name": "git",
         "extension": "nl",
-        "status": "active",
+        "status": [
+            "active"
+        ],
         "dnssec": "yes",
-        "name_servers": "ns5.firstfind.net,ns4.firstfind.nl,ns3.firstfind.nl"
+        "name_servers": [
+            "ns5.firstfind.net",
+            "ns4.firstfind.nl",
+            "ns3.firstfind.nl"
+        ]
     },
     "registrar": {
         "name": "Realtime Register",

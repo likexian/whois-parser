@@ -4,10 +4,18 @@
         "domain": "HE.NET",
         "name": "he",
         "extension": "net",
-        "status": "clienttransferprohibited",
+        "status": [
+            "clienttransferprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.networksolutions.com",
-        "name_servers": "ns1.he.net,ns2.he.net,ns3.he.net,ns4.he.net,ns5.he.net",
+        "name_servers": [
+            "ns1.he.net",
+            "ns2.he.net",
+            "ns3.he.net",
+            "ns4.he.net",
+            "ns5.he.net"
+        ],
         "created_date": "1995-07-31T04:00:00Z",
         "updated_date": "2019-07-30T19:17:40Z",
         "expiration_date": "2029-07-30T04:00:00Z"

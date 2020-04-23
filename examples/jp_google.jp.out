@@ -3,8 +3,15 @@
         "domain": "GOOGLE.JP",
         "name": "google",
         "extension": "jp",
-        "status": "active",
-        "name_servers": "ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com",
+        "status": [
+            "active"
+        ],
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns3.google.com",
+            "ns4.google.com"
+        ],
         "created_date": "2005/05/30",
         "updated_date": "2017/06/01 01:05:09 (JST)",
         "expiration_date": "2018/05/31"

@@ -3,8 +3,13 @@
         "domain": "git.tw",
         "name": "git",
         "extension": "tw",
-        "status": "clienttransferprohibited",
-        "name_servers": "kristin.ns.cloudflare.com,paul.ns.cloudflare.com",
+        "status": [
+            "clienttransferprohibited"
+        ],
+        "name_servers": [
+            "kristin.ns.cloudflare.com",
+            "paul.ns.cloudflare.com"
+        ],
         "created_date": "2008-05-23 (YYYY-MM-DD)",
         "expiration_date": "2020-05-23 (YYYY-MM-DD)"
     },

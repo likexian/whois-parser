@@ -3,8 +3,17 @@
         "domain": "google.tw",
         "name": "google",
         "extension": "tw",
-        "status": "clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited",
-        "name_servers": "ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com",
+        "status": [
+            "clientupdateprohibited",
+            "clienttransferprohibited",
+            "clientdeleteprohibited"
+        ],
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns3.google.com",
+            "ns4.google.com"
+        ],
         "created_date": "2005-10-27 (YYYY-MM-DD)",
         "expiration_date": "2020-10-31 (YYYY-MM-DD)"
     },

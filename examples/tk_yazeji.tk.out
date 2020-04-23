@@ -3,7 +3,13 @@
         "domain": "YAZEJI.TK",
         "name": "yazeji",
         "extension": "tk",
-        "name_servers": "nsb1.hostnet.com.br,nsb3.hostnet.com.br,nsb5.hostnet.com.br,nsb6.hostnet.com.br,nsb4.hostnet.com.br"
+        "name_servers": [
+            "nsb1.hostnet.com.br",
+            "nsb3.hostnet.com.br",
+            "nsb5.hostnet.com.br",
+            "nsb6.hostnet.com.br",
+            "nsb4.hostnet.com.br"
+        ]
     },
     "registrant": {
         "name": "Dot TK administrator",

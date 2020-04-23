@@ -4,9 +4,14 @@
         "domain": "VAS.AERO",
         "name": "vas",
         "extension": "aero",
-        "status": "clienttransferprohibited",
+        "status": [
+            "clienttransferprohibited"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "ns1.clt.peak-10.com,ns1.jax.peak-10.com",
+        "name_servers": [
+            "ns1.clt.peak-10.com",
+            "ns1.jax.peak-10.com"
+        ],
         "created_date": "2010-07-07T19:23:48Z",
         "updated_date": "2018-06-29T00:13:29Z",
         "expiration_date": "2021-07-07T19:23:48Z"

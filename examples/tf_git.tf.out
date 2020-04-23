@@ -3,8 +3,13 @@
         "domain": "git.tf",
         "name": "git",
         "extension": "tf",
-        "status": "active",
-        "name_servers": "ns1.parkingcrew.net,ns2.parkingcrew.net",
+        "status": [
+            "active"
+        ],
+        "name_servers": [
+            "ns1.parkingcrew.net",
+            "ns2.parkingcrew.net"
+        ],
         "created_date": "2019-01-20T04:16:05Z",
         "updated_date": "2019-01-21T15:35:50Z",
         "expiration_date": "2020-01-20T04:16:05Z"

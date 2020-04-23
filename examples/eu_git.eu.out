@@ -3,7 +3,10 @@
         "domain": "git.eu",
         "name": "git",
         "extension": "eu",
-        "name_servers": "wally.ns.cloudflare.com,thomas.ns.cloudflare.com"
+        "name_servers": [
+            "wally.ns.cloudflare.com",
+            "thomas.ns.cloudflare.com"
+        ]
     },
     "registrar": {
         "name": "Frankcom EU Service",

@@ -4,9 +4,20 @@
         "domain": "LAT.LONDON",
         "name": "lat",
         "extension": "london",
-        "status": "clientdeleteprohibited,clientrenewprohibited,clienttransferprohibited,clientupdateprohibited,autorenewperiod",
+        "status": [
+            "clientdeleteprohibited",
+            "clientrenewprohibited",
+            "clienttransferprohibited",
+            "clientupdateprohibited",
+            "autorenewperiod"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "ns-1780.awsdns-30.co.uk,ns-462.awsdns-57.com,ns-881.awsdns-46.net,ns-1139.awsdns-14.org",
+        "name_servers": [
+            "ns-1780.awsdns-30.co.uk",
+            "ns-462.awsdns-57.com",
+            "ns-881.awsdns-46.net",
+            "ns-1139.awsdns-14.org"
+        ],
         "created_date": "2014-09-19T16:12:13Z",
         "updated_date": "2019-09-24T16:34:14Z",
         "expiration_date": "2020-09-19T16:12:13Z"

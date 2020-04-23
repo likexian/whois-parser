@@ -4,9 +4,20 @@
         "domain": "google.cn",
         "name": "google",
         "extension": "cn",
-        "status": "clientdeleteprohibited,serverdeleteprohibited,serverupdateprohibited,clienttransferprohibited,servertransferprohibited",
+        "status": [
+            "clientdeleteprohibited",
+            "serverdeleteprohibited",
+            "serverupdateprohibited",
+            "clienttransferprohibited",
+            "servertransferprohibited"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "ns2.google.com,ns1.google.com,ns3.google.com,ns4.google.com",
+        "name_servers": [
+            "ns2.google.com",
+            "ns1.google.com",
+            "ns3.google.com",
+            "ns4.google.com"
+        ],
         "created_date": "2003-03-17 12:20:05",
         "expiration_date": "2021-03-17 12:48:36"
     },

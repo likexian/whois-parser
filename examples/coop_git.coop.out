@@ -4,10 +4,17 @@
         "domain": "GIT.COOP",
         "name": "git",
         "extension": "coop",
-        "status": "clienttransferprohibited",
+        "status": [
+            "clienttransferprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.gandi.net",
-        "name_servers": "dns1.webarchitects.co.uk,dns0.webarchitects.co.uk,dns3.webarch.info,dns2.webarch.info",
+        "name_servers": [
+            "dns1.webarchitects.co.uk",
+            "dns0.webarchitects.co.uk",
+            "dns3.webarch.info",
+            "dns2.webarch.info"
+        ],
         "created_date": "2017-02-22T14:29:09.0Z",
         "updated_date": "2019-03-21T09:46:54.0Z",
         "expiration_date": "2020-02-22T23:59:59.0Z"

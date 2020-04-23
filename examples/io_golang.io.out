@@ -4,10 +4,15 @@
         "domain": "golang.io",
         "name": "golang",
         "extension": "io",
-        "status": "clienttransferprohibited",
+        "status": [
+            "clienttransferprohibited"
+        ],
         "dnssec": "Unsigned",
         "whois_server": "whois.gandi.net",
-        "name_servers": "dns103.ovh.net,ns103.ovh.net",
+        "name_servers": [
+            "dns103.ovh.net",
+            "ns103.ovh.net"
+        ],
         "created_date": "2013-01-24T18:29:21Z",
         "updated_date": "2019-01-17T08:47:20Z",
         "expiration_date": "2020-01-24T18:29:21Z"

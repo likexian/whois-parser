@@ -3,9 +3,16 @@
         "domain": "google.it",
         "name": "google",
         "extension": "it",
-        "status": "ok",
+        "status": [
+            "ok"
+        ],
         "dnssec": "no",
-        "name_servers": "ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com",
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns3.google.com",
+            "ns4.google.com"
+        ],
         "created_date": "1999-12-10 00:00:00",
         "updated_date": "2019-05-07 01:04:50",
         "expiration_date": "2020-04-21"

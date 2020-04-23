@@ -4,9 +4,14 @@
         "domain": "CGI.CYMRU",
         "name": "cgi",
         "extension": "cymru",
-        "status": "clienttransferprohibited",
+        "status": [
+            "clienttransferprohibited"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "dns1.cscdns.net,dns2.cscdns.net",
+        "name_servers": [
+            "dns1.cscdns.net",
+            "dns2.cscdns.net"
+        ],
         "created_date": "2015-03-10T14:06:10Z",
         "updated_date": "2019-09-09T09:34:52Z",
         "expiration_date": "2021-03-10T14:06:10Z"

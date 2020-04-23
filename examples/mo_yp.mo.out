@@ -3,7 +3,10 @@
         "domain": "yp.mo",
         "name": "yp",
         "extension": "mo",
-        "name_servers": "kim.ns.cloudflare.com,art.ns.cloudflare.com",
+        "name_servers": [
+            "kim.ns.cloudflare.com",
+            "art.ns.cloudflare.com"
+        ],
         "created_date": "2005-04-15 21:43:27",
         "expiration_date": "2020-11-02"
     },

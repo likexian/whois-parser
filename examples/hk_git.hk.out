@@ -3,9 +3,14 @@
         "domain": "GIT.HK",
         "name": "git",
         "extension": "hk",
-        "status": "active",
+        "status": [
+            "active"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "f1g1ns1.dnspod.net,f1g1ns2.dnspod.net",
+        "name_servers": [
+            "f1g1ns1.dnspod.net",
+            "f1g1ns2.dnspod.net"
+        ],
         "created_date": "11-07-2017",
         "expiration_date": "11-07-2020"
     },

@@ -3,6 +3,8 @@
         "domain": "FDA.GOV",
         "name": "fda",
         "extension": "gov",
-        "status": "active"
+        "status": [
+            "active"
+        ]
     }
 }

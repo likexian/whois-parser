@@ -3,10 +3,17 @@
         "domain": "XPLOR.TRAVEL",
         "name": "xplor",
         "extension": "travel",
-        "status": "clienttransferprohibited",
+        "status": [
+            "clienttransferprohibited"
+        ],
         "dnssec": "Unsigned",
         "whois_server": "whois.encirca.com",
-        "name_servers": "ns-643.awsdns-16.net,ns-1186.awsdns-20.org,ns-387.awsdns-48.com,ns-1661.awsdns-15.co.uk",
+        "name_servers": [
+            "ns-643.awsdns-16.net",
+            "ns-1186.awsdns-20.org",
+            "ns-387.awsdns-48.com",
+            "ns-1661.awsdns-15.co.uk"
+        ],
         "created_date": "2008-06-04T05:15:38Z",
         "updated_date": "2019-10-01T22:38:39Z",
         "expiration_date": "2020-06-03T23:59:59Z"

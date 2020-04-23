@@ -4,10 +4,18 @@
         "domain": "git.us",
         "name": "git",
         "extension": "us",
-        "status": "clienttransferprohibited,clientupdateprohibited,clientrenewprohibited,clientdeleteprohibited",
+        "status": [
+            "clienttransferprohibited",
+            "clientupdateprohibited",
+            "clientrenewprohibited",
+            "clientdeleteprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.godaddy.com",
-        "name_servers": "ns1.namefind.com,ns2.namefind.com",
+        "name_servers": [
+            "ns1.namefind.com",
+            "ns2.namefind.com"
+        ],
         "created_date": "2002-04-24T15:27:59Z",
         "updated_date": "2019-04-03T10:09:33Z",
         "expiration_date": "2020-04-23T23:59:59Z"

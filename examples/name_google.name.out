@@ -4,7 +4,11 @@
         "domain": "GOOGLE.NAME",
         "name": "google",
         "extension": "name",
-        "status": "servertransferprohibited,serverupdateprohibited,serverdeleteprohibited"
+        "status": [
+            "servertransferprohibited",
+            "serverupdateprohibited",
+            "serverdeleteprohibited"
+        ]
     },
     "registrar": {
         "id": "292",

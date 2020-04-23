@@ -4,9 +4,18 @@
         "domain": "google.us",
         "name": "google",
         "extension": "us",
-        "status": "clientupdateprohibited,clientdeleteprohibited,clienttransferprohibited",
+        "status": [
+            "clientupdateprohibited",
+            "clientdeleteprohibited",
+            "clienttransferprohibited"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "ns2.google.com,ns4.google.com,ns3.google.com,ns1.google.com",
+        "name_servers": [
+            "ns2.google.com",
+            "ns4.google.com",
+            "ns3.google.com",
+            "ns1.google.com"
+        ],
         "created_date": "2002-04-19T23:16:01Z",
         "updated_date": "2019-03-22T09:56:02Z",
         "expiration_date": "2020-04-18T23:59:59Z"

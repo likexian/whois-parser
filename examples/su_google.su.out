@@ -3,8 +3,15 @@
         "domain": "GOOGLE.SU",
         "name": "google",
         "extension": "su",
-        "status": "registered,delegated",
-        "name_servers": "ns3.nic.ru,ns4.nic.ru,ns8.nic.ru",
+        "status": [
+            "registered",
+            "delegated"
+        ],
+        "name_servers": [
+            "ns3.nic.ru",
+            "ns4.nic.ru",
+            "ns8.nic.ru"
+        ],
         "created_date": "2005-10-15T20:00:00Z",
         "expiration_date": "2019-10-15T21:00:00Z"
     },

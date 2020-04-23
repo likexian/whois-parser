@@ -4,10 +4,17 @@
         "domain": "github.org",
         "name": "github",
         "extension": "org",
-        "status": "clienttransferprohibited",
+        "status": [
+            "clienttransferprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "WHOIS.ENOM.COM",
-        "name_servers": "ns1.dnsimple.com,ns2.dnsimple.com,ns3.dnsimple.com,ns4.dnsimple.com",
+        "name_servers": [
+            "ns1.dnsimple.com",
+            "ns2.dnsimple.com",
+            "ns3.dnsimple.com",
+            "ns4.dnsimple.com"
+        ],
         "created_date": "2008-02-09T02:07:00.00Z",
         "updated_date": "2019-01-11T08:26:28.00Z",
         "expiration_date": "2020-02-09T02:07:00.00Z"

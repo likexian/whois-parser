@@ -4,10 +4,17 @@
         "domain": "GIT.AC",
         "name": "git",
         "extension": "ac",
-        "status": "clientdeleteprohibited,clienttransferprohibited,servertransferprohibited",
+        "status": [
+            "clientdeleteprohibited",
+            "clienttransferprohibited",
+            "servertransferprohibited"
+        ],
         "dnssec": "unsignedDelegation",
         "whois_server": "whois.porkbun.com",
-        "name_servers": "f1g1ns2.dnspod.net,f1g1ns1.dnspod.net",
+        "name_servers": [
+            "f1g1ns2.dnspod.net",
+            "f1g1ns1.dnspod.net"
+        ],
         "created_date": "2018-02-09 11:59:43",
         "updated_date": "2018-12-10 01:00:04",
         "expiration_date": "2020-02-09 11:59:43"

@@ -4,10 +4,25 @@
         "domain": "NAME.COM",
         "name": "name",
         "extension": "com",
-        "status": "clienttransferprohibited,serverdeleteprohibited,servertransferprohibited,serverupdateprohibited",
+        "status": [
+            "clienttransferprohibited",
+            "serverdeleteprohibited",
+            "servertransferprohibited",
+            "serverupdateprohibited"
+        ],
         "dnssec": "unSigned",
         "whois_server": "whois.name.com",
-        "name_servers": "asia3.akam.net,usw5.akam.net,use4.akam.net,aus1.akam.net,ns1-35.akam.net,usw1.akam.net,eur4.akam.net,ns1-242.akam.net,eur2.akam.net",
+        "name_servers": [
+            "asia3.akam.net",
+            "usw5.akam.net",
+            "use4.akam.net",
+            "aus1.akam.net",
+            "ns1-35.akam.net",
+            "usw1.akam.net",
+            "eur4.akam.net",
+            "ns1-242.akam.net",
+            "eur2.akam.net"
+        ],
         "created_date": "1995-01-03T05:00:00Z",
         "updated_date": "2014-04-18T17:04:21Z",
         "expiration_date": "2019-11-04T00:00:00Z"

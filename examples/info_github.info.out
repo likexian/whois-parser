@@ -4,10 +4,19 @@
         "domain": "GITHUB.INFO",
         "name": "github",
         "extension": "info",
-        "status": "clienttransferprohibited,clientupdateprohibited,clientrenewprohibited,clientdeleteprohibited",
+        "status": [
+            "clienttransferprohibited",
+            "clientupdateprohibited",
+            "clientrenewprohibited",
+            "clientdeleteprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.godaddy.com",
-        "name_servers": "ns.romania-webhosting.com,ns.clausweb.ro,ns.registar.ro",
+        "name_servers": [
+            "ns.romania-webhosting.com",
+            "ns.clausweb.ro",
+            "ns.registar.ro"
+        ],
         "created_date": "2014-01-05T12:18:22Z",
         "updated_date": "2019-01-06T12:04:19Z",
         "expiration_date": "2020-01-05T12:18:22Z"

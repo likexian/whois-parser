@@ -4,10 +4,19 @@
         "domain": "google.cat",
         "name": "google",
         "extension": "cat",
-        "status": "clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited",
+        "status": [
+            "clientupdateprohibited",
+            "clienttransferprohibited",
+            "clientdeleteprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.markmonitor.com",
-        "name_servers": "ns4.google.com,ns3.google.com,ns2.google.com,ns1.google.com",
+        "name_servers": [
+            "ns4.google.com",
+            "ns3.google.com",
+            "ns2.google.com",
+            "ns1.google.com"
+        ],
         "created_date": "2006-02-13T00:00:00-0800",
         "updated_date": "2019-01-23T15:02:06-0800",
         "expiration_date": "2020-02-14T00:00:00-0800"

@@ -4,9 +4,18 @@
         "domain": "google.co",
         "name": "google",
         "extension": "co",
-        "status": "clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited",
+        "status": [
+            "clientupdateprohibited",
+            "clienttransferprohibited",
+            "clientdeleteprohibited"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "ns3.google.com,ns1.google.com,ns2.google.com,ns4.google.com",
+        "name_servers": [
+            "ns3.google.com",
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns4.google.com"
+        ],
         "created_date": "2010-02-25T01:04:59Z",
         "updated_date": "2019-01-28T10:39:22Z",
         "expiration_date": "2020-02-24T23:59:59Z"

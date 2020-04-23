@@ -4,10 +4,18 @@
         "domain": "GIT.CO",
         "name": "git",
         "extension": "co",
-        "status": "clienttransferprohibited,clientupdateprohibited,clientrenewprohibited,clientdeleteprohibited",
+        "status": [
+            "clienttransferprohibited",
+            "clientupdateprohibited",
+            "clientrenewprohibited",
+            "clientdeleteprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.godaddy.com",
-        "name_servers": "dns1.stabletransit.com,dns2.stabletransit.com",
+        "name_servers": [
+            "dns1.stabletransit.com",
+            "dns2.stabletransit.com"
+        ],
         "created_date": "2010-07-21T21:16:03Z",
         "updated_date": "2019-07-21T12:37:14Z",
         "expiration_date": "2020-07-20T23:59:59Z"

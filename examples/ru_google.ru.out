@@ -3,8 +3,17 @@
         "domain": "GOOGLE.RU",
         "name": "google",
         "extension": "ru",
-        "status": "registered,delegated,verified",
-        "name_servers": "ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com",
+        "status": [
+            "registered",
+            "delegated",
+            "verified"
+        ],
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns3.google.com",
+            "ns4.google.com"
+        ],
         "created_date": "2004-03-03T21:00:00Z",
         "expiration_date": "2020-03-04T21:00:00Z"
     },

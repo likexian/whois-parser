@@ -3,9 +3,19 @@
         "domain": "IBM.HK",
         "name": "ibm",
         "extension": "hk",
-        "status": "active",
+        "status": [
+            "active"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "ns1-206.akam.net,ns1-99.akam.net,asia3.akam.net,eur2.akam.net,eur5.akam.net,usc2.akam.net,usc3.akam.net",
+        "name_servers": [
+            "ns1-206.akam.net",
+            "ns1-99.akam.net",
+            "asia3.akam.net",
+            "eur2.akam.net",
+            "eur5.akam.net",
+            "usc2.akam.net",
+            "usc3.akam.net"
+        ],
         "created_date": "14-03-2004",
         "expiration_date": "03-04-2020"
     },

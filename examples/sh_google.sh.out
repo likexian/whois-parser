@@ -4,10 +4,20 @@
         "domain": "google.sh",
         "name": "google",
         "extension": "sh",
-        "status": "clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited,serverupdateprohibited,servertransferprohibited,serverdeleteprohibited",
+        "status": [
+            "clientupdateprohibited",
+            "clienttransferprohibited",
+            "clientdeleteprohibited",
+            "serverupdateprohibited",
+            "servertransferprohibited",
+            "serverdeleteprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.markmonitor.com",
-        "name_servers": "ns2.google.com,ns1.google.com",
+        "name_servers": [
+            "ns2.google.com",
+            "ns1.google.com"
+        ],
         "created_date": "1999-06-07T10:23:46-0700",
         "updated_date": "2019-08-12T10:52:01-0700",
         "expiration_date": "2020-06-06T00:00:00-0700"

@@ -3,8 +3,15 @@
         "domain": "GOOGLE.TK",
         "name": "google",
         "extension": "tk",
-        "status": "active",
-        "name_servers": "ns2.google.com,ns3.google.com,ns1.google.com,ns4.google.com",
+        "status": [
+            "active"
+        ],
+        "name_servers": [
+            "ns2.google.com",
+            "ns3.google.com",
+            "ns1.google.com",
+            "ns4.google.com"
+        ],
         "created_date": "12/18/2001",
         "expiration_date": "03/02/2020"
     },

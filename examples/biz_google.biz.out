@@ -4,9 +4,18 @@
         "domain": "google.biz",
         "name": "google",
         "extension": "biz",
-        "status": "clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited",
+        "status": [
+            "clientupdateprohibited",
+            "clienttransferprohibited",
+            "clientdeleteprohibited"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "ns1.google.com,ns2.google.com,ns4.google.com,ns3.google.com",
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns4.google.com",
+            "ns3.google.com"
+        ],
         "created_date": "2002-03-27T16:03:44Z",
         "updated_date": "2019-02-27T10:56:14Z",
         "expiration_date": "2020-03-26T23:59:59Z"

@@ -4,10 +4,21 @@
         "domain": "gandi.net",
         "name": "gandi",
         "extension": "net",
-        "status": "clientupdateprohibited,clientdeleteprohibited,clienttransferprohibited",
+        "status": [
+            "clientupdateprohibited",
+            "clientdeleteprohibited",
+            "clienttransferprohibited"
+        ],
         "dnssec": "Unsigned",
         "whois_server": "whois.gandi.net",
-        "name_servers": "dns0.gandi.net,dns1.gandi.net,dns2.gandi.net,dns3.gandi.net,dns4.gandi.net,dns6.gandi.net",
+        "name_servers": [
+            "dns0.gandi.net",
+            "dns1.gandi.net",
+            "dns2.gandi.net",
+            "dns3.gandi.net",
+            "dns4.gandi.net",
+            "dns6.gandi.net"
+        ],
         "created_date": "1999-05-21T10:09:21Z",
         "updated_date": "2019-02-07T09:22:28Z",
         "expiration_date": "2025-05-21T14:09:56Z"

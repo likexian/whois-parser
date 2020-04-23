@@ -3,9 +3,14 @@
         "domain": "git.it",
         "name": "git",
         "extension": "it",
-        "status": "ok",
+        "status": [
+            "ok"
+        ],
         "dnssec": "no",
-        "name_servers": "ns1.parkingcrew.net,ns2.parkingcrew.net",
+        "name_servers": [
+            "ns1.parkingcrew.net",
+            "ns2.parkingcrew.net"
+        ],
         "created_date": "2018-08-28 09:00:00",
         "updated_date": "2019-09-13 00:43:43",
         "expiration_date": "2020-08-28"

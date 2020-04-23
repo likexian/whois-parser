@@ -4,9 +4,19 @@
         "domain": "apple.cn",
         "name": "apple",
         "extension": "cn",
-        "status": "serverdeleteprohibited,serverupdateprohibited,clienttransferprohibited,servertransferprohibited",
+        "status": [
+            "serverdeleteprohibited",
+            "serverupdateprohibited",
+            "clienttransferprohibited",
+            "servertransferprohibited"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "a.ns.apple.com,b.ns.apple.com,c.ns.apple.com,d.ns.apple.com",
+        "name_servers": [
+            "a.ns.apple.com",
+            "b.ns.apple.com",
+            "c.ns.apple.com",
+            "d.ns.apple.com"
+        ],
         "created_date": "2003-03-17 12:20:05",
         "expiration_date": "2020-03-17 12:48:36"
     },

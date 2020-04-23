@@ -3,9 +3,16 @@
         "domain": "git.fi",
         "name": "git",
         "extension": "fi",
-        "status": "registered",
+        "status": [
+            "registered"
+        ],
         "dnssec": "no",
-        "name_servers": "ns-1453.awsdns-53.org,ns-535.awsdns-02.net,ns-133.awsdns-16.com,ns-1849.awsdns-39.co.uk",
+        "name_servers": [
+            "ns-1453.awsdns-53.org",
+            "ns-535.awsdns-02.net",
+            "ns-133.awsdns-16.com",
+            "ns-1849.awsdns-39.co.uk"
+        ],
         "created_date": "15.12.2015 09:48:01",
         "updated_date": "19.2.2019",
         "expiration_date": "15.12.2020 09:37:54"

@@ -3,8 +3,20 @@
         "domain": "GIT.SU",
         "name": "git",
         "extension": "su",
-        "status": "registered,delegated",
-        "name_servers": "d.ns.git.su,ns2.he.net,ns2.linode.com,ns3.he.net,ns4.he.net,ns4.linode.com,ns5.he.net,ns5.linode.com",
+        "status": [
+            "registered",
+            "delegated"
+        ],
+        "name_servers": [
+            "d.ns.git.su",
+            "ns2.he.net",
+            "ns2.linode.com",
+            "ns3.he.net",
+            "ns4.he.net",
+            "ns4.linode.com",
+            "ns5.he.net",
+            "ns5.linode.com"
+        ],
         "created_date": "2013-03-26T19:00:20Z",
         "expiration_date": "2020-03-26T20:00:20Z"
     },

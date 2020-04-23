@@ -4,9 +4,14 @@
         "domain": "GIT.LA",
         "name": "git",
         "extension": "la",
-        "status": "clienttransferprohibited",
+        "status": [
+            "clienttransferprohibited"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "bob.ns.cloudflare.com,ivy.ns.cloudflare.com",
+        "name_servers": [
+            "bob.ns.cloudflare.com",
+            "ivy.ns.cloudflare.com"
+        ],
         "created_date": "2008-11-27T08:14:56.0Z",
         "updated_date": "2019-03-27T04:42:11.0Z",
         "expiration_date": "2019-11-27T23:59:59.0Z"

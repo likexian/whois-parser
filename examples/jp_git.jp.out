@@ -3,8 +3,13 @@
         "domain": "GIT.JP",
         "name": "git",
         "extension": "jp",
-        "status": "active",
-        "name_servers": "ns1.onamae.com,ns2.onamae.com",
+        "status": [
+            "active"
+        ],
+        "name_servers": [
+            "ns1.onamae.com",
+            "ns2.onamae.com"
+        ],
         "created_date": "2001/05/14",
         "updated_date": "2019/06/01 04:52:02 (JST)",
         "expiration_date": "2020/05/31"

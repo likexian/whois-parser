@@ -3,7 +3,12 @@
         "domain": "google.ir",
         "name": "google",
         "extension": "ir",
-        "name_servers": "ns1.googledomains.com,ns2.googledomains.com,ns3.googledomains.com,ns4.googledomains.com",
+        "name_servers": [
+            "ns1.googledomains.com",
+            "ns2.googledomains.com",
+            "ns3.googledomains.com",
+            "ns4.googledomains.com"
+        ],
         "updated_date": "2019-11-07",
         "expiration_date": "2020-12-22"
     },

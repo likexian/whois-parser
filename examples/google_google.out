@@ -2,9 +2,17 @@
     "domain": {
         "domain": "GOOGLE",
         "name": "google",
-        "status": "active",
+        "status": [
+            "active"
+        ],
         "whois_server": "whois.nic.google",
-        "name_servers": "ns-tld1.charlestonroadregistry.com,ns-tld2.charlestonroadregistry.com,ns-tld3.charlestonroadregistry.com,ns-tld4.charlestonroadregistry.com,ns-tld5.charlestonroadregistry.com",
+        "name_servers": [
+            "ns-tld1.charlestonroadregistry.com",
+            "ns-tld2.charlestonroadregistry.com",
+            "ns-tld3.charlestonroadregistry.com",
+            "ns-tld4.charlestonroadregistry.com",
+            "ns-tld5.charlestonroadregistry.com"
+        ],
         "created_date": "2014-09-04",
         "updated_date": "2019-07-02"
     },

@@ -3,7 +3,11 @@
         "domain": "RUTGERS.EDU",
         "name": "rutgers",
         "extension": "edu",
-        "name_servers": "ns8.a1.incapsecuredns.net,ns124.a2.incapsecuredns.net,ns87.a0.incapsecuredns.net",
+        "name_servers": [
+            "ns8.a1.incapsecuredns.net",
+            "ns124.a2.incapsecuredns.net",
+            "ns87.a0.incapsecuredns.net"
+        ],
         "created_date": "25-Apr-1985",
         "updated_date": "25-Mar-2020",
         "expiration_date": "31-Jul-2020"

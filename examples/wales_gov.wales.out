@@ -4,9 +4,16 @@
         "domain": "GOV.WALES",
         "name": "gov",
         "extension": "wales",
-        "status": "clienttransferprohibited",
+        "status": [
+            "clienttransferprohibited"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "ns3.ja.net,ns0.ja.net,ns4.ja.net,ns2.ja.net",
+        "name_servers": [
+            "ns3.ja.net",
+            "ns0.ja.net",
+            "ns4.ja.net",
+            "ns2.ja.net"
+        ],
         "created_date": "2015-01-14T13:49:09Z",
         "updated_date": "2019-10-01T10:07:25Z",
         "expiration_date": "2020-01-14T13:49:09Z"

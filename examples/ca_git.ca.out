@@ -4,10 +4,17 @@
         "domain": "git.ca",
         "name": "git",
         "extension": "ca",
-        "status": "clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited",
+        "status": [
+            "clientdeleteprohibited",
+            "clienttransferprohibited",
+            "clientupdateprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.ca.fury.ca",
-        "name_servers": "pdns09.domaincontrol.com,pdns10.domaincontrol.com",
+        "name_servers": [
+            "pdns09.domaincontrol.com",
+            "pdns10.domaincontrol.com"
+        ],
         "created_date": "2003-07-11T15:52:06Z",
         "updated_date": "2017-04-07T16:59:35Z",
         "expiration_date": "2026-07-08T04:00:00Z"

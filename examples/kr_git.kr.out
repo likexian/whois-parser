@@ -3,9 +3,14 @@
         "domain": "git.kr",
         "name": "git",
         "extension": "kr",
-        "status": "clienttransferprohibited",
+        "status": [
+            "clienttransferprohibited"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "ns1.parkingcrew.net,ns2.parkingcrew.net",
+        "name_servers": [
+            "ns1.parkingcrew.net",
+            "ns2.parkingcrew.net"
+        ],
         "created_date": "2012. 05. 19.",
         "updated_date": "2017. 10. 17.",
         "expiration_date": "2020. 05. 19."

@@ -4,10 +4,17 @@
         "domain": "yes.scot",
         "name": "yes",
         "extension": "scot",
-        "status": "ok",
+        "status": [
+            "ok"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.corehub.net",
-        "name_servers": "ns-656.awsdns-18.net,ns-319.awsdns-39.com,ns-1031.awsdns-00.org,ns-1938.awsdns-50.co.uk",
+        "name_servers": [
+            "ns-656.awsdns-18.net",
+            "ns-319.awsdns-39.com",
+            "ns-1031.awsdns-00.org",
+            "ns-1938.awsdns-50.co.uk"
+        ],
         "created_date": "2014-07-15T12:05:57.342Z",
         "updated_date": "2019-08-29T12:08:46.864Z",
         "expiration_date": "2020-07-15T12:05:57.342Z"

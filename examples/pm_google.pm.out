@@ -3,8 +3,13 @@
         "domain": "google.pm",
         "name": "google",
         "extension": "pm",
-        "status": "active",
-        "name_servers": "ns1.markmonitor.com,ns3.markmonitor.com",
+        "status": [
+            "active"
+        ],
+        "name_servers": [
+            "ns1.markmonitor.com",
+            "ns3.markmonitor.com"
+        ],
         "created_date": "2011-12-06T09:12:15Z",
         "updated_date": "2019-01-14T10:32:20Z",
         "expiration_date": "2020-02-15T19:06:33Z"

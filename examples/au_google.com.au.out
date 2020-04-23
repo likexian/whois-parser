@@ -4,10 +4,21 @@
         "domain": "GOOGLE.COM.AU",
         "name": "google.com",
         "extension": "au",
-        "status": "clientdeleteprohibited,clientupdateprohibited,serverdeleteprohibited,serverrenewprohibited,serverupdateprohibited",
+        "status": [
+            "clientdeleteprohibited",
+            "clientupdateprohibited",
+            "serverdeleteprohibited",
+            "serverrenewprohibited",
+            "serverupdateprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.auda.org.au",
-        "name_servers": "ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com",
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns3.google.com",
+            "ns4.google.com"
+        ],
         "updated_date": "2019-04-17T19:49:19Z"
     },
     "registrar": {

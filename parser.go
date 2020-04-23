@@ -25,6 +25,7 @@ import (
 	"strings"
 
 	"github.com/likexian/gokit/assert"
+	"github.com/likexian/gokit/xslice"
 )
 
 // Domain info error and replacer variables
@@ -36,7 +37,7 @@ var (
 
 // Version returns package version
 func Version() string {
-	return "1.12.1"
+	return "1.13.0"
 }
 
 // Author returns package author
@@ -114,7 +115,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		case "domain_name":
 			domain.Domain = value
 		case "domain_status":
-			domain.Status += value + ","
+			domain.Status = append(domain.Status, strings.Split(value, ",")...)
 		case "domain_dnssec":
 			if domain.DNSSEC == "" {
 				domain.DNSSEC = value
@@ -124,7 +125,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 				domain.WhoisServer = value
 			}
 		case "name_servers":
-			domain.NameServers += value + ","
+			domain.NameServers = append(domain.NameServers, strings.Split(value, ",")...)
 		case "created_date":
 			if domain.CreatedDate == "" {
 				domain.CreatedDate = value
@@ -160,16 +161,13 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		}
 	}
 
-	domain.NameServers = FixNameServers(strings.ToLower(domain.NameServers))
-	domain.Status = FixDomainStatus(strings.ToLower(domain.Status))
+	domain.NameServers = FixNameServers(domain.NameServers)
+	domain.Status = FixDomainStatus(domain.Status)
 
-	domain.NameServers = RemoveDuplicateField(domain.NameServers)
-	domain.Status = RemoveDuplicateField(domain.Status)
+	domain.NameServers = xslice.Unique(domain.NameServers).([]string)
+	domain.Status = xslice.Unique(domain.Status).([]string)
 
-	if *domain != (Domain{}) {
-		whoisInfo.Domain = domain
-	}
-
+	whoisInfo.Domain = domain
 	if *registrar != (Contact{}) {
 		whoisInfo.Registrar = registrar
 	}

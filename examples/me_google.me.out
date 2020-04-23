@@ -4,9 +4,21 @@
         "domain": "GOOGLE.ME",
         "name": "google",
         "extension": "me",
-        "status": "clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited,serverdeleteprohibited,servertransferprohibited,serverupdateprohibited",
+        "status": [
+            "clientdeleteprohibited",
+            "clienttransferprohibited",
+            "clientupdateprohibited",
+            "serverdeleteprohibited",
+            "servertransferprohibited",
+            "serverupdateprohibited"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "ns1.google.com,ns2.google.com,ns4.google.com,ns3.google.com",
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns4.google.com",
+            "ns3.google.com"
+        ],
         "created_date": "2008-06-13T17:17:40Z",
         "updated_date": "2019-05-12T09:35:12Z",
         "expiration_date": "2020-06-13T17:17:40Z"

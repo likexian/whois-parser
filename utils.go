@@ -22,8 +22,6 @@ package whoisparser
 import (
 	"sort"
 	"strings"
-
-	"github.com/likexian/gokit/xslice"
 )
 
 // IsNotFound returns domain is not found
@@ -90,42 +88,24 @@ func FindKeyName(key string) string {
 	return ""
 }
 
-// RemoveDuplicateField remove the duplicate field
-func RemoveDuplicateField(data string) string {
-	fs := []string{}
-
-	for _, v := range strings.Split(data, ",") {
-		if strings.TrimSpace(v) != "" {
-			fs = append(fs, v)
-		}
-	}
-
-	fields := xslice.Unique(fs)
-	result := strings.Join(fields.([]string), ",")
-
-	return result
-}
-
 // FixDomainStatus returns fixed domain status
-func FixDomainStatus(state string) string {
-	states := strings.Split(state, ",")
-	for k, v := range states {
+func FixDomainStatus(status []string) []string {
+	for k, v := range status {
 		names := strings.Split(strings.TrimSpace(v), " ")
-		states[k] = names[0]
+		status[k] = strings.ToLower(names[0])
 	}
 
-	return strings.Join(states, ",")
+	return status
 }
 
 // FixNameServers returns fixed name servers
-func FixNameServers(nservers string) string {
-	servers := strings.Split(nservers, ",")
+func FixNameServers(servers []string) []string {
 	for k, v := range servers {
 		names := strings.Split(strings.TrimSpace(v), " ")
-		servers[k] = strings.Trim(names[0], ".")
+		servers[k] = strings.ToLower(strings.Trim(names[0], "."))
 	}
 
-	return strings.Join(servers, ",")
+	return servers
 }
 
 // Keys returns all keys of map by sort

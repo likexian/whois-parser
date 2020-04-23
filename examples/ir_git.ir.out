@@ -3,7 +3,10 @@
         "domain": "git.ir",
         "name": "git",
         "extension": "ir",
-        "name_servers": "ns1.git.ir,ns2.git.ir",
+        "name_servers": [
+            "ns1.git.ir",
+            "ns2.git.ir"
+        ],
         "updated_date": "2019-03-06",
         "expiration_date": "2023-10-16"
     },

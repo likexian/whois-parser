@@ -4,10 +4,19 @@
         "domain": "github.pro",
         "name": "github",
         "extension": "pro",
-        "status": "clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited",
+        "status": [
+            "clientupdateprohibited",
+            "clienttransferprohibited",
+            "clientdeleteprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.markmonitor.com",
-        "name_servers": "ns1.p16.dynect.net,ns2.p16.dynect.net,ns4.p16.dynect.net,ns3.p16.dynect.net",
+        "name_servers": [
+            "ns1.p16.dynect.net",
+            "ns2.p16.dynect.net",
+            "ns4.p16.dynect.net",
+            "ns3.p16.dynect.net"
+        ],
         "created_date": "2015-11-25T12:29:48-0800",
         "updated_date": "2017-10-25T02:11:44-0700",
         "expiration_date": "2019-11-25T00:00:00-0800"

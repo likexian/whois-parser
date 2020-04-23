@@ -31,17 +31,17 @@ type WhoisInfo struct {
 
 // Domain storing domain name info
 type Domain struct {
-	ID             string `json:"id,omitempty"`
-	Domain         string `json:"domain,omitempty"`
-	Name           string `json:"name,omitempty"`
-	Extension      string `json:"extension,omitempty"`
-	Status         string `json:"status,omitempty"`
-	DNSSEC         string `json:"dnssec,omitempty"`
-	WhoisServer    string `json:"whois_server,omitempty"`
-	NameServers    string `json:"name_servers,omitempty"`
-	CreatedDate    string `json:"created_date,omitempty"`
-	UpdatedDate    string `json:"updated_date,omitempty"`
-	ExpirationDate string `json:"expiration_date,omitempty"`
+	ID             string   `json:"id,omitempty"`
+	Domain         string   `json:"domain,omitempty"`
+	Name           string   `json:"name,omitempty"`
+	Extension      string   `json:"extension,omitempty"`
+	Status         []string `json:"status,omitempty"`
+	DNSSEC         string   `json:"dnssec,omitempty"`
+	WhoisServer    string   `json:"whois_server,omitempty"`
+	NameServers    []string `json:"name_servers,omitempty"`
+	CreatedDate    string   `json:"created_date,omitempty"`
+	UpdatedDate    string   `json:"updated_date,omitempty"`
+	ExpirationDate string   `json:"expiration_date,omitempty"`
 }
 
 // Contact storing domain contact info

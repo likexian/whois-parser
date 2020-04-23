@@ -3,8 +3,13 @@
         "domain": "unip.br",
         "name": "unip",
         "extension": "br",
-        "status": "published",
-        "name_servers": "datcenter.unip.br,datcenter2.unip.br",
+        "status": [
+            "published"
+        ],
+        "name_servers": [
+            "datcenter.unip.br",
+            "datcenter2.unip.br"
+        ],
         "created_date": "19990717 #175298",
         "updated_date": "20190523"
     },

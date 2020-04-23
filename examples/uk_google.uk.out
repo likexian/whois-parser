@@ -3,8 +3,15 @@
         "domain": "google.uk",
         "name": "google",
         "extension": "uk",
-        "status": "registered",
-        "name_servers": "ns1.googledomains.com,ns2.googledomains.com,ns3.googledomains.com,ns4.googledomains.com",
+        "status": [
+            "registered"
+        ],
+        "name_servers": [
+            "ns1.googledomains.com",
+            "ns2.googledomains.com",
+            "ns3.googledomains.com",
+            "ns4.googledomains.com"
+        ],
         "created_date": "11-Jun-2014",
         "updated_date": "10-May-2019",
         "expiration_date": "11-Jun-2020"

@@ -3,10 +3,21 @@
         "domain": "google.tv",
         "name": "google",
         "extension": "tv",
-        "status": "clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited,serverupdateprohibited,servertransferprohibited,serverdeleteprohibited",
+        "status": [
+            "clientupdateprohibited",
+            "clienttransferprohibited",
+            "clientdeleteprohibited",
+            "serverupdateprohibited",
+            "servertransferprohibited",
+            "serverdeleteprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.markmonitor.com",
-        "name_servers": "ns1.google.com,ns3.google.com,ns2.google.com",
+        "name_servers": [
+            "ns1.google.com",
+            "ns3.google.com",
+            "ns2.google.com"
+        ],
         "created_date": "2004-08-02T00:00:00-0700",
         "updated_date": "2019-07-01T02:33:39-0700",
         "expiration_date": "2020-08-02T00:00:00-0700"

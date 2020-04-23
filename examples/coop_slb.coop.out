@@ -4,10 +4,16 @@
         "domain": "SLB.COOP",
         "name": "slb",
         "extension": "coop",
-        "status": "clienttransferprohibited",
+        "status": [
+            "clienttransferprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.gandi.net",
-        "name_servers": "ns-27-a.gandi.net,ns-138-b.gandi.net,ns-148-c.gandi.net",
+        "name_servers": [
+            "ns-27-a.gandi.net",
+            "ns-138-b.gandi.net",
+            "ns-148-c.gandi.net"
+        ],
         "created_date": "2014-07-04T10:24:18.0Z",
         "updated_date": "2019-07-09T09:44:08.0Z",
         "expiration_date": "2020-07-04T23:59:59.0Z"

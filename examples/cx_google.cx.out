@@ -4,10 +4,22 @@
         "domain": "google.cx",
         "name": "google",
         "extension": "cx",
-        "status": "serverupdateprohibited,servertransferprohibited,serverdeleteprohibited,clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited",
+        "status": [
+            "serverupdateprohibited",
+            "servertransferprohibited",
+            "serverdeleteprohibited",
+            "clientupdateprohibited",
+            "clienttransferprohibited",
+            "clientdeleteprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.coccaregistry.org",
-        "name_servers": "ns1.google.com,ns3.google.com,ns4.google.com,ns2.google.com",
+        "name_servers": [
+            "ns1.google.com",
+            "ns3.google.com",
+            "ns4.google.com",
+            "ns2.google.com"
+        ],
         "created_date": "2010-07-29T18:15:42.56Z",
         "updated_date": "2019-06-27T09:31:23.513Z",
         "expiration_date": "2020-07-29T18:15:42.158Z"

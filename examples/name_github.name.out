@@ -4,7 +4,9 @@
         "domain": "GITHUB.NAME",
         "name": "github",
         "extension": "name",
-        "status": "ok"
+        "status": [
+            "ok"
+        ]
     },
     "registrar": {
         "id": "420",

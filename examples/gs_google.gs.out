@@ -4,10 +4,20 @@
         "domain": "google.gs",
         "name": "google",
         "extension": "gs",
-        "status": "serverupdateprohibited,servertransferprohibited,serverdeleteprohibited,clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited",
+        "status": [
+            "serverupdateprohibited",
+            "servertransferprohibited",
+            "serverdeleteprohibited",
+            "clientupdateprohibited",
+            "clienttransferprohibited",
+            "clientdeleteprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.coccaregistry.org",
-        "name_servers": "ns1.google.com,ns2.google.com",
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com"
+        ],
         "created_date": "2004-07-08T12:00:00.0Z",
         "updated_date": "2019-06-06T09:32:35.587Z",
         "expiration_date": "2020-07-08T12:00:00.0Z"

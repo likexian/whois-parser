@@ -4,9 +4,14 @@
         "domain": "git.in",
         "name": "git",
         "extension": "in",
-        "status": "clienttransferprohibited",
+        "status": [
+            "clienttransferprohibited"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "ns1.parkingcrew.net,ns2.parkingcrew.net",
+        "name_servers": [
+            "ns1.parkingcrew.net",
+            "ns2.parkingcrew.net"
+        ],
         "created_date": "2005-02-16T06:54:49Z",
         "updated_date": "2019-03-15T19:06:26Z",
         "expiration_date": "2020-02-16T06:54:49Z"

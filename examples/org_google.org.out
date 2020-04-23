@@ -4,10 +4,22 @@
         "domain": "google.org",
         "name": "google",
         "extension": "org",
-        "status": "clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited,serverupdateprohibited,servertransferprohibited,serverdeleteprohibited",
+        "status": [
+            "clientupdateprohibited",
+            "clienttransferprohibited",
+            "clientdeleteprohibited",
+            "serverupdateprohibited",
+            "servertransferprohibited",
+            "serverdeleteprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.markmonitor.com",
-        "name_servers": "ns1.google.com,ns3.google.com,ns2.google.com,ns4.google.com",
+        "name_servers": [
+            "ns1.google.com",
+            "ns3.google.com",
+            "ns2.google.com",
+            "ns4.google.com"
+        ],
         "created_date": "1998-10-21T00:00:00-0700",
         "updated_date": "2019-09-18T02:31:17-0700",
         "expiration_date": "2020-10-19T00:00:00-0700"

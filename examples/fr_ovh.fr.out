@@ -3,8 +3,15 @@
         "domain": "ovh.fr",
         "name": "ovh",
         "extension": "fr",
-        "status": "active",
-        "name_servers": "dns.ovh.net,dns10.ovh.net,ns.ovh.net,ns10.ovh.net",
+        "status": [
+            "active"
+        ],
+        "name_servers": [
+            "dns.ovh.net",
+            "dns10.ovh.net",
+            "ns.ovh.net",
+            "ns10.ovh.net"
+        ],
         "created_date": "1999-11-11T23:00:00Z",
         "updated_date": "2019-04-18T12:14:43Z",
         "expiration_date": "2019-11-11T23:00:00Z"

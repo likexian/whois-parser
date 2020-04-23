@@ -3,9 +3,14 @@
         "domain": "git.ro",
         "name": "git",
         "extension": "ro",
-        "status": "ok",
+        "status": [
+            "ok"
+        ],
         "dnssec": "Inactive",
-        "name_servers": "a.ns.ro,b.ns.ro",
+        "name_servers": [
+            "a.ns.ro",
+            "b.ns.ro"
+        ],
         "created_date": "2019-01-04",
         "expiration_date": "2020-01-04"
     },

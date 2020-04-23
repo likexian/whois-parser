@@ -3,8 +3,15 @@
         "domain": "GIT.RU",
         "name": "git",
         "extension": "ru",
-        "status": "registered,delegated,unverified",
-        "name_servers": "hosting1.telekom.ru,ns2.telekom.ru",
+        "status": [
+            "registered",
+            "delegated",
+            "unverified"
+        ],
+        "name_servers": [
+            "hosting1.telekom.ru",
+            "ns2.telekom.ru"
+        ],
         "created_date": "2001-11-19T21:00:00Z",
         "expiration_date": "2020-11-20T21:00:00Z"
     },

@@ -4,10 +4,16 @@
         "domain": "sea.museum",
         "name": "sea",
         "extension": "museum",
-        "status": "clienttransferprohibited",
+        "status": [
+            "clienttransferprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.nic.museum",
-        "name_servers": "ns01.trademarkarea.com,ns02.trademarkearea.com,ns03.trademarkarea.com",
+        "name_servers": [
+            "ns01.trademarkarea.com",
+            "ns02.trademarkearea.com",
+            "ns03.trademarkarea.com"
+        ],
         "created_date": "2018-10-23T14:02:32Z",
         "updated_date": "2019-04-30T07:34:28Z",
         "expiration_date": "2019-10-23T14:02:33Z"

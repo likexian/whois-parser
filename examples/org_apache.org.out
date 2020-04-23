@@ -4,10 +4,19 @@
         "domain": "apache.org",
         "name": "apache",
         "extension": "org",
-        "status": "clientdeleteprohibited,clienttransferprohibited",
+        "status": [
+            "clientdeleteprohibited",
+            "clienttransferprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.namecheap.com",
-        "name_servers": "ns2.surfnet.nl,ns3.no-ip.com,ns2.no-ip.com,ns1.no-ip.com,ns4.no-ip.com",
+        "name_servers": [
+            "ns2.surfnet.nl",
+            "ns3.no-ip.com",
+            "ns2.no-ip.com",
+            "ns1.no-ip.com",
+            "ns4.no-ip.com"
+        ],
         "created_date": "1995-04-11T04:00:00.00Z",
         "updated_date": "2018-09-25T13:18:21.00Z",
         "expiration_date": "2022-04-12T04:00:00.00Z"

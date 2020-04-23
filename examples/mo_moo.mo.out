@@ -3,7 +3,11 @@
         "domain": "moo.mo",
         "name": "moo",
         "extension": "mo",
-        "name_servers": "ns3.wordpress.com,ns2.wordpress.com,ns1.wordpress.com",
+        "name_servers": [
+            "ns3.wordpress.com",
+            "ns2.wordpress.com",
+            "ns1.wordpress.com"
+        ],
         "created_date": "2018-02-05 22:59:12.55172",
         "expiration_date": "2021-02-05"
     },

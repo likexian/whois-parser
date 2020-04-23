@@ -4,10 +4,17 @@
         "domain": "google.pro",
         "name": "google",
         "extension": "pro",
-        "status": "clientupdateprohibited,clienttransferprohibited,clientdeleteprohibited",
+        "status": [
+            "clientupdateprohibited",
+            "clienttransferprohibited",
+            "clientdeleteprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.markmonitor.com",
-        "name_servers": "ns1.google.com,ns2.google.com",
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com"
+        ],
         "created_date": "2008-09-08T14:27:22-0700",
         "updated_date": "2019-08-07T02:30:57-0700",
         "expiration_date": "2020-09-07T00:00:00-0700"

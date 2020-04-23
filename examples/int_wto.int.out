@@ -3,7 +3,10 @@
         "domain": "WTO.INT",
         "name": "wto",
         "extension": "int",
-        "name_servers": "ns.unicc.org,ns1.gva.ch.colt.net",
+        "name_servers": [
+            "ns.unicc.org",
+            "ns1.gva.ch.colt.net"
+        ],
         "created_date": "2001-09-10",
         "updated_date": "2019-02-21"
     },

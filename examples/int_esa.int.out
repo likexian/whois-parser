@@ -3,7 +3,14 @@
         "domain": "ESA.INT",
         "name": "esa",
         "extension": "int",
-        "name_servers": "dns1.esa.int,dns2.esa.int,dns3.esa.int,dns4.esa.int,dns5.esa.int,dns6.esa.int",
+        "name_servers": [
+            "dns1.esa.int",
+            "dns2.esa.int",
+            "dns3.esa.int",
+            "dns4.esa.int",
+            "dns5.esa.int",
+            "dns6.esa.int"
+        ],
         "created_date": "1996-08-23",
         "updated_date": "2009-03-19"
     },

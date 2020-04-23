@@ -4,10 +4,17 @@
         "domain": "GOOGLE.JOBS",
         "name": "google",
         "extension": "jobs",
-        "status": "clientdeleteprohibited,clienttransferprohibited,clientupdateprohibited",
+        "status": [
+            "clientdeleteprohibited",
+            "clienttransferprohibited",
+            "clientupdateprohibited"
+        ],
         "dnssec": "unsigned",
         "whois_server": "whois.markmonitor.com",
-        "name_servers": "ns1.google.com,ns2.google.com",
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com"
+        ],
         "created_date": "2005-09-15T04:00:00Z",
         "updated_date": "2019-08-14T09:31:37Z",
         "expiration_date": "2020-09-15T04:00:00Z"

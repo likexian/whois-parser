@@ -3,8 +3,15 @@
         "domain": "google.fr",
         "name": "google",
         "extension": "fr",
-        "status": "active",
-        "name_servers": "ns1.google.com,ns2.google.com,ns3.google.com,ns4.google.com",
+        "status": [
+            "active"
+        ],
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns3.google.com",
+            "ns4.google.com"
+        ],
         "created_date": "2000-07-26T22:00:00Z",
         "updated_date": "2018-11-28T10:31:42Z",
         "expiration_date": "2019-12-30T17:16:48Z"

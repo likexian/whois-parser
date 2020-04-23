@@ -4,10 +4,15 @@
         "domain": "git.cat",
         "name": "git",
         "extension": "cat",
-        "status": "clienttransferprohibited",
+        "status": [
+            "clienttransferprohibited"
+        ],
         "dnssec": "Unsigned",
         "whois_server": "whois.gandi.net",
-        "name_servers": "ns1.smartgslb.com,ns2.smartgslb.com",
+        "name_servers": [
+            "ns1.smartgslb.com",
+            "ns2.smartgslb.com"
+        ],
         "created_date": "2018-11-17T16:11:05Z",
         "updated_date": "2019-09-18T15:20:27Z",
         "expiration_date": "2019-11-17T16:11:05Z"

@@ -4,9 +4,16 @@
         "domain": "GIT.ASIA",
         "name": "git",
         "extension": "asia",
-        "status": "clienttransferprohibited,autorenewperiod",
+        "status": [
+            "clienttransferprohibited",
+            "autorenewperiod"
+        ],
         "dnssec": "unsigned",
-        "name_servers": "ns1.dnsowl.com,ns2.dnsowl.com,ns3.dnsowl.com",
+        "name_servers": [
+            "ns1.dnsowl.com",
+            "ns2.dnsowl.com",
+            "ns3.dnsowl.com"
+        ],
         "created_date": "2018-09-27T13:26:20Z",
         "updated_date": "2019-09-27T22:24:16Z",
         "expiration_date": "2020-09-27T13:26:20Z"

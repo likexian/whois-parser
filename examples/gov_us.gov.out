@@ -3,6 +3,8 @@
         "domain": "US.GOV",
         "name": "us",
         "extension": "gov",
-        "status": "active"
+        "status": [
+            "active"
+        ]
     }
 }

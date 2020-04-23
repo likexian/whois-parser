@@ -3,7 +3,12 @@
         "domain": "asf.aq",
         "name": "asf",
         "extension": "aq",
-        "status": "taken",
-        "name_servers": "ns1.aad.gov.au,ns1.aarnet.net.au"
+        "status": [
+            "taken"
+        ],
+        "name_servers": [
+            "ns1.aad.gov.au",
+            "ns1.aarnet.net.au"
+        ]
     }
 }
