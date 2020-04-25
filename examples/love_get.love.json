@@ -1,7 +1,7 @@
 {
     "domain": {
         "id": "D7924624-CNIC",
-        "domain": "GET.LOVE",
+        "domain": "get.love",
         "name": "get",
         "extension": "love",
         "whois_server": "whois.nic.love",

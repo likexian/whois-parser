@@ -1,6 +1,6 @@
 {
     "domain": {
-        "domain": "ESA.INT",
+        "domain": "esa.int",
         "name": "esa",
         "extension": "int",
         "name_servers": [
