@@ -80,7 +80,7 @@ func TestWhoisParser(t *testing.T) {
 			extension = domain[strings.LastIndex(domain, ".")+1:]
 		}
 
-		if assert.IsContains([]string{"pre", "out"}, extension) {
+		if assert.IsContains([]string{"pre", "json"}, extension) {
 			continue
 		}
 
@@ -151,7 +151,7 @@ func TestWhoisParser(t *testing.T) {
 			assert.NotZero(t, whoisInfo.Registrar.ReferralURL)
 		}
 
-		err = xjson.Dump("./examples/"+v.Name+".out", whoisInfo)
+		err = xjson.Dump("./examples/"+v.Name+".json", whoisInfo)
 		assert.Nil(t, err)
 
 		if !assert.IsContains(exts, extension) {
@@ -175,7 +175,7 @@ func TestWhoisParser(t *testing.T) {
 			if kk == "" {
 				kk = vv
 			}
-			verified += fmt.Sprintf("| .%s | [%s](%s_%s) | [%s](%s_%s.out) | √ |\n",
+			verified += fmt.Sprintf("| .%s | [%s](%s_%s) | [%s](%s_%s.json) | √ |\n",
 				k, vv, kk, vv, vv, kk, vv)
 		}
 	}
