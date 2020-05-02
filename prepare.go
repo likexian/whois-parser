@@ -25,6 +25,7 @@ import (
 	"strings"
 
 	"github.com/likexian/gokit/assert"
+	"github.com/likexian/gokit/xslice"
 )
 
 // Prepare do prepare the whois info for parsing
@@ -164,14 +165,8 @@ func prepareEDU(text string) string {
 			} else {
 				// address ending now jump to phone
 				if tokens[token][index] == "Address" && strings.HasPrefix(v, "+") {
-					var found int
-					for m, n := range tokens[token] {
-						if n == "Phone" {
-							found = m
-							break
-						}
-					}
-					if found == 0 {
+					found := xslice.Index(tokens[token], "Phone")
+					if found == -1 {
 						token = ""
 						index = 0
 						continue

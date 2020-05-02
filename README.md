@@ -10,7 +10,7 @@ whois-parser-go is a simple Go module for domain whois info parse.
 
 ## Overview
 
-This module parses the provided whois information and return a readable data struct.
+This module parses the provided whois information and returns a readable data struct.
 
 ## Verified Extensions
 
@@ -20,13 +20,17 @@ If there is any problems, please feel free to open a new issue.
 
 ## Installation
 
-    go get github.com/likexian/whois-parser-go
+```shell
+go get github.com/likexian/whois-parser-go
+```
 
 ## Importing
 
-    import (
-        "github.com/likexian/whois-parser-go"
-    )
+```go
+import (
+    "github.com/likexian/whois-parser-go"
+)
+```
 
 ## Documentation
 
