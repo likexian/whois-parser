@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- * Go module for domain whois info parse
+ * Go module for domain whois information parsing
  * https://www.likexian.com/
  */
 
 package whoisparser
 
 var (
-	// keyRule is parser key rule mapper
+	// keyRule is the key rule mapper for parser
 	keyRule = map[string]string{
 		"id":                                     "domain_id",
 		"roid":                                   "domain_id",

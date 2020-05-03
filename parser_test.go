@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- * Go module for domain whois info parse
+ * Go module for domain whois information parsing
  * https://www.likexian.com/
  */
 
@@ -32,7 +32,7 @@ import (
 
 const (
 	VERIFIEDLIST = `
-# whois-parser.go
+# WhoisParser
 
 ## Overview
 

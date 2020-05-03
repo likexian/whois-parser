@@ -1,4 +1,4 @@
-# whois-parser.go
+# WhoisParser
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![GoDoc](https://godoc.org/github.com/likexian/whois-parser-go?status.svg)](https://godoc.org/github.com/likexian/whois-parser-go)
@@ -6,7 +6,7 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/likexian/whois-parser-go)](https://goreportcard.com/report/github.com/likexian/whois-parser-go)
 [![Code Cover](https://codecov.io/gh/likexian/whois-parser-go/graph/badge.svg)](https://codecov.io/gh/likexian/whois-parser-go)
 
-whois-parser-go is a simple Go module for domain whois info parse.
+WhoisParser is s simple Go module for domain whois information parsing.
 
 ## Overview
 
@@ -61,20 +61,18 @@ if err == nil {
 }
 ```
 
-## Whois info query in Go
+## Whois information query
 
 Please refer to [whois-go](https://github.com/likexian/whois-go)
 
-## LICENSE
+## License
 
-Copyright 2014-2020 Li Kexian
+Copyright 2014-2020 [Li Kexian](https://www.likexian.com/)
 
 Licensed under the Apache License 2.0
 
-## About
+## Donation
 
-- [Li Kexian](https://www.likexian.com/)
+If this project is helpful, please share it with friends.
 
-## DONATE
-
-- [Help me make perfect](https://www.likexian.com/donate/)
+If you want to thank me, you can [give me a cup of coffee](https://www.likexian.com/donate/).

@@ -1,4 +1,4 @@
-# whois-parser.go
+# WhoisParser
 
 ## Overview
 
