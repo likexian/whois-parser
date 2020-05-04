@@ -18,6 +18,10 @@ It is supposed to be working with all domain extensions, but [verified extension
 
 If there is any problems, please feel free to open a new issue.
 
+## Binary distributions
+
+For binary distributions of whois information query and parsing, please download [whois release tool](https://github.com/likexian/whois-go/tree/master/cmd/whois).
+
 ## Installation
 
 ```shell
