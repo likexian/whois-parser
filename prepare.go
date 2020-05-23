@@ -75,6 +75,8 @@ func Prepare(text, ext string) (string, bool) {
 		return prepareBR(text), true
 	case "ir":
 		return prepareIR(text), true
+	case "rs":
+		return prepareRS(text), true
 	default:
 		return text, false
 	}
@@ -993,6 +995,38 @@ func prepareFI(text string) string {
 				v = fmt.Sprintf("%s: %s", vv[0], vv[1])
 			}
 			if token != "" {
+				v = fmt.Sprintf("%s %s", token, v)
+			}
+		}
+		result += "\n" + v
+	}
+
+	return result
+}
+
+// prepareRS do prepare the .rs domain
+func prepareRS(text string) string {
+	tokens := map[string]string{
+		"Registrant":             "Registrant",
+		"Administrative contact": "Administrative",
+		"Technical contact":      "Technical",
+	}
+
+	token := ""
+	result := ""
+
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if len(v) == 0 {
+			token = ""
+			continue
+		}
+		if strings.Contains(v, ":") {
+			vv := strings.SplitN(v, ":", 2)
+			vv[0] = strings.TrimSpace(vv[0])
+			if t, ok := tokens[vv[0]]; ok {
+				token = t
+			} else if token != "" {
 				v = fmt.Sprintf("%s %s", token, v)
 			}
 		}

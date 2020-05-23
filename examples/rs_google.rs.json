@@ -1,0 +1,36 @@
+{
+    "domain": {
+        "domain": "google.rs",
+        "name": "google",
+        "extension": "rs",
+        "status": [
+            "active",
+            "clientupdateprohibited"
+        ],
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns3.google.com",
+            "ns4.google.com"
+        ],
+        "created_date": "10.03.2008 12:31:19",
+        "updated_date": "07.02.2020 18:38:00",
+        "expiration_date": "10.03.2021 12:31:19"
+    },
+    "registrar": {
+        "name": "NINET Company d.o.o."
+    },
+    "registrant": {
+        "id": "-",
+        "name": "Google LLC",
+        "street": "1600 Amphitheatre Parkway, Mountain View, CA 94043, United States of America"
+    },
+    "administrative": {
+        "name": "Drustvo za marketing Google DOO",
+        "street": "Marsala Birjuzova 47/18, Beograd, Serbia"
+    },
+    "technical": {
+        "name": "MarkMonitor, Inc.",
+        "street": "3540 East Longwing Lane, Suite 300, Meridian, ID 83646, United States of America"
+    }
+}

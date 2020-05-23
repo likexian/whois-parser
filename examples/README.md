@@ -127,6 +127,8 @@ If there is any problems, please feel free to open a new issue.
 | .re | [google.re](re_google.re) | [google.re](re_google.re.json) | √ |
 | .ro | [git.ro](ro_git.ro) | [git.ro](ro_git.ro.json) | √ |
 | .ro | [google.ro](ro_google.ro) | [google.ro](ro_google.ro.json) | √ |
+| .rs | [git.rs](rs_git.rs) | [git.rs](rs_git.rs.json) | √ |
+| .rs | [google.rs](rs_google.rs) | [google.rs](rs_google.rs.json) | √ |
 | .ru | [git.ru](ru_git.ru) | [git.ru](ru_git.ru.json) | √ |
 | .ru | [google.ru](ru_google.ru) | [google.ru](ru_google.ru.json) | √ |
 | .scot | [gov.scot](scot_gov.scot) | [gov.scot](scot_gov.scot.json) | √ |

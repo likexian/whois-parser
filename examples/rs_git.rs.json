@@ -1,0 +1,29 @@
+{
+    "domain": {
+        "domain": "git.rs",
+        "name": "git",
+        "extension": "rs",
+        "status": [
+            "active"
+        ],
+        "name_servers": [
+            "ns1.paukhost.com",
+            "ns2.paukhost.com"
+        ],
+        "created_date": "28.11.2018 22:06:38",
+        "updated_date": "01.11.2019 14:23:58",
+        "expiration_date": "28.11.2020 22:06:38"
+    },
+    "registrar": {
+        "name": "Stanco d.o.o."
+    },
+    "registrant": {
+        "name": "Individual"
+    },
+    "administrative": {
+        "name": "Individual"
+    },
+    "technical": {
+        "name": "Individual"
+    }
+}
