@@ -50,6 +50,41 @@ func IsNotFound(data string) bool {
 	return false
 }
 
+// IsPremiumDomain returns if the domain name is available to register at a premium price
+func IsPremiumDomain(data string) bool {
+	notExistsKeys := []string{
+		"reserved domain name",
+		"reserved by the registry",
+		"available for purchase",
+	}
+
+	data = strings.ToLower(data)
+	for _, v := range notExistsKeys {
+		if strings.Contains(data, v) {
+			return true
+		}
+	}
+
+	return false
+}
+
+// IsDomainBlock returns if the domain name is blocked due to a DPML brand name block
+func IsDomainBlock(data string) bool {
+	notExistsKeys := []string{
+		"The registration of this domain is restricted",
+		"dpml block",
+	}
+
+	data = strings.ToLower(data)
+	for _, v := range notExistsKeys {
+		if strings.Contains(data, v) {
+			return true
+		}
+	}
+
+	return false
+}
+
 // IsLimitExceeded returns is query limit
 func IsLimitExceeded(data string) bool {
 	data = strings.ToLower(data)

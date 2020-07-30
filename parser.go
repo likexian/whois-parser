@@ -33,6 +33,8 @@ var (
 	ErrDomainNotFound    = errors.New("Domain is not found.")
 	ErrDomainInvalidData = errors.New("Domain whois data invalid.")
 	ErrDomainLimitExceed = errors.New("Domain query limit exceeded.")
+	ErrPremiumDomain     = errors.New("The domain is not registered, but available at a premium price.")
+	ErrBlockedDomain     = errors.New("The domain name is blocked due to a DPML brand name block.")
 )
 
 // Version returns package version
@@ -57,6 +59,10 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		err = ErrDomainInvalidData
 		if IsNotFound(text) {
 			err = ErrDomainNotFound
+		} else if IsPremiumDomain(text) {
+			err = ErrPremiumDomain
+		} else if IsDomainBlock(text) {
+			err = ErrBlockedDomain
 		} else if IsLimitExceeded(text) {
 			err = ErrDomainLimitExceed
 		}
