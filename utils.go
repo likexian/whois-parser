@@ -52,14 +52,14 @@ func IsNotFound(data string) bool {
 
 // IsPremiumDomain returns if the domain name is available to register at a premium price
 func IsPremiumDomain(data string) bool {
-	notExistsKeys := []string{
+	premiumKeys := []string{
 		"reserved domain name",
 		"reserved by the registry",
 		"available for purchase",
 	}
 
 	data = strings.ToLower(data)
-	for _, v := range notExistsKeys {
+	for _, v := range premiumKeys {
 		if strings.Contains(data, v) {
 			return true
 		}
@@ -68,15 +68,15 @@ func IsPremiumDomain(data string) bool {
 	return false
 }
 
-// IsDomainBlock returns if the domain name is blocked due to a DPML brand name block
-func IsDomainBlock(data string) bool {
-	notExistsKeys := []string{
+// IsBlockedDomain returns if the domain name is blocked due to a DPML brand name block
+func IsBlockedDomain(data string) bool {
+	blockedKeys := []string{
 		"The registration of this domain is restricted",
 		"dpml block",
 	}
 
 	data = strings.ToLower(data)
-	for _, v := range notExistsKeys {
+	for _, v := range blockedKeys {
 		if strings.Contains(data, v) {
 			return true
 		}

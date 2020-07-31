@@ -39,7 +39,7 @@ var (
 
 // Version returns package version
 func Version() string {
-	return "1.14.1"
+	return "1.14.6"
 }
 
 // Author returns package author
@@ -61,7 +61,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 			err = ErrDomainNotFound
 		} else if IsPremiumDomain(text) {
 			err = ErrPremiumDomain
-		} else if IsDomainBlock(text) {
+		} else if IsBlockedDomain(text) {
 			err = ErrBlockedDomain
 		} else if IsLimitExceeded(text) {
 			err = ErrDomainLimitExceed

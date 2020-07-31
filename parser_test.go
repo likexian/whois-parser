@@ -183,27 +183,3 @@ func TestWhoisParser(t *testing.T) {
 	err = xfile.WriteText("./examples/README.md", strings.TrimSpace(verified))
 	assert.Nil(t, err)
 }
-
-func TestWhoisParser_BlockedDomain(t *testing.T) {
-	// from `whois google.chat`
-	_, err := Parse("The registration of this domain is restricted, as it is currently protected by a DPML Block. Additional information can be found at http://www.donuts.domains/what-we-do/brand-protection.")
-	assert.Equal(t, err, ErrBlockedDomain)
-}
-
-func TestWhoisParser_PremiumDomain(t *testing.T) {
-	// from `good.games`
-	_, err := Parse("This platinum domain is available for purchase. If you would like to make an offer, please contact platinums@donuts.email.")
-	assert.Equal(t, err, ErrPremiumDomain)
-
-	// from `cool.guru`
-	_, err = Parse("This premium domain is available for purchase. If you would like to make an offer, please contact platinums@donuts.email.")
-	assert.Equal(t, err, ErrPremiumDomain)
-
-	// from `cool.fyi`
-	_, err = Parse("This name is reserved by the Registry in accordance with ICANN Policy.")
-	assert.Equal(t, err, ErrPremiumDomain)
-
-	// from `good.download`
-	_, err = Parse("Reserved Domain Name")
-	assert.Equal(t, err, ErrPremiumDomain)
-}
