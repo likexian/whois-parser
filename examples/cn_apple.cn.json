@@ -2,6 +2,7 @@
     "domain": {
         "id": "20030312s10001s00044494-cn",
         "domain": "apple.cn",
+        "punycode": "apple.cn",
         "name": "apple",
         "extension": "cn",
         "status": [

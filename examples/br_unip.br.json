@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "unip.br",
+        "punycode": "unip.br",
         "name": "unip",
         "extension": "br",
         "status": [

@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.ru",
+        "punycode": "google.ru",
         "name": "google",
         "extension": "ru",
         "status": [

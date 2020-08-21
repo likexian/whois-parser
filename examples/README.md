@@ -164,6 +164,8 @@ If there is any problems, please feel free to open a new issue.
 | .wf | [google.wf](wf_google.wf) | [google.wf](wf_google.wf.json) | √ |
 | .ws | [github.ws](ws_github.ws) | [github.ws](ws_github.ws.json) | √ |
 | .ws | [google.ws](ws_google.ws) | [google.ws](ws_google.ws.json) | √ |
+| .xn--mgba3a4f16a | [ایرنیک.ایران](xn--mgba3a4f16a_ایرنیک.ایران) | [ایرنیک.ایران](xn--mgba3a4f16a_ایرنیک.ایران.json) | √ |
+| .xn--mgba3a4f16a | [بخر.ایران](xn--mgba3a4f16a_بخر.ایران) | [بخر.ایران](xn--mgba3a4f16a_بخر.ایران.json) | √ |
 | .xxx | [google.xxx](xxx_google.xxx) | [google.xxx](xxx_google.xxx.json) | √ |
 | .xxx | [porn.xxx](xxx_porn.xxx) | [porn.xxx](xxx_porn.xxx.json) | √ |
 | .xyz | [git.xyz](xyz_git.xyz) | [git.xyz](xyz_git.xyz.json) | √ |

@@ -2,6 +2,7 @@
     "domain": {
         "id": "D150926227-LROR",
         "domain": "github.org",
+        "punycode": "github.org",
         "name": "github",
         "extension": "org",
         "whois_server": "WHOIS.ENOM.COM",

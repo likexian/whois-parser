@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "ibm.hk",
+        "punycode": "ibm.hk",
         "name": "ibm",
         "extension": "hk",
         "status": [

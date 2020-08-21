@@ -2,6 +2,7 @@
     "domain": {
         "id": "D471480-LANIC",
         "domain": "google.la",
+        "punycode": "google.la",
         "name": "google",
         "extension": "la",
         "status": [

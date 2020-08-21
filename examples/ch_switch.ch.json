@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "switch.ch",
+        "punycode": "switch.ch",
         "name": "switch",
         "extension": "ch",
         "name_servers": [

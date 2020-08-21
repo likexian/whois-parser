@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "xplor.travel",
+        "punycode": "xplor.travel",
         "name": "xplor",
         "extension": "travel",
         "whois_server": "whois.encirca.com",

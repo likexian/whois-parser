@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.re",
+        "punycode": "google.re",
         "name": "google",
         "extension": "re",
         "status": [

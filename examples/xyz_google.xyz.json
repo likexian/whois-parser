@@ -2,6 +2,7 @@
     "domain": {
         "id": "D2689447-CNIC",
         "domain": "google.xyz",
+        "punycode": "google.xyz",
         "name": "google",
         "extension": "xyz",
         "whois_server": "whois.markmonitor.com",

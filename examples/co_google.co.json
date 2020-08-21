@@ -2,6 +2,7 @@
     "domain": {
         "id": "D656843-CO",
         "domain": "google.co",
+        "punycode": "google.co",
         "name": "google",
         "extension": "co",
         "status": [

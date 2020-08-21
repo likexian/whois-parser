@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.pm",
+        "punycode": "google.pm",
         "name": "google",
         "extension": "pm",
         "status": [

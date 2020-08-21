@@ -90,16 +90,16 @@ func TestWhoisParser(t *testing.T) {
 		whoisInfo, err := Parse(whoisRaw)
 		assert.Nil(t, err)
 
-		assert.Equal(t, strings.ToLower(whoisInfo.Domain.Domain), domain)
-		assert.Equal(t, strings.ToLower(whoisInfo.Domain.Extension), extension)
+		assert.Equal(t, whoisInfo.Domain.Punycode, domain)
+		assert.Equal(t, whoisInfo.Domain.Extension, extension)
 
 		if !assert.IsContains([]string{"", "aq", "br", "ch", "de", "edu", "eu", "fr", "gov", "hk",
 			"hm", "int", "it", "jp", "kr", "mo", "nl", "nz", "pm", "re", "ro", "ru", "su", "tf",
-			"tk", "travel", "tv", "tw", "uk", "wf", "yt", "ir", "fi", "rs"}, extension) {
+			"tk", "travel", "tv", "tw", "uk", "wf", "yt", "ir", "fi", "rs", "xn--mgba3a4f16a"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.ID)
 		}
 
-		if !assert.IsContains([]string{"ch", "edu", "eu", "int", "kr", "mo", "tw", "ir", "tk"}, extension) {
+		if !assert.IsContains([]string{"ch", "edu", "eu", "int", "kr", "mo", "tw", "ir", "tk", "xn--mgba3a4f16a"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.Status)
 		}
 
@@ -112,7 +112,7 @@ func TestWhoisParser(t *testing.T) {
 		if !assert.IsContains([]string{"aero", "aq", "asia", "berlin", "biz", "br", "ch", "cn",
 			"co", "cymru", "de", "edu", "eu", "fr", "gov", "hk", "hm", "in", "int", "it", "jp", "kr",
 			"la", "london", "me", "mo", "museum", "name", "nl", "nz", "pm", "re", "ro", "ru", "sh",
-			"su", "tel", "tf", "tk", "travel", "tw", "uk", "us", "wales", "wf", "xxx", "yt", "ir", "fi", "rs"}, extension) {
+			"su", "tel", "tf", "tk", "travel", "tw", "uk", "us", "wales", "wf", "xxx", "yt", "ir", "fi", "rs", "xn--mgba3a4f16a"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.WhoisServer)
 		}
 
@@ -120,7 +120,7 @@ func TestWhoisParser(t *testing.T) {
 			assert.NotZero(t, whoisInfo.Domain.NameServers)
 		}
 
-		if !assert.IsContains([]string{"aq", "au", "de", "eu", "gov", "hm", "name", "nl", "nz", "ir", "tk"}, extension) {
+		if !assert.IsContains([]string{"aq", "au", "de", "eu", "gov", "hm", "name", "nl", "nz", "ir", "tk", "xn--mgba3a4f16a"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.CreatedDate)
 		}
 
@@ -136,18 +136,18 @@ func TestWhoisParser(t *testing.T) {
 
 		if !assert.IsContains([]string{"", "ai", "aq", "au", "br", "ca", "ch", "cn", "cx", "de",
 			"edu", "eu", "fr", "gov", "gs", "hk", "hm", "int", "it", "jp", "kr", "la", "mo", "nl",
-			"nz", "pm", "re", "ro", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt", "ir", "fi", "rs"}, extension) {
+			"nz", "pm", "re", "ro", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt", "ir", "fi", "rs", "xn--mgba3a4f16a"}, extension) {
 			assert.NotZero(t, whoisInfo.Registrar.ID)
 		}
 
 		if !assert.IsContains([]string{"", "aq", "br", "de",
-			"edu", "gov", "hm", "int", "jp", "mo", "tk", "ir"}, extension) {
+			"edu", "gov", "hm", "int", "jp", "mo", "tk", "ir", "xn--mgba3a4f16a"}, extension) {
 			assert.NotZero(t, whoisInfo.Registrar.Name)
 		}
 
 		if !assert.IsContains([]string{"", "aero", "ai", "aq", "asia", "au", "br", "ch", "cn", "de",
 			"edu", "gov", "hk", "hm", "int", "jp", "kr", "la", "london", "love", "mo",
-			"museum", "name", "nl", "nz", "ru", "su", "tk", "top", "ir", "fi", "rs"}, extension) {
+			"museum", "name", "nl", "nz", "ru", "su", "tk", "top", "ir", "fi", "rs", "xn--mgba3a4f16a"}, extension) {
 			assert.NotZero(t, whoisInfo.Registrar.ReferralURL)
 		}
 
@@ -182,4 +182,29 @@ func TestWhoisParser(t *testing.T) {
 
 	err = xfile.WriteText("./examples/README.md", strings.TrimSpace(verified))
 	assert.Nil(t, err)
+}
+
+func TestTsearchDomain(t *testing.T) {
+	tests := []struct {
+		whois     string
+		name      string
+		extension string
+	}{
+		{"Domain: example.com\n", "example", "com"},
+		{"Domain Name: example.com\n", "example", "com"},
+		{"Domain_Name: example.com\n", "example", "com"},
+
+		{"Domain: com\n", "com", ""},
+		{"Domain Name: com\n", "com", ""},
+		{"Domain_Name: com\n", "com", ""},
+
+		{"Domain Name: 示例.中国\n", "示例", "中国"},
+		{"Domain Name: 中国\n", "中国", ""},
+	}
+
+	for _, v := range tests {
+		name, extension := searchDomain(v.whois)
+		assert.Equal(t, name, v.name)
+		assert.Equal(t, extension, v.extension)
+	}
 }

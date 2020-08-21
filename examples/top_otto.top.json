@@ -2,6 +2,7 @@
     "domain": {
         "id": "20150226g10001g-30971494",
         "domain": "otto.top",
+        "punycode": "otto.top",
         "name": "otto",
         "extension": "top",
         "whois_server": "whois.rrpproxy.net",

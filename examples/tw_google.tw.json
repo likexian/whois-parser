@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.tw",
+        "punycode": "google.tw",
         "name": "google",
         "extension": "tw",
         "status": [

@@ -2,6 +2,7 @@
     "domain": {
         "id": "whois protect",
         "domain": "git.xyz",
+        "punycode": "git.xyz",
         "name": "git",
         "extension": "xyz",
         "whois_server": "whois.west.cn",

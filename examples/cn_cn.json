@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "cn",
+        "punycode": "cn",
         "name": "cn",
         "whois_server": "whois.cnnic.cn",
         "status": [

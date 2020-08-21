@@ -2,6 +2,7 @@
     "domain": {
         "id": "685916-CoCCA",
         "domain": "git.cx",
+        "punycode": "git.cx",
         "name": "git",
         "extension": "cx",
         "whois_server": "whois.coccaregistry.org",

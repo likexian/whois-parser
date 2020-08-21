@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.wf",
+        "punycode": "google.wf",
         "name": "google",
         "extension": "wf",
         "status": [

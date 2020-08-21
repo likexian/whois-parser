@@ -2,6 +2,7 @@
     "domain": {
         "id": "D503300000040457188-LRMS",
         "domain": "git.sh",
+        "punycode": "git.sh",
         "name": "git",
         "extension": "sh",
         "status": [

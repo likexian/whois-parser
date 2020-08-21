@@ -2,6 +2,7 @@
     "domain": {
         "id": "447518-CoCCA",
         "domain": "google.cx",
+        "punycode": "google.cx",
         "name": "google",
         "extension": "cx",
         "whois_server": "whois.coccaregistry.org",

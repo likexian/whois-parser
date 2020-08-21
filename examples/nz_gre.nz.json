@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "gre.nz",
+        "punycode": "gre.nz",
         "name": "gre",
         "extension": "nz",
         "status": [

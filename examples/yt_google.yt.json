@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.yt",
+        "punycode": "google.yt",
         "name": "google",
         "extension": "yt",
         "status": [

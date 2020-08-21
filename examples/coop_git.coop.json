@@ -2,6 +2,7 @@
     "domain": {
         "id": "D44747703-CNIC",
         "domain": "git.coop",
+        "punycode": "git.coop",
         "name": "git",
         "extension": "coop",
         "whois_server": "whois.gandi.net",

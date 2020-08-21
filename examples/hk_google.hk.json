@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.hk",
+        "punycode": "google.hk",
         "name": "google",
         "extension": "hk",
         "status": [

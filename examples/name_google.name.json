@@ -2,6 +2,7 @@
     "domain": {
         "id": "134538139_DOMAIN_NAME-VRSN",
         "domain": "google.name",
+        "punycode": "google.name",
         "name": "google",
         "extension": "name",
         "status": [

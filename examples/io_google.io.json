@@ -2,6 +2,7 @@
     "domain": {
         "id": "D503300000040517313-LRMS",
         "domain": "google.io",
+        "punycode": "google.io",
         "name": "google",
         "extension": "io",
         "whois_server": "whois.markmonitor.com",

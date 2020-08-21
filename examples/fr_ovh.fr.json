@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "ovh.fr",
+        "punycode": "ovh.fr",
         "name": "ovh",
         "extension": "fr",
         "status": [

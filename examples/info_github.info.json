@@ -2,6 +2,7 @@
     "domain": {
         "id": "D51322538-LRMS",
         "domain": "github.info",
+        "punycode": "github.info",
         "name": "github",
         "extension": "info",
         "whois_server": "whois.godaddy.com",

@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.fi",
+        "punycode": "google.fi",
         "name": "google",
         "extension": "fi",
         "status": [

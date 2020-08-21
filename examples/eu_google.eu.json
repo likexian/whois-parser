@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.eu",
+        "punycode": "google.eu",
         "name": "google",
         "extension": "eu",
         "name_servers": [

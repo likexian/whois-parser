@@ -2,6 +2,7 @@
     "domain": {
         "id": "D29317-AGRS",
         "domain": "google.xxx",
+        "punycode": "google.xxx",
         "name": "google",
         "extension": "xxx",
         "status": [

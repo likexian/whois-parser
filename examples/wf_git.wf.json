@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "git.wf",
+        "punycode": "git.wf",
         "name": "git",
         "extension": "wf",
         "status": [

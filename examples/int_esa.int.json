@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "esa.int",
+        "punycode": "esa.int",
         "name": "esa",
         "extension": "int",
         "name_servers": [

@@ -2,6 +2,7 @@
     "domain": {
         "id": "4258-CoCCA.gs",
         "domain": "google.gs",
+        "punycode": "google.gs",
         "name": "google",
         "extension": "gs",
         "whois_server": "whois.coccaregistry.org",

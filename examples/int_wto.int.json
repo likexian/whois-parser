@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "wto.int",
+        "punycode": "wto.int",
         "name": "wto",
         "extension": "int",
         "name_servers": [

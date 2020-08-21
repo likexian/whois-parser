@@ -2,6 +2,7 @@
     "domain": {
         "id": "291858_nic_ai",
         "domain": "git.ai",
+        "punycode": "git.ai",
         "name": "git",
         "extension": "ai",
         "whois_server": "whois.nic.ai",

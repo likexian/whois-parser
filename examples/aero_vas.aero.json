@@ -2,6 +2,7 @@
     "domain": {
         "id": "D920695-AERO",
         "domain": "vas.aero",
+        "punycode": "vas.aero",
         "name": "vas",
         "extension": "aero",
         "status": [

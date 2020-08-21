@@ -2,6 +2,7 @@
     "domain": {
         "id": "729927_DOMAIN_COM-VRSN",
         "domain": "name.com",
+        "punycode": "name.com",
         "name": "name",
         "extension": "com",
         "whois_server": "whois.name.com",

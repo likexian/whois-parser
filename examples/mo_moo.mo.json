@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "moo.mo",
+        "punycode": "moo.mo",
         "name": "moo",
         "extension": "mo",
         "name_servers": [

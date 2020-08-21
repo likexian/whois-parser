@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "yazeji.tk",
+        "punycode": "yazeji.tk",
         "name": "yazeji",
         "extension": "tk",
         "name_servers": [

@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "git.jp",
+        "punycode": "git.jp",
         "name": "git",
         "extension": "jp",
         "status": [

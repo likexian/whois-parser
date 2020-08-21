@@ -26,6 +26,7 @@ import (
 
 	"github.com/likexian/gokit/assert"
 	"github.com/likexian/gokit/xslice"
+	"golang.org/x/net/idna"
 )
 
 // Domain info error and replacer variables
@@ -39,7 +40,7 @@ var (
 
 // Version returns package version
 func Version() string {
-	return "1.14.6"
+	return "1.15.0"
 }
 
 // Author returns package author
@@ -76,10 +77,10 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 	technical := &Contact{}
 	billing := &Contact{}
 
-	domain.Name = name
-	domain.Extension = extension
+	domain.Name, _ = idna.ToASCII(name)
+	domain.Extension, _ = idna.ToASCII(extension)
 
-	whoisText, _ := Prepare(text, extension)
+	whoisText, _ := Prepare(text, domain.Extension)
 	whoisLines := strings.Split(whoisText, "\n")
 	for i := 0; i < len(whoisLines); i++ {
 		line := strings.TrimSpace(whoisLines[i])
@@ -120,6 +121,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 			domain.ID = value
 		case "domain_name":
 			domain.Domain = strings.ToLower(value)
+			domain.Punycode, _ = idna.ToASCII(domain.Domain)
 		case "domain_status":
 			domain.Status = append(domain.Status, strings.Split(value, ",")...)
 		case "domain_dnssec":
@@ -235,13 +237,13 @@ func parseContact(contact *Contact, name, value string) {
 
 // searchDomain find domain from whois info
 func searchDomain(text string) (string, string) {
-	r := regexp.MustCompile(`(?i)\[?domain(\s*\_?name)?\]?[\s\.]*\:?\s*([a-z0-9\-\.]+)\.([a-z]{2,})`)
+	r := regexp.MustCompile(`(?i)\[?domain(\s*\_?name)?\]?[\s\.]*\:?\s*([^\s]+)\.([^\.\s]{2,})`)
 	m := r.FindStringSubmatch(text)
 	if len(m) > 0 {
 		return strings.ToLower(strings.TrimSpace(m[2])), strings.ToLower(strings.TrimSpace(m[3]))
 	}
 
-	r = regexp.MustCompile(`(?i)\[?domain(\s*\_?name)?\]?\s*\:?\s*([a-z]{2,})\n`)
+	r = regexp.MustCompile(`(?i)\[?domain(\s*\_?name)?\]?\s*\:?\s*([^\.\s]{2,})\n`)
 	m = r.FindStringSubmatch(text)
 	if len(m) > 0 {
 		return strings.ToLower(strings.TrimSpace(m[2])), ""

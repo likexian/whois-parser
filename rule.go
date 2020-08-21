@@ -105,6 +105,7 @@ var (
 		"registration service url":               "referral_url",
 		"registrant c":                           "registrant_id",
 		"registrant id":                          "registrant_id",
+		"registrant nic hdl":                     "registrant_id",
 		"registrant iana id":                     "registrant_id",
 		"registrant contact id":                  "registrant_id",
 		"registrant register number":             "registrant_id",

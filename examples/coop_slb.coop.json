@@ -2,6 +2,7 @@
     "domain": {
         "id": "D7898338-CNIC",
         "domain": "slb.coop",
+        "punycode": "slb.coop",
         "name": "slb",
         "extension": "coop",
         "whois_server": "whois.gandi.net",

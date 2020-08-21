@@ -2,6 +2,7 @@
     "domain": {
         "id": "486609_DOMAIN_NET-VRSN",
         "domain": "he.net",
+        "punycode": "he.net",
         "name": "he",
         "extension": "net",
         "whois_server": "whois.networksolutions.com",

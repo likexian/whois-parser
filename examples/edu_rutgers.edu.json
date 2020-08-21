@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "rutgers.edu",
+        "punycode": "rutgers.edu",
         "name": "rutgers",
         "extension": "edu",
         "name_servers": [

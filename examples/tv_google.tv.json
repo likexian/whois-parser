@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.tv",
+        "punycode": "google.tv",
         "name": "google",
         "extension": "tv",
         "whois_server": "whois.markmonitor.com",

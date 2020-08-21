@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "git.su",
+        "punycode": "git.su",
         "name": "git",
         "extension": "su",
         "status": [

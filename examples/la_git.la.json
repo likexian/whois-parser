@@ -2,6 +2,7 @@
     "domain": {
         "id": "D605176-LANIC",
         "domain": "git.la",
+        "punycode": "git.la",
         "name": "git",
         "extension": "la",
         "status": [

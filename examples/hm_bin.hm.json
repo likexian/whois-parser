@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "bin.hm",
+        "punycode": "bin.hm",
         "name": "bin",
         "extension": "hm",
         "status": [

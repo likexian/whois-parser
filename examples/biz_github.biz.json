@@ -2,6 +2,7 @@
     "domain": {
         "id": "D40741417-BIZ",
         "domain": "github.biz",
+        "punycode": "github.biz",
         "name": "github",
         "extension": "biz",
         "status": [

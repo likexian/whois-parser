@@ -2,6 +2,7 @@
     "domain": {
         "id": "D2244233-LROR",
         "domain": "google.org",
+        "punycode": "google.org",
         "name": "google",
         "extension": "org",
         "whois_server": "whois.markmonitor.com",

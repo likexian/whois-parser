@@ -2,6 +2,7 @@
     "domain": {
         "id": "D34417-LRMS",
         "domain": "west.info",
+        "punycode": "west.info",
         "name": "west",
         "extension": "info",
         "whois_server": "whois.psi-usa.info",

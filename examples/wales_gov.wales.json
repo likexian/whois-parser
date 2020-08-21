@@ -2,6 +2,7 @@
     "domain": {
         "id": "gov-WALES",
         "domain": "gov.wales",
+        "punycode": "gov.wales",
         "name": "gov",
         "extension": "wales",
         "status": [

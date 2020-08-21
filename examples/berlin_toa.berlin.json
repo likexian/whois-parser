@@ -2,6 +2,7 @@
     "domain": {
         "id": "D0000176766-BERLIN",
         "domain": "toa.berlin",
+        "punycode": "toa.berlin",
         "name": "toa",
         "extension": "berlin",
         "status": [

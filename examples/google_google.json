@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google",
+        "punycode": "google",
         "name": "google",
         "whois_server": "whois.nic.google",
         "status": [

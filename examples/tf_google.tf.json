@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.tf",
+        "punycode": "google.tf",
         "name": "google",
         "extension": "tf",
         "status": [

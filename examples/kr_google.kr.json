@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.kr",
+        "punycode": "google.kr",
         "name": "google",
         "extension": "kr",
         "name_servers": [

@@ -2,6 +2,7 @@
     "domain": {
         "id": "DO_72ec7223ff326ec0c21d0d25412fb084-UR",
         "domain": "google.sexy",
+        "punycode": "google.sexy",
         "name": "google",
         "extension": "sexy",
         "whois_server": "whois.markmonitor.com",

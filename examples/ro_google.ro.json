@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.ro",
+        "punycode": "google.ro",
         "name": "google",
         "extension": "ro",
         "status": [

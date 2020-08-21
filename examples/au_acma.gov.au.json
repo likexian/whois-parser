@@ -2,6 +2,7 @@
     "domain": {
         "id": "D407400000002676463-AU",
         "domain": "acma.gov.au",
+        "punycode": "acma.gov.au",
         "name": "acma.gov",
         "extension": "au",
         "whois_server": "whois.auda.org.au",

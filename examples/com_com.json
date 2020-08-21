@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "com",
+        "punycode": "com",
         "name": "com",
         "whois_server": "whois.verisign-grs.com",
         "status": [

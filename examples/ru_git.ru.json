@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "git.ru",
+        "punycode": "git.ru",
         "name": "git",
         "extension": "ru",
         "status": [

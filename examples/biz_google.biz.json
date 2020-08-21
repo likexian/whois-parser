@@ -2,6 +2,7 @@
     "domain": {
         "id": "D2835288-BIZ",
         "domain": "google.biz",
+        "punycode": "google.biz",
         "name": "google",
         "extension": "biz",
         "status": [

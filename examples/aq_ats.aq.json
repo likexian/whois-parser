@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "ats.aq",
+        "punycode": "ats.aq",
         "name": "ats",
         "extension": "aq",
         "status": [

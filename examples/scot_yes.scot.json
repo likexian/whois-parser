@@ -2,6 +2,7 @@
     "domain": {
         "id": "D23-SCOT",
         "domain": "yes.scot",
+        "punycode": "yes.scot",
         "name": "yes",
         "extension": "scot",
         "whois_server": "whois.corehub.net",

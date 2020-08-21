@@ -2,6 +2,7 @@
     "domain": {
         "id": "52772224_DOMAIN_NET-VRSN",
         "domain": "hexonet.net",
+        "punycode": "hexonet.net",
         "name": "hexonet",
         "extension": "net",
         "whois_server": "whois.1api.net",

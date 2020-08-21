@@ -2,6 +2,7 @@
     "domain": {
         "id": "90059809_DOMAIN_TV-VRSN",
         "domain": "msn.tv",
+        "punycode": "msn.tv",
         "name": "msn",
         "extension": "tv",
         "whois_server": "whois.markmonitor.com",

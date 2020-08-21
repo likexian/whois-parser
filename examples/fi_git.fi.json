@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "git.fi",
+        "punycode": "git.fi",
         "name": "git",
         "extension": "fi",
         "status": [

@@ -2,6 +2,7 @@
     "domain": {
         "id": "D38533842-CNIC",
         "domain": "iodp.love",
+        "punycode": "iodp.love",
         "name": "iodp",
         "extension": "love",
         "whois_server": "whois.meshdigital.com",

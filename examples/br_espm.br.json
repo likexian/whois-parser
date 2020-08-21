@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "espm.br",
+        "punycode": "espm.br",
         "name": "espm",
         "extension": "br",
         "status": [

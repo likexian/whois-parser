@@ -2,6 +2,7 @@
     "domain": {
         "id": "3780-D",
         "domain": "google.cat",
+        "punycode": "google.cat",
         "name": "google",
         "extension": "cat",
         "whois_server": "whois.markmonitor.com",

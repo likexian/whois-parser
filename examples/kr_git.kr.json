@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "git.kr",
+        "punycode": "git.kr",
         "name": "git",
         "extension": "kr",
         "status": [

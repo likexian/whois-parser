@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "git.hk",
+        "punycode": "git.hk",
         "name": "git",
         "extension": "hk",
         "status": [

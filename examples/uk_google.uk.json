@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.uk",
+        "punycode": "google.uk",
         "name": "google",
         "extension": "uk",
         "status": [

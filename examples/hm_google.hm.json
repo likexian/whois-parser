@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.hm",
+        "punycode": "google.hm",
         "name": "google",
         "extension": "hm",
         "status": [

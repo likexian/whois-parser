@@ -2,6 +2,7 @@
     "domain": {
         "id": "D107300000001426087-LRMS",
         "domain": "github.pro",
+        "punycode": "github.pro",
         "name": "github",
         "extension": "pro",
         "whois_server": "whois.markmonitor.com",

@@ -2,6 +2,7 @@
     "domain": {
         "id": "2138514_DOMAIN_COM-VRSN",
         "domain": "google.com",
+        "punycode": "google.com",
         "name": "google",
         "extension": "com",
         "whois_server": "whois.markmonitor.com",

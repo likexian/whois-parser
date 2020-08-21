@@ -2,6 +2,7 @@
     "domain": {
         "id": "86932313_DOMAIN_JOBS-VRSN",
         "domain": "google.jobs",
+        "punycode": "google.jobs",
         "name": "google",
         "extension": "jobs",
         "whois_server": "whois.markmonitor.com",

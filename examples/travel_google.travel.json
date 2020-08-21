@@ -2,6 +2,7 @@
     "domain": {
         "id": "D13012-TRAVEL",
         "domain": "google.travel",
+        "punycode": "google.travel",
         "name": "google",
         "extension": "travel",
         "status": [

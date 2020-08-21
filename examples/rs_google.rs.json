@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.rs",
+        "punycode": "google.rs",
         "name": "google",
         "extension": "rs",
         "status": [

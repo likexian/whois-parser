@@ -2,6 +2,7 @@
     "domain": {
         "id": "D509774-IN",
         "domain": "git.in",
+        "punycode": "git.in",
         "name": "git",
         "extension": "in",
         "status": [

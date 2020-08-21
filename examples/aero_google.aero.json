@@ -2,6 +2,7 @@
     "domain": {
         "id": "D4480451-AERO",
         "domain": "google.aero",
+        "punycode": "google.aero",
         "name": "google",
         "extension": "aero",
         "status": [

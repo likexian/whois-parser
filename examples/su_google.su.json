@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.su",
+        "punycode": "google.su",
         "name": "google",
         "extension": "su",
         "status": [

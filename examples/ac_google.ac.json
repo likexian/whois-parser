@@ -2,6 +2,7 @@
     "domain": {
         "id": "D503300000040385778-LRMS",
         "domain": "google.ac",
+        "punycode": "google.ac",
         "name": "google",
         "extension": "ac",
         "whois_server": "whois.markmonitor.com",

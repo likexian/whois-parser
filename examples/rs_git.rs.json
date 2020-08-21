@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "git.rs",
+        "punycode": "git.rs",
         "name": "git",
         "extension": "rs",
         "status": [

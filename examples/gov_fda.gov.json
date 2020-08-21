@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "fda.gov",
+        "punycode": "fda.gov",
         "name": "fda",
         "extension": "gov",
         "status": [

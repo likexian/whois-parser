@@ -2,6 +2,7 @@
     "domain": {
         "id": "D7924624-CNIC",
         "domain": "get.love",
+        "punycode": "get.love",
         "name": "get",
         "extension": "love",
         "whois_server": "whois.nic.love",

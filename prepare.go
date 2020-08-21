@@ -73,7 +73,7 @@ func Prepare(text, ext string) (string, bool) {
 		return prepareEU(text), true
 	case "br":
 		return prepareBR(text), true
-	case "ir":
+	case "ir", "xn--mgba3a4f16a":
 		return prepareIR(text), true
 	case "rs":
 		return prepareRS(text), true

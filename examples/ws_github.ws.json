@@ -2,6 +2,7 @@
     "domain": {
         "id": "D865CD2AE420835CE040010AAB015FFF",
         "domain": "github.ws",
+        "punycode": "github.ws",
         "name": "github",
         "extension": "ws",
         "whois_server": "whois.markmonitor.com",

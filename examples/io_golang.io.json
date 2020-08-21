@@ -2,6 +2,7 @@
     "domain": {
         "id": "UNDEF-ROID",
         "domain": "golang.io",
+        "punycode": "golang.io",
         "name": "golang",
         "extension": "io",
         "whois_server": "whois.gandi.net",

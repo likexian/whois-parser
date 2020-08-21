@@ -1,0 +1,38 @@
+{
+    "domain": {
+        "domain": "بخر.ایران",
+        "punycode": "xn--ngbmj.xn--mgba3a4f16a",
+        "name": "xn--ngbmj",
+        "extension": "xn--mgba3a4f16a",
+        "name_servers": [
+            "ns1.telematics.ir",
+            "ns2.telematics.ir"
+        ],
+        "updated_date": "2018-04-29",
+        "expiration_date": "2023-05-11"
+    },
+    "registrant": {
+        "id": "ya88-irnic",
+        "name": "Yousef Alavi Moghaddam",
+        "street": "Unit 6, No. 590, BETWEEN LALE-ZAR AND SAADI, ENGHELAB St.,, TEHRAN, TEHRAN, IR",
+        "phone": "+98 21 66733154",
+        "fax": "+98 21 66732207",
+        "email": "yousefalavi@yahoo.com"
+    },
+    "administrative": {
+        "id": "ya88-irnic",
+        "name": "Yousef Alavi Moghaddam",
+        "street": "Unit 6, No. 590, BETWEEN LALE-ZAR AND SAADI, ENGHELAB St.,, TEHRAN, TEHRAN, IR",
+        "phone": "+98 21 66733154",
+        "fax": "+98 21 66732207",
+        "email": "yousefalavi@yahoo.com"
+    },
+    "technical": {
+        "id": "ya88-irnic",
+        "name": "Yousef Alavi Moghaddam",
+        "street": "Unit 6, No. 590, BETWEEN LALE-ZAR AND SAADI, ENGHELAB St.,, TEHRAN, TEHRAN, IR",
+        "phone": "+98 21 66733154",
+        "fax": "+98 21 66732207",
+        "email": "yousefalavi@yahoo.com"
+    }
+}

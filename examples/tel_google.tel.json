@@ -2,6 +2,7 @@
     "domain": {
         "id": "D587349-TEL",
         "domain": "google.tel",
+        "punycode": "google.tel",
         "name": "google",
         "extension": "tel",
         "status": [

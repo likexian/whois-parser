@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "yp.mo",
+        "punycode": "yp.mo",
         "name": "yp",
         "extension": "mo",
         "name_servers": [

@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "vote.nz",
+        "punycode": "vote.nz",
         "name": "vote",
         "extension": "nz",
         "status": [

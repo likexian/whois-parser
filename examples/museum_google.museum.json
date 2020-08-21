@@ -2,6 +2,7 @@
     "domain": {
         "id": "DOM000001477194-MUSEUM",
         "domain": "google.museum",
+        "punycode": "google.museum",
         "name": "google",
         "extension": "museum",
         "status": [

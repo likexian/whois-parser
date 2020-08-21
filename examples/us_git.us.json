@@ -2,6 +2,7 @@
     "domain": {
         "id": "D1827192-US",
         "domain": "git.us",
+        "punycode": "git.us",
         "name": "git",
         "extension": "us",
         "whois_server": "whois.godaddy.com",

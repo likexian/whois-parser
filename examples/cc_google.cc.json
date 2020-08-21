@@ -2,6 +2,7 @@
     "domain": {
         "id": "86420657_DOMAIN_CC-VRSN",
         "domain": "google.cc",
+        "punycode": "google.cc",
         "name": "google",
         "extension": "cc",
         "whois_server": "whois.markmonitor.com",

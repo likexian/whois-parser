@@ -2,6 +2,7 @@
     "domain": {
         "id": "D706686-LROR",
         "domain": "apache.org",
+        "punycode": "apache.org",
         "name": "apache",
         "extension": "org",
         "whois_server": "whois.namecheap.com",

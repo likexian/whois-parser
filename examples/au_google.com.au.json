@@ -2,6 +2,7 @@
     "domain": {
         "id": "D407400000001774763-AU",
         "domain": "google.com.au",
+        "punycode": "google.com.au",
         "name": "google.com",
         "extension": "au",
         "whois_server": "whois.auda.org.au",

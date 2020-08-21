@@ -2,6 +2,7 @@
     "domain": {
         "id": "D425500000052489785-AGRS",
         "domain": "git.asia",
+        "punycode": "git.asia",
         "name": "git",
         "extension": "asia",
         "status": [

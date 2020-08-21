@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "git.eu",
+        "punycode": "git.eu",
         "name": "git",
         "extension": "eu",
         "name_servers": [

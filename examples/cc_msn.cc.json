@@ -2,6 +2,7 @@
     "domain": {
         "id": "86416313_DOMAIN_CC-VRSN",
         "domain": "msn.cc",
+        "punycode": "msn.cc",
         "name": "msn",
         "extension": "cc",
         "whois_server": "whois.corporatedomains.com",

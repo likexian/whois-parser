@@ -2,6 +2,7 @@
     "domain": {
         "id": "4570310_DOMAIN_COM-VRSN",
         "domain": "encirca.com",
+        "punycode": "encirca.com",
         "name": "encirca",
         "extension": "com",
         "whois_server": "whois.encirca.com",

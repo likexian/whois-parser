@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.tk",
+        "punycode": "google.tk",
         "name": "google",
         "extension": "tk",
         "status": [

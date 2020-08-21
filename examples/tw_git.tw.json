@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "git.tw",
+        "punycode": "git.tw",
         "name": "git",
         "extension": "tw",
         "status": [

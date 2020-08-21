@@ -2,6 +2,7 @@
     "domain": {
         "id": "20030311s10001s00033735-cn",
         "domain": "google.cn",
+        "punycode": "google.cn",
         "name": "google",
         "extension": "cn",
         "status": [

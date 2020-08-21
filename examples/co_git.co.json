@@ -2,6 +2,7 @@
     "domain": {
         "id": "D1602048-CO",
         "domain": "git.co",
+        "punycode": "git.co",
         "name": "git",
         "extension": "co",
         "whois_server": "whois.godaddy.com",

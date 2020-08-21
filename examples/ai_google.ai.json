@@ -2,6 +2,7 @@
     "domain": {
         "id": "325702_nic_ai",
         "domain": "google.ai",
+        "punycode": "google.ai",
         "name": "google",
         "extension": "ai",
         "whois_server": "whois.nic.ai",

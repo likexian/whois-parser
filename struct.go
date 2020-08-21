@@ -33,6 +33,7 @@ type WhoisInfo struct {
 type Domain struct {
 	ID             string   `json:"id,omitempty"`
 	Domain         string   `json:"domain,omitempty"`
+	Punycode       string   `json:"punycode,omitempty"`
 	Name           string   `json:"name,omitempty"`
 	Extension      string   `json:"extension,omitempty"`
 	WhoisServer    string   `json:"whois_server,omitempty"`

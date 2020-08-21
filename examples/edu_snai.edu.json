@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "snai.edu",
+        "punycode": "snai.edu",
         "name": "snai",
         "extension": "edu",
         "name_servers": [

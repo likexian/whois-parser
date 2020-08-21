@@ -2,6 +2,7 @@
     "domain": {
         "id": "893204-CoCCA",
         "domain": "git.gs",
+        "punycode": "git.gs",
         "name": "git",
         "extension": "gs",
         "whois_server": "whois.coccaregistry.org",

@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.ch",
+        "punycode": "google.ch",
         "name": "google",
         "extension": "ch",
         "name_servers": [

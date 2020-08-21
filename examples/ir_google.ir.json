@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "google.ir",
+        "punycode": "google.ir",
         "name": "google",
         "extension": "ir",
         "name_servers": [
@@ -13,6 +14,7 @@
         "expiration_date": "2020-12-22"
     },
     "registrant": {
+        "id": "go438-irnic",
         "organization": "Google Inc.",
         "street": "1600 Amphitheatre Parkway, Mountain View, CA, US",
         "phone": "+1 650 623 4000",
@@ -20,6 +22,7 @@
         "email": "support@domainservicesltd.co.uk"
     },
     "administrative": {
+        "id": "in103-irnic",
         "organization": "Instra Corporation Pty Ltd",
         "street": "level 2, 222-225 Beach Road, Mordialloc, Vic, AU",
         "phone": "+61 3 9783 1800",
@@ -27,6 +30,7 @@
         "email": "irapplications@instra.com"
     },
     "technical": {
+        "id": "in103-irnic",
         "organization": "Instra Corporation Pty Ltd",
         "street": "level 2, 222-225 Beach Road, Mordialloc, Vic, AU",
         "phone": "+61 3 9783 1800",
@@ -34,6 +38,7 @@
         "email": "irapplications@instra.com"
     },
     "billing": {
+        "id": "ra50-irnic",
         "organization": "Ravand Tazeh (ouriran)",
         "email": "hostmaster@ouriran.com"
     }

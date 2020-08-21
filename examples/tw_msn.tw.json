@@ -1,6 +1,7 @@
 {
     "domain": {
         "domain": "msn.tw",
+        "punycode": "msn.tw",
         "name": "msn",
         "extension": "tw",
         "created_date": "2005-10-27 (YYYY-MM-DD)",

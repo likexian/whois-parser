@@ -2,6 +2,7 @@
     "domain": {
         "id": "D8551731-MOBI",
         "domain": "git.mobi",
+        "punycode": "git.mobi",
         "name": "git",
         "extension": "mobi",
         "whois_server": "whois.Rebel.com",

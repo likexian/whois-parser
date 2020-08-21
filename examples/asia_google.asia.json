@@ -2,6 +2,7 @@
     "domain": {
         "id": "D107700000000022182-AGRS",
         "domain": "google.asia",
+        "punycode": "google.asia",
         "name": "google",
         "extension": "asia",
         "status": [

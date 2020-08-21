@@ -2,6 +2,7 @@
     "domain": {
         "id": "D163404-CIRA",
         "domain": "git.ca",
+        "punycode": "git.ca",
         "name": "git",
         "extension": "ca",
         "whois_server": "whois.ca.fury.ca",

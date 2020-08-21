@@ -2,6 +2,7 @@
     "domain": {
         "id": "6683836_DOMAIN_NET-VRSN",
         "domain": "gandi.net",
+        "punycode": "gandi.net",
         "name": "gandi",
         "extension": "net",
         "whois_server": "whois.gandi.net",
