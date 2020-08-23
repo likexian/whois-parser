@@ -1,0 +1,25 @@
+{
+    "domain": {
+        "id": "20200805s12345s16641206-cn",
+        "domain": "实业.中国",
+        "punycode": "xn--vhq524a.xn--fiqs8s",
+        "name": "xn--vhq524a",
+        "extension": "xn--fiqs8s",
+        "status": [
+            "ok"
+        ],
+        "name_servers": [
+            "ns1.22.cn",
+            "ns2.22.cn"
+        ],
+        "created_date": "2020-08-05 07:36:09",
+        "expiration_date": "2021-08-05 07:36:09"
+    },
+    "registrar": {
+        "name": "浙江贰贰网络有限公司"
+    },
+    "registrant": {
+        "name": "萍乡大唐网络科技有限公司",
+        "email": "28669@163.com"
+    }
+}

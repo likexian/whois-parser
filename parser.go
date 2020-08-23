@@ -40,7 +40,7 @@ var (
 
 // Version returns package version
 func Version() string {
-	return "1.15.0"
+	return "1.15.1"
 }
 
 // Author returns package author
@@ -120,8 +120,10 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		case "domain_id":
 			domain.ID = value
 		case "domain_name":
-			domain.Domain = strings.ToLower(value)
-			domain.Punycode, _ = idna.ToASCII(domain.Domain)
+			if domain.Domain == "" {
+				domain.Domain = strings.ToLower(value)
+				domain.Punycode, _ = idna.ToASCII(domain.Domain)
+			}
 		case "domain_status":
 			domain.Status = append(domain.Status, strings.Split(value, ",")...)
 		case "domain_dnssec":
