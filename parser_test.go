@@ -28,6 +28,7 @@ import (
 	"github.com/likexian/gokit/assert"
 	"github.com/likexian/gokit/xfile"
 	"github.com/likexian/gokit/xjson"
+	"golang.org/x/net/idna"
 )
 
 const (
@@ -162,21 +163,24 @@ func TestWhoisParser(t *testing.T) {
 			domains[extension] = []string{}
 		}
 
-		domains[extension] = append(domains[extension], strings.ToLower(whoisInfo.Domain.Domain))
+		domains[extension] = append(domains[extension], whoisInfo.Domain.Domain)
 	}
 
 	sort.Strings(exts)
 	verified := VERIFIEDLIST
 
-	for _, k := range exts {
-		sort.Strings(domains[k])
-		for _, vv := range domains[k] {
-			kk := k
-			if kk == "" {
-				kk = vv
+	for _, ext := range exts {
+		sort.Strings(domains[ext])
+		for _, domain := range domains[ext] {
+			asciiExt, _ := idna.ToASCII(ext)
+			unicodeExt, _ := idna.ToUnicode(ext)
+			asciiDomain, _ := idna.ToASCII(domain)
+			unicodeDomain, _ := idna.ToUnicode(domain)
+			if asciiExt == "" {
+				asciiExt = asciiDomain
 			}
 			verified += fmt.Sprintf("| .%s | [%s](%s_%s) | [%s](%s_%s.json) | √ |\n",
-				k, vv, kk, vv, vv, kk, vv)
+				unicodeExt, unicodeDomain, asciiExt, asciiDomain, unicodeDomain, asciiExt, asciiDomain)
 		}
 	}
 

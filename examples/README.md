@@ -164,10 +164,10 @@ If there is any problems, please feel free to open a new issue.
 | .wf | [google.wf](wf_google.wf) | [google.wf](wf_google.wf.json) | √ |
 | .ws | [github.ws](ws_github.ws) | [github.ws](ws_github.ws.json) | √ |
 | .ws | [google.ws](ws_google.ws) | [google.ws](ws_google.ws.json) | √ |
-| .xn--fiqs8s | [你好.中国](xn--fiqs8s_你好.中国) | [你好.中国](xn--fiqs8s_你好.中国.json) | √ |
-| .xn--fiqs8s | [实业.中国](xn--fiqs8s_实业.中国) | [实业.中国](xn--fiqs8s_实业.中国.json) | √ |
-| .xn--mgba3a4f16a | [ایرنیک.ایران](xn--mgba3a4f16a_ایرنیک.ایران) | [ایرنیک.ایران](xn--mgba3a4f16a_ایرنیک.ایران.json) | √ |
-| .xn--mgba3a4f16a | [بخر.ایران](xn--mgba3a4f16a_بخر.ایران) | [بخر.ایران](xn--mgba3a4f16a_بخر.ایران.json) | √ |
+| .中国 | [你好.中国](xn--fiqs8s_xn--6qq79v.xn--fiqs8s) | [你好.中国](xn--fiqs8s_xn--6qq79v.xn--fiqs8s.json) | √ |
+| .中国 | [实业.中国](xn--fiqs8s_xn--vhq524a.xn--fiqs8s) | [实业.中国](xn--fiqs8s_xn--vhq524a.xn--fiqs8s.json) | √ |
+| .ایران | [ایرنیک.ایران](xn--mgba3a4f16a_xn--mgbu7dsvrfc.xn--mgba3a4f16a) | [ایرنیک.ایران](xn--mgba3a4f16a_xn--mgbu7dsvrfc.xn--mgba3a4f16a.json) | √ |
+| .ایران | [بخر.ایران](xn--mgba3a4f16a_xn--ngbmj.xn--mgba3a4f16a) | [بخر.ایران](xn--mgba3a4f16a_xn--ngbmj.xn--mgba3a4f16a.json) | √ |
 | .xxx | [google.xxx](xxx_google.xxx) | [google.xxx](xxx_google.xxx.json) | √ |
 | .xxx | [porn.xxx](xxx_porn.xxx) | [porn.xxx](xxx_porn.xxx.json) | √ |
 | .xyz | [git.xyz](xyz_git.xyz) | [git.xyz](xyz_git.xyz.json) | √ |
