@@ -55,7 +55,7 @@ func TestVersion(t *testing.T) {
 }
 
 func TestWhoisParser(t *testing.T) {
-	exts := []string{}
+	extensions := []string{}
 	domains := map[string][]string{}
 
 	_, err := Parse("not found")
@@ -155,32 +155,31 @@ func TestWhoisParser(t *testing.T) {
 		err = xjson.Dump("./examples/"+v.Name+".json", whoisInfo)
 		assert.Nil(t, err)
 
-		if !assert.IsContains(exts, extension) {
-			exts = append(exts, extension)
+		extension, _ = idna.ToUnicode(extension)
+		if !assert.IsContains(extensions, extension) {
+			extensions = append(extensions, extension)
 		}
 
 		if _, ok := domains[extension]; !ok {
 			domains[extension] = []string{}
 		}
 
-		domains[extension] = append(domains[extension], whoisInfo.Domain.Domain)
+		domains[extension] = append(domains[extension], domain)
 	}
 
-	sort.Strings(exts)
+	sort.Strings(extensions)
 	verified := VERIFIEDLIST
 
-	for _, ext := range exts {
-		sort.Strings(domains[ext])
-		for _, domain := range domains[ext] {
-			asciiExt, _ := idna.ToASCII(ext)
-			unicodeExt, _ := idna.ToUnicode(ext)
-			asciiDomain, _ := idna.ToASCII(domain)
+	for _, extension := range extensions {
+		sort.Strings(domains[extension])
+		for _, domain := range domains[extension] {
 			unicodeDomain, _ := idna.ToUnicode(domain)
-			if asciiExt == "" {
-				asciiExt = asciiDomain
+			asciiExtension, _ := idna.ToASCII(extension)
+			if asciiExtension == "" {
+				asciiExtension = domain
 			}
 			verified += fmt.Sprintf("| .%s | [%s](%s_%s) | [%s](%s_%s.json) | √ |\n",
-				unicodeExt, unicodeDomain, asciiExt, asciiDomain, unicodeDomain, asciiExt, asciiDomain)
+				extension, unicodeDomain, asciiExtension, domain, unicodeDomain, asciiExtension, domain)
 		}
 	}
 
