@@ -165,6 +165,9 @@ func prepareEDU(text string) string {
 			if token == "" {
 				result += "\n" + v
 			} else {
+				if index >= len(tokens[token]) {
+					continue
+				}
 				// address ending now jump to phone
 				if tokens[token][index] == "Address" && strings.HasPrefix(v, "+") {
 					found := xslice.Index(tokens[token], "Phone")
