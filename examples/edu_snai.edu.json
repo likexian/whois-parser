@@ -14,7 +14,9 @@
     },
     "registrant": {
         "organization": "Shanghai National Accounting Institute",
-        "street": "200 Panlong Rd,xu jin,Qing pu zone, Shanghai, SH 201702, China"
+        "street": "200 Panlong Rd,xu jin,Qing pu zone, Shanghai, SH 201702, China",
+        "phone": "+86.0216976800068028",
+        "email": "webmaster@snai.edu"
     },
     "administrative": {
         "name": "chengyan Yin",

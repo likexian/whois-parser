@@ -1,0 +1,36 @@
+{
+    "domain": {
+        "domain": "cornell.edu",
+        "punycode": "cornell.edu",
+        "name": "cornell",
+        "extension": "edu",
+        "name_servers": [
+            "bigred.cit.cornell.edu",
+            "drdns.cit.cornell.edu",
+            "dns.cit.cornell.edu",
+            "cudns.cit.cornell.edu",
+            "drdns2.cit.cornell.edu"
+        ],
+        "created_date": "15-Jul-1985",
+        "updated_date": "30-Jun-2020",
+        "expiration_date": "31-Jul-2022"
+    },
+    "registrant": {
+        "organization": "Cornell University",
+        "street": "Cornell Information Technologies, Network Operations Center 729 Rhodes Hall, 136 Hoy Road, Ithaca, NY 14853, US"
+    },
+    "administrative": {
+        "name": "Domain Admin",
+        "organization": "Cornell Information Technologies",
+        "street": "Cornell University, 729 Rhodes Hall, 136 Hoy Road, Ithaca, NY 14853, US",
+        "phone": "+1.6072555500",
+        "email": "noc@cornell.edu"
+    },
+    "technical": {
+        "name": "Daniel Eckstrom",
+        "organization": "Cornell Information Technologies",
+        "street": "Cornell University, 731 Rhodes Hall, 136 Hoy Road, Ithaca, NY 14853, US",
+        "phone": "+1.6072555902",
+        "email": "de10@cornell.edu"
+    }
+}

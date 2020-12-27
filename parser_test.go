@@ -37,7 +37,9 @@ const (
 
 ## Overview
 
-It is supposed to be working with all domain extensions, but verified extensions as below must works, because I have checked them one by one manually.
+It is supposed to be working with all domain extensions,
+
+but verified extensions as below must works, because I have checked them one by one manually.
 
 If there is any problems, please feel free to open a new issue.
 
@@ -100,7 +102,8 @@ func TestWhoisParser(t *testing.T) {
 			assert.NotZero(t, whoisInfo.Domain.ID)
 		}
 
-		if !assert.IsContains([]string{"ch", "edu", "eu", "int", "kr", "mo", "tw", "ir", "tk", "xn--mgba3a4f16a"}, extension) {
+		if !assert.IsContains([]string{"ch", "edu", "eu", "int", "kr", "mo", "tw", "ir", "tk",
+			"xn--mgba3a4f16a"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.Status)
 		}
 
@@ -113,7 +116,8 @@ func TestWhoisParser(t *testing.T) {
 		if !assert.IsContains([]string{"aero", "aq", "asia", "berlin", "biz", "br", "ch", "cn",
 			"co", "cymru", "de", "edu", "eu", "fr", "gov", "hk", "hm", "in", "int", "it", "jp", "kr",
 			"la", "london", "me", "mo", "museum", "name", "nl", "nz", "pm", "re", "ro", "ru", "sh",
-			"su", "tel", "tf", "tk", "travel", "tw", "uk", "us", "wales", "wf", "xxx", "yt", "ir", "fi", "rs", "xn--mgba3a4f16a", "xn--fiqs8s"}, extension) {
+			"su", "tel", "tf", "tk", "travel", "tw", "uk", "us", "wales", "wf", "xxx", "yt", "ir", "fi", "rs",
+			"xn--mgba3a4f16a", "xn--fiqs8s"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.WhoisServer)
 		}
 
@@ -121,7 +125,8 @@ func TestWhoisParser(t *testing.T) {
 			assert.NotZero(t, whoisInfo.Domain.NameServers)
 		}
 
-		if !assert.IsContains([]string{"aq", "au", "de", "eu", "gov", "hm", "name", "nl", "nz", "ir", "tk", "xn--mgba3a4f16a"}, extension) {
+		if !assert.IsContains([]string{"aq", "au", "de", "eu", "gov", "hm", "name", "nl", "nz", "ir", "tk",
+			"xn--mgba3a4f16a"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.CreatedDate)
 		}
 
@@ -137,7 +142,8 @@ func TestWhoisParser(t *testing.T) {
 
 		if !assert.IsContains([]string{"", "ai", "aq", "au", "br", "ca", "ch", "cn", "cx", "de",
 			"edu", "eu", "fr", "gov", "gs", "hk", "hm", "int", "it", "jp", "kr", "la", "mo", "nl",
-			"nz", "pm", "re", "ro", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt", "ir", "fi", "rs", "xn--mgba3a4f16a", "xn--fiqs8s"}, extension) {
+			"nz", "pm", "re", "ro", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt", "ir", "fi", "rs",
+			"xn--mgba3a4f16a", "xn--fiqs8s"}, extension) {
 			assert.NotZero(t, whoisInfo.Registrar.ID)
 		}
 
@@ -148,7 +154,8 @@ func TestWhoisParser(t *testing.T) {
 
 		if !assert.IsContains([]string{"", "aero", "ai", "aq", "asia", "au", "br", "ch", "cn", "de",
 			"edu", "gov", "hk", "hm", "int", "jp", "kr", "la", "london", "love", "mo",
-			"museum", "name", "nl", "nz", "ru", "su", "tk", "top", "ir", "fi", "rs", "xn--mgba3a4f16a", "xn--fiqs8s"}, extension) {
+			"museum", "name", "nl", "nz", "ru", "su", "tk", "top", "ir", "fi", "rs",
+			"xn--mgba3a4f16a", "xn--fiqs8s"}, extension) {
 			assert.NotZero(t, whoisInfo.Registrar.ReferralURL)
 		}
 

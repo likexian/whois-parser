@@ -2,7 +2,9 @@
 
 ## Overview
 
-It is supposed to be working with all domain extensions, but verified extensions as below must works, because I have checked them one by one manually.
+It is supposed to be working with all domain extensions,
+
+but verified extensions as below must works, because I have checked them one by one manually.
 
 If there is any problems, please feel free to open a new issue.
 
@@ -56,8 +58,10 @@ If there is any problems, please feel free to open a new issue.
 | .cymru | [google.cymru](cymru_google.cymru) | [google.cymru](cymru_google.cymru.json) | √ |
 | .de | [git.de](de_git.de) | [git.de](de_git.de.json) | √ |
 | .de | [google.de](de_google.de) | [google.de](de_google.de.json) | √ |
+| .edu | [cornell.edu](edu_cornell.edu) | [cornell.edu](edu_cornell.edu.json) | √ |
 | .edu | [rutgers.edu](edu_rutgers.edu) | [rutgers.edu](edu_rutgers.edu.json) | √ |
 | .edu | [snai.edu](edu_snai.edu) | [snai.edu](edu_snai.edu.json) | √ |
+| .edu | [unm.edu](edu_unm.edu) | [unm.edu](edu_unm.edu.json) | √ |
 | .eu | [git.eu](eu_git.eu) | [git.eu](eu_git.eu.json) | √ |
 | .eu | [google.eu](eu_google.eu) | [google.eu](eu_google.eu.json) | √ |
 | .fi | [git.fi](fi_git.fi) | [git.fi](fi_git.fi.json) | √ |

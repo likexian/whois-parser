@@ -120,16 +120,12 @@ func prepareEDU(text string) string {
 		"Registrant:": {
 			"Organization",
 			"Address",
-			"Address",
-			"Address",
-			"Address",
+			"Phone",
+			"Email",
 		},
 		"Administrative Contact:": {
 			"Name",
 			"Organization",
-			"Address",
-			"Address",
-			"Address",
 			"Address",
 			"Phone",
 			"Email",
@@ -137,9 +133,6 @@ func prepareEDU(text string) string {
 		"Technical Contact:": {
 			"Name",
 			"Organization",
-			"Address",
-			"Address",
-			"Address",
 			"Address",
 			"Phone",
 			"Email",
@@ -168,15 +161,14 @@ func prepareEDU(text string) string {
 				// address ending now jump to phone
 				if tokens[token][index] == "Address" && strings.HasPrefix(v, "+") {
 					found := xslice.Index(tokens[token], "Phone")
-					if found == -1 {
-						token = ""
-						index = 0
-						continue
+					if found != -1 {
+						index = found
 					}
-					index = found
 				}
 				result += fmt.Sprintf("\n%s %s: %s", token[:len(token)-1], tokens[token][index], v)
-				index += 1
+				if tokens[token][index] != "Address" {
+					index += 1
+				}
 			}
 		}
 	}

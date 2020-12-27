@@ -27,17 +27,20 @@ import (
 
 func TestIsBlockedDomain(t *testing.T) {
 	// from `whois google.chat`
-	_, err := Parse("The registration of this domain is restricted, as it is currently protected by a DPML Block. Additional information can be found at http://www.donuts.domains/what-we-do/brand-protection.")
+	_, err := Parse("The registration of this domain is restricted, as it is currently protected by a DPML Block. " +
+		"Additional information can be found at http://www.donuts.domains/what-we-do/brand-protection.")
 	assert.Equal(t, err, ErrBlockedDomain)
 }
 
 func TestIsPremiumDomain(t *testing.T) {
 	// from `good.games`
-	_, err := Parse("This platinum domain is available for purchase. If you would like to make an offer, please contact platinums@donuts.email.")
+	_, err := Parse("This platinum domain is available for purchase. " +
+		"If you would like to make an offer, please contact platinums@donuts.email.")
 	assert.Equal(t, err, ErrPremiumDomain)
 
 	// from `cool.guru`
-	_, err = Parse("This premium domain is available for purchase. If you would like to make an offer, please contact platinums@donuts.email.")
+	_, err = Parse("This premium domain is available for purchase. " +
+		"If you would like to make an offer, please contact platinums@donuts.email.")
 	assert.Equal(t, err, ErrPremiumDomain)
 
 	// from `cool.fyi`

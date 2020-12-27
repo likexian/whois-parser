@@ -1,0 +1,33 @@
+{
+    "domain": {
+        "domain": "unm.edu",
+        "punycode": "unm.edu",
+        "name": "unm",
+        "extension": "edu",
+        "name_servers": [
+            "ns1.unm.edu",
+            "ns2.unm.edu"
+        ],
+        "created_date": "27-Aug-1986",
+        "updated_date": "13-Aug-2020",
+        "expiration_date": "31-Jul-2023"
+    },
+    "registrant": {
+        "organization": "University of New Mexico",
+        "street": "2701 Campus Blvd. NE, Albuquerque, NM 87131, US"
+    },
+    "administrative": {
+        "name": "UNM Technical Contact",
+        "organization": "The University of New Mexico",
+        "street": "Information Technologies, MSC02-1520, 1 University of New Mexico, Albuquerque, NM 87131-0001, US",
+        "phone": "+1.5052775757",
+        "email": "technical@unm.edu"
+    },
+    "technical": {
+        "name": "UNM Technical Contact",
+        "organization": "The University of New Mexico",
+        "street": "Information Technologies, MSC02-1520, 1 University of New Mexico, Albuquerque, NM 87131-0001, US",
+        "phone": "+1.5052775757",
+        "email": "technical@unm.edu"
+    }
+}
