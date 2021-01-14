@@ -1,10 +1,10 @@
 # WhoisParser
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-[![GoDoc](https://godoc.org/github.com/likexian/whois-parser-go?status.svg)](https://godoc.org/github.com/likexian/whois-parser-go)
-[![Build Status](https://travis-ci.org/likexian/whois-parser-go.svg?branch=master)](https://travis-ci.org/likexian/whois-parser-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/likexian/whois-parser-go)](https://goreportcard.com/report/github.com/likexian/whois-parser-go)
-[![Code Cover](https://codecov.io/gh/likexian/whois-parser-go/graph/badge.svg)](https://codecov.io/gh/likexian/whois-parser-go)
+[![GoDoc](https://godoc.org/github.com/likexian/whois-parser?status.svg)](https://godoc.org/github.com/likexian/whois-parser)
+[![Build Status](https://travis-ci.org/likexian/whois-parser.svg?branch=master)](https://travis-ci.org/likexian/whois-parser)
+[![Go Report Card](https://goreportcard.com/badge/github.com/likexian/whois-parser)](https://goreportcard.com/report/github.com/likexian/whois-parser)
+[![Code Cover](https://codecov.io/gh/likexian/whois-parser/graph/badge.svg)](https://codecov.io/gh/likexian/whois-parser)
 
 WhoisParser is s simple Go module for domain whois information parsing.
 
@@ -20,25 +20,25 @@ If there is any problems, please feel free to open a new issue.
 
 ## Binary distributions
 
-For binary distributions of whois information query and parsing, please download [whois release tool](https://github.com/likexian/whois-go/tree/master/cmd/whois).
+For binary distributions of whois information query and parsing, please download [whois release tool](https://github.com/likexian/whois/tree/master/cmd/whois).
 
 ## Installation
 
 ```shell
-go get github.com/likexian/whois-parser-go
+go get github.com/likexian/whois-parser
 ```
 
 ## Importing
 
 ```go
 import (
-    "github.com/likexian/whois-parser-go"
+    "github.com/likexian/whois-parser"
 )
 ```
 
 ## Documentation
 
-Visit the docs on [GoDoc](https://godoc.org/github.com/likexian/whois-parser-go)
+Visit the docs on [GoDoc](https://godoc.org/github.com/likexian/whois-parser)
 
 ## Example
 
@@ -67,7 +67,7 @@ if err == nil {
 
 ## Whois information query
 
-Please refer to [whois-go](https://github.com/likexian/whois-go)
+Please refer to [whois](https://github.com/likexian/whois)
 
 ## License
 
