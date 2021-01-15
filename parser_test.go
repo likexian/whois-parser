@@ -56,18 +56,25 @@ func TestVersion(t *testing.T) {
 	assert.Contains(t, License(), "Apache License")
 }
 
-func TestWhoisParser(t *testing.T) {
+func TestParseError(t *testing.T) {
+	tests := map[error]string{
+		ErrDomainNotFound:    "No matching record.",
+		ErrReservedDomain:    "Reserved Domain Name",
+		ErrPremiumDomain:     "This platinum domain is available for purchase.",
+		ErrBlockedDomain:     "This name subscribes to the Uni EPS+ product",
+		ErrDomainDataInvalid: "connect to whois server failed: dial tcp 43: i/o timeout",
+		ErrDomainLimitExceed: "WHOIS LIMIT EXCEEDED - SEE WWW.PIR.ORG/WHOIS FOR DETAILS",
+	}
+
+	for e, v := range tests {
+		_, err := Parse(v)
+		assert.Equal(t, err, e)
+	}
+}
+
+func TestParse(t *testing.T) {
 	extensions := []string{}
 	domains := map[string][]string{}
-
-	_, err := Parse("not found")
-	assert.Equal(t, err, ErrDomainNotFound)
-
-	_, err = Parse("WHOIS LIMIT EXCEEDED - SEE WWW.PIR.ORG/WHOIS FOR DETAILS")
-	assert.Equal(t, err, ErrDomainLimitExceed)
-
-	_, err = Parse("Hello - SEE WWW.PIR.ORG/WHOIS FOR DETAILS")
-	assert.Equal(t, err, ErrDomainInvalidData)
 
 	dirs, err := xfile.ListDir("./examples/", xfile.TypeFile, -1)
 	assert.Nil(t, err)

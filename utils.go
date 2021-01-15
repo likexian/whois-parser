@@ -24,24 +24,24 @@ import (
 	"strings"
 )
 
-// IsNotFound returns domain is not found
-func IsNotFound(data string) bool {
-	notExistsKeys := []string{
+// IsDomainNotFound returns if domain is not found
+func IsDomainNotFound(data string) bool {
+	notFoundKeys := []string{
+		"is free",
 		"no found",
 		"no match",
 		"not found",
 		"not match",
-		"no entries found",
 		"no data found",
+		"no entries found",
+		"no matching record",
 		"not registered",
 		"not been registered",
-		"is free",
-		"not available for registration",
 		"object does not exist",
 	}
 
 	data = strings.ToLower(data)
-	for _, v := range notExistsKeys {
+	for _, v := range notFoundKeys {
 		if strings.Contains(data, v) {
 			return true
 		}
@@ -50,12 +50,29 @@ func IsNotFound(data string) bool {
 	return false
 }
 
-// IsPremiumDomain returns if the domain name is available to register at a premium price
-func IsPremiumDomain(data string) bool {
-	premiumKeys := []string{
+// IsReservedDomain returns if domain is reserved
+func IsReservedDomain(data string) bool {
+	reservedKeys := []string{
 		"reserved domain name",
 		"reserved by the registry",
-		"available for purchase",
+		"can not be registered online",
+	}
+
+	data = strings.ToLower(data)
+	for _, v := range reservedKeys {
+		if strings.Contains(data, v) {
+			return true
+		}
+	}
+
+	return false
+}
+
+// IsPremiumDomain returns if domain is available to register at premium price
+func IsPremiumDomain(data string) bool {
+	premiumKeys := []string{
+		"premium domain is available for purchase",
+		"platinum domain is available for purchase",
 	}
 
 	data = strings.ToLower(data)
@@ -68,11 +85,15 @@ func IsPremiumDomain(data string) bool {
 	return false
 }
 
-// IsBlockedDomain returns if the domain name is blocked due to a DPML brand name block
+// IsBlockedDomain returns if domain is blocked due to brand protection
 func IsBlockedDomain(data string) bool {
 	blockedKeys := []string{
-		"The registration of this domain is restricted",
-		"dpml block",
+		// Donuts DPML
+		"dpml brand protection",
+		// Uniregistry Uni EPS
+		"subscribes to the uni eps",
+		// Gandi AdultBlock
+		"subscribes to the adultblock",
 	}
 
 	data = strings.ToLower(data)
@@ -85,7 +106,7 @@ func IsBlockedDomain(data string) bool {
 	return false
 }
 
-// IsLimitExceeded returns is query limit
+// IsLimitExceeded returns if domain whois query is limited
 func IsLimitExceeded(data string) bool {
 	data = strings.ToLower(data)
 	return strings.Contains(data, "limit exceeded")

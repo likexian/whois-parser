@@ -29,18 +29,24 @@ import (
 	"golang.org/x/net/idna"
 )
 
-// Domain info error and replacer variables
 var (
-	ErrDomainNotFound    = errors.New("Domain is not found.")
-	ErrDomainInvalidData = errors.New("Domain whois data invalid.")
-	ErrDomainLimitExceed = errors.New("Domain query limit exceeded.")
-	ErrPremiumDomain     = errors.New("The domain is not registered, but available at a premium price.")
-	ErrBlockedDomain     = errors.New("The domain name is blocked due to a DPML brand name block.")
+	// ErrDomainNotFound domain is not found
+	ErrDomainNotFound = errors.New("whoisparser: domain is not found")
+	// ErrReservedDomain domain is reserved
+	ErrReservedDomain = errors.New("whoisparser: domain is reserved to register")
+	// ErrPremiumDomain domain is available to register at premium price
+	ErrPremiumDomain = errors.New("whoisparser: domain is available at premium price")
+	// ErrBlockedDomain domain is blocked due to brand protection
+	ErrBlockedDomain = errors.New("whoisparser: domain is blocked due to brand protection")
+	// ErrDomainDataInvalid domain whois data is invalid
+	ErrDomainDataInvalid = errors.New("whoisparser: domain whois data is invalid")
+	// ErrDomainLimitExceed domain whois query is limited
+	ErrDomainLimitExceed = errors.New("whoisparser: domain whois query limit exceeded")
 )
 
 // Version returns package version
 func Version() string {
-	return "1.15.1"
+	return "1.17.0"
 }
 
 // Author returns package author
@@ -57,13 +63,15 @@ func License() string {
 func Parse(text string) (whoisInfo WhoisInfo, err error) {
 	name, extension := searchDomain(text)
 	if name == "" {
-		err = ErrDomainInvalidData
-		if IsNotFound(text) {
+		err = ErrDomainDataInvalid
+		if IsDomainNotFound(text) {
 			err = ErrDomainNotFound
-		} else if IsPremiumDomain(text) {
-			err = ErrPremiumDomain
 		} else if IsBlockedDomain(text) {
 			err = ErrBlockedDomain
+		} else if IsPremiumDomain(text) {
+			err = ErrPremiumDomain
+		} else if IsReservedDomain(text) {
+			err = ErrReservedDomain
 		} else if IsLimitExceeded(text) {
 			err = ErrDomainLimitExceed
 		}
