@@ -30,7 +30,7 @@ import (
 
 // Version returns package version
 func Version() string {
-	return "1.18.0"
+	return "1.19.0"
 }
 
 // Author returns package author
@@ -99,7 +99,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		keyName := searchKeyName(name)
 		switch keyName {
 		case "domain_id":
-			domain.ID = value
+			domain.Id = value
 		case "domain_name":
 			if domain.Domain == "" {
 				domain.Domain = strings.ToLower(value)
@@ -108,8 +108,8 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		case "domain_status":
 			domain.Status = append(domain.Status, strings.Split(value, ",")...)
 		case "domain_dnssec":
-			if !domain.DnsSec {
-				domain.DnsSec = isDNSSecEnabled(value)
+			if !domain.DNSSec {
+				domain.DNSSec = isDNSSecEnabled(value)
 			}
 		case "whois_server":
 			if domain.WhoisServer == "" {
@@ -186,7 +186,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 func parseContact(contact *Contact, name, value string) {
 	switch searchKeyName(name) {
 	case "registrant_id":
-		contact.ID = value
+		contact.Id = value
 	case "registrant_name":
 		contact.Name = value
 	case "registrant_organization":

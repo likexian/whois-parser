@@ -31,7 +31,7 @@ type WhoisInfo struct {
 
 // Domain storing domain name info
 type Domain struct {
-	ID             string   `json:"id,omitempty"`
+	Id             string   `json:"id,omitempty"`
 	Domain         string   `json:"domain,omitempty"`
 	Punycode       string   `json:"punycode,omitempty"`
 	Name           string   `json:"name,omitempty"`
@@ -39,7 +39,7 @@ type Domain struct {
 	WhoisServer    string   `json:"whois_server,omitempty"`
 	Status         []string `json:"status,omitempty"`
 	NameServers    []string `json:"name_servers,omitempty"`
-	DnsSec         bool     `json:"dnssec,omitempty"`
+	DNSSec         bool     `json:"dnssec,omitempty"`
 	CreatedDate    string   `json:"created_date,omitempty"`
 	UpdatedDate    string   `json:"updated_date,omitempty"`
 	ExpirationDate string   `json:"expiration_date,omitempty"`
@@ -47,7 +47,7 @@ type Domain struct {
 
 // Contact storing domain contact info
 type Contact struct {
-	ID           string `json:"id,omitempty"`
+	Id           string `json:"id,omitempty"`
 	Name         string `json:"name,omitempty"`
 	Organization string `json:"organization,omitempty"`
 	Street       string `json:"street,omitempty"`
