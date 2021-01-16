@@ -545,7 +545,7 @@ func prepareFR(text string) string {
 		}
 
 		if strings.TrimSpace(vs[0]) == hdlToken {
-			for _, kk := range Keys(hdls) {
+			for _, kk := range keys(hdls) {
 				if strings.TrimSpace(vs[1]) == hdls[kk] {
 					token = kk + " "
 					delete(hdls, kk)

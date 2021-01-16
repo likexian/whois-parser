@@ -20,7 +20,6 @@
 package whoisparser
 
 import (
-	"errors"
 	"regexp"
 	"strings"
 
@@ -29,24 +28,9 @@ import (
 	"golang.org/x/net/idna"
 )
 
-var (
-	// ErrDomainNotFound domain is not found
-	ErrDomainNotFound = errors.New("whoisparser: domain is not found")
-	// ErrReservedDomain domain is reserved
-	ErrReservedDomain = errors.New("whoisparser: domain is reserved to register")
-	// ErrPremiumDomain domain is available to register at premium price
-	ErrPremiumDomain = errors.New("whoisparser: domain is available at premium price")
-	// ErrBlockedDomain domain is blocked due to brand protection
-	ErrBlockedDomain = errors.New("whoisparser: domain is blocked due to brand protection")
-	// ErrDomainDataInvalid domain whois data is invalid
-	ErrDomainDataInvalid = errors.New("whoisparser: domain whois data is invalid")
-	// ErrDomainLimitExceed domain whois query is limited
-	ErrDomainLimitExceed = errors.New("whoisparser: domain whois query limit exceeded")
-)
-
 // Version returns package version
 func Version() string {
-	return "1.17.0"
+	return "1.18.0"
 }
 
 // Author returns package author
@@ -63,18 +47,7 @@ func License() string {
 func Parse(text string) (whoisInfo WhoisInfo, err error) {
 	name, extension := searchDomain(text)
 	if name == "" {
-		err = ErrDomainDataInvalid
-		if IsDomainNotFound(text) {
-			err = ErrDomainNotFound
-		} else if IsBlockedDomain(text) {
-			err = ErrBlockedDomain
-		} else if IsPremiumDomain(text) {
-			err = ErrPremiumDomain
-		} else if IsReservedDomain(text) {
-			err = ErrReservedDomain
-		} else if IsLimitExceeded(text) {
-			err = ErrDomainLimitExceed
-		}
+		err = getDomainErrorType(text)
 		return
 	}
 
@@ -123,7 +96,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 			continue
 		}
 
-		keyName := FindKeyName(name)
+		keyName := searchKeyName(name)
 		switch keyName {
 		case "domain_id":
 			domain.ID = value
@@ -136,7 +109,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 			domain.Status = append(domain.Status, strings.Split(value, ",")...)
 		case "domain_dnssec":
 			if !domain.DnsSec {
-				domain.DnsSec = IsDnsSecEnabled(value)
+				domain.DnsSec = isDNSSecEnabled(value)
 			}
 		case "whois_server":
 			if domain.WhoisServer == "" {
@@ -159,7 +132,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		case "referral_url":
 			registrar.ReferralURL = value
 		default:
-			name = ClearName(name)
+			name = clearKeyName(name)
 			if !strings.Contains(name, " ") {
 				name += " name"
 			}
@@ -179,8 +152,8 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		}
 	}
 
-	domain.NameServers = FixNameServers(domain.NameServers)
-	domain.Status = FixDomainStatus(domain.Status)
+	domain.NameServers = fixNameServers(domain.NameServers)
+	domain.Status = fixDomainStatus(domain.Status)
 
 	domain.NameServers = xslice.Unique(domain.NameServers).([]string)
 	domain.Status = xslice.Unique(domain.Status).([]string)
@@ -211,7 +184,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 
 // parseContact do parse contact info
 func parseContact(contact *Contact, name, value string) {
-	switch FindKeyName(name) {
+	switch searchKeyName(name) {
 	case "registrant_id":
 		contact.ID = value
 	case "registrant_name":

@@ -201,7 +201,7 @@ func TestParse(t *testing.T) {
 	assert.Nil(t, err)
 }
 
-func TestTsearchDomain(t *testing.T) {
+func TestAssearchDomain(t *testing.T) {
 	tests := []struct {
 		whois     string
 		name      string

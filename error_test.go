@@ -25,76 +25,87 @@ import (
 	"github.com/likexian/gokit/assert"
 )
 
-func TestIsDomainNotFound(t *testing.T) {
+func TestAsisDomainNotFound(t *testing.T) {
 	// iamnotexistsdomain.CN
 	data := `No matching record.`
-	assert.True(t, IsDomainNotFound(data))
+	assert.True(t, isDomainNotFound(data))
 
 	// iamnotexistsdomain.com
 	data = `No match for "IAMNOTEXISTSDOMAIN.COM".
 	>>> Last update of whois database: 2021-01-15T11:26:46Z <<<`
-	assert.True(t, IsDomainNotFound(data))
+	assert.True(t, isDomainNotFound(data))
 
-	// iam.com
-	data = `Domain Name: IAM.COM
-	Registry Domain ID: 2017209_DOMAIN_COM-VRSN`
-	assert.False(t, IsDomainNotFound(data))
+	// likexian.com
+	data = `Domain Name: LIKEXIAN.COM
+	Registry Domain ID: 1665843940_DOMAIN_COM-VRSN`
+	assert.False(t, isDomainNotFound(data))
 }
 
-func TestIsReservedDomain(t *testing.T) {
+func TestAsisReservedDomain(t *testing.T) {
 	// gov.cn
 	data := `the Domain Name you apply can not be registered online. Please consult your Domain Name registrar`
-	assert.True(t, IsReservedDomain(data))
+	assert.True(t, isReservedDomain(data))
 
 	// good.download
 	data = `Reserved Domain Name
 	URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/`
-	assert.True(t, IsReservedDomain(data))
+	assert.True(t, isReservedDomain(data))
 
-	// iam.com
-	data = `Domain Name: IAM.COM
-	Registry Domain ID: 2017209_DOMAIN_COM-VRSN`
-	assert.False(t, IsReservedDomain(data))
+	// likexian.com
+	data = `Domain Name: LIKEXIAN.COM
+	Registry Domain ID: 1665843940_DOMAIN_COM-VRSN`
+	assert.False(t, isReservedDomain(data))
 }
 
-func TestIsPremiumDomain(t *testing.T) {
+func TestAsisPremiumDomain(t *testing.T) {
 	// good.games
 	data := `This platinum domain is available for purchase.
 	If you would like to make an offer, please contact platinums@donuts.email.
 	This name is reserved by the Registry in accordance with ICANN Policy.`
-	assert.True(t, IsPremiumDomain(data))
+	assert.True(t, isPremiumDomain(data))
 
 	// cool.guru
 	data = `Domain not found.
 	This premium domain is available for purchase.
 	If you would like to make an offer, please contact platinums@donuts.email.`
-	assert.True(t, IsPremiumDomain(data))
+	assert.True(t, isPremiumDomain(data))
 
-	// iam.com
-	data = `Domain Name: IAM.COM
-	Registry Domain ID: 2017209_DOMAIN_COM-VRSN`
-	assert.False(t, IsPremiumDomain(data))
+	// likexian.com
+	data = `Domain Name: LIKEXIAN.COM
+	Registry Domain ID: 1665843940_DOMAIN_COM-VRSN`
+	assert.False(t, isPremiumDomain(data))
 }
 
-func TestIsBlockedDomain(t *testing.T) {
+func TestAsisBlockedDomain(t *testing.T) {
 	// google.chat
 	data := `The registration of this domain is restricted,
 	as it is protected by the Donuts DPML Brand Protection policy.
 	Additional information can be found at https://donuts.domains/what-we-do/brand-protection.`
-	assert.True(t, IsBlockedDomain(data))
+	assert.True(t, isBlockedDomain(data))
 
 	// google.lol
 	data = `This name is not available for registration:
 	This name subscribes to the Uni EPS+ product`
-	assert.True(t, IsBlockedDomain(data))
+	assert.True(t, isBlockedDomain(data))
 
 	// paypal.sex
 	data = `This name is not available for registration:
 	This name subscribes to the AdultBlock product`
-	assert.True(t, IsBlockedDomain(data))
+	assert.True(t, isBlockedDomain(data))
 
-	// iam.com
-	data = `Domain Name: IAM.COM
-	Registry Domain ID: 2017209_DOMAIN_COM-VRSN`
-	assert.False(t, IsBlockedDomain(data))
+	// likexian.com
+	data = `Domain Name: LIKEXIAN.COM
+	Registry Domain ID: 1665843940_DOMAIN_COM-VRSN`
+	assert.False(t, isBlockedDomain(data))
+}
+
+func TestAsisLimitExceeded(t *testing.T) {
+	// xxx.org
+	data := `WHOIS LIMIT EXCEEDED - SEE WWW.PIR.ORG/WHOIS FOR DETAILS`
+	assert.True(t, isLimitExceeded(data))
+
+	// likexian.com
+	data = `Domain Name: LIKEXIAN.COM
+	Registry Domain ID: 1665843940_DOMAIN_COM-VRSN`
+	assert.False(t, isLimitExceeded(data))
 }
