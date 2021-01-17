@@ -30,7 +30,7 @@ import (
 
 // Version returns package version
 func Version() string {
-	return "1.19.0"
+	return "1.20.0"
 }
 
 // Author returns package author
@@ -220,13 +220,13 @@ func parseContact(contact *Contact, name, value string) {
 
 // searchDomain find domain from whois info
 func searchDomain(text string) (string, string) {
-	r := regexp.MustCompile(`(?i)\[?domain(\s*\_?name)?\]?[\s\.]*\:?\s*([^\s]+)\.([^\.\s]{2,})`)
+	r := regexp.MustCompile(`(?i)\[?domain\:?(\s*\_?name)?\]?[\s\.]*\:?\s*([^\s]+)\.([^\.\s]{2,})`)
 	m := r.FindStringSubmatch(text)
 	if len(m) > 0 {
 		return strings.ToLower(strings.TrimSpace(m[2])), strings.ToLower(strings.TrimSpace(m[3]))
 	}
 
-	r = regexp.MustCompile(`(?i)\[?domain(\s*\_?name)?\]?\s*\:?\s*([^\.\s]{2,})\n`)
+	r = regexp.MustCompile(`(?i)\[?domain\:?(\s*\_?name)?\]?\s*\:?\s*([^\.\s]{2,})\n`)
 	m = r.FindStringSubmatch(text)
 	if len(m) > 0 {
 		return strings.ToLower(strings.TrimSpace(m[2])), ""

@@ -62,6 +62,9 @@ If there is any problems, please feel free to open a new issue.
 | .edu | [rutgers.edu](edu_rutgers.edu) | [rutgers.edu](edu_rutgers.edu.json) | √ |
 | .edu | [snai.edu](edu_snai.edu) | [snai.edu](edu_snai.edu.json) | √ |
 | .edu | [unm.edu](edu_unm.edu) | [unm.edu](edu_unm.edu.json) | √ |
+| .ee | [git.ee](ee_git.ee) | [git.ee](ee_git.ee.json) | √ |
+| .ee | [google.ee](ee_google.ee) | [google.ee](ee_google.ee.json) | √ |
+| .ee | [telia.ee](ee_telia.ee) | [telia.ee](ee_telia.ee.json) | √ |
 | .eu | [git.eu](eu_git.eu) | [git.eu](eu_git.eu.json) | √ |
 | .eu | [google.eu](eu_google.eu) | [google.eu](eu_google.eu.json) | √ |
 | .fi | [git.fi](fi_git.fi) | [git.fi](fi_git.fi.json) | √ |

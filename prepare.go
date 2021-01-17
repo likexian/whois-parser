@@ -77,6 +77,8 @@ func Prepare(text, ext string) (string, bool) {
 		return prepareIR(text), true
 	case "rs":
 		return prepareRS(text), true
+	case "ee":
+		return prepareEE(text), true
 	default:
 		return text, false
 	}
@@ -1023,6 +1025,38 @@ func prepareRS(text string) string {
 			}
 		}
 		result += "\n" + v
+	}
+
+	return result
+}
+
+// prepareEE do prepare the .ee domain
+func prepareEE(text string) string {
+	tokens := map[string]string{
+		"Domain:":                 "Domain",
+		"Registrar:":              "Registrar",
+		"Registrant:":             "Registrant",
+		"Administrative contact:": "Administrative",
+		"Technical contact:":      "Technical",
+		"Name servers:":           "",
+	}
+
+	token := ""
+	result := ""
+
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if len(v) == 0 {
+			token = ""
+			continue
+		}
+		if t, ok := tokens[v]; ok {
+			token = t
+			continue
+		} else {
+			v = fmt.Sprintf("%s %s", token, v)
+		}
+		result += "\n" + strings.TrimSpace(v)
 	}
 
 	return result

@@ -104,7 +104,7 @@ func TestParse(t *testing.T) {
 		assert.Equal(t, whoisInfo.Domain.Extension, extension)
 
 		if !assert.IsContains([]string{"", "aq", "br", "ch", "de", "edu", "eu", "fr", "gov", "hk",
-			"hm", "int", "it", "jp", "kr", "mo", "nl", "nz", "pm", "re", "ro", "ru", "su", "tf",
+			"hm", "int", "it", "jp", "kr", "mo", "nl", "nz", "pm", "re", "ro", "ru", "su", "tf", "ee",
 			"tk", "travel", "tv", "tw", "uk", "wf", "yt", "ir", "fi", "rs", "xn--mgba3a4f16a"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.Id)
 		}
@@ -123,7 +123,7 @@ func TestParse(t *testing.T) {
 		if !assert.IsContains([]string{"aero", "aq", "asia", "berlin", "biz", "br", "ch", "cn",
 			"co", "cymru", "de", "edu", "eu", "fr", "gov", "hk", "hm", "in", "int", "it", "jp", "kr",
 			"la", "london", "me", "mo", "museum", "name", "nl", "nz", "pm", "re", "ro", "ru", "sh",
-			"su", "tel", "tf", "tk", "travel", "tw", "uk", "us", "wales", "wf", "xxx", "yt", "ir", "fi", "rs",
+			"su", "tel", "ee", "tf", "tk", "travel", "tw", "uk", "us", "wales", "wf", "xxx", "yt", "ir", "fi", "rs",
 			"xn--mgba3a4f16a", "xn--fiqs8s"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.WhoisServer)
 		}
@@ -142,14 +142,14 @@ func TestParse(t *testing.T) {
 			assert.NotZero(t, whoisInfo.Domain.UpdatedDate)
 		}
 
-		if !assert.IsContains([]string{"", "aq", "au", "br", "ch", "de", "eu", "gov",
+		if !assert.IsContains([]string{"", "aq", "au", "br", "ch", "de", "eu", "gov", "ee",
 			"hm", "int", "name", "nl", "nz", "tk"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.ExpirationDate)
 		}
 
 		if !assert.IsContains([]string{"", "ai", "aq", "au", "br", "ca", "ch", "cn", "cx", "de",
 			"edu", "eu", "fr", "gov", "gs", "hk", "hm", "int", "it", "jp", "kr", "la", "mo", "nl",
-			"nz", "pm", "re", "ro", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt", "ir", "fi", "rs",
+			"nz", "pm", "re", "ro", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt", "ir", "fi", "rs", "ee",
 			"xn--mgba3a4f16a", "xn--fiqs8s"}, extension) {
 			assert.NotZero(t, whoisInfo.Registrar.Id)
 		}

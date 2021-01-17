@@ -1,0 +1,39 @@
+{
+    "domain": {
+        "domain": "google.ee",
+        "punycode": "google.ee",
+        "name": "google",
+        "extension": "ee",
+        "status": [
+            "ok"
+        ],
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns3.google.com",
+            "ns4.google.com"
+        ],
+        "created_date": "2010-07-04 04:34:46 +03:00",
+        "updated_date": "2010-11-10 14:15:06 +02:00",
+        "expiration_date": "2021-11-09"
+    },
+    "registrar": {
+        "name": "Zone Media OÜ",
+        "phone": "+372 6886886",
+        "referral_url": "http://www.zone.ee"
+    },
+    "registrant": {
+        "id": "3582691",
+        "name": "Google LLC",
+        "country": "US",
+        "email": "not disclosed - visit www.internet.ee for webbased whois"
+    },
+    "administrative": {
+        "name": "Not Disclosed - Visit www.internet.ee for webbased WHOIS",
+        "email": "not disclosed - visit www.internet.ee for webbased whois"
+    },
+    "technical": {
+        "name": "Not Disclosed - Visit www.internet.ee for webbased WHOIS",
+        "email": "not disclosed - visit www.internet.ee for webbased whois"
+    }
+}
