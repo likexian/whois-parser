@@ -41,7 +41,7 @@ It is supposed to be working with all domain extensions,
 
 but verified extensions as below must works, because I have checked them one by one manually.
 
-If there is any problems, please feel free to open a new issue.
+If there is any problem, please feel free to open a new issue.
 
 ## Verified Extensions
 

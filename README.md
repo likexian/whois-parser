@@ -6,17 +6,17 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/likexian/whois-parser)](https://goreportcard.com/report/github.com/likexian/whois-parser)
 [![Code Cover](https://codecov.io/gh/likexian/whois-parser/graph/badge.svg)](https://codecov.io/gh/likexian/whois-parser)
 
-WhoisParser is s simple Go module for domain whois information parsing.
+WhoisParser is a simple Go module for domain whois information parsing.
 
 ## Overview
 
-This module parses the provided whois information and returns a readable data struct.
+This module parses the provided domain whois information and returns a readable data struct.
 
 ## Verified Extensions
 
 It is supposed to be working with all domain extensions, but [verified extensions](examples/README.md) must works, because I have checked them one by one manually.
 
-If there is any problems, please feel free to open a new issue.
+If there is any problem, please feel free to open a new issue.
 
 ## Binary distributions
 
