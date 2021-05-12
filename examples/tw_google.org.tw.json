@@ -1,0 +1,38 @@
+{
+    "domain": {
+        "domain": "google.org.tw",
+        "punycode": "google.org.tw",
+        "name": "google.org",
+        "extension": "tw",
+        "status": [
+            "ok"
+        ],
+        "name_servers": [
+            "ns49.cx901.com",
+            "ns50.cx901.com"
+        ],
+        "created_date": "2017-01-14 19:27:47 (UTC+8)",
+        "expiration_date": "2022-01-14 00:00:00 (UTC+8)"
+    },
+    "registrar": {
+        "name": "HINET",
+        "referral_url": "http://domain.hinet.net"
+    },
+    "registrant": {
+        "name": "Super AE",
+        "organization": "CIMTA",
+        "street": "No.12, Aly. 32, Ln. 362, Fuxing Rd., Taoyuan Dist., Taoyuan  City 33066, Taiwan, Taoyuan, Taiwan, TW",
+        "phone": "+886.0000000",
+        "email": "super.ae88@gmail.com"
+    },
+    "administrative": {
+        "name": "Super AE",
+        "phone": "+886.0000000",
+        "email": "super.ae88@gmail.com"
+    },
+    "technical": {
+        "name": "Super AE",
+        "phone": "+886.0000000",
+        "email": "super.ae88@gmail.com"
+    }
+}

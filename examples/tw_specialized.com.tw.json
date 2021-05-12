@@ -1,0 +1,41 @@
+{
+    "domain": {
+        "domain": "specialized.com.tw",
+        "punycode": "specialized.com.tw",
+        "name": "specialized.com",
+        "extension": "tw",
+        "status": [
+            "clienttransferprohibited"
+        ],
+        "name_servers": [
+            "cns1.net-chinese.com.tw",
+            "cns2.net-chinese.com.tw"
+        ],
+        "created_date": "2015-12-09 12:30:05 (UTC+8)",
+        "expiration_date": "2021-12-09 12:30:05 (UTC+8)"
+    },
+    "registrar": {
+        "name": "NET-CHINESE",
+        "referral_url": "http://www.net-chinese.com.tw"
+    },
+    "registrant": {
+        "name": "Alvin  Chen",
+        "organization": "斯貝特有限公司, Specialized Bicycle Components Taiwan Limited",
+        "street": "No. 400, Wenchang St., Nantun Dist., TW, Taichung City, Taiwan, TW",
+        "phone": "+886.228381031",
+        "fax": "+886.228381103",
+        "email": "alvin.chen@specialized.com"
+    },
+    "administrative": {
+        "name": "Alvin  Chen",
+        "phone": "+886.228381031",
+        "fax": "+886.228381103",
+        "email": "alvin.chen@specialized.com"
+    },
+    "technical": {
+        "name": "Alvin  Chen",
+        "phone": "+886.228381031",
+        "fax": "+886.228381103",
+        "email": "alvin.chen@specialized.com"
+    }
+}

@@ -328,6 +328,7 @@ func prepareTW(text string) string {
 	tokens := map[string][]string{
 		"Registrant:": {
 			"Organization",
+			"Organization",
 			"Name,Email",
 			"Phone",
 			"Fax",
@@ -357,7 +358,7 @@ func prepareTW(text string) string {
 	result := ""
 	for _, v := range strings.Split(text, "\n") {
 		v = strings.TrimSpace(v)
-		if v == "" {
+		if token == "" && v == "" {
 			continue
 		}
 		for _, s := range []string{"Record created on", "Record expires on"} {
@@ -376,7 +377,32 @@ func prepareTW(text string) string {
 				result += "\n" + v
 			} else {
 				index += 1
+				if index > len(tokens[token])-1 {
+					continue
+				}
 				tokenName := token[:len(token)-1]
+				// Organization may be one line or two lines
+				if tokenName == "Registrant" && tokens[token][index] == "Organization" {
+					if strings.Contains(v, "@") {
+						// Organization one line, jump to next
+						index += 1
+					} else if index == 1 {
+						// Organization two line, join it
+						result = strings.TrimSpace(result)
+						if !strings.HasSuffix(result, ":") {
+							result += ", " + v
+						} else {
+							result += " " + v
+						}
+						continue
+					}
+				}
+				// See examples/tw_git.tw
+				if tokenName == "Registrant" && tokens[token][index] != "Address" {
+					if len(v) == 2 && strings.ToLower(v) != v {
+						index = xslice.Index(tokens[token], "Address")
+					}
+				}
 				indexName := tokens[token][index]
 				if tokenName == "Contact" {
 					tokenName = "Registrant Contact"

@@ -159,8 +159,12 @@ If there is any problem, please feel free to open a new issue.
 | .tv | [google.tv](tv_google.tv) | [google.tv](tv_google.tv.json) | √ |
 | .tv | [msn.tv](tv_msn.tv) | [msn.tv](tv_msn.tv.json) | √ |
 | .tw | [git.tw](tw_git.tw) | [git.tw](tw_git.tw.json) | √ |
+| .tw | [google.com.tw](tw_google.com.tw) | [google.com.tw](tw_google.com.tw.json) | √ |
+| .tw | [google.net.tw](tw_google.net.tw) | [google.net.tw](tw_google.net.tw.json) | √ |
+| .tw | [google.org.tw](tw_google.org.tw) | [google.org.tw](tw_google.org.tw.json) | √ |
 | .tw | [google.tw](tw_google.tw) | [google.tw](tw_google.tw.json) | √ |
 | .tw | [msn.tw](tw_msn.tw) | [msn.tw](tw_msn.tw.json) | √ |
+| .tw | [specialized.com.tw](tw_specialized.com.tw) | [specialized.com.tw](tw_specialized.com.tw.json) | √ |
 | .uk | [git.uk](uk_git.uk) | [git.uk](uk_git.uk.json) | √ |
 | .uk | [google.uk](uk_google.uk) | [google.uk](uk_google.uk.json) | √ |
 | .us | [git.us](us_git.us) | [git.us](us_git.us.json) | √ |

@@ -19,8 +19,8 @@
         "referral_url": "http://www.gandi.net/whois"
     },
     "registrant": {
-        "name": "FR",
-        "organization": "Not displayed due to GDPR"
+        "organization": "Not displayed due to GDPR",
+        "street": "FR"
     },
     "administrative": {
         "name": "Not displayed due to GDPR"

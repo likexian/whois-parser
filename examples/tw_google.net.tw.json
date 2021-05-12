@@ -1,0 +1,41 @@
+{
+    "domain": {
+        "domain": "google.net.tw",
+        "punycode": "google.net.tw",
+        "name": "google.net",
+        "extension": "tw",
+        "status": [
+            "clienttransferprohibited"
+        ],
+        "name_servers": [
+            "ns1.afraid.org",
+            "ns2.afraid.org"
+        ],
+        "created_date": "2010-08-13 23:16:40 (UTC+8)",
+        "expiration_date": "2021-08-13 00:00:00 (UTC+8)"
+    },
+    "registrar": {
+        "name": "NET-CHINESE",
+        "referral_url": "http://www.net-chinese.com.tw"
+    },
+    "registrant": {
+        "name": "Su Teng Kuo",
+        "organization": "聯合通科技股份有限公司, Cloud Communication Technology Ltd.",
+        "street": "3F.-2, No.187, Zhongyang Rd., Xindian Dist, New Taipei City, New Taipei City, TW",
+        "phone": "+886.89136558",
+        "fax": "+886.89136518",
+        "email": "daniel@mindjet.com.tw"
+    },
+    "administrative": {
+        "name": "Su Teng Kuo",
+        "phone": "+886.89136558",
+        "fax": "+886.89136518",
+        "email": "daniel@mindjet.com.tw"
+    },
+    "technical": {
+        "name": "Su Teng Kuo",
+        "phone": "+886.89136558",
+        "fax": "+886.89136518",
+        "email": "daniel@mindjet.com.tw"
+    }
+}
