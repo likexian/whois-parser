@@ -1,0 +1,64 @@
+{
+    "domain": {
+        "id": "88351999_DOMAIN_COM-VRSN",
+        "domain": "rockcreekcc.com",
+        "punycode": "rockcreekcc.com",
+        "name": "rockcreekcc",
+        "extension": "com",
+        "whois_server": "whois.tucows.com",
+        "status": [
+            "clienttransferprohibited",
+            "clientupdateprohibited"
+        ],
+        "name_servers": [
+            "ns1.sterlink.net",
+            "ns2.sterlink.net"
+        ],
+        "created_date": "2002-07-12T15:48:26Z",
+        "updated_date": "2021-05-03T20:23:19Z",
+        "expiration_date": "2022-07-12T15:48:26Z"
+    },
+    "registrar": {
+        "id": "69",
+        "name": "TUCOWS, INC.",
+        "phone": "+1.4165350123",
+        "email": "domainabuse@tucows.com",
+        "referral_url": "http://tucowsdomains.com"
+    },
+    "registrant": {
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "REDACTED FOR PRIVACY",
+        "street": "REDACTED FOR PRIVACY",
+        "city": "REDACTED FOR PRIVACY",
+        "province": "OR",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "US",
+        "phone": "REDACTED FOR PRIVACY",
+        "fax": "REDACTED FOR PRIVACY",
+        "email": "https://tieredaccess.com/contact/3d784e56-1556-4b0a-97b2-84824e8a987d"
+    },
+    "administrative": {
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "REDACTED FOR PRIVACY",
+        "street": "REDACTED FOR PRIVACY",
+        "city": "REDACTED FOR PRIVACY",
+        "province": "REDACTED FOR PRIVACY",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "REDACTED FOR PRIVACY",
+        "phone": "REDACTED FOR PRIVACY",
+        "fax": "REDACTED FOR PRIVACY",
+        "email": "redacted for privacy"
+    },
+    "technical": {
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "REDACTED FOR PRIVACY",
+        "street": "REDACTED FOR PRIVACY",
+        "city": "REDACTED FOR PRIVACY",
+        "province": "REDACTED FOR PRIVACY",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "REDACTED FOR PRIVACY",
+        "phone": "REDACTED FOR PRIVACY",
+        "fax": "REDACTED FOR PRIVACY",
+        "email": "redacted for privacy"
+    }
+}
