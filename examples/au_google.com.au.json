@@ -26,7 +26,8 @@
     },
     "registrant": {
         "id": "MMR-122026",
-        "name": "Google INC"
+        "name": "Domain Administrator",
+        "organization": "Google INC"
     },
     "technical": {
         "id": "MMR-87489",

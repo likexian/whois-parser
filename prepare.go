@@ -79,6 +79,8 @@ func Prepare(text, ext string) (string, bool) {
 		return prepareRS(text), true
 	case "ee":
 		return prepareEE(text), true
+	case "cn", "xn--fiqs8s", "xn--fiqz9s":
+		return prepareCN(text), true
 	default:
 		return text, false
 	}
@@ -633,10 +635,13 @@ func prepareJP(text string) string {
 			continue
 		}
 		if strings.Contains(v, ":") {
-			vs := strings.Split(v, ":")
+			vs := strings.SplitN(v, ":", 2)
 			token = strings.TrimSpace(vs[0])
 			if token == adminToken {
 				prefixToken = "admin "
+			}
+			if strings.ToLower(token) == "registrant" {
+				v = fmt.Sprintf("registrant name: %s", vs[1])
 			}
 		} else {
 			if token == addressToken {
@@ -682,6 +687,7 @@ func prepareKR(text string) string {
 		"AC E-Mail":                  "Administrative Contact E-Mail",
 		"AC Phone Number":            "Administrative Contact Phone Number",
 		"Authorized Agency":          "Registrar Name",
+		"Registrant":                 "Registrant Name",
 	}
 
 	pos := strings.Index(text, english)
@@ -1083,6 +1089,25 @@ func prepareEE(text string) string {
 			v = fmt.Sprintf("%s %s", token, v)
 		}
 		result += "\n" + strings.TrimSpace(v)
+	}
+
+	return result
+}
+
+// prepareCN do prepare the .cn domain
+func prepareCN(text string) string {
+	var result string
+
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if strings.Contains(v, ":") {
+			vs := strings.SplitN(v, ":", 2)
+			if strings.ToLower(strings.TrimSpace(vs[0])) == "registrant" {
+				vs[0] = "registrant name"
+			}
+			v = fmt.Sprintf("%s: %s", vs[0], vs[1])
+		}
+		result += "\n" + v
 	}
 
 	return result

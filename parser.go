@@ -30,7 +30,7 @@ import (
 
 // Version returns package version
 func Version() string {
-	return "1.20.3"
+	return "1.20.4"
 }
 
 // Author returns package author
@@ -92,10 +92,6 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		value := strings.TrimSpace(lines[1])
 		value = strings.TrimSpace(strings.Trim(value, ":"))
 
-		if name == "Registration Service Provider" {
-			continue
-		}
-
 		if value == "" {
 			continue
 		}
@@ -138,7 +134,11 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		default:
 			name = clearKeyName(name)
 			if !strings.Contains(name, " ") {
-				name += " name"
+				if name == "registrar" {
+					name += " name"
+				} else {
+					name += " organization"
+				}
 			}
 			ns := strings.SplitN(name, " ", 2)
 			name = strings.TrimSpace("registrant " + ns[1])
@@ -192,9 +192,13 @@ func parseContact(contact *Contact, name, value string) {
 	case "registrant_id":
 		contact.Id = value
 	case "registrant_name":
-		contact.Name = value
+		if contact.Name == "" {
+			contact.Name = value
+		}
 	case "registrant_organization":
-		contact.Organization = value
+		if contact.Organization == "" {
+			contact.Organization = value
+		}
 	case "registrant_street":
 		if contact.Street == "" {
 			contact.Street = value
