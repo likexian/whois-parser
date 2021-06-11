@@ -92,6 +92,10 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		value := strings.TrimSpace(lines[1])
 		value = strings.TrimSpace(strings.Trim(value, ":"))
 
+		if name == "Registration Service Provider" {
+			continue
+		}
+
 		if value == "" {
 			continue
 		}
