@@ -1,0 +1,38 @@
+{
+    "domain": {
+        "domain": "ps.kz",
+        "punycode": "ps.kz",
+        "name": "ps",
+        "extension": "kz",
+        "status": [
+            "clienttransferprohibited",
+            "clientdeleteprohibited",
+            "clientrenewprohibited",
+            "clientupdateprohibited"
+        ],
+        "name_servers": [
+            "ns1.ps.kz",
+            "ns2.ps.kz",
+            "ns3.ps.kz"
+        ],
+        "created_date": "2003-08-18 11:20:09 (GMT+0:00)",
+        "updated_date": "2020-10-02 10:56:07 (GMT+0:00)"
+    },
+    "registrar": {
+        "name": "ICPS"
+    },
+    "registrant": {
+        "name": "TOO \"Internet-kompaniya PS\", BIN 080840007694",
+        "organization": "TOO \"Internet-kompaniya PS\", BIN 080840007694",
+        "street": "ul. Makataeva 117, korpus A, office 201",
+        "city": "Almaty",
+        "postal_code": "050000",
+        "country": "KZ"
+    },
+    "administrative": {
+        "id": "PS-KZ-1601636167",
+        "name": "TOO \"Internet-kompaniya PS\", BIN 080840007694",
+        "phone": "+7-727-3888231",
+        "email": "info@ps.kz"
+    }
+}

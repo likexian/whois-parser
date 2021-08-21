@@ -77,6 +77,8 @@ func Prepare(text, ext string) (string, bool) {
 		return prepareIR(text), true
 	case "rs":
 		return prepareRS(text), true
+	case "kz":
+		return prepareKZ(text), true
 	case "ee":
 		return prepareEE(text), true
 	case "cn", "xn--fiqs8s", "xn--fiqz9s":
@@ -206,6 +208,74 @@ func prepareINT(text string) string {
 				}
 			}
 		}
+		result += "\n" + v
+	}
+
+	return result
+}
+
+// prepareKZ do prepare the .kz domain
+func prepareKZ(text string) string {
+
+	groupTokens := map[string]string{
+		"Organization Using Domain Name": "Registrant ",
+		"Administrative Contact/Agent":   "Administrative ",
+	}
+
+	topTokens := map[string]string{
+		"Domain status": "Domain status : ",
+	}
+
+	tokens := map[string]string{
+		"Primary server":   "name server",
+		"Secondary server": "name server",
+		"Current Registar": "Registrar Name",
+	}
+
+	groupToken := ""
+	topToken := ""
+	result := ""
+
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+
+		if v == "" {
+			groupToken = ""
+			continue
+		}
+
+		if token, ok := groupTokens[v]; ok {
+			groupToken = token
+			continue
+		}
+
+		if !strings.Contains(v, ":") {
+			if topToken != "" {
+				v = fmt.Sprintf("%s%s", topToken, v)
+			} else {
+				continue
+			}
+		}
+
+		vs := strings.SplitN(v, ":", 2)
+
+		key := strings.TrimSpace(strings.Replace(vs[0], ".", "", -1))
+		key = fmt.Sprintf("%s%s", groupToken, key)
+
+		if token, ok := tokens[key]; ok {
+			key = token
+		}
+
+		value := vs[1]
+
+		if token, ok := topTokens[key]; ok {
+			topToken = token
+		} else {
+			topToken = ""
+		}
+
+		v = fmt.Sprintf("%s: %s", key, value)
+
 		result += "\n" + v
 	}
 
