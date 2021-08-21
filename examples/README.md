@@ -139,6 +139,7 @@ If there is any problem, please feel free to open a new issue.
 | .rs | [google.rs](rs_google.rs) | [google.rs](rs_google.rs.json) | √ |
 | .ru | [git.ru](ru_git.ru) | [git.ru](ru_git.ru.json) | √ |
 | .ru | [google.ru](ru_google.ru) | [google.ru](ru_google.ru.json) | √ |
+| .ru | [yandex.ru](ru_yandex.ru) | [yandex.ru](ru_yandex.ru.json) | √ |
 | .scot | [gov.scot](scot_gov.scot) | [gov.scot](scot_gov.scot.json) | √ |
 | .scot | [yes.scot](scot_yes.scot) | [yes.scot](scot_yes.scot.json) | √ |
 | .sexy | [google.sexy](sexy_google.sexy) | [google.sexy](sexy_google.sexy.json) | √ |
