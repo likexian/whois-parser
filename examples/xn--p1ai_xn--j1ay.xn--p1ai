@@ -1,0 +1,18 @@
+% By submitting a query to RIPN's Whois Service
+% you agree to abide by the following terms of use:
+% http://www.ripn.net/about/servpol.html#3.2 (in Russian)
+% http://www.ripn.net/about/en/servpol.html#3.2 (in English).
+
+domain:        XN--J1AY.XN--P1AI
+nserver:       ns1.cctld.ru.
+nserver:       ns.cctld.ru.
+state:         REGISTERED, DELEGATED, VERIFIED
+org:           Coordination Center for TLD RU
+registrar:     NETHOUSE-RF
+admin-contact: https://domains.nethouse.ru/whois/form
+created:       2009-11-25T08:15:46Z
+paid-till:     2021-11-25T08:15:46Z
+free-date:     2021-12-26
+source:        TCI
+
+Last updated on 2021-08-23T04:51:30Z

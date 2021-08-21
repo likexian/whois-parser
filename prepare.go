@@ -53,7 +53,7 @@ func Prepare(text, ext string) (string, bool) {
 		return prepareIT(text), true
 	case "fr", "re", "tf", "yt", "pm", "wf":
 		return prepareFR(text), true
-	case "ru", "su":
+	case "ru", "su", "xn--p1ai":
 		return prepareRU(text), true
 	case "fi":
 		return prepareFI(text), true
