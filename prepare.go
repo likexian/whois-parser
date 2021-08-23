@@ -610,6 +610,8 @@ func prepareRU(text string) string {
 		vs := strings.Split(v, ":")
 		if vv, ok := tokens[strings.TrimSpace(vs[0])]; ok {
 			v = fmt.Sprintf("%s: %s", vv, vs[1])
+		} else if vs[0] == "nserver" {
+			v = strings.Replace(v, ",", " ", -1)
 		}
 		result += v + "\n"
 	}
