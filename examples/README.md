@@ -185,6 +185,7 @@ If there is any problem, please feel free to open a new issue.
 | .xyz | [google.xyz](xyz_google.xyz) | [google.xyz](xyz_google.xyz.json) | √ |
 | .yt | [git.yt](yt_git.yt) | [git.yt](yt_git.yt.json) | √ |
 | .yt | [google.yt](yt_google.yt) | [google.yt](yt_google.yt.json) | √ |
+| .рф | [кц.рф](xn--p1ai_xn--j1ay.xn--p1ai) | [кц.рф](xn--p1ai_xn--j1ay.xn--p1ai.json) | √ |
 | .ایران | [ایرنیک.ایران](xn--mgba3a4f16a_xn--mgbu7dsvrfc.xn--mgba3a4f16a) | [ایرنیک.ایران](xn--mgba3a4f16a_xn--mgbu7dsvrfc.xn--mgba3a4f16a.json) | √ |
 | .ایران | [بخر.ایران](xn--mgba3a4f16a_xn--ngbmj.xn--mgba3a4f16a) | [بخر.ایران](xn--mgba3a4f16a_xn--ngbmj.xn--mgba3a4f16a.json) | √ |
 | .中国 | [你好.中国](xn--fiqs8s_xn--6qq79v.xn--fiqs8s) | [你好.中国](xn--fiqs8s_xn--6qq79v.xn--fiqs8s.json) | √ |
