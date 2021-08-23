@@ -101,6 +101,8 @@ If there is any problem, please feel free to open a new issue.
 | .jp | [google.jp](jp_google.jp) | [google.jp](jp_google.jp.json) | √ |
 | .kr | [git.kr](kr_git.kr) | [git.kr](kr_git.kr.json) | √ |
 | .kr | [google.kr](kr_google.kr) | [google.kr](kr_google.kr.json) | √ |
+| .kz | [google.kz](kz_google.kz) | [google.kz](kz_google.kz.json) | √ |
+| .kz | [ps.kz](kz_ps.kz) | [ps.kz](kz_ps.kz.json) | √ |
 | .la | [git.la](la_git.la) | [git.la](la_git.la.json) | √ |
 | .la | [google.la](la_google.la) | [google.la](la_google.la.json) | √ |
 | .london | [google.london](london_google.london) | [google.london](london_google.london.json) | √ |

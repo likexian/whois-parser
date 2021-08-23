@@ -1,0 +1,42 @@
+Whois Server for the KZ top level domain name.
+This server is maintained by KazNIC Organization, a ccTLD manager for Kazakhstan Republic.
+
+Domain Name............: ps.kz
+
+Organization Using Domain Name
+Name...................: TOO "Internet-kompaniya PS", BIN 080840007694
+Organization Name......: TOO "Internet-kompaniya PS", BIN 080840007694
+Street Address.........: ul. Makataeva 117, korpus A, office 201
+City...................: Almaty
+State..................: Almaty
+Postal Code............: 050000
+Country................: KZ
+
+Administrative Contact/Agent
+NIC Handle.............: PS-KZ-1601636167
+Name...................: TOO "Internet-kompaniya PS", BIN 080840007694
+Phone Number...........: +7-727-3888231
+Fax Number.............:
+Email Address..........: info@ps.kz
+
+Nameserver in listed order
+
+Primary server.........: ns1.ps.kz
+Primary ip address.....: 195.210.46.194, 2a00:5da0:0:1::194
+
+Secondary server.......: ns2.ps.kz
+Secondary ip address...: 195.210.46.2, 2a00:5da0:1000::2
+
+Secondary server.......: ns3.ps.kz
+Secondary ip address...: 2a00:ab00:1108:177::4, 92.53.88.26
+
+
+Domain created: 2003-08-18 11:20:09 (GMT+0:00)
+Last modified : 2020-10-02 10:56:07 (GMT+0:00)
+Domain status : clientTransferProhibited -
+                clientDeleteProhibited -
+                clientRenewProhibited -
+                clientUpdateProhibited -
+
+Registar created: KAZNIC
+Current Registar: ICPS
