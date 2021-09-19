@@ -1,7 +1,7 @@
-github.com/likexian/gokit v0.25.0 h1:ihvGsRLX6lHfUTwc00kvQSWC4T9UJ4bB2O0vub6G1Io=
-github.com/likexian/gokit v0.25.0/go.mod h1:NCv1RDZK5kR0T2SfAl/vjIO6rsjszt2C/25TKxJalhs=
-golang.org/x/net v0.0.0-20210510120150-4163338589ed h1:p9UgmWI9wKpfYmgaV/IZKGdXc5qEK45tDwwwDyjS26I=
-golang.org/x/net v0.0.0-20210510120150-4163338589ed/go.mod h1:9nx3DQGgdP8bBQD5qxJ1jj9UTztislL4KSBs9R2vV5Y=
+github.com/likexian/gokit v0.25.3 h1:VLFW/j2Ox/eAnxT/BwkoEok+JMeubeU0qFyqh1p041w=
+github.com/likexian/gokit v0.25.3/go.mod h1:q1LC+z3cBymJuE4oeiWiIPhJceUa0nptg4Id8tSzjZI=
+golang.org/x/net v0.0.0-20210917221730-978cfadd31cf h1:R150MpwJIv1MpS0N/pc+NhTM8ajzvlmxlY5OYsrevXQ=
+golang.org/x/net v0.0.0-20210917221730-978cfadd31cf/go.mod h1:9nx3DQGgdP8bBQD5qxJ1jj9UTztislL4KSBs9R2vV5Y=
 golang.org/x/sys v0.0.0-20201119102817-f84b799fce68/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 golang.org/x/sys v0.0.0-20210423082822-04245dca01da/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1/go.mod h1:bj7SfCRtBDWHUb9snDiAeCFNEtKQo2Wmx5Cou7ajbmo=
