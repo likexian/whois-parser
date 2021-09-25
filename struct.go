@@ -31,7 +31,7 @@ type WhoisInfo struct {
 
 // Domain storing domain name info
 type Domain struct {
-	Id             string   `json:"id,omitempty"`
+	ID             string   `json:"id,omitempty"`
 	Domain         string   `json:"domain,omitempty"`
 	Punycode       string   `json:"punycode,omitempty"`
 	Name           string   `json:"name,omitempty"`
@@ -47,7 +47,7 @@ type Domain struct {
 
 // Contact storing domain contact info
 type Contact struct {
-	Id           string `json:"id,omitempty"`
+	ID           string `json:"id,omitempty"`
 	Name         string `json:"name,omitempty"`
 	Organization string `json:"organization,omitempty"`
 	Street       string `json:"street,omitempty"`

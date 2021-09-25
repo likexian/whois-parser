@@ -30,7 +30,7 @@ import (
 
 // Version returns package version
 func Version() string {
-	return "1.20.4"
+	return "1.20.7"
 }
 
 // Author returns package author
@@ -44,7 +44,7 @@ func License() string {
 }
 
 // Parse returns parsed whois info
-func Parse(text string) (whoisInfo WhoisInfo, err error) {
+func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 	name, extension := searchDomain(text)
 	if name == "" {
 		err = getDomainErrorType(text)
@@ -75,7 +75,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		}
 
 		if line[len(line)-1:] == ":" {
-			i += 1
+			i++
 			for ; i < len(whoisLines); i++ {
 				thisLine := strings.TrimSpace(whoisLines[i])
 				if strings.Contains(thisLine, ":") {
@@ -84,7 +84,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 				line += thisLine + ","
 			}
 			line = strings.Trim(line, ",")
-			i -= 1
+			i--
 		}
 
 		lines := strings.SplitN(line, ":", 2)
@@ -99,7 +99,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 		keyName := searchKeyName(name)
 		switch keyName {
 		case "domain_id":
-			domain.Id = value
+			domain.ID = value
 		case "domain_name":
 			if domain.Domain == "" {
 				domain.Domain = strings.ToLower(value)
@@ -190,7 +190,7 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) {
 func parseContact(contact *Contact, name, value string) {
 	switch searchKeyName(name) {
 	case "registrant_id":
-		contact.Id = value
+		contact.ID = value
 	case "registrant_name":
 		if contact.Name == "" {
 			contact.Name = value

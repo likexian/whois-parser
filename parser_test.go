@@ -106,7 +106,7 @@ func TestParse(t *testing.T) {
 		if !assert.IsContains([]string{"", "aq", "br", "ch", "de", "edu", "eu", "fr", "gov", "hk",
 			"hm", "int", "it", "jp", "kr", "kz", "mo", "nl", "nz", "pm", "re", "ro", "ru", "su", "tf", "ee",
 			"tk", "travel", "tv", "tw", "uk", "wf", "yt", "ir", "fi", "rs", "xn--mgba3a4f16a", "xn--p1ai"}, extension) {
-			assert.NotZero(t, whoisInfo.Domain.Id)
+			assert.NotZero(t, whoisInfo.Domain.ID)
 		}
 
 		if !assert.IsContains([]string{"ch", "edu", "eu", "int", "kr", "mo", "tw", "ir", "tk",
@@ -151,7 +151,7 @@ func TestParse(t *testing.T) {
 			"edu", "eu", "fr", "gov", "gs", "hk", "hm", "int", "it", "jp", "kr", "kz", "la", "mo", "nl",
 			"nz", "pm", "re", "ro", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt", "ir", "fi", "rs", "ee",
 			"xn--mgba3a4f16a", "xn--fiqs8s", "xn--p1ai"}, extension) {
-			assert.NotZero(t, whoisInfo.Registrar.Id)
+			assert.NotZero(t, whoisInfo.Registrar.ID)
 		}
 
 		if !assert.IsContains([]string{"", "aq", "br", "de",
