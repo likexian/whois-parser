@@ -1,10 +1,10 @@
 # WhoisParser
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-[![GoDoc](https://godoc.org/github.com/likexian/whois-parser?status.svg)](https://godoc.org/github.com/likexian/whois-parser)
-[![Build Status](https://travis-ci.org/likexian/whois-parser.svg?branch=master)](https://travis-ci.org/likexian/whois-parser)
+[![GoDoc](https://pkg.go.dev/badge/github.com/likexian/whois-parser.svg)](https://pkg.go.dev/github.com/likexian/whois-parser)
 [![Go Report Card](https://goreportcard.com/badge/github.com/likexian/whois-parser)](https://goreportcard.com/report/github.com/likexian/whois-parser)
-[![Code Cover](https://codecov.io/gh/likexian/whois-parser/graph/badge.svg)](https://codecov.io/gh/likexian/whois-parser)
+[![Build Status](https://github.com/likexian/whois-parser/actions/workflows/gotest.yaml/badge.svg)](https://github.com/likexian/whois-parser/actions/workflows/gotest.yaml)
+[![Code Cover](https://release.likexian.com/whois-parser/coverage.svg)](https://github.com/likexian/whois-parser/actions/workflows/gotest.yaml)
 
 WhoisParser is a simple Go module for domain whois information parsing.
 
@@ -38,7 +38,7 @@ import (
 
 ## Documentation
 
-Visit the docs on [GoDoc](https://godoc.org/github.com/likexian/whois-parser)
+Visit the docs on [GoDoc](https://pkg.go.dev/github.com/likexian/whois-parser)
 
 ## Example
 
