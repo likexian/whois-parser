@@ -40,8 +40,9 @@ jobs:
       - name: GoTest code
         run: |
           sudo go test -race -coverprofile="coverage.txt" -covermode=atomic ./...
+          coverage=$(go tool cover -func=coverage.txt | grep total | grep -Eo '[0-9]+\.[0-9]+')
+          echo "{\"coverage\": $coverage}"
           if [[ "${{ matrix.go }}" == "1.17.x" ]]; then
-            coverage=$(go tool cover -func=coverage.txt | grep total | grep -Eo '[0-9]+\.[0-9]+')
             repository=$(echo '${{ github.repository }}' | awk -F'/' '{print $2}')
             curl -A "coverage client/1.0.0" -H "X-Release-Token:${{ secrets.RELEASE_TOKEN }}" -F "coverage=$coverage" https://release.likexian.com/$repository/coverage
           fi
