@@ -825,6 +825,7 @@ func prepareTK(text string) string {
 			"Address",
 			"Address",
 			"Address",
+			"Country",
 		},
 	}
 
