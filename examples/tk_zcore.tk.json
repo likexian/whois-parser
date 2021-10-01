@@ -1,0 +1,25 @@
+{
+    "domain": {
+        "domain": "zcore.tk",
+        "punycode": "zcore.tk",
+        "name": "zcore",
+        "extension": "tk",
+        "name_servers": [
+            "ns02.freenom.com",
+            "ns01.freenom.com",
+            "ns03.freenom.com",
+            "ns04.freenom.com"
+        ],
+        "created_date": "11/29/2016",
+        "expiration_date": "01/03/2022"
+    },
+    "registrant": {
+        "name": "Korol",
+        "organization": "Korol",
+        "street": "Kharkiv, str. Mira 34, 61007  Kharkiv, Kharkivs'ka Oblast'",
+        "country": "Ukraine",
+        "phone": "+380 67-2124222",
+        "fax": "+380 67-2124222",
+        "email": "korol1979a@rambler.ru"
+    }
+}

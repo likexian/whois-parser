@@ -156,6 +156,7 @@ If there is any problem, please feel free to open a new issue.
 | .tf | [google.tf](tf_google.tf) | [google.tf](tf_google.tf.json) | √ |
 | .tk | [google.tk](tk_google.tk) | [google.tk](tk_google.tk.json) | √ |
 | .tk | [yazeji.tk](tk_yazeji.tk) | [yazeji.tk](tk_yazeji.tk.json) | √ |
+| .tk | [zcore.tk](tk_zcore.tk) | [zcore.tk](tk_zcore.tk.json) | √ |
 | .top | [google.top](top_google.top) | [google.top](top_google.top.json) | √ |
 | .top | [otto.top](top_otto.top) | [otto.top](top_otto.top.json) | √ |
 | .travel | [google.travel](travel_google.travel) | [google.travel](travel_google.travel.json) | √ |
