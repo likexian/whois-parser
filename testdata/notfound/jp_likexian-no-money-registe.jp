@@ -1,0 +1,21 @@
+[ JPRS database provides information on network administration. Its use is    ]
+[ restricted to network administration purposes. For further information,     ]
+[ use 'whois -h whois.jprs.jp help'. To suppress Japanese output, add'/e'     ]
+[ at the end of command, e.g. 'whois -h whois.jprs.jp xxx/e'.                 ]
+
+No match!!
+
+JPRS WHOISは、JPRSが管理している以下のドメイン名に関する情報を確認でき
+るサービスです。
+    ・登録されているJPドメイン名
+    ・JPRSを管理レジストラとするgTLD等ドメイン名
+詳しくは https://jprs.jp/about/dom-search/jprs-whois/ を参照してください。
+
+参考: IPアドレスのWHOISサーバ
+   ・JPNIC WHOIS(whois.nic.ad.jp)
+   ・APNIC WHOIS(whois.apnic.net)
+   ・ARIN WHOIS(whois.arin.net)
+   ・RIPE WHOIS(whois.ripe.net)
+   ・LACNIC WHOIS(whois.lacnic.net)
+   ・AfriNIC WHOIS(whois.afrinic.net)
+

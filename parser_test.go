@@ -32,7 +32,9 @@ import (
 )
 
 const (
-	VERIFIEDLIST = `
+	noterrorDir  = "testdata/noterror"
+	notfoundDir  = "testdata/notfound"
+	verifiedList = `
 # WhoisParser
 
 ## Overview
@@ -58,7 +60,7 @@ func TestVersion(t *testing.T) {
 
 func TestParseError(t *testing.T) {
 	tests := map[error]string{
-		ErrDomainNotFound:    "No matching record.",
+		ErrNotFoundDomain:    "No matching record.",
 		ErrReservedDomain:    "Reserved Domain Name",
 		ErrPremiumDomain:     "This platinum domain is available for purchase.",
 		ErrBlockedDomain:     "This name subscribes to the Uni EPS+ product",
@@ -70,13 +72,17 @@ func TestParseError(t *testing.T) {
 		_, err := Parse(v)
 		assert.Equal(t, err, e)
 	}
+
+	_, err := Parse(`Domain Name: likexian-no-money-registe.ai
+	Domain Status: No Object Found`)
+	assert.Equal(t, err, ErrNotFoundDomain)
 }
 
 func TestParse(t *testing.T) {
 	extensions := []string{}
 	domains := map[string][]string{}
 
-	dirs, err := xfile.ListDir("./examples/", xfile.TypeFile, -1)
+	dirs, err := xfile.ListDir(noterrorDir, xfile.TypeFile, -1)
 	assert.Nil(t, err)
 
 	for _, v := range dirs {
@@ -94,7 +100,7 @@ func TestParse(t *testing.T) {
 			continue
 		}
 
-		whoisRaw, err := xfile.ReadText("./examples/" + v.Name)
+		whoisRaw, err := xfile.ReadText(noterrorDir + "/" + v.Name)
 		assert.Nil(t, err)
 
 		whoisInfo, err := Parse(whoisRaw)
@@ -166,7 +172,7 @@ func TestParse(t *testing.T) {
 			assert.NotZero(t, whoisInfo.Registrar.ReferralURL)
 		}
 
-		err = xjson.Dump("./examples/"+v.Name+".json", whoisInfo)
+		err = xjson.Dump(noterrorDir+"/"+v.Name+".json", whoisInfo)
 		assert.Nil(t, err)
 
 		extension, _ = idna.ToUnicode(extension)
@@ -182,7 +188,7 @@ func TestParse(t *testing.T) {
 	}
 
 	sort.Strings(extensions)
-	verified := VERIFIEDLIST
+	verified := verifiedList
 
 	for _, extension := range extensions {
 		sort.Strings(domains[extension])
@@ -197,7 +203,7 @@ func TestParse(t *testing.T) {
 		}
 	}
 
-	err = xfile.WriteText("./examples/README.md", strings.TrimSpace(verified))
+	err = xfile.WriteText(noterrorDir+"/README.md", strings.TrimSpace(verified))
 	assert.Nil(t, err)
 }
 

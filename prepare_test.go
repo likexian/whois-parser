@@ -29,7 +29,7 @@ import (
 )
 
 func TestPrepare(t *testing.T) {
-	dirs, err := xfile.ListDir("./examples/", xfile.TypeFile, -1)
+	dirs, err := xfile.ListDir(noterrorDir, xfile.TypeFile, -1)
 	assert.Nil(t, err)
 
 	for _, v := range dirs {
@@ -47,7 +47,7 @@ func TestPrepare(t *testing.T) {
 			continue
 		}
 
-		whoisRaw, err := xfile.ReadText("./examples/" + v.Name)
+		whoisRaw, err := xfile.ReadText(noterrorDir + "/" + v.Name)
 		assert.Nil(t, err)
 
 		whoisPrepare, prepared := Prepare(whoisRaw, extension)
@@ -55,7 +55,7 @@ func TestPrepare(t *testing.T) {
 			prePrepare := ""
 			whoisPrepare = strings.TrimSpace(whoisPrepare)
 
-			preFile := fmt.Sprintf("./examples/%s.pre", v.Name)
+			preFile := fmt.Sprintf(noterrorDir+"/%s.pre", v.Name)
 			if xfile.Exists(preFile) {
 				prePrepare, err = xfile.ReadText(preFile)
 				assert.Nil(t, err)

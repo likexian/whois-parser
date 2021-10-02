@@ -21,12 +21,13 @@ package whoisparser
 
 import (
 	"errors"
+	"regexp"
 	"strings"
 )
 
 var (
-	// ErrDomainNotFound domain is not found
-	ErrDomainNotFound = errors.New("whoisparser: domain is not found")
+	// ErrNotFoundDomain domain is not found
+	ErrNotFoundDomain = errors.New("whoisparser: domain is not found")
 	// ErrReservedDomain domain is reserved
 	ErrReservedDomain = errors.New("whoisparser: domain is reserved to register")
 	// ErrPremiumDomain domain is available to register at premium price
@@ -42,8 +43,8 @@ var (
 // getDomainErrorType returns error type of domain data
 func getDomainErrorType(data string) error {
 	switch {
-	case isDomainNotFound(data):
-		return ErrDomainNotFound
+	case isNotFoundDomain(data):
+		return ErrNotFoundDomain
 	case isBlockedDomain(data):
 		return ErrBlockedDomain
 	case isPremiumDomain(data):
@@ -57,8 +58,8 @@ func getDomainErrorType(data string) error {
 	}
 }
 
-// isDomainNotFound returns if domain is not found
-func isDomainNotFound(data string) bool {
+// isNotFoundDomain returns if domain is not found
+func isNotFoundDomain(data string) bool {
 	notFoundKeys := []string{
 		"is free",
 		"no found",
@@ -66,14 +67,47 @@ func isDomainNotFound(data string) bool {
 		"not found",
 		"not match",
 		"no data found",
+		"nothing found",
 		"no entries found",
 		"no matching record",
 		"not registered",
 		"not been registered",
 		"object does not exist",
+		"query returned 0 objects",
 	}
 
 	return containsIn(strings.ToLower(data), notFoundKeys)
+}
+
+// isExtNotFoundDomain returns if domain is not found by extension
+func isExtNotFoundDomain(data, extension string) bool {
+	reBlank := regexp.MustCompile(`\s+`)
+	data = reBlank.ReplaceAllString(data, " ")
+
+	switch extension {
+	case "ai", "cx", "gs":
+		if strings.Contains(data, "Domain Status: No Object Found") {
+			return true
+		}
+	case "de":
+		if strings.Contains(data, "Status: free") {
+			return true
+		}
+	case "eu", "it":
+		if strings.Contains(data, "Status: AVAILABLE") {
+			return true
+		}
+	case "nz":
+		if strings.Contains(data, "query_status: 220 Available") {
+			return true
+		}
+	case "sexy":
+		if strings.Contains(data, "is available") {
+			return true
+		}
+	}
+
+	return false
 }
 
 // isReservedDomain returns if domain is reserved
@@ -115,6 +149,7 @@ func isBlockedDomain(data string) bool {
 func isLimitExceeded(data string) bool {
 	limitExceedKeys := []string{
 		"limit exceeded",
+		"server too busy",
 	}
 
 	return containsIn(strings.ToLower(data), limitExceedKeys)

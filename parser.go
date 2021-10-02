@@ -30,7 +30,7 @@ import (
 
 // Version returns package version
 func Version() string {
-	return "1.20.7"
+	return "1.22.0"
 }
 
 // Author returns package author
@@ -48,6 +48,11 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 	name, extension := searchDomain(text)
 	if name == "" {
 		err = getDomainErrorType(text)
+		return
+	}
+
+	if extension != "" && isExtNotFoundDomain(text, extension) {
+		err = ErrNotFoundDomain
 		return
 	}
 
@@ -226,19 +231,28 @@ func parseContact(contact *Contact, name, value string) {
 	}
 }
 
-// searchDomain find domain from whois info
-func searchDomain(text string) (string, string) {
-	r := regexp.MustCompile(`(?i)\[?domain\:?(\s*\_?name)?\]?[\s\.]*\:?\s*([^\s]+)\.([^\.\s]{2,})`)
+// searchDomain finds domain name and extension from whois information
+func searchDomain(text string) (name, extension string) {
+	r := regexp.MustCompile(`(?i)\[?domain\:?(\s*\_?name)?\]?[\s\.]*\:?\s*([^\s\,\;\(\)]+)\.([^\s\,\;\(\)\.]{2,})`)
 	m := r.FindStringSubmatch(text)
 	if len(m) > 0 {
-		return strings.ToLower(strings.TrimSpace(m[2])), strings.ToLower(strings.TrimSpace(m[3]))
+		name = strings.TrimSpace(m[2])
+		extension = strings.TrimSpace(m[3])
 	}
 
-	r = regexp.MustCompile(`(?i)\[?domain\:?(\s*\_?name)?\]?\s*\:?\s*([^\.\s]{2,})\n`)
-	m = r.FindStringSubmatch(text)
-	if len(m) > 0 {
-		return strings.ToLower(strings.TrimSpace(m[2])), ""
+	if name == "" {
+		r := regexp.MustCompile(`(?i)\[?domain\:?(\s*\_?name)?\]?[\s\.]*\:?\s*([^\s\,\;\(\)\.]{2,})\n`)
+		m := r.FindStringSubmatch(text)
+		if len(m) > 0 {
+			name = strings.TrimSpace(m[2])
+			extension = ""
+		}
 	}
 
-	return "", ""
+	if name != "" {
+		name = strings.ToLower(name)
+		extension = strings.ToLower(extension)
+	}
+
+	return
 }

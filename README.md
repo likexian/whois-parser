@@ -14,7 +14,7 @@ This module parses the provided domain whois information and returns a readable 
 
 ## Verified Extensions
 
-It is supposed to be working with all domain extensions, but [verified extensions](examples/README.md) must works, because I have checked them one by one manually.
+It is supposed to be working with all domain extensions, but [verified extensions](testdata/noterror/README.md) must works, because I have checked them one by one manually.
 
 If there is any problem, please feel free to open a new issue.
 

@@ -23,22 +23,44 @@ import (
 	"testing"
 
 	"github.com/likexian/gokit/assert"
+	"github.com/likexian/gokit/xfile"
 )
 
-func TestAsisDomainNotFound(t *testing.T) {
+func TestAsisNotFoundDomain(t *testing.T) {
 	// iamnotexistsdomain.CN
 	data := `No matching record.`
-	assert.True(t, isDomainNotFound(data))
+	assert.True(t, isNotFoundDomain(data))
 
 	// iamnotexistsdomain.com
 	data = `No match for "IAMNOTEXISTSDOMAIN.COM".
 	>>> Last update of whois database: 2021-01-15T11:26:46Z <<<`
-	assert.True(t, isDomainNotFound(data))
+	assert.True(t, isNotFoundDomain(data))
 
 	// likexian.com
 	data = `Domain Name: LIKEXIAN.COM
 	Registry Domain ID: 1665843940_DOMAIN_COM-VRSN`
-	assert.False(t, isDomainNotFound(data))
+	assert.False(t, isNotFoundDomain(data))
+}
+
+func TestAsisExtNotFoundDomain(t *testing.T) {
+	dirs, err := xfile.ListDir(notfoundDir, xfile.TypeFile, -1)
+	assert.Nil(t, err)
+
+	for _, v := range dirs {
+		if v.Name == "README.md" {
+			continue
+		}
+
+		whoisRaw, err := xfile.ReadText(notfoundDir + "/" + v.Name)
+		assert.Nil(t, err)
+
+		name, extension := searchDomain(whoisRaw)
+		if name == "" {
+			assert.True(t, isNotFoundDomain(whoisRaw), v.Name)
+		} else {
+			assert.True(t, isExtNotFoundDomain(whoisRaw, extension), v.Name)
+		}
+	}
 }
 
 func TestAsisReservedDomain(t *testing.T) {
@@ -102,6 +124,10 @@ func TestAsisBlockedDomain(t *testing.T) {
 func TestAsisLimitExceeded(t *testing.T) {
 	// xxx.org
 	data := `WHOIS LIMIT EXCEEDED - SEE WWW.PIR.ORG/WHOIS FOR DETAILS`
+	assert.True(t, isLimitExceeded(data))
+
+	// whois.domain-registry.nl
+	data = `whois.domain-registry.nl: Server too busy, try again later`
 	assert.True(t, isLimitExceeded(data))
 
 	// likexian.com
