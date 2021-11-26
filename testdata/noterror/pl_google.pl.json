@@ -1,0 +1,25 @@
+{
+    "domain": {
+        "domain": "google.pl",
+        "punycode": "google.pl",
+        "name": "google",
+        "extension": "pl",
+        "whois_server": "https://dns.pl/en/whois",
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns3.google.com",
+            "ns4.google.com"
+        ],
+        "created_date": "2002.09.19 13:00:00",
+        "updated_date": "2021.08.17 11:43:34",
+        "expiration_date": "2022.09.18 14:00:00"
+    },
+    "registrar": {
+        "name": "Markmonitor, Inc.",
+        "street": "3540 East Longwing Lane, Suite 300",
+        "country": "United States",
+        "phone": "+1.2083895740",
+        "email": "ccops@markmonitor.com"
+    }
+}

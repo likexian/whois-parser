@@ -83,6 +83,8 @@ func Prepare(text, ext string) (string, bool) { //nolint:cyclop
 		return prepareEE(text), true
 	case "cn", "xn--fiqs8s", "xn--fiqz9s":
 		return prepareCN(text), true
+	case "pl":
+		return preparePL(text), true
 	default:
 		return text, false
 	}
@@ -1181,6 +1183,79 @@ func prepareCN(text string) string {
 			v = fmt.Sprintf("%s: %s", vs[0], vs[1])
 		}
 		result += "\n" + v
+	}
+
+	return result
+}
+
+// preparePL prepares the .pl domain
+func preparePL(text string) string {
+	result := ""
+	special := ""
+	registrarLine := 0
+	for _, v := range strings.Split(text, "\n") {
+		if special == "nameservers" {
+			if strings.HasPrefix(v, " ") {
+				ns := strings.SplitN(v, "[", 2)
+				result += fmt.Sprintf("\nnameservers: %s", strings.TrimSpace(ns[0]))
+				continue
+			} else {
+				special = ""
+			}
+		} else if special == "REGISTRAR" {
+			if strings.TrimSpace(v) == "" {
+				special = ""
+			} else {
+				switch registrarLine {
+				case 0:
+					// always name
+					result += fmt.Sprintf("\nregistrar name: %s", strings.TrimSpace(v))
+				case 1:
+					// always street address
+					result += fmt.Sprintf("\nregistrar street: %s", strings.TrimSpace(v))
+				case 2:
+					// postal code, city, state, sometimes country in an undefined format
+					// there's no way we can reliably unpack that
+					registrarLine++
+					continue
+				default:
+					// usually country unless it was on previous line, then phones/emails/www
+					if strings.Contains(v, "@") {
+						// email may have an "e-mail" prefix, but mostly does not
+						result += fmt.Sprintf("\nregistrar email: %s", strings.TrimSpace(strings.TrimLeft(v, "e-mail:")))
+					} else if strings.HasPrefix(v, "+") {
+						// phone numbers helpfully always start with +
+						result += fmt.Sprintf("\nregistrar phone: %s", strings.TrimSpace(v))
+					} else if strings.Contains(v, ".") {
+						// WWW addresses sometimes include http/https, sometimes do not
+						result += fmt.Sprintf("\nregistrar www: %s", strings.TrimSpace(v))
+					} else {
+						result += fmt.Sprintf("\nregistrar country: %s", strings.TrimSpace(v))
+					}
+				}
+				registrarLine++
+				continue
+			}
+		}
+
+		v = strings.TrimSpace(v)
+		if v == "" {
+			continue
+		}
+
+		if strings.HasPrefix(v, "nameservers: ") {
+			special = "nameservers"
+			ns := strings.SplitN(v, "[", 2)
+			result += fmt.Sprintf("\n%s", strings.TrimSpace(ns[0]))
+			continue
+		}
+
+		if strings.HasPrefix(v, "REGISTRAR:") {
+			special = "REGISTRAR"
+			continue
+		}
+
+		result += fmt.Sprintf("\n%s", strings.ReplaceAll(v, "WHOIS database responses:", "whois:"))
 	}
 
 	return result

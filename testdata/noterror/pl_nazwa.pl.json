@@ -1,0 +1,26 @@
+{
+    "domain": {
+        "domain": "nazwa.pl",
+        "punycode": "nazwa.pl",
+        "name": "nazwa",
+        "extension": "pl",
+        "whois_server": "https://dns.pl/en/whois",
+        "name_servers": [
+            "ns1.nazwa.pl",
+            "ns2.nazwa.pl",
+            "ns3.nazwa.pl"
+        ],
+        "dnssec": true,
+        "created_date": "1999.12.24 00:00:00",
+        "updated_date": "2019.11.08 13:30:57",
+        "expiration_date": "2027.12.23 00:00:00"
+    },
+    "registrar": {
+        "name": "nazwa.pl sp. z o.o.",
+        "street": "ul. Mieczysława Medweckiego 17",
+        "country": "Polska/Poland",
+        "phone": "+48.22 454 48 08",
+        "email": "kontakt@nazwa.pl",
+        "referral_url": "www.nazwa.pl"
+    }
+}

@@ -101,6 +101,10 @@ func isExtNotFoundDomain(data, extension string) bool {
 		if strings.Contains(data, "query_status: 220 Available") {
 			return true
 		}
+	case "pl":
+		if strings.Contains(data, "No information available about domain name") {
+			return true
+		}
 	case "sexy":
 		if strings.Contains(data, "is available") {
 			return true
