@@ -1,0 +1,22 @@
+DOMAIN NAME:           nazwa.pl
+registrant type:       organization
+nameservers:           ns1.nazwa.pl.
+nameservers: ns2.nazwa.pl.
+nameservers: ns3.nazwa.pl.
+created:               1999.12.24 00:00:00
+last modified:         2019.11.08 13:30:57
+renewal date:          2027.12.23 00:00:00
+option created:        2021.09.06 10:19:13
+option expiration date:       2024.09.06 10:19:13
+dnssec:                Signed
+DS:                    19476 13 1 8F86AAB79962A06A5F719F9A910A57921EE8B48B
+registrar name: nazwa.pl sp. z o.o.
+registrar street: ul. Mieczysława Medweckiego 17
+registrar country: Polska/Poland
+registrar phone: +48.801 33 22 33
+registrar phone: +48.22 454 48 10
+registrar phone: +48.22 454 48 08
+registrar email: kontakt@nazwa.pl
+registrar www: www.nazwa.pl
+whois: https://dns.pl/en/whois
+WHOIS displays data with a delay not exceeding 15 minutes in relation to the .pl Registry system

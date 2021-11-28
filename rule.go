@@ -99,6 +99,7 @@ var (
 		"domain expires":                         "expired_date",
 		"record expires on":                      "expired_date",
 		"record will expire on":                  "expired_date",
+		"renewal date":                           "expired_date",
 		"referral url":                           "referral_url",
 		"registrar url":                          "referral_url",
 		"registrar www":                          "referral_url",

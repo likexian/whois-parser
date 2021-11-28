@@ -110,17 +110,17 @@ func TestParse(t *testing.T) {
 		assert.Equal(t, whoisInfo.Domain.Extension, extension)
 
 		if !assert.IsContains([]string{"", "aq", "br", "ch", "de", "edu", "eu", "fr", "gov", "hk",
-			"hm", "int", "it", "jp", "kr", "kz", "mo", "nl", "nz", "pm", "re", "ro", "ru", "su", "tf", "ee",
+			"hm", "int", "it", "jp", "kr", "kz", "mo", "nl", "nz", "pl", "pm", "re", "ro", "ru", "su", "tf", "ee",
 			"tk", "travel", "tv", "tw", "uk", "wf", "yt", "ir", "fi", "rs", "xn--mgba3a4f16a", "xn--p1ai"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.ID)
 		}
 
-		if !assert.IsContains([]string{"ch", "edu", "eu", "int", "kr", "mo", "tw", "ir", "tk",
+		if !assert.IsContains([]string{"ch", "edu", "eu", "int", "kr", "mo", "tw", "ir", "pl", "tk",
 			"xn--mgba3a4f16a"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.Status)
 		}
 
-		if assert.IsContains([]string{"git.nl", "git.wf", "switch.ch", "git.xyz"}, domain) {
+		if assert.IsContains([]string{"aftermarket.pl", "nazwa.pl", "git.nl", "git.wf", "switch.ch", "git.xyz"}, domain) {
 			assert.True(t, whoisInfo.Domain.DNSSec)
 		} else {
 			assert.False(t, whoisInfo.Domain.DNSSec)
@@ -155,7 +155,7 @@ func TestParse(t *testing.T) {
 
 		if !assert.IsContains([]string{"", "ai", "aq", "au", "br", "ca", "ch", "cn", "cx", "de",
 			"edu", "eu", "fr", "gov", "gs", "hk", "hm", "int", "it", "jp", "kr", "kz", "la", "mo", "nl",
-			"nz", "pm", "re", "ro", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt", "ir", "fi", "rs", "ee",
+			"nz", "pl", "pm", "re", "ro", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt", "ir", "fi", "rs", "ee",
 			"xn--mgba3a4f16a", "xn--fiqs8s", "xn--p1ai"}, extension) {
 			assert.NotZero(t, whoisInfo.Registrar.ID)
 		}
@@ -167,7 +167,7 @@ func TestParse(t *testing.T) {
 
 		if !assert.IsContains([]string{"", "aero", "ai", "aq", "asia", "au", "br", "ch", "cn", "de",
 			"edu", "gov", "hk", "hm", "int", "jp", "kr", "kz", "la", "london", "love", "mo",
-			"museum", "name", "nl", "nz", "ru", "su", "tk", "top", "ir", "fi", "rs",
+			"museum", "name", "nl", "nz", "pl", "ru", "su", "tk", "top", "ir", "fi", "rs",
 			"xn--mgba3a4f16a", "xn--fiqs8s", "xn--p1ai"}, extension) {
 			assert.NotZero(t, whoisInfo.Registrar.ReferralURL)
 		}

@@ -129,6 +129,9 @@ If there is any problem, please feel free to open a new issue.
 | .org | [apache.org](org_apache.org) | [apache.org](org_apache.org.json) | √ |
 | .org | [github.org](org_github.org) | [github.org](org_github.org.json) | √ |
 | .org | [google.org](org_google.org) | [google.org](org_google.org.json) | √ |
+| .pl | [aftermarket.pl](pl_aftermarket.pl) | [aftermarket.pl](pl_aftermarket.pl.json) | √ |
+| .pl | [google.pl](pl_google.pl) | [google.pl](pl_google.pl.json) | √ |
+| .pl | [nazwa.pl](pl_nazwa.pl) | [nazwa.pl](pl_nazwa.pl.json) | √ |
 | .pm | [git.pm](pm_git.pm) | [git.pm](pm_git.pm.json) | √ |
 | .pm | [google.pm](pm_google.pm) | [google.pm](pm_google.pm.json) | √ |
 | .pro | [github.pro](pro_github.pro) | [github.pro](pro_github.pro.json) | √ |
