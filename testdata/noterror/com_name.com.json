@@ -24,8 +24,11 @@
             "eur2.akam.net"
         ],
         "created_date": "1995-01-03T05:00:00Z",
+        "created_date_parsed": "1995-01-03T05:00:00Z",
         "updated_date": "2014-04-18T17:04:21Z",
-        "expiration_date": "2019-11-04T00:00:00Z"
+        "updated_date_parsed": "2014-04-18T17:04:21Z",
+        "expiration_date": "2019-11-04T00:00:00Z",
+        "expiration_date_parsed": "2019-11-04T00:00:00Z"
     },
     "registrar": {
         "id": "625",

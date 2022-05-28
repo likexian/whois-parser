@@ -19,7 +19,9 @@
             "ns5.linode.com"
         ],
         "created_date": "2013-03-26T19:00:20Z",
-        "expiration_date": "2020-03-26T20:00:20Z"
+        "created_date_parsed": "2013-03-26T19:00:20Z",
+        "expiration_date": "2020-03-26T20:00:20Z",
+        "expiration_date_parsed": "2020-03-26T20:00:20Z"
     },
     "registrar": {
         "name": "DOMENUS-SU"

@@ -20,8 +20,11 @@
             "dns6.gandi.net"
         ],
         "created_date": "1999-05-21T10:09:21Z",
+        "created_date_parsed": "1999-05-21T10:09:21Z",
         "updated_date": "2019-02-07T09:22:28Z",
-        "expiration_date": "2025-05-21T14:09:56Z"
+        "updated_date_parsed": "2019-02-07T09:22:28Z",
+        "expiration_date": "2025-05-21T14:09:56Z",
+        "expiration_date_parsed": "2025-05-21T14:09:56Z"
     },
     "registrar": {
         "id": "81",

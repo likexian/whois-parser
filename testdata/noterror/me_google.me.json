@@ -20,8 +20,11 @@
             "ns3.google.com"
         ],
         "created_date": "2008-06-13T17:17:40Z",
+        "created_date_parsed": "2008-06-13T17:17:40Z",
         "updated_date": "2019-05-12T09:35:12Z",
-        "expiration_date": "2020-06-13T17:17:40Z"
+        "updated_date_parsed": "2019-05-12T09:35:12Z",
+        "expiration_date": "2020-06-13T17:17:40Z",
+        "expiration_date_parsed": "2020-06-13T17:17:40Z"
     },
     "registrar": {
         "id": "292",

@@ -15,8 +15,11 @@
             "dns3.ipmanagerinc.net"
         ],
         "created_date": "2001-07-31T21:14:42Z",
+        "created_date_parsed": "2001-07-31T21:14:42Z",
         "updated_date": "2019-09-20T00:17:40Z",
-        "expiration_date": "2020-07-31T21:14:42Z"
+        "updated_date_parsed": "2019-09-20T00:17:40Z",
+        "expiration_date": "2020-07-31T21:14:42Z",
+        "expiration_date_parsed": "2020-07-31T21:14:42Z"
     },
     "registrar": {
         "id": "151",

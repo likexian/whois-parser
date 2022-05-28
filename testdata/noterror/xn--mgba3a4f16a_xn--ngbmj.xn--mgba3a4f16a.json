@@ -9,7 +9,9 @@
             "ns2.telematics.ir"
         ],
         "updated_date": "2018-04-29",
-        "expiration_date": "2023-05-11"
+        "updated_date_parsed": "2018-04-29T00:00:00Z",
+        "expiration_date": "2023-05-11",
+        "expiration_date_parsed": "2023-05-11T00:00:00Z"
     },
     "registrant": {
         "id": "ya88-irnic",

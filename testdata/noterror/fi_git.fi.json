@@ -14,8 +14,10 @@
             "ns-1849.awsdns-39.co.uk"
         ],
         "created_date": "15.12.2015 09:48:01",
+        "created_date_parsed": "2015-12-15T09:48:01Z",
         "updated_date": "19.2.2019",
-        "expiration_date": "15.12.2020 09:37:54"
+        "expiration_date": "15.12.2020 09:37:54",
+        "expiration_date_parsed": "2020-12-15T09:37:54Z"
     },
     "registrar": {
         "name": "Gandi SAS",

@@ -9,7 +9,9 @@
             "ns2.git.ir"
         ],
         "updated_date": "2019-03-06",
-        "expiration_date": "2023-10-16"
+        "updated_date_parsed": "2019-03-06T00:00:00Z",
+        "expiration_date": "2023-10-16",
+        "expiration_date_parsed": "2023-10-16T00:00:00Z"
     },
     "registrant": {
         "id": "as10780-irnic",

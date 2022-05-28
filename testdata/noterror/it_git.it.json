@@ -12,8 +12,11 @@
             "ns2.parkingcrew.net"
         ],
         "created_date": "2018-08-28 09:00:00",
+        "created_date_parsed": "2018-08-28T09:00:00Z",
         "updated_date": "2019-09-13 00:43:43",
-        "expiration_date": "2020-08-28"
+        "updated_date_parsed": "2019-09-13T00:43:43Z",
+        "expiration_date": "2020-08-28",
+        "expiration_date_parsed": "2020-08-28T00:00:00Z"
     },
     "registrar": {
         "name": "AM-REG",

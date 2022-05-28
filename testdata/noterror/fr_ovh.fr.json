@@ -14,8 +14,11 @@
             "ns10.ovh.net"
         ],
         "created_date": "1999-11-11T23:00:00Z",
+        "created_date_parsed": "1999-11-11T23:00:00Z",
         "updated_date": "2019-04-18T12:14:43Z",
-        "expiration_date": "2019-11-11T23:00:00Z"
+        "updated_date_parsed": "2019-04-18T12:14:43Z",
+        "expiration_date": "2019-11-11T23:00:00Z",
+        "expiration_date_parsed": "2019-11-11T23:00:00Z"
     },
     "registrar": {
         "name": "OVH",

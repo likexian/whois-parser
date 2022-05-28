@@ -13,8 +13,11 @@
             "ns2.random.sh"
         ],
         "created_date": "2015-02-23T09:43:27Z",
+        "created_date_parsed": "2015-02-23T09:43:27Z",
         "updated_date": "2019-01-23T08:01:40Z",
-        "expiration_date": "2020-02-23T09:43:27Z"
+        "updated_date_parsed": "2019-01-23T08:01:40Z",
+        "expiration_date": "2020-02-23T09:43:27Z",
+        "expiration_date_parsed": "2020-02-23T09:43:27Z"
     },
     "registrar": {
         "name": "GANDI",

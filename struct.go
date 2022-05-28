@@ -19,6 +19,8 @@
 
 package whoisparser
 
+import "time"
+
 // WhoisInfo storing domain whois info
 type WhoisInfo struct {
 	Domain         *Domain  `json:"domain,omitempty"`
@@ -31,18 +33,21 @@ type WhoisInfo struct {
 
 // Domain storing domain name info
 type Domain struct {
-	ID             string   `json:"id,omitempty"`
-	Domain         string   `json:"domain,omitempty"`
-	Punycode       string   `json:"punycode,omitempty"`
-	Name           string   `json:"name,omitempty"`
-	Extension      string   `json:"extension,omitempty"`
-	WhoisServer    string   `json:"whois_server,omitempty"`
-	Status         []string `json:"status,omitempty"`
-	NameServers    []string `json:"name_servers,omitempty"`
-	DNSSec         bool     `json:"dnssec,omitempty"`
-	CreatedDate    string   `json:"created_date,omitempty"`
-	UpdatedDate    string   `json:"updated_date,omitempty"`
-	ExpirationDate string   `json:"expiration_date,omitempty"`
+	ID                   string     `json:"id,omitempty"`
+	Domain               string     `json:"domain,omitempty"`
+	Punycode             string     `json:"punycode,omitempty"`
+	Name                 string     `json:"name,omitempty"`
+	Extension            string     `json:"extension,omitempty"`
+	WhoisServer          string     `json:"whois_server,omitempty"`
+	Status               []string   `json:"status,omitempty"`
+	NameServers          []string   `json:"name_servers,omitempty"`
+	DNSSec               bool       `json:"dnssec,omitempty"`
+	CreatedDate          string     `json:"created_date,omitempty"`
+	CreatedDateParsed    *time.Time `json:"created_date_parsed,omitempty"`
+	UpdatedDate          string     `json:"updated_date,omitempty"`
+	UpdatedDateParsed    *time.Time `json:"updated_date_parsed,omitempty"`
+	ExpirationDate       string     `json:"expiration_date,omitempty"`
+	ExpirationDateParsed *time.Time `json:"expiration_date_parsed,omitempty"`
 }
 
 // Contact storing domain contact info

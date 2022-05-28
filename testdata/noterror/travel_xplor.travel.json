@@ -15,8 +15,11 @@
             "ns-1661.awsdns-15.co.uk"
         ],
         "created_date": "2008-06-04T05:15:38Z",
+        "created_date_parsed": "2008-06-04T05:15:38Z",
         "updated_date": "2019-10-01T22:38:39Z",
-        "expiration_date": "2020-06-03T23:59:59Z"
+        "updated_date_parsed": "2019-10-01T22:38:39Z",
+        "expiration_date": "2020-06-03T23:59:59Z",
+        "expiration_date_parsed": "2020-06-03T23:59:59Z"
     },
     "registrar": {
         "id": "455",

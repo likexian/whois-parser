@@ -11,7 +11,9 @@
             "ns4.googledomains.com"
         ],
         "updated_date": "2019-11-07",
-        "expiration_date": "2020-12-22"
+        "updated_date_parsed": "2019-11-07T00:00:00Z",
+        "expiration_date": "2020-12-22",
+        "expiration_date_parsed": "2020-12-22T00:00:00Z"
     },
     "registrant": {
         "id": "go438-irnic",

@@ -16,8 +16,11 @@
             "ns4.p20.dynect.net"
         ],
         "created_date": "2015-02-26T13:19:20Z",
+        "created_date_parsed": "2015-02-26T13:19:20Z",
         "updated_date": "2019-03-05T07:41:41Z",
-        "expiration_date": "2020-02-26T13:19:20Z"
+        "updated_date_parsed": "2019-03-05T07:41:41Z",
+        "expiration_date": "2020-02-26T13:19:20Z",
+        "expiration_date_parsed": "2020-02-26T13:19:20Z"
     },
     "registrar": {
         "id": "269",

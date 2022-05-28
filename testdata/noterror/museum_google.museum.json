@@ -16,8 +16,11 @@
             "ns5.inwx.net"
         ],
         "created_date": "2019-05-02T09:18:21Z",
+        "created_date_parsed": "2019-05-02T09:18:21Z",
         "updated_date": "2019-05-02T09:18:25Z",
-        "expiration_date": "2020-05-02T09:18:22Z"
+        "updated_date_parsed": "2019-05-02T09:18:25Z",
+        "expiration_date": "2020-05-02T09:18:22Z",
+        "expiration_date_parsed": "2020-05-02T09:18:22Z"
     },
     "registrar": {
         "id": "1420",

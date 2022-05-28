@@ -17,8 +17,11 @@
             "dns2.stabletransit.com"
         ],
         "created_date": "2010-07-21T21:16:03Z",
+        "created_date_parsed": "2010-07-21T21:16:03Z",
         "updated_date": "2019-07-21T12:37:14Z",
-        "expiration_date": "2020-07-20T23:59:59Z"
+        "updated_date_parsed": "2019-07-21T12:37:14Z",
+        "expiration_date": "2020-07-20T23:59:59Z",
+        "expiration_date_parsed": "2020-07-20T23:59:59Z"
     },
     "registrar": {
         "id": "146",

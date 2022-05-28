@@ -11,7 +11,9 @@
             "ns04.freenom.com"
         ],
         "created_date": "11/29/2016",
-        "expiration_date": "01/03/2022"
+        "created_date_parsed": "2016-11-29T00:00:00Z",
+        "expiration_date": "01/03/2022",
+        "expiration_date_parsed": "2022-03-01T00:00:00Z"
     },
     "registrant": {
         "name": "Korol",

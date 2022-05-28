@@ -12,7 +12,9 @@
             "b.ns.ro"
         ],
         "created_date": "2019-01-04",
-        "expiration_date": "2020-01-04"
+        "created_date_parsed": "2019-01-04T00:00:00Z",
+        "expiration_date": "2020-01-04",
+        "expiration_date_parsed": "2020-01-04T00:00:00Z"
     },
     "registrar": {
         "name": "NShost SRL",

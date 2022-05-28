@@ -19,8 +19,11 @@
             "ns-1139.awsdns-14.org"
         ],
         "created_date": "2014-09-19T16:12:13Z",
+        "created_date_parsed": "2014-09-19T16:12:13Z",
         "updated_date": "2019-09-24T16:34:14Z",
-        "expiration_date": "2020-09-19T16:12:13Z"
+        "updated_date_parsed": "2019-09-24T16:34:14Z",
+        "expiration_date": "2020-09-19T16:12:13Z",
+        "expiration_date_parsed": "2020-09-19T16:12:13Z"
     },
     "registrar": {
         "id": "146",

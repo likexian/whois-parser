@@ -12,8 +12,11 @@
             "dns104.ovh.net"
         ],
         "created_date": "1999-12-22T23:00:00Z",
+        "created_date_parsed": "1999-12-22T23:00:00Z",
         "updated_date": "2019-05-05T08:38:28Z",
-        "expiration_date": "2020-05-05T08:07:09Z"
+        "updated_date_parsed": "2019-05-05T08:38:28Z",
+        "expiration_date": "2020-05-05T08:07:09Z",
+        "expiration_date_parsed": "2020-05-05T08:07:09Z"
     },
     "registrar": {
         "name": "OVH",

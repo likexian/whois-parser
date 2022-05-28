@@ -9,8 +9,11 @@
             "ns2.unm.edu"
         ],
         "created_date": "27-Aug-1986",
+        "created_date_parsed": "1986-08-27T00:00:00Z",
         "updated_date": "13-Aug-2020",
-        "expiration_date": "31-Jul-2023"
+        "updated_date_parsed": "2020-08-13T00:00:00Z",
+        "expiration_date": "31-Jul-2023",
+        "expiration_date_parsed": "2023-07-31T00:00:00Z"
     },
     "registrant": {
         "organization": "University of New Mexico",

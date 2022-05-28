@@ -8,7 +8,9 @@
             "b.nic.ir"
         ],
         "updated_date": "2020-06-24",
-        "expiration_date": "2024-10-06"
+        "updated_date_parsed": "2020-06-24T00:00:00Z",
+        "expiration_date": "2024-10-06",
+        "expiration_date_parsed": "2024-10-06T00:00:00Z"
     },
     "registrant": {
         "id": "ir00-irnic",

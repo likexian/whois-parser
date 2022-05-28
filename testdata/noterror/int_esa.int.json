@@ -13,7 +13,9 @@
             "dns6.esa.int"
         ],
         "created_date": "1996-08-23",
-        "updated_date": "2009-03-19"
+        "created_date_parsed": "1996-08-23T00:00:00Z",
+        "updated_date": "2009-03-19",
+        "updated_date_parsed": "2009-03-19T00:00:00Z"
     },
     "registrant": {
         "organization": "European Space Agency (ESA)",

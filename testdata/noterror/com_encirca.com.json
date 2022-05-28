@@ -15,8 +15,11 @@
             "dns4.encirca.com"
         ],
         "created_date": "1999-03-21T00:00:00Z",
+        "created_date_parsed": "1999-03-21T00:00:00Z",
         "updated_date": "2019-03-19T20:31:55Z",
-        "expiration_date": "2022-03-22T04:00:00Z"
+        "updated_date_parsed": "2019-03-19T20:31:55Z",
+        "expiration_date": "2022-03-22T04:00:00Z",
+        "expiration_date_parsed": "2022-03-22T04:00:00Z"
     },
     "registrar": {
         "id": "455",

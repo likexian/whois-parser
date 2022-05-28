@@ -14,7 +14,9 @@
             "ns8.nic.ru"
         ],
         "created_date": "2005-10-15T20:00:00Z",
-        "expiration_date": "2019-10-15T21:00:00Z"
+        "created_date_parsed": "2005-10-15T20:00:00Z",
+        "expiration_date": "2019-10-15T21:00:00Z",
+        "expiration_date_parsed": "2019-10-15T21:00:00Z"
     },
     "registrar": {
         "name": "RUCENTER-SU"

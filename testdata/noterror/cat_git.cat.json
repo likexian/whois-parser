@@ -14,8 +14,11 @@
             "ns2.smartgslb.com"
         ],
         "created_date": "2018-11-17T16:11:05Z",
+        "created_date_parsed": "2018-11-17T16:11:05Z",
         "updated_date": "2019-09-18T15:20:27Z",
-        "expiration_date": "2019-11-17T16:11:05Z"
+        "updated_date_parsed": "2019-09-18T15:20:27Z",
+        "expiration_date": "2019-11-17T16:11:05Z",
+        "expiration_date_parsed": "2019-11-17T16:11:05Z"
     },
     "registrar": {
         "id": "81",

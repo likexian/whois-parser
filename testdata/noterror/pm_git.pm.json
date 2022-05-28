@@ -12,8 +12,11 @@
             "ns2.srna.sk"
         ],
         "created_date": "2013-07-18T16:17:05Z",
+        "created_date_parsed": "2013-07-18T16:17:05Z",
         "updated_date": "2019-06-12T07:35:08Z",
-        "expiration_date": "2020-07-18T16:17:05Z"
+        "updated_date_parsed": "2019-06-12T07:35:08Z",
+        "expiration_date": "2020-07-18T16:17:05Z",
+        "expiration_date_parsed": "2020-07-18T16:17:05Z"
     },
     "registrar": {
         "name": "GRANSY s.r.o.",

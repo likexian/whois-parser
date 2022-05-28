@@ -17,8 +17,11 @@
             "ns4.google.com"
         ],
         "created_date": "2005-10-03T14:16:24Z",
+        "created_date_parsed": "2005-10-03T14:16:24Z",
         "updated_date": "2019-09-04T12:23:16Z",
-        "expiration_date": "2020-10-02T23:59:59Z"
+        "updated_date_parsed": "2019-09-04T12:23:16Z",
+        "expiration_date": "2020-10-02T23:59:59Z",
+        "expiration_date_parsed": "2020-10-02T23:59:59Z"
     },
     "registrar": {
         "id": "292",

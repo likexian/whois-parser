@@ -12,8 +12,11 @@
             "drdns2.cit.cornell.edu"
         ],
         "created_date": "15-Jul-1985",
+        "created_date_parsed": "1985-07-15T00:00:00Z",
         "updated_date": "30-Jun-2020",
-        "expiration_date": "31-Jul-2022"
+        "updated_date_parsed": "2020-06-30T00:00:00Z",
+        "expiration_date": "31-Jul-2022",
+        "expiration_date_parsed": "2022-07-31T00:00:00Z"
     },
     "registrant": {
         "organization": "Cornell University",

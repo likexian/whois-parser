@@ -14,8 +14,10 @@
             "ns2.google.com"
         ],
         "created_date": "30.6.2006 00:00:00",
+        "created_date_parsed": "2006-06-30T00:00:00Z",
         "updated_date": "2.6.2019",
-        "expiration_date": "4.7.2020 10:15:55"
+        "expiration_date": "4.7.2020 10:15:55",
+        "expiration_date_parsed": "2020-07-04T10:15:55Z"
     },
     "registrar": {
         "name": "MarkMonitor Inc.",

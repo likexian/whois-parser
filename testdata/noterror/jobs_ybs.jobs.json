@@ -14,8 +14,11 @@
             "ns1.ukfast.co.uk"
         ],
         "created_date": "2008-11-13T12:41:59Z",
+        "created_date_parsed": "2008-11-13T12:41:59Z",
         "updated_date": "2018-01-27T12:16:12Z",
-        "expiration_date": "2019-11-13T12:41:59Z"
+        "updated_date_parsed": "2018-01-27T12:16:12Z",
+        "expiration_date": "2019-11-13T12:41:59Z",
+        "expiration_date_parsed": "2019-11-13T12:41:59Z"
     },
     "registrar": {
         "id": "85",

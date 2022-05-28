@@ -16,7 +16,9 @@
             "ns4.google.com"
         ],
         "created_date": "2000-08-29 10:22:50 (UTC+8)",
-        "expiration_date": "2021-11-09 00:00:00 (UTC+8)"
+        "created_date_parsed": "2000-08-29T08:22:50Z",
+        "expiration_date": "2021-11-09 00:00:00 (UTC+8)",
+        "expiration_date_parsed": "2021-11-09T08:00:00Z"
     },
     "registrar": {
         "name": "Markmonitor, Inc.",

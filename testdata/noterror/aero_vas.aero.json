@@ -13,8 +13,11 @@
             "ns1.jax.peak-10.com"
         ],
         "created_date": "2010-07-07T19:23:48Z",
+        "created_date_parsed": "2010-07-07T19:23:48Z",
         "updated_date": "2018-06-29T00:13:29Z",
-        "expiration_date": "2021-07-07T19:23:48Z"
+        "updated_date_parsed": "2018-06-29T00:13:29Z",
+        "expiration_date": "2021-07-07T19:23:48Z",
+        "expiration_date_parsed": "2021-07-07T19:23:48Z"
     },
     "registrar": {
         "id": "1011",
