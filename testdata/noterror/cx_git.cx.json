@@ -15,11 +15,11 @@
             "ns100.ovh.net"
         ],
         "created_date": "2012-01-26T05:49:44.787Z",
-        "created_date_parsed": "2012-01-26T05:49:44.787Z",
+        "created_date_in_time": "2012-01-26T05:49:44.787Z",
         "updated_date": "2019-01-01T18:14:16.77Z",
-        "updated_date_parsed": "2019-01-01T18:14:16.77Z",
+        "updated_date_in_time": "2019-01-01T18:14:16.77Z",
         "expiration_date": "2020-01-26T05:52:26.85Z",
-        "expiration_date_parsed": "2020-01-26T05:52:26.85Z"
+        "expiration_date_in_time": "2020-01-26T05:52:26.85Z"
     },
     "registrar": {
         "id": "433",

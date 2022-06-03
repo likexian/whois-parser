@@ -18,11 +18,11 @@
             "ns2.zdns.google"
         ],
         "created_date": "2017-12-16T05:37:20.801Z",
-        "created_date_parsed": "2017-12-16T05:37:20.801Z",
+        "created_date_in_time": "2017-12-16T05:37:20.801Z",
         "updated_date": "2019-08-24T09:32:27.549Z",
-        "updated_date_parsed": "2019-08-24T09:32:27.549Z",
+        "updated_date_in_time": "2019-08-24T09:32:27.549Z",
         "expiration_date": "2021-09-25T05:37:20.856Z",
-        "expiration_date_parsed": "2021-09-25T05:37:20.856Z"
+        "expiration_date_in_time": "2021-09-25T05:37:20.856Z"
     },
     "registrar": {
         "name": "Markmonitor",

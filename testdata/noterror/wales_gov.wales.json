@@ -15,11 +15,11 @@
             "ns2.ja.net"
         ],
         "created_date": "2015-01-14T13:49:09Z",
-        "created_date_parsed": "2015-01-14T13:49:09Z",
+        "created_date_in_time": "2015-01-14T13:49:09Z",
         "updated_date": "2019-10-01T10:07:25Z",
-        "updated_date_parsed": "2019-10-01T10:07:25Z",
+        "updated_date_in_time": "2019-10-01T10:07:25Z",
         "expiration_date": "2020-01-14T13:49:09Z",
-        "expiration_date_parsed": "2020-01-14T13:49:09Z"
+        "expiration_date_in_time": "2020-01-14T13:49:09Z"
     },
     "registrar": {
         "id": "1345",

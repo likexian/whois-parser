@@ -12,11 +12,11 @@
             "ns2.paukhost.com"
         ],
         "created_date": "28.11.2018 22:06:38",
-        "created_date_parsed": "2018-11-28T22:06:38Z",
+        "created_date_in_time": "2018-11-28T22:06:38Z",
         "updated_date": "01.11.2019 14:23:58",
-        "updated_date_parsed": "2019-11-01T14:23:58Z",
+        "updated_date_in_time": "2019-11-01T14:23:58Z",
         "expiration_date": "28.11.2020 22:06:38",
-        "expiration_date_parsed": "2020-11-28T22:06:38Z"
+        "expiration_date_in_time": "2020-11-28T22:06:38Z"
     },
     "registrar": {
         "name": "Stanco d.o.o."

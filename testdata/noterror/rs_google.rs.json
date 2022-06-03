@@ -15,11 +15,11 @@
             "ns4.google.com"
         ],
         "created_date": "10.03.2008 12:31:19",
-        "created_date_parsed": "2008-03-10T12:31:19Z",
+        "created_date_in_time": "2008-03-10T12:31:19Z",
         "updated_date": "07.02.2020 18:38:00",
-        "updated_date_parsed": "2020-02-07T18:38:00Z",
+        "updated_date_in_time": "2020-02-07T18:38:00Z",
         "expiration_date": "10.03.2021 12:31:19",
-        "expiration_date_parsed": "2021-03-10T12:31:19Z"
+        "expiration_date_in_time": "2021-03-10T12:31:19Z"
     },
     "registrar": {
         "name": "NINET Company d.o.o."

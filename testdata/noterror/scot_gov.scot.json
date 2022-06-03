@@ -18,11 +18,11 @@
             "ns0.ja.net"
         ],
         "created_date": "2015-01-07T09:26:57.553Z",
-        "created_date_parsed": "2015-01-07T09:26:57.553Z",
+        "created_date_in_time": "2015-01-07T09:26:57.553Z",
         "updated_date": "2019-09-29T08:12:11.484Z",
-        "updated_date_parsed": "2019-09-29T08:12:11.484Z",
+        "updated_date_in_time": "2019-09-29T08:12:11.484Z",
         "expiration_date": "2021-01-07T09:26:57.553Z",
-        "expiration_date_parsed": "2021-01-07T09:26:57.553Z"
+        "expiration_date_in_time": "2021-01-07T09:26:57.553Z"
     },
     "registrar": {
         "id": "1488",

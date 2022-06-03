@@ -9,11 +9,11 @@
             "ns2.google.com"
         ],
         "created_date": "2007. 03. 02.",
-        "created_date_parsed": "2007-03-02T00:00:00Z",
+        "created_date_in_time": "2007-03-02T00:00:00Z",
         "updated_date": "2010. 10. 04.",
-        "updated_date_parsed": "2010-10-04T00:00:00Z",
+        "updated_date_in_time": "2010-10-04T00:00:00Z",
         "expiration_date": "2020. 03. 02.",
-        "expiration_date_parsed": "2020-03-02T00:00:00Z"
+        "expiration_date_in_time": "2020-03-02T00:00:00Z"
     },
     "registrar": {
         "name": "Whois Corp.(http://whois.co.kr)"

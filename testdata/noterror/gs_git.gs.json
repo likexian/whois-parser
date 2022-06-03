@@ -17,11 +17,11 @@
             "ns5.linode.com"
         ],
         "created_date": "2013-04-19T12:25:43.248Z",
-        "created_date_parsed": "2013-04-19T12:25:43.248Z",
+        "created_date_in_time": "2013-04-19T12:25:43.248Z",
         "updated_date": "2019-03-28T17:14:27.619Z",
-        "updated_date_parsed": "2019-03-28T17:14:27.619Z",
+        "updated_date_in_time": "2019-03-28T17:14:27.619Z",
         "expiration_date": "2020-04-19T12:25:43.504Z",
-        "expiration_date_parsed": "2020-04-19T12:25:43.504Z"
+        "expiration_date_in_time": "2020-04-19T12:25:43.504Z"
     },
     "registrar": {
         "name": "Name.com LLC",

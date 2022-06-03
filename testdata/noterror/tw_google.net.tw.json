@@ -12,9 +12,9 @@
             "ns2.afraid.org"
         ],
         "created_date": "2010-08-13 23:16:40 (UTC+8)",
-        "created_date_parsed": "2010-08-13T08:16:40Z",
+        "created_date_in_time": "2010-08-13T08:16:40Z",
         "expiration_date": "2021-08-13 00:00:00 (UTC+8)",
-        "expiration_date_parsed": "2021-08-13T08:00:00Z"
+        "expiration_date_in_time": "2021-08-13T08:00:00Z"
     },
     "registrar": {
         "name": "NET-CHINESE",

@@ -16,11 +16,11 @@
             "ns4.dnsimple.com"
         ],
         "created_date": "2008-02-09T02:07:00.00Z",
-        "created_date_parsed": "2008-02-09T02:07:00Z",
+        "created_date_in_time": "2008-02-09T02:07:00Z",
         "updated_date": "2019-01-11T08:26:28.00Z",
-        "updated_date_parsed": "2019-01-11T08:26:28Z",
+        "updated_date_in_time": "2019-01-11T08:26:28Z",
         "expiration_date": "2020-02-09T02:07:00.00Z",
-        "expiration_date_parsed": "2020-02-09T02:07:00Z"
+        "expiration_date_in_time": "2020-02-09T02:07:00Z"
     },
     "registrar": {
         "id": "48",

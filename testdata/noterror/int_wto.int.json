@@ -9,9 +9,9 @@
             "ns1.gva.ch.colt.net"
         ],
         "created_date": "2001-09-10",
-        "created_date_parsed": "2001-09-10T00:00:00Z",
+        "created_date_in_time": "2001-09-10T00:00:00Z",
         "updated_date": "2019-02-21",
-        "updated_date_parsed": "2019-02-21T00:00:00Z"
+        "updated_date_in_time": "2019-02-21T00:00:00Z"
     },
     "registrant": {
         "organization": "World Trade Organization",

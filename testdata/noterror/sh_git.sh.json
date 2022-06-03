@@ -13,11 +13,11 @@
             "ns2.ezdnscenter.com"
         ],
         "created_date": "2009-04-13T05:16:13Z",
-        "created_date_parsed": "2009-04-13T05:16:13Z",
+        "created_date_in_time": "2009-04-13T05:16:13Z",
         "updated_date": "2019-04-13T22:28:39Z",
-        "updated_date_parsed": "2019-04-13T22:28:39Z",
+        "updated_date_in_time": "2019-04-13T22:28:39Z",
         "expiration_date": "2020-04-13T05:16:13Z",
-        "expiration_date_parsed": "2020-04-13T05:16:13Z"
+        "expiration_date_in_time": "2020-04-13T05:16:13Z"
     },
     "registrar": {
         "id": "1868",

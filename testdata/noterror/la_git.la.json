@@ -13,11 +13,11 @@
             "ivy.ns.cloudflare.com"
         ],
         "created_date": "2008-11-27T08:14:56.0Z",
-        "created_date_parsed": "2008-11-27T08:14:56Z",
+        "created_date_in_time": "2008-11-27T08:14:56Z",
         "updated_date": "2019-03-27T04:42:11.0Z",
-        "updated_date_parsed": "2019-03-27T04:42:11Z",
+        "updated_date_in_time": "2019-03-27T04:42:11Z",
         "expiration_date": "2019-11-27T23:59:59.0Z",
-        "expiration_date_parsed": "2019-11-27T23:59:59Z"
+        "expiration_date_in_time": "2019-11-27T23:59:59Z"
     },
     "registrar": {
         "name": "Name.com LLC",

@@ -15,9 +15,9 @@
             "ns-tld5.charlestonroadregistry.com"
         ],
         "created_date": "2014-09-04",
-        "created_date_parsed": "2014-09-04T00:00:00Z",
+        "created_date_in_time": "2014-09-04T00:00:00Z",
         "updated_date": "2019-07-02",
-        "updated_date_parsed": "2019-07-02T00:00:00Z"
+        "updated_date_in_time": "2019-07-02T00:00:00Z"
     },
     "registrant": {
         "organization": "Charleston Road Registry Inc.",

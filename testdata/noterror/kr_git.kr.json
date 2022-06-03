@@ -12,11 +12,11 @@
             "ns2.parkingcrew.net"
         ],
         "created_date": "2012. 05. 19.",
-        "created_date_parsed": "2012-05-19T00:00:00Z",
+        "created_date_in_time": "2012-05-19T00:00:00Z",
         "updated_date": "2017. 10. 17.",
-        "updated_date_parsed": "2017-10-17T00:00:00Z",
+        "updated_date_in_time": "2017-10-17T00:00:00Z",
         "expiration_date": "2020. 05. 19.",
-        "expiration_date_parsed": "2020-05-19T00:00:00Z"
+        "expiration_date_in_time": "2020-05-19T00:00:00Z"
     },
     "registrar": {
         "name": "Megazone(http://HOSTING.KR)"

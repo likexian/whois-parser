@@ -16,11 +16,11 @@
             "ns4.eurodns.com"
         ],
         "created_date": "2013-05-16T22:38:13Z",
-        "created_date_parsed": "2013-05-16T22:38:13Z",
+        "created_date_in_time": "2013-05-16T22:38:13Z",
         "updated_date": "2019-10-04T20:56:58Z",
-        "updated_date_parsed": "2019-10-04T20:56:58Z",
+        "updated_date_in_time": "2019-10-04T20:56:58Z",
         "expiration_date": "2021-05-16T22:38:13Z",
-        "expiration_date_parsed": "2021-05-16T22:38:13Z"
+        "expiration_date_in_time": "2021-05-16T22:38:13Z"
     },
     "registrar": {
         "id": "1052",

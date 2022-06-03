@@ -12,9 +12,9 @@
             "ns50.cx901.com"
         ],
         "created_date": "2017-01-14 19:27:47 (UTC+8)",
-        "created_date_parsed": "2017-01-14T08:27:47Z",
+        "created_date_in_time": "2017-01-14T08:27:47Z",
         "expiration_date": "2022-01-14 00:00:00 (UTC+8)",
-        "expiration_date_parsed": "2022-01-14T08:00:00Z"
+        "expiration_date_in_time": "2022-01-14T08:00:00Z"
     },
     "registrar": {
         "name": "HINET",

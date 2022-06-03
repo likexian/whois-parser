@@ -43,11 +43,11 @@ type Domain struct {
 	NameServers          []string   `json:"name_servers,omitempty"`
 	DNSSec               bool       `json:"dnssec,omitempty"`
 	CreatedDate          string     `json:"created_date,omitempty"`
-	CreatedDateParsed    *time.Time `json:"created_date_parsed,omitempty"`
+	CreatedDateInTime    *time.Time `json:"created_date_in_time,omitempty"`
 	UpdatedDate          string     `json:"updated_date,omitempty"`
-	UpdatedDateParsed    *time.Time `json:"updated_date_parsed,omitempty"`
+	UpdatedDateInTime    *time.Time `json:"updated_date_in_time,omitempty"`
 	ExpirationDate       string     `json:"expiration_date,omitempty"`
-	ExpirationDateParsed *time.Time `json:"expiration_date_parsed,omitempty"`
+	ExpirationDateInTime *time.Time `json:"expiration_date_in_time,omitempty"`
 }
 
 // Contact storing domain contact info

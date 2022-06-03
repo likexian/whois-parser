@@ -17,11 +17,11 @@
             "ns5.he.net"
         ],
         "created_date": "1995-07-31T04:00:00Z",
-        "created_date_parsed": "1995-07-31T04:00:00Z",
+        "created_date_in_time": "1995-07-31T04:00:00Z",
         "updated_date": "2019-07-30T19:17:40Z",
-        "updated_date_parsed": "2019-07-30T19:17:40Z",
+        "updated_date_in_time": "2019-07-30T19:17:40Z",
         "expiration_date": "2029-07-30T04:00:00Z",
-        "expiration_date_parsed": "2029-07-30T04:00:00Z"
+        "expiration_date_in_time": "2029-07-30T04:00:00Z"
     },
     "registrar": {
         "id": "2",

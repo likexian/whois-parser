@@ -21,11 +21,11 @@
             "ns2.google.com"
         ],
         "created_date": "2010-07-29T18:15:42.56Z",
-        "created_date_parsed": "2010-07-29T18:15:42.56Z",
+        "created_date_in_time": "2010-07-29T18:15:42.56Z",
         "updated_date": "2019-06-27T09:31:23.513Z",
-        "updated_date_parsed": "2019-06-27T09:31:23.513Z",
+        "updated_date_in_time": "2019-06-27T09:31:23.513Z",
         "expiration_date": "2020-07-29T18:15:42.158Z",
-        "expiration_date_parsed": "2020-07-29T18:15:42.158Z"
+        "expiration_date_in_time": "2020-07-29T18:15:42.158Z"
     },
     "registrar": {
         "name": "MarkMonitor",

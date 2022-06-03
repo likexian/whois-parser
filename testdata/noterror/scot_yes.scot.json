@@ -16,11 +16,11 @@
             "ns-1938.awsdns-50.co.uk"
         ],
         "created_date": "2014-07-15T12:05:57.342Z",
-        "created_date_parsed": "2014-07-15T12:05:57.342Z",
+        "created_date_in_time": "2014-07-15T12:05:57.342Z",
         "updated_date": "2019-08-29T12:08:46.864Z",
-        "updated_date_parsed": "2019-08-29T12:08:46.864Z",
+        "updated_date_in_time": "2019-08-29T12:08:46.864Z",
         "expiration_date": "2020-07-15T12:05:57.342Z",
-        "expiration_date_parsed": "2020-07-15T12:05:57.342Z"
+        "expiration_date_in_time": "2020-07-15T12:05:57.342Z"
     },
     "registrar": {
         "id": "15",

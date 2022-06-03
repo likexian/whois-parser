@@ -14,9 +14,9 @@
             "ns4.dns.com"
         ],
         "created_date": "2004-08-08 22:27:10",
-        "created_date_parsed": "2004-08-08T22:27:10Z",
+        "created_date_in_time": "2004-08-08T22:27:10Z",
         "expiration_date": "2021-08-08 22:27:10",
-        "expiration_date_parsed": "2021-08-08T22:27:10Z"
+        "expiration_date_in_time": "2021-08-08T22:27:10Z"
     },
     "registrar": {
         "name": "厦门易名科技股份有限公司"

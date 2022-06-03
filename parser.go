@@ -126,21 +126,21 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 			if domain.CreatedDate == "" {
 				domain.CreatedDate = value
 				if parsed, err := parseDateString(value); err == nil {
-					domain.CreatedDateParsed = &parsed
+					domain.CreatedDateInTime = &parsed
 				}
 			}
 		case "updated_date":
 			if domain.UpdatedDate == "" {
 				domain.UpdatedDate = value
 				if parsed, err := parseDateString(value); err == nil {
-					domain.UpdatedDateParsed = &parsed
+					domain.UpdatedDateInTime = &parsed
 				}
 			}
 		case "expired_date":
 			if domain.ExpirationDate == "" {
 				domain.ExpirationDate = value
 				if parsed, err := parseDateString(value); err == nil {
-					domain.ExpirationDateParsed = &parsed
+					domain.ExpirationDateInTime = &parsed
 				}
 			}
 		case "referral_url":

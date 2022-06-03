@@ -9,9 +9,9 @@
             "art.ns.cloudflare.com"
         ],
         "created_date": "2005-04-15 21:43:27",
-        "created_date_parsed": "2005-04-15T21:43:27Z",
+        "created_date_in_time": "2005-04-15T21:43:27Z",
         "expiration_date": "2020-11-02",
-        "expiration_date_parsed": "2020-11-02T00:00:00Z"
+        "expiration_date_in_time": "2020-11-02T00:00:00Z"
     },
     "registrant": {
         "name": "George Shew",

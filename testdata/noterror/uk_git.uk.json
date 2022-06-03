@@ -12,11 +12,11 @@
             "ns2.123-reg.co.uk"
         ],
         "created_date": "22-Oct-2017",
-        "created_date_parsed": "2017-10-22T00:00:00Z",
+        "created_date_in_time": "2017-10-22T00:00:00Z",
         "updated_date": "29-Jun-2019",
-        "updated_date_parsed": "2019-06-29T00:00:00Z",
+        "updated_date_in_time": "2019-06-29T00:00:00Z",
         "expiration_date": "22-Oct-2019",
-        "expiration_date_parsed": "2019-10-22T00:00:00Z"
+        "expiration_date_in_time": "2019-10-22T00:00:00Z"
     },
     "registrar": {
         "name": "123-Reg Limited t/a 123-reg [Tag = 123-REG]",

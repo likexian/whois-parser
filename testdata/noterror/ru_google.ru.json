@@ -16,9 +16,9 @@
             "ns4.google.com"
         ],
         "created_date": "2004-03-03T21:00:00Z",
-        "created_date_parsed": "2004-03-03T21:00:00Z",
+        "created_date_in_time": "2004-03-03T21:00:00Z",
         "expiration_date": "2020-03-04T21:00:00Z",
-        "expiration_date_parsed": "2020-03-04T21:00:00Z"
+        "expiration_date_in_time": "2020-03-04T21:00:00Z"
     },
     "registrar": {
         "name": "RU-CENTER-RU"

@@ -15,11 +15,11 @@
             "ns03.trademarkarea.com"
         ],
         "created_date": "2018-10-23T14:02:32Z",
-        "created_date_parsed": "2018-10-23T14:02:32Z",
+        "created_date_in_time": "2018-10-23T14:02:32Z",
         "updated_date": "2019-04-30T07:34:28Z",
-        "updated_date_parsed": "2019-04-30T07:34:28Z",
+        "updated_date_in_time": "2019-04-30T07:34:28Z",
         "expiration_date": "2019-10-23T14:02:33Z",
-        "expiration_date_parsed": "2019-10-23T14:02:33Z"
+        "expiration_date_in_time": "2019-10-23T14:02:33Z"
     },
     "registrar": {
         "id": "111",

@@ -12,9 +12,9 @@
             "f1g1ns2.dnspod.net"
         ],
         "created_date": "11-07-2017",
-        "created_date_parsed": "2017-07-11T00:00:00Z",
+        "created_date_in_time": "2017-07-11T00:00:00Z",
         "expiration_date": "11-07-2020",
-        "expiration_date_parsed": "2020-07-11T00:00:00Z"
+        "expiration_date_in_time": "2020-07-11T00:00:00Z"
     },
     "registrar": {
         "name": "WEST263 INTERNATIONAL LIMITED"

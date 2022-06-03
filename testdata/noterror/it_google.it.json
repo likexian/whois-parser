@@ -14,11 +14,11 @@
             "ns4.google.com"
         ],
         "created_date": "1999-12-10 00:00:00",
-        "created_date_parsed": "1999-12-10T00:00:00Z",
+        "created_date_in_time": "1999-12-10T00:00:00Z",
         "updated_date": "2019-05-07 01:04:50",
-        "updated_date_parsed": "2019-05-07T01:04:50Z",
+        "updated_date_in_time": "2019-05-07T01:04:50Z",
         "expiration_date": "2020-04-21",
-        "expiration_date_parsed": "2020-04-21T00:00:00Z"
+        "expiration_date_in_time": "2020-04-21T00:00:00Z"
     },
     "registrar": {
         "name": "MARKMONITOR-REG",
