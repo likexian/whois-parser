@@ -15,8 +15,11 @@
         ],
         "dnssec": true,
         "created_date": "2017-01-19T02:15:20.0Z",
+        "created_date_in_time": "2017-01-19T02:15:20Z",
         "updated_date": "2017-01-19T02:15:20.0Z",
-        "expiration_date": "2020-01-19T23:59:59.0Z"
+        "updated_date_in_time": "2017-01-19T02:15:20Z",
+        "expiration_date": "2020-01-19T23:59:59.0Z",
+        "expiration_date_in_time": "2020-01-19T23:59:59Z"
     },
     "registrar": {
         "id": "1556",

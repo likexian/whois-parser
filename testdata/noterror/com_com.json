@@ -23,7 +23,9 @@
             "m.gtld-servers.net"
         ],
         "created_date": "1985-01-01",
-        "updated_date": "2017-10-05"
+        "created_date_in_time": "1985-01-01T00:00:00Z",
+        "updated_date": "2017-10-05",
+        "updated_date_in_time": "2017-10-05T00:00:00Z"
     },
     "registrant": {
         "organization": "VeriSign Global Registry Services",

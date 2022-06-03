@@ -16,8 +16,11 @@
             "dns2.webarch.info"
         ],
         "created_date": "2017-02-22T14:29:09.0Z",
+        "created_date_in_time": "2017-02-22T14:29:09Z",
         "updated_date": "2019-03-21T09:46:54.0Z",
-        "expiration_date": "2020-02-22T23:59:59.0Z"
+        "updated_date_in_time": "2019-03-21T09:46:54Z",
+        "expiration_date": "2020-02-22T23:59:59.0Z",
+        "expiration_date_in_time": "2020-02-22T23:59:59Z"
     },
     "registrar": {
         "id": "81",

@@ -13,8 +13,11 @@
             "ns1.hosting.reg.ru"
         ],
         "created_date": "2019-08-04T11:35:07Z",
+        "created_date_in_time": "2019-08-04T11:35:07Z",
         "updated_date": "2019-10-04T05:05:04Z",
-        "expiration_date": "2020-08-04T11:35:07Z"
+        "updated_date_in_time": "2019-10-04T05:05:04Z",
+        "expiration_date": "2020-08-04T11:35:07Z",
+        "expiration_date_in_time": "2020-08-04T11:35:07Z"
     },
     "registrar": {
         "id": "85",

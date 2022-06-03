@@ -17,8 +17,11 @@
             "ns4.googledomains.com"
         ],
         "created_date": "2014-02-15T20:24:48Z",
+        "created_date_in_time": "2014-02-15T20:24:48Z",
         "updated_date": "2019-01-14T10:32:15Z",
-        "expiration_date": "2020-02-15T20:24:48Z"
+        "updated_date_in_time": "2019-01-14T10:32:15Z",
+        "expiration_date": "2020-02-15T20:24:48Z",
+        "expiration_date_in_time": "2020-02-15T20:24:48Z"
     },
     "registrar": {
         "id": "292",

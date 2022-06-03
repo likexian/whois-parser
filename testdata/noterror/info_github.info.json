@@ -18,8 +18,11 @@
             "ns.registar.ro"
         ],
         "created_date": "2014-01-05T12:18:22Z",
+        "created_date_in_time": "2014-01-05T12:18:22Z",
         "updated_date": "2019-01-06T12:04:19Z",
-        "expiration_date": "2020-01-05T12:18:22Z"
+        "updated_date_in_time": "2019-01-06T12:04:19Z",
+        "expiration_date": "2020-01-05T12:18:22Z",
+        "expiration_date_in_time": "2020-01-05T12:18:22Z"
     },
     "registrar": {
         "id": "146",

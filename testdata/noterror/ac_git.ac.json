@@ -16,8 +16,11 @@
             "f1g1ns1.dnspod.net"
         ],
         "created_date": "2018-02-09 11:59:43",
+        "created_date_in_time": "2018-02-09T11:59:43Z",
         "updated_date": "2018-12-10 01:00:04",
-        "expiration_date": "2020-02-09 11:59:43"
+        "updated_date_in_time": "2018-12-10T01:00:04Z",
+        "expiration_date": "2020-02-09 11:59:43",
+        "expiration_date_in_time": "2020-02-09T11:59:43Z"
     },
     "registrar": {
         "id": "1861",

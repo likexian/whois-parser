@@ -17,8 +17,11 @@
             "ns4.p16.dynect.net"
         ],
         "created_date": "2010-08-05T17:04:27Z",
+        "created_date_in_time": "2010-08-05T17:04:27Z",
         "updated_date": "2018-10-21T11:00:23Z",
-        "expiration_date": "2020-08-04T23:59:59Z"
+        "updated_date_in_time": "2018-10-21T11:00:23Z",
+        "expiration_date": "2020-08-04T23:59:59Z",
+        "expiration_date_in_time": "2020-08-04T23:59:59Z"
     },
     "registrar": {
         "id": "292",

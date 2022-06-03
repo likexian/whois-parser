@@ -14,8 +14,11 @@
             "ns2-geo.dynadot.com"
         ],
         "created_date": "2002-10-30T17:44:41.0Z",
+        "created_date_in_time": "2002-10-30T17:44:41Z",
         "updated_date": "2019-09-17T10:43:57.0Z",
-        "expiration_date": "2020-10-30T16:44:41.0Z"
+        "updated_date_in_time": "2019-09-17T10:43:57Z",
+        "expiration_date": "2020-10-30T16:44:41.0Z",
+        "expiration_date_in_time": "2020-10-30T16:44:41Z"
     },
     "registrar": {
         "id": "472",

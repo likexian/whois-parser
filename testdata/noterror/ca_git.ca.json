@@ -16,8 +16,11 @@
             "pdns10.domaincontrol.com"
         ],
         "created_date": "2003-07-11T15:52:06Z",
+        "created_date_in_time": "2003-07-11T15:52:06Z",
         "updated_date": "2017-04-07T16:59:35Z",
-        "expiration_date": "2026-07-08T04:00:00Z"
+        "updated_date_in_time": "2017-04-07T16:59:35Z",
+        "expiration_date": "2026-07-08T04:00:00Z",
+        "expiration_date_in_time": "2026-07-08T04:00:00Z"
     },
     "registrar": {
         "name": "Go Daddy Domains Canada, Inc",

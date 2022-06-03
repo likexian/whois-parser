@@ -16,8 +16,11 @@
             "ns2.esm1066.sgded.com"
         ],
         "created_date": "2016-11-10T14:17:33.0Z",
+        "created_date_in_time": "2016-11-10T14:17:33Z",
         "updated_date": "2019-07-10T12:26:00.0Z",
-        "expiration_date": "2020-11-10T23:59:59.0Z"
+        "updated_date_in_time": "2019-07-10T12:26:00Z",
+        "expiration_date": "2020-11-10T23:59:59.0Z",
+        "expiration_date_in_time": "2020-11-10T23:59:59Z"
     },
     "registrar": {
         "id": "1390",

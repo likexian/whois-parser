@@ -14,8 +14,11 @@
             "ns1.onlydomains.com"
         ],
         "created_date": "2017-12-16T03:58:55.24Z",
+        "created_date_in_time": "2017-12-16T03:58:55.24Z",
         "updated_date": "2018-02-27T17:13:41.976Z",
-        "expiration_date": "2020-02-28T03:58:55.78Z"
+        "updated_date_in_time": "2018-02-27T17:13:41.976Z",
+        "expiration_date": "2020-02-28T03:58:55.78Z",
+        "expiration_date_in_time": "2020-02-28T03:58:55.78Z"
     },
     "registrar": {
         "name": "Instra"

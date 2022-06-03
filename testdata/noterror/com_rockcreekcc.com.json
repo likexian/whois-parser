@@ -15,8 +15,11 @@
             "ns2.sterlink.net"
         ],
         "created_date": "2002-07-12T15:48:26Z",
+        "created_date_in_time": "2002-07-12T15:48:26Z",
         "updated_date": "2021-05-03T20:23:19Z",
-        "expiration_date": "2022-07-12T15:48:26Z"
+        "updated_date_in_time": "2021-05-03T20:23:19Z",
+        "expiration_date": "2022-07-12T15:48:26Z",
+        "expiration_date_in_time": "2022-07-12T15:48:26Z"
     },
     "registrar": {
         "id": "69",

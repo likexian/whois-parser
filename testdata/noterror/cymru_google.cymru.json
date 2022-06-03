@@ -17,8 +17,11 @@
             "ns2.google.com"
         ],
         "created_date": "2014-10-31T13:27:48Z",
+        "created_date_in_time": "2014-10-31T13:27:48Z",
         "updated_date": "2019-09-29T09:41:07Z",
-        "expiration_date": "2020-10-31T13:27:48Z"
+        "updated_date_in_time": "2019-09-29T09:41:07Z",
+        "expiration_date": "2020-10-31T13:27:48Z",
+        "expiration_date_in_time": "2020-10-31T13:27:48Z"
     },
     "registrar": {
         "id": "292",

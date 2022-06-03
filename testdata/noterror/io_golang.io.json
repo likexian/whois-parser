@@ -14,8 +14,11 @@
             "ns103.ovh.net"
         ],
         "created_date": "2013-01-24T18:29:21Z",
+        "created_date_in_time": "2013-01-24T18:29:21Z",
         "updated_date": "2019-01-17T08:47:20Z",
-        "expiration_date": "2020-01-24T18:29:21Z"
+        "updated_date_in_time": "2019-01-17T08:47:20Z",
+        "expiration_date": "2020-01-24T18:29:21Z",
+        "expiration_date_in_time": "2020-01-24T18:29:21Z"
     },
     "registrar": {
         "id": "81",

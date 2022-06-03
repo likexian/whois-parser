@@ -15,8 +15,11 @@
             "ns-903.awsdns-48.net"
         ],
         "created_date": "2014-06-16T19:42:59Z",
+        "created_date_in_time": "2014-06-16T19:42:59Z",
         "updated_date": "2017-01-24T23:11:12Z",
-        "expiration_date": "2020-06-16T19:42:59Z"
+        "updated_date_in_time": "2017-01-24T23:11:12Z",
+        "expiration_date": "2020-06-16T19:42:59Z",
+        "expiration_date_in_time": "2020-06-16T19:42:59Z"
     },
     "registrar": {
         "id": "1420",

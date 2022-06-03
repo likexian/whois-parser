@@ -14,8 +14,11 @@
             "ns4.googledomains.com"
         ],
         "created_date": "11-Jun-2014",
+        "created_date_in_time": "2014-06-11T00:00:00Z",
         "updated_date": "10-May-2019",
-        "expiration_date": "11-Jun-2020"
+        "updated_date_in_time": "2019-05-10T00:00:00Z",
+        "expiration_date": "11-Jun-2020",
+        "expiration_date_in_time": "2020-06-11T00:00:00Z"
     },
     "registrar": {
         "name": "Markmonitor Inc. t/a MarkMonitor Inc. [Tag = MARKMONITOR]",

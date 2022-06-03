@@ -17,8 +17,11 @@
             "ns3.googledomains.com"
         ],
         "created_date": "2015-03-04T10:30:28Z",
+        "created_date_in_time": "2015-03-04T10:30:28Z",
         "updated_date": "2019-01-31T10:39:36Z",
-        "expiration_date": "2020-03-04T10:30:28Z"
+        "updated_date_in_time": "2019-01-31T10:39:36Z",
+        "expiration_date": "2020-03-04T10:30:28Z",
+        "expiration_date_in_time": "2020-03-04T10:30:28Z"
     },
     "registrar": {
         "id": "292",

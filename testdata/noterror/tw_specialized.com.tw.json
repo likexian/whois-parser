@@ -12,7 +12,9 @@
             "cns2.net-chinese.com.tw"
         ],
         "created_date": "2015-12-09 12:30:05 (UTC+8)",
-        "expiration_date": "2021-12-09 12:30:05 (UTC+8)"
+        "created_date_in_time": "2015-12-09T08:30:05Z",
+        "expiration_date": "2021-12-09 12:30:05 (UTC+8)",
+        "expiration_date_in_time": "2021-12-09T08:30:05Z"
     },
     "registrar": {
         "name": "NET-CHINESE",

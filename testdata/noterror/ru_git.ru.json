@@ -14,7 +14,9 @@
             "ns2.telekom.ru"
         ],
         "created_date": "2001-11-19T21:00:00Z",
-        "expiration_date": "2020-11-20T21:00:00Z"
+        "created_date_in_time": "2001-11-19T21:00:00Z",
+        "expiration_date": "2020-11-20T21:00:00Z",
+        "expiration_date_in_time": "2020-11-20T21:00:00Z"
     },
     "registrar": {
         "name": "RELCOMHOST-RU"

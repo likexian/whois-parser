@@ -14,8 +14,11 @@
             "ns4.google.com"
         ],
         "created_date": "2000-07-26T22:00:00Z",
+        "created_date_in_time": "2000-07-26T22:00:00Z",
         "updated_date": "2018-11-28T10:31:42Z",
-        "expiration_date": "2019-12-30T17:16:48Z"
+        "updated_date_in_time": "2018-11-28T10:31:42Z",
+        "expiration_date": "2019-12-30T17:16:48Z",
+        "expiration_date_in_time": "2019-12-30T17:16:48Z"
     },
     "registrar": {
         "name": "MARKMONITOR Inc.",

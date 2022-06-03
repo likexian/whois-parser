@@ -15,8 +15,11 @@
             "ns3012.hexonet.net"
         ],
         "created_date": "2001-01-20T13:40:16Z",
+        "created_date_in_time": "2001-01-20T13:40:16Z",
         "updated_date": "2017-02-28T09:53:46Z",
-        "expiration_date": "2021-01-20T13:40:16Z"
+        "updated_date_in_time": "2017-02-28T09:53:46Z",
+        "expiration_date": "2021-01-20T13:40:16Z",
+        "expiration_date_in_time": "2021-01-20T13:40:16Z"
     },
     "registrar": {
         "id": "1387",

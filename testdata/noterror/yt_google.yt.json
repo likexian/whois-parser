@@ -12,8 +12,11 @@
             "ns3.markmonitor.com"
         ],
         "created_date": "2011-12-06T09:03:45Z",
+        "created_date_in_time": "2011-12-06T09:03:45Z",
         "updated_date": "2019-01-14T10:32:17Z",
-        "expiration_date": "2020-02-15T19:07:10Z"
+        "updated_date_in_time": "2019-01-14T10:32:17Z",
+        "expiration_date": "2020-02-15T19:07:10Z",
+        "expiration_date_in_time": "2020-02-15T19:07:10Z"
     },
     "registrar": {
         "name": "MARKMONITOR Inc.",

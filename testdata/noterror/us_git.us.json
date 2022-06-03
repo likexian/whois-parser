@@ -17,8 +17,11 @@
             "ns2.namefind.com"
         ],
         "created_date": "2002-04-24T15:27:59Z",
+        "created_date_in_time": "2002-04-24T15:27:59Z",
         "updated_date": "2019-04-03T10:09:33Z",
-        "expiration_date": "2020-04-23T23:59:59Z"
+        "updated_date_in_time": "2019-04-03T10:09:33Z",
+        "expiration_date": "2020-04-23T23:59:59Z",
+        "expiration_date_in_time": "2020-04-23T23:59:59Z"
     },
     "registrar": {
         "id": "146",

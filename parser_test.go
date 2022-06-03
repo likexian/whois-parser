@@ -141,16 +141,19 @@ func TestParse(t *testing.T) {
 		if !assert.IsContains([]string{"aq", "au", "de", "eu", "gov", "hm", "name", "nl", "nz", "ir", "tk",
 			"xn--mgba3a4f16a"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.CreatedDate)
+			assert.NotNil(t, whoisInfo.Domain.CreatedDateInTime)
 		}
 
 		if !assert.IsContains([]string{"aq", "ch", "cn", "eu", "gov", "hk", "hm", "mo",
 			"name", "nl", "ro", "ru", "su", "tk", "tw", "xn--fiqs8s", "xn--p1ai"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.UpdatedDate)
+			assert.NotNil(t, whoisInfo.Domain.UpdatedDateInTime)
 		}
 
 		if !assert.IsContains([]string{"", "aq", "au", "br", "ch", "de", "eu", "gov", "ee",
 			"hm", "int", "name", "nl", "nz", "tk", "kz"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.ExpirationDate)
+			assert.NotNil(t, whoisInfo.Domain.ExpirationDateInTime)
 		}
 
 		if !assert.IsContains([]string{"", "ai", "aq", "au", "br", "ca", "ch", "cn", "cx", "de",

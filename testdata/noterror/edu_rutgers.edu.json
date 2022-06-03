@@ -10,8 +10,11 @@
             "ns87.a0.incapsecuredns.net"
         ],
         "created_date": "25-Apr-1985",
+        "created_date_in_time": "1985-04-25T00:00:00Z",
         "updated_date": "25-Mar-2020",
-        "expiration_date": "31-Jul-2020"
+        "updated_date_in_time": "2020-03-25T00:00:00Z",
+        "expiration_date": "31-Jul-2020",
+        "expiration_date_in_time": "2020-07-31T00:00:00Z"
     },
     "registrant": {
         "organization": "Rutgers, The State University of New Jersey",

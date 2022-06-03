@@ -14,8 +14,11 @@
             "ns02.merchantlaw.com"
         ],
         "created_date": "2015-05-06T10:39:53.0Z",
+        "created_date_in_time": "2015-05-06T10:39:53Z",
         "updated_date": "2019-04-30T00:17:23.0Z",
-        "expiration_date": "2020-05-06T23:59:59.0Z"
+        "updated_date_in_time": "2019-04-30T00:17:23Z",
+        "expiration_date": "2020-05-06T23:59:59.0Z",
+        "expiration_date_in_time": "2020-05-06T23:59:59Z"
     },
     "registrar": {
         "id": "9999",

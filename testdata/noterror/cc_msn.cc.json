@@ -16,8 +16,11 @@
             "ns1.msft.net"
         ],
         "created_date": "1997-10-12T00:00:00Z",
+        "created_date_in_time": "1997-10-12T00:00:00Z",
         "updated_date": "2019-09-10T01:00:17Z",
-        "expiration_date": "2020-10-12T04:00:00Z"
+        "updated_date_in_time": "2019-09-10T01:00:17Z",
+        "expiration_date": "2020-10-12T04:00:00Z",
+        "expiration_date_in_time": "2020-10-12T04:00:00Z"
     },
     "registrar": {
         "id": "299",

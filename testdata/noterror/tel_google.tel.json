@@ -17,8 +17,11 @@
             "ns3.google.com"
         ],
         "created_date": "2009-01-22T21:06:56Z",
+        "created_date_in_time": "2009-01-22T21:06:56Z",
         "updated_date": "2019-02-23T10:48:27Z",
-        "expiration_date": "2020-03-22T23:59:59Z"
+        "updated_date_in_time": "2019-02-23T10:48:27Z",
+        "expiration_date": "2020-03-22T23:59:59Z",
+        "expiration_date_in_time": "2020-03-22T23:59:59Z"
     },
     "registrar": {
         "id": "292",
