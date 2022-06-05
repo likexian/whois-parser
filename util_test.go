@@ -16,9 +16,14 @@
  * Go module for domain whois information parsing
  * https://www.likexian.com/
  */
+
 package whoisparser
 
-import "testing"
+import (
+	"testing"
+
+	"github.com/likexian/gokit/assert"
+)
 
 // https://github.com/golang/go/wiki/TableDrivenTests
 func TestParseDateString(t *testing.T) {
@@ -52,9 +57,7 @@ func TestParseDateString(t *testing.T) {
 		t.Run(tt.date, func(t *testing.T) {
 			t.Parallel() // marks each test case as capable of running in parallel with each other
 			_, err := parseDateString(tt.date)
-			if err != nil {
-				t.Fatalf("%s should not error out. error: %v", tt.date, err)
-			}
+			assert.Nil(t, err)
 		})
 	}
 }

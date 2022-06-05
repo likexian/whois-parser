@@ -20,7 +20,6 @@
 package whoisparser
 
 import (
-	"errors"
 	"fmt"
 	"sort"
 	"strings"
@@ -113,6 +112,7 @@ func keys(m map[string]string) []string {
 	return r
 }
 
+// parseDateString
 func parseDateString(dateString string) (time.Time, error) {
 	formats := [...]string{
 		"2006-01-02T15:04:05Z",
@@ -154,16 +154,9 @@ func parseDateString(dateString string) (time.Time, error) {
 	for _, format := range formats {
 		result, err := time.Parse(format, dateString)
 		if err != nil {
-			var parserError *time.ParseError
-			if errors.As(err, &parserError) {
-				// if it's a parser error try the next format
-				continue
-			} else {
-				return time.Now(), err
-			}
-		} else {
-			return result, nil
+			continue
 		}
+		return result, nil
 	}
 
 	return time.Now(), fmt.Errorf("could not parse %s as a date", dateString)
