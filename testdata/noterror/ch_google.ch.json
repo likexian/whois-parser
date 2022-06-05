@@ -13,16 +13,9 @@
         "created_date": "31 May 1999"
     },
     "registrar": {
-        "name": "MarkMonitor Inc."
-    },
-    "registrant": {
-        "name": "Domain Administrator",
-        "organization": "Google LLC",
-        "street": "1600 Amphitheatre Parkway, US-94043 Mountain View, United States"
-    },
-    "technical": {
-        "name": "Domain Administrator",
-        "organization": "Google LLC",
-        "street": "1600 Amphitheatre Parkway, US-94043 Mountain View, United States"
+        "name": "MarkMonitor",
+        "street": "2150 S Bonito Way, Suite 150, US-ID 83642 Meridian",
+        "phone": "+1 8003377520",
+        "email": "custserv@markmonitor.com"
     }
 }

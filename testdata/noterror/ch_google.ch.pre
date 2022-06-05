@@ -1,11 +1,12 @@
 Domain name: google.ch
-Registrant organization:  Google LLC
-Registrant name: Domain Administrator
-Registrant street: 1600 Amphitheatre Parkway, US-94043 Mountain View, United States
-Technical organization:  Google LLC
-Technical name: Domain Administrator
-Technical street: 1600 Amphitheatre Parkway, US-94043 Mountain View, United States
-Registrar: MarkMonitor Inc.
+Registrar name: MarkMonitor
+Registrar street: 2150 S Bonito Way, Suite 150
+Registrar street: US-ID 83642 Meridian
+Registrar Phone: +1 8003377520
+Registrar Email: custserv@markmonitor.com
 DNSSEC: no
-Name servers: ns1.google.com, ns2.google.com, ns3.google.com, ns4.google.com
+Name servers: ns1.google.com
+Name servers: ns2.google.com
+Name servers: ns3.google.com
+Name servers: ns4.google.com
 First registration date: 31 May 1999

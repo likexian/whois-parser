@@ -1,18 +1,10 @@
 Domain name	google.ch
 
-Holder	Google LLC
-Domain Administrator
-1600 Amphitheatre Parkway
-US-94043 Mountain View
-United States
-
-Technical contact	Google LLC
-Domain Administrator
-1600 Amphitheatre Parkway
-US-94043 Mountain View
-United States
-
-Registrar	MarkMonitor Inc. 
+Registrar	MarkMonitor
+2150 S Bonito Way, Suite 150
+US-ID 83642 Meridian
+Phone +1 8003377520
+custserv@markmonitor.com
 
 DNSSEC	no
 

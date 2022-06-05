@@ -10,19 +10,12 @@
             "scsnms.switch.ch"
         ],
         "dnssec": true,
-        "created_date": "before 01 January 1996"
+        "created_date": "before 1 January 1996"
     },
     "registrar": {
-        "name": "Gandi SAS"
-    },
-    "registrant": {
-        "name": "Roland Eugster",
-        "organization": "SWITCH",
-        "street": "Werdstrasse 2, Postfach, CH-8021 Zurich, Switzerland"
-    },
-    "technical": {
-        "name": "DNS Operation",
-        "organization": "SWITCH",
-        "street": "Werdstrasse 2, P.O. Box, CH-8021 Zurich, Switzerland"
+        "name": "Gandi SAS",
+        "street": "boulevard Massena 63-65, FR-75013 Paris",
+        "phone": "+33 170377661",
+        "email": "support-en@support.gandi.net, support-fr@support.gandi.net"
     }
 }
