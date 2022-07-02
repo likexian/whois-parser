@@ -59,6 +59,8 @@ If there is any problem, please feel free to open a new issue.
 | .cymru | [google.cymru](cymru_google.cymru) | [google.cymru](cymru_google.cymru.json) | √ |
 | .de | [git.de](de_git.de) | [git.de](de_git.de.json) | √ |
 | .de | [google.de](de_google.de) | [google.de](de_google.de.json) | √ |
+| .dk | [emilstahl.dk](dk_emilstahl.dk) | [emilstahl.dk](dk_emilstahl.dk.json) | √ |
+| .dk | [google.dk](dk_google.dk) | [google.dk](dk_google.dk.json) | √ |
 | .edu | [cornell.edu](edu_cornell.edu) | [cornell.edu](edu_cornell.edu.json) | √ |
 | .edu | [rutgers.edu](edu_rutgers.edu) | [rutgers.edu](edu_rutgers.edu.json) | √ |
 | .edu | [snai.edu](edu_snai.edu) | [snai.edu](edu_snai.edu.json) | √ |

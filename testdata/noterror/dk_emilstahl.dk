@@ -1,0 +1,30 @@
+# Hello 1.1.1.1. Your session has been logged.
+#
+# Copyright (c) 2002 - 2022 by DK Hostmaster A/S
+#
+# Version: 5.0.2
+#
+# The data in the DK Whois database is provided by DK Hostmaster A/S
+# for information purposes only, and to assist persons in obtaining
+# information about or related to a domain name registration record.
+# We do not guarantee its accuracy. We will reserve the right to remove
+# access for entities abusing the data, without notice.
+#
+# Any use of this material to target advertising or similar activities
+# are explicitly forbidden and will be prosecuted. DK Hostmaster A/S
+# requests to be notified of any such activities or suspicions thereof.
+
+Domain:               emilstahl.dk
+DNS:                  emilstahl.dk
+Registered:           2010-07-13
+Expires:              2025-04-30
+Registration period:  10 years
+VID:                  no
+DNSSEC:               Signed delegation
+Status:               Active
+
+Nameservers
+Hostname:             ns1.simply.com
+Hostname:             ns2.simply.com
+Hostname:             ns3.simply.com
+Hostname:             ns4.simply.com

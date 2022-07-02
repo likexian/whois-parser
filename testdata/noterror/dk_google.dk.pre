@@ -1,0 +1,30 @@
+# Hello 1.1.1.1. Your session has been logged.
+#
+# Copyright (c) 2002 - 2022 by DK Hostmaster A/S
+#
+# Version: 5.0.2
+#
+# The data in the DK Whois database is provided by DK Hostmaster A/S
+# for information purposes only, and to assist persons in obtaining
+# information about or related to a domain name registration record.
+# We do not guarantee its accuracy. We will reserve the right to remove
+# access for entities abusing the data, without notice.
+#
+# Any use of this material to target advertising or similar activities
+# are explicitly forbidden and will be prosecuted. DK Hostmaster A/S
+# requests to be notified of any such activities or suspicions thereof.
+
+Domain:               google.dk
+Registered:           1999-01-10
+Expires:              2023-03-31
+Registrar:            MarkMonitor Inc.
+Registration period:  1 year
+VID:                  no
+DNSSEC:               Unsigned delegation, DNSSEC disabled, no records
+Status:               Active
+
+Nameservers
+Hostname:             ns1.google.com
+Hostname:             ns2.google.com
+Hostname:             ns3.google.com
+Hostname:             ns4.google.com

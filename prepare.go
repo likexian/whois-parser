@@ -85,6 +85,8 @@ func Prepare(text, ext string) (string, bool) { //nolint:cyclop
 		return prepareCN(text), true
 	case "pl":
 		return preparePL(text), true
+	case "dk":
+		return prepareDK(text), true
 	default:
 		return text, false
 	}
@@ -1242,6 +1244,20 @@ func preparePL(text string) string {
 		}
 
 		result += fmt.Sprintf("\n%s", strings.ReplaceAll(v, "WHOIS database responses:", "whois:"))
+	}
+
+	return result
+}
+
+// prepareDK do prepare the .dk domain
+func prepareDK(text string) string {
+	var result string
+
+	for _, v := range strings.Split(text, "\n") {
+		if strings.HasPrefix(v, "DNS:") {
+			continue
+		}
+		result += v + "\n"
 	}
 
 	return result

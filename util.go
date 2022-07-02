@@ -29,7 +29,7 @@ import (
 // isDNSSecEnabled returns if domain dnssec is enabled
 func isDNSSecEnabled(data string) bool {
 	switch strings.ToLower(data) {
-	case "yes", "active", "signed", "signeddelegation":
+	case "yes", "active", "signed", "signeddelegation", "signed delegation":
 		return true
 	default:
 		return false
