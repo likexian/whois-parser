@@ -74,6 +74,7 @@ func isNotFoundDomain(data string) bool {
 		"not been registered",
 		"object does not exist",
 		"query returned 0 objects",
+		"domain name not known",
 	}
 
 	return containsIn(strings.ToLower(data), notFoundKeys)
@@ -106,6 +107,10 @@ func isExtNotFoundDomain(data, extension string) bool {
 			return true
 		}
 	case "sexy":
+		if strings.Contains(data, "is available") {
+			return true
+		}
+	case "love":
 		if strings.Contains(data, "is available") {
 			return true
 		}

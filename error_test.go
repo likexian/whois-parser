@@ -54,8 +54,8 @@ func TestAsisExtNotFoundDomain(t *testing.T) {
 		whoisRaw, err := xfile.ReadText(notfoundDir + "/" + v.Name)
 		assert.Nil(t, err)
 
-		name, extension := searchDomain(whoisRaw)
-		if name == "" {
+		_, extension := searchDomain(whoisRaw)
+		if extension == "" {
 			assert.True(t, isNotFoundDomain(whoisRaw), v.Name)
 		} else {
 			assert.True(t, isExtNotFoundDomain(whoisRaw, extension), v.Name)
