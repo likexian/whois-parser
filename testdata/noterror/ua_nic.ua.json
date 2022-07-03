@@ -1,0 +1,59 @@
+{
+    "domain": {
+        "domain": "nic.ua",
+        "punycode": "nic.ua",
+        "name": "nic",
+        "extension": "ua",
+        "status": [
+            "clientdeleteprohibited",
+            "clienttransferprohibited"
+        ],
+        "name_servers": [
+            "ns1.uadns.com",
+            "ns2.uadns.com"
+        ],
+        "created_date": "2007-10-04 13:40:19+03",
+        "created_date_in_time": "2007-10-04T13:40:19+03:00",
+        "updated_date": "2021-12-27 14:13:20+02",
+        "updated_date_in_time": "2021-12-27T14:13:20+02:00",
+        "expiration_date": "2024-10-04 13:40:18+03",
+        "expiration_date_in_time": "2024-10-04T13:40:18+03:00"
+    },
+    "registrar": {
+        "name": "ua.nic",
+        "organization": "NIC.UA LLC",
+        "city": "Dnipro",
+        "country": "UA",
+        "referral_url": "http://nic.ua"
+    },
+    "registrant": {
+        "name": "NIC.UA LLC",
+        "organization": "NIC.UA LLC",
+        "street": "Plehanova 18 512, Dnipro",
+        "postal_code": "49000",
+        "country": "UA",
+        "phone": "+380.445933222",
+        "fax": "+380.445937569",
+        "email": "uanic@nic.ua"
+    },
+    "administrative": {
+        "name": "NIC.UA LLC",
+        "organization": "NIC.UA LLC",
+        "street": "Plehanova 18 512, Dnipro",
+        "postal_code": "49000",
+        "country": "UA",
+        "phone": "+380.445933222",
+        "fax": "+380.445937569",
+        "email": "uanic@nic.ua"
+    },
+    "technical": {
+        "name": "NIC.UA LLC",
+        "organization": "NIC.UA LLC",
+        "street": "Kniazia Volodymyra Velykoho str. 18 512, Dnipro, вул. Князя Володимира Великого 18 512, Дніпро",
+        "postal_code": "49000",
+        "country": "UA",
+        "phone": "+380.442329962",
+        "fax": "+380.445937569",
+        "email": "support@nic.ua"
+    }
+}

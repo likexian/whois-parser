@@ -1,0 +1,42 @@
+{
+    "domain": {
+        "domain": "google.ua",
+        "punycode": "google.ua",
+        "name": "google",
+        "extension": "ua",
+        "status": [
+            "clientdeleteprohibited",
+            "clienttransferprohibited",
+            "clientupdateprohibited"
+        ],
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns3.google.com",
+            "ns4.google.com"
+        ],
+        "created_date": "2011-07-21 18:03:50+03",
+        "created_date_in_time": "2011-07-21T18:03:50+03:00",
+        "updated_date": "2022-06-19 12:24:23+03",
+        "updated_date_in_time": "2022-06-19T12:24:23+03:00",
+        "expiration_date": "2023-07-21 18:03:50+03",
+        "expiration_date_in_time": "2023-07-21T18:03:50+03:00"
+    },
+    "registrar": {
+        "name": "ua.markmonitor",
+        "organization": "MarkMonitor Inc.",
+        "city": "Meridian, Idaho",
+        "country": "US",
+        "referral_url": "http://markmonitor.com"
+    },
+    "registrant": {
+        "name": "Inc. Google",
+        "organization": "Google Inc.",
+        "street": "Amphitheatre Parkway, 1600, Mountain View",
+        "postal_code": "94043",
+        "country": "US",
+        "phone": "+1.6502530000",
+        "fax": "+1.6506188571",
+        "email": "dns-admin@google.com"
+    }
+}

@@ -177,6 +177,8 @@ If there is any problem, please feel free to open a new issue.
 | .tw | [google.tw](tw_google.tw) | [google.tw](tw_google.tw.json) | √ |
 | .tw | [msn.tw](tw_msn.tw) | [msn.tw](tw_msn.tw.json) | √ |
 | .tw | [specialized.com.tw](tw_specialized.com.tw) | [specialized.com.tw](tw_specialized.com.tw.json) | √ |
+| .ua | [google.ua](ua_google.ua) | [google.ua](ua_google.ua.json) | √ |
+| .ua | [nic.ua](ua_nic.ua) | [nic.ua](ua_nic.ua.json) | √ |
 | .uk | [git.uk](uk_git.uk) | [git.uk](uk_git.uk.json) | √ |
 | .uk | [google.uk](uk_google.uk) | [google.uk](uk_google.uk.json) | √ |
 | .us | [git.us](us_git.us) | [git.us](us_git.us.json) | √ |
