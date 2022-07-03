@@ -1,0 +1,25 @@
+{
+    "domain": {
+        "domain": "git.by",
+        "punycode": "git.by",
+        "name": "git",
+        "extension": "by",
+        "name_servers": [
+            "ns1.activeby.net",
+            "ns2.activeby.net"
+        ],
+        "created_date": "2013-07-04",
+        "created_date_in_time": "2013-07-04T00:00:00Z",
+        "updated_date": "2022-06-07",
+        "updated_date_in_time": "2022-06-07T00:00:00Z",
+        "expiration_date": "2023-07-04",
+        "expiration_date_in_time": "2023-07-04T00:00:00Z"
+    },
+    "registrar": {
+        "name": "Active Technologies LLC"
+    },
+    "registrant": {
+        "name": "HIDDEN!",
+        "email": "hidden! details are available at https://whois.cctld.by"
+    }
+}

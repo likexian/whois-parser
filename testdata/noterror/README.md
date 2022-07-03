@@ -33,6 +33,8 @@ If there is any problem, please feel free to open a new issue.
 | .biz | [google.biz](biz_google.biz) | [google.biz](biz_google.biz.json) | √ |
 | .br | [espm.br](br_espm.br) | [espm.br](br_espm.br.json) | √ |
 | .br | [unip.br](br_unip.br) | [unip.br](br_unip.br.json) | √ |
+| .by | [git.by](by_git.by) | [git.by](by_git.by.json) | √ |
+| .by | [google.by](by_google.by) | [google.by](by_google.by.json) | √ |
 | .ca | [git.ca](ca_git.ca) | [git.ca](ca_git.ca.json) | √ |
 | .ca | [google.ca](ca_google.ca) | [google.ca](ca_google.ca.json) | √ |
 | .cat | [git.cat](cat_git.cat) | [git.cat](cat_git.cat.json) | √ |

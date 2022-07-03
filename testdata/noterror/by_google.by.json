@@ -1,0 +1,30 @@
+{
+    "domain": {
+        "domain": "google.by",
+        "punycode": "google.by",
+        "name": "google",
+        "extension": "by",
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns3.google.com",
+            "ns4.google.com"
+        ],
+        "created_date": "2004-05-14",
+        "created_date_in_time": "2004-05-14T00:00:00Z",
+        "updated_date": "2022-05-30",
+        "updated_date_in_time": "2022-05-30T00:00:00Z",
+        "expiration_date": "2023-02-09",
+        "expiration_date_in_time": "2023-02-09T00:00:00Z"
+    },
+    "registrar": {
+        "name": "Open Contact, Ltd"
+    },
+    "registrant": {
+        "organization": "Google LLC",
+        "street": "94043, CA, Mountain View, 1600 Amphitheatre Parkway, -, -",
+        "country": "US",
+        "phone": "+1.2083895740",
+        "email": "hidden! details are available at https://whois.cctld.by"
+    }
+}

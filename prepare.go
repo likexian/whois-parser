@@ -87,6 +87,8 @@ func Prepare(text, ext string) (string, bool) { //nolint:cyclop
 		return preparePL(text), true
 	case "dk":
 		return prepareDK(text), true
+	case "by":
+		return prepareBY(text), true
 	default:
 		return text, false
 	}
@@ -1256,6 +1258,33 @@ func prepareDK(text string) string {
 	for _, v := range strings.Split(text, "\n") {
 		if strings.HasPrefix(v, "DNS:") {
 			continue
+		}
+		result += v + "\n"
+	}
+
+	return result
+}
+
+// prepareBY do prepare the .by domain
+func prepareBY(text string) string {
+	var result string
+
+	tokens := map[string]string{
+		"Person":  "Registrant Person",
+		"Org":     "Registrant Org",
+		"Country": "Registrant Country",
+		"Address": "Registrant Address",
+		"Phone":   "Registrant Phone",
+		"Email":   "Registrant Email",
+	}
+
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+		if strings.Contains(v, ":") {
+			vs := strings.SplitN(v, ":", 2)
+			if t, ok := tokens[strings.TrimSpace(vs[0])]; ok {
+				v = fmt.Sprintf("%s: %s", t, vs[1])
+			}
 		}
 		result += v + "\n"
 	}
