@@ -112,30 +112,30 @@ func keys(m map[string]string) []string {
 	return r
 }
 
-// parseDateString
+// parseDateString attempts to parse a given date using a collection of common
+// format strings. Date formats containing time components are tried first
+// before attempts are made using date-only formats.
 func parseDateString(dateString string) (time.Time, error) {
 	formats := [...]string{
-		"2006-01-02T15:04:05Z",
-		"2006-01-02",
+
+		// Date & time formats
 		"2006-01-02 15:04:05",
-		"2006. 01. 02.",
-		"02-Jan-2006",
 		"02/01/2006 15:04:05",
-		"02.01.2006",
-		"02-01-2006",
 		"02.01.2006 15:04:05",
 		"02.1.2006 15:04:05",
 		"2.1.2006 15:04:05",
-		"2006-01-02 15:04:05-07",
 		"02-Jan-2006 15:04:05",
-		"January _2 2006",
-		"02/01/2006",
-		"01/02/2006",
-		"2006-01-02 15:04:05 MST",
-		"2006-Jan-02",
-		"2006-Jan-02.",
-		"2006-01-02 15:04:05 (MST+3)",
 		time.ANSIC,
+		time.Stamp,
+		time.StampMilli,
+		time.StampMicro,
+		time.StampNano,
+
+		// Date, time & time zone formats
+		"2006-01-02T15:04:05Z",
+		"2006-01-02 15:04:05-07",
+		"2006-01-02 15:04:05 MST",
+		"2006-01-02 15:04:05 (MST+3)",
 		time.UnixDate,
 		time.RubyDate,
 		time.RFC822,
@@ -145,10 +145,18 @@ func parseDateString(dateString string) (time.Time, error) {
 		time.RFC1123Z,
 		time.RFC3339,
 		time.RFC3339Nano,
-		time.Stamp,
-		time.StampMilli,
-		time.StampMicro,
-		time.StampNano,
+
+		// Date only formats
+		"2006-01-02",
+		"2006. 01. 02.",
+		"02-Jan-2006",
+		"02.01.2006",
+		"02-01-2006",
+		"January _2 2006",
+		"02/01/2006",
+		"01/02/2006",
+		"2006-Jan-02",
+		"2006-Jan-02.",
 	}
 
 	for _, format := range formats {
