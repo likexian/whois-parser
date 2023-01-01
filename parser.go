@@ -257,6 +257,10 @@ func searchDomain(text string) (name, extension string) {
 			extension = ""
 		}
 	}
+	
+	if name == "name" {
+		name = ""
+	}
 
 	if name != "" {
 		name = strings.ToLower(name)
