@@ -240,18 +240,19 @@ func parseContact(contact *Contact, name, value string) {
 	}
 }
 
+var searchDomainRx1 = regexp.MustCompile(`(?i)\[?domain\:?(\s*\_?name)?\]?[\s\.]*\:?\s*([^\s\,\;\(\)]+)\.([^\s\,\;\(\)\.]{2,})`)
+var searchDomainRx2 = regexp.MustCompile(`(?i)\[?domain\:?(\s*\_?name)?\]?[\s\.]*\:?\s*([^\s\,\;\(\)\.]{2,})\n`)
+
 // searchDomain finds domain name and extension from whois information
 func searchDomain(text string) (name, extension string) {
-	r := regexp.MustCompile(`(?i)\[?domain\:?(\s*\_?name)?\]?[\s\.]*\:?\s*([^\s\,\;\(\)]+)\.([^\s\,\;\(\)\.]{2,})`)
-	m := r.FindStringSubmatch(text)
+	m := searchDomainRx1.FindStringSubmatch(text)
 	if len(m) > 0 {
-		name = strings.TrimSpace(m[2])
-		extension = strings.TrimSpace(m[3])
+		name = strings.TrimPrefix(strings.TrimSpace(m[2]), "\"")
+		extension = strings.TrimSuffix(strings.TrimSpace(m[3]), "\"")
 	}
 
 	if name == "" {
-		r := regexp.MustCompile(`(?i)\[?domain\:?(\s*\_?name)?\]?[\s\.]*\:?\s*([^\s\,\;\(\)\.]{2,})\n`)
-		m := r.FindStringSubmatch(text)
+		m := searchDomainRx2.FindStringSubmatch(text)
 		if len(m) > 0 {
 			name = strings.TrimSpace(m[2])
 			extension = ""

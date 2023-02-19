@@ -329,6 +329,8 @@ func prepareMO(text string) string {
 	return result
 }
 
+var prepareHKEmailRx = regexp.MustCompile(`Email\:\s+([^\s]+)(\s+Hotline\:(.*))?`)
+
 // prepareHK do prepare the .hk domain
 func prepareHK(text string) string {
 	tokens := map[string]string{
@@ -364,8 +366,7 @@ func prepareHK(text string) string {
 			}
 			addressToken = field == "Address"
 			if field == "Registrar Contact Information" {
-				re := regexp.MustCompile(`Email\:\s+([^\s]+)(\s+Hotline\:(.*))?`)
-				m := re.FindStringSubmatch(vs[1])
+				m := prepareHKEmailRx.FindStringSubmatch(vs[1])
 				if len(m) == 4 {
 					v = ""
 					if m[1] != "" {
@@ -402,6 +403,8 @@ func prepareHK(text string) string {
 
 	return result
 }
+
+var prepareTWEmailRx = regexp.MustCompile(`(.*)\s+([^\s]+@[^\s]+)`)
 
 // prepareTW do prepare the .tw domain
 func prepareTW(text string) string { //nolint:cyclop
@@ -489,8 +492,7 @@ func prepareTW(text string) string { //nolint:cyclop
 				}
 				if strings.Contains(indexName, ",") {
 					ins := strings.Split(indexName, ",")
-					re := regexp.MustCompile(`(.*)\s+([^\s]+@[^\s]+)`)
-					m := re.FindStringSubmatch(v)
+					m := prepareTWEmailRx.FindStringSubmatch(v)
 					if len(m) == 3 {
 						result += fmt.Sprintf("\n%s %s: %s", tokenName, ins[0], strings.TrimSpace(m[1]))
 						result += fmt.Sprintf("\n%s %s: %s", tokenName, ins[1], strings.TrimSpace(m[2]))
@@ -683,10 +685,11 @@ func prepareRU(text string) string {
 	return result
 }
 
+var prepareJPreplacerRx = regexp.MustCompile(`\n\[(.+?)\][\ ]*(.+?)?`)
+
 // prepareJP do prepare the .jp domain
 func prepareJP(text string) string {
-	replacer := regexp.MustCompile(`\n\[(.+?)\][\ ]*(.+?)?`)
-	text = replacer.ReplaceAllString(text, "\n$1: $2")
+	text = prepareJPreplacerRx.ReplaceAllString(text, "\n$1: $2")
 
 	adminToken := "Contact Information"
 	addressToken := "Postal Address"
