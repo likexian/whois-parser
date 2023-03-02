@@ -1,0 +1,28 @@
+{
+    "domain": {
+        "domain": "git.se",
+        "punycode": "git.se",
+        "name": "git",
+        "extension": "se",
+        "status": [
+            "active",
+            "ok"
+        ],
+        "name_servers": [
+            "ns1.ifenix.se",
+            "ns2.ifenix.se"
+        ],
+        "created_date": "2005-01-28",
+        "created_date_in_time": "2005-01-28T00:00:00Z",
+        "updated_date": "2022-12-29",
+        "updated_date_in_time": "2022-12-29T00:00:00Z",
+        "expiration_date": "2024-01-28",
+        "expiration_date_in_time": "2024-01-28T00:00:00Z"
+    },
+    "registrar": {
+        "name": "www.NameSRS.com"
+    },
+    "registrant": {
+        "organization": "tomgen1448-00001"
+    }
+}

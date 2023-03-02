@@ -151,6 +151,7 @@ If there is any problem, please feel free to open a new issue.
 | .ru | [yandex.ru](ru_yandex.ru) | [yandex.ru](ru_yandex.ru.json) | √ |
 | .scot | [gov.scot](scot_gov.scot) | [gov.scot](scot_gov.scot.json) | √ |
 | .scot | [yes.scot](scot_yes.scot) | [yes.scot](scot_yes.scot.json) | √ |
+| .se | [git.se](se_git.se) | [git.se](se_git.se.json) | √ |
 | .se | [google.se](se_google.se) | [google.se](se_google.se.json) | √ |
 | .sexy | [google.sexy](sexy_google.sexy) | [google.sexy](sexy_google.sexy.json) | √ |
 | .sexy | [line.sexy](sexy_line.sexy) | [line.sexy](sexy_line.sexy.json) | √ |
