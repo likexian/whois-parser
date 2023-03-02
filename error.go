@@ -115,6 +115,8 @@ func isExtNotFoundDomain(data, extension string) bool {
 		if strings.Contains(data, "is available") {
 			return true
 		}
+	case "nu":
+		fallthrough
 	case "se":
 		if strings.Contains(data, "not found") {
 			return true

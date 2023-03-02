@@ -1,0 +1,32 @@
+{
+    "domain": {
+        "domain": "nic.nu",
+        "punycode": "nic.nu",
+        "name": "nic",
+        "extension": "nu",
+        "status": [
+            "active",
+            "serverupdateprohibited",
+            "serverdeleteprohibited",
+            "servertransferprohibited"
+        ],
+        "name_servers": [
+            "nsa.dnsnode.net",
+            "nsp.dnsnode.net",
+            "nsu.dnsnode.net"
+        ],
+        "dnssec": true,
+        "created_date": "1997-08-03",
+        "created_date_in_time": "1997-08-03T00:00:00Z",
+        "updated_date": "2022-01-26",
+        "updated_date_in_time": "2022-01-26T00:00:00Z",
+        "expiration_date": "2097-08-03",
+        "expiration_date_in_time": "2097-08-03T00:00:00Z"
+    },
+    "registrar": {
+        "name": "Internetstift"
+    },
+    "registrant": {
+        "organization": "stifte5683-00001"
+    }
+}
