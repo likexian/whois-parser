@@ -1,0 +1,30 @@
+{
+    "domain": {
+        "domain": "google.nu",
+        "punycode": "google.nu",
+        "name": "google",
+        "extension": "nu",
+        "status": [
+            "active",
+            "ok"
+        ],
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns3.google.com",
+            "ns4.google.com"
+        ],
+        "created_date": "1999-06-07",
+        "created_date_in_time": "1999-06-07T00:00:00Z",
+        "updated_date": "2021-05-06",
+        "updated_date_in_time": "2021-05-06T00:00:00Z",
+        "expiration_date": "2023-06-07",
+        "expiration_date_in_time": "2023-06-07T00:00:00Z"
+    },
+    "registrar": {
+        "name": "MarkMonitor Inc"
+    },
+    "registrant": {
+        "organization": "mmr-171440"
+    }
+}
