@@ -171,7 +171,7 @@ func isLimitExceeded(data string) bool {
 		"exceeded your query limit",
 		"restricted due to excessive queries",
 		"due to query limit controls",
-		"you have exceeded you allotted number of",
+		"you have exceeded your allotted number of",
 		"maximum daily connection limit reached",
 	}
 
