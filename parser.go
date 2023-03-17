@@ -107,6 +107,9 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 			domain.ID = value
 		case "domain_name":
 			if domain.Domain == "" {
+				if firstSpace := strings.IndexByte(value, ' '); firstSpace > 0 {
+					value = value[:firstSpace]
+				}
 				domain.Domain = strings.ToLower(value)
 				domain.Punycode, _ = idna.ToASCII(domain.Domain)
 			}

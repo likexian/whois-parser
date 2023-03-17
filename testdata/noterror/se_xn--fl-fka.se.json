@@ -1,0 +1,30 @@
+{
+    "domain": {
+        "domain": "xn--fl-fka.se",
+        "punycode": "xn--fl-fka.se",
+        "name": "xn--fl-fka",
+        "extension": "se",
+        "status": [
+            "active",
+            "ok"
+        ],
+        "name_servers": [
+            "ns1.rymdweb.com",
+            "ns2.rymdweb.com",
+            "ns3.rymdweb.com"
+        ],
+        "dnssec": true,
+        "created_date": "2021-12-29",
+        "created_date_in_time": "2021-12-29T00:00:00Z",
+        "updated_date": "2022-10-17",
+        "updated_date_in_time": "2022-10-17T00:00:00Z",
+        "expiration_date": "2023-12-29",
+        "expiration_date_in_time": "2023-12-29T00:00:00Z"
+    },
+    "registrar": {
+        "name": "Rymdweb AB"
+    },
+    "registrant": {
+        "organization": "(not shown)"
+    }
+}
