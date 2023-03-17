@@ -86,6 +86,7 @@ If there is any problem, please feel free to open a new issue.
 | .hk | [ibm.hk](hk_ibm.hk) | [ibm.hk](hk_ibm.hk.json) | √ |
 | .hm | [bin.hm](hm_bin.hm) | [bin.hm](hm_bin.hm.json) | √ |
 | .hm | [google.hm](hm_google.hm) | [google.hm](hm_google.hm.json) | √ |
+| .hu | [nic.hu](hu_nic.hu) | [nic.hu](hu_nic.hu.json) | √ |
 | .in | [git.in](in_git.in) | [git.in](in_git.in.json) | √ |
 | .in | [google.in](in_google.in) | [google.in](in_google.in.json) | √ |
 | .info | [github.info](info_github.info) | [github.info](info_github.info.json) | √ |
@@ -155,6 +156,7 @@ If there is any problem, please feel free to open a new issue.
 | .scot | [yes.scot](scot_yes.scot) | [yes.scot](scot_yes.scot.json) | √ |
 | .se | [git.se](se_git.se) | [git.se](se_git.se.json) | √ |
 | .se | [google.se](se_google.se) | [google.se](se_google.se.json) | √ |
+| .se | [föl.se](se_xn--fl-fka.se) | [föl.se](se_xn--fl-fka.se.json) | √ |
 | .sexy | [google.sexy](sexy_google.sexy) | [google.sexy](sexy_google.sexy.json) | √ |
 | .sexy | [line.sexy](sexy_line.sexy) | [line.sexy](sexy_line.sexy.json) | √ |
 | .sh | [git.sh](sh_git.sh) | [git.sh](sh_git.sh.json) | √ |

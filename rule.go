@@ -70,6 +70,7 @@ var (
 		"domain record activated":                "created_date",
 		"record created on":                      "created_date",
 		"domain registered":                      "created_date",
+		"record created":                         "created_date",
 		"modified":                               "updated_date",
 		"changed":                                "updated_date",
 		"update date":                            "updated_date",
