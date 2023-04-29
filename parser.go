@@ -30,7 +30,7 @@ import (
 
 // Version returns package version
 func Version() string {
-	return "1.24.1"
+	return "1.24.8"
 }
 
 // Author returns package author

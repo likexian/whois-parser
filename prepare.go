@@ -929,16 +929,15 @@ func prepareEU(text string) string {
 		if _, ok := tokens[v]; ok {
 			token = tokens[v]
 			continue
-		} else {
-			if token != "" {
-				if strings.Contains(v, ":") {
-					v = fmt.Sprintf("%s %s", token, v)
-				} else {
-					if strings.HasPrefix(v, "Visit www.eurid.eu") {
-						continue
-					}
-					v = fmt.Sprintf("%s: %s", token, v)
+		}
+		if token != "" {
+			if strings.Contains(v, ":") {
+				v = fmt.Sprintf("%s %s", token, v)
+			} else {
+				if strings.HasPrefix(v, "Visit www.eurid.eu") {
+					continue
 				}
+				v = fmt.Sprintf("%s: %s", token, v)
 			}
 		}
 		result += "\n" + v
@@ -1155,9 +1154,8 @@ func prepareEE(text string) string {
 		if t, ok := tokens[v]; ok {
 			token = t
 			continue
-		} else {
-			v = fmt.Sprintf("%s %s", token, v)
 		}
+		v = fmt.Sprintf("%s %s", token, v)
 		result += "\n" + strings.TrimSpace(v)
 	}
 
@@ -1194,9 +1192,8 @@ func preparePL(text string) string {
 				ns := strings.SplitN(v, "[", 2)
 				result += fmt.Sprintf("\nnameservers: %s", strings.TrimSpace(ns[0]))
 				continue
-			} else {
-				special = ""
 			}
+			special = ""
 		} else if special == "REGISTRAR" {
 			if strings.TrimSpace(v) == "" {
 				special = ""

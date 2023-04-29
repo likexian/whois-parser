@@ -86,6 +86,7 @@ If there is any problem, please feel free to open a new issue.
 | .hk | [ibm.hk](hk_ibm.hk) | [ibm.hk](hk_ibm.hk.json) | √ |
 | .hm | [bin.hm](hm_bin.hm) | [bin.hm](hm_bin.hm.json) | √ |
 | .hm | [google.hm](hm_google.hm) | [google.hm](hm_google.hm.json) | √ |
+| .hu | [git.hu](hu_git.hu) | [git.hu](hu_git.hu.json) | √ |
 | .hu | [nic.hu](hu_nic.hu) | [nic.hu](hu_nic.hu.json) | √ |
 | .in | [git.in](in_git.in) | [git.in](in_git.in.json) | √ |
 | .in | [google.in](in_google.in) | [google.in](in_google.in.json) | √ |
