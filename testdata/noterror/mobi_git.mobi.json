@@ -19,7 +19,8 @@
         "updated_date": "2019-08-25T04:21:56Z",
         "updated_date_in_time": "2019-08-25T04:21:56Z",
         "expiration_date": "2020-05-19T03:25:15Z",
-        "expiration_date_in_time": "2020-05-19T03:25:15Z"
+        "expiration_date_in_time": "2020-05-19T03:25:15Z",
+        "reseller": "Rebel.com"
     },
     "registrar": {
         "id": "600",

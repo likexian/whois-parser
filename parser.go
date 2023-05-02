@@ -148,6 +148,8 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 			}
 		case "referral_url":
 			registrar.ReferralURL = value
+		case "reseller_name":
+			domain.Reseller = value
 		default:
 			name = clearKeyName(name)
 			if !strings.Contains(name, " ") {

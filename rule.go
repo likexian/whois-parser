@@ -183,5 +183,6 @@ var (
 		"registrant contact email":               "registrant_email",
 		"registrant contact e mail":              "registrant_email",
 		"registrant abuse contact email":         "registrant_email",
+		"reseller":                               "reseller_name",
 	}
 )

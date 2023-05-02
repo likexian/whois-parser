@@ -24,7 +24,8 @@
         "updated_date": "2019-02-07T09:22:28Z",
         "updated_date_in_time": "2019-02-07T09:22:28Z",
         "expiration_date": "2025-05-21T14:09:56Z",
-        "expiration_date_in_time": "2025-05-21T14:09:56Z"
+        "expiration_date_in_time": "2025-05-21T14:09:56Z",
+        "reseller": "GANDI SAS"
     },
     "registrar": {
         "id": "81",

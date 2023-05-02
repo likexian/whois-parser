@@ -22,7 +22,8 @@
         "updated_date": "2018-09-25T13:18:21.00Z",
         "updated_date_in_time": "2018-09-25T13:18:21Z",
         "expiration_date": "2022-04-12T04:00:00.00Z",
-        "expiration_date_in_time": "2022-04-12T04:00:00Z"
+        "expiration_date_in_time": "2022-04-12T04:00:00Z",
+        "reseller": "NAMECHEAP INC"
     },
     "registrar": {
         "id": "1068",
