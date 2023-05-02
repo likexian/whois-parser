@@ -51,7 +51,6 @@ If there is any problem, please feel free to open a new issue.
 | .com | [encirca.com](com_encirca.com) | [encirca.com](com_encirca.com.json) | √ |
 | .com | [git.com](com_git.com) | [git.com](com_git.com.json) | √ |
 | .com | [google.com](com_google.com) | [google.com](com_google.com.json) | √ |
-| .com | [maddogdomains.com](com_maddogdomains.com) | [maddogdomains.com](com_maddogdomains.com.json) | √ |
 | .com | [name.com](com_name.com) | [name.com](com_name.com.json) | √ |
 | .com | [rockcreekcc.com](com_rockcreekcc.com) | [rockcreekcc.com](com_rockcreekcc.com.json) | √ |
 | .coop | [git.coop](coop_git.coop) | [git.coop](coop_git.coop.json) | √ |
