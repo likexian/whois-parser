@@ -160,6 +160,7 @@ func parseDateString(dateString string) (time.Time, error) {
 		"01/02/2006",
 		"2006-Jan-02",
 		"2006-Jan-02.",
+		"before Jan-2006",
 	}
 
 	for _, format := range formats {
