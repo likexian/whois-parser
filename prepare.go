@@ -685,7 +685,7 @@ func prepareRU(text string) string {
 	return result
 }
 
-var prepareJPreplacerRx = regexp.MustCompile(`\n\[(.+?)\][\ ]*(.+?)?`)
+var prepareJPreplacerRx = regexp.MustCompile(`\n(?:\w+\.\s)?\[(.+?)\][\ ]*(.+?)?`)
 
 // prepareJP do prepare the .jp domain
 func prepareJP(text string) string {

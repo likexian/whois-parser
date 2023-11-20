@@ -154,7 +154,7 @@ func TestParse(t *testing.T) {
 		}
 
 		if !assert.IsContains([]string{"", "aq", "au", "br", "ch", "de", "eu", "gov", "ee",
-			"hm", "int", "name", "nl", "nz", "tk", "kz", "hu"}, extension) {
+			"hm", "int", "name", "nl", "nz", "tk", "kz", "hu"}, extension) && !strings.Contains(domain, "co.jp") {
 			assert.NotZero(t, whoisInfo.Domain.ExpirationDate)
 			assert.NotNil(t, whoisInfo.Domain.ExpirationDateInTime)
 		}
