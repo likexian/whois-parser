@@ -104,8 +104,11 @@ If there is any problem, please feel free to open a new issue.
 | .jobs | [google.jobs](jobs_google.jobs) | [google.jobs](jobs_google.jobs.json) | √ |
 | .jobs | [ybs.jobs](jobs_ybs.jobs) | [ybs.jobs](jobs_ybs.jobs.json) | √ |
 | .jp | [git.jp](jp_git.jp) | [git.jp](jp_git.jp.json) | √ |
+| .jp | [goo.ne.jp](jp_goo.ne.jp) | [goo.ne.jp](jp_goo.ne.jp.json) | √ |
 | .jp | [google.co.jp](jp_google.co.jp) | [google.co.jp](jp_google.co.jp.json) | √ |
 | .jp | [google.jp](jp_google.jp) | [google.jp](jp_google.jp.json) | √ |
+| .jp | [mod.go.jp](jp_mod.go.jp) | [mod.go.jp](jp_mod.go.jp.json) | √ |
+| .jp | [titech.ac.jp](jp_titech.ac.jp) | [titech.ac.jp](jp_titech.ac.jp.json) | √ |
 | .kr | [git.kr](kr_git.kr) | [git.kr](kr_git.kr.json) | √ |
 | .kr | [google.kr](kr_google.kr) | [google.kr](kr_google.kr.json) | √ |
 | .kz | [google.kz](kz_google.kz) | [google.kz](kz_google.kz.json) | √ |

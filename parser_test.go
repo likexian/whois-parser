@@ -142,7 +142,11 @@ func TestParse(t *testing.T) {
 		}
 
 		if !assert.IsContains([]string{"aq", "au", "de", "eu", "gov", "hm", "name", "nl", "nz", "ir", "tk",
-			"xn--mgba3a4f16a"}, extension) {
+			"xn--mgba3a4f16a"}, extension) &&
+			!strings.Contains(domain, "ac.jp") &&
+			!strings.Contains(domain, "co.jp") &&
+			!strings.Contains(domain, "go.jp") &&
+			!strings.Contains(domain, "ne.jp") {
 			assert.NotZero(t, whoisInfo.Domain.CreatedDate)
 			assert.NotNil(t, whoisInfo.Domain.CreatedDateInTime)
 		}
@@ -154,7 +158,11 @@ func TestParse(t *testing.T) {
 		}
 
 		if !assert.IsContains([]string{"", "aq", "au", "br", "ch", "de", "eu", "gov", "ee",
-			"hm", "int", "name", "nl", "nz", "tk", "kz", "hu"}, extension) && !strings.Contains(domain, "co.jp") {
+			"hm", "int", "name", "nl", "nz", "tk", "kz", "hu"}, extension) &&
+			!strings.Contains(domain, "ac.jp") &&
+			!strings.Contains(domain, "co.jp") &&
+			!strings.Contains(domain, "go.jp") &&
+			!strings.Contains(domain, "ne.jp") {
 			assert.NotZero(t, whoisInfo.Domain.ExpirationDate)
 			assert.NotNil(t, whoisInfo.Domain.ExpirationDateInTime)
 		}

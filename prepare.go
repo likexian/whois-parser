@@ -712,6 +712,7 @@ func prepareJP(text string) string {
 			if strings.ToLower(token) == "registrant" {
 				v = fmt.Sprintf("registrant name: %s", vs[1])
 			}
+			v = prepareSecondLevelJP(v, token, vs[1])
 		} else {
 			if token == addressToken {
 				result += ", " + v
@@ -722,6 +723,29 @@ func prepareJP(text string) string {
 	}
 
 	return result
+}
+
+// prepareJP prepares specific mappings for second level .jp domains
+// examples include:
+// - co.jp
+// - ac.jp
+// - go.jp
+// - or.jp
+// - ad.jp
+// - ne.jp
+// - gr.jp
+// - ed.jp
+func prepareSecondLevelJP(original string, token string, value string) string {
+	if strings.ToLower(token) == "administrative contact" {
+		return fmt.Sprintf("Administrative Contact ID: %s", strings.TrimSpace(value))
+	}
+	if strings.ToLower(token) == "technical contact" {
+		return fmt.Sprintf("Technical Contact ID: %s", strings.TrimSpace(value))
+	}
+	if strings.ToLower(token) == "organization" || strings.ToLower(token) == "network service name" {
+		return fmt.Sprintf("Registrant Organization: %s", strings.TrimSpace(value))
+	}
+	return original
 }
 
 // prepareUK do prepare the .uk domain
