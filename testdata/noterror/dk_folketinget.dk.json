@@ -1,0 +1,29 @@
+{
+    "domain": {
+        "domain": "folketinget.dk",
+        "punycode": "folketinget.dk",
+        "name": "folketinget",
+        "extension": "dk",
+        "status": [
+            "active"
+        ],
+        "name_servers": [
+            "maleah.ns.cloudflare.com",
+            "yichun.ns.cloudflare.com"
+        ],
+        "dnssec": true,
+        "created_date": "1996-05-23",
+        "created_date_in_time": "1996-05-23T00:00:00Z",
+        "expiration_date": "2024-06-30",
+        "expiration_date_in_time": "2024-06-30T00:00:00Z"
+    },
+    "registrant": {
+        "name": "Folketinget",
+        "street": "Christiansborg Slot 1",
+        "city": "København K",
+        "postal_code": "1218",
+        "country": "DK",
+        "phone": "+4533375500",
+        "email": "john skovgaard sørensen"
+    }
+}
