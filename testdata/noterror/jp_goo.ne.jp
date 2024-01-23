@@ -1,0 +1,26 @@
+[ JPRS database provides information on network administration. Its use is    ]
+[ restricted to network administration purposes. For further information,     ]
+[ use 'whois -h whois.jprs.jp help'. To suppress Japanese output, add'/e'     ]
+[ at the end of command, e.g. 'whois -h whois.jprs.jp xxx/e'.                 ]
+[                                                                             ]
+[ Notice -------------------------------------------------------------------- ]
+[ JPRS will add the [Lock Status] element to the response format of JP domain ]
+[ name on November 12, 2023.                                                  ]
+[ For further information, please see the following webpage.                  ]
+[ https://jprs.jp/whatsnew/notice/2023/231112.html (only in Japanese)         ]
+[ --------------------------------------------------------------------------- ]
+Domain Information:
+a. [Domain Name]                GOO.NE.JP
+d. [Network Service Name]       GOO
+l. [Organization Type]          Network Service
+m. [Administrative Contact]     MS57072JP
+n. [Technical Contact]          TH53991JP
+p. [Name Server]                ns1.goo.ne.jp
+p. [Name Server]                ns2.goo.ne.jp
+p. [Name Server]                ns.intervia.ad.jp
+p. [Name Server]                ns.via.or.jp
+s. [Signing Key]                
+[State]                         Connected (2024/06/30)
+[Registered Date]               2004/06/15
+[Connected Date]                2004/06/15
+[Last Update]                   2023/07/31 12:30:39 (JST)

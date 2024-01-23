@@ -1,0 +1,35 @@
+{
+    "domain": {
+        "domain": "mod.go.jp",
+        "punycode": "mod.go.jp",
+        "name": "mod.go",
+        "extension": "jp",
+        "status": [
+            "connected"
+        ],
+        "name_servers": [
+            "ns1.mod.go.jp",
+            "ns2.mod.go.jp",
+            "ns3.mod.go.jp",
+            "ns5.mod.go.jp",
+            "ns6.mod.go.jp",
+            "ns6-tk01.ocn.ad.jp",
+            "auth1.ns.gin.ntt.net",
+            "auth2.ns.gin.ntt.net",
+            "auth3.ns.gin.ntt.net",
+            "auth4.ns.gin.ntt.net",
+            "auth5.ns.gin.ntt.net"
+        ],
+        "created_date": "2006/12/19",
+        "updated_date": "2024/01/01 01:04:32 (JST)"
+    },
+    "registrant": {
+        "organization": "Ministry of Defense"
+    },
+    "administrative": {
+        "id": "HM15693JP"
+    },
+    "technical": {
+        "id": "HM15693JP"
+    }
+}
