@@ -122,7 +122,7 @@ func TestParse(t *testing.T) {
 		}
 
 		if assert.IsContains([]string{"aftermarket.pl", "nazwa.pl", "git.nl", "git.wf", "by",
-			"switch.ch", "git.xyz", "emilstahl.dk", "nic.nu", "xn--fl-fka.se"}, domain) {
+			"switch.ch", "git.xyz", "emilstahl.dk", "folketinget.dk", "nic.nu", "xn--fl-fka.se"}, domain) {
 			assert.True(t, whoisInfo.Domain.DNSSec)
 		} else {
 			assert.False(t, whoisInfo.Domain.DNSSec)

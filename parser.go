@@ -153,6 +153,8 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 			if !strings.Contains(name, " ") {
 				if name == "registrar" {
 					name += " name"
+				} else if domain.Extension == "dk" {
+					name = "registrant " + name
 				} else {
 					name += " organization"
 				}
