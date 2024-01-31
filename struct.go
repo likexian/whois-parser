@@ -48,6 +48,7 @@ type Domain struct {
 	UpdatedDateInTime    *time.Time `json:"updated_date_in_time,omitempty"`
 	ExpirationDate       string     `json:"expiration_date,omitempty"`
 	ExpirationDateInTime *time.Time `json:"expiration_date_in_time,omitempty"`
+	Reseller             string     `json:"reseller,omitempty"`
 }
 
 // Contact storing domain contact info

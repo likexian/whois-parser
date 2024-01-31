@@ -18,7 +18,8 @@
         "updated_date": "2019-09-18T15:20:27Z",
         "updated_date_in_time": "2019-09-18T15:20:27Z",
         "expiration_date": "2019-11-17T16:11:05Z",
-        "expiration_date_in_time": "2019-11-17T16:11:05Z"
+        "expiration_date_in_time": "2019-11-17T16:11:05Z",
+        "reseller": "Netsto Limited"
     },
     "registrar": {
         "id": "81",
