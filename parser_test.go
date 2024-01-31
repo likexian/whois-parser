@@ -122,7 +122,7 @@ func TestParse(t *testing.T) {
 		}
 
 		if assert.IsContains([]string{"aftermarket.pl", "nazwa.pl", "git.nl", "git.wf", "by",
-			"switch.ch", "git.xyz", "emilstahl.dk", "nic.nu", "xn--fl-fka.se"}, domain) {
+			"switch.ch", "git.xyz", "emilstahl.dk", "folketinget.dk", "nic.nu", "xn--fl-fka.se"}, domain) {
 			assert.True(t, whoisInfo.Domain.DNSSec)
 		} else {
 			assert.False(t, whoisInfo.Domain.DNSSec)
@@ -142,7 +142,11 @@ func TestParse(t *testing.T) {
 		}
 
 		if !assert.IsContains([]string{"aq", "au", "de", "eu", "gov", "hm", "name", "nl", "nz", "ir", "tk",
-			"xn--mgba3a4f16a"}, extension) {
+			"xn--mgba3a4f16a"}, extension) &&
+			!strings.Contains(domain, "ac.jp") &&
+			!strings.Contains(domain, "co.jp") &&
+			!strings.Contains(domain, "go.jp") &&
+			!strings.Contains(domain, "ne.jp") {
 			assert.NotZero(t, whoisInfo.Domain.CreatedDate)
 			assert.NotNil(t, whoisInfo.Domain.CreatedDateInTime)
 		}
@@ -154,7 +158,11 @@ func TestParse(t *testing.T) {
 		}
 
 		if !assert.IsContains([]string{"", "aq", "au", "br", "ch", "de", "eu", "gov", "ee",
-			"hm", "int", "name", "nl", "nz", "tk", "kz", "hu"}, extension) {
+			"hm", "int", "name", "nl", "nz", "tk", "kz", "hu"}, extension) &&
+			!strings.Contains(domain, "ac.jp") &&
+			!strings.Contains(domain, "co.jp") &&
+			!strings.Contains(domain, "go.jp") &&
+			!strings.Contains(domain, "ne.jp") {
 			assert.NotZero(t, whoisInfo.Domain.ExpirationDate)
 			assert.NotNil(t, whoisInfo.Domain.ExpirationDateInTime)
 		}

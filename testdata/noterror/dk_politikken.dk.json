@@ -1,0 +1,29 @@
+{
+    "domain": {
+        "domain": "politikken.dk",
+        "punycode": "politikken.dk",
+        "name": "politikken",
+        "extension": "dk",
+        "status": [
+            "active"
+        ],
+        "name_servers": [
+            "ns-1307.awsdns-35.org",
+            "ns-155.awsdns-19.com",
+            "ns-1951.awsdns-51.co.uk",
+            "ns-534.awsdns-02.net"
+        ],
+        "created_date": "1997-01-31",
+        "created_date_in_time": "1997-01-31T00:00:00Z",
+        "expiration_date": "2024-03-31",
+        "expiration_date_in_time": "2024-03-31T00:00:00Z"
+    },
+    "registrant": {
+        "name": "JP/POLITIKENS HUS A/S",
+        "street": "Mediebyen 3",
+        "city": "Aarhus C",
+        "postal_code": "8000",
+        "country": "DK",
+        "email": "jens.mogensen@jppol.dk"
+    }
+}

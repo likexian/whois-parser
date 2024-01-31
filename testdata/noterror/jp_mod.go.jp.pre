@@ -1,0 +1,33 @@
+[ JPRS database provides information on network administration. Its use is    ]
+restricted to network administration purposes. For further information,     :
+use 'whois -h whois.jprs.jp help'. To suppress Japanese output, add'/e'     :
+at the end of command, e.g. 'whois -h whois.jprs.jp xxx/e'.                 :
+:
+Notice -------------------------------------------------------------------- :
+JPRS will add the [Lock Status: element to the response format of JP domain ]
+name on November 12, 2023.                                                  :
+For further information, please see the following webpage.                  :
+https://jprs.jp/whatsnew/notice/2023/231112.html (only in Japanese)         :
+--------------------------------------------------------------------------- :
+Domain Information:
+Domain Name: MOD.GO.JP
+Registrant Organization: Ministry of Defense
+Organization Type: Government Office
+Administrative Contact ID: HM15693JP
+Technical Contact ID: HM15693JP
+Name Server: ns1.mod.go.jp
+Name Server: ns2.mod.go.jp
+Name Server: ns3.mod.go.jp
+Name Server: ns5.mod.go.jp
+Name Server: ns6.mod.go.jp
+Name Server: ns6-tk01.ocn.ad.jp
+Name Server: auth1.ns.gin.ntt.net
+Name Server: auth2.ns.gin.ntt.net
+Name Server: auth3.ns.gin.ntt.net
+Name Server: auth4.ns.gin.ntt.net
+Name Server: auth5.ns.gin.ntt.net
+Signing Key:
+State: Connected (2024/12/31)
+Registered Date: 2006/12/19
+Connected Date: 2006/12/25
+Last Update: 2024/01/01 01:04:32 (JST)

@@ -1,0 +1,27 @@
+[ JPRS database provides information on network administration. Its use is    ]
+[ restricted to network administration purposes. For further information,     ]
+[ use 'whois -h whois.jprs.jp help'. To suppress Japanese output, add'/e'     ]
+[ at the end of command, e.g. 'whois -h whois.jprs.jp xxx/e'.                 ]
+[                                                                             ]
+[ Notice -------------------------------------------------------------------- ]
+[ JPRS will add the [Lock Status] element to the response format of JP domain ]
+[ name on November 12, 2023.                                                  ]
+[ For further information, please see the following webpage.                  ]
+[ https://jprs.jp/whatsnew/notice/2023/231112.html (only in Japanese)         ]
+[ --------------------------------------------------------------------------- ]
+Domain Information:
+a. [Domain Name]                TITECH.AC.JP
+g. [Organization]               Tokyo Institute of Technology
+l. [Organization Type]          National University Corporation
+m. [Administrative Contact]     YS12912JP
+n. [Technical Contact]          MT47768JP
+n. [Technical Contact]          YS12912JP
+n. [Technical Contact]          NM23856JP
+p. [Name Server]                ns.fujisawa.wide.ad.jp
+p. [Name Server]                ns1.noc.titech.ac.jp
+p. [Name Server]                ns2.noc.titech.ac.jp
+s. [Signing Key]                
+[State]                         Connected (2024/03/31)
+[Registered Date]                
+[Connected Date]                 
+[Last Update]                   2023/04/01 01:04:55 (JST)
