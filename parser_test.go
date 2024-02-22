@@ -78,6 +78,36 @@ func TestParseError(t *testing.T) {
 	assert.Equal(t, err, ErrNotFoundDomain)
 }
 
+func TestParseSG(t *testing.T) {
+	whoisRaw, err := xfile.ReadText(noterrorDir + "/sg_google.sg")
+	assert.Nil(t, err)
+
+	whoisInfo, err := Parse(whoisRaw)
+	assert.Nil(t, err, "expected no error, but got", err)
+
+	assert.Equal(t, whoisInfo.Domain.Punycode, "google.sg", "expected google.sg, but got", whoisInfo.Domain.Punycode)
+	assert.Equal(t, whoisInfo.Domain.Extension, "sg", "expected sg, but got", whoisInfo.Domain.Extension)
+
+	//assert.NotZero(t, whoisInfo.Domain.ID, "expected none zero ID")
+	assert.NotZero(t, whoisInfo.Domain.Status, "expected none zero Status")
+	//assert.NotZero(t, whoisInfo.Domain.WhoisServer, "expected none zero WhoisServer")
+	assert.NotZero(t, whoisInfo.Domain.NameServers, "expected none zero NameServers")
+	assert.NotZero(t, whoisInfo.Domain.CreatedDate, "expected none zero CreatedDate")
+	assert.NotZero(t, whoisInfo.Domain.CreatedDateInTime, "expected none zero CreatedDateInTime")
+	// TODO: Fix the next two lines
+	assert.NotZero(t, whoisInfo.Domain.UpdatedDate, "expected none zero UpdatedDate")
+	assert.NotZero(t, whoisInfo.Domain.UpdatedDateInTime, "expected none zero UpdatedDateInTime")
+	assert.NotZero(t, whoisInfo.Domain.ExpirationDate, "expected none zero ExpirationDate")
+	assert.NotZero(t, whoisInfo.Domain.ExpirationDateInTime, "expected none zero ExpirationDateInTime")
+
+	//assert.NotZero(t, whoisInfo.Registrar.ID, "expected none zero Registrar.ID")
+	assert.NotZero(t, whoisInfo.Registrar.Name, "expected none zero Registrar.Name")
+	//assert.NotZero(t, whoisInfo.Registrar.ReferralURL, "expected none zero Registrar.ReferralURL")
+
+	err = xjson.Dump(noterrorDir+"/sg_google.sg.json", whoisInfo)
+	assert.Nil(t, err)
+}
+
 func TestParse(t *testing.T) {
 	extensions := []string{}
 	domains := map[string][]string{}
@@ -112,7 +142,7 @@ func TestParse(t *testing.T) {
 		if !assert.IsContains([]string{"", "aq", "br", "ch", "de", "edu", "eu", "fr", "gov", "hk",
 			"hm", "int", "it", "jp", "kr", "kz", "mo", "nl", "nz", "pl", "pm", "re", "ro", "ru", "su", "tf", "ee",
 			"tk", "travel", "tv", "tw", "uk", "wf", "yt", "ir", "fi", "rs", "dk", "by", "ua",
-			"xn--mgba3a4f16a", "xn--p1ai", "se", "nu", "hu"}, extension) {
+			"xn--mgba3a4f16a", "xn--p1ai", "se", "sg", "nu", "hu"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.ID)
 		}
 
@@ -132,9 +162,9 @@ func TestParse(t *testing.T) {
 			"co", "cymru", "de", "edu", "eu", "fr", "gov", "hk", "hm", "in", "int", "it", "jp", "kr",
 			"la", "london", "me", "mo", "museum", "name", "nl", "nz", "pm", "re", "ro", "ru", "sh",
 			"kz", "su", "tel", "ee", "tf", "tk", "travel", "tw", "uk", "us", "wales", "wf", "xxx",
-			"yt", "ir", "fi", "rs", "dk", "by", "ua", "xn--mgba3a4f16a", "xn--fiqs8s", "xn--p1ai",
+			"yt", "ir", "fi", "rs", "dk", "by", "ua", "sg", "xn--mgba3a4f16a", "xn--fiqs8s", "xn--p1ai",
 			"se", "nu", "hu"}, extension) {
-			assert.NotZero(t, whoisInfo.Domain.WhoisServer)
+			assert.NotZero(t, whoisInfo.Domain.WhoisServer, whoisInfo.Domain)
 		}
 
 		if !assert.IsContains([]string{"gov", "name", "tw", "hu"}, extension) {
@@ -169,7 +199,7 @@ func TestParse(t *testing.T) {
 
 		if !assert.IsContains([]string{"", "ai", "aq", "au", "br", "ca", "ch", "cn", "cx", "de",
 			"edu", "eu", "fr", "gov", "gs", "hk", "hm", "int", "it", "jp", "kr", "kz", "la", "mo", "nl",
-			"nz", "pl", "pm", "re", "ro", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt", "ir", "fi", "rs",
+			"nz", "pl", "pm", "re", "ro", "ru", "su", "sg", "tf", "tk", "tw", "uk", "wf", "yt", "ir", "fi", "rs",
 			"ee", "dk", "by", "ua", "xn--mgba3a4f16a", "xn--fiqs8s", "xn--p1ai", "se", "nu", "hu"}, extension) {
 			assert.NotZero(t, whoisInfo.Registrar.ID)
 		}
@@ -181,7 +211,7 @@ func TestParse(t *testing.T) {
 
 		if !assert.IsContains([]string{"", "aero", "ai", "aq", "asia", "au", "br", "ch", "cn", "de",
 			"edu", "gov", "hk", "hm", "int", "jp", "kr", "kz", "la", "london", "love", "mo",
-			"museum", "name", "nl", "nz", "pl", "ru", "su", "tk", "top", "ir", "fi", "rs", "dk", "by", "ua",
+			"museum", "name", "nl", "nz", "pl", "ru", "sg", "su", "tk", "top", "ir", "fi", "rs", "dk", "by", "ua",
 			"xn--mgba3a4f16a", "xn--fiqs8s", "xn--p1ai", "se", "nu", "hu"}, extension) {
 			assert.NotZero(t, whoisInfo.Registrar.ReferralURL)
 		}

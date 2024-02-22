@@ -80,6 +80,7 @@ var (
 		"last updated":                           "updated_date",
 		"last updated on":                        "updated_date",
 		"last modified":                          "updated_date",
+		"modified date":                          "updated_date",
 		"last updated date":                      "updated_date",
 		"domain last updated date":               "updated_date",
 		"domain record last updated":             "updated_date",

@@ -1,0 +1,43 @@
+{
+    "domain": {
+        "domain": "google.sg",
+        "punycode": "google.sg",
+        "name": "google",
+        "extension": "sg",
+        "status": [
+            "ok",
+            "clientupdateprohibited",
+            "clienttransferprohibited",
+            "clientdeleteprohibited",
+            "verifiedid@sg-notrequired"
+        ],
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns3.google.com",
+            "ns4.google.com"
+        ],
+        "created_date": "03-Jan-2005 12:00:00",
+        "created_date_in_time": "2005-01-03T12:00:00Z",
+        "updated_date": "02-Dec-2023 18:09:56",
+        "updated_date_in_time": "2023-12-02T18:09:56Z",
+        "expiration_date": "03-Jan-2025 00:00:00",
+        "expiration_date_in_time": "2025-01-03T00:00:00Z"
+    },
+    "registrar": {
+        "name": "MARKMONITOR INC"
+    },
+    "registrant": {
+        "id": "SGNIC-ORG1624232",
+        "name": "GOOGLE LLC"
+    },
+    "administrative": {
+        "id": "SGNIC-ORG1301403",
+        "name": "MARKMONITOR INC."
+    },
+    "technical": {
+        "id": "SGNIC-ORG1624233",
+        "name": "GOOGLE LLC",
+        "email": "dns-admin@google.com"
+    }
+}

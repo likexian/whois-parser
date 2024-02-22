@@ -166,6 +166,8 @@ If there is any problem, please feel free to open a new issue.
 | .se | [föl.se](se_xn--fl-fka.se) | [föl.se](se_xn--fl-fka.se.json) | √ |
 | .sexy | [google.sexy](sexy_google.sexy) | [google.sexy](sexy_google.sexy.json) | √ |
 | .sexy | [line.sexy](sexy_line.sexy) | [line.sexy](sexy_line.sexy.json) | √ |
+| .sg | [godaddy.sg](sg_godaddy.sg) | [godaddy.sg](sg_godaddy.sg.json) | √ |
+| .sg | [google.sg](sg_google.sg) | [google.sg](sg_google.sg.json) | √ |
 | .sh | [git.sh](sh_git.sh) | [git.sh](sh_git.sh.json) | √ |
 | .sh | [google.sh](sh_google.sh) | [google.sh](sh_google.sh.json) | √ |
 | .su | [git.su](su_git.su) | [git.su](su_git.su.json) | √ |
