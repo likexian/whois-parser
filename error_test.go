@@ -26,10 +26,6 @@ import (
 	"github.com/likexian/gokit/xfile"
 )
 
-func TestRead(t *testing.T) {
-	
-}
-
 func TestAsisNotFoundDomain(t *testing.T) {
 	// iamnotexistsdomain.CN
 	data := `No matching record.`

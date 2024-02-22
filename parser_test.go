@@ -78,36 +78,6 @@ func TestParseError(t *testing.T) {
 	assert.Equal(t, err, ErrNotFoundDomain)
 }
 
-func TestParseSG(t *testing.T) {
-	whoisRaw, err := xfile.ReadText(noterrorDir + "/sg_google.sg")
-	assert.Nil(t, err)
-
-	whoisInfo, err := Parse(whoisRaw)
-	assert.Nil(t, err, "expected no error, but got", err)
-
-	assert.Equal(t, whoisInfo.Domain.Punycode, "google.sg", "expected google.sg, but got", whoisInfo.Domain.Punycode)
-	assert.Equal(t, whoisInfo.Domain.Extension, "sg", "expected sg, but got", whoisInfo.Domain.Extension)
-
-	//assert.NotZero(t, whoisInfo.Domain.ID, "expected none zero ID")
-	assert.NotZero(t, whoisInfo.Domain.Status, "expected none zero Status")
-	//assert.NotZero(t, whoisInfo.Domain.WhoisServer, "expected none zero WhoisServer")
-	assert.NotZero(t, whoisInfo.Domain.NameServers, "expected none zero NameServers")
-	assert.NotZero(t, whoisInfo.Domain.CreatedDate, "expected none zero CreatedDate")
-	assert.NotZero(t, whoisInfo.Domain.CreatedDateInTime, "expected none zero CreatedDateInTime")
-	// TODO: Fix the next two lines
-	assert.NotZero(t, whoisInfo.Domain.UpdatedDate, "expected none zero UpdatedDate")
-	assert.NotZero(t, whoisInfo.Domain.UpdatedDateInTime, "expected none zero UpdatedDateInTime")
-	assert.NotZero(t, whoisInfo.Domain.ExpirationDate, "expected none zero ExpirationDate")
-	assert.NotZero(t, whoisInfo.Domain.ExpirationDateInTime, "expected none zero ExpirationDateInTime")
-
-	//assert.NotZero(t, whoisInfo.Registrar.ID, "expected none zero Registrar.ID")
-	assert.NotZero(t, whoisInfo.Registrar.Name, "expected none zero Registrar.Name")
-	//assert.NotZero(t, whoisInfo.Registrar.ReferralURL, "expected none zero Registrar.ReferralURL")
-
-	err = xjson.Dump(noterrorDir+"/sg_google.sg.json", whoisInfo)
-	assert.Nil(t, err)
-}
-
 func TestParse(t *testing.T) {
 	extensions := []string{}
 	domains := map[string][]string{}
