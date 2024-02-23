@@ -73,6 +73,9 @@ func fixDomainStatus(status []string) []string {
 	for k, v := range status {
 		names := strings.Split(strings.TrimSpace(v), " ")
 		status[k] = strings.ToLower(names[0])
+		if status[k] == "not" && len(names) > 1 && strings.ToLower(names[1]) == "delegated" {
+			status[k] = "not delegated"
+		}
 	}
 
 	return status
@@ -157,6 +160,7 @@ func parseDateString(dateString string) (time.Time, error) {
 		"01/02/2006",
 		"2006-Jan-02",
 		"2006-Jan-02.",
+		"before Jan-2006",
 	}
 
 	for _, format := range formats {

@@ -1,0 +1,26 @@
+{
+    "domain": {
+        "domain": "titech.ac.jp",
+        "punycode": "titech.ac.jp",
+        "name": "titech.ac",
+        "extension": "jp",
+        "status": [
+            "connected"
+        ],
+        "name_servers": [
+            "ns.fujisawa.wide.ad.jp",
+            "ns1.noc.titech.ac.jp",
+            "ns2.noc.titech.ac.jp"
+        ],
+        "updated_date": "2023/04/01 01:04:55 (JST)"
+    },
+    "registrant": {
+        "organization": "Tokyo Institute of Technology"
+    },
+    "administrative": {
+        "id": "YS12912JP"
+    },
+    "technical": {
+        "id": "NM23856JP"
+    }
+}

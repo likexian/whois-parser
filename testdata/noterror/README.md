@@ -62,7 +62,9 @@ If there is any problem, please feel free to open a new issue.
 | .de | [git.de](de_git.de) | [git.de](de_git.de.json) | √ |
 | .de | [google.de](de_google.de) | [google.de](de_google.de.json) | √ |
 | .dk | [emilstahl.dk](dk_emilstahl.dk) | [emilstahl.dk](dk_emilstahl.dk.json) | √ |
+| .dk | [folketinget.dk](dk_folketinget.dk) | [folketinget.dk](dk_folketinget.dk.json) | √ |
 | .dk | [google.dk](dk_google.dk) | [google.dk](dk_google.dk.json) | √ |
+| .dk | [politikken.dk](dk_politikken.dk) | [politikken.dk](dk_politikken.dk.json) | √ |
 | .edu | [cornell.edu](edu_cornell.edu) | [cornell.edu](edu_cornell.edu.json) | √ |
 | .edu | [rutgers.edu](edu_rutgers.edu) | [rutgers.edu](edu_rutgers.edu.json) | √ |
 | .edu | [snai.edu](edu_snai.edu) | [snai.edu](edu_snai.edu.json) | √ |
@@ -104,7 +106,11 @@ If there is any problem, please feel free to open a new issue.
 | .jobs | [google.jobs](jobs_google.jobs) | [google.jobs](jobs_google.jobs.json) | √ |
 | .jobs | [ybs.jobs](jobs_ybs.jobs) | [ybs.jobs](jobs_ybs.jobs.json) | √ |
 | .jp | [git.jp](jp_git.jp) | [git.jp](jp_git.jp.json) | √ |
+| .jp | [goo.ne.jp](jp_goo.ne.jp) | [goo.ne.jp](jp_goo.ne.jp.json) | √ |
+| .jp | [google.co.jp](jp_google.co.jp) | [google.co.jp](jp_google.co.jp.json) | √ |
 | .jp | [google.jp](jp_google.jp) | [google.jp](jp_google.jp.json) | √ |
+| .jp | [mod.go.jp](jp_mod.go.jp) | [mod.go.jp](jp_mod.go.jp.json) | √ |
+| .jp | [titech.ac.jp](jp_titech.ac.jp) | [titech.ac.jp](jp_titech.ac.jp.json) | √ |
 | .kr | [git.kr](kr_git.kr) | [git.kr](kr_git.kr.json) | √ |
 | .kr | [google.kr](kr_google.kr) | [google.kr](kr_google.kr.json) | √ |
 | .kz | [google.kz](kz_google.kz) | [google.kz](kz_google.kz.json) | √ |
@@ -160,6 +166,8 @@ If there is any problem, please feel free to open a new issue.
 | .se | [föl.se](se_xn--fl-fka.se) | [föl.se](se_xn--fl-fka.se.json) | √ |
 | .sexy | [google.sexy](sexy_google.sexy) | [google.sexy](sexy_google.sexy.json) | √ |
 | .sexy | [line.sexy](sexy_line.sexy) | [line.sexy](sexy_line.sexy.json) | √ |
+| .sg | [godaddy.sg](sg_godaddy.sg) | [godaddy.sg](sg_godaddy.sg.json) | √ |
+| .sg | [google.sg](sg_google.sg) | [google.sg](sg_google.sg.json) | √ |
 | .sh | [git.sh](sh_git.sh) | [git.sh](sh_git.sh.json) | √ |
 | .sh | [google.sh](sh_google.sh) | [google.sh](sh_google.sh.json) | √ |
 | .su | [git.su](su_git.su) | [git.su](su_git.su.json) | √ |

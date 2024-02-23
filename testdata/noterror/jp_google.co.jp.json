@@ -1,0 +1,28 @@
+{
+    "domain": {
+        "domain": "google.co.jp",
+        "punycode": "google.co.jp",
+        "name": "google.co",
+        "extension": "jp",
+        "status": [
+            "connected"
+        ],
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns3.google.com",
+            "ns4.google.com"
+        ],
+        "created_date": "2001/03/22",
+        "updated_date": "2023/04/01 01:05:57 (JST)"
+    },
+    "registrant": {
+        "organization": "Google Japan G.K."
+    },
+    "administrative": {
+        "id": "YN47525JP"
+    },
+    "technical": {
+        "id": "SH36113JP"
+    }
+}

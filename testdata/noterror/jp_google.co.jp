@@ -1,0 +1,27 @@
+[ JPRS database provides information on network administration. Its use is    ]
+[ restricted to network administration purposes. For further information,     ]
+[ use 'whois -h whois.jprs.jp help'. To suppress Japanese output, add'/e'     ]
+[ at the end of command, e.g. 'whois -h whois.jprs.jp xxx/e'.                 ]
+[                                                                             ]
+[ Notice -------------------------------------------------------------------- ]
+[ JPRS will add the [Lock Status] element to the response format of JP domain ]
+[ name on November 12, 2023.                                                  ]
+[ For further information, please see the following webpage.                  ]
+[ https://jprs.jp/whatsnew/notice/2023/231112.html (only in Japanese)         ]
+[ --------------------------------------------------------------------------- ]
+Domain Information:
+a. [Domain Name]                GOOGLE.CO.JP
+g. [Organization]               Google Japan G.K.
+l. [Organization Type]          GK
+m. [Administrative Contact]     YN47525JP
+n. [Technical Contact]          SH36113JP
+p. [Name Server]                ns1.google.com
+p. [Name Server]                ns2.google.com
+p. [Name Server]                ns3.google.com
+p. [Name Server]                ns4.google.com
+s. [Signing Key]                
+[State]                         Connected (2024/03/31)
+[Lock Status]                   AgentChangeLocked
+[Registered Date]               2001/03/22
+[Connected Date]                2001/03/22
+[Last Update]                   2023/04/01 01:05:57 (JST)

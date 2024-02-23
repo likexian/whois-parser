@@ -80,6 +80,7 @@ var (
 		"last updated":                           "updated_date",
 		"last updated on":                        "updated_date",
 		"last modified":                          "updated_date",
+		"modified date":                          "updated_date",
 		"last updated date":                      "updated_date",
 		"domain last updated date":               "updated_date",
 		"domain record last updated":             "updated_date",
@@ -154,6 +155,7 @@ var (
 		"registrant zip code":                    "registrant_postal_code",
 		"registrant postal code":                 "registrant_postal_code",
 		"registrant contact postal code":         "registrant_postal_code",
+		"registrant postalcode":                  "registrant_postal_code",
 		"registrant country":                     "registrant_country",
 		"registrant country economy":             "registrant_country",
 		"registrant contact country":             "registrant_country",
@@ -183,6 +185,7 @@ var (
 		"registrant contact email":               "registrant_email",
 		"registrant contact e mail":              "registrant_email",
 		"registrant abuse contact email":         "registrant_email",
+		"registrant attention":                   "registrant_email",
 		"reseller":                               "reseller_name",
 	}
 )

@@ -1,0 +1,39 @@
+# Hello 1.1.1.1. Your session has been logged.
+#
+# Copyright (c) 2002 - 2024 by Punktum dk A/S
+#
+# Version: 5.2.0
+#
+# The data in the DK Whois database is provided by Punktum dk A/S
+# for information purposes only, and to assist persons in obtaining
+# information about or related to a domain name registration record.
+# We do not guarantee its accuracy. We will reserve the right to remove
+# access for entities abusing the data, without notice.
+#
+# Any use of this material to target advertising or similar activities
+# are explicitly forbidden and will be prosecuted. Punktum dk A/S
+# requests to be notified of any such activities or suspicions thereof.
+
+Domain:               politikken.dk
+DNS:                  politikken.dk
+Registered:           1997-01-31
+Expires:              2024-03-31
+Registration period:  1 year
+VID:                  no
+DNSSEC:               Unsigned delegation, DNSSEC disabled, no records
+Status:               Active
+
+Registrant
+Handle:               ***N/A***
+Name:                 JP/POLITIKENS HUS A/S
+Attention:            jens.mogensen@jppol.dk
+Address:              Mediebyen 3
+Postalcode:           8000
+City:                 Aarhus C
+Country:              DK
+
+Nameservers
+Hostname:             ns-1307.awsdns-35.org
+Hostname:             ns-155.awsdns-19.com
+Hostname:             ns-1951.awsdns-51.co.uk
+Hostname:             ns-534.awsdns-02.net

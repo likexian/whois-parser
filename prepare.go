@@ -91,6 +91,8 @@ func Prepare(text, ext string) (string, bool) { //nolint:cyclop
 		return prepareBY(text), true
 	case "ua":
 		return prepareUA(text), true
+	case "sg":
+		return prepareSG(text), true
 	default:
 		return text, false
 	}
@@ -123,6 +125,46 @@ func prepareTLD(text string) string {
 			}
 		}
 		result += "\n" + v
+	}
+
+	return result
+}
+
+var sgIDRx = regexp.MustCompile(`\(([^)]+)\)`)
+
+func prepareSG(text string) string {
+	lines := strings.Split(text, "\n")
+	result := ""
+
+	var currentContactType string
+	for _, line := range lines {
+		line = strings.TrimSpace(line)
+		if strings.Contains(line, "Contact:") {
+			currentContactType = strings.Split(line, " ")[0]
+		} else if strings.HasPrefix(line, "Registrant:") {
+			currentContactType = "Registrant"
+			line = strings.TrimPrefix(line, "Registrant:")
+		}
+
+		if strings.HasPrefix(line, "Domain Status") {
+			status := strings.TrimPrefix(line, "Domain Status:")
+			status = strings.ReplaceAll(status, " ", "")
+			result += fmt.Sprintf("Domain Status: %s\n", status)
+			continue
+		}
+		if strings.HasPrefix(line, "Email:") {
+			line = fmt.Sprintf("%s %s:", currentContactType, line)
+		}
+		if strings.HasPrefix(line, "Name:") {
+			matches := sgIDRx.FindStringSubmatch(line)
+			if len(matches) > 1 {
+				name := strings.TrimPrefix(line, "Name:")
+				name = strings.TrimSpace(strings.Split(name, "(")[0]) // Remove ID and parentheses from name
+				result += fmt.Sprintf("%s Name: %s\n%s ID: %s\n", currentContactType, name, currentContactType, matches[1])
+			}
+		} else if !strings.HasPrefix(line, "Registrant:") {
+			result += line + "\n"
+		}
 	}
 
 	return result
@@ -685,7 +727,7 @@ func prepareRU(text string) string {
 	return result
 }
 
-var prepareJPreplacerRx = regexp.MustCompile(`\n\[(.+?)\][\ ]*(.+?)?`)
+var prepareJPreplacerRx = regexp.MustCompile(`\n(?:\w+\.\s)?\[(.+?)\][\ ]*(.+?)?`)
 
 // prepareJP do prepare the .jp domain
 func prepareJP(text string) string {
@@ -712,6 +754,7 @@ func prepareJP(text string) string {
 			if strings.ToLower(token) == "registrant" {
 				v = fmt.Sprintf("registrant name: %s", vs[1])
 			}
+			v = prepareSecondLevelJP(v, token, vs[1])
 		} else {
 			if token == addressToken {
 				result += ", " + v
@@ -722,6 +765,29 @@ func prepareJP(text string) string {
 	}
 
 	return result
+}
+
+// prepareJP prepares specific mappings for second level .jp domains
+// examples include:
+// - co.jp
+// - ac.jp
+// - go.jp
+// - or.jp
+// - ad.jp
+// - ne.jp
+// - gr.jp
+// - ed.jp
+func prepareSecondLevelJP(original string, token string, value string) string {
+	if strings.ToLower(token) == "administrative contact" {
+		return fmt.Sprintf("Administrative Contact ID: %s", strings.TrimSpace(value))
+	}
+	if strings.ToLower(token) == "technical contact" {
+		return fmt.Sprintf("Technical Contact ID: %s", strings.TrimSpace(value))
+	}
+	if strings.ToLower(token) == "organization" || strings.ToLower(token) == "network service name" {
+		return fmt.Sprintf("Registrant Organization: %s", strings.TrimSpace(value))
+	}
+	return original
 }
 
 // prepareUK do prepare the .uk domain
