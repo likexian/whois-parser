@@ -20,6 +20,7 @@
 package whoisparser
 
 import (
+	"reflect"
 	"regexp"
 	"strings"
 
@@ -184,23 +185,23 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 	domain.Status = xslice.Unique(domain.Status).([]string)
 
 	whoisInfo.Domain = domain
-	if *registrar != (Contact{}) {
+	if !reflect.DeepEqual(*registrar, Contact{}) {
 		whoisInfo.Registrar = registrar
 	}
 
-	if *registrant != (Contact{}) {
+	if !reflect.DeepEqual(*registrant, Contact{}) {
 		whoisInfo.Registrant = registrant
 	}
 
-	if *administrative != (Contact{}) {
+	if !reflect.DeepEqual(*administrative, Contact{}) {
 		whoisInfo.Administrative = administrative
 	}
 
-	if *technical != (Contact{}) {
+	if !reflect.DeepEqual(*technical, Contact{}) {
 		whoisInfo.Technical = technical
 	}
 
-	if *billing != (Contact{}) {
+	if !reflect.DeepEqual(*billing, Contact{}) {
 		whoisInfo.Billing = billing
 	}
 
@@ -209,7 +210,8 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 
 // parseContact do parse contact info
 func parseContact(contact *Contact, name, value string) {
-	switch searchKeyName(name) {
+	key := searchKeyName(name)
+	switch key {
 	case "registrant_id":
 		contact.ID = value
 	case "registrant_name":
@@ -244,6 +246,13 @@ func parseContact(contact *Contact, name, value string) {
 		contact.FaxExt = value
 	case "registrant_email":
 		contact.Email = strings.ToLower(value)
+	}
+
+	if strings.HasPrefix(key, "registrant_extended_") {
+		if contact.ExtendedData == nil {
+			contact.ExtendedData = make(map[string]string)
+		}
+		contact.ExtendedData[strings.TrimPrefix(key, "registrant_extended_")] = value
 	}
 }
 

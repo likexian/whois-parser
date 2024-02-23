@@ -186,6 +186,8 @@ var (
 		"registrant contact e mail":              "registrant_email",
 		"registrant abuse contact email":         "registrant_email",
 		"registrant attention":                   "registrant_email",
+		"registrant nexus category":              "registrant_extended_nexus_category",
+		"registrant application purpose":         "registrant_extended_application_purpose",
 		"reseller":                               "reseller_name",
 	}
 )
