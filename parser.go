@@ -20,7 +20,6 @@
 package whoisparser
 
 import (
-	"fmt"
 	"reflect"
 	"regexp"
 	"strings"
@@ -211,8 +210,6 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 
 // parseContact do parse contact info
 func parseContact(contact *Contact, name, value string) {
-	fmt.Printf("name: %s, value: %s\n", name, value)
-
 	key := searchKeyName(name)
 	switch key {
 	case "registrant_id":
