@@ -189,35 +189,39 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 	domain.Status = xslice.Unique(domain.Status).([]string)
 
 	whoisInfo.Domain = domain
-	if !reflect.DeepEqual(*registrar, Contact{}) {
+	if !isContactEmpty(registrar) {
 		whoisInfo.Registrar = registrar
 	}
 
-	if !reflect.DeepEqual(*registrant, Contact{}) {
+	if !isContactEmpty(registrant) {
 		whoisInfo.Registrant = registrant
 	}
 
-	if !reflect.DeepEqual(*administrative, Contact{}) {
+	if !isContactEmpty(administrative) {
 		whoisInfo.Administrative = administrative
 	}
 
-	if !reflect.DeepEqual(*technical, Contact{}) {
+	if !isContactEmpty(technical) {
 		whoisInfo.Technical = technical
 	}
 
-	if !reflect.DeepEqual(*billing, Contact{}) {
+	if !isContactEmpty(billing) {
 		whoisInfo.Billing = billing
 	}
 
-	if !reflect.DeepEqual(*reseller, Contact{}) {
+	if !isContactEmpty(reseller) {
 		whoisInfo.Reseller = reseller
 	}
 
-	if !reflect.DeepEqual(*nyc, Contact{}) {
+	if !isContactEmpty(nyc) {
 		whoisInfo.NYC = nyc
 	}
 
 	return
+}
+
+func isContactEmpty(c *Contact) bool {
+	return reflect.DeepEqual(*c, Contact{})
 }
 
 // parseContact do parse contact info
