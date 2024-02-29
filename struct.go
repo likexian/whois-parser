@@ -29,6 +29,8 @@ type WhoisInfo struct {
 	Administrative *Contact `json:"administrative,omitempty"`
 	Technical      *Contact `json:"technical,omitempty"`
 	Billing        *Contact `json:"billing,omitempty"`
+	Reseller       *Contact `json:"reseller,omitempty"`
+	NYC            *Contact `json:"nyc,omitempty"`
 }
 
 // Domain storing domain name info

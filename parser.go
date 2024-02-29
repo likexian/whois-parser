@@ -63,6 +63,8 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 	administrative := &Contact{}
 	technical := &Contact{}
 	billing := &Contact{}
+	reseller := &Contact{}
+	nyc := &Contact{}
 
 	domain.Name, _ = idna.ToASCII(name)
 	domain.Extension, _ = idna.ToASCII(extension)
@@ -149,8 +151,6 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 			}
 		case "referral_url":
 			registrar.ReferralURL = value
-		case "reseller_name":
-			domain.Reseller = value
 		default:
 			name = clearKeyName(name)
 			if !strings.Contains(name, " ") {
@@ -174,6 +174,10 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 				parseContact(technical, name, value)
 			} else if ns[0] == "bill" || ns[0] == "billing" {
 				parseContact(billing, name, value)
+			} else if ns[0] == "reseller" {
+				parseContact(reseller, name, value)
+			} else if ns[0] == "nyc" {
+				parseContact(nyc, name, value)
 			}
 		}
 	}
@@ -185,27 +189,39 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 	domain.Status = xslice.Unique(domain.Status).([]string)
 
 	whoisInfo.Domain = domain
-	if !reflect.DeepEqual(*registrar, Contact{}) {
+	if !isContactEmpty(registrar) {
 		whoisInfo.Registrar = registrar
 	}
 
-	if !reflect.DeepEqual(*registrant, Contact{}) {
+	if !isContactEmpty(registrant) {
 		whoisInfo.Registrant = registrant
 	}
 
-	if !reflect.DeepEqual(*administrative, Contact{}) {
+	if !isContactEmpty(administrative) {
 		whoisInfo.Administrative = administrative
 	}
 
-	if !reflect.DeepEqual(*technical, Contact{}) {
+	if !isContactEmpty(technical) {
 		whoisInfo.Technical = technical
 	}
 
-	if !reflect.DeepEqual(*billing, Contact{}) {
+	if !isContactEmpty(billing) {
 		whoisInfo.Billing = billing
 	}
 
+	if !isContactEmpty(reseller) {
+		whoisInfo.Reseller = reseller
+	}
+
+	if !isContactEmpty(nyc) {
+		whoisInfo.NYC = nyc
+	}
+
 	return
+}
+
+func isContactEmpty(c *Contact) bool {
+	return reflect.DeepEqual(*c, Contact{})
 }
 
 // parseContact do parse contact info

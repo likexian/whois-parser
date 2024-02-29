@@ -138,6 +138,7 @@ If there is any problem, please feel free to open a new issue.
 | .nl | [google.nl](nl_google.nl) | [google.nl](nl_google.nl.json) | √ |
 | .nu | [google.nu](nu_google.nu) | [google.nu](nu_google.nu.json) | √ |
 | .nu | [nic.nu](nu_nic.nu) | [nic.nu](nu_nic.nu.json) | √ |
+| .nyc | [godaddy.nyc](nyc_godaddy.nyc) | [godaddy.nyc](nyc_godaddy.nyc.json) | √ |
 | .nz | [gre.nz](nz_gre.nz) | [gre.nz](nz_gre.nz.json) | √ |
 | .nz | [vote.nz](nz_vote.nz) | [vote.nz](nz_vote.nz.json) | √ |
 | .org | [apache.org](org_apache.org) | [apache.org](org_apache.org.json) | √ |

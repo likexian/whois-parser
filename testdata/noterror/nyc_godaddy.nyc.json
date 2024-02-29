@@ -1,0 +1,92 @@
+{
+    "domain": {
+        "id": "D116947-NYC",
+        "domain": "godaddy.nyc",
+        "punycode": "godaddy.nyc",
+        "name": "godaddy",
+        "extension": "nyc",
+        "whois_server": "whois.godaddy.com",
+        "status": [
+            "ok"
+        ],
+        "name_servers": [
+            "cns2.secureserver.net",
+            "cns1.secureserver.net"
+        ],
+        "created_date": "2014-10-03T15:38:57Z",
+        "created_date_in_time": "2014-10-03T15:38:57Z",
+        "updated_date": "2023-07-15T23:31:22Z",
+        "updated_date_in_time": "2023-07-15T23:31:22Z",
+        "expiration_date": "2024-10-02T23:59:59Z",
+        "expiration_date_in_time": "2024-10-02T23:59:59Z"
+    },
+    "registrar": {
+        "id": "146",
+        "name": "GoDaddy.com, LLC",
+        "phone": "+1.4806242505",
+        "email": "abuse@godaddy.com",
+        "referral_url": "whois.godaddy.com"
+    },
+    "registrant": {
+        "id": "REDACTED FOR PRIVACY",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "Go Daddy Operating Company, LLC",
+        "street": "REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY",
+        "city": "REDACTED FOR PRIVACY",
+        "province": "New York",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "US",
+        "phone": "REDACTED FOR PRIVACY",
+        "phone_ext": "REDACTED FOR PRIVACY",
+        "fax": "REDACTED FOR PRIVACY",
+        "fax_ext": "REDACTED FOR PRIVACY",
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
+    },
+    "administrative": {
+        "id": "REDACTED FOR PRIVACY",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "REDACTED FOR PRIVACY",
+        "street": "REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY",
+        "city": "REDACTED FOR PRIVACY",
+        "province": "REDACTED FOR PRIVACY",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "REDACTED FOR PRIVACY",
+        "phone": "REDACTED FOR PRIVACY",
+        "phone_ext": "REDACTED FOR PRIVACY",
+        "fax": "REDACTED FOR PRIVACY",
+        "fax_ext": "REDACTED FOR PRIVACY",
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
+    },
+    "technical": {
+        "id": "REDACTED FOR PRIVACY",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "REDACTED FOR PRIVACY",
+        "street": "REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY",
+        "city": "REDACTED FOR PRIVACY",
+        "province": "REDACTED FOR PRIVACY",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "REDACTED FOR PRIVACY",
+        "phone": "REDACTED FOR PRIVACY",
+        "phone_ext": "REDACTED FOR PRIVACY",
+        "fax": "REDACTED FOR PRIVACY",
+        "fax_ext": "REDACTED FOR PRIVACY",
+        "email": "please query the rdds service of the registrar of record identified in this output for information on how to contact the registrant, admin, or tech contact of the queried domain name."
+    },
+    "nyc": {
+        "id": "C116919-NYC",
+        "name": "REDACTED FOR PRIVACY",
+        "organization": "REDACTED FOR PRIVACY",
+        "street": "REDACTED FOR PRIVACY, REDACTED FOR PRIVACY, REDACTED FOR PRIVACY",
+        "city": "REDACTED FOR PRIVACY",
+        "province": "REDACTED FOR PRIVACY",
+        "postal_code": "REDACTED FOR PRIVACY",
+        "country": "REDACTED FOR PRIVACY",
+        "phone": "REDACTED FOR PRIVACY",
+        "phone_ext": "REDACTED FOR PRIVACY",
+        "fax": "REDACTED FOR PRIVACY",
+        "fax_ext": "REDACTED FOR PRIVACY",
+        "extended_data": {
+            "nexus_category": "ORG"
+        }
+    }
+}

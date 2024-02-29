@@ -121,6 +121,10 @@ func isExtNotFoundDomain(data, extension string) bool {
 		if strings.Contains(data, "not found") {
 			return true
 		}
+	case "com", "net":
+		if strings.Contains(data, "No match for") {
+			return true
+		}
 	}
 
 	return false
