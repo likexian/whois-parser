@@ -20,6 +20,7 @@
 package whoisparser
 
 import (
+	"reflect"
 	"regexp"
 	"strings"
 
@@ -62,6 +63,8 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 	administrative := &Contact{}
 	technical := &Contact{}
 	billing := &Contact{}
+	reseller := &Contact{}
+	nyc := &Contact{}
 
 	domain.Name, _ = idna.ToASCII(name)
 	domain.Extension, _ = idna.ToASCII(extension)
@@ -171,6 +174,10 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 				parseContact(technical, name, value)
 			} else if ns[0] == "bill" || ns[0] == "billing" {
 				parseContact(billing, name, value)
+			} else if ns[0] == "reseller" {
+				parseContact(reseller, name, value)
+			} else if ns[0] == "nyc" {
+				parseContact(nyc, name, value)
 			}
 		}
 	}
@@ -182,32 +189,45 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 	domain.Status = xslice.Unique(domain.Status).([]string)
 
 	whoisInfo.Domain = domain
-	if *registrar != (Contact{}) {
+	if !isContactEmpty(registrar) {
 		whoisInfo.Registrar = registrar
 	}
 
-	if *registrant != (Contact{}) {
+	if !isContactEmpty(registrant) {
 		whoisInfo.Registrant = registrant
 	}
 
-	if *administrative != (Contact{}) {
+	if !isContactEmpty(administrative) {
 		whoisInfo.Administrative = administrative
 	}
 
-	if *technical != (Contact{}) {
+	if !isContactEmpty(technical) {
 		whoisInfo.Technical = technical
 	}
 
-	if *billing != (Contact{}) {
+	if !isContactEmpty(billing) {
 		whoisInfo.Billing = billing
+	}
+
+	if !isContactEmpty(reseller) {
+		whoisInfo.Reseller = reseller
+	}
+
+	if !isContactEmpty(nyc) {
+		whoisInfo.NYC = nyc
 	}
 
 	return
 }
 
+func isContactEmpty(c *Contact) bool {
+	return reflect.DeepEqual(*c, Contact{})
+}
+
 // parseContact do parse contact info
 func parseContact(contact *Contact, name, value string) {
-	switch searchKeyName(name) {
+	key := searchKeyName(name)
+	switch key {
 	case "registrant_id":
 		contact.ID = value
 	case "registrant_name":
@@ -242,6 +262,13 @@ func parseContact(contact *Contact, name, value string) {
 		contact.FaxExt = value
 	case "registrant_email":
 		contact.Email = strings.ToLower(value)
+	}
+
+	if strings.HasPrefix(key, "registrant_extended_") {
+		if contact.ExtendedData == nil {
+			contact.ExtendedData = make(map[string]string)
+		}
+		contact.ExtendedData[strings.TrimPrefix(key, "registrant_extended_")] = value
 	}
 }
 

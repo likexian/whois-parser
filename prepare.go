@@ -91,6 +91,8 @@ func Prepare(text, ext string) (string, bool) { //nolint:cyclop
 		return prepareBY(text), true
 	case "ua":
 		return prepareUA(text), true
+	case "sg":
+		return prepareSG(text), true
 	default:
 		return text, false
 	}
@@ -123,6 +125,46 @@ func prepareTLD(text string) string {
 			}
 		}
 		result += "\n" + v
+	}
+
+	return result
+}
+
+var sgIDRx = regexp.MustCompile(`\(([^)]+)\)`)
+
+func prepareSG(text string) string {
+	lines := strings.Split(text, "\n")
+	result := ""
+
+	var currentContactType string
+	for _, line := range lines {
+		line = strings.TrimSpace(line)
+		if strings.Contains(line, "Contact:") {
+			currentContactType = strings.Split(line, " ")[0]
+		} else if strings.HasPrefix(line, "Registrant:") {
+			currentContactType = "Registrant"
+			line = strings.TrimPrefix(line, "Registrant:")
+		}
+
+		if strings.HasPrefix(line, "Domain Status") {
+			status := strings.TrimPrefix(line, "Domain Status:")
+			status = strings.ReplaceAll(status, " ", "")
+			result += fmt.Sprintf("Domain Status: %s\n", status)
+			continue
+		}
+		if strings.HasPrefix(line, "Email:") {
+			line = fmt.Sprintf("%s %s:", currentContactType, line)
+		}
+		if strings.HasPrefix(line, "Name:") {
+			matches := sgIDRx.FindStringSubmatch(line)
+			if len(matches) > 1 {
+				name := strings.TrimPrefix(line, "Name:")
+				name = strings.TrimSpace(strings.Split(name, "(")[0]) // Remove ID and parentheses from name
+				result += fmt.Sprintf("%s Name: %s\n%s ID: %s\n", currentContactType, name, currentContactType, matches[1])
+			}
+		} else if !strings.HasPrefix(line, "Registrant:") {
+			result += line + "\n"
+		}
 	}
 
 	return result

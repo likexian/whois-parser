@@ -29,6 +29,8 @@ type WhoisInfo struct {
 	Administrative *Contact `json:"administrative,omitempty"`
 	Technical      *Contact `json:"technical,omitempty"`
 	Billing        *Contact `json:"billing,omitempty"`
+	Reseller       *Contact `json:"reseller,omitempty"`
+	NYC            *Contact `json:"nyc,omitempty"`
 }
 
 // Domain storing domain name info
@@ -48,22 +50,24 @@ type Domain struct {
 	UpdatedDateInTime    *time.Time `json:"updated_date_in_time,omitempty"`
 	ExpirationDate       string     `json:"expiration_date,omitempty"`
 	ExpirationDateInTime *time.Time `json:"expiration_date_in_time,omitempty"`
+	Reseller             string     `json:"reseller,omitempty"`
 }
 
 // Contact storing domain contact info
 type Contact struct {
-	ID           string `json:"id,omitempty"`
-	Name         string `json:"name,omitempty"`
-	Organization string `json:"organization,omitempty"`
-	Street       string `json:"street,omitempty"`
-	City         string `json:"city,omitempty"`
-	Province     string `json:"province,omitempty"`
-	PostalCode   string `json:"postal_code,omitempty"`
-	Country      string `json:"country,omitempty"`
-	Phone        string `json:"phone,omitempty"`
-	PhoneExt     string `json:"phone_ext,omitempty"`
-	Fax          string `json:"fax,omitempty"`
-	FaxExt       string `json:"fax_ext,omitempty"`
-	Email        string `json:"email,omitempty"`
-	ReferralURL  string `json:"referral_url,omitempty"`
+	ID           string            `json:"id,omitempty"`
+	Name         string            `json:"name,omitempty"`
+	Organization string            `json:"organization,omitempty"`
+	Street       string            `json:"street,omitempty"`
+	City         string            `json:"city,omitempty"`
+	Province     string            `json:"province,omitempty"`
+	PostalCode   string            `json:"postal_code,omitempty"`
+	Country      string            `json:"country,omitempty"`
+	Phone        string            `json:"phone,omitempty"`
+	PhoneExt     string            `json:"phone_ext,omitempty"`
+	Fax          string            `json:"fax,omitempty"`
+	FaxExt       string            `json:"fax_ext,omitempty"`
+	Email        string            `json:"email,omitempty"`
+	ReferralURL  string            `json:"referral_url,omitempty"`
+	ExtendedData map[string]string `json:"extended_data,omitempty"`
 }

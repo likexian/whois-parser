@@ -80,6 +80,7 @@ var (
 		"last updated":                           "updated_date",
 		"last updated on":                        "updated_date",
 		"last modified":                          "updated_date",
+		"modified date":                          "updated_date",
 		"last updated date":                      "updated_date",
 		"domain last updated date":               "updated_date",
 		"domain record last updated":             "updated_date",
@@ -185,5 +186,6 @@ var (
 		"registrant contact e mail":              "registrant_email",
 		"registrant abuse contact email":         "registrant_email",
 		"registrant attention":                   "registrant_email",
-	}
+		"registrant nexus category":              "registrant_extended_nexus_category",
+		"registrant application purpose":         "registrant_extended_application_purpose"}
 )

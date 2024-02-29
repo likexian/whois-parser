@@ -66,5 +66,8 @@
         "phone": "REDACTED FOR PRIVACY",
         "fax": "REDACTED FOR PRIVACY",
         "email": "redacted for privacy"
+    },
+    "reseller": {
+        "organization": "Rebel.com"
     }
 }

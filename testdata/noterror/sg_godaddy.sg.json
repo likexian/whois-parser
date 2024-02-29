@@ -1,0 +1,39 @@
+{
+    "domain": {
+        "domain": "godaddy.sg",
+        "punycode": "godaddy.sg",
+        "name": "godaddy",
+        "extension": "sg",
+        "status": [
+            "ok",
+            "verifiedid@sg-mandatory",
+            "verifiedid@sg-ok(verifiedbyadmincontact)"
+        ],
+        "name_servers": [
+            "cns1.secureserver.net",
+            "cns2.secureserver.net"
+        ],
+        "created_date": "11-Feb-2007 11:19:46",
+        "created_date_in_time": "2007-02-11T11:19:46Z",
+        "updated_date": "18-Jan-2024 10:49:28",
+        "updated_date_in_time": "2024-01-18T10:49:28Z",
+        "expiration_date": "11-Feb-2025 00:00:00",
+        "expiration_date_in_time": "2025-02-11T00:00:00Z"
+    },
+    "registrar": {
+        "name": "KEY-SYSTEMS GMBH"
+    },
+    "registrant": {
+        "id": "SGNIC-ORG2449991",
+        "name": "GODADDY DEUTSCHLAND GMBH"
+    },
+    "administrative": {
+        "id": "SGNIC-ORG2445297",
+        "name": "INSTRA CORPORATION PTE. LTD."
+    },
+    "technical": {
+        "id": "SGNIC-ORG2449987",
+        "name": "GODADDY DEUTSCHLAND GMBH",
+        "email": "companynames@godaddy.com"
+    }
+}

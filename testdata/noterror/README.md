@@ -138,6 +138,7 @@ If there is any problem, please feel free to open a new issue.
 | .nl | [google.nl](nl_google.nl) | [google.nl](nl_google.nl.json) | √ |
 | .nu | [google.nu](nu_google.nu) | [google.nu](nu_google.nu.json) | √ |
 | .nu | [nic.nu](nu_nic.nu) | [nic.nu](nu_nic.nu.json) | √ |
+| .nyc | [godaddy.nyc](nyc_godaddy.nyc) | [godaddy.nyc](nyc_godaddy.nyc.json) | √ |
 | .nz | [gre.nz](nz_gre.nz) | [gre.nz](nz_gre.nz.json) | √ |
 | .nz | [vote.nz](nz_vote.nz) | [vote.nz](nz_vote.nz.json) | √ |
 | .org | [apache.org](org_apache.org) | [apache.org](org_apache.org.json) | √ |
@@ -166,6 +167,8 @@ If there is any problem, please feel free to open a new issue.
 | .se | [föl.se](se_xn--fl-fka.se) | [föl.se](se_xn--fl-fka.se.json) | √ |
 | .sexy | [google.sexy](sexy_google.sexy) | [google.sexy](sexy_google.sexy.json) | √ |
 | .sexy | [line.sexy](sexy_line.sexy) | [line.sexy](sexy_line.sexy.json) | √ |
+| .sg | [godaddy.sg](sg_godaddy.sg) | [godaddy.sg](sg_godaddy.sg.json) | √ |
+| .sg | [google.sg](sg_google.sg) | [google.sg](sg_google.sg.json) | √ |
 | .sh | [git.sh](sh_git.sh) | [git.sh](sh_git.sh.json) | √ |
 | .sh | [google.sh](sh_google.sh) | [google.sh](sh_google.sh.json) | √ |
 | .su | [git.su](su_git.su) | [git.su](su_git.su.json) | √ |

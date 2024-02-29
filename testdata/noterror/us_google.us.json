@@ -41,7 +41,11 @@
         "country": "US",
         "phone": "+1.6502530000",
         "fax": "+1.6502530001",
-        "email": "dns-admin@google.com"
+        "email": "dns-admin@google.com",
+        "extended_data": {
+            "application_purpose": "P1",
+            "nexus_category": "C21"
+        }
     },
     "administrative": {
         "id": "C37613731-US",
@@ -54,7 +58,11 @@
         "country": "US",
         "phone": "+1.6502530000",
         "fax": "+1.6502530001",
-        "email": "dns-admin@google.com"
+        "email": "dns-admin@google.com",
+        "extended_data": {
+            "application_purpose": "P1",
+            "nexus_category": "C21"
+        }
     },
     "technical": {
         "id": "C37613731-US",
@@ -67,6 +75,10 @@
         "country": "US",
         "phone": "+1.6502530000",
         "fax": "+1.6502530001",
-        "email": "dns-admin@google.com"
+        "email": "dns-admin@google.com",
+        "extended_data": {
+            "application_purpose": "P1",
+            "nexus_category": "C21"
+        }
     }
 }

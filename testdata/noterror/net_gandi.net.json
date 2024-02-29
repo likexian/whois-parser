@@ -70,5 +70,8 @@
         "phone": "REDACTED FOR PRIVACY",
         "fax": "REDACTED FOR PRIVACY",
         "email": "3521bef593b0080b0644bce75aa22a5d-248842@contact.gandi.net"
+    },
+    "reseller": {
+        "organization": "GANDI SAS"
     }
 }

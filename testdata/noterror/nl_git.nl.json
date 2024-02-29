@@ -17,5 +17,9 @@
     "registrar": {
         "name": "Realtime Register",
         "street": "Ceintuurbaan 32a, 8024AA ZWOLLE, Netherlands"
+    },
+    "reseller": {
+        "name": "Yourhosting",
+        "street": "Ceintuurbaan 28, 8024AA Zwolle, Netherlands"
     }
 }
