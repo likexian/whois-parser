@@ -19,8 +19,7 @@
         "updated_date": "2017-02-28T09:53:46Z",
         "updated_date_in_time": "2017-02-28T09:53:46Z",
         "expiration_date": "2021-01-20T13:40:16Z",
-        "expiration_date_in_time": "2021-01-20T13:40:16Z",
-        "reseller": "HEXONET GmbH http://www.hexonet.net"
+        "expiration_date_in_time": "2021-01-20T13:40:16Z"
     },
     "registrar": {
         "id": "1387",
@@ -61,5 +60,8 @@
         "country": "REDACTED FOR PRIVACY",
         "phone": "REDACTED FOR PRIVACY",
         "email": "contact via https://www.1api.net/send-message/hexonet.net/tech"
+    },
+    "reseller": {
+        "organization": "HEXONET GmbH http://www.hexonet.net"
     }
 }

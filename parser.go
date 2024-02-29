@@ -63,6 +63,8 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 	administrative := &Contact{}
 	technical := &Contact{}
 	billing := &Contact{}
+	reseller := &Contact{}
+	nyc := &Contact{}
 
 	domain.Name, _ = idna.ToASCII(name)
 	domain.Extension, _ = idna.ToASCII(extension)
@@ -149,8 +151,6 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 			}
 		case "referral_url":
 			registrar.ReferralURL = value
-		case "reseller_name":
-			domain.Reseller = value
 		default:
 			name = clearKeyName(name)
 			if !strings.Contains(name, " ") {
@@ -174,6 +174,10 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 				parseContact(technical, name, value)
 			} else if ns[0] == "bill" || ns[0] == "billing" {
 				parseContact(billing, name, value)
+			} else if ns[0] == "reseller" {
+				parseContact(reseller, name, value)
+			} else if ns[0] == "nyc" {
+				parseContact(nyc, name, value)
 			}
 		}
 	}
@@ -203,6 +207,14 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 
 	if !reflect.DeepEqual(*billing, Contact{}) {
 		whoisInfo.Billing = billing
+	}
+
+	if !reflect.DeepEqual(*reseller, Contact{}) {
+		whoisInfo.Reseller = reseller
+	}
+
+	if !reflect.DeepEqual(*nyc, Contact{}) {
+		whoisInfo.NYC = nyc
 	}
 
 	return

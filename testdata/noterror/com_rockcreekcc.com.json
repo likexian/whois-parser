@@ -19,8 +19,7 @@
         "updated_date": "2021-05-03T20:23:19Z",
         "updated_date_in_time": "2021-05-03T20:23:19Z",
         "expiration_date": "2022-07-12T15:48:26Z",
-        "expiration_date_in_time": "2022-07-12T15:48:26Z",
-        "reseller": "Sterling Communications, Inc."
+        "expiration_date_in_time": "2022-07-12T15:48:26Z"
     },
     "registrar": {
         "id": "69",
@@ -64,5 +63,8 @@
         "phone": "REDACTED FOR PRIVACY",
         "fax": "REDACTED FOR PRIVACY",
         "email": "redacted for privacy"
+    },
+    "reseller": {
+        "organization": "Sterling Communications, Inc."
     }
 }

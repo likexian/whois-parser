@@ -18,8 +18,7 @@
         "updated_date": "2019-09-18T15:20:27Z",
         "updated_date_in_time": "2019-09-18T15:20:27Z",
         "expiration_date": "2019-11-17T16:11:05Z",
-        "expiration_date_in_time": "2019-11-17T16:11:05Z",
-        "reseller": "Netsto Limited"
+        "expiration_date_in_time": "2019-11-17T16:11:05Z"
     },
     "registrar": {
         "id": "81",
@@ -64,5 +63,8 @@
         "phone": "REDACTED FOR PRIVACY",
         "fax": "REDACTED FOR PRIVACY",
         "email": "0a099929a74cb35f7f1301344a022505-11466636@contact.gandi.net"
+    },
+    "reseller": {
+        "organization": "Netsto Limited"
     }
 }
