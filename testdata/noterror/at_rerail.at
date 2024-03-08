@@ -1,0 +1,57 @@
+% Copyright (c)2024 by NIC.AT (1)                                       
+%
+% Restricted rights.
+%
+% Except  for  agreed Internet  operational  purposes, no  part  of this
+% information  may  be reproduced,  stored  in  a  retrieval  system, or
+% transmitted, in  any  form  or by  any means,  electronic, mechanical,
+% recording, or otherwise, without prior  permission of NIC.AT on behalf
+% of itself and/or the copyright  holders.  Any use of this  material to
+% target advertising  or similar activities is explicitly  forbidden and
+% can be prosecuted.
+%
+% It is furthermore strictly forbidden to use the Whois-Database in such
+% a  way  that  jeopardizes or  could jeopardize  the  stability  of the
+% technical  systems of  NIC.AT  under any circumstances. In particular,
+% this includes  any misuse  of the  Whois-Database and  any  use of the
+% Whois-Database which disturbs its operation.
+%
+% Should the  user violate  these points,  NIC.AT reserves  the right to
+% deactivate  the  Whois-Database   entirely  or  partly  for  the user.
+% Moreover,  the  user  shall be  held liable  for  any  and all  damage
+% arising from a violation of these points.
+
+domain:         rerail.at
+registrar:      IONOS SE ( https://nic.at/registrar/22 )
+registrant:     FOFE11299490-NICAT
+tech-c:         IA8425887-NICAT
+nserver:        ns1043.ui-dns.biz
+nserver:        ns1049.ui-dns.org
+nserver:        ns1083.ui-dns.com
+nserver:        ns1109.ui-dns.de
+changed:        20170315 14:41:55
+source:         AT-DOM
+
+personname:     Johann Kastner
+organization:   FH OOe Forschungs & Entwicklungs GmbH
+street address: Franz-Fritsch-Strasse 11
+postal code:    4600
+city:           Wels
+country:        Austria
+phone:          +435080410
+e-mail:         fue.domain@fh-ooe.at
+nic-hdl:        FOFE11299490-NICAT
+changed:        20170315 14:41:48
+source:         AT-DOM
+
+personname:     Hostmaster EINSUNDEINS
+organization:   1&1 Internet AG
+street address: Brauerstr. 48
+postal code:    76135
+city:           Karlsruhe
+country:        Germany
+phone:          +497219600
+e-mail:         hostmaster@1und1.de
+nic-hdl:        IA8425887-NICAT
+changed:        20181026 13:18:30
+source:         AT-DOM

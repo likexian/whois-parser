@@ -50,6 +50,7 @@ func TestParseDateString(t *testing.T) {
 		{"2025-Dec-11"},
 		{"2025-Dec-11."},
 		{"2024-06-05 00:00:00 (UTC+8)"},
+		{"20221101 00:10:24"},
 	}
 
 	for _, tt := range tests {

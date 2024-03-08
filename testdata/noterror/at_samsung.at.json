@@ -1,0 +1,34 @@
+{
+    "domain": {
+        "domain": "samsung.at",
+        "punycode": "samsung.at",
+        "name": "samsung",
+        "extension": "at",
+        "name_servers": [
+            "anexia.fifthns.com",
+            "anexia.firstns.cc",
+            "anexia.fourthns.systems",
+            "anexia.secondns.at",
+            "anexia.thirdns.de"
+        ],
+        "updated_date": "20230303 09:38:55",
+        "updated_date_in_time": "2023-03-03T09:38:55Z"
+    },
+    "registrant": {
+        "id": "SEAG10843291-NICAT",
+        "name": "Maximilian Hasenauer",
+        "organization": "Samsung Electronics Austria GmbH",
+        "street": "Praterstrasse 31, 1020, Wien, Austria",
+        "phone": "<data not disclosed>",
+        "fax": "+43151615119",
+        "email": "<data not disclosed>"
+    },
+    "technical": {
+        "id": "AIG11984868-NICAT",
+        "name": "Alexander Windbichler",
+        "organization": "ANEXIA Internetdienstleistungs GmbH",
+        "street": "Feldkirchner Strasse 140, 9020, Klagenfurt am Woerthersee, Austria",
+        "phone": "+4350556",
+        "email": "domainreg@anexia-it.com"
+    }
+}

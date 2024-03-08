@@ -25,6 +25,10 @@ If there is any problem, please feel free to open a new issue.
 | .aq | [ats.aq](aq_ats.aq) | [ats.aq](aq_ats.aq.json) | √ |
 | .asia | [git.asia](asia_git.asia) | [git.asia](asia_git.asia.json) | √ |
 | .asia | [google.asia](asia_google.asia) | [google.asia](asia_google.asia.json) | √ |
+| .at | [0wnz.at](at_0wnz.at) | [0wnz.at](at_0wnz.at.json) | √ |
+| .at | [elektro-rauter.at](at_elektro-rauter.at) | [elektro-rauter.at](at_elektro-rauter.at.json) | √ |
+| .at | [rerail.at](at_rerail.at) | [rerail.at](at_rerail.at.json) | √ |
+| .at | [samsung.at](at_samsung.at) | [samsung.at](at_samsung.at.json) | √ |
 | .au | [acma.gov.au](au_acma.gov.au) | [acma.gov.au](au_acma.gov.au.json) | √ |
 | .au | [google.com.au](au_google.com.au) | [google.com.au](au_google.com.au.json) | √ |
 | .berlin | [google.berlin](berlin_google.berlin) | [google.berlin](berlin_google.berlin.json) | √ |

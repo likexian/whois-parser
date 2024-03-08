@@ -1,0 +1,32 @@
+{
+    "domain": {
+        "domain": "rerail.at",
+        "punycode": "rerail.at",
+        "name": "rerail",
+        "extension": "at",
+        "name_servers": [
+            "ns1043.ui-dns.biz",
+            "ns1049.ui-dns.org",
+            "ns1083.ui-dns.com",
+            "ns1109.ui-dns.de"
+        ],
+        "updated_date": "20170315 14:41:55",
+        "updated_date_in_time": "2017-03-15T14:41:55Z"
+    },
+    "registrant": {
+        "id": "FOFE11299490-NICAT",
+        "name": "Johann Kastner",
+        "organization": "FH OOe Forschungs & Entwicklungs GmbH",
+        "street": "Franz-Fritsch-Strasse 11, 4600, Wels, Austria",
+        "phone": "+435080410",
+        "email": "fue.domain@fh-ooe.at"
+    },
+    "technical": {
+        "id": "IA8425887-NICAT",
+        "name": "Hostmaster EINSUNDEINS",
+        "organization": "1&1 Internet AG",
+        "street": "Brauerstr. 48, 76135, Karlsruhe, Germany",
+        "phone": "+497219600",
+        "email": "hostmaster@1und1.de"
+    }
+}

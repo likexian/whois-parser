@@ -109,14 +109,14 @@ func TestParse(t *testing.T) {
 		assert.Equal(t, whoisInfo.Domain.Punycode, domain)
 		assert.Equal(t, whoisInfo.Domain.Extension, extension)
 
-		if !assert.IsContains([]string{"", "aq", "br", "ch", "de", "edu", "eu", "fr", "gov", "hk",
+		if !assert.IsContains([]string{"", "at", "aq", "br", "ch", "de", "edu", "eu", "fr", "gov", "hk",
 			"hm", "int", "it", "jp", "kr", "kz", "mo", "nl", "nz", "pl", "pm", "re", "ro", "ru", "su", "tf", "ee",
 			"tk", "travel", "tv", "tw", "uk", "wf", "yt", "ir", "fi", "rs", "dk", "by", "ua",
 			"xn--mgba3a4f16a", "xn--p1ai", "se", "nu", "hu"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.ID)
 		}
 
-		if !assert.IsContains([]string{"ch", "edu", "eu", "int", "kr", "mo", "tw", "ir", "pl", "tk", "by",
+		if !assert.IsContains([]string{"at", "ch", "edu", "eu", "int", "kr", "mo", "tw", "ir", "pl", "tk", "by",
 			"xn--mgba3a4f16a", "hu"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.Status)
 		}
@@ -128,7 +128,7 @@ func TestParse(t *testing.T) {
 			assert.False(t, whoisInfo.Domain.DNSSec)
 		}
 
-		if !assert.IsContains([]string{"aero", "aq", "asia", "berlin", "biz", "br", "ch", "cn",
+		if !assert.IsContains([]string{"aero", "at", "aq", "asia", "berlin", "biz", "br", "ch", "cn",
 			"co", "cymru", "de", "edu", "eu", "fr", "gov", "hk", "hm", "in", "int", "it", "jp", "kr",
 			"la", "london", "me", "mo", "museum", "name", "nl", "nz", "pm", "re", "ro", "ru", "sh",
 			"kz", "su", "tel", "ee", "tf", "tk", "travel", "tw", "uk", "us", "wales", "wf", "xxx",
@@ -141,7 +141,7 @@ func TestParse(t *testing.T) {
 			assert.NotZero(t, whoisInfo.Domain.NameServers)
 		}
 
-		if !assert.IsContains([]string{"aq", "au", "de", "eu", "gov", "hm", "name", "nl", "nz", "ir", "tk",
+		if !assert.IsContains([]string{"aq", "at", "au", "de", "eu", "gov", "hm", "name", "nl", "nz", "ir", "tk",
 			"xn--mgba3a4f16a"}, extension) &&
 			!strings.Contains(domain, "ac.jp") &&
 			!strings.Contains(domain, "co.jp") &&
@@ -151,13 +151,13 @@ func TestParse(t *testing.T) {
 			assert.NotNil(t, whoisInfo.Domain.CreatedDateInTime)
 		}
 
-		if !assert.IsContains([]string{"aq", "ch", "cn", "eu", "gov", "hk", "hm", "mo",
+		if !assert.IsContains([]string{"aq", "at", "ch", "cn", "eu", "gov", "hk", "hm", "mo",
 			"name", "nl", "ro", "ru", "su", "tk", "tw", "dk", "xn--fiqs8s", "xn--p1ai", "hu"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.UpdatedDate)
 			assert.NotNil(t, whoisInfo.Domain.UpdatedDateInTime)
 		}
 
-		if !assert.IsContains([]string{"", "aq", "au", "br", "ch", "de", "eu", "gov", "ee",
+		if !assert.IsContains([]string{"", "at", "aq", "au", "br", "ch", "de", "eu", "gov", "ee",
 			"hm", "int", "name", "nl", "nz", "tk", "kz", "hu"}, extension) &&
 			!strings.Contains(domain, "ac.jp") &&
 			!strings.Contains(domain, "co.jp") &&
@@ -167,19 +167,19 @@ func TestParse(t *testing.T) {
 			assert.NotNil(t, whoisInfo.Domain.ExpirationDateInTime)
 		}
 
-		if !assert.IsContains([]string{"", "ai", "aq", "au", "br", "ca", "ch", "cn", "cx", "de",
+		if !assert.IsContains([]string{"", "ai", "at", "aq", "au", "br", "ca", "ch", "cn", "cx", "de",
 			"edu", "eu", "fr", "gov", "gs", "hk", "hm", "int", "it", "jp", "kr", "kz", "la", "mo", "nl",
 			"nz", "pl", "pm", "re", "ro", "ru", "su", "tf", "tk", "tw", "uk", "wf", "yt", "ir", "fi", "rs",
 			"ee", "dk", "by", "ua", "xn--mgba3a4f16a", "xn--fiqs8s", "xn--p1ai", "se", "nu", "hu"}, extension) {
 			assert.NotZero(t, whoisInfo.Registrar.ID)
 		}
 
-		if !assert.IsContains([]string{"", "aq", "br", "de",
+		if !assert.IsContains([]string{"", "at", "aq", "br", "de",
 			"edu", "gov", "hm", "int", "jp", "mo", "tk", "ir", "dk", "xn--mgba3a4f16a", "hu"}, extension) {
 			assert.NotZero(t, whoisInfo.Registrar.Name)
 		}
 
-		if !assert.IsContains([]string{"", "aero", "ai", "aq", "asia", "au", "br", "ch", "cn", "de",
+		if !assert.IsContains([]string{"", "aero", "ai", "at", "aq", "asia", "au", "br", "ch", "cn", "de",
 			"edu", "gov", "hk", "hm", "int", "jp", "kr", "kz", "la", "london", "love", "mo",
 			"museum", "name", "nl", "nz", "pl", "ru", "su", "tk", "top", "ir", "fi", "rs", "dk", "by", "ua",
 			"xn--mgba3a4f16a", "xn--fiqs8s", "xn--p1ai", "se", "nu", "hu"}, extension) {
