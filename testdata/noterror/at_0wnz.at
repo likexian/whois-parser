@@ -1,0 +1,49 @@
+% Copyright (c)2024 by NIC.AT (1)                                       
+%
+% Restricted rights.
+%
+% Except  for  agreed Internet  operational  purposes, no  part  of this
+% information  may  be reproduced,  stored  in  a  retrieval  system, or
+% transmitted, in  any  form  or by  any means,  electronic, mechanical,
+% recording, or otherwise, without prior  permission of NIC.AT on behalf
+% of itself and/or the copyright  holders.  Any use of this  material to
+% target advertising  or similar activities is explicitly  forbidden and
+% can be prosecuted.
+%
+% It is furthermore strictly forbidden to use the Whois-Database in such
+% a  way  that  jeopardizes or  could jeopardize  the  stability  of the
+% technical  systems of  NIC.AT  under any circumstances. In particular,
+% this includes  any misuse  of the  Whois-Database and  any  use of the
+% Whois-Database which disturbs its operation.
+%
+% Should the  user violate  these points,  NIC.AT reserves  the right to
+% deactivate  the  Whois-Database   entirely  or  partly  for  the user.
+% Moreover,  the  user  shall be  held liable  for  any  and all  damage
+% arising from a violation of these points.
+
+domain:         0wnz.at
+registrar:      NETPLANET GmbH ( https://nic.at/registrar/597 )
+registrant:     FMR13403268-NICAT
+tech-c:         FMR13403268-NICAT
+nserver:        a.ns.0wnz.at
+remarks:        89.185.109.153
+nserver:        b.ns.0wnz.at
+remarks:        89.185.109.154
+nserver:        c.ns.0wnz.at
+remarks:        54.38.158.217
+nserver:        d.ns.0wnz.at
+remarks:        78.47.81.186
+changed:        20221101 00:10:24
+source:         AT-DOM
+
+personname:     Markus Rambossek
+organization:   Firma Markus Rambossek
+street address: Marianne-Pollak-Gasse 3/5/19
+postal code:    1100
+city:           Wien
+country:        Austria
+phone:          <data not disclosed>
+e-mail:         <data not disclosed>
+nic-hdl:        FMR13403268-NICAT
+changed:        20220619 16:53:33
+source:         AT-DOM

@@ -128,6 +128,7 @@ func parseDateString(dateString string) (time.Time, error) {
 		"02.1.2006 15:04:05",
 		"2.1.2006 15:04:05",
 		"02-Jan-2006 15:04:05",
+		"20060102 15:04:05",
 		time.ANSIC,
 		time.Stamp,
 		time.StampMilli,

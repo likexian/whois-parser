@@ -1,0 +1,24 @@
+{
+    "domain": {
+        "domain": "0wnz.at",
+        "punycode": "0wnz.at",
+        "name": "0wnz",
+        "extension": "at",
+        "name_servers": [
+            "a.ns.0wnz.at",
+            "b.ns.0wnz.at",
+            "c.ns.0wnz.at",
+            "d.ns.0wnz.at"
+        ],
+        "updated_date": "20221101 00:10:24",
+        "updated_date_in_time": "2022-11-01T00:10:24Z"
+    },
+    "registrant": {
+        "id": "FMR13403268-NICAT",
+        "name": "Markus Rambossek",
+        "organization": "Firma Markus Rambossek",
+        "street": "Marianne-Pollak-Gasse 3/5/19, 1100, Wien, Austria",
+        "phone": "<data not disclosed>",
+        "email": "<data not disclosed>"
+    }
+}

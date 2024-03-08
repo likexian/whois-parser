@@ -1,0 +1,59 @@
+% Copyright (c)2024 by NIC.AT (1)                                       
+%
+% Restricted rights.
+%
+% Except  for  agreed Internet  operational  purposes, no  part  of this
+% information  may  be reproduced,  stored  in  a  retrieval  system, or
+% transmitted, in  any  form  or by  any means,  electronic, mechanical,
+% recording, or otherwise, without prior  permission of NIC.AT on behalf
+% of itself and/or the copyright  holders.  Any use of this  material to
+% target advertising  or similar activities is explicitly  forbidden and
+% can be prosecuted.
+%
+% It is furthermore strictly forbidden to use the Whois-Database in such
+% a  way  that  jeopardizes or  could jeopardize  the  stability  of the
+% technical  systems of  NIC.AT  under any circumstances. In particular,
+% this includes  any misuse  of the  Whois-Database and  any  use of the
+% Whois-Database which disturbs its operation.
+%
+% Should the  user violate  these points,  NIC.AT reserves  the right to
+% deactivate  the  Whois-Database   entirely  or  partly  for  the user.
+% Moreover,  the  user  shall be  held liable  for  any  and all  damage
+% arising from a violation of these points.
+
+domain:         samsung.at
+registrar:      ANEXIA Internetdienstleistungs GmbH ( https://nic.at/registrar/683 )
+registrant:     SEAG10843291-NICAT
+tech-c:         AIG11984868-NICAT
+nserver:        anexia.fifthns.com
+nserver:        anexia.firstns.cc
+nserver:        anexia.fourthns.systems
+nserver:        anexia.secondns.at
+nserver:        anexia.thirdns.de
+changed:        20230303 09:38:55
+source:         AT-DOM
+
+personname:     Maximilian Hasenauer
+organization:   Samsung Electronics Austria GmbH
+street address: Praterstrasse 31
+postal code:    1020
+city:           Wien
+country:        Austria
+phone:          <data not disclosed>
+fax-no:         +43151615119
+e-mail:         <data not disclosed>
+nic-hdl:        SEAG10843291-NICAT
+changed:        20230309 17:01:08
+source:         AT-DOM
+
+personname:     Alexander Windbichler
+organization:   ANEXIA Internetdienstleistungs GmbH
+street address: Feldkirchner Strasse 140
+postal code:    9020
+city:           Klagenfurt am Woerthersee
+country:        Austria
+phone:          +4350556
+e-mail:         domainreg@anexia-it.com
+nic-hdl:        AIG11984868-NICAT
+changed:        20190517 16:47:46
+source:         AT-DOM

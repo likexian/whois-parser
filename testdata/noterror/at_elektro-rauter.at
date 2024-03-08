@@ -1,0 +1,59 @@
+% Copyright (c)2024 by NIC.AT (1)                                       
+%
+% Restricted rights.
+%
+% Except  for  agreed Internet  operational  purposes, no  part  of this
+% information  may  be reproduced,  stored  in  a  retrieval  system, or
+% transmitted, in  any  form  or by  any means,  electronic, mechanical,
+% recording, or otherwise, without prior  permission of NIC.AT on behalf
+% of itself and/or the copyright  holders.  Any use of this  material to
+% target advertising  or similar activities is explicitly  forbidden and
+% can be prosecuted.
+%
+% It is furthermore strictly forbidden to use the Whois-Database in such
+% a  way  that  jeopardizes or  could jeopardize  the  stability  of the
+% technical  systems of  NIC.AT  under any circumstances. In particular,
+% this includes  any misuse  of the  Whois-Database and  any  use of the
+% Whois-Database which disturbs its operation.
+%
+% Should the  user violate  these points,  NIC.AT reserves  the right to
+% deactivate  the  Whois-Database   entirely  or  partly  for  the user.
+% Moreover,  the  user  shall be  held liable  for  any  and all  damage
+% arising from a violation of these points.
+
+domain:         elektro-rauter.at
+registrar:      ANEXIA Internetdienstleistungs GmbH ( https://nic.at/registrar/683 )
+registrant:     ER12589652-NICAT
+tech-c:         AIG11984868-NICAT
+nserver:        anexia.fifthns.com
+nserver:        anexia.firstns.cc
+nserver:        anexia.fourthns.systems
+nserver:        anexia.secondns.at
+nserver:        anexia.thirdns.de
+changed:        20230303 06:35:33
+source:         AT-DOM
+
+personname:     Josef Rauter
+organization:   Elektro Rauter
+street address: Sankt Lorenzen 117
+postal code:    9654
+city:           Lesachtal
+country:        Austria
+phone:          +4347166240
+fax-no:         +43471662418
+e-mail:         domainreg@anexia-it.com
+nic-hdl:        ER12589652-NICAT
+changed:        20200313 10:58:48
+source:         AT-DOM
+
+personname:     Alexander Windbichler
+organization:   ANEXIA Internetdienstleistungs GmbH
+street address: Feldkirchner Strasse 140
+postal code:    9020
+city:           Klagenfurt am Woerthersee
+country:        Austria
+phone:          +4350556
+e-mail:         domainreg@anexia-it.com
+nic-hdl:        AIG11984868-NICAT
+changed:        20190517 16:47:46
+source:         AT-DOM
