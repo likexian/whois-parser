@@ -118,11 +118,14 @@ func keys(m map[string]string) []string {
 // parseDateString attempts to parse a given date using a collection of common
 // format strings. Date formats containing time components are tried first
 // before attempts are made using date-only formats.
-func parseDateString(dateString string) (time.Time, error) {
-	formats := [...]string{
+func parseDateString(datetime string) (time.Time, error) {
+	datetime = strings.Trim(datetime, ".")
+	datetime = strings.ReplaceAll(datetime, ". ", "-")
 
+	formats := [...]string{
 		// Date & time formats
 		"2006-01-02 15:04:05",
+		"2006.01.02 15:04:05",
 		"02/01/2006 15:04:05",
 		"02.01.2006 15:04:05",
 		"02.1.2006 15:04:05",
@@ -152,25 +155,25 @@ func parseDateString(dateString string) (time.Time, error) {
 
 		// Date only formats
 		"2006-01-02",
-		"2006. 01. 02.",
 		"02-Jan-2006",
 		"02.01.2006",
 		"02-01-2006",
 		"January _2 2006",
+		"Mon Jan _2 2006",
 		"02/01/2006",
 		"01/02/2006",
+		"2006/01/02",
 		"2006-Jan-02",
-		"2006-Jan-02.",
 		"before Jan-2006",
 	}
 
 	for _, format := range formats {
-		result, err := time.Parse(format, dateString)
+		result, err := time.Parse(format, datetime)
 		if err != nil {
 			continue
 		}
 		return result, nil
 	}
 
-	return time.Now(), fmt.Errorf("could not parse %s as a date", dateString)
+	return time.Now(), fmt.Errorf("could not parse %s as a date", datetime)
 }

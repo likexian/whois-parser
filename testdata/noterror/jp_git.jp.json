@@ -12,8 +12,10 @@
             "ns2.onamae.com"
         ],
         "created_date": "2001/05/14",
+        "created_date_in_time": "2001-05-14T00:00:00Z",
         "updated_date": "2019/06/01 04:52:02 (JST)",
-        "expiration_date": "2020/05/31"
+        "expiration_date": "2020/05/31",
+        "expiration_date_in_time": "2020-05-31T00:00:00Z"
     },
     "registrant": {
         "name": "GIT Co.,Ltd"

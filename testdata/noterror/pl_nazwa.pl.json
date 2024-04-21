@@ -12,8 +12,11 @@
         ],
         "dnssec": true,
         "created_date": "1999.12.24 00:00:00",
+        "created_date_in_time": "1999-12-24T00:00:00Z",
         "updated_date": "2019.11.08 13:30:57",
-        "expiration_date": "2027.12.23 00:00:00"
+        "updated_date_in_time": "2019-11-08T13:30:57Z",
+        "expiration_date": "2027.12.23 00:00:00",
+        "expiration_date_in_time": "2027-12-23T00:00:00Z"
     },
     "registrar": {
         "name": "nazwa.pl sp. z o.o.",

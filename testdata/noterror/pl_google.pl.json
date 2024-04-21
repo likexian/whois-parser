@@ -12,8 +12,11 @@
             "ns4.google.com"
         ],
         "created_date": "2002.09.19 13:00:00",
+        "created_date_in_time": "2002-09-19T13:00:00Z",
         "updated_date": "2021.08.17 11:43:34",
-        "expiration_date": "2022.09.18 14:00:00"
+        "updated_date_in_time": "2021-08-17T11:43:34Z",
+        "expiration_date": "2022.09.18 14:00:00",
+        "expiration_date_in_time": "2022-09-18T14:00:00Z"
     },
     "registrar": {
         "name": "Markmonitor, Inc.",
