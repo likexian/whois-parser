@@ -5,24 +5,17 @@
         "punycode": "google.ai",
         "name": "google",
         "extension": "ai",
-        "whois_server": "whois.nic.ai",
         "status": [
-            "clientdeleteprohibited",
+            "clientupdateprohibited",
             "clienttransferprohibited",
-            "clientupdateprohibited"
+            "clientdeleteprohibited"
         ],
         "name_servers": [
             "ns3.zdns.google",
             "ns4.zdns.google",
             "ns1.zdns.google",
             "ns2.zdns.google"
-        ],
-        "created_date": "2017-12-16T05:37:20.801Z",
-        "created_date_in_time": "2017-12-16T05:37:20.801Z",
-        "updated_date": "2019-08-24T09:32:27.549Z",
-        "updated_date_in_time": "2019-08-24T09:32:27.549Z",
-        "expiration_date": "2021-09-25T05:37:20.856Z",
-        "expiration_date_in_time": "2021-09-25T05:37:20.856Z"
+        ]
     },
     "registrar": {
         "name": "Markmonitor",
@@ -30,55 +23,42 @@
         "email": "ccops@markmonitor.com"
     },
     "registrant": {
-        "id": "s0WMj-qnEUI",
-        "name": "Domain Administrator",
+        "id": "GphTe-cV5lh",
+        "name": "Redacted | Registry Policy",
         "organization": "Google LLC",
         "street": "1600 Amphitheatre Parkway",
         "city": "Mountain View",
         "province": "CA",
         "postal_code": "94043",
         "country": "US",
-        "phone": "+1.6502530000",
-        "fax": "+1.6502530001",
-        "email": "dns-admin@google.com"
+        "phone": "Redacted | Registry Policy",
+        "fax": "Redacted | Registry Policy",
+        "email": "redacted | registry policy"
     },
     "administrative": {
-        "id": "CcvUP-Jqpbv",
-        "name": "Domain Administrator",
+        "id": "YQv1W-o9XJH",
+        "name": "Redacted | Registry Policy",
         "organization": "Google LLC",
-        "street": "1600 Amphitheatre Parkway",
-        "city": "Mountain View",
-        "province": "CA",
-        "postal_code": "94043",
+        "street": "Redacted | Registry Policy",
+        "city": "Redacted | Registry Policy",
+        "province": "Redacted | Registry Policy",
+        "postal_code": "Redacted | Registry Policy",
         "country": "US",
-        "phone": "+1.6502530000",
-        "fax": "+1.6502530001",
-        "email": "dns-admin@google.com"
+        "phone": "Redacted | Registry Policy",
+        "fax": "Redacted | Registry Policy",
+        "email": "redacted | registry policy"
     },
     "technical": {
-        "id": "u5QWX-TzfM0",
-        "name": "Domain Administrator",
+        "id": "rl8AI-neCNk",
+        "name": "Redacted | Registry Policy",
         "organization": "Google LLC",
-        "street": "1600 Amphitheatre Parkway",
-        "city": "Mountain View",
-        "province": "CA",
-        "postal_code": "94043",
+        "street": "Redacted | Registry Policy",
+        "city": "Redacted | Registry Policy",
+        "province": "Redacted | Registry Policy",
+        "postal_code": "Redacted | Registry Policy",
         "country": "US",
-        "phone": "+1.6502530000",
-        "fax": "+1.6502530001",
-        "email": "dns-admin@google.com"
-    },
-    "billing": {
-        "id": "jCELG-nkfg9",
-        "name": "CCOPS Billing",
-        "organization": "MarkMonitor Inc.",
-        "street": "3540 East Longwing Lane, Suite 300",
-        "city": "Meridian",
-        "province": "Idaho",
-        "postal_code": "83646",
-        "country": "US",
-        "phone": "+1.2083895740",
-        "fax": "+1.2083895771",
-        "email": "ccopsbilling@markmonitor.com"
+        "phone": "Redacted | Registry Policy",
+        "fax": "Redacted | Registry Policy",
+        "email": "redacted | registry policy"
     }
 }
