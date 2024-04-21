@@ -6,7 +6,7 @@
         "extension": "su",
         "status": [
             "registered",
-            "delegated"
+            "not delegated"
         ],
         "name_servers": [
             "ns3.nic.ru",

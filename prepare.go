@@ -1427,17 +1427,12 @@ func prepareAT(text string) string {
 				} else if strings.Contains(v, techID) {
 					token = "technical contact"
 				}
-				if token == "" {
-					result += v + "\n"
-				} else {
-					for _, l := range strings.Split(v, "\n") {
-						result += formatLine(l, token) + "\n"
-					}
+				for _, l := range strings.Split(v, "\n") {
+					result += formatLine(l, token) + "\n"
 				}
-			} else {
-				result += v + "\n"
 			}
 		}
 	}
+
 	return result
 }

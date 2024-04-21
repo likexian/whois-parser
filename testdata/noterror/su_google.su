@@ -7,7 +7,7 @@ domain:        GOOGLE.SU
 nserver:       ns3.nic.ru.
 nserver:       ns4.nic.ru.
 nserver:       ns8.nic.ru.
-state:         REGISTERED, DELEGATED
+state:         REGISTERED, NOT DELEGATED
 person:        Private Person
 e-mail:        domens@mail.com
 registrar:     RUCENTER-SU
