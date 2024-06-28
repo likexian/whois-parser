@@ -66,6 +66,7 @@ func isNotFoundDomain(data string) bool {
 		"no match",
 		"not found",
 		"not match",
+		"not available",
 		"no data found",
 		"nothing found",
 		"no entries found",
