@@ -15,6 +15,7 @@ If there is any problem, please feel free to open a new issue.
 | . | [cn](cn_cn) | [cn](cn_cn.json) | √ |
 | . | [com](com_com) | [com](com_com.json) | √ |
 | . | [google](google_google) | [google](google_google.json) | √ |
+| . | [swiss](swiss_swiss) | [swiss](swiss_swiss.json) | √ |
 | .ac | [git.ac](ac_git.ac) | [git.ac](ac_git.ac.json) | √ |
 | .ac | [google.ac](ac_google.ac) | [google.ac](ac_google.ac.json) | √ |
 | .aero | [google.aero](aero_google.aero) | [google.aero](aero_google.aero.json) | √ |

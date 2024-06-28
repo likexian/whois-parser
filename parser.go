@@ -30,7 +30,7 @@ import (
 
 // Version returns package version
 func Version() string {
-	return "1.24.17"
+	return "1.24.18"
 }
 
 // Author returns package author
@@ -246,9 +246,9 @@ func parseContact(contact *Contact, name, value string) {
 }
 
 var searchDomainRx1 = regexp.MustCompile(`(?i)\[?domain\:?(\s*\_?name)?\]?[\s\.]*\:?` +
-	`\s*([^\s\,\;\(\)]+)\.([^\s\,\;\(\)\.]{2,})`)
+	`\s*([^\s\,\;\@\(\)]+)\.([^\s\,\;\(\)\.]{2,})`)
 var searchDomainRx2 = regexp.MustCompile(`(?i)\[?domain\:?(\s*\_?name)?\]?[\s\.]*\:?` +
-	`\s*([^\s\,\;\(\)\.]{2,})\n`)
+	`\s*([^\s\,\;\@\(\)\.]{2,})\n`)
 
 // searchDomain finds domain name and extension from whois information
 func searchDomain(text string) (name, extension string) {

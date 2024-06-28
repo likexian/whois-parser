@@ -1,0 +1,43 @@
+% IANA WHOIS server
+% for more information on IANA, visit http://www.iana.org
+% This query returned 1 object
+domain:       SWISS
+registrant organisation: Swiss Confederation
+registrant address:      Federal Office of Communications (OFCOM)
+registrant address:      Rue de l'Avenir 44
+registrant address:      P.O Box
+registrant address:      Biel/Bienne BE CH-2501
+registrant address:      Switzerland
+contact:      administrative
+administrative name:         .swiss TLD Administrative Contact
+administrative organisation: Federal Office of Communications (OFCOM)
+administrative address:      Rue de l'Avenir 44
+administrative address:      P.O Box
+administrative address:      Biel / Bienne BE CH-2501
+administrative address:      Switzerland
+administrative phone:        +41 58 461 89 49
+administrative fax-no:       +41 58 460 55 49
+administrative e-mail:       domainnames@bakom.admin.ch
+contact:      technical
+technical name:         .swiss TLD Technical Contact
+technical organisation: CORE Association
+technical address:      Cours de Rive 2
+technical address:      Geneva CH-1204
+technical address:      Switzerland
+technical phone:        +41 22 312 5610
+technical fax-no:       +41 22 312 5612
+technical e-mail:       dnsmaster@corenic.org
+nserver:      ANYCAST10.IRONDNS.NET 195.253.64.12 2a01:5b0:4:0:0:0:0:c
+nserver:      ANYCAST23.IRONDNS.NET 195.253.65.11 2a01:5b0:5:0:0:0:0:b
+nserver:      ANYCAST24.IRONDNS.NET 195.253.65.12 2a01:5b0:5:0:0:0:0:c
+nserver:      ANYCAST9.IRONDNS.NET 195.253.64.11 2a01:5b0:4:0:0:0:0:b
+nserver:      G.NIC.SWISS 195.253.64.9 2a01:5b0:4:0:0:0:0:9
+nserver:      NS15.RCODE0.NET 194.0.25.15 2001:678:20:0:0:0:0:15
+nserver:      U.NIC.SWISS 195.253.65.9 2a01:5b0:5:0:0:0:0:9
+ds-rdata:     16056 10 2 b974351f3624a85d4304c09a005203d8cbd8ff0d790095413b19c31538f1ae31
+whois:        whois.nic.swiss
+status:       ACTIVE
+remarks:      Registration information: http://www.nic.swiss
+created:      2015-04-16
+changed:      2022-01-07
+source:       IANA

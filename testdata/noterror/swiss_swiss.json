@@ -1,0 +1,44 @@
+{
+    "domain": {
+        "domain": "swiss",
+        "punycode": "swiss",
+        "name": "swiss",
+        "whois_server": "whois.nic.swiss",
+        "status": [
+            "active"
+        ],
+        "name_servers": [
+            "anycast10.irondns.net",
+            "anycast23.irondns.net",
+            "anycast24.irondns.net",
+            "anycast9.irondns.net",
+            "g.nic.swiss",
+            "ns15.rcode0.net",
+            "u.nic.swiss"
+        ],
+        "created_date": "2015-04-16",
+        "created_date_in_time": "2015-04-16T00:00:00Z",
+        "updated_date": "2022-01-07",
+        "updated_date_in_time": "2022-01-07T00:00:00Z"
+    },
+    "registrant": {
+        "organization": "Swiss Confederation",
+        "street": "Federal Office of Communications (OFCOM), Rue de l'Avenir 44, P.O Box, Biel/Bienne BE CH-2501, Switzerland"
+    },
+    "administrative": {
+        "name": ".swiss TLD Administrative Contact",
+        "organization": "Federal Office of Communications (OFCOM)",
+        "street": "Rue de l'Avenir 44, P.O Box, Biel / Bienne BE CH-2501, Switzerland",
+        "phone": "+41 58 461 89 49",
+        "fax": "+41 58 460 55 49",
+        "email": "domainnames@bakom.admin.ch"
+    },
+    "technical": {
+        "name": ".swiss TLD Technical Contact",
+        "organization": "CORE Association",
+        "street": "Cours de Rive 2, Geneva CH-1204, Switzerland",
+        "phone": "+41 22 312 5610",
+        "fax": "+41 22 312 5612",
+        "email": "dnsmaster@corenic.org"
+    }
+}
