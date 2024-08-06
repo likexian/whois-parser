@@ -134,4 +134,7 @@ func TestAsisLimitExceeded(t *testing.T) {
 	data = `Domain Name: LIKEXIAN.COM
 	Registry Domain ID: 1665843940_DOMAIN_COM-VRSN`
 	assert.False(t, isLimitExceeded(data))
+
+	data = `%% Maximum query rate reached`
+	assert.True(t, isLimitExceeded(data))
 }
