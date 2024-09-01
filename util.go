@@ -72,8 +72,8 @@ func searchKeyName(key string) string {
 func fixDomainStatus(status []string) []string {
 	for k, v := range status {
 		names := strings.Split(strings.TrimSpace(v), " ")
-		status[k] = strings.ToLower(names[0])
-		if status[k] == "not" && len(names) > 1 && strings.ToLower(names[1]) == "delegated" {
+		status[k] = names[0]
+		if strings.ToLower(status[k]) == "not" && len(names) > 1 && strings.ToLower(names[1]) == "delegated" {
 			status[k] = "not delegated"
 		}
 	}
