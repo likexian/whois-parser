@@ -7,7 +7,7 @@
         "extension": "au",
         "whois_server": "whois.auda.org.au",
         "status": [
-            "serverrenewprohibited"
+            "serverRenewProhibited"
         ],
         "name_servers": [
             "dns4.sge.net",

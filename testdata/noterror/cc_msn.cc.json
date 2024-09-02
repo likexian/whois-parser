@@ -7,7 +7,7 @@
         "extension": "cc",
         "whois_server": "whois.corporatedomains.com",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns3.msft.net",

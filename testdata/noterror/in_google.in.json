@@ -6,9 +6,9 @@
         "name": "google",
         "extension": "in",
         "status": [
-            "clienttransferprohibited",
-            "clientdeleteprohibited",
-            "clientupdateprohibited"
+            "clientTransferProhibited",
+            "clientDeleteProhibited",
+            "clientUpdateProhibited"
         ],
         "name_servers": [
             "ns4.google.com",

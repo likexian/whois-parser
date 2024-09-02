@@ -7,9 +7,9 @@
         "extension": "love",
         "whois_server": "whois.meshdigital.com",
         "status": [
-            "clienttransferprohibited",
-            "clientupdateprohibited",
-            "clientdeleteprohibited"
+            "clientTransferProhibited",
+            "clientUpdateProhibited",
+            "clientDeleteProhibited"
         ],
         "name_servers": [
             "ns1.esm1066.sgded.com",

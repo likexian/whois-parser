@@ -6,11 +6,11 @@
         "name": "lat",
         "extension": "london",
         "status": [
-            "clientdeleteprohibited",
-            "clientrenewprohibited",
-            "clienttransferprohibited",
-            "clientupdateprohibited",
-            "autorenewperiod"
+            "clientDeleteProhibited",
+            "clientRenewProhibited",
+            "clientTransferProhibited",
+            "clientUpdateProhibited",
+            "autoRenewPeriod"
         ],
         "name_servers": [
             "ns-1780.awsdns-30.co.uk",

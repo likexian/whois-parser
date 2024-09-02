@@ -5,7 +5,7 @@
         "name": "swiss",
         "whois_server": "whois.nic.swiss",
         "status": [
-            "active"
+            "ACTIVE"
         ],
         "name_servers": [
             "anycast10.irondns.net",

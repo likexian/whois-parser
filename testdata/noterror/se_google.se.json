@@ -6,9 +6,9 @@
         "extension": "se",
         "status": [
             "active",
-            "serverupdateprohibited",
-            "serverdeleteprohibited",
-            "servertransferprohibited"
+            "serverUpdateProhibited",
+            "serverDeleteProhibited",
+            "serverTransferProhibited"
         ],
         "name_servers": [
             "ns1.google.com",

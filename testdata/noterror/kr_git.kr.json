@@ -5,7 +5,7 @@
         "name": "git",
         "extension": "kr",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns1.parkingcrew.net",

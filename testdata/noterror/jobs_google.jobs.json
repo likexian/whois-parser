@@ -7,9 +7,9 @@
         "extension": "jobs",
         "whois_server": "whois.markmonitor.com",
         "status": [
-            "clientdeleteprohibited",
-            "clienttransferprohibited",
-            "clientupdateprohibited"
+            "clientDeleteProhibited",
+            "clientTransferProhibited",
+            "clientUpdateProhibited"
         ],
         "name_servers": [
             "ns1.google.com",

@@ -7,12 +7,12 @@
         "extension": "ca",
         "whois_server": "whois.ca.fury.ca",
         "status": [
-            "clientdeleteprohibited",
-            "clienttransferprohibited",
-            "clientupdateprohibited",
-            "serverdeleteprohibited",
-            "servertransferprohibited",
-            "serverupdateprohibited"
+            "clientDeleteProhibited",
+            "clientTransferProhibited",
+            "clientUpdateProhibited",
+            "serverDeleteProhibited",
+            "serverTransferProhibited",
+            "serverUpdateProhibited"
         ],
         "name_servers": [
             "ns1.google.com",

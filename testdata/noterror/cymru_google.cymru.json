@@ -6,9 +6,9 @@
         "name": "google",
         "extension": "cymru",
         "status": [
-            "clientdeleteprohibited",
-            "clienttransferprohibited",
-            "clientupdateprohibited"
+            "clientDeleteProhibited",
+            "clientTransferProhibited",
+            "clientUpdateProhibited"
         ],
         "name_servers": [
             "ns4.google.com",

@@ -5,7 +5,7 @@
         "name": "goo.ne",
         "extension": "jp",
         "status": [
-            "connected"
+            "Connected"
         ],
         "name_servers": [
             "ns1.goo.ne.jp",

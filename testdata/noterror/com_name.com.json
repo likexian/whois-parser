@@ -7,10 +7,10 @@
         "extension": "com",
         "whois_server": "whois.name.com",
         "status": [
-            "clienttransferprohibited",
-            "serverdeleteprohibited",
-            "servertransferprohibited",
-            "serverupdateprohibited"
+            "clientTransferProhibited",
+            "serverDeleteProhibited",
+            "serverTransferProhibited",
+            "serverUpdateProhibited"
         ],
         "name_servers": [
             "asia3.akam.net",

@@ -7,7 +7,7 @@
         "extension": "museum",
         "whois_server": "whois.nic.museum",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns01.trademarkarea.com",

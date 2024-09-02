@@ -5,9 +5,9 @@
         "name": "google.com",
         "extension": "tw",
         "status": [
-            "clientupdateprohibited",
-            "clienttransferprohibited",
-            "clientdeleteprohibited"
+            "clientUpdateProhibited",
+            "clientTransferProhibited",
+            "clientDeleteProhibited"
         ],
         "name_servers": [
             "ns1.google.com",

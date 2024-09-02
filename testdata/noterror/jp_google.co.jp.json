@@ -5,7 +5,7 @@
         "name": "google.co",
         "extension": "jp",
         "status": [
-            "connected"
+            "Connected"
         ],
         "name_servers": [
             "ns1.google.com",

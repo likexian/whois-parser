@@ -7,7 +7,7 @@
         "extension": "net",
         "whois_server": "whois.1api.net",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns1012.hexonet.net",

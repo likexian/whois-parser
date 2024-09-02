@@ -5,7 +5,7 @@
         "name": "git",
         "extension": "pm",
         "status": [
-            "active"
+            "ACTIVE"
         ],
         "name_servers": [
             "ns1.srna.sk",

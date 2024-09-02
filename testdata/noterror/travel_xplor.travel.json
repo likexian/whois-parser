@@ -6,7 +6,7 @@
         "extension": "travel",
         "whois_server": "whois.encirca.com",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns-643.awsdns-16.net",

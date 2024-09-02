@@ -5,7 +5,7 @@
         "name": "git",
         "extension": "yt",
         "status": [
-            "active"
+            "ACTIVE"
         ],
         "name_servers": [
             "ns0.random.sh",

@@ -5,7 +5,7 @@
         "name": "git",
         "extension": "fr",
         "status": [
-            "active"
+            "ACTIVE"
         ],
         "name_servers": [
             "ns104.ovh.net",

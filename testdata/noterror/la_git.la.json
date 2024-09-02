@@ -6,7 +6,7 @@
         "name": "git",
         "extension": "la",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "bob.ns.cloudflare.com",

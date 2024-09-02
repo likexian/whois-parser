@@ -7,7 +7,7 @@
         "extension": "com",
         "whois_server": "whois.uniregistrar.net",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns2.venture.com",

@@ -7,9 +7,9 @@
         "extension": "scot",
         "whois_server": "whois.demys.com",
         "status": [
-            "clientdeleteprohibited",
-            "clienttransferprohibited",
-            "clientupdateprohibited"
+            "clientDeleteProhibited",
+            "clientTransferProhibited",
+            "clientUpdateProhibited"
         ],
         "name_servers": [
             "ns3.ja.net",

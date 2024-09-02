@@ -6,8 +6,8 @@
         "name": "xn--6qq79v",
         "extension": "xn--fiqs8s",
         "status": [
-            "clientdeleteprohibited",
-            "clienttransferprohibited"
+            "clientDeleteProhibited",
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns3.dns.com",

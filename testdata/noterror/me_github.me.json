@@ -6,9 +6,9 @@
         "name": "github",
         "extension": "me",
         "status": [
-            "clientdeleteprohibited",
-            "clienttransferprohibited",
-            "clientupdateprohibited"
+            "clientDeleteProhibited",
+            "clientTransferProhibited",
+            "clientUpdateProhibited"
         ],
         "name_servers": [
             "ns1.p16.dynect.net",

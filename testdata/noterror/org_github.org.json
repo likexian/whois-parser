@@ -7,7 +7,7 @@
         "extension": "org",
         "whois_server": "WHOIS.ENOM.COM",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns1.dnsimple.com",

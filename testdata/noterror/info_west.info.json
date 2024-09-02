@@ -7,7 +7,7 @@
         "extension": "info",
         "whois_server": "whois.psi-usa.info",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "dns1.ipmanagerinc.net",

@@ -6,7 +6,7 @@
         "name": "gov",
         "extension": "wales",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns3.ja.net",

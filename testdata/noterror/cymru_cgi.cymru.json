@@ -6,7 +6,7 @@
         "name": "cgi",
         "extension": "cymru",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "dns1.cscdns.net",

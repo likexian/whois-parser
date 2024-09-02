@@ -7,8 +7,8 @@
         "extension": "org",
         "whois_server": "whois.namecheap.com",
         "status": [
-            "clientdeleteprohibited",
-            "clienttransferprohibited"
+            "clientDeleteProhibited",
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns2.surfnet.nl",

@@ -6,9 +6,9 @@
         "name": "google",
         "extension": "berlin",
         "status": [
-            "clientdeleteprohibited",
-            "clienttransferprohibited",
-            "clientupdateprohibited"
+            "clientDeleteProhibited",
+            "clientTransferProhibited",
+            "clientUpdateProhibited"
         ],
         "name_servers": [
             "ns1.googledomains.com",

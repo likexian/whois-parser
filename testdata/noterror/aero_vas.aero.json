@@ -6,7 +6,7 @@
         "name": "vas",
         "extension": "aero",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns1.clt.peak-10.com",

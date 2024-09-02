@@ -5,7 +5,7 @@
         "name": "google",
         "extension": "wf",
         "status": [
-            "active"
+            "ACTIVE"
         ],
         "name_servers": [
             "ns1.markmonitor.com",

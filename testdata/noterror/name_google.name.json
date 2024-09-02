@@ -6,9 +6,9 @@
         "name": "google",
         "extension": "name",
         "status": [
-            "servertransferprohibited",
-            "serverupdateprohibited",
-            "serverdeleteprohibited"
+            "serverTransferProhibited",
+            "serverUpdateProhibited",
+            "serverDeleteProhibited"
         ]
     },
     "registrar": {

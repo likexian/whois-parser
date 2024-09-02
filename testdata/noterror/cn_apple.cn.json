@@ -6,10 +6,10 @@
         "name": "apple",
         "extension": "cn",
         "status": [
-            "serverdeleteprohibited",
-            "serverupdateprohibited",
-            "clienttransferprohibited",
-            "servertransferprohibited"
+            "serverDeleteProhibited",
+            "serverUpdateProhibited",
+            "clientTransferProhibited",
+            "serverTransferProhibited"
         ],
         "name_servers": [
             "a.ns.apple.com",

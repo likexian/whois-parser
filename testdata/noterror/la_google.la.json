@@ -6,7 +6,7 @@
         "name": "google",
         "extension": "la",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns1.google.com",

@@ -7,7 +7,7 @@
         "extension": "io",
         "whois_server": "whois.gandi.net",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "dns103.ovh.net",

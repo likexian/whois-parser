@@ -6,11 +6,11 @@
         "name": "google",
         "extension": "cn",
         "status": [
-            "clientdeleteprohibited",
-            "serverdeleteprohibited",
-            "serverupdateprohibited",
-            "clienttransferprohibited",
-            "servertransferprohibited"
+            "clientDeleteProhibited",
+            "serverDeleteProhibited",
+            "serverUpdateProhibited",
+            "clientTransferProhibited",
+            "serverTransferProhibited"
         ],
         "name_servers": [
             "ns2.google.com",

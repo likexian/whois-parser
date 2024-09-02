@@ -7,12 +7,12 @@
         "extension": "cx",
         "whois_server": "whois.coccaregistry.org",
         "status": [
-            "serverupdateprohibited",
-            "servertransferprohibited",
-            "serverdeleteprohibited",
-            "clientupdateprohibited",
-            "clienttransferprohibited",
-            "clientdeleteprohibited"
+            "serverUpdateProhibited",
+            "serverTransferProhibited",
+            "serverDeleteProhibited",
+            "clientUpdateProhibited",
+            "clientTransferProhibited",
+            "clientDeleteProhibited"
         ],
         "name_servers": [
             "ns1.google.com",

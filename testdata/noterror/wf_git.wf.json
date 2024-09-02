@@ -5,7 +5,7 @@
         "name": "git",
         "extension": "wf",
         "status": [
-            "active"
+            "ACTIVE"
         ],
         "name_servers": [
             "ns.inwx.de",

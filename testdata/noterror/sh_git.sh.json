@@ -6,7 +6,7 @@
         "name": "git",
         "extension": "sh",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns1.ezdnscenter.com",

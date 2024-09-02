@@ -6,7 +6,7 @@
         "name": "git",
         "extension": "in",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns1.parkingcrew.net",

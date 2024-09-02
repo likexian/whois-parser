@@ -5,7 +5,7 @@
         "name": "google",
         "whois_server": "whois.nic.google",
         "status": [
-            "active"
+            "ACTIVE"
         ],
         "name_servers": [
             "ns-tld1.charlestonroadregistry.com",

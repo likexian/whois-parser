@@ -6,9 +6,9 @@
         "name": "google",
         "extension": "ai",
         "status": [
-            "clientupdateprohibited",
-            "clienttransferprohibited",
-            "clientdeleteprohibited"
+            "clientUpdateProhibited",
+            "clientTransferProhibited",
+            "clientDeleteProhibited"
         ],
         "name_servers": [
             "ns3.zdns.google",

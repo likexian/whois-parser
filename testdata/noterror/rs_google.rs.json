@@ -5,8 +5,8 @@
         "name": "google",
         "extension": "rs",
         "status": [
-            "active",
-            "clientupdateprohibited"
+            "Active",
+            "clientUpdateProhibited"
         ],
         "name_servers": [
             "ns1.google.com",

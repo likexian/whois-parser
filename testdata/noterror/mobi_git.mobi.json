@@ -7,8 +7,8 @@
         "extension": "mobi",
         "whois_server": "whois.Rebel.com",
         "status": [
-            "client_transfer_prohibited",
-            "client_update_prohibited"
+            "CLIENT_TRANSFER_PROHIBITED",
+            "CLIENT_UPDATE_PROHIBITED"
         ],
         "name_servers": [
             "ns1.parklogic.com",

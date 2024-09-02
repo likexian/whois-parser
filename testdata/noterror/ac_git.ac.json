@@ -7,9 +7,9 @@
         "extension": "ac",
         "whois_server": "whois.porkbun.com",
         "status": [
-            "clientdeleteprohibited",
-            "clienttransferprohibited",
-            "servertransferprohibited"
+            "clientDeleteProhibited",
+            "clientTransferProhibited",
+            "serverTransferProhibited"
         ],
         "name_servers": [
             "f1g1ns2.dnspod.net",

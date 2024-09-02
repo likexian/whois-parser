@@ -6,8 +6,8 @@
         "name": "porn",
         "extension": "xxx",
         "status": [
-            "servertransferprohibited",
-            "transferperiod"
+            "serverTransferProhibited",
+            "transferPeriod"
         ],
         "name_servers": [
             "ns1.eurodns.com",

@@ -6,8 +6,8 @@
         "name": "git",
         "extension": "asia",
         "status": [
-            "clienttransferprohibited",
-            "autorenewperiod"
+            "clientTransferProhibited",
+            "autoRenewPeriod"
         ],
         "name_servers": [
             "ns1.dnsowl.com",

@@ -7,7 +7,7 @@
         "extension": "top",
         "whois_server": "whois.rrpproxy.net",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns1.p20.dynect.net",

@@ -7,8 +7,8 @@
         "extension": "com",
         "whois_server": "whois.encirca.com",
         "status": [
-            "clienttransferprohibited",
-            "clientdeleteprohibited"
+            "clientTransferProhibited",
+            "clientDeleteProhibited"
         ],
         "name_servers": [
             "dns3.encirca.com",

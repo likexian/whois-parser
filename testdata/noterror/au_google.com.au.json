@@ -7,11 +7,11 @@
         "extension": "au",
         "whois_server": "whois.auda.org.au",
         "status": [
-            "clientdeleteprohibited",
-            "clientupdateprohibited",
-            "serverdeleteprohibited",
-            "serverrenewprohibited",
-            "serverupdateprohibited"
+            "clientDeleteProhibited",
+            "clientUpdateProhibited",
+            "serverDeleteProhibited",
+            "serverRenewProhibited",
+            "serverUpdateProhibited"
         ],
         "name_servers": [
             "ns1.google.com",

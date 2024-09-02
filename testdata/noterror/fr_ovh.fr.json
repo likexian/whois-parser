@@ -5,7 +5,7 @@
         "name": "ovh",
         "extension": "fr",
         "status": [
-            "active"
+            "ACTIVE"
         ],
         "name_servers": [
             "dns.ovh.net",

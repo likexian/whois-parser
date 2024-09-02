@@ -5,7 +5,7 @@
         "name": "cn",
         "whois_server": "whois.cnnic.cn",
         "status": [
-            "active"
+            "ACTIVE"
         ],
         "name_servers": [
             "a.dns.cn",

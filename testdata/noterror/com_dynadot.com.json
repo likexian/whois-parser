@@ -7,7 +7,7 @@
         "extension": "com",
         "whois_server": "whois.dynadot.com",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns1-geo.dynadot.com",

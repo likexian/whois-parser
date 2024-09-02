@@ -5,7 +5,7 @@
         "name": "folketinget",
         "extension": "dk",
         "status": [
-            "active"
+            "Active"
         ],
         "name_servers": [
             "maleah.ns.cloudflare.com",

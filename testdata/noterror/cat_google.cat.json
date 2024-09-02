@@ -7,9 +7,9 @@
         "extension": "cat",
         "whois_server": "whois.markmonitor.com",
         "status": [
-            "clientupdateprohibited",
-            "clienttransferprohibited",
-            "clientdeleteprohibited"
+            "clientUpdateProhibited",
+            "clientTransferProhibited",
+            "clientDeleteProhibited"
         ],
         "name_servers": [
             "ns4.google.com",

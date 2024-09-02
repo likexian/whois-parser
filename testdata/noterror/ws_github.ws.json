@@ -7,9 +7,9 @@
         "extension": "ws",
         "whois_server": "whois.markmonitor.com",
         "status": [
-            "clienttransferprohibited",
-            "clientdeleteprohibited",
-            "clientupdateprohibited"
+            "clientTransferProhibited",
+            "clientDeleteProhibited",
+            "clientUpdateProhibited"
         ],
         "name_servers": [
             "ns1.p16.dynect.net",

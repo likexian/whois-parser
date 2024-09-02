@@ -5,7 +5,7 @@
         "name": "git",
         "extension": "re",
         "status": [
-            "active"
+            "ACTIVE"
         ],
         "name_servers": [
             "dns1.yandex.net",

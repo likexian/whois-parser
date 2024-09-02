@@ -5,8 +5,8 @@
         "name": "git",
         "extension": "su",
         "status": [
-            "registered",
-            "delegated"
+            "REGISTERED",
+            "DELEGATED"
         ],
         "name_servers": [
             "d.ns.git.su",

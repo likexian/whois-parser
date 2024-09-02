@@ -5,7 +5,7 @@
         "name": "google",
         "extension": "su",
         "status": [
-            "registered",
+            "REGISTERED",
             "not delegated"
         ],
         "name_servers": [

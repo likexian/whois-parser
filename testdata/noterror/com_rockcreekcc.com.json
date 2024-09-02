@@ -7,8 +7,8 @@
         "extension": "com",
         "whois_server": "whois.tucows.com",
         "status": [
-            "clienttransferprohibited",
-            "clientupdateprohibited"
+            "clientTransferProhibited",
+            "clientUpdateProhibited"
         ],
         "name_servers": [
             "ns1.sterlink.net",

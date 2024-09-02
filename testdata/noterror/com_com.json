@@ -5,7 +5,7 @@
         "name": "com",
         "whois_server": "whois.verisign-grs.com",
         "status": [
-            "active"
+            "ACTIVE"
         ],
         "name_servers": [
             "a.gtld-servers.net",

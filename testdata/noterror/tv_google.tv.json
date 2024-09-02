@@ -6,12 +6,12 @@
         "extension": "tv",
         "whois_server": "whois.markmonitor.com",
         "status": [
-            "clientupdateprohibited",
-            "clienttransferprohibited",
-            "clientdeleteprohibited",
-            "serverupdateprohibited",
-            "servertransferprohibited",
-            "serverdeleteprohibited"
+            "clientUpdateProhibited",
+            "clientTransferProhibited",
+            "clientDeleteProhibited",
+            "serverUpdateProhibited",
+            "serverTransferProhibited",
+            "serverDeleteProhibited"
         ],
         "name_servers": [
             "ns1.google.com",

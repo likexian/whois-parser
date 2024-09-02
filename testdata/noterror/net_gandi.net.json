@@ -7,9 +7,9 @@
         "extension": "net",
         "whois_server": "whois.gandi.net",
         "status": [
-            "clientupdateprohibited",
-            "clientdeleteprohibited",
-            "clienttransferprohibited"
+            "clientUpdateProhibited",
+            "clientDeleteProhibited",
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "dns0.gandi.net",

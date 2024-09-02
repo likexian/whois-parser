@@ -7,9 +7,9 @@
         "extension": "ca",
         "whois_server": "whois.ca.fury.ca",
         "status": [
-            "clientdeleteprohibited",
-            "clienttransferprohibited",
-            "clientupdateprohibited"
+            "clientDeleteProhibited",
+            "clientTransferProhibited",
+            "clientUpdateProhibited"
         ],
         "name_servers": [
             "pdns09.domaincontrol.com",

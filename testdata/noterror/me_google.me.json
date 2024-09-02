@@ -6,12 +6,12 @@
         "name": "google",
         "extension": "me",
         "status": [
-            "clientdeleteprohibited",
-            "clienttransferprohibited",
-            "clientupdateprohibited",
-            "serverdeleteprohibited",
-            "servertransferprohibited",
-            "serverupdateprohibited"
+            "clientDeleteProhibited",
+            "clientTransferProhibited",
+            "clientUpdateProhibited",
+            "serverDeleteProhibited",
+            "serverTransferProhibited",
+            "serverUpdateProhibited"
         ],
         "name_servers": [
             "ns1.google.com",

@@ -5,7 +5,7 @@
         "name": "google.net",
         "extension": "tw",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns1.afraid.org",

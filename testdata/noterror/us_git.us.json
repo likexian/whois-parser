@@ -7,10 +7,10 @@
         "extension": "us",
         "whois_server": "whois.godaddy.com",
         "status": [
-            "clienttransferprohibited",
-            "clientupdateprohibited",
-            "clientrenewprohibited",
-            "clientdeleteprohibited"
+            "clientTransferProhibited",
+            "clientUpdateProhibited",
+            "clientRenewProhibited",
+            "clientDeleteProhibited"
         ],
         "name_servers": [
             "ns1.namefind.com",

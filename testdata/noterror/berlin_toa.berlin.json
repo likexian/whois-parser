@@ -6,7 +6,7 @@
         "name": "toa",
         "extension": "berlin",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns-1232.awsdns-26.org",

@@ -5,9 +5,9 @@
         "name": "google",
         "extension": "ru",
         "status": [
-            "registered",
-            "delegated",
-            "verified"
+            "REGISTERED",
+            "DELEGATED",
+            "VERIFIED"
         ],
         "name_servers": [
             "ns1.google.com",

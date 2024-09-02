@@ -5,10 +5,10 @@
         "name": "ps",
         "extension": "kz",
         "status": [
-            "clienttransferprohibited",
-            "clientdeleteprohibited",
-            "clientrenewprohibited",
-            "clientupdateprohibited"
+            "clientTransferProhibited",
+            "clientDeleteProhibited",
+            "clientRenewProhibited",
+            "clientUpdateProhibited"
         ],
         "name_servers": [
             "ns1.ps.kz",

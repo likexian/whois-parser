@@ -7,7 +7,7 @@
         "extension": "gs",
         "whois_server": "whois.coccaregistry.org",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns1.linode.com",

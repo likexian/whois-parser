@@ -5,7 +5,7 @@
         "name": "specialized.com",
         "extension": "tw",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "cns1.net-chinese.com.tw",

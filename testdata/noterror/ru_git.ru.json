@@ -5,9 +5,9 @@
         "name": "git",
         "extension": "ru",
         "status": [
-            "registered",
-            "delegated",
-            "unverified"
+            "REGISTERED",
+            "DELEGATED",
+            "UNVERIFIED"
         ],
         "name_servers": [
             "hosting1.telekom.ru",

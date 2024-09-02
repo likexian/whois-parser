@@ -6,7 +6,7 @@
         "name": "google",
         "extension": "museum",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns.inwx.de",

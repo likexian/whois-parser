@@ -5,8 +5,8 @@
         "name": "nic",
         "extension": "ua",
         "status": [
-            "clientdeleteprohibited",
-            "clienttransferprohibited"
+            "clientDeleteProhibited",
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns1.uadns.com",

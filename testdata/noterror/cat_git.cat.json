@@ -7,7 +7,7 @@
         "extension": "cat",
         "whois_server": "whois.gandi.net",
         "status": [
-            "clienttransferprohibited"
+            "clientTransferProhibited"
         ],
         "name_servers": [
             "ns1.smartgslb.com",

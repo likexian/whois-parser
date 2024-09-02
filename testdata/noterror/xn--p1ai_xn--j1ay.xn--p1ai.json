@@ -5,9 +5,9 @@
         "name": "xn--j1ay",
         "extension": "xn--p1ai",
         "status": [
-            "registered",
-            "delegated",
-            "verified"
+            "REGISTERED",
+            "DELEGATED",
+            "VERIFIED"
         ],
         "name_servers": [
             "ns1.cctld.ru",

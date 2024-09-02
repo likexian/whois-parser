@@ -5,7 +5,7 @@
         "name": "politikken",
         "extension": "dk",
         "status": [
-            "active"
+            "Active"
         ],
         "name_servers": [
             "ns-1307.awsdns-35.org",

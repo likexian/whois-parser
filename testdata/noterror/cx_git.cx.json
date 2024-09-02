@@ -7,8 +7,8 @@
         "extension": "cx",
         "whois_server": "whois.coccaregistry.org",
         "status": [
-            "clienttransferprohibited",
-            "clientdeleteprohibited"
+            "clientTransferProhibited",
+            "clientDeleteProhibited"
         ],
         "name_servers": [
             "dns100.ovh.net",
