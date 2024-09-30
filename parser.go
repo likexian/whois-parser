@@ -13,10 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- * Go module for domain whois information parsing
+ * Go module for domain and IP whois information parsing
  * https://www.likexian.com/
  */
 
+// Package whoisparser provides functions for parsing whois information of domains and IP addresses.
+//
+// It supports parsing whois data for various domain extensions and IP addresses.
+// The package can extract information such as domain details, registrar information,
+// name servers, and for IP addresses, it can extract network range, CIDR, organization, etc.
 package whoisparser
 
 import (
@@ -30,7 +35,7 @@ import (
 
 // Version returns package version
 func Version() string {
-	return "1.24.20"
+	return "1.25.0"
 }
 
 // Author returns package author
@@ -43,16 +48,24 @@ func License() string {
 	return "Licensed under the Apache License 2.0"
 }
 
-// Parse returns parsed whois info
-func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
-	name, extension := searchDomain(text)
-	if name == "" {
-		err = getDomainErrorType(text)
+// Parse returns parsed whois info for domain or IP
+func Parse(text string) (whoisInfo WhoisInfo, err error) {
+	err = getErrorType(text)
+	if err != nil {
 		return
 	}
 
-	if extension != "" && isExtNotFoundDomain(text, extension) {
-		err = ErrNotFoundDomain
+	if isIPWhois(text) {
+		return parseIPWhois(text)
+	}
+	return parseDomainWhois(text)
+}
+
+// parseDomainWhois parses domain WHOIS information
+func parseDomainWhois(text string) (whoisInfo WhoisInfo, err error) {
+	name, extension := searchDomain(text)
+	if name == "" {
+		err = ErrDomainDataInvalid
 		return
 	}
 
@@ -202,6 +215,57 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 		whoisInfo.Billing = billing
 	}
 
+	return
+}
+
+// parseIPWhois parses IP WHOIS information
+func parseIPWhois(text string) (whoisInfo WhoisInfo, err error) {
+	ipInfo := &IPInfo{}
+	whoisLines := strings.Split(text, "\n")
+	for _, line := range whoisLines {
+		line = strings.TrimSpace(line)
+		if len(line) < 5 || !strings.Contains(line, ":") {
+			continue
+		}
+
+		parts := strings.SplitN(line, ":", 2)
+		if len(parts) != 2 {
+			continue
+		}
+
+		key := strings.TrimSpace(parts[0])
+		value := strings.TrimSpace(parts[1])
+
+		switch strings.ToLower(key) {
+		case "netrange":
+			ipInfo.NetRange = value
+		case "cidr":
+			ipInfo.CIDR = strings.Split(value, ", ")
+		case "netname":
+			ipInfo.NetName = value
+		case "nethandle":
+			ipInfo.NetHandle = value
+		case "parent":
+			ipInfo.Parent = value
+		case "nettype":
+			ipInfo.NetType = value
+		case "originas":
+			ipInfo.OriginAS = value
+		case "organization":
+			ipInfo.Organization = value
+		case "regdate":
+			ipInfo.RegDate = value
+		case "updated":
+			ipInfo.Updated = value
+		case "comment":
+			ipInfo.Comment += value + "\n"
+		case "ref":
+			ipInfo.Ref = value
+		}
+	}
+
+	ipInfo.Comment = strings.TrimSpace(ipInfo.Comment)
+	whoisInfo.IP = ipInfo
 	return
 }
 

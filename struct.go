@@ -21,7 +21,7 @@ package whoisparser
 
 import "time"
 
-// WhoisInfo storing domain whois info
+// WhoisInfo storing domain or IP whois info
 type WhoisInfo struct {
 	Domain         *Domain  `json:"domain,omitempty"`
 	Registrar      *Contact `json:"registrar,omitempty"`
@@ -29,6 +29,7 @@ type WhoisInfo struct {
 	Administrative *Contact `json:"administrative,omitempty"`
 	Technical      *Contact `json:"technical,omitempty"`
 	Billing        *Contact `json:"billing,omitempty"`
+	IP             *IPInfo  `json:"ip,omitempty"`
 }
 
 // Domain storing domain name info
@@ -66,4 +67,20 @@ type Contact struct {
 	FaxExt       string `json:"fax_ext,omitempty"`
 	Email        string `json:"email,omitempty"`
 	ReferralURL  string `json:"referral_url,omitempty"`
+}
+
+// IPInfo storing IP whois info
+type IPInfo struct {
+	NetRange     string   `json:"net_range,omitempty"`
+	CIDR         []string `json:"cidr,omitempty"`
+	NetName      string   `json:"net_name,omitempty"`
+	NetHandle    string   `json:"net_handle,omitempty"`
+	Parent       string   `json:"parent,omitempty"`
+	NetType      string   `json:"net_type,omitempty"`
+	OriginAS     string   `json:"origin_as,omitempty"`
+	Organization string   `json:"organization,omitempty"`
+	RegDate      string   `json:"reg_date,omitempty"`
+	Updated      string   `json:"updated,omitempty"`
+	Comment      string   `json:"comment,omitempty"`
+	Ref          string   `json:"ref,omitempty"`
 }

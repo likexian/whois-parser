@@ -38,7 +38,21 @@ var (
 	ErrDomainDataInvalid = errors.New("whoisparser: domain whois data is invalid")
 	// ErrDomainLimitExceed domain whois query is limited
 	ErrDomainLimitExceed = errors.New("whoisparser: domain whois query limit exceeded")
+	// ErrNotFoundIP IP address is not found
+	ErrNotFoundIP = errors.New("whoisparser: IP address is not found")
+	// ErrIPDataInvalid IP whois data is invalid
+	ErrIPDataInvalid = errors.New("whoisparser: IP whois data is invalid")
+	// ErrIPLimitExceed IP whois query is limited
+	ErrIPLimitExceed = errors.New("whoisparser: IP whois query limit exceeded")
 )
+
+// getErrorType returns error type of whois data
+func getErrorType(data string) error {
+	if isIPWhois(data) {
+		return getIPErrorType(data)
+	}
+	return getDomainErrorType(data)
+}
 
 // getDomainErrorType returns error type of domain data
 func getDomainErrorType(data string) error {
@@ -55,6 +69,18 @@ func getDomainErrorType(data string) error {
 		return ErrDomainLimitExceed
 	default:
 		return ErrDomainDataInvalid
+	}
+}
+
+// getIPErrorType returns error type of IP data
+func getIPErrorType(data string) error {
+	switch {
+	case isNotFoundIP(data):
+		return ErrNotFoundIP
+	case isLimitExceeded(data):
+		return ErrIPLimitExceed
+	default:
+		return ErrIPDataInvalid
 	}
 }
 
@@ -76,6 +102,18 @@ func isNotFoundDomain(data string) bool {
 		"object does not exist",
 		"query returned 0 objects",
 		"domain name not known",
+	}
+
+	return containsIn(strings.ToLower(data), notFoundKeys)
+}
+
+// isNotFoundIP returns if IP address is not found
+func isNotFoundIP(data string) bool {
+	notFoundKeys := []string{
+		"no match found",
+		"not found",
+		"no data found",
+		"no entries found",
 	}
 
 	return containsIn(strings.ToLower(data), notFoundKeys)
@@ -162,7 +200,7 @@ func isBlockedDomain(data string) bool {
 	return containsIn(strings.ToLower(data), blockedKeys)
 }
 
-// isLimitExceeded returns if domain whois query is limited
+// isLimitExceeded returns if whois query is limited
 func isLimitExceeded(data string) bool {
 	limitExceedKeys := []string{
 		"limit exceeded",

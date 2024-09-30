@@ -6,11 +6,11 @@
 [![Build Status](https://github.com/likexian/whois-parser/actions/workflows/gotest.yaml/badge.svg)](https://github.com/likexian/whois-parser/actions/workflows/gotest.yaml)
 [![Code Cover](https://release.likexian.com/whois-parser/coverage.svg)](https://github.com/likexian/whois-parser/actions/workflows/gotest.yaml)
 
-WhoisParser is a simple Go module for domain whois information parsing.
+WhoisParser is a simple Go module for domain and IP whois information parsing.
 
 ## Overview
 
-This module parses the provided domain whois information and returns a readable data struct.
+This module parses the provided domain or IP whois information and returns a readable data struct.
 
 ## Verified Extensions
 
@@ -42,6 +42,8 @@ Visit the docs on [GoDoc](https://pkg.go.dev/github.com/likexian/whois-parser)
 
 ## Example
 
+### Parsing Domain WHOIS
+
 ```go
 result, err := whoisparser.Parse(whois_raw)
 if err == nil {
@@ -62,6 +64,28 @@ if err == nil {
 
     // Print the registrant email address
     fmt.Println(result.Registrant.Email)
+}
+```
+
+### Parsing IP WHOIS
+
+```go
+result, err := whoisparser.Parse(ip_whois_raw)
+if err == nil {
+    // Print the IP range
+    fmt.Println(result.IP.NetRange)
+
+    // Print the CIDR
+    fmt.Println(result.IP.CIDR)
+
+    // Print the organization
+    fmt.Println(result.IP.Organization)
+
+    // Print the registration date
+    fmt.Println(result.IP.RegDate)
+
+    // Print the last updated date
+    fmt.Println(result.IP.Updated)
 }
 ```
 

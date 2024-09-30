@@ -177,3 +177,8 @@ func parseDateString(datetime string) (time.Time, error) {
 
 	return time.Now(), fmt.Errorf("could not parse %s as a date", datetime)
 }
+
+// isIPWhois checks if the WHOIS text is for an IP address
+func isIPWhois(text string) bool {
+	return strings.Contains(text, "NetRange:") || strings.Contains(text, "CIDR:")
+}
