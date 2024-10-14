@@ -73,6 +73,7 @@ var (
 		"domain registered":                      "created_date",
 		"modified":                               "updated_date",
 		"changed":                                "updated_date",
+		"updated":				  "updated_date",
 		"update date":                            "updated_date",
 		"updated date":                           "updated_date",
 		"updated on":                             "updated_date",
@@ -98,6 +99,7 @@ var (
 		"expiry date":                            "expired_date",
 		"expiration time":                        "expired_date",
 		"renewal date":                           "expired_date",
+		"valid until":                            "expired_date",
 		"domain expire":                          "expired_date",
 		"domain expires":                         "expired_date",
 		"record expires on":                      "expired_date",
@@ -117,6 +119,7 @@ var (
 		"registrant nic hdl":                     "registrant_id",
 		"registrant nic handle":                  "registrant_id",
 		"registrant org id":                      "registrant_id",
+		"registrant domain registrant":		  "registrant_id",
 		"registrant name":                        "registrant_name",
 		"registrant person":                      "registrant_name",
 		"registrant contact":                     "registrant_name",
@@ -157,6 +160,7 @@ var (
 		"registrant contact postalcode":          "registrant_postal_code",
 		"registrant contact postal code":         "registrant_postal_code",
 		"registrant country":                     "registrant_country",
+		"registrant country code":                "registrant_country",
 		"registrant country economy":             "registrant_country",
 		"registrant contact country":             "registrant_country",
 		"registrant phone":                       "registrant_phone",
@@ -185,5 +189,6 @@ var (
 		"registrant contact email":               "registrant_email",
 		"registrant contact e mail":              "registrant_email",
 		"registrant abuse contact email":         "registrant_email",
+		"registrar authorised registrar":         "registrar_id",
 	}
 )

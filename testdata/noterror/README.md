@@ -173,6 +173,8 @@ If there is any problem, please feel free to open a new issue.
 | .sexy | [line.sexy](sexy_line.sexy) | [line.sexy](sexy_line.sexy.json) | √ |
 | .sh | [git.sh](sh_git.sh) | [git.sh](sh_git.sh.json) | √ |
 | .sh | [google.sh](sh_google.sh) | [google.sh](sh_google.sh.json) | √ |
+| .sk | [alza.sk](sk_alza.sk) | [alza.sk](sk_alza.sk.json) | √ |
+| .sk | [google.sk](sk_google.sk) | [google.sk](sk_google.sk.json) | √ |
 | .su | [git.su](su_git.su) | [git.su](su_git.su.json) | √ |
 | .su | [google.su](su_google.su) | [google.su](su_google.su.json) | √ |
 | .tel | [github.tel](tel_github.tel) | [github.tel](tel_github.tel.json) | √ |

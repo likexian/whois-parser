@@ -93,6 +93,8 @@ func Prepare(text, ext string) (string, bool) { //nolint:cyclop
 		return prepareUA(text), true
 	case "at":
 		return prepareAT(text), true
+	case "sk":
+		return prepareSK(text), true
 	default:
 		return text, false
 	}
@@ -1436,3 +1438,47 @@ func prepareAT(text string) string {
 
 	return result
 }
+
+// prepareSK do prepare the .sk domain
+func prepareSK(text string) string {
+
+	tokens := map[string]string{
+		"Domain registrant":    "Registrant",
+		"Authorised Registrar":    "Registrar",
+		"Administrative Contact": "Administrative",
+		"Technical Contact":      "Technical",
+	}
+
+	token := ""
+	result := ""
+	prefix := ""
+
+	for _, v := range strings.Split(text, "\n") {
+
+		v = strings.TrimSpace(v)
+		v = strings.Replace(v, "\r", "", -1)
+
+		if v == "" {
+			token = ""
+			continue
+		}
+
+		if strings.Contains(v,":"){
+			vs := strings.SplitN(v, ":", 2)
+			value := strings.TrimSpace(vs[1])
+			token = strings.TrimSpace(vs[0])
+
+			if _, ok := tokens[token]; ok {
+				prefix = tokens[token]
+				prefix = fmt.Sprintf("%s ", prefix)
+			}
+
+			v = fmt.Sprintf("%s%s:%s", prefix, token, value)
+
+		}
+		result += "\n" + v
+	}
+
+	return result
+}
+
