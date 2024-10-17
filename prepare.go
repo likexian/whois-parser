@@ -1443,13 +1443,12 @@ func prepareAT(text string) string {
 func prepareSK(text string) string {
 
 	tokens := map[string]string{
-		"Domain registrant":    "Registrant",
-		"Authorised Registrar":    "Registrar",
+		"Domain registrant":      "Registrant",
+		"Authorised Registrar":   "Registrar",
 		"Administrative Contact": "Administrative",
 		"Technical Contact":      "Technical",
 	}
 
-	token := ""
 	result := ""
 	prefix := ""
 
@@ -1459,14 +1458,13 @@ func prepareSK(text string) string {
 		v = strings.Replace(v, "\r", "", -1)
 
 		if v == "" {
-			token = ""
 			continue
 		}
 
-		if strings.Contains(v,":"){
+		if strings.Contains(v, ":") {
 			vs := strings.SplitN(v, ":", 2)
 			value := strings.TrimSpace(vs[1])
-			token = strings.TrimSpace(vs[0])
+			token := strings.TrimSpace(vs[0])
 
 			if _, ok := tokens[token]; ok {
 				prefix = tokens[token]
@@ -1481,4 +1479,3 @@ func prepareSK(text string) string {
 
 	return result
 }
-
