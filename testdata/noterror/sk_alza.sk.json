@@ -1,0 +1,58 @@
+{
+    "domain": {
+        "domain": "alza.sk",
+        "punycode": "alza.sk",
+        "name": "alza",
+        "extension": "sk",
+        "status": [
+            "ok"
+        ],
+        "name_servers": [
+            "beau.ns.cloudflare.com",
+            "gigi.ns.cloudflare.com"
+        ],
+        "created_date": "2004-05-21",
+        "created_date_in_time": "2004-05-21T00:00:00Z",
+        "updated_date": "2024-03-21",
+        "updated_date_in_time": "2024-03-21T00:00:00Z",
+        "expiration_date": "2025-04-24",
+        "expiration_date_in_time": "2025-04-24T00:00:00Z"
+    },
+    "registrar": {
+        "name": "ACTIVE 24, s.r.o.",
+        "organization": "ACTIVE 24, s.r.o.",
+        "street": "Sokolovska 394/17",
+        "city": "Praha",
+        "postal_code": "18600",
+        "country": "CZ",
+        "phone": "+421.244460639",
+        "email": "registrace@domeny.cz"
+    },
+    "registrant": {
+        "id": "A24C-154952",
+        "name": "Alza.cz a.s.",
+        "organization": "Alza.cz a.s.",
+        "street": "Jankovcova 1522/53",
+        "city": "Praha 7",
+        "postal_code": "17000",
+        "country": "CZ"
+    },
+    "administrative": {
+        "name": "Alza.cz a.s.",
+        "organization": "Alza.cz a.s.",
+        "street": "Jankovcova 1522/53",
+        "city": "Praha 7",
+        "postal_code": "17000",
+        "country": "CZ"
+    },
+    "technical": {
+        "name": "ACTIVE 24, s.r.o.",
+        "organization": "ACTIVE 24, s.r.o.",
+        "street": "Sokolovska 394/17",
+        "city": "Praha",
+        "postal_code": "18600",
+        "country": "CZ",
+        "phone": "+421.244460639",
+        "email": "registrace@domeny.cz"
+    }
+}

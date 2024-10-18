@@ -1,0 +1,66 @@
+{
+    "domain": {
+        "domain": "google.sk",
+        "punycode": "google.sk",
+        "name": "google",
+        "extension": "sk",
+        "status": [
+            "clientTransferProhibited",
+            "clientUpdateProhibited",
+            "clientDeleteProhibited"
+        ],
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns3.google.com",
+            "ns4.google.com"
+        ],
+        "created_date": "2003-07-24",
+        "created_date_in_time": "2003-07-24T00:00:00Z",
+        "updated_date": "2024-06-22",
+        "updated_date_in_time": "2024-06-22T00:00:00Z",
+        "expiration_date": "2025-07-24",
+        "expiration_date_in_time": "2025-07-24T00:00:00Z"
+    },
+    "registrar": {
+        "name": "MarkMonitor International Limited",
+        "organization": "MarkMonitor International Limited",
+        "street": "12 New Fetter Lane",
+        "city": "London",
+        "postal_code": "EC4A 1JP",
+        "country": "UK",
+        "phone": "+1.2083895740",
+        "email": "registry.admin@markmonitor.com"
+    },
+    "registrant": {
+        "id": "mmr-170347",
+        "name": "Domain Administrator",
+        "organization": "Google Ireland Holdings Unlimited Company",
+        "street": "70 Sir John Rogerson's Quay",
+        "city": "Dublin",
+        "postal_code": "2",
+        "country": "IE",
+        "phone": "+353.14361000",
+        "email": "dns-admin@google.com"
+    },
+    "administrative": {
+        "name": "Domain Administrator",
+        "organization": "Google Ireland Holdings Unlimited Company",
+        "street": "70 Sir John Rogerson's Quay",
+        "city": "Dublin",
+        "postal_code": "2",
+        "country": "IE",
+        "phone": "+353.14361000",
+        "email": "dns-admin@google.com"
+    },
+    "technical": {
+        "name": "Domain Administrator",
+        "organization": "Google Ireland Holdings Unlimited Company",
+        "street": "70 Sir John Rogerson's Quay",
+        "city": "Dublin",
+        "postal_code": "2",
+        "country": "IE",
+        "phone": "+353.14361000",
+        "email": "dns-admin@google.com"
+    }
+}
