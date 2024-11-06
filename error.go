@@ -175,6 +175,7 @@ func isLimitExceeded(data string) bool {
 		"you have exceeded your allotted number of",
 		"maximum daily connection limit reached",
 		"maximum query rate reached",
+		"number of allowed queries exceeded",
 	}
 
 	return containsIn(strings.ToLower(data), limitExceedKeys)
