@@ -137,4 +137,8 @@ func TestAsisLimitExceeded(t *testing.T) {
 
 	data = `%% Maximum query rate reached`
 	assert.True(t, isLimitExceeded(data))
+
+	// GoDaddy (when blocking all queries)
+	data = "Number of allowed queries exceeded\r\n"
+	assert.True(t, isLimitExceeded(data))
 }
