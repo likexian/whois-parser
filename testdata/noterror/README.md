@@ -84,6 +84,7 @@ If there is any problem, please feel free to open a new issue.
 | .fr | [git.fr](fr_git.fr) | [git.fr](fr_git.fr.json) | √ |
 | .fr | [google.fr](fr_google.fr) | [google.fr](fr_google.fr.json) | √ |
 | .fr | [ovh.fr](fr_ovh.fr) | [ovh.fr](fr_ovh.fr.json) | √ |
+| .gg | [google.gg](gg_google.gg) | [google.gg](gg_google.gg.json) | √ |
 | .gov | [fda.gov](gov_fda.gov) | [fda.gov](gov_fda.gov.json) | √ |
 | .gov | [us.gov](gov_us.gov) | [us.gov](gov_us.gov.json) | √ |
 | .gs | [git.gs](gs_git.gs) | [git.gs](gs_git.gs.json) | √ |
