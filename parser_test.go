@@ -141,11 +141,6 @@ func TestParse(t *testing.T) {
 			assert.NotZero(t, whoisInfo.Domain.NameServers)
 		}
 
-		if extension == "gg" {
-
-			fmt.Println(whoisInfo.Registrant.ReferralURL)
-		}
-
 		if !assert.IsContains([]string{"aq", "ai", "at", "au", "de", "eu", "gov", "hm", "name", "nl", "nz", "ir", "tk",
 			"xn--mgba3a4f16a"}, extension) &&
 			!strings.Contains(domain, "ac.jp") &&
