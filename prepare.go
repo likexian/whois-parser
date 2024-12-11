@@ -1503,7 +1503,7 @@ func prepareGG(text string) string {
 		}
 
 		if strings.HasSuffix(v, ":") {
-			sectionHeader = string(v[:len(v)-1])
+			sectionHeader = v[:len(v)-1]
 		}
 
 		parseRegistrant := func(input string) (string, string, error) {
