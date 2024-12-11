@@ -1491,7 +1491,6 @@ func prepareGG(text string) string {
 	}
 
 	result := ""
-	prefix := ""
 	previousSectionHeader := ""
 	sectionHeader := ""
 
@@ -1499,7 +1498,6 @@ func prepareGG(text string) string {
 		v = strings.TrimSpace(v)
 
 		if v == "" {
-			prefix = ""
 			previousSectionHeader = ""
 			continue
 		}
@@ -1552,8 +1550,7 @@ func prepareGG(text string) string {
 		}
 
 		if _, ok := tokens[previousSectionHeader]; ok {
-			prefix = tokens[previousSectionHeader]
-			v = fmt.Sprintf("%s: %s", prefix, v)
+			v = fmt.Sprintf("%s: %s", tokens[previousSectionHeader], v)
 		}
 
 		result += "\n" + v
