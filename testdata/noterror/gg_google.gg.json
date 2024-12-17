@@ -1,0 +1,30 @@
+{
+    "domain": {
+        "domain": "google.gg",
+        "punycode": "google.gg",
+        "name": "google",
+        "extension": "gg",
+        "status": [
+            "Active",
+            "Delete",
+            "Update",
+            "Transfer",
+            "Registered"
+        ],
+        "name_servers": [
+            "ns1.google.com",
+            "ns2.google.com",
+            "ns3.google.com",
+            "ns4.google.com"
+        ],
+        "created_date": "2003-04-30T00:00:00Z",
+        "created_date_in_time": "2003-04-30T00:00:00Z"
+    },
+    "registrar": {
+        "name": "MarkMonitor Inc.",
+        "referral_url": "http://www.markmonitor.com"
+    },
+    "registrant": {
+        "name": "Google LLC"
+    }
+}
