@@ -12,7 +12,9 @@
             "ns1.noc.titech.ac.jp",
             "ns2.noc.titech.ac.jp"
         ],
-        "updated_date": "2023/04/01 01:04:55 (JST)"
+        "updated_date": "2023/04/01 01:04:55 (JST)",
+        "expiration_date": "2024/03/31",
+        "expiration_date_in_time": "2024-03-31T00:00:00Z"
     },
     "registrant": {
         "organization": "Tokyo Institute of Technology"

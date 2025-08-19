@@ -27,7 +27,8 @@ Name Server: auth3.ns.gin.ntt.net
 Name Server: auth4.ns.gin.ntt.net
 Name Server: auth5.ns.gin.ntt.net
 Signing Key:
-State: Connected (2024/12/31)
+State:  Connected (2024/12/31)
+Expires on: 2024/12/31
 Registered Date: 2006/12/19
 Connected Date: 2006/12/25
 Last Update: 2024/01/01 01:04:32 (JST)

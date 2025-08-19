@@ -22,7 +22,9 @@
         ],
         "created_date": "2006/12/19",
         "created_date_in_time": "2006-12-19T00:00:00Z",
-        "updated_date": "2024/01/01 01:04:32 (JST)"
+        "updated_date": "2024/01/01 01:04:32 (JST)",
+        "expiration_date": "2024/12/31",
+        "expiration_date_in_time": "2024-12-31T00:00:00Z"
     },
     "registrant": {
         "organization": "Ministry of Defense"

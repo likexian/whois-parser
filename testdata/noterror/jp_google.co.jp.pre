@@ -20,7 +20,8 @@ Name Server: ns2.google.com
 Name Server: ns3.google.com
 Name Server: ns4.google.com
 Signing Key:
-State: Connected (2024/03/31)
+State:  Connected (2024/03/31)
+Expires on: 2024/03/31
 Lock Status: AgentChangeLocked
 Registered Date: 2001/03/22
 Connected Date: 2001/03/22

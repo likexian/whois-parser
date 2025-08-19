@@ -752,6 +752,13 @@ func prepareSecondLevelJP(original string, token string, value string) string {
 	if strings.ToLower(token) == "organization" || strings.ToLower(token) == "network service name" {
 		return fmt.Sprintf("Registrant Organization: %s", strings.TrimSpace(value))
 	}
+	if strings.ToLower(token) == "state" {
+		re := regexp.MustCompile(`Connected \(([^)]+)\)`)
+		match := re.FindStringSubmatch(value)
+		if len(match) > 1 {
+			return fmt.Sprintf("State: %s\nExpires on: %s", value, match[1])
+		}
+	}
 	return original
 }
 
