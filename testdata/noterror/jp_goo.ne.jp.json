@@ -15,7 +15,9 @@
         ],
         "created_date": "2004/06/15",
         "created_date_in_time": "2004-06-15T00:00:00Z",
-        "updated_date": "2023/07/31 12:30:39 (JST)"
+        "updated_date": "2023/07/31 12:30:39 (JST)",
+        "expiration_date": "2024/06/30",
+        "expiration_date_in_time": "2024-06-30T00:00:00Z"
     },
     "registrant": {
         "organization": "GOO"
