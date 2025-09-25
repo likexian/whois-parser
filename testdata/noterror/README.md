@@ -57,6 +57,7 @@ If there is any problem, please feel free to open a new issue.
 | .com | [git.com](com_git.com) | [git.com](com_git.com.json) | √ |
 | .com | [google.com](com_google.com) | [google.com](com_google.com.json) | √ |
 | .com | [name.com](com_name.com) | [name.com](com_name.com.json) | √ |
+| .com | [netspi.com](com_netspi.com) | [netspi.com](com_netspi.com.json) | √ |
 | .com | [rockcreekcc.com](com_rockcreekcc.com) | [rockcreekcc.com](com_rockcreekcc.com.json) | √ |
 | .coop | [git.coop](coop_git.coop) | [git.coop](coop_git.coop.json) | √ |
 | .coop | [slb.coop](coop_slb.coop) | [slb.coop](coop_slb.coop.json) | √ |

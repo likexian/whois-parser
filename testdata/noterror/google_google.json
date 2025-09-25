@@ -22,21 +22,5 @@
     "registrant": {
         "organization": "Charleston Road Registry Inc.",
         "street": "1600 Amphitheatre Parkway, Mountain View, CA 94043, United States"
-    },
-    "administrative": {
-        "name": "Domains Policy and Compliance",
-        "organization": "Google Inc.",
-        "street": "601 N. 34th Street, Seattle, WA 98103, United States",
-        "phone": "1 202 642 2325",
-        "fax": "1 650 492 5631",
-        "email": "iana-contact@google.com"
-    },
-    "technical": {
-        "name": "Richard Roberto",
-        "organization": "Google Inc.",
-        "street": "76 9th Avenue, 4th Floor, New York, NY 10011, United States",
-        "phone": "1 212 565 2633",
-        "fax": "1 650 492 5631",
-        "email": "crr-tech@google.com"
     }
 }

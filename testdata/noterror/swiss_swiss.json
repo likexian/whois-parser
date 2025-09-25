@@ -24,21 +24,5 @@
     "registrant": {
         "organization": "Swiss Confederation",
         "street": "Federal Office of Communications (OFCOM), Rue de l'Avenir 44, P.O Box, Biel/Bienne BE CH-2501, Switzerland"
-    },
-    "administrative": {
-        "name": ".swiss TLD Administrative Contact",
-        "organization": "Federal Office of Communications (OFCOM)",
-        "street": "Rue de l'Avenir 44, P.O Box, Biel / Bienne BE CH-2501, Switzerland",
-        "phone": "+41 58 461 89 49",
-        "fax": "+41 58 460 55 49",
-        "email": "domainnames@bakom.admin.ch"
-    },
-    "technical": {
-        "name": ".swiss TLD Technical Contact",
-        "organization": "CORE Association",
-        "street": "Cours de Rive 2, Geneva CH-1204, Switzerland",
-        "phone": "+41 22 312 5610",
-        "fax": "+41 22 312 5612",
-        "email": "dnsmaster@corenic.org"
     }
 }

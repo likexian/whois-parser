@@ -25,21 +25,5 @@
     "registrant": {
         "organization": "China Internet Network Information Center (CNNIC)",
         "street": "No. 4, South 4th Street, Zhong Guan Cun, Beijing  100190, China"
-    },
-    "administrative": {
-        "name": "Yu Zeng",
-        "organization": "China Internet Network Information Center (CNNIC)",
-        "street": "No. 4, South 4th Street, Zhong Guan Cun, Beijing  100190, China",
-        "phone": "+8610-58813686",
-        "fax": "+8610-58813632",
-        "email": "ceo@cnnic.cn"
-    },
-    "technical": {
-        "name": "Yuedong Zhang",
-        "organization": "China Internet Network Information Center (CNNIC)",
-        "street": "No. 4, South 4th Street, Zhong Guan Cun, Beijing  100190, China",
-        "phone": "+8610-58813202",
-        "fax": "+8610-58812666",
-        "email": "tech@cnnic.cn"
     }
 }

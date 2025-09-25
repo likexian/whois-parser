@@ -30,21 +30,5 @@
     "registrant": {
         "organization": "VeriSign Global Registry Services",
         "street": "12061 Bluemont Way, Reston Virginia 20190, United States"
-    },
-    "administrative": {
-        "name": "Registry Customer Service",
-        "organization": "VeriSign Global Registry Services",
-        "street": "12061 Bluemont Way, Reston Virginia 20190, United States",
-        "phone": "+1 703 925-6999",
-        "fax": "+1 703 948 3978",
-        "email": "info@verisign-grs.com"
-    },
-    "technical": {
-        "name": "Registry Customer Service",
-        "organization": "VeriSign Global Registry Services",
-        "street": "12061 Bluemont Way, Reston Virginia 20190, United States",
-        "phone": "+1 703 925-6999",
-        "fax": "+1 703 948 3978",
-        "email": "info@verisign-grs.com"
     }
 }

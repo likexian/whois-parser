@@ -16,19 +16,5 @@
     "registrant": {
         "organization": "World Trade Organization",
         "street": "Palais des Nations, c/o UNICC, Geneva 10  1211, Switzerland"
-    },
-    "administrative": {
-        "name": "Name Service Administrative Contact",
-        "street": "Palais des Nations, c/o UNICC, Geneva 10  1211, Switzerland",
-        "phone": "+41 22 929 1411",
-        "fax": "+41 22 929 1412",
-        "email": "ns-admin@unicc.org"
-    },
-    "technical": {
-        "name": "Name Service Technical Contact",
-        "street": "Palais des Nations, c/o UNICC, Geneva 10  1211, Switzerland",
-        "phone": "+41 22 929 1411",
-        "fax": "+41 22 929 1412",
-        "email": "ns-tech@unicc.org"
     }
 }

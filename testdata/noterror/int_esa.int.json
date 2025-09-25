@@ -20,19 +20,5 @@
     "registrant": {
         "organization": "European Space Agency (ESA)",
         "street": "8-10, Rue Mario Nikis, Paris N/A 75738 Paris Cedex 15, France"
-    },
-    "administrative": {
-        "name": "ESANIC - Role Account",
-        "organization": "ESA's European Space Operations Centre (ESA-ESOC)",
-        "street": "Via Galileo Galilei, snr, Frascati  I-00044, Italy",
-        "phone": "+39 06941 88 688 (Please include country prefix)",
-        "email": "esanic@esa.int"
-    },
-    "technical": {
-        "name": "ESANOC - Role Account",
-        "organization": "ESA's European Space Research Institute (ESA-ESRIN)",
-        "street": "Via Galileo Galilei, snr, Frascati  I-00044, Italy",
-        "phone": "+39 06 941 80 205",
-        "email": "esanoc@esa.int"
     }
 }
