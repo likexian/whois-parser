@@ -29,6 +29,12 @@ type WhoisInfo struct {
 	Administrative *Contact `json:"administrative,omitempty"`
 	Technical      *Contact `json:"technical,omitempty"`
 	Billing        *Contact `json:"billing,omitempty"`
+	Abuse          *Abuse   `json:"abuse,omitempty"`
+}
+
+type Abuse struct {
+	Email string `json:"email,omitempty"`
+	Phone string `json:"phone,omitempty"`
 }
 
 // Domain storing domain name info
@@ -53,6 +59,7 @@ type Domain struct {
 // Contact storing domain contact info
 type Contact struct {
 	ID           string `json:"id,omitempty"`
+	IanaId       string `json:"ianaId,omitempty"`
 	Name         string `json:"name,omitempty"`
 	Organization string `json:"organization,omitempty"`
 	Street       string `json:"street,omitempty"`

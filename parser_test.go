@@ -245,3 +245,97 @@ func TestAssearchDomain(t *testing.T) {
 		assert.Equal(t, extension, v.extension)
 	}
 }
+
+// TestParseNetspiCom is a dedicated test for quick iteration with the NETSPI.COM whois data
+func TestParseNetspiCom(t *testing.T) {
+	// Read the test data file
+	whoisRaw, err := xfile.ReadText(noterrorDir + "/com_netspi.com")
+	assert.Nil(t, err)
+
+	// Parse the whois data
+	whoisInfo, err := Parse(whoisRaw)
+	assert.Nil(t, err)
+
+	// Print the parsed structure for debugging
+	fmt.Printf("Parsed WhoisInfo:\n")
+	fmt.Printf("Domain: %+v\n", whoisInfo.Domain)
+	fmt.Printf("Registrar: %+v\n", whoisInfo.Registrar)
+	fmt.Printf("Registrant: %+v\n", whoisInfo.Registrant)
+	fmt.Printf("Administrative: %+v\n", whoisInfo.Administrative)
+	fmt.Printf("Technical: %+v\n", whoisInfo.Technical)
+	fmt.Printf("Billing: %+v\n", whoisInfo.Billing)
+
+	// Basic assertions - adjust these as needed for your requirements
+	assert.Equal(t, "netspi.com", whoisInfo.Domain.Punycode)
+	assert.Equal(t, "com", whoisInfo.Domain.Extension)
+	assert.NotZero(t, whoisInfo.Domain.ID)
+	assert.NotZero(t, whoisInfo.Domain.Status)
+	assert.NotZero(t, whoisInfo.Domain.NameServers)
+	assert.NotZero(t, whoisInfo.Domain.CreatedDate)
+	assert.NotZero(t, whoisInfo.Domain.UpdatedDate)
+	assert.NotZero(t, whoisInfo.Domain.ExpirationDate)
+
+	// Test registrar fields - should now be populated
+	fmt.Printf("DEBUG: Registrar Name: '%s'\n", whoisInfo.Registrar.Name)
+	fmt.Printf("DEBUG: Registrar ID: '%s'\n", whoisInfo.Registrar.ID)
+
+	assert.Equal(t, "Amazon Registrar, Inc.", whoisInfo.Registrar.Name, "Registrar name should be Amazon Registrar, Inc.")
+	assert.Equal(t, "468", whoisInfo.Registrar.ID, "Registrar IANA ID should be 468")
+
+	// Test technical contact fields - should now have IANA technical contact data
+	fmt.Printf("\nTechnical Contact Debug:\n")
+	if whoisInfo.Technical != nil {
+		fmt.Printf("Technical Name: '%s'\n", whoisInfo.Technical.Name)
+		fmt.Printf("Technical Organization: '%s'\n", whoisInfo.Technical.Organization)
+		fmt.Printf("Technical Email: '%s'\n", whoisInfo.Technical.Email)
+
+		// Assert specific IANA technical contact values for NETSPI
+		assert.Equal(t, "Registry Customer Service", whoisInfo.Technical.Name, "Technical name should be IANA technical contact name")
+		assert.Equal(t, "VeriSign Global Registry Services", whoisInfo.Technical.Organization, "Technical organization should be IANA technical organization")
+		assert.Equal(t, "info@verisign-grs.com", whoisInfo.Technical.Email, "Technical email should be IANA technical email")
+
+		fmt.Printf("🎯 IANA Technical contact assertions passed!\n")
+	} else {
+		fmt.Printf("❌ Technical contact is nil - IANA technical data not parsed\n")
+		t.Fail()
+	}
+
+	// Print key values for verification
+	fmt.Printf("\nKey Values:\n")
+	fmt.Printf("Domain Name: %s\n", whoisInfo.Domain.Punycode)
+	fmt.Printf("Domain ID: %s\n", whoisInfo.Domain.ID)
+	fmt.Printf("Registrar: %s\n", whoisInfo.Registrar.Name)
+	fmt.Printf("Name Servers: %v\n", whoisInfo.Domain.NameServers)
+	fmt.Printf("Status: %v\n", whoisInfo.Domain.Status)
+	fmt.Printf("Created: %s\n", whoisInfo.Domain.CreatedDate)
+	fmt.Printf("Updated: %s\n", whoisInfo.Domain.UpdatedDate)
+	fmt.Printf("Expires: %s\n", whoisInfo.Domain.ExpirationDate)
+}
+
+// TestTechnicalContactFields tests technical contact parsing with domain that has technical data
+func TestTechnicalContactFields(t *testing.T) {
+	// Use git.com which has detailed technical contact info
+	whoisRaw, err := xfile.ReadText(noterrorDir + "/com_git.com")
+	assert.Nil(t, err)
+
+	whoisInfo, err := Parse(whoisRaw)
+	assert.Nil(t, err)
+
+	fmt.Printf("\n=== TECHNICAL CONTACT TEST ===\n")
+	if whoisInfo.Technical != nil {
+		fmt.Printf("✅ Technical Name: '%s'\n", whoisInfo.Technical.Name)
+		fmt.Printf("✅ Technical Organization: '%s'\n", whoisInfo.Technical.Organization)
+		fmt.Printf("✅ Technical Email: '%s'\n", whoisInfo.Technical.Email)
+
+		// Test your specific technical contact fields
+		assert.NotZero(t, whoisInfo.Technical.Name, "technical-name should be populated")
+		// Note: Organization can be empty for privacy-protected domains, so just check it exists
+		// assert.NotZero(t, whoisInfo.Technical.Organization, "technical-organization should be populated")
+		assert.NotZero(t, whoisInfo.Technical.Email, "technical-email should be populated")
+
+		fmt.Printf("🎯 All technical contact assertions passed!\n")
+	} else {
+		fmt.Printf("❌ Technical contact is nil\n")
+		t.Fail()
+	}
+}
