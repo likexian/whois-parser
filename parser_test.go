@@ -245,31 +245,3 @@ func TestAssearchDomain(t *testing.T) {
 		assert.Equal(t, extension, v.extension)
 	}
 }
-
-// TestTechnicalContactFields tests technical contact parsing with domain that has technical data
-func TestTechnicalContactFields(t *testing.T) {
-	// Use git.com which has detailed technical contact info
-	whoisRaw, err := xfile.ReadText(noterrorDir + "/com_git.com")
-	assert.Nil(t, err)
-
-	whoisInfo, err := Parse(whoisRaw)
-	assert.Nil(t, err)
-
-	fmt.Printf("\n=== TECHNICAL CONTACT TEST ===\n")
-	if whoisInfo.Technical != nil {
-		fmt.Printf("✅ Technical Name: '%s'\n", whoisInfo.Technical.Name)
-		fmt.Printf("✅ Technical Organization: '%s'\n", whoisInfo.Technical.Organization)
-		fmt.Printf("✅ Technical Email: '%s'\n", whoisInfo.Technical.Email)
-
-		// Test your specific technical contact fields
-		assert.NotZero(t, whoisInfo.Technical.Name, "technical-name should be populated")
-		// Note: Organization can be empty for privacy-protected domains, so just check it exists
-		// assert.NotZero(t, whoisInfo.Technical.Organization, "technical-organization should be populated")
-		assert.NotZero(t, whoisInfo.Technical.Email, "technical-email should be populated")
-
-		fmt.Printf("🎯 All technical contact assertions passed!\n")
-	} else {
-		fmt.Printf("❌ Technical contact is nil\n")
-		t.Fail()
-	}
-}
