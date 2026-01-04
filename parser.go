@@ -30,7 +30,7 @@ import (
 
 // Version returns package version
 func Version() string {
-	return "1.24.20"
+	return "1.24.21"
 }
 
 // Author returns package author
@@ -161,15 +161,16 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 			}
 			ns := strings.SplitN(name, " ", 2)
 			name = strings.TrimSpace("registrant " + ns[1])
-			if ns[0] == "registrar" || ns[0] == "registration" {
+			switch ns[0] {
+			case "registrar", "registration":
 				parseContact(registrar, name, value)
-			} else if ns[0] == "registrant" || ns[0] == "holder" {
+			case "registrant", "holder":
 				parseContact(registrant, name, value)
-			} else if ns[0] == "admin" || ns[0] == "administrative" {
+			case "admin", "administrative":
 				parseContact(administrative, name, value)
-			} else if ns[0] == "tech" || ns[0] == "technical" {
+			case "tech", "technical":
 				parseContact(technical, name, value)
-			} else if ns[0] == "bill" || ns[0] == "billing" {
+			case "bill", "billing":
 				parseContact(billing, name, value)
 			}
 		}

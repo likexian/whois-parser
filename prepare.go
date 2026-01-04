@@ -31,8 +31,8 @@ import (
 
 // Prepare do prepare the whois info for parsing
 func Prepare(text, ext string) (string, bool) { //nolint:cyclop
-	text = strings.Replace(text, "\r", "", -1)
-	text = strings.Replace(text, "\t", " ", -1)
+	text = strings.ReplaceAll(text, "\r", "")
+	text = strings.ReplaceAll(text, "\t", " ")
 	text = strings.TrimSpace(text)
 
 	switch ext {
@@ -274,7 +274,7 @@ func prepareKZ(text string) string {
 
 		vs := strings.SplitN(v, ":", 2)
 
-		key := strings.TrimSpace(strings.Replace(vs[0], ".", "", -1))
+		key := strings.TrimSpace(strings.ReplaceAll(vs[0], ".", ""))
 		key = fmt.Sprintf("%s%s", groupToken, key)
 
 		if token, ok := tokens[key]; ok {
@@ -354,7 +354,7 @@ func prepareHK(text string) string {
 
 	token := ""
 	addressToken := false
-	text = strings.Replace(text, "\n\n", "\n", -1)
+	text = strings.ReplaceAll(text, "\n\n", "\n")
 
 	result := ""
 	for _, v := range strings.Split(text, "\n") {
@@ -684,7 +684,7 @@ func prepareRU(text string) string {
 		if vv, ok := tokens[strings.TrimSpace(vs[0])]; ok {
 			v = fmt.Sprintf("%s: %s", vv, vs[1])
 		} else if vs[0] == "nserver" {
-			v = strings.Replace(v, ",", " ", -1)
+			v = strings.ReplaceAll(v, ",", " ")
 		}
 		result += v + "\n"
 	}
@@ -1458,7 +1458,7 @@ func prepareSK(text string) string {
 	for _, v := range strings.Split(text, "\n") {
 
 		v = strings.TrimSpace(v)
-		v = strings.Replace(v, "\r", "", -1)
+		v = strings.ReplaceAll(v, "\r", "")
 
 		if v == "" {
 			continue

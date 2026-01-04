@@ -42,12 +42,12 @@ func clearKeyName(key string) string {
 		key = strings.Split(key, "(")[0]
 	}
 
-	key = strings.Replace(key, "-", " ", -1)
-	key = strings.Replace(key, "_", " ", -1)
-	key = strings.Replace(key, "/", " ", -1)
-	key = strings.Replace(key, "\\", " ", -1)
-	key = strings.Replace(key, "'", " ", -1)
-	key = strings.Replace(key, ".", " ", -1)
+	key = strings.ReplaceAll(key, "-", " ")
+	key = strings.ReplaceAll(key, "_", " ")
+	key = strings.ReplaceAll(key, "/", " ")
+	key = strings.ReplaceAll(key, "\\", " ")
+	key = strings.ReplaceAll(key, "'", " ")
+	key = strings.ReplaceAll(key, ".", " ")
 
 	key = strings.TrimPrefix(key, "Registry ")
 	key = strings.TrimPrefix(key, "Sponsoring ")
