@@ -142,6 +142,7 @@ If there is any problem, please feel free to open a new issue.
 | .net | [hexonet.net](net_hexonet.net) | [hexonet.net](net_hexonet.net.json) | √ |
 | .nl | [git.nl](nl_git.nl) | [git.nl](nl_git.nl.json) | √ |
 | .nl | [google.nl](nl_google.nl) | [google.nl](nl_google.nl.json) | √ |
+| .nl | [paastest.nl](nl_paastest.nl) | [paastest.nl](nl_paastest.nl.json) | √ |
 | .nu | [google.nu](nu_google.nu) | [google.nu](nu_google.nu.json) | √ |
 | .nu | [nic.nu](nu_nic.nu) | [nic.nu](nu_nic.nu.json) | √ |
 | .nz | [gre.nz](nz_gre.nz) | [gre.nz](nz_gre.nz.json) | √ |

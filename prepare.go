@@ -917,6 +917,7 @@ func prepareNL(text string) string {
 	for _, v := range strings.Split(text, "\n") {
 		v = strings.TrimSpace(v)
 		if v == "" {
+			token = ""
 			continue
 		}
 		if strings.HasSuffix(v, ":") {
