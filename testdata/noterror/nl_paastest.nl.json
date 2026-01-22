@@ -1,0 +1,23 @@
+{
+    "domain": {
+        "domain": "paastest.nl",
+        "punycode": "paastest.nl",
+        "name": "paastest",
+        "extension": "nl",
+        "status": [
+            "active"
+        ],
+        "name_servers": [
+            "hank.ns.cloudflare.com",
+            "lila.ns.cloudflare.com"
+        ],
+        "created_date": "2019-04-25",
+        "created_date_in_time": "2019-04-25T00:00:00Z",
+        "updated_date": "2024-05-23",
+        "updated_date_in_time": "2024-05-23T00:00:00Z"
+    },
+    "registrar": {
+        "name": "Abion AB",
+        "street": "Kungsgatan 42, Molnlycke, 411 15 Goteborg, Sweden"
+    }
+}
