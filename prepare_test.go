@@ -70,3 +70,44 @@ func TestPrepare(t *testing.T) {
 		}
 	}
 }
+
+func TestPrepareNL(t *testing.T) {
+	input := `Domain name: parkmobiel.nl
+Status:      active
+
+Registrar:
+   Abion AB
+   Kungsgatan 42
+   Molnlycke
+   411 15 Goteborg
+   Sweden
+
+DNSSEC:      no
+
+Domain nameservers:
+   b.portsdns.net
+   a.portsdns.se
+
+Creation Date: 2005-09-26
+
+Updated Date: 2024-03-19
+
+Record maintained by: SIDN BV
+`
+	got := prepareNL(input)
+	want := `
+Domain name: parkmobiel.nl
+Status:      active
+Registrar Name: Abion AB
+Registrar Address: Kungsgatan 42
+Registrar Address: Molnlycke
+Registrar Address: 411 15 Goteborg
+Registrar Address: Sweden
+Domain nameservers:
+b.portsdns.net
+a.portsdns.se
+Creation Date: 2005-09-26
+Updated Date: 2024-03-19
+Record maintained by: SIDN BV`
+	assert.Equal(t, got, want)
+}
