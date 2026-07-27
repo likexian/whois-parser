@@ -1,0 +1,18 @@
+{
+    "domain": {
+        "domain": "google.bg",
+        "punycode": "google.bg",
+        "name": "google",
+        "extension": "bg",
+        "status": [
+            "busy",
+            "active"
+        ],
+        "name_servers": [
+            "ns2.google.com",
+            "ns4.google.com",
+            "ns3.google.com",
+            "ns1.google.com"
+        ]
+    }
+}

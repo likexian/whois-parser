@@ -1,0 +1,17 @@
+{
+    "domain": {
+        "domain": "git.bg",
+        "punycode": "git.bg",
+        "name": "git",
+        "extension": "bg",
+        "status": [
+            "busy",
+            "active"
+        ],
+        "name_servers": [
+            "ns3.dreamhost.com",
+            "ns2.dreamhost.com",
+            "ns1.dreamhost.com"
+        ]
+    }
+}

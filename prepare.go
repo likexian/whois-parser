@@ -98,6 +98,8 @@ func Prepare(text, ext string) (string, bool) { //nolint:cyclop
 		return prepareSK(text), true
 	case "gg":
 		return prepareGG(text), true
+	case "bg":
+		return prepareBG(text), true
 	default:
 		return text, false
 	}
@@ -1560,4 +1562,34 @@ func prepareGG(text string) string {
 
 	return result
 
+}
+
+// prepareBG do prepare the .bg domain
+func prepareBG(text string) string {
+	result := ""
+	nameServer := false
+
+	for _, v := range strings.Split(text, "\n") {
+		v = strings.TrimSpace(v)
+
+		if v == "" {
+			nameServer = false
+			continue
+		}
+
+		if strings.EqualFold(v, "NAME SERVER INFORMATION:") {
+			nameServer = true
+			continue
+		}
+
+		if nameServer {
+			// the name server may be followed by its glue ip addresses,
+			// they are dropped to keep the host name only
+			v = fmt.Sprintf("name_servers: %s", strings.Fields(v)[0])
+		}
+
+		result += "\n" + v
+	}
+
+	return result
 }
