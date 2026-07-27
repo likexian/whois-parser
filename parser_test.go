@@ -109,7 +109,7 @@ func TestParse(t *testing.T) {
 		assert.Equal(t, whoisInfo.Domain.Punycode, domain)
 		assert.Equal(t, whoisInfo.Domain.Extension, extension)
 
-		if !assert.IsContains([]string{"", "at", "aq", "br", "ch", "de", "edu", "eu", "fr", "gg", "gov", "hk",
+		if !assert.IsContains([]string{"", "at", "aq", "bg", "br", "ch", "de", "edu", "eu", "fr", "gg", "gov", "hk",
 			"hm", "int", "it", "jp", "kr", "kz", "mo", "nl", "nz", "pl", "pm", "re", "ro", "ru", "su", "tf", "ee",
 			"tk", "travel", "tv", "tw", "uk", "wf", "yt", "ir", "fi", "rs", "dk", "by", "ua",
 			"xn--mgba3a4f16a", "xn--p1ai", "se", "sk", "nu", "hu"}, extension) {
@@ -122,13 +122,14 @@ func TestParse(t *testing.T) {
 		}
 
 		if assert.IsContains([]string{"aftermarket.pl", "nazwa.pl", "git.nl", "git.wf", "by",
-			"switch.ch", "git.xyz", "emilstahl.dk", "folketinget.dk", "nic.nu", "xn--fl-fka.se"}, domain) {
+			"switch.ch", "git.xyz", "emilstahl.dk", "folketinget.dk", "nic.nu", "xn--fl-fka.se",
+			"register.bg"}, domain) {
 			assert.True(t, whoisInfo.Domain.DNSSec)
 		} else {
 			assert.False(t, whoisInfo.Domain.DNSSec)
 		}
 
-		if !assert.IsContains([]string{"aero", "ai", "at", "aq", "asia", "berlin", "biz", "br", "ch", "cn",
+		if !assert.IsContains([]string{"aero", "ai", "at", "aq", "asia", "berlin", "bg", "biz", "br", "ch", "cn",
 			"co", "cymru", "de", "edu", "eu", "fr", "gg", "gov", "hk", "hm", "in", "int", "it", "jp", "kr",
 			"la", "london", "me", "mo", "museum", "name", "nl", "nz", "pm", "re", "ro", "ru", "sh", "sk",
 			"kz", "su", "tel", "ee", "tf", "tk", "travel", "tw", "uk", "us", "wales", "wf", "xxx",
@@ -141,8 +142,8 @@ func TestParse(t *testing.T) {
 			assert.NotZero(t, whoisInfo.Domain.NameServers)
 		}
 
-		if !assert.IsContains([]string{"aq", "ai", "at", "au", "de", "eu", "gov", "hm", "name", "nl", "nz", "ir", "tk",
-			"xn--mgba3a4f16a"}, extension) &&
+		if !assert.IsContains([]string{"aq", "ai", "at", "au", "bg", "de", "eu", "gov", "hm", "name", "nl", "nz",
+			"ir", "tk", "xn--mgba3a4f16a"}, extension) &&
 			!strings.Contains(domain, "ac.jp") &&
 			!strings.Contains(domain, "co.jp") &&
 			!strings.Contains(domain, "go.jp") &&
@@ -151,13 +152,13 @@ func TestParse(t *testing.T) {
 			assert.NotNil(t, whoisInfo.Domain.CreatedDateInTime)
 		}
 
-		if !assert.IsContains([]string{"aq", "ai", "at", "ch", "cn", "eu", "gg", "gov", "hk", "hm", "mo",
+		if !assert.IsContains([]string{"aq", "ai", "at", "bg", "ch", "cn", "eu", "gg", "gov", "hk", "hm", "mo",
 			"name", "nl", "ro", "ru", "su", "tk", "tw", "dk", "xn--fiqs8s", "xn--p1ai", "hu"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.UpdatedDate)
 			assert.NotNil(t, whoisInfo.Domain.UpdatedDateInTime)
 		}
 
-		if !assert.IsContains([]string{"", "ai", "at", "aq", "au", "br", "ch", "de", "eu", "gg", "gov", "ee",
+		if !assert.IsContains([]string{"", "ai", "at", "aq", "au", "bg", "br", "ch", "de", "eu", "gg", "gov", "ee",
 			"hm", "int", "name", "nl", "nz", "tk", "kz", "hu"}, extension) &&
 			!strings.Contains(domain, "ac.jp") &&
 			!strings.Contains(domain, "co.jp") &&
@@ -167,19 +168,19 @@ func TestParse(t *testing.T) {
 			assert.NotNil(t, whoisInfo.Domain.ExpirationDateInTime)
 		}
 
-		if !assert.IsContains([]string{"", "ai", "at", "aq", "au", "br", "ca", "ch", "cn", "cx", "de",
+		if !assert.IsContains([]string{"", "ai", "at", "aq", "au", "bg", "br", "ca", "ch", "cn", "cx", "de",
 			"edu", "eu", "fr", "gg", "gov", "gs", "hk", "hm", "int", "it", "jp", "kr", "kz", "la", "mo", "nl",
 			"nz", "pl", "pm", "re", "ro", "ru", "su", "sk", "tf", "tk", "tw", "uk", "wf", "yt", "ir", "fi", "rs",
 			"ee", "dk", "by", "ua", "xn--mgba3a4f16a", "xn--fiqs8s", "xn--p1ai", "se", "nu", "hu"}, extension) {
 			assert.NotZero(t, whoisInfo.Registrar.ID)
 		}
 
-		if !assert.IsContains([]string{"", "at", "aq", "br", "de",
+		if !assert.IsContains([]string{"", "at", "aq", "bg", "br", "de",
 			"edu", "gov", "hm", "int", "jp", "mo", "tk", "ir", "dk", "xn--mgba3a4f16a", "hu"}, extension) {
 			assert.NotZero(t, whoisInfo.Registrar.Name)
 		}
 
-		if !assert.IsContains([]string{"", "aero", "ai", "at", "aq", "asia", "au", "br", "ch", "cn", "de",
+		if !assert.IsContains([]string{"", "aero", "ai", "at", "aq", "asia", "au", "bg", "br", "ch", "cn", "de",
 			"edu", "gov", "hk", "hm", "int", "jp", "kr", "kz", "la", "london", "love", "mo",
 			"museum", "name", "nl", "nz", "pl", "ru", "sk", "su", "tk", "top", "ir", "fi", "rs", "dk", "by", "ua",
 			"xn--mgba3a4f16a", "xn--fiqs8s", "xn--p1ai", "se", "nu", "hu"}, extension) {

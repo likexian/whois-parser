@@ -1,0 +1,21 @@
+{
+    "domain": {
+        "domain": "register.bg",
+        "punycode": "register.bg",
+        "name": "register",
+        "extension": "bg",
+        "status": [
+            "busy",
+            "active"
+        ],
+        "name_servers": [
+            "ns.digsys.bg",
+            "ns2.digsys.bg",
+            "ns.register.bg",
+            "ns2.register.bg",
+            "ns3.register.bg",
+            "ns4.register.bg"
+        ],
+        "dnssec": true
+    }
+}

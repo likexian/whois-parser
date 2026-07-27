@@ -34,6 +34,9 @@ If there is any problem, please feel free to open a new issue.
 | .au | [google.com.au](au_google.com.au) | [google.com.au](au_google.com.au.json) | √ |
 | .berlin | [google.berlin](berlin_google.berlin) | [google.berlin](berlin_google.berlin.json) | √ |
 | .berlin | [toa.berlin](berlin_toa.berlin) | [toa.berlin](berlin_toa.berlin.json) | √ |
+| .bg | [git.bg](bg_git.bg) | [git.bg](bg_git.bg.json) | √ |
+| .bg | [google.bg](bg_google.bg) | [google.bg](bg_google.bg.json) | √ |
+| .bg | [register.bg](bg_register.bg) | [register.bg](bg_register.bg.json) | √ |
 | .biz | [github.biz](biz_github.biz) | [github.biz](biz_github.biz.json) | √ |
 | .biz | [google.biz](biz_google.biz) | [google.biz](biz_google.biz.json) | √ |
 | .br | [espm.br](br_espm.br) | [espm.br](br_espm.br.json) | √ |
