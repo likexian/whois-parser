@@ -70,3 +70,15 @@ func TestPrepare(t *testing.T) {
 		}
 	}
 }
+
+func TestPrepareCHExtraLines(t *testing.T) {
+	// A malformed .ch record with more lines in the registrar block than
+	// there are known registrar fields must not index past the token slice.
+	raw := "Domain name: example.ch\nRegistrar\nname\nPhone +1\nemail\nextra\n"
+	assert.NotPanic(t, func() {
+		Prepare(raw, "ch")
+	})
+	assert.NotPanic(t, func() {
+		_, _ = Parse(raw)
+	})
+}

@@ -553,6 +553,10 @@ func prepareCH(text string) string {
 				lastTokenIndex++
 				v = strings.TrimSpace(v[len(phoneMark)-1:])
 			}
+			if lastTokenIndex >= len(tokens[lastToken]) {
+				result += fmt.Sprintf("\n%s: %s", lastToken, v)
+				continue
+			}
 			result += fmt.Sprintf("\n%s: %s", tokens[lastToken][lastTokenIndex], v)
 			if tokens[lastToken][lastTokenIndex] != "Registrar street" {
 				lastTokenIndex++
