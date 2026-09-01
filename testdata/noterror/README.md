@@ -96,6 +96,7 @@ If there is any problem, please feel free to open a new issue.
 | .hm | [google.hm](hm_google.hm) | [google.hm](hm_google.hm.json) | √ |
 | .hu | [git.hu](hu_git.hu) | [git.hu](hu_git.hu.json) | √ |
 | .hu | [nic.hu](hu_nic.hu) | [nic.hu](hu_nic.hu.json) | √ |
+| .il | [isoc.org.il](il_isoc.org.il) | [isoc.org.il](il_isoc.org.il.json) | √ |
 | .in | [git.in](in_git.in) | [git.in](in_git.in.json) | √ |
 | .in | [google.in](in_google.in) | [google.in](in_google.in.json) | √ |
 | .info | [github.info](info_github.info) | [github.info](info_github.info.json) | √ |

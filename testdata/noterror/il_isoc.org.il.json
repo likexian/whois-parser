@@ -1,0 +1,24 @@
+{
+    "domain": {
+        "domain": "isoc.org.il",
+        "punycode": "isoc.org.il",
+        "name": "isoc.org",
+        "extension": "il",
+        "status": [
+            "Transfer"
+        ],
+        "name_servers": [
+            "ns1.isoc.org.il",
+            "ns2.isoc.org.il",
+            "ns3.isoc.org.il"
+        ],
+        "created_date": "11-01-1996",
+        "created_date_in_time": "1996-01-11T00:00:00+02:00",
+        "expiration_date": "11-01-2029",
+        "expiration_date_in_time": "2029-01-11T00:00:00+02:00"
+    },
+    "registrar": {
+        "name": "Israel Internet Association ISOC-IL",
+        "referral_url": "www.isoc.org.il"
+    }
+}

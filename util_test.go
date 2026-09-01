@@ -21,6 +21,7 @@ package whoisparser
 
 import (
 	"testing"
+	"time"
 
 	"github.com/likexian/gokit/assert"
 )
@@ -60,8 +61,14 @@ func TestParseDateString(t *testing.T) {
 		tt := tt // NOTE: https://github.com/golang/go/wiki/CommonMistakes#using-goroutines-on-loop-iterator-variables
 		t.Run(tt.date, func(t *testing.T) {
 			t.Parallel() // marks each test case as capable of running in parallel with each other
-			_, err := parseDateString(tt.date)
+			_, err := parseDateString(tt.date, "")
 			assert.Nil(t, err)
 		})
 	}
+}
+
+func TestParseDateStringIL(t *testing.T) {
+	parsed, err := parseDateString("11-01-1996", "il")
+	assert.Nil(t, err)
+	assert.Equal(t, parsed.Format(time.RFC3339), "1996-01-11T00:00:00+02:00")
 }

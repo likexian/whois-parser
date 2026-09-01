@@ -118,9 +118,19 @@ func keys(m map[string]string) []string {
 // parseDateString attempts to parse a given date using a collection of common
 // format strings. Date formats containing time components are tried first
 // before attempts are made using date-only formats.
-func parseDateString(datetime string) (time.Time, error) {
+func parseDateString(datetime, extension string) (time.Time, error) {
 	datetime = strings.Trim(datetime, ".")
 	datetime = strings.ReplaceAll(datetime, ". ", "-")
+
+	location := time.UTC
+	if extension == "il" {
+		// The .il registry publishes date-only values in Israel local time.
+		var err error
+		location, err = time.LoadLocation("Asia/Jerusalem")
+		if err != nil {
+			return time.Time{}, err
+		}
+	}
 
 	formats := [...]string{
 		// Date & time formats
@@ -168,7 +178,7 @@ func parseDateString(datetime string) (time.Time, error) {
 	}
 
 	for _, format := range formats {
-		result, err := time.Parse(format, datetime)
+		result, err := time.ParseInLocation(format, datetime, location)
 		if err != nil {
 			continue
 		}
