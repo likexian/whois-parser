@@ -1,0 +1,12 @@
+{
+    "domain": {
+        "domain": "nic.bo",
+        "punycode": "nic.bo",
+        "name": "nic",
+        "extension": "bo",
+        "created_date": "2004-11-19",
+        "created_date_in_time": "2004-11-19T04:00:00Z",
+        "expiration_date": "2030-12-31",
+        "expiration_date_in_time": "2030-12-31T04:00:00Z"
+    }
+}

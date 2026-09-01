@@ -36,6 +36,7 @@ If there is any problem, please feel free to open a new issue.
 | .berlin | [toa.berlin](berlin_toa.berlin) | [toa.berlin](berlin_toa.berlin.json) | √ |
 | .biz | [github.biz](biz_github.biz) | [github.biz](biz_github.biz.json) | √ |
 | .biz | [google.biz](biz_google.biz) | [google.biz](biz_google.biz.json) | √ |
+| .bo | [nic.bo](bo_nic.bo) | [nic.bo](bo_nic.bo.json) | √ |
 | .br | [espm.br](br_espm.br) | [espm.br](br_espm.br.json) | √ |
 | .br | [unip.br](br_unip.br) | [unip.br](br_unip.br.json) | √ |
 | .by | [git.by](by_git.by) | [git.by](by_git.by.json) | √ |

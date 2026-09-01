@@ -128,21 +128,21 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 		case "created_date":
 			if domain.CreatedDate == "" {
 				domain.CreatedDate = value
-				if parsed, err := parseDateString(value); err == nil {
+				if parsed, err := parseDateStringForExtension(value, domain.Extension); err == nil {
 					domain.CreatedDateInTime = &parsed
 				}
 			}
 		case "updated_date":
 			if domain.UpdatedDate == "" {
 				domain.UpdatedDate = value
-				if parsed, err := parseDateString(value); err == nil {
+				if parsed, err := parseDateStringForExtension(value, domain.Extension); err == nil {
 					domain.UpdatedDateInTime = &parsed
 				}
 			}
 		case "expired_date":
 			if domain.ExpirationDate == "" {
 				domain.ExpirationDate = value
-				if parsed, err := parseDateString(value); err == nil {
+				if parsed, err := parseDateStringForExtension(value, domain.Extension); err == nil {
 					domain.ExpirationDateInTime = &parsed
 				}
 			}
@@ -246,9 +246,9 @@ func parseContact(contact *Contact, name, value string) {
 	}
 }
 
-var searchDomainRx1 = regexp.MustCompile(`(?i)\[?domain\:?(\s*\_?name)?\]?[\s\.]*\:?` +
+var searchDomainRx1 = regexp.MustCompile(`(?i)\[?(?:domain|dominio)\:?(\s*\_?name)?\]?[\s\.]*\:?` +
 	`\s*([^\s\,\;\@\(\)]+)\.([^\s\,\;\(\)\.]{2,})`)
-var searchDomainRx2 = regexp.MustCompile(`(?i)\[?domain\:?(\s*\_?name)?\]?[\s\.]*\:?` +
+var searchDomainRx2 = regexp.MustCompile(`(?i)\[?(?:domain|dominio)\:?(\s*\_?name)?\]?[\s\.]*\:?` +
 	`\s*([^\s\,\;\@\(\)\.]{2,})\n`)
 
 // searchDomain finds domain name and extension from whois information
