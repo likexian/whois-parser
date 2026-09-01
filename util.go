@@ -142,6 +142,7 @@ func parseDateString(datetime string) (time.Time, error) {
 		"2006-01-02T15:04:05Z",
 		"2006-01-02 15:04:05-07",
 		"2006-01-02 15:04:05 MST",
+		"02-Jan-2006 15:04:05 MST",
 		"2006-01-02 15:04:05 (MST+3)",
 		time.UnixDate,
 		time.RubyDate,

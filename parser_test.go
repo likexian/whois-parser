@@ -133,7 +133,7 @@ func TestParse(t *testing.T) {
 			"la", "london", "me", "mo", "museum", "name", "nl", "nz", "pm", "re", "ro", "ru", "sh", "sk",
 			"kz", "su", "tel", "ee", "tf", "tk", "travel", "tw", "uk", "us", "wales", "wf", "xxx",
 			"yt", "ir", "fi", "rs", "dk", "by", "ua", "xn--mgba3a4f16a", "xn--fiqs8s", "xn--p1ai",
-			"se", "nu", "hu"}, extension) {
+			"xn--j1amh", "se", "nu", "hu"}, extension) {
 			assert.NotZero(t, whoisInfo.Domain.WhoisServer)
 		}
 
@@ -229,6 +229,7 @@ func TestAssearchDomain(t *testing.T) {
 	}{
 		{"Domain: example.com\n", "example", "com"},
 		{"Domain Name: example.com\n", "example", "com"},
+		{"Domain Name (PUNYCODE): example.com\n", "example", "com"},
 		{"Domain_Name: example.com\n", "example", "com"},
 
 		{"Domain: com\n", "com", ""},
