@@ -1,0 +1,77 @@
+{
+    "domain": {
+        "id": "D00102249-ukr",
+        "domain": "xn--e1avbdf0i.xn--j1amh",
+        "punycode": "xn--e1avbdf0i.xn--j1amh",
+        "name": "xn--e1avbdf0i",
+        "extension": "xn--j1amh",
+        "status": [
+            "ok"
+        ],
+        "name_servers": [
+            "ns3.dmedia-ua.com",
+            "ns4.dmedia-ua.com"
+        ],
+        "created_date": "05-Mar-2014 08:16:29 UTC",
+        "created_date_in_time": "2014-03-05T08:16:29Z",
+        "updated_date": "24-Feb-2026 11:26:26 UTC",
+        "updated_date_in_time": "2026-02-24T11:26:26Z",
+        "expiration_date": "05-Mar-2027 08:16:29 UTC",
+        "expiration_date_in_time": "2027-03-05T08:16:29Z"
+    },
+    "registrar": {
+        "id": "register",
+        "name": "ТОВ \"ДіМедіа\"",
+        "phone": "+380442357894",
+        "email": "info@register.ua",
+        "referral_url": "https://register.ua"
+    },
+    "registrant": {
+        "id": "C00248469-UKR",
+        "name": "hidden",
+        "street": "hidden",
+        "city": "hidden",
+        "postal_code": "hidden",
+        "country": "hidden",
+        "email": "hidden"
+    },
+    "administrative": {
+        "id": "dmedia",
+        "name": "регістр.укр (Register.UA)",
+        "organization": "ТОВ \"ДіМедіа\" (DMedia Ltd.)",
+        "street": "вул. Артема, 73, оф. 105 (73, Artem str., of. 105)",
+        "city": "Київ (Kyiv)",
+        "postal_code": "04053 (04053)",
+        "country": "UA (UA)",
+        "phone": "+380.442357894",
+        "phone_ext": "+380.442358147",
+        "fax": "+380.442309344",
+        "email": "info@register.ua"
+    },
+    "technical": {
+        "id": "dmedia",
+        "name": "регістр.укр (Register.UA)",
+        "organization": "ТОВ \"ДіМедіа\" (DMedia Ltd.)",
+        "street": "вул. Артема, 73, оф. 105 (73, Artem str., of. 105)",
+        "city": "Київ (Kyiv)",
+        "postal_code": "04053 (04053)",
+        "country": "UA (UA)",
+        "phone": "+380.442357894",
+        "phone_ext": "+380.442358147",
+        "fax": "+380.442309344",
+        "email": "info@register.ua"
+    },
+    "billing": {
+        "id": "dmedia",
+        "name": "регістр.укр (Register.UA)",
+        "organization": "ТОВ \"ДіМедіа\" (DMedia Ltd.)",
+        "street": "вул. Артема, 73, оф. 105 (73, Artem str., of. 105)",
+        "city": "Київ (Kyiv)",
+        "postal_code": "04053 (04053)",
+        "country": "UA (UA)",
+        "phone": "+380.442357894",
+        "phone_ext": "+380.442358147",
+        "fax": "+380.442309344",
+        "email": "info@register.ua"
+    }
+}
