@@ -122,6 +122,15 @@ func parseDateString(datetime string) (time.Time, error) {
 	datetime = strings.Trim(datetime, ".")
 	datetime = strings.ReplaceAll(datetime, ". ", "-")
 
+	if value, ok := strings.CutSuffix(datetime, " CLST"); ok {
+		// NIC Chile uses CLST for both standard and daylight-saving timestamps.
+		location, err := time.LoadLocation("America/Santiago")
+		if err != nil {
+			return time.Time{}, err
+		}
+		return time.ParseInLocation("2006-01-02 15:04:05", value, location)
+	}
+
 	formats := [...]string{
 		// Date & time formats
 		"2006-01-02 15:04:05",
