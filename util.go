@@ -177,3 +177,18 @@ func parseDateString(datetime string) (time.Time, error) {
 
 	return time.Now(), fmt.Errorf("could not parse %s as a date", datetime)
 }
+
+func parseDateStringForExtension(datetime, extension string) (time.Time, error) {
+	if extension == "bo" {
+		// NIC Bolivia publishes date-only values as local dates in America/La_Paz.
+		location, err := time.LoadLocation("America/La_Paz")
+		if err != nil {
+			return time.Time{}, err
+		}
+		if result, err := time.ParseInLocation(time.DateOnly, strings.Trim(datetime, "."), location); err == nil {
+			return result.UTC(), nil
+		}
+	}
+
+	return parseDateString(datetime)
+}
