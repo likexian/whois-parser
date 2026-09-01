@@ -122,6 +122,14 @@ func parseDateString(datetime string) (time.Time, error) {
 	datetime = strings.Trim(datetime, ".")
 	datetime = strings.ReplaceAll(datetime, ". ", "-")
 
+	// Normalize numeric GMT suffixes used by the KZ and TN registries.
+	if value, ok := strings.CutSuffix(datetime, " (GMT+0:00)"); ok {
+		datetime = value + " +00:00"
+	}
+	if value, ok := strings.CutSuffix(datetime, " GMT+1"); ok {
+		datetime = value + " +01:00"
+	}
+
 	formats := [...]string{
 		// Date & time formats
 		"2006-01-02 15:04:05",
@@ -141,6 +149,8 @@ func parseDateString(datetime string) (time.Time, error) {
 		// Date, time & time zone formats
 		"2006-01-02T15:04:05Z",
 		"2006-01-02 15:04:05-07",
+		"2006-01-02 15:04:05 -07:00",
+		"02-01-2006 15:04:05 -07:00",
 		"2006-01-02 15:04:05 MST",
 		"2006-01-02 15:04:05 (MST+3)",
 		time.UnixDate,

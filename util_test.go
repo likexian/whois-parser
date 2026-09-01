@@ -21,6 +21,7 @@ package whoisparser
 
 import (
 	"testing"
+	"time"
 
 	"github.com/likexian/gokit/assert"
 )
@@ -62,6 +63,25 @@ func TestParseDateString(t *testing.T) {
 			t.Parallel() // marks each test case as capable of running in parallel with each other
 			_, err := parseDateString(tt.date)
 			assert.Nil(t, err)
+		})
+	}
+}
+
+func TestParseDateStringWithNumericGMTOffset(t *testing.T) {
+	tests := []struct {
+		date string
+		want string
+	}{
+		{"2010-07-04 04:34:46 +03:00", "2010-07-04T01:34:46Z"},
+		{"1999-06-07 13:01:43 (GMT+0:00)", "1999-06-07T13:01:43Z"},
+		{"07-01-1998 00:00:00 GMT+1", "1998-01-06T23:00:00Z"},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.date, func(t *testing.T) {
+			got, err := parseDateString(tt.date)
+			assert.Nil(t, err)
+			assert.Equal(t, got.UTC().Format(time.RFC3339), tt.want)
 		})
 	}
 }
