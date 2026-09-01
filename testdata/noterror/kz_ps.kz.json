@@ -16,7 +16,9 @@
             "ns3.ps.kz"
         ],
         "created_date": "2003-08-18 11:20:09 (GMT+0:00)",
-        "updated_date": "2020-10-02 10:56:07 (GMT+0:00)"
+        "created_date_in_time": "2003-08-18T11:20:09Z",
+        "updated_date": "2020-10-02 10:56:07 (GMT+0:00)",
+        "updated_date_in_time": "2020-10-02T10:56:07Z"
     },
     "registrar": {
         "name": "ICPS"
