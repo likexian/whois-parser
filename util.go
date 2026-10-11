@@ -21,6 +21,7 @@ package whoisparser
 
 import (
 	"fmt"
+	"net"
 	"sort"
 	"strings"
 	"time"
@@ -83,12 +84,18 @@ func fixDomainStatus(status []string) []string {
 
 // fixNameServers returns fixed name servers
 func fixNameServers(servers []string) []string {
-	for k, v := range servers {
+	result := make([]string, 0, len(servers))
+	for _, v := range servers {
 		names := strings.Split(strings.TrimSpace(v), " ")
-		servers[k] = strings.ToLower(strings.Trim(names[0], "."))
+		server := strings.ToLower(strings.Trim(strings.Split(names[0], "(")[0], "."))
+		server = strings.Trim(server, ")")
+		if server == "" || strings.Contains(server, ")") || strings.Contains(server, "(") || net.ParseIP(server) != nil {
+			continue
+		}
+		result = append(result, server)
 	}
 
-	return servers
+	return result
 }
 
 // containsIn returns if any of substrs contains in data
@@ -104,7 +111,7 @@ func containsIn(data string, substrs []string) bool {
 
 // Keys returns all keys of map by sort
 func keys(m map[string]string) []string {
-	r := []string{}
+	r := make([]string, 0, len(m))
 
 	for k := range m {
 		r = append(r, k)

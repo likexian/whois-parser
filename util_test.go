@@ -65,3 +65,19 @@ func TestParseDateString(t *testing.T) {
 		})
 	}
 }
+
+func TestFixNameServers(t *testing.T) {
+	servers := []string{
+		"d.ns.nic.cz (193.29.206.1",
+		"2001:678:1::1)",
+		"a.ns.nic.cz(194.0.12.1)",
+		"194.0.12.1",
+		"b.ns.nic.cz.",
+		"c.ns.nic.cz)extra",
+		"(broken.ns.cz",
+		"",
+		"   ",
+	}
+	expected := []string{"d.ns.nic.cz", "a.ns.nic.cz", "b.ns.nic.cz"}
+	assert.Equal(t, fixNameServers(servers), expected)
+}

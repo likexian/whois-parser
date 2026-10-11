@@ -245,3 +245,137 @@ func TestAssearchDomain(t *testing.T) {
 		assert.Equal(t, extension, v.extension)
 	}
 }
+
+func TestParseCZGlueRecords(t *testing.T) {
+	whoisRaw := `%  (c) 2006-2021 CZ.NIC, z.s.p.o.
+% 
+% Intended use of supplied data and information
+% 
+% Data contained in the domain name register, as well as information
+% supplied through public information services of CZ.NIC association,
+% are appointed only for purposes connected with Internet network
+% administration and operation, or for the purpose of legal or other
+% similar proceedings, in process as regards a matter connected
+% particularly with holding and using a concrete domain name.
+% 
+% Full text available at:
+% http://www.nic.cz/page/306/intended-use-of-supplied-data-and-information/
+% 
+% See also a search service at http://www.nic.cz/whois/
+% 
+% 
+% Whoisd Server Version: 3.15.0
+% Timestamp: Sat Oct 10 22:14:35 2026
+
+domain:       nic.cz
+registrant:   CZ-NIC
+admin-c:      FEELA
+admin-c:      MAPET
+nsset:        CZ.NIC
+keyset:       AUTO-ZHHWRIDCGH9F46ZDG2K2VC284
+registrar:    REG-CZNIC
+status:       Sponsoring registrar change forbidden
+registered:   30.10.1997 01:00:00
+changed:      17.11.2020 14:25:52
+expire:       15.03.2027
+
+contact:      CZ-NIC
+org:          CZ.NIC, z.s.p.o.
+name:         CZ.NIC, z.s.p.o.
+address:      Milesovska 1136/5
+address:      Praha 3
+address:      130 00
+address:      CZ
+registrar:    REG-CZNIC
+created:      17.10.2008 12:08:21
+changed:      15.05.2018 21:32:00
+
+contact:      FEELA
+name:         Ondřej Filip
+registrar:    REG-MOJEID
+created:      04.01.2005 13:35:00
+changed:      06.12.2025 15:00:04
+
+contact:      MAPET
+name:         Martin Peterka
+registrar:    REG-MOJEID
+created:      06.03.2002 18:11:00
+changed:      07.04.2025 16:33:55
+
+nsset:        CZ.NIC
+nserver:      d.ns.nic.cz (193.29.206.1, 2001:678:1::1)
+nserver:      a.ns.nic.cz (194.0.12.1, 2001:678:f::1)
+nserver:      b.ns.nic.cz (194.0.13.1, 2001:678:10::1)
+tech-c:       JTALIR
+registrar:    REG-CZNIC
+created:      09.06.2008 14:30:16
+changed:      11.12.2024 12:23:18
+
+contact:      JTALIR
+name:         Jaromír Talíř
+registrar:    REG-MOJEID
+created:      26.10.2010 10:53:34
+changed:      22.01.2025 18:56:06
+
+keyset:       AUTO-ZHHWRIDCGH9F46ZDG2K2VC284
+dnskey:       257 3 13 Hpu4xfZJ43G2gen4cJOZ4DFhaXFaMxLPa+dBceqkbdIaqADX9JLHW/CNpPV+GtgAMc2kHgNEJTaSAUhYG41tvQ==
+tech-c:       CZNIC-AKM
+registrar:    REG-CZNIC
+created:      17.11.2020 14:25:52
+changed:      26.08.2026 22:12:22
+
+contact:      CZNIC-AKM
+org:          CZ.NIC, z.s.p.o.
+name:         CZ.NIC, z.s.p.o.
+address:      Milesovska 1136/5
+address:      Praha 3
+address:      13000
+address:      CZ
+registrar:    REG-CZNIC
+created:      12.08.2024 15:02:38
+`
+
+	info, err := Parse(whoisRaw)
+	assert.Nil(t, err)
+	assert.Equal(t, info.Domain.Domain, "nic.cz")
+	assert.Equal(t, info.Domain.NameServers, []string{"d.ns.nic.cz", "a.ns.nic.cz", "b.ns.nic.cz"})
+	for _, ns := range info.Domain.NameServers {
+		assert.False(t, strings.Contains(ns, "("))
+		assert.False(t, strings.Contains(ns, ")"))
+		assert.False(t, strings.Contains(ns, ":"))
+		assert.False(t, strings.Contains(ns, "193."))
+		assert.False(t, strings.Contains(ns, "194."))
+	}
+
+	edgeCases := []struct {
+		raw      string
+		expected []string
+	}{
+		{
+			raw:      "domain: test.cz\nnserver: ns1.test.cz (1.2.3.4)\n",
+			expected: []string{"ns1.test.cz"},
+		},
+		{
+			raw:      "domain: test.cz\nnserver: ns1.test.cz (2001:db8::1)\n",
+			expected: []string{"ns1.test.cz"},
+		},
+		{
+			raw:      "domain: test.cz\nnserver: ns1.test.cz(1.2.3.4, 2001:db8::1)\n",
+			expected: []string{"ns1.test.cz"},
+		},
+		{
+			raw:      "domain: test.cz\nnserver: ns1.test.cz (1.2.3.4, 2001:db8::1), ns2.test.cz (5.6.7.8)\n",
+			expected: []string{"ns1.test.cz", "ns2.test.cz"},
+		},
+		{
+			raw:      "domain: example.cz\nnserver: ns1.example.cz\nnserver: ns2.example.cz\n",
+			expected: []string{"ns1.example.cz", "ns2.example.cz"},
+		},
+	}
+
+	for _, tt := range edgeCases {
+		edgeInfo, edgeErr := Parse(tt.raw)
+		assert.Nil(t, edgeErr)
+		assert.Equal(t, edgeInfo.Domain.NameServers, tt.expected)
+	}
+}

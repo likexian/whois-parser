@@ -124,6 +124,9 @@ func Parse(text string) (whoisInfo WhoisInfo, err error) { //nolint:cyclop
 				domain.WhoisServer = value
 			}
 		case "name_servers":
+			if strings.Contains(value, "(") {
+				value = rxGlue.ReplaceAllString(value, "")
+			}
 			domain.NameServers = append(domain.NameServers, strings.Split(value, ",")...)
 		case "created_date":
 			if domain.CreatedDate == "" {
@@ -250,6 +253,7 @@ var searchDomainRx1 = regexp.MustCompile(`(?i)\[?domain\:?(\s*\_?name)?\]?[\s\.]
 	`\s*([^\s\,\;\@\(\)]+)\.([^\s\,\;\(\)\.]{2,})`)
 var searchDomainRx2 = regexp.MustCompile(`(?i)\[?domain\:?(\s*\_?name)?\]?[\s\.]*\:?` +
 	`\s*([^\s\,\;\@\(\)\.]{2,})\n`)
+var rxGlue = regexp.MustCompile(`\s*\([^)]*\)`)
 
 // searchDomain finds domain name and extension from whois information
 func searchDomain(text string) (name, extension string) {
