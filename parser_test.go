@@ -245,3 +245,67 @@ func TestAssearchDomain(t *testing.T) {
 		assert.Equal(t, extension, v.extension)
 	}
 }
+
+func TestParseMXContactStates(t *testing.T) {
+	text := `Domain Name: example.com.mx
+Created On: 1998-03-17
+Expiration Date: 2027-03-16
+Registrar: Example Registrar
+
+Registrant:
+   Name: Example Registrant
+   City: Naucalpan
+   State: Mexico
+   Country: Mexico
+
+Administrative Contact:
+   Name: Example Admin
+   State: Jalisco
+   Country: Mexico
+
+Technical Contact:
+   Name: Example Tech
+   State: Puebla
+   Country: Mexico
+
+Billing Contact:
+   Name: Example Billing
+   State: Veracruz
+   Country: Mexico
+
+Name Servers:
+   DNS: ns1.example.net
+   DNS: ns2.example.net
+
+DNSSEC DS Records:
+`
+	for _, separator := range []string{"\n\n", "\n"} {
+		t.Run(fmt.Sprintf("separator_%q", separator), func(t *testing.T) {
+			info, err := Parse(strings.ReplaceAll(text, "\n\n", separator))
+			assert.Nil(t, err)
+			assert.Zero(t, info.Domain.Status)
+			assert.Equal(t, info.Domain.NameServers, []string{"ns1.example.net", "ns2.example.net"})
+			assert.Equal(t, info.Domain.CreatedDate, "1998-03-17")
+			assert.Equal(t, info.Domain.ExpirationDate, "2027-03-16")
+			assert.Equal(t, info.Registrar.Name, "Example Registrar")
+			for _, contact := range []struct {
+				got      *Contact
+				name     string
+				province string
+			}{
+				{info.Registrant, "Example Registrant", "Mexico"},
+				{info.Administrative, "Example Admin", "Jalisco"},
+				{info.Technical, "Example Tech", "Puebla"},
+				{info.Billing, "Example Billing", "Veracruz"},
+			} {
+				if contact.got == nil {
+					t.Errorf("missing contact %s", contact.name)
+					continue
+				}
+				assert.Equal(t, contact.got.Name, contact.name)
+				assert.Equal(t, contact.got.Province, contact.province)
+				assert.Equal(t, contact.got.Country, "Mexico")
+			}
+		})
+	}
+}

@@ -98,6 +98,8 @@ func Prepare(text, ext string) (string, bool) { //nolint:cyclop
 		return prepareSK(text), true
 	case "gg":
 		return prepareGG(text), true
+	case "mx":
+		return prepareMX(text), true
 	default:
 		return text, false
 	}
@@ -1560,4 +1562,32 @@ func prepareGG(text string) string {
 
 	return result
 
+}
+
+// prepareMX qualifies fields within NIC Mexico's contact sections.
+func prepareMX(text string) string {
+	tokens := map[string]string{
+		"Registrant:":             "Registrant",
+		"Administrative Contact:": "Administrative",
+		"Technical Contact:":      "Technical",
+		"Billing Contact:":        "Billing",
+	}
+
+	token := ""
+	result := ""
+	for _, line := range strings.Split(text, "\n") {
+		line = strings.TrimSpace(line)
+		if line == "" || strings.HasSuffix(line, ":") {
+			token = tokens[line]
+			continue
+		}
+		if token != "" {
+			if strings.HasPrefix(line, "State:") {
+				line = "State/Province:" + strings.TrimPrefix(line, "State:")
+			}
+			line = token + " " + line
+		}
+		result += "\n" + line
+	}
+	return result
 }
