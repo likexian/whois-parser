@@ -13,6 +13,9 @@
         "updated_date": "20221101 00:10:24",
         "updated_date_in_time": "2022-11-01T00:10:24Z"
     },
+    "registrar": {
+        "name": "NETPLANET GmbH"
+    },
     "registrant": {
         "id": "FMR13403268-NICAT",
         "name": "Markus Rambossek",

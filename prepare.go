@@ -1417,6 +1417,20 @@ func prepareAT(text string) string {
 							w = fmt.Sprintf("%s: %s", "updated_date", val)
 						case "nserver":
 							w = fmt.Sprintf("%s: %s", "name_servers", val)
+						case "registrar":
+							// Emitted as "registrar name" (not the default
+							// "domain registrar") so the main parser's
+							// contact-routing switch — which keys on the
+							// first word of the label — sees "registrar"
+							// there instead of "domain", and actually routes
+							// it to the registrar contact. nic.at appends a
+							// "( https://nic.at/registrar/NNN )" referral
+							// after the name; that's not the registrar's
+							// name, so it's dropped here.
+							if name, _, ok := strings.Cut(val, "("); ok {
+								val = name
+							}
+							w = fmt.Sprintf("registrar name: %s", strings.TrimSpace(val))
 						default:
 							w = fmt.Sprintf("domain %s: %s", key, val)
 						}
