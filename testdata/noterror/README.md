@@ -46,6 +46,7 @@ If there is any problem, please feel free to open a new issue.
 | .cat | [google.cat](cat_google.cat) | [google.cat](cat_google.cat.json) | √ |
 | .cc | [google.cc](cc_google.cc) | [google.cc](cc_google.cc.json) | √ |
 | .cc | [msn.cc](cc_msn.cc) | [msn.cc](cc_msn.cc.json) | √ |
+| .ch | [example.ch](ch_example.ch) | [example.ch](ch_example.ch.json) | √ |
 | .ch | [google.ch](ch_google.ch) | [google.ch](ch_google.ch.json) | √ |
 | .ch | [switch.ch](ch_switch.ch) | [switch.ch](ch_switch.ch.json) | √ |
 | .cn | [apple.cn](cn_apple.cn) | [apple.cn](cn_apple.cn.json) | √ |

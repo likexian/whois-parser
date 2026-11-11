@@ -1,0 +1,18 @@
+{
+    "domain": {
+        "domain": "example.ch",
+        "punycode": "example.ch",
+        "name": "example",
+        "extension": "ch",
+        "name_servers": [
+            "ns1.example.net",
+            "ns2.example.net"
+        ],
+        "created_date": "2021-05-18",
+        "created_date_in_time": "2021-05-18T00:00:00Z"
+    },
+    "registrar": {
+        "name": "Example Registrar AG",
+        "street": "Musterstrasse 1, CH-8000 Zurich, Switzerland"
+    }
+}
