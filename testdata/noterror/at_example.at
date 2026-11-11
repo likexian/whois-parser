@@ -1,0 +1,45 @@
+% Copyright (c)2026 by NIC.AT (1)
+%
+% Restricted rights.
+%
+% Except  for  agreed Internet  operational  purposes, no  part  of this
+% information  may  be reproduced,  stored  in  a  retrieval  system, or
+% transmitted, in  any  form  or by  any means,  electronic, mechanical,
+% recording, or otherwise, without prior  permission of NIC.AT on behalf
+% of itself and/or the copyright  holders.  Any use of this  material to
+% target advertising  or similar activities is explicitly  forbidden and
+% can be prosecuted.
+%
+% It is furthermore strictly forbidden to use the Whois-Database in such
+% a  way  that  jeopardizes or  could jeopardize  the  stability  of the
+% technical  systems of  NIC.AT  under any circumstances. In particular,
+% this includes  any misuse  of the  Whois-Database and  any  use of the
+% Whois-Database which disturbs its operation.
+%
+% Should the  user violate  these points,  NIC.AT reserves  the right to
+% deactivate  the  Whois-Database   entirely  or  partly  for  the user.
+% Moreover,  the  user  shall be  held liable  for  any  and all  damage
+% arising from a violation of these points.
+
+domain:            example.at
+registrar:         Example Registrar GmbH ( https://nic.at/registrar/1 )
+registrant:        EX1234567-NICAT
+tech-c:            EX1234567-NICAT
+nserver:           ns1.example.net
+nserver:           ns2.example.net
+changed:           20251121 17:11:24
+registered:        20140311 16:06:03
+source:            AT-DOM
+
+personname:        Jane Example
+organization:      Example Org
+street address:    Examplestraat 1
+postal code:       1000AA
+state or province: 
+city:              Amsterdam
+country:           Netherlands (the)
+phone:             +31.000000000
+e-mail:            jane@example.com
+nic-hdl:           EX1234567-NICAT
+changed:           20140311 16:06:02
+source:            AT-DOM

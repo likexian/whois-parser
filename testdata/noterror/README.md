@@ -28,6 +28,7 @@ If there is any problem, please feel free to open a new issue.
 | .asia | [google.asia](asia_google.asia) | [google.asia](asia_google.asia.json) | √ |
 | .at | [0wnz.at](at_0wnz.at) | [0wnz.at](at_0wnz.at.json) | √ |
 | .at | [elektro-rauter.at](at_elektro-rauter.at) | [elektro-rauter.at](at_elektro-rauter.at.json) | √ |
+| .at | [example.at](at_example.at) | [example.at](at_example.at.json) | √ |
 | .at | [rerail.at](at_rerail.at) | [rerail.at](at_rerail.at.json) | √ |
 | .at | [samsung.at](at_samsung.at) | [samsung.at](at_samsung.at.json) | √ |
 | .au | [acma.gov.au](au_acma.gov.au) | [acma.gov.au](au_acma.gov.au.json) | √ |
