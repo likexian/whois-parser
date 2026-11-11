@@ -538,14 +538,31 @@ func prepareCH(text string) string {
 			continue
 		}
 		for t := range tokens {
-			if strings.HasPrefix(strings.ToLower(v)+" ", strings.ToLower(t+" ")) {
-				lastToken = t
-				lastTokenIndex = 0
-				v = strings.TrimSpace(v[len(t):])
-				break
+			// Two live nic.ch answer generations: older exports put the
+			// value right after the label ("Domain name\tgoogle.ch",
+			// tabs already normalized to spaces above), current ones use
+			// a colon, with the value either inline ("DNSSEC:N") or, for
+			// most fields, alone on the next line ("Registrar:\nExample
+			// Registrar AG"). Matching must accept the label followed by
+			// a space, a colon, or end-of-line — not just a space — or
+			// every colon-terminated label line fails to match at all.
+			if !strings.HasPrefix(strings.ToLower(v), strings.ToLower(t)) {
+				continue
 			}
+			rest := v[len(t):]
+			if rest != "" && rest[0] != ' ' && rest[0] != ':' {
+				continue // e.g. token "DNSSEC" must not match "DNSSECsomething"
+			}
+			lastToken = t
+			lastTokenIndex = 0
+			v = strings.TrimSpace(strings.TrimPrefix(rest, ":"))
+			break
 		}
 		if v == "" {
+			// Either a blank match-less line (already filtered above) or
+			// a bare "Label:" with its value on the next line: lastToken
+			// stays set, so that next line is read as this token's value
+			// on the following iteration.
 			continue
 		}
 		if len(tokens[lastToken]) > 0 {
