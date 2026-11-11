@@ -14,6 +14,9 @@
         "updated_date": "20230303 09:38:55",
         "updated_date_in_time": "2023-03-03T09:38:55Z"
     },
+    "registrar": {
+        "name": "ANEXIA Internetdienstleistungs GmbH"
+    },
     "registrant": {
         "id": "SEAG10843291-NICAT",
         "name": "Maximilian Hasenauer",

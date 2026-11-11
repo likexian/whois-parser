@@ -13,6 +13,9 @@
         "updated_date": "20170315 14:41:55",
         "updated_date_in_time": "2017-03-15T14:41:55Z"
     },
+    "registrar": {
+        "name": "IONOS SE"
+    },
     "registrant": {
         "id": "FOFE11299490-NICAT",
         "name": "Johann Kastner",
